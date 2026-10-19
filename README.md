@@ -6,6 +6,9 @@ The server reads published lessons from the `lessons/` directory in this reposit
 its lesson catalog from the filenames and JSON `lesson_id` values at startup. There is no separate
 hand-maintained lesson list or manifest.
 
+See [DESIGN_RULES.md](DESIGN_RULES.md) for the normative rules for passages, questions, language,
+grade bands, horizontal variants, and exit routing.
+
 ## Repository layout
 
 Keep all published lessons directly inside one flat directory:
@@ -22,6 +25,7 @@ readJson/
 |   `-- process_L9_0001.json
 |-- drafts/                 # Optional; never served by the server
 |-- README.md
+|-- DESIGN_RULES.md
 `-- LICENSE
 ```
 
