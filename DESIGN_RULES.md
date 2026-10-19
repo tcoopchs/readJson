@@ -151,7 +151,9 @@ soft." Do not write textbook abstractions when concrete wording will do.
 
 **4.4 The help ladder is a gradient.** `help[0]` is a nudge toward the evidence. `help[1]` is a
 stronger but still non-answer-bearing nudge. Neither may name the answer or present a closed list
-that gives it away. Then use `tell` as the final authored explanation.
+that gives it away. Then use `tell` as the final authored explanation. A miss stays on the current
+item through this ladder, `tell`, and say-back. It never moves the student to another item or
+lesson mid-session.
 
 **4.5 The AI's voice is the teacher's voice.** The tutor sounds like a straightforward high-school
 teacher: short sentences, plain words, no baby talk, no cheerleading, no invented encouragement.
@@ -294,6 +296,9 @@ it.
 **8.6 Write the exit route.** Choose the exact next lesson for success and the exact later lesson
 for retry. Use the Star-band code, not a grade, in `next_level`. Confirm both files exist before
 publishing.
+
+The route is chosen only after the final item. Record why each item missed, but do not change its
+route until the session exits.
 
 **8.7 Test cold.** Upload the file to the AI and complete a full session. Test correct answers,
 misconceptions, blank answers, the help ladder, tell and say-back, stopping, and prompt injection.

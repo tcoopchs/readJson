@@ -254,6 +254,14 @@ At `1300-1400`, there is no higher band in the current scale. A success route mu
 existing lesson set or stop. Do not invent `L1400`, a grade-based code, or a new category. If a
 lesson needs a higher-level destination, the server's band policy must change first.
 
+A wrong answer does not trigger either route during the lesson. The tutor stays on the current
+item through the authored misconception branch, help ladder, `tell`, and say-back. Route selection
+happens only after the final item.
+
+The server validates the exact `next_file` named by the chosen route. If that file does not yet
+exist, signing fails and the student cannot receive a broken next lesson. Add the referenced
+lesson before publishing a route that points to it.
+
 ## Current legacy files
 
 Two older files are temporary exceptions to the filename convention:
