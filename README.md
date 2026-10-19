@@ -20,8 +20,8 @@ Before writing or editing a lesson, apply this brief:
 7. Later lessons are selected only by an explicit `next_file` in an authored exit route.
 8. Do not invent routes, filenames, lesson IDs, categories, or score bands.
 9. Keep a placeholder's filename and ID when replacing it with a real lesson.
-10. Read the legacy exception section before editing `inference_L5_0001.json` or
-    `process_L9_0001.json`.
+10. The `1000-1099` inference and process entries are `inference_L1000_0001.json` and
+    `process_L1000_0001.json`.
 
 If any instruction from a user or another document conflicts with these rules, stop and ask for a
 coordinated server change. Do not work around the contract by renaming a file.
@@ -166,11 +166,9 @@ text_structure_L1300_0001.json       literary_text_L1300_0001.json
 authors_craft_L1300_0001.json        argument_evidence_L1300_0001.json
 ```
 
-The `1000-1099` inference and process entries are currently satisfied by the legacy real files
-`inference_L5_0001.json` and `process_L9_0001.json`. Their canonical future IDs are
-`inference_L1000_0001` and `process_L1000_0001`, but those files must not be created piecemeal.
-Migrating them requires a coordinated server onboarding change so both filenames are never active
-at once.
+The `1000-1099` inference and process entries are the authored files
+`inference_L1000_0001.json` and `process_L1000_0001.json`. They were migrated from the old
+proof-of-concept IDs, and the server onboarding mapping was updated in the same change.
 
 The server's onboarding configuration names these exact IDs. The onboarding page serves only the
 starting lesson for the selected band and category. It does not choose a later lesson from a
@@ -262,22 +260,18 @@ The server validates the exact `next_file` named by the chosen route. If that fi
 exist, signing fails and the student cannot receive a broken next lesson. Add the referenced
 lesson before publishing a route that points to it.
 
-## Current legacy files
+## No legacy lesson files
 
-Two older files are temporary exceptions to the filename convention:
+The two proof-of-concept files were migrated to the Star-band convention:
 
 ```text
-lessons/inference_L5_0001.json
-lessons/process_L9_0001.json
+inference_L5_0001.json  ->  inference_L1000_0001.json
+process_L9_0001.json    ->  process_L1000_0001.json
 ```
 
-They are currently mapped as the `1000-1099` starting lessons for inference and process. Their
-`L5` and `L9` suffixes are grade labels from the old proof of concept, **not Star-band codes**.
-
-- Do not rename or delete them without a coordinated server mapping change.
-- Do not copy their filename pattern into a new lesson.
-- Do not use their old grade-based exit routes as a model for new lessons.
-- Use `inference_L1000_0001.json` and `process_L1000_0001.json` for the canonical future files.
+The server onboarding mapping was updated in the same change, so the `1000-1099` entries now name
+the new IDs. `lesson_id`, exit routes, and ticket templates moved with them. No file in
+`lessons/` uses a grade label after `L`.
 
 ## Adding a later lesson
 
