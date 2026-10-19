@@ -195,6 +195,7 @@
   ],
   "exit_rules": {
     "got_there_means": "unaided plus helped. Mercy does not count as got_there.",
+    "decision_rule": "At exit, use routes[0] when got_there is 4 or 5. Use routes[1] when got_there is 0 through 3. Do not choose any other lesson.",
     "results": {
       "unaided": "The accepted idea was in the student's first answer, before any help question.",
       "helped": "The accepted idea showed up after a help question, and before tell.",
@@ -204,28 +205,21 @@
     "routes": [
       {
         "min_got_there": 4,
-        "next_level": 3,
+        "next_level": 10,
         "next_file": "process_L10_0001",
-        "next_means": "A longer process, more steps, still about a 9th-grade reading level, still nonfiction.",
-        "student_line": "You handled most of this on your own. The next reading would be harder: a longer process, the same kind of text."
-      },
-      {
-        "min_got_there": 2,
-        "next_level": 2,
-        "next_file": "process_L9_0002",
-        "next_means": "A new passage at this same difficulty.",
-        "student_line": "You have the basic steps. The next reading would be another passage at this same difficulty."
+        "next_means": "The baseline process lesson for Grade 10.",
+        "student_line": "You handled most of this on your own. The next reading would be the Grade 10 process lesson."
       },
       {
         "min_got_there": 0,
-        "next_level": 1,
-        "next_file": "process_L9_0003",
-        "next_means": "A shorter process, fewer steps, still about a 9th-grade reading level.",
-        "student_line": "The next reading would be shorter: fewer steps, the same kind of text."
+        "next_level": 9,
+        "next_file": "process_L9_0002",
+        "next_means": "The next horizontal process lesson at the same Grade 9 level.",
+        "student_line": "You have the basic steps. The next reading would be another Grade 9 process lesson at the same level."
       }
     ],
     "stopped": {
-      "next_level": 2,
+      "next_level": 9,
       "next_file": "process_L9_0001",
       "next_means": "This same lesson, so it can be finished."
     },
@@ -262,10 +256,10 @@
     "When a say-back is good, say script.mercy_accept, mark mercy, and advance. Do not say confirm after mercy. Confirm is only for unaided and helped.",
     "To advance: if the next item has show_part_again true, say script.bridge, then label and show the passage text named by its show_part exactly, then its prompt, then stop. Otherwise, if the next item has a show_part that has not been shown, say script.bridge, then script.rest_of_passage, then label and show that part exactly, then that item's prompt, then stop. If the part was already shown, or the next item has no show_part, say script.bridge, then the prompt, then stop. Do not reprint the whole passage.",
     "Do not say the bridge after the last item. When q5 is done, print the finished ticket in that same turn.",
-    "Finished ticket: got_there is unaided plus helped. Walk exit_rules.routes from the top. Use the first route whose min_got_there is less than or equal to got_there. Fill script.ticket_done with that route's student_line and with exit_rules.token_done. The token is one line. next_file must be that route's next_file. Do not add a comment after the ticket.",
+    "Finished ticket: got_there is unaided plus helped. Follow exit_rules.decision_rule exactly. If got_there is 4 or 5, use routes[0]. If got_there is 0 through 3, use routes[1]. Fill script.ticket_done with that route's student_line and with exit_rules.token_done. The token is one line. next_file must be that route's next_file. Do not add a comment after the ticket.",
     "If the student asks to stop, and the message is not an answer to the current question, say script.stop_confirm and wait. If they say yes, print script.ticket_stopped. done is how many items already have a result. stopped_at is the item id that was open, or none if they stop before q1. next lesson is process_L9_0001. If they want to continue, repeat the current question and go on.",
     "Do not mention the ticket until the end, or until they ask to stop. If they ask for a score in the middle, say you will write it at the end, then repeat the current question.",
-    "Do not invent a signature, a percent, a grade, a pass, a fail, or a next lesson that is not named in exit_rules. The only next lessons are process_L10_0001, process_L9_0002, process_L9_0003, and, if they stop, process_L9_0001.",
+    "Do not invent a signature, a percent, a grade, a pass, a fail, or a next lesson that is not named in exit_rules. The only next lessons are process_L10_0001, process_L9_0002, and, if they stop, process_L9_0001.",
     "If your own sentence and a script line disagree, say the script line."
   ]
 }

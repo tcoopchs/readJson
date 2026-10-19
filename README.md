@@ -133,6 +133,49 @@ rules; the server verifies that the named lesson exists and enforces the pacing 
 The five-slot boundary applies to every level. If a category needs more horizontal attempts at
 one grade band, change this policy deliberately rather than overloading `_0006` and beyond.
 
+## Exit-ticket routing
+
+Every lesson must state its exit choice explicitly in `exit_rules`. The AI does not calculate a
+filename. It reads the authored route and fills `{next_file}` from that route.
+
+The standard two-branch rule is:
+
+```json
+{
+  "decision_rule": "At exit, use routes[0] when got_there is 4 or 5. Use routes[1] when got_there is 0 through 3. Do not choose any other lesson.",
+  "routes": [
+    {
+      "min_got_there": 4,
+      "next_level": 6,
+      "next_file": "inference_L6_0001",
+      "next_means": "The baseline inference lesson for Grade 6.",
+      "student_line": "You put most of these facts together on your own. The next reading would be the Grade 6 inference lesson."
+    },
+    {
+      "min_got_there": 0,
+      "next_level": 5,
+      "next_file": "inference_L5_0002",
+      "next_means": "The next horizontal inference lesson at the same Grade 5 level.",
+      "student_line": "You have the basic move. The next reading would be another Grade 5 inference lesson at the same level."
+    }
+  ]
+}
+```
+
+The rule is hardwired in each JSON file, not inferred by the server:
+
+- Four or five `got_there` results: advance to the next grade band's baseline `_0001`.
+- Zero through three `got_there` results: stay at the current grade band and move to the next
+  horizontal sequence.
+
+The server validates the exact `next_file` named by the chosen route. If that file does not yet
+exist, signing fails and the student cannot receive a broken next lesson. Add the referenced
+lesson before publishing a route that points to it.
+
+The current test lessons use `inference_L6_0001` and `inference_L5_0002`, and
+`process_L10_0001` and `process_L9_0002`, respectively. Those files are not in this repository
+yet.
+
 ## Adding a category
 
 Adding a category requires coordinated changes in this repository and on the server:
