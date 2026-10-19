@@ -1,8 +1,10 @@
 # JSON Lesson File Design Ruleset
 
-This document defines the authoring rules for `readJson` lesson files. It applies to every
-reading category, topic, and grade band. It builds on the established proof-of-concept schema,
-but the naming, routing, and grade-band rules here override older examples when they conflict.
+This document defines the content authoring rules for `readJson` lesson files. It applies to every
+reading category, topic, Star band, and reader target. [README.md](README.md) is authoritative for
+the repository's filenames, fixed categories, Star-band codes, starting-lesson mapping, and legacy
+exceptions. This document is authoritative for passage, question, readability, routing, and lesson
+content. Both override older examples when they conflict.
 
 Every rule comes from a project decision, the foundational reading-harness authoring rules, or a
 documented readability or plain-language standard. Add a source note when a rule depends on a
@@ -18,10 +20,17 @@ readability statistics and through other standard readability tools. If a Lexile
 needed, use the Lexile Analyzer or another documented Lexile tool. Record which measure was used
 and where. Do not rely on intuition alone.
 
-**1.2 `reading_level` labels the reader, not the passage.** The numeric level is the grade band
-and the reader label. A passage that scores FK 6.2 can still be appropriate for a Grade 5 reader
-when vocabulary, background knowledge, inference distance, and working-memory load are controlled.
-State that distinction in `reader.why_this_level`.
+**1.2 `reading_level` labels the reader, not the filename.** `reader.reading_level` is the grade
+target for the intended reader. It is independent of the Star-band code in the filename:
+
+```text
+inference_L1000_0001.json   # filename: 1000-1099 Star band
+reader.reading_level: 9     # content: intended for a ninth-grade reader
+```
+
+A passage that scores FK 6.2 can still be appropriate for a ninth-grade reader when vocabulary,
+background knowledge, inference distance, and working-memory load are controlled. State that
+distinction in `reader.why_this_level`. Never put the reading grade into the filename's `L` code.
 
 **1.3 Use the Common Core text-complexity bands as a sanity check.** A Grade 4-5 reader target is
 roughly FK 4.51-7.73. A Grade 6-8 reader target is roughly FK 6.51-10.34. These are review
@@ -41,9 +50,9 @@ small doors, where the boat is, which water is higher, and a reversed trip at th
 the skill is sentence-level; document a longer exception in `reader.why_this_level` or
 `meta.authoring_exceptions`.
 
-**2.2 Each difficulty band gets its own passage.** Do not generate runtime rewrites of one passage
-to step difficulty. Write or select a separate passage for each level. Adaptation moves across
-authored files, never across AI-authored rewrites.
+**2.2 Each Star band and reader target gets its own passage.** Do not generate runtime rewrites of
+one passage to step difficulty. Write or select a separate passage for each authored lesson.
+Adaptation moves across exact files named by exit routes, never across AI-authored rewrites.
 
 **2.3 The passage must contain the evidence in plain sight.** Every inference, cloze, main-idea,
 and author's-purpose answer must be derivable from text shown in the current lesson. If an item
@@ -167,9 +176,10 @@ generic handling rule.
 `rules.routes`. The AI must never invent a destination. The server rejects a ticket that names a
 missing lesson.
 
-**5.6 The ticket carries no PII.** `token_done` and `token_stopped` may contain only skill, level,
-lesson, counts, and the exact next lesson. Never include a name, student ID, email, IP address, or
-score history.
+**5.6 The ticket carries no PII.** `token_done` and `token_stopped` may contain only the category,
+Star-band code, lesson ID, counts, and the exact next lesson. Never include a reader grade target,
+name, student ID, email, IP address, or score history. The ticket's numeric `level` field is the
+Star-band code from the filename, not `reader.reading_level`.
 
 ## 6. Skill Selection
 
@@ -189,33 +199,38 @@ score history.
 
 **6.3 Target one primary skill and at most one secondary skill.** Too many simultaneous strategies
 raise cognitive load for struggling readers. The most useful combinations are deliberate, such as
-main idea with text structure and retelling. Do not mix four skills into one file.
+main idea with text structure and retelling. Do not mix four skills into one file. The lesson's
+primary skill must match one of the eight fixed filename categories in README.md.
 
-## 7. Grade Bands, Horizontals, and Exit Routing
+## 7. Star Bands, Entry Lessons, and Exit Routing
 
 **7.1 Filename convention.**
 
 ```text
-<category>_L<grade>_<sequence>.json
+<category>_L<star_band>_<sequence>.json
 ```
 
-Grade 4 is the baseline band. Grades 5-12 use the same numeric level convention. The level must be
-a whole number; labels such as `L5a` are invalid.
+The category must be one of the eight fixed keys in README.md. The Star-band code must be exactly
+`900`, `1000`, `1100`, `1200`, or `1300`. The code is the lower bound of the Star range; it is not
+a grade. For example, `_L1000_` means Star `1000-1099`. Labels such as `L9`, `L950`, `L1099`, and
+`L5a` are invalid for new lessons. The only legacy exceptions are the two files named in
+README.md.
 
-**7.2 Every grade band has five slots.**
+**7.2 `_0001` is the onboarding entry lesson.**
 
-| Sequence | Purpose |
-| --- | --- |
-| `0001` | Baseline lesson for the grade band |
-| `0002` | Horizontal variant A |
-| `0003` | Horizontal variant B |
-| `0004` | Horizontal variant C |
-| `0005` | Horizontal variant D |
+For each category and Star band, `_0001` is the starting lesson selected by the onboarding form.
+Later sequences are reached only through authored exit routes. There is no fixed `_0005` ceiling.
+Choose the next unused sequence deliberately; do not invent a horizontal lesson merely because a
+slot exists.
 
-Do not create `_0006` or later within a grade band. A new grade band starts at `_0001`.
+The server's onboarding mapping names exact lesson IDs, so adding `_0002`, `_0003`, or later never
+changes which lesson the dropdown serves.
 
 **7.3 `lesson_id` must equal the filename without `.json`.** Never rename a lesson after its ID has
 appeared in a signed bookmark.
+
+The grade target is not part of the ID. Record it in `reader.reading_level` and explain it in
+`reader.why_this_level`.
 
 **7.4 Exit routing is authored, not calculated.** Every lesson must contain an explicit
 `decision_rule` and finite `routes`:
@@ -226,17 +241,17 @@ appeared in a signed bookmark.
   "routes": [
     {
       "min_got_there": 4,
-      "next_level": 6,
-      "next_file": "inference_L6_0001",
-      "next_means": "The baseline inference lesson for Grade 6.",
-      "student_line": "You put most of these facts together on your own. The next reading would be the Grade 6 inference lesson."
+      "next_level": 1100,
+      "next_file": "inference_L1100_0001",
+      "next_means": "The inference starting lesson for the 1100-1199 Star band.",
+      "student_line": "You put most of these facts together on your own. The next reading is another inference lesson."
     },
     {
       "min_got_there": 0,
-      "next_level": 5,
-      "next_file": "inference_L5_0002",
-      "next_means": "The next horizontal inference lesson at the same Grade 5 level.",
-      "student_line": "You have the basic move. The next reading would be another Grade 5 inference lesson at the same level."
+      "next_level": 1000,
+      "next_file": "inference_L1000_0002",
+      "next_means": "Another inference lesson in the same 1000-1099 Star band.",
+      "student_line": "You have the basic move. The next reading is another inference lesson."
     }
   ]
 }
@@ -244,15 +259,20 @@ appeared in a signed bookmark.
 
 The standard rule is:
 
-- `got_there` 4-5: advance to the next grade band's baseline `_0001`;
-- `got_there` 0-3: stay in the current grade band and move to the next horizontal sequence.
+- `got_there` 4-5: advance to the next Star band's entry lesson;
+- `got_there` 0-3: stay in the current Star band and move to the next authored sequence.
+
+For a lesson in the top `1300-1400` band, there is no next Star band. Use an existing authored
+lesson at the same band or stop. Do not invent `L1400` or any other code outside the five bands in
+README.md. Changing the top of the band scale is a server change, not a lesson-file choice.
 
 The AI fills `{next_file}` from the chosen route. It must not calculate, guess, or invent a
 filename. A referenced lesson must exist before its route is published; otherwise `/sign` cannot
 produce a working ticket.
 
 **7.5 Stopped sessions return to the same lesson.** `stopped.next_file` must name the current
-`lesson_id` unless a deliberately authored continuation lesson exists.
+`lesson_id` unless a deliberately authored continuation lesson exists. A stopped ticket does not
+replace or repeat an item mid-session and does not imply a grade change.
 
 ## 8. Authoring Workflow
 
@@ -271,8 +291,9 @@ then teach with the complete authored explanation.
 **8.5 Write the misreading branches.** Name the specific misconception and author the response for
 it.
 
-**8.6 Write the exit route.** Choose the exact next lesson for success and the exact horizontal for
-retry. Confirm both files exist before publishing.
+**8.6 Write the exit route.** Choose the exact next lesson for success and the exact later lesson
+for retry. Use the Star-band code, not a grade, in `next_level`. Confirm both files exist before
+publishing.
 
 **8.7 Test cold.** Upload the file to the AI and complete a full session. Test correct answers,
 misconceptions, blank answers, the help ladder, tell and say-back, stopping, and prompt injection.
@@ -290,8 +311,9 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 
 ## 10. Final Checklist
 
-- [ ] Filename and `lesson_id` match and use a configured category and numeric grade band.
-- [ ] The lesson is in the `0001`-`0005` sequence range for its grade band.
+- [ ] Filename and `lesson_id` match and use one of the eight fixed categories and five Star-band codes.
+- [ ] `_0001` remains the onboarding entry lesson; later sequences are changed only through authored routes.
+- [ ] `reader.reading_level` contains the grade target, not the filename's `L` code.
 - [ ] `reader.why_this_level` states both the readability evidence and the cognitive load.
 - [ ] 100-200 words per passage part unless an exception is documented.
 - [ ] Every item has one defensible answer, a reasoning chain, and specific misreadings.
