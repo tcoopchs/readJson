@@ -17,7 +17,8 @@ Before writing or editing a lesson, apply this brief:
 4. `L` is a Star band, not a grade. The grade target belongs in `reader.reading_level`.
 5. `lesson_id` must exactly equal the filename without `.json`.
 6. `_0001` is the onboarding entry lesson. Never change its filename to change difficulty.
-7. Later lessons are selected only by an explicit `next_file` in an authored exit route.
+7. Later lessons are selected only by the server from the lesson's `advance`, `retry`, or
+   `stopped` route.
 8. Do not invent routes, filenames, lesson IDs, categories, or score bands.
 9. Keep a placeholder's filename and ID when replacing it with a real lesson.
 10. The `1000-1099` inference and process entries are `inference_L1000_0001.json` and
@@ -33,8 +34,11 @@ Keep every published lesson directly inside one flat directory:
 ```text
 readJson/
 |-- lessons/
-|   |-- vocab_L900_0001.json
+|   |-- vocab_L900_0001.json              # generated runtime lesson
 |   |-- inference_L1000_0001.json
+|   `-- ...
+|-- lessons/src/
+|   |-- inference_L1000_0001.source.json  # authored source
 |   `-- ...
 |-- drafts/                 # Optional; never served by the server
 |-- README.md
@@ -51,7 +55,33 @@ GITHUB_LESSON_PATH=lessons
 ```
 
 The server does not search nested directories. A lesson is published when it is directly inside
-`lessons/`, is valid JSON, and passes server catalog validation.
+`lessons/`, is valid JSON, and passes server catalog validation. `lessons/src/` is never served.
+
+## Building lessons
+
+Shared tutor instructions, common student scripts, result definitions, route thresholds, and
+completion-token formats come from `server/config/protocol.json` in the readingHarness repository.
+Lesson sources contain only lesson-specific content: metadata, passage, items, script overrides,
+and the three route destinations.
+
+From the readingHarness repository:
+
+```bash
+uv run python scripts/build_lessons.py \
+  --source-dir /path/to/readJson/lessons/src \
+  --output-dir /path/to/readJson/lessons
+```
+
+Check that generated files are current:
+
+```bash
+uv run python scripts/build_lessons.py \
+  --source-dir /path/to/readJson/lessons/src \
+  --output-dir /path/to/readJson/lessons \
+  --check
+```
+
+Do not edit generated runtime files by hand. Edit the source, rebuild, and commit both.
 
 ## The filename contract
 
@@ -193,55 +223,58 @@ placeholder:
 ## Entry lessons versus later lessons
 
 The `_0001` file is the only lesson selected by the onboarding form. Later lessons are reached
-only through the exact `next_file` named in a lesson's authored exit rules.
+only through a signed link selected by the server from the lesson's authored routes.
 
 - `_0001` = starting lesson for that category and Star band.
 - `_0002`, `_0003`, ... = later lessons at the same category and Star band.
 - The next Star band starts again at `_0001`, for example `inference_L1100_0001.json`.
 - Adding a later file never changes which `_0001` file onboarding serves.
 
-If an exit route names a later lesson, that exact JSON file must exist before the route is
+If a source route names a later lesson, that exact JSON file must exist before the route is
 published. Do not point a route at a filename you merely intend to create.
 
 ## Exit-ticket routing
 
-Every lesson must contain finite, explicit routing. The AI reads the authored route and must not
-invent a destination.
+Every lesson must contain finite, explicit routing. The server reads the authored route and the AI
+must not choose or name a destination.
 
 The unsigned exit-line format is:
 
 ```text
-v0|skill=<category>|level=<star_band>|lesson=<lesson_id>
+v1|from=<lesson_id>|done=<completed-items>|got_there=<unaided-or-helped>
 ```
 
 For example:
 
 ```text
-v0|skill=inference|level=1100|lesson=inference_L1100_0001
+v1|from=inference_L1000_0002|done=5|got_there=4
 ```
 
-The `level` field is the Star-band code from the filename, not the grade. It must match the
-lesson's filename and catalog entry.
+The AI reports the current lesson and counts only. The server verifies the catalog entry, chooses
+the route, signs the next lesson, and sets the server-side unlock time. A stopped session adds
+`|stop=1`.
 
 A typical route table is:
 
 ```json
 {
-  "decision_rule": "At exit, use routes[0] when got_there is 4 or 5. Use routes[1] when got_there is 0 through 3. Do not choose any other lesson.",
-  "routes": [
-    {
-      "min_got_there": 4,
+  "server_routes": {
+    "advance": {
       "next_level": 1100,
       "next_file": "inference_L1100_0001",
       "next_means": "The inference starting lesson for the 1100-1199 Star band."
     },
-    {
-      "min_got_there": 0,
+    "retry": {
       "next_level": 1000,
       "next_file": "inference_L1000_0002",
       "next_means": "Another inference lesson in the 1000-1099 Star band."
+    },
+    "stopped": {
+      "next_level": 1000,
+      "next_file": "inference_L1000_0002",
+      "next_means": "Resume the current lesson."
     }
-  ]
+  }
 }
 ```
 
@@ -256,9 +289,8 @@ A wrong answer does not trigger either route during the lesson. The tutor stays 
 item through the authored misconception branch, help ladder, `tell`, and say-back. Route selection
 happens only after the final item.
 
-The server validates the exact `next_file` named by the chosen route. If that file does not yet
-exist, signing fails and the student cannot receive a broken next lesson. Add the referenced
-lesson before publishing a route that points to it.
+The server validates all three destinations when it builds the catalog. If a route points to a
+missing file or the wrong level, startup fails rather than serving a broken next lesson.
 
 ## No legacy lesson files
 
@@ -278,11 +310,11 @@ the new IDs. `lesson_id`, exit routes, and ticket templates moved with them. No 
 1. Choose one of the eight fixed category keys.
 2. Choose one of the five Star-band codes.
 3. Choose the next unused sequence for that category and band.
-4. Name the file `<category>_L<star_band>_<sequence>.json`.
+4. Create `<category>_L<star_band>_<sequence>.source.json` inside `lessons/src/`.
 5. Set `lesson_id` to the filename without `.json`.
-6. Write the complete lesson according to `DESIGN_RULES.md`.
-7. Reference it from an authored exit route only after the file exists.
-8. Commit and push, then restart or redeploy the server so it fetches the catalog.
+6. Write the lesson source according to `DESIGN_RULES.md`.
+7. Reference it from a route only after the generated file exists.
+8. Run the build, commit the source and generated JSON, then push and redeploy.
 
 Do not put drafts in `lessons/`. Keep unpublished work outside that directory.
 
@@ -295,7 +327,8 @@ Do not put drafts in `lessons/`. Keep unpublished work outside that directory.
 - [ ] `lesson_id` exactly matches the filename without `.json`.
 - [ ] The grade target is in `reader.reading_level`, not in the filename's `L` code.
 - [ ] The starting file preserves `_0001` and its onboarding ID.
-- [ ] Every exit route names an existing lesson in this repository.
+- [ ] Advance, retry, and stopped routes name existing lessons in this repository.
+- [ ] `scripts/build_lessons.py --check` passes.
 - [ ] The ticket `level` matches the Star-band code.
 - [ ] Stopped sessions return to the current lesson.
 - [ ] The lesson is complete JSON and is not a placeholder unless intentionally replacing it later.

@@ -1,0 +1,237 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_L1000_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Lights in 4B",
+    "skill": "inference",
+    "level": 1000,
+    "sequence": 3,
+    "skill_frame": "Practice two-step inference: join details from different parts to explain what a person did.",
+    "reader": {
+      "who": "High school students who read at about a 6th-grade level.",
+      "reading_level": 6,
+      "why_this_level": "One building, five days, and four things to track: Dell, the sister, the apartment, and the binder. Each answer joins two facts, not one. A Flesch-Kincaid check puts the passage near grade 6. This is a later lesson in the 1000-1099 Star band. The band is not a grade; the grade target is 6.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson. The building, the binder, and the trip are original.",
+      "text_status": "Written for this lesson. Not a verbatim excerpt.",
+      "avoided": "No emergency or crime. The passage never says Mariam is hurt. The quiet apartment is explained by a hurried trip, not by danger."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Two-step inference. The reader must join a detail from one paragraph to a detail from another, and must not import the idea that someone is hurt or that a crime happened."
+    },
+    "protocol_version": "0.1",
+    "authoring_exceptions": [
+      "Only two later inference lessons exist in the 1000-1099 band, so a retry here repeats this lesson instead of naming a file that does not exist."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Start with what Dell sees, then say what it means. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Dell is the superintendent of a six-story building. On Tuesday, he notices that the lights in apartment 4B have stayed on for three days. The curtains are closed. On Wednesday, the mail in the 4B box is still there: two bills and a postcard.\n\nDell knocks on the door on Thursday morning. No one answers. He listens. The television is on, but no one moves inside.\n\nDell goes back to his basement office and opens a binder. It lists every tenant and an emergency contact. For 4B, the page says 'Mariam Osei' and a phone number with a note: 'call her sister first.'\n\nHe calls the sister. She says Mariam left on Sunday for a training course out of town. She thought Mariam had turned the lights off.",
+    "part_2": "Dell and the sister meet at the building on Friday. The sister has a key. They knock twice, then open the door. Dell stays in the doorway and does not go in. The sister calls Mariam's name. No answer.\n\nThe television is on. A half-full glass of water sits on the table. Mariam's coat is not on the hook. The lights in the hallway are off.\n\nThe sister calls Mariam. Mariam answers from a hotel two hundred miles away. She says she left in a hurry and forgot to turn anything off. She asks the sister to unplug the television and take the mail.",
+    "part_3": "Dell writes a note in the binder: '4B checked. Tenant away. Sister has mail.' He closes the binder and goes back downstairs. In the lobby, he checks the mail box again. Still full. The elevator opens and closes on the sixth floor.\n\nOn Monday, the lights in 4B are off. The mail box is empty. The note in the binder is still there, and Dell adds one line: 'Sister called. Mariam back Sunday.' He has worked here for eleven years. Then he closes the binder and starts his rounds. The building is quiet again. The hallway lights are off."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "skill": "inference",
+      "difficulty": 1,
+      "type": "short_answer",
+      "show_part": "part_1",
+      "prompt": "Dell knocks and then listens at the door. What is he trying to find out?",
+      "tutor_only": {
+        "confirm": "Right. He wants to know whether someone is inside.",
+        "correct_reason": "A knock is a test. Listening is how Dell checks the answer, because the television is already making noise.",
+        "accept_ideas": [
+          "Whether someone is inside.",
+          "If Mariam is home.",
+          "Whether anyone moves inside the apartment."
+        ],
+        "one_idea_is_enough": true,
+        "if_they_say": [
+          {
+            "when": "They say he wants to fix the television or check the lock.",
+            "ask": "He knocks and then stands still. What would a sound inside tell him?"
+          },
+          {
+            "when": "They say he is looking for the mail.",
+            "ask": "The mail is in the box downstairs. Why knock on the apartment door?"
+          }
+        ],
+        "help": [
+          "He knocks, then listens. What would he hear if she were home?",
+          "The television is on. What is he listening for besides the television?"
+        ],
+        "tell": "Dell knocks and listens to find out whether someone is inside. The television is on, but no one moves.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q2",
+      "skill": "inference",
+      "difficulty": 1,
+      "type": "short_answer",
+      "show_part": "part_1",
+      "prompt": "The note says to call her sister first. What does that tell you?",
+      "tutor_only": {
+        "confirm": "Right. The sister is Mariam's emergency contact.",
+        "correct_reason": "The binder lists every tenant with an emergency contact. The note puts the sister in that role for Mariam.",
+        "accept_ideas": [
+          "She is Mariam's emergency contact.",
+          "She is the person the building calls if something happens to Mariam.",
+          "She is the first person to reach when Mariam cannot be found."
+        ],
+        "one_idea_is_enough": true,
+        "if_they_say": [
+          {
+            "when": "They say the sister owns the building or lives in 4B.",
+            "ask": "The line is under Mariam's name in the tenant list. What is the sister's role for Mariam?"
+          },
+          {
+            "when": "They say the sister pays the rent.",
+            "ask": "The binder is about emergencies, not money. Why is her number there?"
+          }
+        ],
+        "help": [
+          "The binder lists an emergency contact for each tenant. Whose name is on Mariam's page?",
+          "Why would a building keep a second phone number with a note like that?"
+        ],
+        "tell": "The sister is Mariam's emergency contact. The building calls her if something happens.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q3",
+      "skill": "inference",
+      "difficulty": 2,
+      "type": "short_answer",
+      "show_part": null,
+      "prompt": "The sister thought Mariam had turned the lights off. What does that tell you?",
+      "tutor_only": {
+        "confirm": "Right. The sister had not spoken to Mariam since she left.",
+        "correct_reason": "The sister has a key and did not know the apartment was left running, so her idea came from assumption, not from Mariam.",
+        "accept_ideas": [
+          "The sister had not talked to Mariam since Sunday.",
+          "The sister did not know Mariam left in a hurry.",
+          "She was guessing, because Mariam had not told her what the apartment looked like."
+        ],
+        "one_idea_is_enough": true,
+        "if_they_say": [
+          {
+            "when": "They say the sister was inside the apartment, or that the lights came on by themselves.",
+            "ask": "The sister has a key but has not been inside. Where did her idea about the lights come from?"
+          },
+          {
+            "when": "They say Mariam lied to her sister.",
+            "ask": "Mariam left in a hurry and forgot. Did she tell the sister anything about the lights?"
+          }
+        ],
+        "help": [
+          "If the sister had spoken to Mariam on Sunday, would the lights surprise her?",
+          "The sister has a key. Has she used it since Sunday?"
+        ],
+        "tell": "The sister had not spoken to Mariam since Sunday. She assumed Mariam turned things off before she left.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q4",
+      "skill": "inference",
+      "difficulty": 2,
+      "type": "short_answer",
+      "show_part": "part_2",
+      "prompt": "The television is on and a glass of water sits on the table. What do those details tell you about how Mariam left?",
+      "tutor_only": {
+        "confirm": "Right. She left quickly and did not stop to tidy up.",
+        "correct_reason": "A running television and an unfinished glass are what a person leaves behind when the leaving is rushed. Mariam says as much when she explains.",
+        "accept_ideas": [
+          "She left in a hurry.",
+          "She did not plan the trip carefully, or forgot to turn things off.",
+          "She left without finishing her water or tidying up."
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They list the television and the glass but do not say what the details mean.",
+            "ask": "You have the details. What kind of leaving leaves a glass half full on the table?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say someone else was in the apartment, or that she was watching television when they arrived.",
+            "ask": "Nothing in the passage says another person was there. What does an unfinished glass suggest about Mariam's leaving?"
+          },
+          {
+            "when": "They say she was too tired to clean up.",
+            "ask": "The passage gives the reason later. What does Mariam say about how she left?"
+          }
+        ],
+        "help": [
+          "A glass of water is still on the table. Would that be there after a careful trip?",
+          "She left on Sunday and did not unplug the television. What kind of leaving was that?"
+        ],
+        "tell": "The television is on and the water is unfinished. Mariam left quickly and did not stop to tidy up.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "difficulty": 3,
+      "type": "short_answer",
+      "show_part": "part_2",
+      "prompt": "Mariam asks her sister to unplug the television and take the mail. What does that tell you about her trip?",
+      "tutor_only": {
+        "confirm": "Right. She will be away for a while, so she needs someone else to do it.",
+        "correct_reason": "If Mariam were coming home that night, she would unplug the television herself. Asking someone else means the apartment will sit empty.",
+        "accept_ideas": [
+          "She will be away for a while longer.",
+          "She is not coming home soon.",
+          "She cannot do those small jobs herself because she is staying away."
+        ],
+        "one_idea_is_enough": true,
+        "if_they_say": [
+          {
+            "when": "They say she is never coming back, or that she moved out.",
+            "ask": "She is at a hotel for a training course. Dell writes that she returns Sunday. Is she moving out?"
+          },
+          {
+            "when": "They say she is afraid of the apartment.",
+            "ask": "She asks for the television to be unplugged. What does that request assume about how long the apartment will be empty?"
+          }
+        ],
+        "help": [
+          "If she were home that night, would she need her sister to unplug it?",
+          "She asks for the mail to be taken. What does that suggest about how long she will be gone?"
+        ],
+        "tell": "Mariam is still away. She asks her sister to do those jobs because she cannot.",
+        "say_back": "own_words"
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_L1100_0001",
+    "next_level": 1100,
+    "next_means": "The inference entry lesson for the 1100-1199 Star band.",
+    "student_line": "You handled most of this on your own. The next reading would be another inference lesson at a higher Star band."
+  },
+  "retry": {
+    "next_file": "inference_L1000_0003",
+    "next_level": 1000,
+    "next_means": "This same lesson, because it is the last inference lesson authored in this band.",
+    "student_line": "You have the basic move. The next reading would be this same lesson again."
+  },
+  "stopped": {
+    "next_file": "inference_L1000_0003",
+    "next_level": 1000,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

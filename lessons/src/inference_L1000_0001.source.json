@@ -1,0 +1,234 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_L1000_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Warm Cooler",
+    "skill": "inference",
+    "level": 1000,
+    "sequence": 1,
+    "skill_frame": "Practice one-step inference: use facts from the passage to figure out something it does not say outright.",
+    "reader": {
+      "who": "High school students who read at about a 5th-grade level.",
+      "reading_level": 5,
+      "why_this_level": "One place, two times, people you can track one at a time. The words are common. Each inference is one step from facts on the page. There is no machine to build in your head. This is the entry lesson for the 1000-1099 Star band. The band is not a grade; the grade target is 5.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "text_status": "Written for this lesson. Not a verbatim excerpt.",
+      "survey": "McGuffey's Fifth Eclectic Reader (1879) is a fifth reader in name only. Its lessons are speeches, poems, and sentences such as 'endeavor to make the thought and feeling and sentiments of the writer his own.' That is harder than a modern 5th-grade reading level. A public-domain grade-5 adaptation, 'Animal Studies' (Center for Urban Education), talks down to the reader and explains a sawfly by comparing its body to a saw. Little words, a harder picture. Current grade 4-6 inference packs are mostly children's stories or animal pieces, and they are not free to put in this file. This passage keeps one kitchen, one time jump, and inferences a reader can point to.",
+      "avoided": "No children's story. No outdated science. No diagram of how a cooler works. The passage never says the cooler is broken. That is the inference."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Legacy proof-of-concept lesson migrated to the compiled schema."
+    },
+    "protocol_version": "1.0",
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Start with the food, or with the cooler. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Mia closes the diner at night. The last customers are gone. She opens the big cooler in the kitchen. That cooler is where the diner keeps food cold.\n\nThe lettuce is soft and wet. She picks up a carton of milk. The milk is warm in her hand. She opens the ice cream. It is soft at the edges. Yesterday, all of that food was cold and firm.\n\nMia shuts the cooler. She does not throw the food away. She writes a note and leaves it on the desk in the office. Then she locks the kitchen and goes home.",
+    "part_2": "The next morning, the manager is at the diner. She reads Mia's note. She keeps the front door locked. She does not turn on the grill.\n\nA cook calls and asks if he should come in. The manager says no. Then she calls a repair shop.\n\nAt noon, a repair worker comes into the kitchen. He opens that same cooler. He kneels beside it and gets to work. The diner stays closed."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "show_part": "part_1",
+      "prompt": "Yesterday the food in the cooler was cold and firm. What is different about that food tonight?",
+      "tutor_only": {
+        "confirm": "Right. Tonight the food is warm and soft. Yesterday it was cold.",
+        "accept_ideas": [
+          "The food is warm, soft, or no longer cold.",
+          "The milk is warm, or the ice cream is soft, or the lettuce is soft and wet."
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They name a food but not how it changed, such as only 'the milk' or only 'the lettuce.'",
+            "ask": "You named the food. How is it different tonight from yesterday?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the food is old, expired, rotten, spoiled, or bad, and they do not say warm or soft.",
+            "ask": "The passage does not say the food is old. It tells how the food feels tonight. How is that different from yesterday?"
+          },
+          {
+            "when": "They say Mia left the cooler open, or that she cooked the food.",
+            "ask": "The passage does not say that. It says how the milk, the ice cream, and the lettuce feel. What is different about them?"
+          }
+        ],
+        "help": [
+          "Pick the milk. How does it feel in her hand tonight?",
+          "Yesterday the milk was cold. Tonight it is warm. What changed?"
+        ],
+        "tell": "The food is not cold anymore. The milk is warm. The lettuce and the ice cream are soft.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "show_part": null,
+      "prompt": "Mia does not throw the food away. She leaves a note on the office desk. What is that note for?",
+      "tutor_only": {
+        "confirm": "Right. The note tells the next person that the food in the cooler is not cold.",
+        "accept_ideas": [
+          "To tell the manager, or the next person, that the food is warm or soft.",
+          "To report the problem in the cooler so someone else will see it."
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They name only who will read it, such as the manager, the boss, or the office, and not what the note is about.",
+            "ask": "You named the person who will read it. What should that person learn from the note?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say Mia is in trouble, messed up, or will be fired.",
+            "ask": "The passage does not say Mia caused this. She found the food warm and left a note. What is that note for?"
+          },
+          {
+            "when": "They say the note is a food order, a shopping list, or a way to ask someone to eat the ice cream.",
+            "ask": "The note is about the food she just found. What did she find that the next person needs to know?"
+          }
+        ],
+        "help": [
+          "Someone will read that note in the office. What did Mia just find in the cooler?",
+          "Does the note hide the warm food, or does it point to the warm food?"
+        ],
+        "tell": "The note tells the next person that the food in the cooler is warm and soft. Mia wants that person to see the problem.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "show_part": "part_2",
+      "prompt": "The manager reads Mia's note. She keeps the front door locked and does not turn on the grill. Why doesn't she open the diner?",
+      "tutor_only": {
+        "confirm": "Right. She keeps the diner closed because that food is not cold enough to serve.",
+        "accept_ideas": [
+          "The food that should be cold is warm, so she cannot serve it.",
+          "The diner stays closed because of the warm food in the cooler."
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They say only that she read the note, or only that Mia told her to, and they do not say what is wrong with the food.",
+            "ask": "The note matters because of what Mia found. What is wrong with the food, and why would that keep the door locked?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say there is no food, the diner has no customers, it is a day off, or the manager is angry at Mia.",
+            "ask": "The food is still in the cooler. The passage does not say she is angry. What is wrong with that food?"
+          }
+        ],
+        "help": [
+          "What did the food in the cooler feel like last night?",
+          "The milk is warm and the ice cream is soft. Can she serve that, or does she keep the door locked?"
+        ],
+        "tell": "The food in the cooler is not cold anymore. The manager keeps the diner closed so she will not serve it.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "show_part": null,
+      "prompt": "A cook asks if he should come in. The manager says no. Then she calls a repair shop. Why does she call a repair shop?",
+      "tutor_only": {
+        "confirm": "Right. She calls a repair shop because the cooler is not keeping the food cold.",
+        "accept_ideas": [
+          "The cooler or freezer needs to be fixed or checked.",
+          "The food went warm, so the cooler is not doing its job.",
+          "Someone needs to work on the cooler before the diner can cook."
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case and punctuation. Treat freezer, freezere, frezer, and freeze as the cooler before scoring. 'to fix the freezere' is a full answer to this item. Do not make them trade freezer for cooler.",
+        "partial": [
+          {
+            "when": "They say only 'to fix it' or 'something is broken' and do not name the cooler or the freezer.",
+            "ask": "Fix what? Which thing was supposed to keep the milk and the ice cream cold?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the shop will cook, bring the staff, or deliver new ice cream, or that she is hiring a new cook.",
+            "ask": "A repair shop does not cook the food. Last night the cooler failed to keep the food cold. What does she want repaired?"
+          }
+        ],
+        "help": [
+          "The cooler is where the diner keeps food cold. What happened to that food overnight?",
+          "The food went warm in the cooler. Who can work on the cooler, the cook or a repair worker?"
+        ],
+        "tell": "The cooler is not keeping the food cold. She calls a repair shop so someone can work on that cooler.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "show_part": null,
+      "prompt": "The repair worker opens that same cooler and kneels beside it. How do you know he is there about the food Mia found, and not about some other problem?",
+      "tutor_only": {
+        "confirm": "Right. He goes to the same cooler where Mia found the warm food.",
+        "accept_ideas": [
+          "He opens the same cooler Mia opened, the one with the warm food.",
+          "He works on the cooler or the freezer, not the grill or the front door.",
+          "Mia's note was about that cooler, and he goes straight to it."
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case and punctuation. Treat freezer, freezere, frezer, and freeze as the cooler before scoring. A misspelling such as freezere still names the freezer.",
+        "partial": [
+          {
+            "when": "They say only that the manager called a repair shop, and they do not mention the cooler, the freezer, or the food.",
+            "ask": "Yes, she called the shop. What does he open that matches what Mia found?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the cooler door was left open, and they do not say he is working on the cooler Mia checked.",
+            "ask": "The passage does not say the door was left open. He opens the cooler and works beside it. Which cooler, and what did Mia find in it?"
+          },
+          {
+            "when": "They say he is there to fix the grill, the lock, the note, or the ice cream only.",
+            "ask": "The ice cream got soft in the cooler. He does not go to the grill. What does he open?"
+          }
+        ],
+        "help": [
+          "Which thing does the repair worker open?",
+          "Mia found warm food in the cooler. He opens that cooler. What connects those two facts?"
+        ],
+        "tell": "He opens the same cooler where the food went warm. That is the problem Mia wrote about in the note.",
+        "say_back": "own_words"
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_L1100_0001",
+    "next_level": 1100,
+    "next_means": "The inference entry lesson for the 1100-1199 Star band.",
+    "student_line": "You put most of these facts together on your own. The next reading would be another inference lesson at a higher Star band."
+  },
+  "retry": {
+    "next_file": "inference_L1000_0002",
+    "next_level": 1000,
+    "next_means": "The next inference lesson in the 1000-1099 Star band.",
+    "student_line": "You have the basic move. The next reading would be another inference lesson in this same Star band."
+  },
+  "stopped": {
+    "next_file": "inference_L1000_0001",
+    "next_level": 1000,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

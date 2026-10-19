@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_L1000_0002",
+  "meta": {
+    "status": "published",
+    "title": "The Empty Shelf",
+    "skill": "inference",
+    "level": 1000,
+    "sequence": 2,
+    "skill_frame": "Practice one-step inference: use facts in the passage to infer what it does not say.",
+    "reader": {
+      "who": "High school students who read at about a 5th-grade level.",
+      "reading_level": 5,
+      "why_this_level": "One shop, one morning, and people you can track one at a time. The sentences are short and the words are common. Each inference is one step from a fact on the page: an empty shelf, a job that needs no paper, a note thrown away. A Flesch-Kincaid check puts the passage near grade 5. This is a later lesson in the 1000-1099 Star band. The band is not a grade; the grade target is 5.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson. The print-shop setting and the job sequence are original.",
+      "text_status": "Written for this lesson. Not a verbatim excerpt.",
+      "avoided": "No children's story. No moral about working hard. The passage never says the delivery is late until the phone call."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and one competing detail. The reader must connect an empty shelf to a missing delivery, and a job's materials to the order Rosa starts first."
+    },
+    "protocol_version": "0.1",
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Start with the shelf, or with the paper. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Rosa runs a small print shop. On Monday morning, a truck should bring four boxes of paper. The truck does not come.\n\nRosa checks the back room. The shelf where the paper sits is empty. A pallet lies on the floor with nothing on it. Two loose sheets lie beside the boxes. She looks at the clock, then at the phone. It is a few minutes before nine.\n\nAt nine, she calls the paper company. A recorded voice says the order is still on a truck. Rosa writes the order number on a sticky note and puts the note on the register.",
+    "part_2": "She walks to the front counter and reads the job board. Three jobs are waiting: a stack of menus, a box of flyers, and a booklet for a wedding. The menus and the flyers both need paper. The booklet is already printed and only needs folding.\n\nRosa picks up the phone again. She calls the restaurant that ordered the menus. She tells them the paper is late. The restaurant says the menus can wait until Thursday.\n\nThen she moves the wedding booklet to the top of the board. She sits at the folding table and works through the pages. By noon, half the booklets are folded and stacked in a box.",
+    "part_3": "At two, the truck arrives with the paper. Rosa signs for it and carries the boxes to the back room. The shelf is full again. She puts the menus back on the board for tomorrow morning. She writes 'Thursday' beside them. Then she sweeps the floor and checks the folding table.\n\nThe shop is quiet again. Rosa turns off the front light and sets the alarm. The sticky note with the order number is still on the register. She looks at it, then throws it away. The truck driver waves from the street, and Rosa waves back. She locks the door behind her."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "skill": "inference",
+      "difficulty": 1,
+      "type": "short_answer",
+      "show_part": "part_1",
+      "prompt": "Rosa checks the back room first. What is she looking for?",
+      "tutor_only": {
+        "confirm": "Right. She is looking for the paper that should have arrived.",
+        "correct_reason": "A truck should bring four boxes of paper, and the shelf where the paper sits is empty. She checks the shelf to see whether the order came.",
+        "accept_ideas": [
+          "The paper that should have arrived.",
+          "The boxes of paper from the truck.",
+          "Whether the paper delivery came."
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and spelling of paper, boxes, and delivery. Treat 'the order' as the paper order.",
+        "partial": [
+          {
+            "when": "They name the back room, the shelf, or the pallet without saying what should be there.",
+            "ask": "You named the place. What should be on that shelf?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say she is looking for a customer, the truck driver, or a person.",
+            "ask": "She goes to a shelf, not the door. What is missing from that shelf?"
+          },
+          {
+            "when": "They say she is looking for a job to start or the sticky note.",
+            "ask": "The shelf is where the paper sits. What does she expect to find on it?"
+          }
+        ],
+        "help": [
+          "The truck should bring four boxes of paper. What does Rosa see on the shelf?",
+          "The shelf is empty and the pallet has nothing on it. What should be there?"
+        ],
+        "tell": "The shelf is where the paper sits. It is empty, so the paper from the truck has not arrived.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q2",
+      "skill": "inference",
+      "difficulty": 1,
+      "type": "short_answer",
+      "show_part": null,
+      "prompt": "Rosa writes the order number on a sticky note. Why does she keep that number?",
+      "tutor_only": {
+        "confirm": "Right. She keeps the number so she can ask about the delivery again.",
+        "correct_reason": "The recorded voice says the order is still on a truck. Rosa writes the number down and keeps it until the paper arrives.",
+        "accept_ideas": [
+          "So she can call again and ask about the order.",
+          "To have the order number ready when she checks on the delivery.",
+          "So she can find out where the paper is."
+        ],
+        "one_idea_is_enough": true,
+        "if_they_say": [
+          {
+            "when": "They say she is writing a shopping list or a note for a customer.",
+            "ask": "The number came from the paper company. What would Rosa use it for?"
+          },
+          {
+            "when": "They say she writes it because the phone call ended.",
+            "ask": "Yes, the call ended. Why keep the number after the call?"
+          }
+        ],
+        "help": [
+          "The voice says the order is still on a truck. What might Rosa do later?",
+          "If she calls the paper company again, what will they ask her for?"
+        ],
+        "tell": "She keeps the order number so she can ask about the delivery again. She throws it away once the paper comes.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q3",
+      "skill": "inference",
+      "difficulty": 2,
+      "type": "short_answer",
+      "show_part": "part_2",
+      "prompt": "Rosa moves the wedding booklet to the top of the board. Why that job?",
+      "tutor_only": {
+        "confirm": "Right. The booklet needs no paper, so she can start it now.",
+        "correct_reason": "The menus and flyers both need paper. The booklet is already printed and only needs folding, so it is the one job the missing paper does not block.",
+        "accept_ideas": [
+          "It is already printed, so it does not need the paper.",
+          "It only needs folding.",
+          "It is the only job she can do while the paper is missing."
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They say it is easier, smaller, or more important, without naming the paper.",
+            "ask": "What do the menus and the flyers need that the booklet does not?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the wedding is soon, or that the booklet pays the most.",
+            "ask": "The passage does not say that. Look at what each job needs. Which one is ready to work on?"
+          },
+          {
+            "when": "They say she likes wedding jobs better.",
+            "ask": "The passage gives a practical reason. Which job does not need paper?"
+          }
+        ],
+        "help": [
+          "Look at what each job needs. Which one is already printed?",
+          "The menus and the flyers both need paper. The booklet only needs folding. Which job can she start?"
+        ],
+        "tell": "The booklet is already printed. It only needs folding, so Rosa can work on it while the paper is late.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q4",
+      "skill": "inference",
+      "difficulty": 2,
+      "type": "short_answer",
+      "show_part": "part_2",
+      "prompt": "Why does Rosa call the restaurant that ordered the menus?",
+      "tutor_only": {
+        "confirm": "Right. She calls to say the paper is late, so the menus will take longer.",
+        "correct_reason": "The menus need paper, the paper has not come, and Rosa calls the restaurant before it asks. The restaurant then says the menus can wait until Thursday.",
+        "accept_ideas": [
+          "To tell them the paper is late and the menus will be delayed.",
+          "To warn them that the menus may not be ready on time.",
+          "To let them know the order will take longer."
+        ],
+        "one_idea_is_enough": true,
+        "if_they_say": [
+          {
+            "when": "They say she is ordering food or asking the restaurant for money.",
+            "ask": "Rosa prints the menus for that restaurant. What does the restaurant need to know about them?"
+          },
+          {
+            "when": "They say she calls to cancel the menus.",
+            "ask": "The restaurant says the menus can wait until Thursday. Did Rosa cancel them?"
+          }
+        ],
+        "help": [
+          "The menus need paper, and the paper has not come. What does the restaurant need to know?",
+          "If the menus cannot be printed on time, who should hear about it first?"
+        ],
+        "tell": "The menus need paper. Rosa calls to say the paper is late. The restaurant then knows the menus will take longer.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q5",
+      "skill": "inference",
+      "difficulty": 2,
+      "type": "short_answer",
+      "show_part": "part_3",
+      "prompt": "At the end, Rosa throws the sticky note away. Why?",
+      "tutor_only": {
+        "confirm": "Right. The paper arrived, so she no longer needs the order number.",
+        "correct_reason": "The note held the order number while the delivery was missing. The truck arrives, Rosa signs for the paper, and the reason to keep the number is gone.",
+        "accept_ideas": [
+          "The paper arrived, so she does not need the order number.",
+          "The delivery is finished, so the note is no longer useful.",
+          "There is nothing left to ask the paper company about."
+        ],
+        "one_idea_is_enough": true,
+        "if_they_say": [
+          {
+            "when": "They say she is angry, or that the order was cancelled.",
+            "ask": "The truck came and Rosa signed for the paper. What is left to ask about?"
+          },
+          {
+            "when": "They say she has memorized the number.",
+            "ask": "Even so, the note was for a problem. What happened to that problem at two o'clock?"
+          }
+        ],
+        "help": [
+          "The note held the order number for a delivery that had not come. What changed at two o'clock?",
+          "The boxes are in the back room and the shelf is full. Does she still need the number?"
+        ],
+        "tell": "The paper arrived at two. The note was only useful while the order was missing, so Rosa throws it away.",
+        "say_back": "own_words"
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_L1100_0001",
+    "next_level": 1100,
+    "next_means": "The inference entry lesson for the 1100-1199 Star band.",
+    "student_line": "You handled most of this on your own. The next reading would be another inference lesson at a higher Star band."
+  },
+  "retry": {
+    "next_file": "inference_L1000_0003",
+    "next_level": 1000,
+    "next_means": "The next inference lesson in the same 1000-1099 Star band.",
+    "student_line": "You have the basic move. The next reading would be another lesson in this same Star band."
+  },
+  "stopped": {
+    "next_file": "inference_L1000_0002",
+    "next_level": 1000,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

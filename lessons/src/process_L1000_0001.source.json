@@ -1,0 +1,228 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_L1000_0001",
+  "meta": {
+    "status": "published",
+    "title": "How a Lock Lifts a Boat",
+    "skill": "process",
+    "level": 1000,
+    "sequence": 1,
+    "skill_frame": "Follow a nonfiction process: track the order of steps and what happens to the boat and the water.",
+    "reader": {
+      "who": "High school students who read at about a 9th-grade level.",
+      "reading_level": 9,
+      "why_this_level": "The words are common. The load is the picture: two gates, the small doors, where the boat is, and which water is higher, plus a reversed trip at the end. This is the entry lesson for the 1000-1099 Star band. The band is not a grade; the grade target is 9.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "The steps are the standard canal-lock procedure, as described in the 1911 Encyclopaedia Britannica entry on canals and in Frederic J. Haskin, The Panama Canal (1913). Both are public domain.",
+      "text_status": "Written for this lesson at a controlled reading length. Not a verbatim excerpt.",
+      "avoided": "No children's story. No outdated science. The passage describes a mechanism that still works this way."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Legacy proof-of-concept lesson migrated to the compiled schema."
+    },
+    "protocol_version": "1.0",
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Start with the boat, or with the water. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A canal is a channel of water cut for boats. It is not flat from end to end. Where the land rises, the water is built in level steps. A lock is the step between a lower stretch of water and a higher one.\n\nA boat coming from the lower water has to climb that step. The crew brings the boat to the lower gates and waits. A rush of water out of the lock could hit the boat.\n\nInside the lock, the water is still high. The lower gates stay shut. Small doors set in the gates, called sluices, are opened. Water runs out of the lock into the lower canal. The boat stays outside while the water falls.\n\nWhen the water in the lock sits level with the lower canal, the lower gates open. The boat moves in. The lower gates close behind it. The sluices close too. The boat floats between the closed gates.",
+    "part_2": "The upper gates hold back the higher canal. They stay shut. The boat is in the lock, and the water in the lock is still low. If the upper gates opened, that higher water would crash into the lock. The boat could be thrown against the wall.\n\nThe upper sluices open instead. Water from the higher canal runs in through those small doors. The water in the lock rises. The boat rises with it. Only the rising water lifts the boat.\n\nThe crew waits until the water in the lock is level with the higher canal. Then the upper gates open. The boat moves out onto the higher water. Behind it, the gates close. The lock is ready for the next boat.\n\nA boat going downstream uses the same lock. Downstream means from the higher water toward the lower water. The boat comes in from the higher side. The same steps happen in the opposite order. Water is let out, and the boat sinks to the lower canal."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "show_part": "part_1",
+      "prompt": "Why do the lower gates stay shut while the water in the lock is still high?",
+      "tutor_only": {
+        "confirm": "Right. The lower gates stay shut so the high water cannot rush out at the boat.",
+        "accept_ideas": [
+          "Opening the lower gates while the water is high would send a rush of water out at the boat.",
+          "The water has to fall through the sluices until it matches the lower canal. Then the big gates can open.",
+          "The boat is still outside, and the high water would hit it if the big gates opened."
+        ],
+        "one_idea_is_enough": true,
+        "if_they_say": [
+          {
+            "when": "They say the boat is already inside the lock.",
+            "ask": "Look at the first part again. The boat is still outside while the water falls. Why are the big lower gates shut?"
+          },
+          {
+            "when": "They say the gates stay shut in order to fill the lock, or to make the boat rise.",
+            "ask": "Filling comes later. Right now, water is leaving the lock. Why not let it leave through the big gates?"
+          }
+        ],
+        "help": [
+          "The water in the lock is higher than the water where the boat is waiting. What would that water do if the big gates opened?",
+          "Would that water stay in the lock, or rush out at the boat?"
+        ],
+        "tell": "The water in the lock is higher than the water outside. If the big gates opened, that water would rush out at the boat. The sluices let the water down first.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "cloze",
+      "show_part": "part_1",
+      "show_part_again": true,
+      "prompt": "Inside the lock, the water is still high. The lower gates stay shut. Small doors set in the gates, called ____, are opened.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. Those doors are called sluices.",
+        "accept_words": [
+          "sluice",
+          "sluices"
+        ],
+        "normalize": "Ignore case, a, an, the, and punctuation. Accept sluice or sluices, including a misspelling that is clearly that word, such as sluce or sluises. Do not ask them to respell it.",
+        "if_they_say": [
+          {
+            "when": "They say gate, gates, door, doors, valve, or valves, and not sluice.",
+            "ask": "The gates are the big doors. The small doors set in them have their own name in this passage. What is that name?"
+          }
+        ],
+        "help": [
+          "The first part names the small doors in the gates. What does it call them?",
+          "Find the words 'small doors' in the first part. What name comes right after 'called'?"
+        ],
+        "tell": "Those small doors are called sluices.",
+        "say_back": "use_word",
+        "word": "sluice",
+        "word_also": [
+          "sluices"
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "show_part": "part_2",
+      "prompt": "The boat is in the lock, and the water in the lock is still low. What would happen to the boat if the upper gates opened?",
+      "tutor_only": {
+        "confirm": "Right. The higher water would crash in and could throw the boat against the wall.",
+        "accept_ideas": [
+          "The boat would be thrown, slammed, or hit against the wall.",
+          "The higher water would crash into the boat.",
+          "The boat would be hit by the rush of water instead of rising with it."
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They say the water would rush, surge, or crash into the lock, but they do not say what would happen to the boat.",
+            "ask": "The water would crash into the lock. What would that do to the boat?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the water would go downstream, out the lower end, or into the lower canal.",
+            "ask": "That water is above the lock, not below it. It would come into the lock, where the boat is. What would it do to the boat?"
+          },
+          {
+            "when": "They say the boat would sink, or the lock would empty.",
+            "ask": "The boat would not sink. The higher water would come in on it. What would that water do to the boat?"
+          }
+        ],
+        "help": [
+          "The passage says the higher water would crash into the lock. The boat is in the lock. What would that water do to the boat?",
+          "Would the boat stay where it is, or be thrown against the wall?"
+        ],
+        "tell": "The canal above the lock is higher. If the upper gates opened, that water would crash in and could throw the boat against the wall. The sluices let the water in slowly so the boat can rise.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "cloze",
+      "show_part": null,
+      "prompt": "The crew waits ____ the water in the lock is level with the higher canal. Then the upper gates open.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. Until means the crew waits for that moment, and then the gates open.",
+        "accept_words": [
+          "until",
+          "till"
+        ],
+        "normalize": "Ignore case and punctuation. Accept until or till, including a misspelling that is clearly that word, such as untill or untl. Do not ask them to respell it. while, when, before, and after are different words, not misspellings.",
+        "reject_words": [
+          "while",
+          "when",
+          "before",
+          "after"
+        ],
+        "if_they_say": [
+          {
+            "when": "They answer while, when, before, or after.",
+            "ask": "That word does not mark the end of the wait. The gates open after the water is level. Which word means up to that time?"
+          }
+        ],
+        "help": [
+          "The crew is waiting for the two sides to match, and then the gates open. What word marks 'up to that moment'?",
+          "The crew is waiting for one thing to happen. The boat does not move yet. Which word shows that the wait ends when the water becomes level?"
+        ],
+        "tell": "The word is until. The crew waits until the water is level, and then the upper gates open.",
+        "say_back": "use_word",
+        "word": "until",
+        "word_also": [
+          "till"
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "show_part": null,
+      "prompt": "A boat going downstream uses the same lock. What happens to the water, and what happens to the boat?",
+      "tutor_only": {
+        "confirm": "Right. Water is let out, and the boat goes down with it.",
+        "accept_ideas": [
+          "Both parts: water is let out, drained, or lowered, AND the boat sinks, drops, or goes down with it."
+        ],
+        "one_idea_is_enough": false,
+        "partial": [
+          {
+            "when": "They say what the water does, but not what the boat does.",
+            "ask": "You have the water. What happens to the boat as that water drops?"
+          },
+          {
+            "when": "They say what the boat does, but not what the water does.",
+            "ask": "You have the boat. What does the lock do with the water so the boat can go down?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say only that the steps go in the opposite order, or only that the boat enters from the higher side, and they name neither the water leaving nor the boat dropping.",
+            "ask": "That is the start of it. By the end, what has the water done, and what has the boat done?"
+          }
+        ],
+        "help": [
+          "On the way up, water came in and the boat rose. What happens instead on the way down?",
+          "Read the last sentence of the passage. What does it say happens to the water and the boat?"
+        ],
+        "tell": "Water is let out of the lock. The boat goes down with the water to the lower canal.",
+        "say_back": "own_words"
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_L1100_0001",
+    "next_level": 1100,
+    "next_means": "The process entry lesson for the 1100-1199 Star band.",
+    "student_line": "You handled most of this on your own. The next reading would be another process lesson at a higher Star band."
+  },
+  "retry": {
+    "next_file": "process_L1000_0002",
+    "next_level": 1000,
+    "next_means": "The next process lesson in the 1000-1099 Star band.",
+    "student_line": "You have the basic steps. The next reading would be another process lesson in this same Star band."
+  },
+  "stopped": {
+    "next_file": "process_L1000_0001",
+    "next_level": 1000,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

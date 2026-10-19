@@ -1,0 +1,261 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_L1000_0002",
+  "meta": {
+    "status": "published",
+    "title": "The Tower That Pushes Water",
+    "skill": "process",
+    "level": 1000,
+    "sequence": 2,
+    "skill_frame": "Follow a nonfiction process: track why water moves, and what starts and stops the pumps.",
+    "reader": {
+      "who": "High school students who read at about a 9th-grade level.",
+      "reading_level": 9,
+      "why_this_level": "One tower, one pump cycle, and one pipe. The steps are stated plainly and the causal chain is short: height makes pressure, pressure moves water, the level falls, the pumps restart. A Flesch-Kincaid check puts the passage near grade 9. This is a later lesson in the 1000-1099 Star band. The band is not a grade; the grade target is 9.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "The steps are the standard elevated-storage water supply described in public-domain civil engineering texts and current municipal utility explanations. Written fresh for this lesson.",
+      "text_status": "Written for this lesson at a controlled reading length. Not a verbatim excerpt.",
+      "avoided": "No children's story. No math. The passage does not explain pipe diameter or pump horsepower."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Cause and effect inside a cycle. The reader must explain why height replaces a pump, and why the pumps wait for a set point instead of starting at once."
+    },
+    "protocol_version": "0.1",
+    "authoring_exceptions": [
+      "Only one later process lesson exists in the 1000-1099 band, so a retry repeats this lesson instead of naming a file that does not exist."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Start with the water, or with the pumps. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A water tower is a tall tank on a column. It does not push water by itself. The height of the water does the work. Water at the top presses down on the water below it. That pressure moves water through the pipes under the street. The column is taller than the buildings around it. The higher the water sits, the more pressure it makes below.\n\nA gauge on the column shows how full the tank is. Pumps fill the tank at night, when most people are asleep and use little water. The pumps run until the tank is nearly full. Then they stop.",
+    "part_2": "During the morning, people shower, wash dishes, and run washing machines. Water leaves the tank and runs down the pipes. The level in the tank falls. The pressure at a kitchen tap stays fairly steady because the tank is high above the street.\n\nWhen the level drops to a set point, a float or a sensor sends a signal. The pumps start again.\n\nIf the pumps started the moment the level fell, they would run all day. Starting and stopping that often wears out the motor. The set point leaves room for the tank to empty and refill in one long run. On a hot day, more water leaves the tank. The level falls faster, so the pumps run longer and start again sooner.",
+    "part_3": "The tank also holds water for a fire. A fire engine can draw from a hydrant, and the hydrant is fed by the same pipes. The column keeps that water high, so it arrives with force. A hydrant near the tower can throw water farther than one far away.\n\nIf the power fails, the pumps stop. The tank still holds water. For a few hours, the pressure holds, and the taps still run. Then the pressure falls, and a crew checks the pumps. The tower is inspected twice a year. A crew climbs the column and checks the tank inside."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "skill": "process",
+      "difficulty": 1,
+      "type": "short_answer",
+      "show_part": "part_1",
+      "prompt": "Why does the tower not need a pump to push water to the houses?",
+      "tutor_only": {
+        "confirm": "Right. The height of the water presses down and makes the pressure.",
+        "correct_reason": "The passage says the height does the work: water at the top presses on the water below, and that pressure moves it through the pipes.",
+        "accept_ideas": [
+          "The height of the water presses down and creates pressure.",
+          "Gravity pulls the water down from the tank.",
+          "The tank is high above the street, so the water arrives with force."
+        ],
+        "one_idea_is_enough": true,
+        "if_they_say": [
+          {
+            "when": "They say the tank has a motor inside, or that a pump pushes water all day.",
+            "ask": "The passage says the height does the work. What does the water at the top do to the water below it?"
+          },
+          {
+            "when": "They say the pipes pull the water.",
+            "ask": "Pipes carry water. What pushes the water into them?"
+          }
+        ],
+        "help": [
+          "What sits at the top of the tower, and what does it press on?",
+          "Water at the top presses down. What does that pressing create in the pipes?"
+        ],
+        "tell": "The tank is high above the street. Water at the top presses down on the water below. That pressure moves it through the pipes.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q2",
+      "skill": "process",
+      "difficulty": 1,
+      "type": "cloze",
+      "show_part": "part_1",
+      "show_part_again": true,
+      "prompt": "Water at the top presses down on the water below it. That ____ moves water through the pipes under the street.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. Pressure moves the water.",
+        "correct_reason": "The paragraph names the result of the water pressing down, and the next paragraph repeats the word when it says the pressure at a tap stays steady.",
+        "accept_words": [
+          "pressure"
+        ],
+        "normalize": "Ignore case and punctuation. Accept a misspelling that clearly means pressure, such as presure or pressuer. Do not ask them to respell it. Height, weight, and force are different words.",
+        "reject_words": [
+          "height",
+          "weight",
+          "force"
+        ],
+        "if_they_say": [
+          {
+            "when": "They answer height, weight, or force.",
+            "ask": "Height is why the water presses down. What does that pressing create in the pipes?"
+          },
+          {
+            "when": "They answer water or gravity.",
+            "ask": "Water and gravity are part of the picture. What is the name for the push they create inside the pipe?"
+          }
+        ],
+        "help": [
+          "The sentence before says the water presses down. What does that pressing create?",
+          "The passage uses the same word again when it talks about a kitchen tap. It is not height and not weight."
+        ],
+        "tell": "The word is pressure. The height of the water creates pressure, and the pressure moves the water.",
+        "say_back": "use_word",
+        "word": "pressure",
+        "word_also": []
+      }
+    },
+    {
+      "id": "q3",
+      "skill": "process",
+      "difficulty": 2,
+      "type": "short_answer",
+      "show_part": "part_2",
+      "prompt": "Why do the pumps wait until the level drops to a set point?",
+      "tutor_only": {
+        "confirm": "Right. Waiting lets the pumps run in one long stretch instead of all day.",
+        "correct_reason": "The passage says starting and stopping often wears out the motor, and the set point leaves room for one long refill.",
+        "accept_ideas": [
+          "So the pumps run in one long stretch instead of starting and stopping.",
+          "Starting and stopping all day would wear out the motor.",
+          "So the pump does not run all day."
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They say the tank needs to be low, or the water needs room, without naming the pump or motor.",
+            "ask": "Room in the tank is one reason. What does waiting do for the pump itself?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the pumps are broken, or that the tank is empty.",
+            "ask": "The passage says starting and stopping often wears out the motor. How does waiting help the motor?"
+          },
+          {
+            "when": "They say the set point saves water.",
+            "ask": "The water is not lost; it goes to the houses. What does the set point save?"
+          }
+        ],
+        "help": [
+          "What happens to a motor that starts and stops all day?",
+          "The set point lets the tank empty and refill in one long run. Why is that better for the pump?"
+        ],
+        "tell": "Starting and stopping all day wears out the motor. Waiting for the set point lets the pumps run in one long stretch.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q4",
+      "skill": "process",
+      "difficulty": 2,
+      "type": "cloze",
+      "show_part": null,
+      "prompt": "The pressure at a tap stays steady ____ the tank is high above the street.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. Because gives the reason the pressure stays steady.",
+        "correct_reason": "The second half of the sentence is the reason for the first half, so the blank needs a word that joins a result to its cause.",
+        "accept_words": [
+          "because",
+          "since"
+        ],
+        "normalize": "Ignore case and punctuation. Accept because or since, including a misspelling that clearly means one of them, such as becuase. Do not ask them to respell it. Although, while, unless, and when are different words.",
+        "reject_words": [
+          "although",
+          "while",
+          "unless",
+          "when"
+        ],
+        "if_they_say": [
+          {
+            "when": "They answer although, while, unless, or when.",
+            "ask": "The height is the reason the pressure stays steady. Which word gives a reason?"
+          },
+          {
+            "when": "They answer and or so.",
+            "ask": "The second half explains the first half. Which word introduces an explanation?"
+          }
+        ],
+        "help": [
+          "The second half of the sentence explains the first half. Which word joins a result to its reason?",
+          "Read it as a question: why does the pressure stay steady? The answer is the word you need."
+        ],
+        "tell": "The word is because. The height of the tank is the reason the pressure stays steady.",
+        "say_back": "use_word",
+        "word": "because",
+        "word_also": [
+          "since"
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "skill": "process",
+      "difficulty": 3,
+      "type": "short_answer",
+      "show_part": "part_3",
+      "prompt": "The power fails at noon. What happens to the pumps, and what happens at the taps?",
+      "tutor_only": {
+        "confirm": "Right. The pumps stop, but the tank keeps the taps running for a few hours.",
+        "correct_reason": "The pumps need electricity. The tank does not: it still holds water, so the pressure holds for a few hours.",
+        "accept_ideas": [
+          "Both parts: the pumps stop, and the taps still run for a few hours from the tank.",
+          "The pumps stop because they need power, and the water in the tank keeps the pressure up for a while."
+        ],
+        "one_idea_is_enough": false,
+        "partial": [
+          {
+            "when": "They say the pumps stop but not what happens at the taps.",
+            "ask": "The pumps stop. What does the tank still do for the taps?"
+          },
+          {
+            "when": "They say the taps run but not what happened to the pumps.",
+            "ask": "You have the taps. What happened to the pumps when the power failed?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the water stops, or the taps run dry at once.",
+            "ask": "The passage says the tank still holds water. What does that mean for the taps?"
+          },
+          {
+            "when": "They say the tower falls or the tank empties.",
+            "ask": "Nothing in the passage says that. The pumps stop. What is still in the tank?"
+          }
+        ],
+        "help": [
+          "The pumps need power. The tank does not. What does the tank still hold?",
+          "The passage says the pressure holds for a few hours. What do the taps do in that time?"
+        ],
+        "tell": "The pumps stop because they need power. The tank still holds water, so the taps run for a few hours.",
+        "say_back": "own_words"
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_L1100_0001",
+    "next_level": 1100,
+    "next_means": "The process entry lesson for the 1100-1199 Star band.",
+    "student_line": "You handled most of this on your own. The next reading would be another process lesson at a higher Star band."
+  },
+  "retry": {
+    "next_file": "process_L1000_0002",
+    "next_level": 1000,
+    "next_means": "This same lesson, because it is the last process lesson authored in this band.",
+    "student_line": "You have the basic steps. The next reading would be this same lesson again."
+  },
+  "stopped": {
+    "next_file": "process_L1000_0002",
+    "next_level": 1000,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

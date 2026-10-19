@@ -1,0 +1,246 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_L1100_0001",
+  "meta": {
+    "status": "published",
+    "title": "What the Plant Removes",
+    "skill": "process",
+    "level": 1100,
+    "sequence": 1,
+    "skill_frame": "Follow a multi-stage process: track the stage order and what a failure changes.",
+    "reader": {
+      "who": "High school students who read at about a 10th-grade level.",
+      "reading_level": 10,
+      "why_this_level": "Four stages and a dependency chain: the screen protects the pumps, air feeds the bacteria, the bacteria make sludge, chlorine kills the remaining germs. The reader tracks the order of four stages and one failure path. A Flesch-Kincaid check puts the passage near grade 10. This is the entry lesson for the 1100-1199 Star band. The band is not a grade; the grade target is 10.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "The stages follow the standard municipal wastewater treatment sequence taught in public-domain engineering texts and described by current utility agencies. Written fresh for this lesson.",
+      "text_status": "Written for this lesson at a controlled reading length. Not a verbatim excerpt.",
+      "avoided": "No chemistry formulas, no bacteria species names, no local regulations. No claim that treated water is drinkable."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Multi-stage dependency. The reader must follow four stages in order and predict what a failure in one stage does to the stages after it."
+    },
+    "protocol_version": "0.1",
+    "authoring_exceptions": [
+      "The retry route drops one Star band to process_L1000_0002 because no later 1100-band process lesson exists yet."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Start with the stage that failed, then say what it does to the next stage. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Wastewater leaves a city through large pipes. It does not go straight to a river. It goes to a treatment plant, and the plant cleans it in stages.\n\nFirst, the water passes through a screen. The screen is a row of metal bars. Rags, wipes, and sticks catch on the bars and are pulled off. Nothing living is involved yet.\n\nNext, the water sits in a grit tank. Sand and small stones sink to the bottom. The water moves slowly, so the heavy material has time to fall.\n\nThen the water enters a large open tank. Pumps blow air into it. The air feeds bacteria that already live in the water. The bacteria eat the waste and multiply. This stage takes hours, not minutes. Without the air, those bacteria would die or stop working. The pumps run day and night.",
+    "part_2": "When the bacteria have done their work, the water moves to a clarifier. The tank is wide and still. Clumps of bacteria and waste settle to the bottom as sludge. A scraper pushes the sludge to a drain, and it is taken away.\n\nThe water at the top is now mostly clear, but it is not safe. It carries germs that are too small to see.\n\nThe last stage adds chlorine, or passes the water under ultraviolet light. Both kill most of the remaining germs. The water is tested before it leaves. Only then does it flow into a river or back into the ground. The plant keeps the sludge and treats it separately.",
+    "part_3": "Every stage depends on the one before it. If the screen is torn, wipes reach the pumps and jam them. If the air stops, the bacteria fail, and the clarifier cannot settle what they did not break down.\n\nA plant runs on measurements, not on looks. Workers test the water at several points. They check how much oxygen is in the aeration tank and how much waste is left.\n\nA plant also needs time. A sudden flood of water can push waste through before the bacteria can eat it. When that happens, the plant holds some water back and releases it more slowly.\n\nThe river gets the same water either way. What changes is how clean it is."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "skill": "process",
+      "difficulty": 1,
+      "type": "short_answer",
+      "show_part": "part_1",
+      "prompt": "Why does the plant screen the water before anything else?",
+      "tutor_only": {
+        "confirm": "Right. The screen catches wipes and sticks before they can reach the pumps.",
+        "correct_reason": "The screen is the first stage, and the failure example later says torn screens let wipes reach the pumps and jam them.",
+        "accept_ideas": [
+          "To catch rags, wipes, and sticks before they reach the machinery.",
+          "So the wipes and sticks do not jam the pumps.",
+          "To pull out the large objects first."
+        ],
+        "one_idea_is_enough": true,
+        "if_they_say": [
+          {
+            "when": "They say it removes germs or makes the water safe.",
+            "ask": "The passage says nothing living is involved in this stage. What does the screen catch?"
+          },
+          {
+            "when": "They say it removes sand and stones.",
+            "ask": "Sand and stones are removed in the next stage. What does the screen catch?"
+          }
+        ],
+        "help": [
+          "The screen is a row of metal bars. What catches on bars?",
+          "Look at the last part. What happens to the pumps when the screen is torn?"
+        ],
+        "tell": "The screen catches rags, wipes, and sticks. If they get past it, they reach the pumps and jam them.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q2",
+      "skill": "process",
+      "difficulty": 2,
+      "type": "cloze",
+      "show_part": "part_1",
+      "show_part_again": true,
+      "prompt": "Pumps blow air into the tank. The air feeds ____ that eat the waste and multiply.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The air feeds the bacteria.",
+        "correct_reason": "The paragraph says the air feeds something already living in the water that eats the waste and multiplies, and the next part calls it clumps of bacteria.",
+        "accept_words": [
+          "bacteria",
+          "bacterium"
+        ],
+        "normalize": "Ignore case and punctuation. Accept bacteria or bacterium, including a misspelling that clearly means the word, such as bactiera. Do not ask them to respell it. Oxygen, air, and sludge are different words.",
+        "reject_words": [
+          "oxygen",
+          "air",
+          "sludge"
+        ],
+        "if_they_say": [
+          {
+            "when": "They answer oxygen or air.",
+            "ask": "Oxygen is in the air. But what living thing does the air feed?"
+          },
+          {
+            "when": "They answer sludge.",
+            "ask": "Sludge is what settles later. What is eating the waste in this tank?"
+          }
+        ],
+        "help": [
+          "The passage says this thing already lives in the water, eats the waste, and multiplies. What is it?",
+          "The next part mentions 'clumps of bacteria and waste.' Which word fits the blank?"
+        ],
+        "tell": "The word is bacteria. The air feeds bacteria that eat the waste and multiply.",
+        "say_back": "use_word",
+        "word": "bacteria",
+        "word_also": [
+          "bacterium"
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "skill": "process",
+      "difficulty": 2,
+      "type": "short_answer",
+      "show_part": "part_1",
+      "prompt": "Why does the plant keep blowing air into the tank day and night?",
+      "tutor_only": {
+        "confirm": "Right. The bacteria need the air to keep eating the waste.",
+        "correct_reason": "The passage says the air feeds the bacteria and that without it they would die or stop working.",
+        "accept_ideas": [
+          "The bacteria need the air to eat the waste.",
+          "Without air the bacteria would die or stop working.",
+          "The air keeps the bacteria alive so they can break down the waste."
+        ],
+        "one_idea_is_enough": true,
+        "if_they_say": [
+          {
+            "when": "They say the air pushes the water through the tank.",
+            "ask": "The water moves on its own. What does the passage say the air does for the bacteria?"
+          },
+          {
+            "when": "They say the air makes the water clear.",
+            "ask": "Clearing happens later in the clarifier. What does the air do in this tank?"
+          }
+        ],
+        "help": [
+          "The air feeds something living. What happens to it without air?",
+          "The passage says the bacteria eat the waste. What do they need in order to keep eating?"
+        ],
+        "tell": "The air feeds the bacteria. Without it they would die or stop working, and the waste would not be eaten.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q4",
+      "skill": "process",
+      "difficulty": 3,
+      "type": "short_answer",
+      "show_part": "part_2",
+      "prompt": "The water at the top of the clarifier is clear. Why is it still not safe?",
+      "tutor_only": {
+        "confirm": "Right. Clear water can still carry germs too small to see.",
+        "correct_reason": "Settling removes clumps you can see. The passage says the clear water still carries germs that are too small to see, which is why chlorine or ultraviolet light comes last.",
+        "accept_ideas": [
+          "It still carries germs that are too small to see.",
+          "Clearing removes solids, not germs.",
+          "The germs are still in it until the last stage."
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They say it is not tested yet, without saying what is still in it.",
+            "ask": "Testing comes later. What is in the clear water that testing would find?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the sludge is still in it.",
+            "ask": "The sludge has settled to the bottom. What does the passage say the clear water carries?"
+          },
+          {
+            "when": "They say clear water is safe, so nothing is wrong.",
+            "ask": "Read the sentence after 'mostly clear.' What does it say the water carries?"
+          }
+        ],
+        "help": [
+          "Look at what the clarifier removes. Does it remove germs?",
+          "The passage says the water carries something too small to see. What is it?"
+        ],
+        "tell": "The clarifier removes clumps you can see. The clear water still carries germs, so chlorine or ultraviolet light comes last.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q5",
+      "skill": "process",
+      "difficulty": 3,
+      "type": "short_answer",
+      "show_part": "part_3",
+      "prompt": "A storm sends a flood of water to the plant. Why does the plant hold some water back?",
+      "tutor_only": {
+        "confirm": "Right. Holding water back gives the bacteria time to eat the waste.",
+        "correct_reason": "The passage says a flood can push waste through before the bacteria can eat it, so the plant holds water and releases it more slowly.",
+        "accept_ideas": [
+          "So the bacteria have time to eat the waste before the water leaves.",
+          "A flood would push waste through too fast for the bacteria.",
+          "To slow the water down so the stages can still work."
+        ],
+        "one_idea_is_enough": true,
+        "if_they_say": [
+          {
+            "when": "They say the plant is full and cannot hold more.",
+            "ask": "The plant holds water back on purpose. What does slowing the water protect?"
+          },
+          {
+            "when": "They say holding water makes the river cleaner by adding fresh water.",
+            "ask": "The river gets the same water either way. What changes when the water is released more slowly?"
+          }
+        ],
+        "help": [
+          "What does a flood do to the time the water spends with the bacteria?",
+          "The passage says the waste can pass through before the bacteria eat it. How does holding water change that?"
+        ],
+        "tell": "A flood moves water through too fast for the bacteria. Holding some back and releasing it slowly gives them time to eat the waste.",
+        "say_back": "own_words"
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_L1200_0001",
+    "next_level": 1200,
+    "next_means": "The process entry lesson for the 1200-1299 Star band.",
+    "student_line": "You handled most of this on your own. The next reading would be another process lesson at a higher Star band."
+  },
+  "retry": {
+    "next_file": "process_L1000_0002",
+    "next_level": 1000,
+    "next_means": "Another process lesson in the 1000-1099 Star band, for reteaching the same chain with fewer stages.",
+    "student_line": "The stage chain is still new. The next reading would be a process lesson in the band below."
+  },
+  "stopped": {
+    "next_file": "process_L1100_0001",
+    "next_level": 1100,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
