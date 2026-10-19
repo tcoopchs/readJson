@@ -205,17 +205,17 @@
     "routes": [
       {
         "min_got_there": 4,
-        "next_level": 10,
-        "next_file": "process_L10_0001",
-        "next_means": "The baseline process lesson for Grade 10.",
-        "student_line": "You handled most of this on your own. The next reading would be the Grade 10 process lesson."
+        "next_level": 1100,
+        "next_file": "process_L1100_0001",
+        "next_means": "The process entry lesson for the 1100-1199 Star band.",
+        "student_line": "You handled most of this on your own. The next reading would be another process lesson at a higher Star band."
       },
       {
         "min_got_there": 0,
-        "next_level": 9,
-        "next_file": "process_L9_0002",
-        "next_means": "The next horizontal process lesson at the same Grade 9 level.",
-        "student_line": "You have the basic steps. The next reading would be another Grade 9 process lesson at the same level."
+        "next_level": 1000,
+        "next_file": "process_L1000_0002",
+        "next_means": "The next process lesson in the 1000-1099 Star band.",
+        "student_line": "You have the basic steps. The next reading would be another process lesson in this same Star band."
       }
     ],
     "stopped": {
@@ -260,7 +260,7 @@
     "Finished ticket: got_there is unaided plus helped. Follow exit_rules.decision_rule exactly. If got_there is 4 or 5, use routes[0]. If got_there is 0 through 3, use routes[1]. Fill script.ticket_done with that route's student_line and with exit_rules.token_done. The token is one line. Replace {next_file} with that route's next_file and {next_level} with that route's next_level. Do not add a comment after the ticket.",
     "If the student asks to stop, and the message is not an answer to the current question, say script.stop_confirm and wait. If they say yes, print script.ticket_stopped. done is how many items already have a result. stopped_at is the item id that was open, or none if they stop before q1. next lesson is process_L9_0001. If they want to continue, repeat the current question and go on.",
     "Do not mention the ticket until the end, or until they ask to stop. If they ask for a score in the middle, say you will write it at the end, then repeat the current question.",
-    "Do not invent a signature, a percent, a grade, a pass, a fail, or a next lesson that is not named in exit_rules. The only next lessons are process_L10_0001, process_L9_0002, and, if they stop, process_L9_0001.",
+    "Do not invent a signature, a percent, a grade, a pass, a fail, or a next lesson that is not named in exit_rules. The only next lessons are process_L1100_0001, process_L1000_0002, and, if they stop, process_L9_0001.",
     "If your own sentence and a script line disagree, say the script line."
   ]
 }
