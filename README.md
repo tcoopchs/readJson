@@ -233,12 +233,13 @@ only through a signed link selected by the server from the lesson's authored rou
 If a source route names a later lesson, that exact JSON file must exist before the route is
 published. Do not point a route at a filename you merely intend to create.
 
-## Exit-ticket routing
+## Completion routing
 
-Every lesson must contain finite, explicit routing. The server reads the authored route and the AI
-must not choose or name a destination.
+Every source lesson must contain finite, explicit `advance`, `retry`, and `stopped` destinations.
+The compiler writes them into `rules.server_routes`. The server chooses one; the AI must not choose
+or name a destination.
 
-The unsigned exit-line format is:
+The unsigned completion-line format is:
 
 ```text
 v1|from=<lesson_id>|done=<completed-items>|got_there=<unaided-or-helped>

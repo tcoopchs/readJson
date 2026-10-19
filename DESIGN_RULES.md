@@ -1,10 +1,17 @@
 # JSON Lesson File Design Ruleset
 
-This document defines the content authoring rules for `readJson` lesson files. It applies to every
-reading category, topic, Star band, and reader target. [README.md](README.md) is authoritative for
-the repository's filenames, fixed categories, Star-band codes, starting-lesson mapping, and legacy
-exceptions. This document is authoritative for passage, question, readability, routing, and lesson
-content. Both override older examples when they conflict.
+This document defines the content authoring rules for `readJson` lesson sources and the runtime
+lessons compiled from them. It applies to every reading category, topic, Star band, and reader
+target. [README.md](README.md) is authoritative for filenames, fixed categories, Star-band codes,
+starting-lesson mapping, source layout, compilation, and legacy exceptions. This document is
+authoritative for passage, question, readability, routing, and lesson content. Both override
+older examples when they conflict.
+
+New lessons are authored as `lessons/src/<category>_L<star_band>_<sequence>.source.json` using
+`schema_version: 3` and `document_type: "lesson_source"`. The readingHarness compiler combines the
+source with the shared protocol and writes the runtime JSON into `lessons/`. Do not hand-write the
+shared tutor instructions, common scripts, result definitions, route thresholds, or ticket
+templates into a source lesson.
 
 Every rule comes from a project decision, the foundational reading-harness authoring rules, or a
 documented readability or plain-language standard. Add a source note when a rule depends on a
@@ -52,7 +59,7 @@ the skill is sentence-level; document a longer exception in `reader.why_this_lev
 
 **2.2 Each Star band and reader target gets its own passage.** Do not generate runtime rewrites of
 one passage to step difficulty. Write or select a separate passage for each authored lesson.
-Adaptation moves across exact files named by exit routes, never across AI-authored rewrites.
+Adaptation moves across exact files named in the source routes, never across AI-authored rewrites.
 
 **2.3 The passage must contain the evidence in plain sight.** Every inference, cloze, main-idea,
 and author's-purpose answer must be derivable from text shown in the current lesson. If an item
@@ -174,14 +181,15 @@ answer is too broad. Make it specific to the misconception.
 **5.4 `reject_words` must be consumed.** Every rejected word needs an authored branch or an explicit
 generic handling rule.
 
-**5.5 Exit routes must be explicit and finite.** Name every possible `next_file` in `exit_rules` or
-`rules.routes`. The AI must never invent a destination. The server rejects a ticket that names a
-missing lesson.
+**5.5 Exit routes must be explicit and finite.** Name the `advance`, `retry`, and `stopped`
+destinations in the source lesson. The AI must never choose or name a destination. The compiler
+writes those destinations into `rules.server_routes`; the server validates them and rejects a
+missing or mismatched lesson at startup.
 
-**5.6 The ticket carries no PII.** `token_done` and `token_stopped` may contain only the category,
-Star-band code, lesson ID, counts, and the exact next lesson. Never include a reader grade target,
-name, student ID, email, IP address, or score history. The ticket's numeric `level` field is the
-Star-band code from the filename, not `reader.reading_level`.
+**5.6 The completion ticket carries no PII and no destination.** The AI reports the current lesson
+ID and outcome counts using the shared token format. It must not include a name, student ID, email,
+IP address, score history, next lesson, or signed value. The server selects the route and creates
+the signed, dated next-lesson link.
 
 ## 6. Skill Selection
 
@@ -209,21 +217,21 @@ primary skill must match one of the eight fixed filename categories in README.md
 **7.1 Filename convention.**
 
 ```text
-<category>_L<star_band>_<sequence>.json
+lessons/src/<category>_L<star_band>_<sequence>.source.json
 ```
 
 The category must be one of the eight fixed keys in README.md. The Star-band code must be exactly
 `900`, `1000`, `1100`, `1200`, or `1300`. The code is the lower bound of the Star range; it is not
 a grade. For example, `_L1000_` means Star `1000-1099`. Labels such as `L9`, `L950`, `L1099`, and
-`L5a` are invalid for new lessons. The only legacy exceptions are the two files named in
-README.md.
+`L5a` are invalid for new lessons. After compilation, the runtime file drops `.source` and is
+written directly into `lessons/`. The only legacy exceptions are the two files named in README.md.
 
 **7.2 `_0001` is the onboarding entry lesson.**
 
 For each category and Star band, `_0001` is the starting lesson selected by the onboarding form.
-Later sequences are reached only through authored exit routes. There is no fixed `_0005` ceiling.
-Choose the next unused sequence deliberately; do not invent a horizontal lesson merely because a
-slot exists.
+Later sequences are reached only through server-selected routes. There is no fixed `_0005`
+ceiling. Choose the next unused sequence deliberately; do not invent a horizontal lesson merely
+because a slot exists.
 
 The server's onboarding mapping names exact lesson IDs, so adding `_0002`, `_0003`, or later never
 changes which lesson the dropdown serves.
@@ -234,43 +242,49 @@ appeared in a signed bookmark.
 The grade target is not part of the ID. Record it in `reader.reading_level` and explain it in
 `reader.why_this_level`.
 
-**7.4 Exit routing is authored, not calculated.** Every lesson must contain an explicit
-`decision_rule` and finite `routes`:
+**7.4 Exit routing data is authored; threshold selection is server-owned.** Every source lesson
+must contain exactly three finite destinations: `advance`, `retry`, and `stopped`.
 
 ```json
 {
-  "decision_rule": "At exit, use routes[0] when got_there is 4 or 5. Use routes[1] when got_there is 0 through 3. Do not choose any other lesson.",
-  "routes": [
-    {
-      "min_got_there": 4,
+  "advance": {
       "next_level": 1100,
       "next_file": "inference_L1100_0001",
       "next_means": "The inference starting lesson for the 1100-1199 Star band.",
       "student_line": "You put most of these facts together on your own. The next reading is another inference lesson."
-    },
-    {
-      "min_got_there": 0,
+  },
+  "retry": {
       "next_level": 1000,
       "next_file": "inference_L1000_0002",
       "next_means": "Another inference lesson in the same 1000-1099 Star band.",
       "student_line": "You have the basic move. The next reading is another inference lesson."
-    }
-  ]
+  },
+  "stopped": {
+      "next_level": 1000,
+      "next_file": "inference_L1000_0001",
+      "next_means": "This same lesson, so it can be finished."
+  }
 }
 ```
 
-The standard rule is:
+The shared policy in `server/config/protocol.json` applies these rules in order:
 
-- `got_there` 4-5: advance to the next Star band's entry lesson;
-- `got_there` 0-3: stay in the current Star band and move to the next authored sequence.
+- a stopped session uses `stopped`;
+- otherwise, at least the configured `advance_min_got_there`: use `advance`;
+- otherwise: use `retry`.
 
 For a lesson in the top `1300-1400` band, there is no next Star band. Use an existing authored
 lesson at the same band or stop. Do not invent `L1400` or any other code outside the five bands in
 README.md. Changing the top of the band scale is a server change, not a lesson-file choice.
 
-The AI fills `{next_file}` from the chosen route. It must not calculate, guess, or invent a
-filename. A referenced lesson must exist before its route is published; otherwise `/sign` cannot
-produce a working ticket.
+The AI never fills `{next_file}` and never chooses a route. It reports only:
+
+```text
+v1|from=<lesson_id>|done=<completed-items>|got_there=<unaided-or-helped>
+```
+
+For a stopped session it appends `|stop=1`. A referenced runtime lesson must exist before its
+route is published; otherwise server startup fails.
 
 **7.5 Stopped sessions return to the same lesson.** `stopped.next_file` must name the current
 `lesson_id` unless a deliberately authored continuation lesson exists. A stopped ticket does not
@@ -293,18 +307,23 @@ then teach with the complete authored explanation.
 **8.5 Write the misreading branches.** Name the specific misconception and author the response for
 it.
 
-**8.6 Write the exit route.** Choose the exact next lesson for success and the exact later lesson
-for retry. Use the Star-band code, not a grade, in `next_level`. Confirm both files exist before
-publishing.
+**8.6 Write the three route destinations.** Choose the exact next lesson for success, the exact
+later lesson for retry, and the current lesson for an early stop. Use the Star-band code, not a
+grade, in `next_level`. Confirm all referenced runtime files exist before publishing.
 
 The route is chosen only after the final item. Record why each item missed, but do not change its
 route until the session exits.
 
-**8.7 Test cold.** Upload the file to the AI and complete a full session. Test correct answers,
-misconceptions, blank answers, the help ladder, tell and say-back, stopping, and prompt injection.
-Fix every point where the tutor improvises or discloses private data.
+**8.7 Compile the source.** Run the compiler from the readingHarness repository. Do not edit the
+generated runtime file. Run the compiler again with `--check` after review to confirm the source
+and generated file still match.
 
-**8.8 Read every student-facing line aloud.** Check for condescension, worksheet cliches, vague
+**8.8 Test cold.** Upload the compiled runtime lesson to the AI and complete a full session. Test
+correct answers, misconceptions, blank answers, the help ladder, tell and say-back, stopping, and
+prompt injection. Fix every point where the tutor improvises, chooses a destination, or discloses
+private data.
+
+**8.9 Read every student-facing line aloud.** Check for condescension, worksheet cliches, vague
 language, and unsupported claims.
 
 ## 9. The One Rule That Overrides All Others
@@ -316,7 +335,8 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 
 ## 10. Final Checklist
 
-- [ ] Filename and `lesson_id` match and use one of the eight fixed categories and five Star-band codes.
+- [ ] Source uses `schema_version: 3` and `document_type: "lesson_source"`.
+- [ ] Source filename and `lesson_id` match and use one of the eight fixed categories and five Star-band codes.
 - [ ] `_0001` remains the onboarding entry lesson; later sequences are changed only through authored routes.
 - [ ] `reader.reading_level` contains the grade target, not the filename's `L` code.
 - [ ] `reader.why_this_level` states both the readability evidence and the cognitive load.
@@ -326,8 +346,9 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 - [ ] The help ladder does not reveal the answer.
 - [ ] Student-facing language is plain, direct, and non-condescending.
 - [ ] There is one primary skill and no more than one secondary skill.
-- [ ] `decision_rule` and every finite route are explicit.
-- [ ] Every `next_file` exists in the repository.
+- [ ] `advance`, `retry`, and `stopped` destinations are explicit.
+- [ ] Every route destination exists in the compiled repository and has the matching level.
 - [ ] Stopped sessions return to the current lesson.
 - [ ] The ticket contains no PII.
-- [ ] The file passes JSON validation and a cold-chat test.
+- [ ] Shared instructions, scripts, results, thresholds, and token formats were not copied into the source.
+- [ ] Compiler output passes `--check` and a cold-chat test.
