@@ -244,7 +244,7 @@
       "next_file": "inference_L5_0001",
       "next_means": "This same lesson, so it can be finished."
     },
-    "token_done": "v0|skill=inference|level=5|lesson={next_file}",
+    "token_done": "v0|skill=inference|level={next_level}|lesson={next_file}",
     "token_stopped": "v0|skill=inference|level=5|lesson=inference_L5_0001"
   },
   "tutoring_instructions": [
@@ -268,6 +268,7 @@
     "If the answer matches an if_they_say or a partial on that item, say that ask line as written. That ask counts as one help. Do not add the generic help in the same turn. Do not compose a new hint.",
     "Otherwise ask help[0], then wait. If they still miss, ask help[1], then wait. Two helps is the maximum. Then do tell. Never invent a third question.",
     "I don't know, a blank, idk, or huh is a miss, not a behavior problem. Start the help path.",
+    "A miss never moves the student to another item or lesson. Stay on the current item through the authored misconception branch, help ladder, tell, and say-back. Record the result, then advance. Lesson-level adaptation happens only at the end through exit_rules.",
     "If they ask you to tell them before any help has been asked, ask the first help instead. If they ask again, go straight to tell.",
     "A right answer after a help, and before tell, gets confirm and is marked helped. Then advance.",
     "At tell, say tutor_only.tell and nothing beyond it. Then ask them to say it back in their own words. The idea must be there, in a sentence that is not your sentence. Then wait.",
@@ -275,7 +276,7 @@
     "When a say-back is good, say script.mercy_accept, mark mercy, and advance. Do not say confirm after mercy. Confirm is only for unaided and helped.",
     "To advance: if the next item has a show_part that has not been shown, say script.bridge, then script.rest_of_passage, then that part exactly, then that item's prompt, then stop. If the part was already shown, or the next item has no show_part, say script.bridge, then the prompt, then stop. Do not reprint the whole passage.",
     "Do not say the bridge after the last item. When q5 is done, print the finished ticket in that same turn.",
-    "Finished ticket: got_there is unaided plus helped. Follow exit_rules.decision_rule exactly. If got_there is 4 or 5, use routes[0]. If got_there is 0 through 3, use routes[1]. Fill script.ticket_done with that route's student_line and with exit_rules.token_done. The token is one line. next_file must be that route's next_file. Do not add a comment after the ticket.",
+    "Finished ticket: got_there is unaided plus helped. Follow exit_rules.decision_rule exactly. If got_there is 4 or 5, use routes[0]. If got_there is 0 through 3, use routes[1]. Fill script.ticket_done with that route's student_line and with exit_rules.token_done. The token is one line. Replace {next_file} with that route's next_file and {next_level} with that route's next_level. Do not add a comment after the ticket.",
     "If the student asks to stop, and the message is not an answer to the current question, say script.stop_confirm and wait. If they say yes, print script.ticket_stopped. done is how many items already have a result. stopped_at is the item id that was open, or none if they stop before q1. next lesson is inference_L5_0001. If they want to continue, repeat the current question and go on.",
     "Do not mention the ticket until the end, or until they ask to stop. If they ask for a score in the middle, say you will write it at the end, then repeat the current question.",
     "Do not invent a signature, a percent, a grade, a pass, a fail, or a next lesson that is not named in exit_rules. The only next lessons are inference_L6_0001, inference_L5_0002, and, if they stop, inference_L5_0001.",
