@@ -13,11 +13,13 @@ Keep all published lessons directly inside one flat directory:
 ```text
 readJson/
 |-- lessons/
-|   |-- inference_L1_0001.json
-|   |-- inference_L1_0002.json
-|   |-- inference_L2_0001.json
-|   |-- vocab_L1_0001.json
-|   `-- vocab_L1_0002.json
+|   |-- inference_L4_0001.json
+|   |-- inference_L4_0002.json
+|   |-- inference_L4_0003.json
+|   |-- inference_L4_0004.json
+|   |-- inference_L4_0005.json
+|   |-- inference_L5_0001.json
+|   `-- process_L9_0001.json
 |-- drafts/                 # Optional; never served by the server
 |-- README.md
 `-- LICENSE
@@ -44,61 +46,92 @@ Every published lesson must use this exact pattern:
 Examples:
 
 ```text
-inference_L1_0001.json
-inference_L1_0002.json
-vocab_L2_0001.json
-connotation_L3_0001.json
-denotation_L3_0001.json
+inference_L4_0001.json
+inference_L4_0002.json
+inference_L5_0001.json
+connotation_L6_0001.json
+denotation_L9_0001.json
 ```
 
 - `<category>` is a lowercase key configured on the server, such as `inference` or `vocab`.
-- `<level>` is a positive whole number. It must be numeric, so `L1` and `L2` are valid while
-  `L1a` and `L1b` are not.
+- `<level>` is a whole-number grade band. It must be numeric, so `L4` and `L9` are valid while
+  `L4a` and `L4b` are not.
 - `<sequence>` is a positive whole number and should be zero-padded for readability.
 - Levels and sequences are sorted numerically. Sequence `0010` comes after `0009`.
-- A category may have as many lessons and levels as needed.
+- Grade 4 is the baseline band. Grades 5 through 12 continue with the same `L` numbers.
+- A category may have as many levels as needed.
 
 The JSON file's `lesson_id` must match the filename without `.json`:
 
 ```json
 {
-  "lesson_id": "vocab_L1_0001"
+  "lesson_id": "vocab_L4_0001"
 }
 ```
 
 Do not rename a lesson after its ID has appeared in a signed student bookmark.
 
-## Core and remedial lessons
+## Grade and horizontal boundaries
+
+The numeric level is the grade band. Grade 4 is the baseline. Every category at every level uses
+exactly five sequence slots:
+
+| Sequence | Purpose |
+| --- | --- |
+| `0001` | Baseline lesson for the grade band |
+| `0002` | Horizontal variant A |
+| `0003` | Horizontal variant B |
+| `0004` | Horizontal variant C |
+| `0005` | Horizontal variant D |
+
+The last horizontal at a grade band is `_0005`. The next grade band starts with a new `_0001`:
+
+```text
+inference_L4_0001.json    # Grade 4 baseline
+inference_L4_0002.json    # Grade 4 horizontal A
+inference_L4_0003.json    # Grade 4 horizontal B
+inference_L4_0004.json    # Grade 4 horizontal C
+inference_L4_0005.json    # Grade 4 horizontal D
+inference_L5_0001.json    # Grade 5 baseline
+```
+
+Do not create `_0006` or later within a grade band. A student who needs another attempt after
+`_0005` stays at that level until the teacher or an authored route moves them, or advances to the
+next grade band. The server validates filenames but does not infer or store a student's position
+in the sequence.
+
+The current test lessons are:
+
+- `lessons/inference_L5_0001.json` at Grade 5.
+- `lessons/process_L9_0001.json` at Grade 9.
+
+## Core and horizontal lessons
 
 Use sequence numbers to distinguish a core lesson from reteaching or horizontal variants at the
 same level. The level stays numeric.
 
 ```text
 lessons/
-|-- vocab_L1_0001.json    # core lesson
-|-- vocab_L1_0002.json    # reteach variant A
-|-- vocab_L1_0003.json    # reteach variant B
-|-- vocab_L1_0004.json    # reteach variant C
-|-- vocab_L1_0005.json    # reteach variant D
-`-- vocab_L2_0001.json    # next level
+|-- vocab_L4_0001.json    # Grade 4 baseline
+|-- vocab_L4_0002.json    # Grade 4 horizontal A
+|-- vocab_L4_0003.json    # Grade 4 horizontal B
+|-- vocab_L4_0004.json    # Grade 4 horizontal C
+|-- vocab_L4_0005.json    # Grade 4 horizontal D
+`-- vocab_L5_0001.json    # Grade 5 baseline
 ```
 
-`/start?skill=vocab&level=1` opens `vocab_L1_0001.json` because it has the lowest numeric sequence
+`/start?skill=vocab&level=4` opens `vocab_L4_0001.json` because it has the lowest numeric sequence
 at that category and level. A lesson's authored exit rules choose the next exact lesson:
 
-- A student who is ready can be routed to `vocab_L2_0001`.
-- A student who needs more practice can be routed to `vocab_L1_0002`,
-  `vocab_L1_0003`, or another Level 1 variant.
+- A student who is ready can be routed to `vocab_L5_0001`.
+- A student who needs more practice can be routed to `vocab_L4_0002`,
+  `vocab_L4_0003`, `vocab_L4_0004`, or `vocab_L4_0005`.
 
 This keeps the student at the same level without advancing them. The AI applies the lesson's exit
 rules; the server verifies that the named lesson exists and enforces the pacing gate.
 
-For a simple starting convention:
-
-- `_0001` is the core entry lesson.
-- `_0002` and later are alternate or remedial lessons at the same level.
-
-Document any more detailed sequence convention here as the lesson bank grows.
+The five-slot boundary applies to every level. If a category needs more horizontal attempts at
+one grade band, change this policy deliberately rather than overloading `_0006` and beyond.
 
 ## Adding a category
 
@@ -135,7 +168,7 @@ Each lesson's `exit_rules` or schema-v2 `rules.routes` must name an exact destin
 this repository. The AI prints an unsigned exit line for the selected destination:
 
 ```text
-v0|skill=vocab|level=1|lesson=vocab_L1_0002
+v0|skill=vocab|level=4|lesson=vocab_L4_0002
 ```
 
 The student submits that line to the server. The server checks that the category, level, and
