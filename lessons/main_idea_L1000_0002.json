@@ -57,7 +57,8 @@
         "accept_ideas": [
           "In the oceans, and it is salty or saline.",
           "Most of it is salt water in the oceans.",
-          "The oceans hold over 96 percent of Earth's water."
+          "The oceans hold over 96 percent of Earth's water.",
+          "Mostly in the ocean; it's salty."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Accept 'sea' for oceans and 'salty' for saline.",
@@ -104,7 +105,8 @@
           "Most of Earth's water is salt water, and only a small share is fresh.",
           "Earth has a lot of water, but very little of it is freshwater.",
           "Most water is saline or locked in ice and underground.",
-          "Only 2.5 percent of Earth's water is freshwater."
+          "Only 2.5 percent of Earth's water is freshwater.",
+          "There's plenty of water, but hardly any is fresh."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Accept 'salty' for saline and 'small part' for small share.",
@@ -194,7 +196,8 @@
           "Rivers and lakes supply most of the water people use every day.",
           "People depend on rivers and lakes for most of their water.",
           "Rivers are small in amount, but people get a large portion of their water from them.",
-          "They are important because people can reach and use that surface water."
+          "They are important because people can reach and use that surface water.",
+          "It's one of the few places people can get fresh water."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Accept 'people' or 'humans' and 'use' or 'depend on'.",
@@ -243,7 +246,8 @@
           "Earth has a lot of water, but very little is fresh and available.",
           "Most of Earth's water is salt, ice, or underground, so people depend on a tiny share.",
           "Only a small share of Earth's water is freshwater, and people rely on rivers and lakes.",
-          "The passage explains how little of Earth's water people can actually use."
+          "The passage explains how little of Earth's water people can actually use.",
+          "Earth has lots of water, but people can use very little of it."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Accept 'salty' for saline and 'small part' for small share.",
@@ -304,6 +308,7 @@
     "Read past spelling before you score. If you can tell the word they meant, treat the answer as that word. A misspelling is not a miss and not a partial. Do not ask them to spell it again. Apply an item's normalize field before scoring, and treat the meanings named there as the same answer. You may use the passage's wording in your confirm.",
     "Grade only the job written in the prompt. Do not require a fact, a person, or a result the prompt did not ask about. If the student says the question left a fact out, check the prompt. If the prompt did not state that fact, agree in one sentence and ask the job the prompt actually asks. Do not insist the fact was in the question.",
     "Before scoring a miss on a short-answer item, apply the evidence-not-wording test. The item may store core_idea and not_required. Accept a paraphrase, a fragment, or rough wording that expresses core_idea and is supported by the passage. Do not require the exact wording of accept_ideas, and do not require a detail listed in not_required. If the answer could express the core idea but is ambiguous, say script.clarify and wait. This unclear state is not a miss and not a help. If the answer gives a different idea, contradicts the passage, or is irrelevant, use the authored partial or if_they_say branch.",
+    "On short-answer items, a synonym or paraphrase that preserves core_idea is the same answer, not a new accepted answer. Do not require the passage's exact words. This does not apply to cloze or multiple_choice; those use their stored words or options. A synonym may not change quantity, negation, sequence, cause, or comparison.",
     "For any cloze item, show that item's exact cloze sentence again, with the blank unchanged, at the start of every if_they_say, partial, or help turn. Then ask the specified follow-up. Do not reprint the whole passage. This repeat does not count as an extra help.",
     "If the answer matches an if_they_say or a partial on that item, say that ask line as written. That ask counts as one help. Do not add the generic help in the same turn. Do not compose a new hint.",
     "Otherwise ask help[0], then wait. If they still miss, ask help[1], then wait. Two helps is the maximum. Then do tell. Never invent a third question.",

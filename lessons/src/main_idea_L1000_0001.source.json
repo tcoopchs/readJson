@@ -58,7 +58,8 @@
         "accept_ideas": [
           "It absorbs sunlight and turns it into food and energy for the tree.",
           "It takes in sunlight and makes food for the tree.",
-          "It uses sunlight to give the tree energy."
+          "It uses sunlight to give the tree energy.",
+          "It takes in sunlight and makes food and energy."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Accept 'takes in' for absorbs and 'makes' for turns into.",
@@ -106,7 +107,8 @@
           "How leaves help the tree and why the tree drops them in the fall.",
           "What chlorophyll does and why the tree breaks it down when winter comes.",
           "Leaves make food for the tree, but the tree saves energy by dropping them.",
-          "The tree gets ready for winter by taking apart the chlorophyll in its leaves."
+          "The tree gets ready for winter by taking apart the chlorophyll in its leaves.",
+          "What leaves do and why the tree lets them go."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and small wording differences. Accept 'fall' or 'autumn.'",
@@ -194,7 +196,8 @@
           "Chlorophyll breaks down and the other pigments become visible.",
           "Each tree has a different mix of pigments, so the colors differ.",
           "The green chlorophyll fades and the colors that were hidden show through.",
-          "The tree breaks down chlorophyll, which lets other pigments show."
+          "The tree breaks down chlorophyll, which lets other pigments show.",
+          "The green fades and the hidden colors show."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Accept 'fades' or 'disappears' for breaks down.",
@@ -243,7 +246,8 @@
           "Why leaves change color and fall in the fall.",
           "How trees get ready for winter and why their leaves change color.",
           "Trees save energy by dropping leaves, and the colors show when chlorophyll breaks down.",
-          "The reason leaves turn different colors in autumn."
+          "The reason leaves turn different colors in autumn.",
+          "Why leaves turn color in autumn."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Accept 'fall' or 'autumn.' Accept 'why leaves change color' without the falling detail.",

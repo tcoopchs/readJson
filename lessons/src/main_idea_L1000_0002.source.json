@@ -59,7 +59,8 @@
         "accept_ideas": [
           "In the oceans, and it is salty or saline.",
           "Most of it is salt water in the oceans.",
-          "The oceans hold over 96 percent of Earth's water."
+          "The oceans hold over 96 percent of Earth's water.",
+          "Mostly in the ocean; it's salty."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Accept 'sea' for oceans and 'salty' for saline.",
@@ -106,7 +107,8 @@
           "Most of Earth's water is salt water, and only a small share is fresh.",
           "Earth has a lot of water, but very little of it is freshwater.",
           "Most water is saline or locked in ice and underground.",
-          "Only 2.5 percent of Earth's water is freshwater."
+          "Only 2.5 percent of Earth's water is freshwater.",
+          "There's plenty of water, but hardly any is fresh."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Accept 'salty' for saline and 'small part' for small share.",
@@ -196,7 +198,8 @@
           "Rivers and lakes supply most of the water people use every day.",
           "People depend on rivers and lakes for most of their water.",
           "Rivers are small in amount, but people get a large portion of their water from them.",
-          "They are important because people can reach and use that surface water."
+          "They are important because people can reach and use that surface water.",
+          "It's one of the few places people can get fresh water."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Accept 'people' or 'humans' and 'use' or 'depend on'.",
@@ -245,7 +248,8 @@
           "Earth has a lot of water, but very little is fresh and available.",
           "Most of Earth's water is salt, ice, or underground, so people depend on a tiny share.",
           "Only a small share of Earth's water is freshwater, and people rely on rivers and lakes.",
-          "The passage explains how little of Earth's water people can actually use."
+          "The passage explains how little of Earth's water people can actually use.",
+          "Earth has lots of water, but people can use very little of it."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Accept 'salty' for saline and 'small part' for small share.",

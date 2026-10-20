@@ -58,7 +58,8 @@
         "accept_ideas": [
           "To catch rags, wipes, and sticks before they reach the machinery.",
           "So the wipes and sticks do not jam the pumps.",
-          "To pull out the large objects first."
+          "To pull out the large objects first.",
+          "To pull out the big stuff before it jams the machines."
         ],
         "one_idea_is_enough": true,
         "if_they_say": [
@@ -140,7 +141,8 @@
         "accept_ideas": [
           "The bacteria need the air to eat the waste.",
           "Without air the bacteria would die or stop working.",
-          "The air keeps the bacteria alive so they can break down the waste."
+          "The air keeps the bacteria alive so they can break down the waste.",
+          "The bacteria need air to break down the waste."
         ],
         "one_idea_is_enough": true,
         "if_they_say": [
@@ -179,7 +181,8 @@
         "accept_ideas": [
           "It still carries germs that are too small to see.",
           "Clearing removes solids, not germs.",
-          "The germs are still in it until the last stage."
+          "The germs are still in it until the last stage.",
+          "It's clear, but germs are still in it."
         ],
         "one_idea_is_enough": true,
         "partial": [
@@ -224,7 +227,8 @@
         "accept_ideas": [
           "So the bacteria have time to eat the waste before the water leaves.",
           "A flood would push waste through too fast for the bacteria.",
-          "To slow the water down so the stages can still work."
+          "To slow the water down so the stages can still work.",
+          "So the bacteria have time to break down the waste."
         ],
         "one_idea_is_enough": true,
         "if_they_say": [

@@ -57,7 +57,8 @@
         ],
         "accept_ideas": [
           "The food is warm, soft, or no longer cold.",
-          "The milk is warm, or the ice cream is soft, or the lettuce is soft and wet."
+          "The milk is warm, or the ice cream is soft, or the lettuce is soft and wet.",
+          "It isn't cold anymore; it feels warm or soft."
         ],
         "one_idea_is_enough": true,
         "partial": [
@@ -101,7 +102,8 @@
         ],
         "accept_ideas": [
           "To tell the manager, or the next person, that the food is warm or soft.",
-          "To report the problem in the cooler so someone else will see it."
+          "To report the problem in the cooler so someone else will see it.",
+          "To let someone know the food isn't cold."
         ],
         "one_idea_is_enough": true,
         "partial": [
@@ -146,7 +148,8 @@
         ],
         "accept_ideas": [
           "The food that should be cold is warm, so she cannot serve it.",
-          "The diner stays closed because of the warm food in the cooler."
+          "The diner stays closed because of the warm food in the cooler.",
+          "She can't serve food that isn't cold."
         ],
         "one_idea_is_enough": true,
         "partial": [
@@ -187,7 +190,8 @@
         "accept_ideas": [
           "The cooler or freezer needs to be fixed or checked.",
           "The food went warm, so the cooler is not doing its job.",
-          "Someone needs to work on the cooler before the diner can cook."
+          "Someone needs to work on the cooler before the diner can cook.",
+          "The cooler needs fixing."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Treat freezer, freezere, frezer, and freeze as the cooler before scoring. 'to fix the freezere' is a full answer to this item. Do not make them trade freezer for cooler.",
@@ -229,7 +233,8 @@
         "accept_ideas": [
           "He opens the same cooler Mia opened, the one with the warm food.",
           "He works on the cooler or the freezer, not the grill or the front door.",
-          "Mia's note was about that cooler, and he goes straight to it."
+          "Mia's note was about that cooler, and he goes straight to it.",
+          "He's working on the same cooler she checked."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Treat freezer, freezere, frezer, and freeze as the cooler before scoring. A misspelling such as freezere still names the freezer.",

@@ -56,7 +56,8 @@
         "accept_ideas": [
           "It absorbs sunlight and turns it into food and energy for the tree.",
           "It takes in sunlight and makes food for the tree.",
-          "It uses sunlight to give the tree energy."
+          "It uses sunlight to give the tree energy.",
+          "It takes in sunlight and makes food and energy."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Accept 'takes in' for absorbs and 'makes' for turns into.",
@@ -104,7 +105,8 @@
           "How leaves help the tree and why the tree drops them in the fall.",
           "What chlorophyll does and why the tree breaks it down when winter comes.",
           "Leaves make food for the tree, but the tree saves energy by dropping them.",
-          "The tree gets ready for winter by taking apart the chlorophyll in its leaves."
+          "The tree gets ready for winter by taking apart the chlorophyll in its leaves.",
+          "What leaves do and why the tree lets them go."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and small wording differences. Accept 'fall' or 'autumn.'",
@@ -192,7 +194,8 @@
           "Chlorophyll breaks down and the other pigments become visible.",
           "Each tree has a different mix of pigments, so the colors differ.",
           "The green chlorophyll fades and the colors that were hidden show through.",
-          "The tree breaks down chlorophyll, which lets other pigments show."
+          "The tree breaks down chlorophyll, which lets other pigments show.",
+          "The green fades and the hidden colors show."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Accept 'fades' or 'disappears' for breaks down.",
@@ -241,7 +244,8 @@
           "Why leaves change color and fall in the fall.",
           "How trees get ready for winter and why their leaves change color.",
           "Trees save energy by dropping leaves, and the colors show when chlorophyll breaks down.",
-          "The reason leaves turn different colors in autumn."
+          "The reason leaves turn different colors in autumn.",
+          "Why leaves turn color in autumn."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Accept 'fall' or 'autumn.' Accept 'why leaves change color' without the falling detail.",
@@ -302,6 +306,7 @@
     "Read past spelling before you score. If you can tell the word they meant, treat the answer as that word. A misspelling is not a miss and not a partial. Do not ask them to spell it again. Apply an item's normalize field before scoring, and treat the meanings named there as the same answer. You may use the passage's wording in your confirm.",
     "Grade only the job written in the prompt. Do not require a fact, a person, or a result the prompt did not ask about. If the student says the question left a fact out, check the prompt. If the prompt did not state that fact, agree in one sentence and ask the job the prompt actually asks. Do not insist the fact was in the question.",
     "Before scoring a miss on a short-answer item, apply the evidence-not-wording test. The item may store core_idea and not_required. Accept a paraphrase, a fragment, or rough wording that expresses core_idea and is supported by the passage. Do not require the exact wording of accept_ideas, and do not require a detail listed in not_required. If the answer could express the core idea but is ambiguous, say script.clarify and wait. This unclear state is not a miss and not a help. If the answer gives a different idea, contradicts the passage, or is irrelevant, use the authored partial or if_they_say branch.",
+    "On short-answer items, a synonym or paraphrase that preserves core_idea is the same answer, not a new accepted answer. Do not require the passage's exact words. This does not apply to cloze or multiple_choice; those use their stored words or options. A synonym may not change quantity, negation, sequence, cause, or comparison.",
     "For any cloze item, show that item's exact cloze sentence again, with the blank unchanged, at the start of every if_they_say, partial, or help turn. Then ask the specified follow-up. Do not reprint the whole passage. This repeat does not count as an extra help.",
     "If the answer matches an if_they_say or a partial on that item, say that ask line as written. That ask counts as one help. Do not add the generic help in the same turn. Do not compose a new hint.",
     "Otherwise ask help[0], then wait. If they still miss, ask help[1], then wait. Two helps is the maximum. Then do tell. Never invent a third question.",

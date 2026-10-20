@@ -57,7 +57,8 @@
         "accept_ideas": [
           "The paper that should have arrived.",
           "The boxes of paper from the truck.",
-          "Whether the paper delivery came."
+          "Whether the paper delivery came.",
+          "She's checking whether the paper came."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and spelling of paper, boxes, and delivery. Treat 'the order' as the paper order.",
@@ -103,7 +104,8 @@
         "accept_ideas": [
           "So she can call again and ask about the order.",
           "To have the order number ready when she checks on the delivery.",
-          "So she can find out where the paper is."
+          "So she can find out where the paper is.",
+          "So she can follow up on the missing paper."
         ],
         "one_idea_is_enough": true,
         "if_they_say": [
@@ -142,7 +144,8 @@
         "accept_ideas": [
           "It is already printed, so it does not need the paper.",
           "It only needs folding.",
-          "It is the only job she can do while the paper is missing."
+          "It is the only job she can do while the paper is missing.",
+          "That job doesn't need the paper."
         ],
         "one_idea_is_enough": true,
         "partial": [
@@ -187,7 +190,8 @@
         "accept_ideas": [
           "To tell them the paper is late and the menus will be delayed.",
           "To warn them that the menus may not be ready on time.",
-          "To let them know the order will take longer."
+          "To let them know the order will take longer.",
+          "To let them know the menus are delayed."
         ],
         "one_idea_is_enough": true,
         "if_they_say": [
@@ -226,7 +230,8 @@
         "accept_ideas": [
           "The paper arrived, so she does not need the order number.",
           "The delivery is finished, so the note is no longer useful.",
-          "There is nothing left to ask the paper company about."
+          "There is nothing left to ask the paper company about.",
+          "The paper came, so the number isn't needed."
         ],
         "one_idea_is_enough": true,
         "if_they_say": [

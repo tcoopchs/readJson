@@ -55,7 +55,8 @@
         ],
         "accept_ideas": [
           "The food is warm, soft, or no longer cold.",
-          "The milk is warm, or the ice cream is soft, or the lettuce is soft and wet."
+          "The milk is warm, or the ice cream is soft, or the lettuce is soft and wet.",
+          "It isn't cold anymore; it feels warm or soft."
         ],
         "one_idea_is_enough": true,
         "partial": [
@@ -99,7 +100,8 @@
         ],
         "accept_ideas": [
           "To tell the manager, or the next person, that the food is warm or soft.",
-          "To report the problem in the cooler so someone else will see it."
+          "To report the problem in the cooler so someone else will see it.",
+          "To let someone know the food isn't cold."
         ],
         "one_idea_is_enough": true,
         "partial": [
@@ -144,7 +146,8 @@
         ],
         "accept_ideas": [
           "The food that should be cold is warm, so she cannot serve it.",
-          "The diner stays closed because of the warm food in the cooler."
+          "The diner stays closed because of the warm food in the cooler.",
+          "She can't serve food that isn't cold."
         ],
         "one_idea_is_enough": true,
         "partial": [
@@ -185,7 +188,8 @@
         "accept_ideas": [
           "The cooler or freezer needs to be fixed or checked.",
           "The food went warm, so the cooler is not doing its job.",
-          "Someone needs to work on the cooler before the diner can cook."
+          "Someone needs to work on the cooler before the diner can cook.",
+          "The cooler needs fixing."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Treat freezer, freezere, frezer, and freeze as the cooler before scoring. 'to fix the freezere' is a full answer to this item. Do not make them trade freezer for cooler.",
@@ -227,7 +231,8 @@
         "accept_ideas": [
           "He opens the same cooler Mia opened, the one with the warm food.",
           "He works on the cooler or the freezer, not the grill or the front door.",
-          "Mia's note was about that cooler, and he goes straight to it."
+          "Mia's note was about that cooler, and he goes straight to it.",
+          "He's working on the same cooler she checked."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case and punctuation. Treat freezer, freezere, frezer, and freeze as the cooler before scoring. A misspelling such as freezere still names the freezer.",
@@ -288,6 +293,7 @@
     "Read past spelling before you score. If you can tell the word they meant, treat the answer as that word. A misspelling is not a miss and not a partial. Do not ask them to spell it again. Apply an item's normalize field before scoring, and treat the meanings named there as the same answer. You may use the passage's wording in your confirm.",
     "Grade only the job written in the prompt. Do not require a fact, a person, or a result the prompt did not ask about. If the student says the question left a fact out, check the prompt. If the prompt did not state that fact, agree in one sentence and ask the job the prompt actually asks. Do not insist the fact was in the question.",
     "Before scoring a miss on a short-answer item, apply the evidence-not-wording test. The item may store core_idea and not_required. Accept a paraphrase, a fragment, or rough wording that expresses core_idea and is supported by the passage. Do not require the exact wording of accept_ideas, and do not require a detail listed in not_required. If the answer could express the core idea but is ambiguous, say script.clarify and wait. This unclear state is not a miss and not a help. If the answer gives a different idea, contradicts the passage, or is irrelevant, use the authored partial or if_they_say branch.",
+    "On short-answer items, a synonym or paraphrase that preserves core_idea is the same answer, not a new accepted answer. Do not require the passage's exact words. This does not apply to cloze or multiple_choice; those use their stored words or options. A synonym may not change quantity, negation, sequence, cause, or comparison.",
     "For any cloze item, show that item's exact cloze sentence again, with the blank unchanged, at the start of every if_they_say, partial, or help turn. Then ask the specified follow-up. Do not reprint the whole passage. This repeat does not count as an extra help.",
     "If the answer matches an if_they_say or a partial on that item, say that ask line as written. That ask counts as one help. Do not add the generic help in the same turn. Do not compose a new hint.",
     "Otherwise ask help[0], then wait. If they still miss, ask help[1], then wait. Two helps is the maximum. Then do tell. Never invent a third question.",

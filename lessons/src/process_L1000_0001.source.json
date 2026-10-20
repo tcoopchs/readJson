@@ -54,7 +54,8 @@
         "accept_ideas": [
           "Opening the lower gates while the water is high would send a rush of water out at the boat.",
           "The water has to fall through the sluices until it matches the lower canal. Then the big gates can open.",
-          "The boat is still outside, and the high water would hit it if the big gates opened."
+          "The boat is still outside, and the high water would hit it if the big gates opened.",
+          "So the high water doesn't rush out at the boat."
         ],
         "one_idea_is_enough": true,
         "if_they_say": [
@@ -127,7 +128,8 @@
         "accept_ideas": [
           "The boat would be thrown, slammed, or hit against the wall.",
           "The higher water would crash into the boat.",
-          "The boat would be hit by the rush of water instead of rising with it."
+          "The boat would be hit by the rush of water instead of rising with it.",
+          "The rushing water could slam the boat into the wall."
         ],
         "one_idea_is_enough": true,
         "partial": [
@@ -209,7 +211,8 @@
           "the word downstream"
         ],
         "accept_ideas": [
-          "Both parts: water is let out, drained, or lowered, AND the boat sinks, drops, or goes down with it."
+          "Both parts: water is let out, drained, or lowered, AND the boat sinks, drops, or goes down with it.",
+          "The water drains out and the boat goes down."
         ],
         "one_idea_is_enough": false,
         "partial": [

@@ -58,7 +58,8 @@
         "accept_ideas": [
           "Whether someone is inside.",
           "If Mariam is home.",
-          "Whether anyone moves inside the apartment."
+          "Whether anyone moves inside the apartment.",
+          "He's checking if anyone is home."
         ],
         "one_idea_is_enough": true,
         "if_they_say": [
@@ -97,7 +98,8 @@
         "accept_ideas": [
           "She is Mariam's emergency contact.",
           "She is the person the building calls if something happens to Mariam.",
-          "She is the first person to reach when Mariam cannot be found."
+          "She is the first person to reach when Mariam cannot be found.",
+          "That's who to call in an emergency."
         ],
         "one_idea_is_enough": true,
         "if_they_say": [
@@ -136,7 +138,8 @@
         "accept_ideas": [
           "The sister had not talked to Mariam since Sunday.",
           "The sister did not know Mariam left in a hurry.",
-          "She was guessing, because Mariam had not told her what the apartment looked like."
+          "She was guessing, because Mariam had not told her what the apartment looked like.",
+          "She hadn't talked to Mariam lately, so she didn't know."
         ],
         "one_idea_is_enough": true,
         "if_they_say": [
@@ -175,7 +178,8 @@
         "accept_ideas": [
           "She left in a hurry.",
           "She did not plan the trip carefully, or forgot to turn things off.",
-          "She left without finishing her water or tidying up."
+          "She left without finishing her water or tidying up.",
+          "She rushed out and left things unfinished."
         ],
         "one_idea_is_enough": true,
         "partial": [
@@ -221,7 +225,8 @@
         "accept_ideas": [
           "She will be away for a while longer.",
           "She is not coming home soon.",
-          "She cannot do those small jobs herself because she is staying away."
+          "She cannot do those small jobs herself because she is staying away.",
+          "She's staying away longer."
         ],
         "one_idea_is_enough": true,
         "if_they_say": [

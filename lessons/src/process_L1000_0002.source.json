@@ -57,7 +57,8 @@
         "accept_ideas": [
           "The height of the water presses down and creates pressure.",
           "Gravity pulls the water down from the tank.",
-          "The tank is high above the street, so the water arrives with force."
+          "The tank is high above the street, so the water arrives with force.",
+          "The water's height pushes it down and makes pressure."
         ],
         "one_idea_is_enough": true,
         "if_they_say": [
@@ -136,7 +137,8 @@
         "accept_ideas": [
           "So the pumps run in one long stretch instead of starting and stopping.",
           "Starting and stopping all day would wear out the motor.",
-          "So the pump does not run all day."
+          "So the pump does not run all day.",
+          "So it doesn't keep starting and stopping."
         ],
         "one_idea_is_enough": true,
         "partial": [
@@ -223,7 +225,8 @@
         ],
         "accept_ideas": [
           "Both parts: the pumps stop, and the taps still run for a few hours from the tank.",
-          "The pumps stop because they need power, and the water in the tank keeps the pressure up for a while."
+          "The pumps stop because they need power, and the water in the tank keeps the pressure up for a while.",
+          "The pumps stop, but the tank keeps water coming for a while."
         ],
         "one_idea_is_enough": false,
         "partial": [
