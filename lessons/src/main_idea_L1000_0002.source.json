@@ -51,6 +51,11 @@
       "tutor_only": {
         "confirm": "Right. Most of Earth's water is in the oceans, and it is saline.",
         "correct_reason": "The passage says over 96 percent of Earth's water is saline. The table on the source page places that saline water in the oceans and seas.",
+        "core_idea": "Most of Earth's water is in the oceans and is saline.",
+        "not_required": [
+          "the exact percentage",
+          "the number of cubic miles"
+        ],
         "accept_ideas": [
           "In the oceans, and it is salty or saline.",
           "Most of it is salt water in the oceans.",
@@ -92,6 +97,11 @@
       "tutor_only": {
         "confirm": "Right. Most of Earth's water is salt or locked away. Only a little is fresh.",
         "correct_reason": "The passage gives the total water supply, then shows that over 96 percent is saline and most freshwater is frozen or underground. Those details all support one point: fresh water is a small share.",
+        "core_idea": "Most of Earth's water is salt water or locked away, and only a small share is fresh.",
+        "not_required": [
+          "the exact percentages",
+          "the total in cubic miles"
+        ],
         "accept_ideas": [
           "Most of Earth's water is salt water, and only a small share is fresh.",
           "Earth has a lot of water, but very little of it is freshwater.",
@@ -176,6 +186,12 @@
       "tutor_only": {
         "confirm": "Right. Rivers and lakes supply most of the water people use every day.",
         "correct_reason": "The passage says rivers are a small share of freshwater, but rivers and lakes are the sources of most water people use. Their importance is out of proportion to their size.",
+        "core_idea": "Rivers and lakes are important because they are a source of fresh water people can use.",
+        "not_required": [
+          "most of the water people use",
+          "the exact percentage",
+          "every day"
+        ],
         "accept_ideas": [
           "Rivers and lakes supply most of the water people use every day.",
           "People depend on rivers and lakes for most of their water.",
@@ -219,6 +235,12 @@
       "tutor_only": {
         "confirm": "Right. Earth has a lot of water, but very little of it is fresh and available.",
         "correct_reason": "The whole passage connects the two sections: most water is saline, frozen, or underground, and the tiny share of fresh surface water is the water people depend on. That is the central idea.",
+        "core_idea": "Earth has a lot of water, but very little is fresh and available for people to use.",
+        "not_required": [
+          "the exact percentages",
+          "the names of the oceans",
+          "cubic miles"
+        ],
         "accept_ideas": [
           "Earth has a lot of water, but very little is fresh and available.",
           "Most of Earth's water is salt, ice, or underground, so people depend on a tiny share.",

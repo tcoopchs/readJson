@@ -50,6 +50,11 @@
       "tutor_only": {
         "confirm": "Right. He wants to know whether someone is inside.",
         "correct_reason": "A knock is a test. Listening is how Dell checks the answer, because the television is already making noise.",
+        "core_idea": "He is trying to find out whether someone is inside.",
+        "not_required": [
+          "who is inside",
+          "why he knocks"
+        ],
         "accept_ideas": [
           "Whether someone is inside.",
           "If Mariam is home.",
@@ -84,6 +89,11 @@
       "tutor_only": {
         "confirm": "Right. The sister is Mariam's emergency contact.",
         "correct_reason": "The binder lists every tenant with an emergency contact. The note puts the sister in that role for Mariam.",
+        "core_idea": "The sister is the person to call if something happens to Mariam.",
+        "not_required": [
+          "the sister's name",
+          "why Mariam is away"
+        ],
         "accept_ideas": [
           "She is Mariam's emergency contact.",
           "She is the person the building calls if something happens to Mariam.",
@@ -118,6 +128,11 @@
       "tutor_only": {
         "confirm": "Right. The sister had not spoken to Mariam since she left.",
         "correct_reason": "The sister has a key and did not know the apartment was left running, so her idea came from assumption, not from Mariam.",
+        "core_idea": "The sister had not talked to Mariam recently, so she was guessing.",
+        "not_required": [
+          "since Sunday",
+          "what the apartment looked like"
+        ],
         "accept_ideas": [
           "The sister had not talked to Mariam since Sunday.",
           "The sister did not know Mariam left in a hurry.",
@@ -152,6 +167,11 @@
       "tutor_only": {
         "confirm": "Right. She left quickly and did not stop to tidy up.",
         "correct_reason": "A running television and an unfinished glass are what a person leaves behind when the leaving is rushed. Mariam says as much when she explains.",
+        "core_idea": "Mariam left in a hurry and did not finish what she was doing.",
+        "not_required": [
+          "the television",
+          "the glass of water"
+        ],
         "accept_ideas": [
           "She left in a hurry.",
           "She did not plan the trip carefully, or forgot to turn things off.",
@@ -192,6 +212,12 @@
       "tutor_only": {
         "confirm": "Right. She will be away for a while, so she needs someone else to do it.",
         "correct_reason": "If Mariam were coming home that night, she would unplug the television herself. Asking someone else means the apartment will sit empty.",
+        "core_idea": "Mariam will be away for a while longer.",
+        "not_required": [
+          "the mail",
+          "the television",
+          "why she left"
+        ],
         "accept_ideas": [
           "She will be away for a while longer.",
           "She is not coming home soon.",

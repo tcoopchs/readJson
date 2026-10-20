@@ -46,6 +46,11 @@
       "tutor_only": {
         "confirm": "Right. The lower gates stay shut so the high water cannot rush out at the boat.",
         "correct_reason": "The passage says the water in the lock is high and the boat is still outside. If the lower gates opened, that water would rush out at the boat. The sluices let the water fall first.",
+        "core_idea": "The lower gates stay shut so the high water does not rush out at the boat.",
+        "not_required": [
+          "the word sluices",
+          "the exact water level"
+        ],
         "accept_ideas": [
           "Opening the lower gates while the water is high would send a rush of water out at the boat.",
           "The water has to fall through the sluices until it matches the lower canal. Then the big gates can open.",
@@ -114,6 +119,11 @@
       "tutor_only": {
         "confirm": "Right. The higher water would crash in and could throw the boat against the wall.",
         "correct_reason": "The canal above the lock is higher. The passage says opening the upper gates would send that water crashing into the lock, which could throw the boat against the wall.",
+        "core_idea": "The higher water would crash in and could throw the boat against the wall.",
+        "not_required": [
+          "the word sluices",
+          "whether the boat sinks"
+        ],
         "accept_ideas": [
           "The boat would be thrown, slammed, or hit against the wall.",
           "The higher water would crash into the boat.",
@@ -193,6 +203,11 @@
       "tutor_only": {
         "confirm": "Right. Water is let out, and the boat goes down with it.",
         "correct_reason": "Going downstream reverses the upstream trip. The passage says water is let out of the lock, and the boat sinks with it to the lower canal.",
+        "core_idea": "Water is let out, and the boat goes down with it.",
+        "not_required": [
+          "the order of every gate",
+          "the word downstream"
+        ],
         "accept_ideas": [
           "Both parts: water is let out, drained, or lowered, AND the boat sinks, drops, or goes down with it."
         ],

@@ -51,6 +51,10 @@
       "tutor_only": {
         "confirm": "Right. Chlorophyll absorbs sunlight and turns it into food and energy for the tree.",
         "correct_reason": "The passage above says chlorophyll absorbs the sun's rays and turns sunlight into food and energy. It also gives the plant its green color.",
+        "core_idea": "Chlorophyll absorbs sunlight and turns it into food and energy for the tree.",
+        "not_required": [
+          "that it makes leaves green"
+        ],
         "accept_ideas": [
           "It absorbs sunlight and turns it into food and energy for the tree.",
           "It takes in sunlight and makes food for the tree.",
@@ -92,6 +96,12 @@
       "tutor_only": {
         "confirm": "Right. The passage above explains how leaves help the tree and why it drops them.",
         "correct_reason": "The passage above gives chlorophyll's job, then explains that shorter days and cold lead the tree to save energy by dropping its leaves and breaking down chlorophyll. Both halves support one point: what leaves do and why the tree gives them up.",
+        "core_idea": "The passage above explains what leaves do and why the tree drops them.",
+        "not_required": [
+          "the name chlorophyll",
+          "the word enzyme",
+          "winter"
+        ],
         "accept_ideas": [
           "How leaves help the tree and why the tree drops them in the fall.",
           "What chlorophyll does and why the tree breaks it down when winter comes.",
@@ -175,6 +185,11 @@
       "tutor_only": {
         "confirm": "Right. Chlorophyll breaks down, and the other pigments in each leaf become visible.",
         "correct_reason": "The passage above says chlorophyll breaks down, which lets other pigments show. Each tree has a different mix of pigments, and weather affects how bright the colors are.",
+        "core_idea": "Chlorophyll breaks down, so the other pigments in the leaf become visible.",
+        "not_required": [
+          "the name carotene",
+          "the weather's effect on brightness"
+        ],
         "accept_ideas": [
           "Chlorophyll breaks down and the other pigments become visible.",
           "Each tree has a different mix of pigments, so the colors differ.",
@@ -218,6 +233,12 @@
       "tutor_only": {
         "confirm": "Right. The passage explains why leaves change color and fall in autumn.",
         "correct_reason": "The whole passage connects the two sections: the tree saves energy by dropping its leaves, and breaking down chlorophyll lets the other pigments show. That is why leaves change color in the fall.",
+        "core_idea": "The passage explains why leaves change color in the fall: the tree drops them and chlorophyll breaks down.",
+        "not_required": [
+          "carotene",
+          "the weather",
+          "the exact order of the seasons"
+        ],
         "accept_ideas": [
           "Why leaves change color and fall in the fall.",
           "How trees get ready for winter and why their leaves change color.",

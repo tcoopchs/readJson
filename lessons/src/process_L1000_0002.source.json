@@ -49,6 +49,11 @@
       "tutor_only": {
         "confirm": "Right. The height of the water presses down and makes the pressure.",
         "correct_reason": "The passage says the height does the work: water at the top presses on the water below, and that pressure moves it through the pipes.",
+        "core_idea": "The height of the water creates pressure that pushes it to the houses.",
+        "not_required": [
+          "the word gravity",
+          "the exact height"
+        ],
         "accept_ideas": [
           "The height of the water presses down and creates pressure.",
           "Gravity pulls the water down from the tank.",
@@ -123,6 +128,11 @@
       "tutor_only": {
         "confirm": "Right. Waiting lets the pumps run in one long stretch instead of all day.",
         "correct_reason": "The passage says starting and stopping often wears out the motor, and the set point leaves room for one long refill.",
+        "core_idea": "The pumps wait so they run in one long stretch instead of starting and stopping.",
+        "not_required": [
+          "the exact set point",
+          "how long they run"
+        ],
         "accept_ideas": [
           "So the pumps run in one long stretch instead of starting and stopping.",
           "Starting and stopping all day would wear out the motor.",
@@ -206,6 +216,11 @@
       "tutor_only": {
         "confirm": "Right. The pumps stop, but the tank keeps the taps running for a few hours.",
         "correct_reason": "The pumps need electricity. The tank does not: it still holds water, so the pressure holds for a few hours.",
+        "core_idea": "The pumps stop, but the tank keeps water flowing to the taps for a while.",
+        "not_required": [
+          "the exact number of hours",
+          "why the power failed"
+        ],
         "accept_ideas": [
           "Both parts: the pumps stop, and the taps still run for a few hours from the tank.",
           "The pumps stop because they need power, and the water in the tank keeps the pressure up for a while."

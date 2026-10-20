@@ -49,6 +49,10 @@
       "tutor_only": {
         "confirm": "Right. Chlorophyll absorbs sunlight and turns it into food and energy for the tree.",
         "correct_reason": "The passage above says chlorophyll absorbs the sun's rays and turns sunlight into food and energy. It also gives the plant its green color.",
+        "core_idea": "Chlorophyll absorbs sunlight and turns it into food and energy for the tree.",
+        "not_required": [
+          "that it makes leaves green"
+        ],
         "accept_ideas": [
           "It absorbs sunlight and turns it into food and energy for the tree.",
           "It takes in sunlight and makes food for the tree.",
@@ -90,6 +94,12 @@
       "tutor_only": {
         "confirm": "Right. The passage above explains how leaves help the tree and why it drops them.",
         "correct_reason": "The passage above gives chlorophyll's job, then explains that shorter days and cold lead the tree to save energy by dropping its leaves and breaking down chlorophyll. Both halves support one point: what leaves do and why the tree gives them up.",
+        "core_idea": "The passage above explains what leaves do and why the tree drops them.",
+        "not_required": [
+          "the name chlorophyll",
+          "the word enzyme",
+          "winter"
+        ],
         "accept_ideas": [
           "How leaves help the tree and why the tree drops them in the fall.",
           "What chlorophyll does and why the tree breaks it down when winter comes.",
@@ -173,6 +183,11 @@
       "tutor_only": {
         "confirm": "Right. Chlorophyll breaks down, and the other pigments in each leaf become visible.",
         "correct_reason": "The passage above says chlorophyll breaks down, which lets other pigments show. Each tree has a different mix of pigments, and weather affects how bright the colors are.",
+        "core_idea": "Chlorophyll breaks down, so the other pigments in the leaf become visible.",
+        "not_required": [
+          "the name carotene",
+          "the weather's effect on brightness"
+        ],
         "accept_ideas": [
           "Chlorophyll breaks down and the other pigments become visible.",
           "Each tree has a different mix of pigments, so the colors differ.",
@@ -216,6 +231,12 @@
       "tutor_only": {
         "confirm": "Right. The passage explains why leaves change color and fall in autumn.",
         "correct_reason": "The whole passage connects the two sections: the tree saves energy by dropping its leaves, and breaking down chlorophyll lets the other pigments show. That is why leaves change color in the fall.",
+        "core_idea": "The passage explains why leaves change color in the fall: the tree drops them and chlorophyll breaks down.",
+        "not_required": [
+          "carotene",
+          "the weather",
+          "the exact order of the seasons"
+        ],
         "accept_ideas": [
           "Why leaves change color and fall in the fall.",
           "How trees get ready for winter and why their leaves change color.",
@@ -255,6 +276,7 @@
     "bridge": "Let's go to the next question.",
     "rest_of_passage": "Here is the rest of the passage.",
     "near_copy_1": "That's still my wording. Say it the way you would tell a classmate. You can keep it short.",
+    "clarify": "Say that in one more sentence. I want to be sure I follow your idea.",
     "mercy_accept": "Okay. That's in your words.",
     "stop_confirm": "Stop here? Say yes and I will end the reading. I will write a ticket that shows where we stopped.",
     "passage_label": "Passage",
@@ -279,6 +301,7 @@
     "Use one question at a time. A fragment is a real answer. Do not make them write a full sentence on the first try. Extra true detail is fine. Once the accepted idea is there, do not ask for more.",
     "Read past spelling before you score. If you can tell the word they meant, treat the answer as that word. A misspelling is not a miss and not a partial. Do not ask them to spell it again. Apply an item's normalize field before scoring, and treat the meanings named there as the same answer. You may use the passage's wording in your confirm.",
     "Grade only the job written in the prompt. Do not require a fact, a person, or a result the prompt did not ask about. If the student says the question left a fact out, check the prompt. If the prompt did not state that fact, agree in one sentence and ask the job the prompt actually asks. Do not insist the fact was in the question.",
+    "Before scoring a miss on a short-answer item, apply the evidence-not-wording test. The item may store core_idea and not_required. Accept a paraphrase, a fragment, or rough wording that expresses core_idea and is supported by the passage. Do not require the exact wording of accept_ideas, and do not require a detail listed in not_required. If the answer could express the core idea but is ambiguous, say script.clarify and wait. This unclear state is not a miss and not a help. If the answer gives a different idea, contradicts the passage, or is irrelevant, use the authored partial or if_they_say branch.",
     "For any cloze item, show that item's exact cloze sentence again, with the blank unchanged, at the start of every if_they_say, partial, or help turn. Then ask the specified follow-up. Do not reprint the whole passage. This repeat does not count as an extra help.",
     "If the answer matches an if_they_say or a partial on that item, say that ask line as written. That ask counts as one help. Do not add the generic help in the same turn. Do not compose a new hint.",
     "Otherwise ask help[0], then wait. If they still miss, ask help[1], then wait. Two helps is the maximum. Then do tell. Never invent a third question.",

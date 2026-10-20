@@ -50,6 +50,11 @@
       "tutor_only": {
         "confirm": "Right. The screen catches wipes and sticks before they can reach the pumps.",
         "correct_reason": "The screen is the first stage, and the failure example later says torn screens let wipes reach the pumps and jam them.",
+        "core_idea": "The screen catches large objects before they reach the machinery.",
+        "not_required": [
+          "the words rags and wipes",
+          "the name of the next tank"
+        ],
         "accept_ideas": [
           "To catch rags, wipes, and sticks before they reach the machinery.",
           "So the wipes and sticks do not jam the pumps.",
@@ -127,6 +132,11 @@
       "tutor_only": {
         "confirm": "Right. The bacteria need the air to keep eating the waste.",
         "correct_reason": "The passage says the air feeds the bacteria and that without it they would die or stop working.",
+        "core_idea": "The bacteria need the air to eat the waste.",
+        "not_required": [
+          "the word aeration",
+          "how often the air runs"
+        ],
         "accept_ideas": [
           "The bacteria need the air to eat the waste.",
           "Without air the bacteria would die or stop working.",
@@ -161,6 +171,11 @@
       "tutor_only": {
         "confirm": "Right. Clear water can still carry germs too small to see.",
         "correct_reason": "Settling removes clumps you can see. The passage says the clear water still carries germs that are too small to see, which is why chlorine or ultraviolet light comes last.",
+        "core_idea": "The water is clear but still carries germs that are too small to see.",
+        "not_required": [
+          "the word clarifier",
+          "the name chlorine"
+        ],
         "accept_ideas": [
           "It still carries germs that are too small to see.",
           "Clearing removes solids, not germs.",
@@ -201,6 +216,11 @@
       "tutor_only": {
         "confirm": "Right. Holding water back gives the bacteria time to eat the waste.",
         "correct_reason": "The passage says a flood can push waste through before the bacteria can eat it, so the plant holds water and releases it more slowly.",
+        "core_idea": "The plant holds water back so the bacteria have time to eat the waste.",
+        "not_required": [
+          "the word flood",
+          "the exact flow rate"
+        ],
         "accept_ideas": [
           "So the bacteria have time to eat the waste before the water leaves.",
           "A flood would push waste through too fast for the bacteria.",

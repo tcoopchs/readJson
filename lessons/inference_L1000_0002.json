@@ -47,6 +47,11 @@
       "tutor_only": {
         "confirm": "Right. She is looking for the paper that should have arrived.",
         "correct_reason": "A truck should bring four boxes of paper, and the shelf where the paper sits is empty. She checks the shelf to see whether the order came.",
+        "core_idea": "She is looking for the paper delivery that should have arrived.",
+        "not_required": [
+          "the boxes",
+          "the back room"
+        ],
         "accept_ideas": [
           "The paper that should have arrived.",
           "The boxes of paper from the truck.",
@@ -88,6 +93,11 @@
       "tutor_only": {
         "confirm": "Right. She keeps the number so she can ask about the delivery again.",
         "correct_reason": "The recorded voice says the order is still on a truck. Rosa writes the number down and keeps it until the paper arrives.",
+        "core_idea": "She keeps the order number so she can ask about the missing delivery.",
+        "not_required": [
+          "where she writes it",
+          "who she calls first"
+        ],
         "accept_ideas": [
           "So she can call again and ask about the order.",
           "To have the order number ready when she checks on the delivery.",
@@ -122,6 +132,11 @@
       "tutor_only": {
         "confirm": "Right. The booklet needs no paper, so she can start it now.",
         "correct_reason": "The menus and flyers both need paper. The booklet is already printed and only needs folding, so it is the one job the missing paper does not block.",
+        "core_idea": "She chooses the wedding booklet because it does not need the missing paper.",
+        "not_required": [
+          "whether it is printed",
+          "that it only needs folding"
+        ],
         "accept_ideas": [
           "It is already printed, so it does not need the paper.",
           "It only needs folding.",
@@ -162,6 +177,11 @@
       "tutor_only": {
         "confirm": "Right. She calls to say the paper is late, so the menus will take longer.",
         "correct_reason": "The menus need paper, the paper has not come, and Rosa calls the restaurant before it asks. The restaurant then says the menus can wait until Thursday.",
+        "core_idea": "She calls to warn the restaurant that the menus will be late.",
+        "not_required": [
+          "the restaurant's name",
+          "the exact delay"
+        ],
         "accept_ideas": [
           "To tell them the paper is late and the menus will be delayed.",
           "To warn them that the menus may not be ready on time.",
@@ -196,6 +216,11 @@
       "tutor_only": {
         "confirm": "Right. The paper arrived, so she no longer needs the order number.",
         "correct_reason": "The note held the order number while the delivery was missing. The truck arrives, Rosa signs for the paper, and the reason to keep the number is gone.",
+        "core_idea": "She throws the note away because the paper arrived and she no longer needs the number.",
+        "not_required": [
+          "when the paper arrived",
+          "who brought it"
+        ],
         "accept_ideas": [
           "The paper arrived, so she does not need the order number.",
           "The delivery is finished, so the note is no longer useful.",
@@ -227,6 +252,7 @@
     "bridge": "Let's go to the next question.",
     "rest_of_passage": "Here is the rest of the passage.",
     "near_copy_1": "That's still my wording. Say it the way you would tell a classmate. You can keep it short.",
+    "clarify": "Say that in one more sentence. I want to be sure I follow your idea.",
     "mercy_accept": "Okay. That's in your words.",
     "stop_confirm": "Stop here? Say yes and I will end the reading. I will write a ticket that shows where we stopped.",
     "passage_label": "Passage",
@@ -251,6 +277,7 @@
     "Use one question at a time. A fragment is a real answer. Do not make them write a full sentence on the first try. Extra true detail is fine. Once the accepted idea is there, do not ask for more.",
     "Read past spelling before you score. If you can tell the word they meant, treat the answer as that word. A misspelling is not a miss and not a partial. Do not ask them to spell it again. Apply an item's normalize field before scoring, and treat the meanings named there as the same answer. You may use the passage's wording in your confirm.",
     "Grade only the job written in the prompt. Do not require a fact, a person, or a result the prompt did not ask about. If the student says the question left a fact out, check the prompt. If the prompt did not state that fact, agree in one sentence and ask the job the prompt actually asks. Do not insist the fact was in the question.",
+    "Before scoring a miss on a short-answer item, apply the evidence-not-wording test. The item may store core_idea and not_required. Accept a paraphrase, a fragment, or rough wording that expresses core_idea and is supported by the passage. Do not require the exact wording of accept_ideas, and do not require a detail listed in not_required. If the answer could express the core idea but is ambiguous, say script.clarify and wait. This unclear state is not a miss and not a help. If the answer gives a different idea, contradicts the passage, or is irrelevant, use the authored partial or if_they_say branch.",
     "For any cloze item, show that item's exact cloze sentence again, with the blank unchanged, at the start of every if_they_say, partial, or help turn. Then ask the specified follow-up. Do not reprint the whole passage. This repeat does not count as an extra help.",
     "If the answer matches an if_they_say or a partial on that item, say that ask line as written. That ask counts as one help. Do not add the generic help in the same turn. Do not compose a new hint.",
     "Otherwise ask help[0], then wait. If they still miss, ask help[1], then wait. Two helps is the maximum. Then do tell. Never invent a third question.",

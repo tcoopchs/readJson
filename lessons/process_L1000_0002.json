@@ -47,6 +47,11 @@
       "tutor_only": {
         "confirm": "Right. The height of the water presses down and makes the pressure.",
         "correct_reason": "The passage says the height does the work: water at the top presses on the water below, and that pressure moves it through the pipes.",
+        "core_idea": "The height of the water creates pressure that pushes it to the houses.",
+        "not_required": [
+          "the word gravity",
+          "the exact height"
+        ],
         "accept_ideas": [
           "The height of the water presses down and creates pressure.",
           "Gravity pulls the water down from the tank.",
@@ -121,6 +126,11 @@
       "tutor_only": {
         "confirm": "Right. Waiting lets the pumps run in one long stretch instead of all day.",
         "correct_reason": "The passage says starting and stopping often wears out the motor, and the set point leaves room for one long refill.",
+        "core_idea": "The pumps wait so they run in one long stretch instead of starting and stopping.",
+        "not_required": [
+          "the exact set point",
+          "how long they run"
+        ],
         "accept_ideas": [
           "So the pumps run in one long stretch instead of starting and stopping.",
           "Starting and stopping all day would wear out the motor.",
@@ -204,6 +214,11 @@
       "tutor_only": {
         "confirm": "Right. The pumps stop, but the tank keeps the taps running for a few hours.",
         "correct_reason": "The pumps need electricity. The tank does not: it still holds water, so the pressure holds for a few hours.",
+        "core_idea": "The pumps stop, but the tank keeps water flowing to the taps for a while.",
+        "not_required": [
+          "the exact number of hours",
+          "why the power failed"
+        ],
         "accept_ideas": [
           "Both parts: the pumps stop, and the taps still run for a few hours from the tank.",
           "The pumps stop because they need power, and the water in the tank keeps the pressure up for a while."
@@ -244,6 +259,7 @@
     "bridge": "Let's go to the next question.",
     "rest_of_passage": "Here is the rest of the passage.",
     "near_copy_1": "That's still my wording. Say it the way you would tell a classmate. You can keep it short.",
+    "clarify": "Say that in one more sentence. I want to be sure I follow your idea.",
     "mercy_accept": "Okay. That's in your words.",
     "stop_confirm": "Stop here? Say yes and I will end the reading. I will write a ticket that shows where we stopped.",
     "passage_label": "Passage",
@@ -268,6 +284,7 @@
     "Use one question at a time. A fragment is a real answer. Do not make them write a full sentence on the first try. Extra true detail is fine. Once the accepted idea is there, do not ask for more.",
     "Read past spelling before you score. If you can tell the word they meant, treat the answer as that word. A misspelling is not a miss and not a partial. Do not ask them to spell it again. Apply an item's normalize field before scoring, and treat the meanings named there as the same answer. You may use the passage's wording in your confirm.",
     "Grade only the job written in the prompt. Do not require a fact, a person, or a result the prompt did not ask about. If the student says the question left a fact out, check the prompt. If the prompt did not state that fact, agree in one sentence and ask the job the prompt actually asks. Do not insist the fact was in the question.",
+    "Before scoring a miss on a short-answer item, apply the evidence-not-wording test. The item may store core_idea and not_required. Accept a paraphrase, a fragment, or rough wording that expresses core_idea and is supported by the passage. Do not require the exact wording of accept_ideas, and do not require a detail listed in not_required. If the answer could express the core idea but is ambiguous, say script.clarify and wait. This unclear state is not a miss and not a help. If the answer gives a different idea, contradicts the passage, or is irrelevant, use the authored partial or if_they_say branch.",
     "For any cloze item, show that item's exact cloze sentence again, with the blank unchanged, at the start of every if_they_say, partial, or help turn. Then ask the specified follow-up. Do not reprint the whole passage. This repeat does not count as an extra help.",
     "If the answer matches an if_they_say or a partial on that item, say that ask line as written. That ask counts as one help. Do not add the generic help in the same turn. Do not compose a new hint.",
     "Otherwise ask help[0], then wait. If they still miss, ask help[1], then wait. Two helps is the maximum. Then do tell. Never invent a third question.",

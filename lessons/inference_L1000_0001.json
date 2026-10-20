@@ -48,6 +48,11 @@
       "tutor_only": {
         "confirm": "Right. Tonight the food is warm and soft. Yesterday it was cold.",
         "correct_reason": "The passage says the milk is warm and the ice cream is soft at the edges. Yesterday the same food was cold and firm.",
+        "core_idea": "The food that was cold and firm is now warm or soft.",
+        "not_required": [
+          "which specific food changed",
+          "the exact temperature"
+        ],
         "accept_ideas": [
           "The food is warm, soft, or no longer cold.",
           "The milk is warm, or the ice cream is soft, or the lettuce is soft and wet."
@@ -87,6 +92,11 @@
       "tutor_only": {
         "confirm": "Right. The note tells the next person that the food in the cooler is not cold.",
         "correct_reason": "Mia finds warm food and leaves a note on the office desk. The note tells the next person what she found.",
+        "core_idea": "The note tells the next person that the food in the cooler is not cold.",
+        "not_required": [
+          "who reads the note",
+          "Mia's reason for not throwing the food away"
+        ],
         "accept_ideas": [
           "To tell the manager, or the next person, that the food is warm or soft.",
           "To report the problem in the cooler so someone else will see it."
@@ -126,6 +136,12 @@
       "tutor_only": {
         "confirm": "Right. She keeps the diner closed because that food is not cold enough to serve.",
         "correct_reason": "The food in the cooler is warm and soft. Serving it would be unsafe, so the manager keeps the diner closed.",
+        "core_idea": "She keeps the diner closed because the food is warm and not safe to serve.",
+        "not_required": [
+          "the grill",
+          "the front door",
+          "whether Mia is blamed"
+        ],
         "accept_ideas": [
           "The food that should be cold is warm, so she cannot serve it.",
           "The diner stays closed because of the warm food in the cooler."
@@ -161,6 +177,11 @@
       "tutor_only": {
         "confirm": "Right. She calls a repair shop because the cooler is not keeping the food cold.",
         "correct_reason": "The cooler failed to keep the food cold. A repair shop is called to fix that cooler.",
+        "core_idea": "The cooler is not keeping food cold, so it needs repair.",
+        "not_required": [
+          "which repair shop",
+          "whether the cook comes in"
+        ],
         "accept_ideas": [
           "The cooler or freezer needs to be fixed or checked.",
           "The food went warm, so the cooler is not doing its job.",
@@ -198,6 +219,11 @@
       "tutor_only": {
         "confirm": "Right. He goes to the same cooler where Mia found the warm food.",
         "correct_reason": "The repair worker opens the same cooler where Mia found the warm food. That is the problem the note described.",
+        "core_idea": "The worker goes to the same cooler where Mia found the warm food.",
+        "not_required": [
+          "the worker's name",
+          "how long the repair takes"
+        ],
         "accept_ideas": [
           "He opens the same cooler Mia opened, the one with the warm food.",
           "He works on the cooler or the freezer, not the grill or the front door.",
@@ -236,6 +262,7 @@
     "bridge": "Let's go to the next question.",
     "rest_of_passage": "Here is the rest of the passage.",
     "near_copy_1": "That's still my wording. Say it the way you would tell a classmate. You can keep it short.",
+    "clarify": "Say that in one more sentence. I want to be sure I follow your idea.",
     "mercy_accept": "Okay. That's in your words.",
     "stop_confirm": "Stop here? Say yes and I will end the reading. I will write a ticket that shows where we stopped.",
     "passage_label": "Passage",
@@ -260,6 +287,7 @@
     "Use one question at a time. A fragment is a real answer. Do not make them write a full sentence on the first try. Extra true detail is fine. Once the accepted idea is there, do not ask for more.",
     "Read past spelling before you score. If you can tell the word they meant, treat the answer as that word. A misspelling is not a miss and not a partial. Do not ask them to spell it again. Apply an item's normalize field before scoring, and treat the meanings named there as the same answer. You may use the passage's wording in your confirm.",
     "Grade only the job written in the prompt. Do not require a fact, a person, or a result the prompt did not ask about. If the student says the question left a fact out, check the prompt. If the prompt did not state that fact, agree in one sentence and ask the job the prompt actually asks. Do not insist the fact was in the question.",
+    "Before scoring a miss on a short-answer item, apply the evidence-not-wording test. The item may store core_idea and not_required. Accept a paraphrase, a fragment, or rough wording that expresses core_idea and is supported by the passage. Do not require the exact wording of accept_ideas, and do not require a detail listed in not_required. If the answer could express the core idea but is ambiguous, say script.clarify and wait. This unclear state is not a miss and not a help. If the answer gives a different idea, contradicts the passage, or is irrelevant, use the authored partial or if_they_say branch.",
     "For any cloze item, show that item's exact cloze sentence again, with the blank unchanged, at the start of every if_they_say, partial, or help turn. Then ask the specified follow-up. Do not reprint the whole passage. This repeat does not count as an extra help.",
     "If the answer matches an if_they_say or a partial on that item, say that ask line as written. That ask counts as one help. Do not add the generic help in the same turn. Do not compose a new hint.",
     "Otherwise ask help[0], then wait. If they still miss, ask help[1], then wait. Two helps is the maximum. Then do tell. Never invent a third question.",
