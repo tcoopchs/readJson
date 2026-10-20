@@ -212,7 +212,8 @@
       "type": "short_answer",
       "skill": "main_idea",
       "difficulty": 3,
-      "show_part": null,
+      "show_part": "all",
+      "show_part_again": true,
       "prompt": "What is the whole passage mostly about, both sections together?",
       "tutor_only": {
         "confirm": "Right. The passage explains why leaves change color and fall in autumn.",
