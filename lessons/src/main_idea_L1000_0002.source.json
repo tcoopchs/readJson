@@ -1,0 +1,272 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_L1000_0002",
+  "meta": {
+    "status": "reviewed",
+    "title": "The Water We Can Use",
+    "skill": "main_idea",
+    "level": 1000,
+    "sequence": 2,
+    "skill_frame": "Find the main idea: decide what a passage is mostly about.",
+    "reader": {
+      "who": "High school and adult readers at about a 7th-grade level.",
+      "reading_level": 7,
+      "why_this_level": "Language load 2, idea load 2, structure 1, knowledge 1. The excerpt scores FK 5.9, which understates the load: the reader must hold several proportions and see that they all support one conclusion. All needed knowledge is in the passage. This is the second main-idea lesson in the 1000-1099 Star band. The band is not a grade; the grade target is 7.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "U.S. Geological Survey, Water Science School, 'Where is Earth's Water?' A U.S. federal government work, public domain in the United States.",
+      "attribution": "U.S. Geological Survey, 'Where is Earth's Water?', https://www.usgs.gov/water-science-school/science/where-earths-water, accessed 2026-10-19. Text bank TB-002.",
+      "text_status": "Excerpt. Tables, graphics, and navigation were removed. Sentences were split for length. One rounding note was added. Figures are unchanged.",
+      "survey": "Selected from the readJson text bank (TB-002). The article was chosen for a proportional main idea with explicit supporting numbers. FK 5.9 on the 209-word excerpt; L2, I2, S1, K1.",
+      "avoided": "No data table, no unit conversions, and no outside knowledge. Every figure an item needs is stated in the passage."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Proportional main idea. The reader must hold several percentages and see that they all point to one conclusion: fresh, usable water is a tiny share."
+    },
+    "authoring_exceptions": [
+      "Two passage parts instead of three. The source is a short explanatory article and a third split would separate the proportions from their meaning.",
+      "Advance repeats this lesson because no later main_idea lesson is authored and the 1100 entry is an empty placeholder."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Start with the water, or with the numbers. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Earth's water is almost everywhere. It is above the Earth in the air and clouds. It is on the surface in rivers, oceans, ice, plants, and living organisms. It is also inside the Earth, in the top few miles of ground. The world's total water supply is about 332.5 million cubic miles.\n\nMost of that water is not fresh. Over 96 percent is saline. Of the total freshwater, over 68 percent is locked up in ice and glaciers. Another 30 percent is in the ground. Only 2.5 percent of Earth's water is freshwater. That is the amount needed for life to survive.",
+    "part_2": "Only a little more than 1.2 percent of all freshwater is surface water. Most of this surface water is locked up in ice. Another 20.9 percent is found in lakes. Rivers make up 0.49 percent of surface freshwater. Fresh surface-water sources constitute about 22,300 cubic miles. That is about 1/150th of one percent of total water.\n\nYet rivers and lakes are the sources of most water people use everyday. Rivers account for only a small amount of freshwater. Yet humans get a large portion of their water there. That makes rivers and lakes important out of proportion to their size."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "Where is most of Earth's water?",
+      "tutor_only": {
+        "confirm": "Right. Most of Earth's water is in the oceans, and it is saline.",
+        "correct_reason": "The passage says over 96 percent of Earth's water is saline. The table on the source page places that saline water in the oceans and seas.",
+        "accept_ideas": [
+          "In the oceans, and it is salty or saline.",
+          "Most of it is salt water in the oceans.",
+          "The oceans hold over 96 percent of Earth's water."
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case and punctuation. Accept 'sea' for oceans and 'salty' for saline.",
+        "partial": [
+          {
+            "when": "They say the ocean is salty, but they do not say that most of Earth's water is there.",
+            "ask": "You have the salt. Where is most of that saline water?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say most of Earth's water is in rivers or lakes.",
+            "ask": "The passage gives a much larger number for saline water. Where is that water?"
+          },
+          {
+            "when": "They say most of Earth's water is frozen.",
+            "ask": "Ice holds much of the freshwater. What holds over 96 percent of all water?"
+          }
+        ],
+        "help": [
+          "Find the sentence with '96 percent.' What kind of water is it?",
+          "Saline water is salty water. Where is most of the salty water on Earth?"
+        ],
+        "tell": "Over 96 percent of Earth's water is saline. Most of that salt water is in the oceans.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "What is the passage above mostly about?",
+      "tutor_only": {
+        "confirm": "Right. Most of Earth's water is salt or locked away. Only a little is fresh.",
+        "correct_reason": "The passage gives the total water supply, then shows that over 96 percent is saline and most freshwater is frozen or underground. Those details all support one point: fresh water is a small share.",
+        "accept_ideas": [
+          "Most of Earth's water is salt water, and only a small share is fresh.",
+          "Earth has a lot of water, but very little of it is freshwater.",
+          "Most water is saline or locked in ice and underground.",
+          "Only 2.5 percent of Earth's water is freshwater."
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case and punctuation. Accept 'salty' for saline and 'small part' for small share.",
+        "partial": [
+          {
+            "when": "They name only one number, such as 96 percent or 2.5 percent, without saying what the passage is mostly about.",
+            "ask": "You named one number. What does the whole passage above say about Earth's water?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the passage is about the air and clouds.",
+            "ask": "Air and clouds are one place water is found. What is the passage mostly about?"
+          },
+          {
+            "when": "They say the passage is about cubic miles.",
+            "ask": "Cubic miles are the unit. What do the numbers show about Earth's water?"
+          }
+        ],
+        "help": [
+          "The passage gives one big total, then breaks it into parts. What does that breakdown show?",
+          "Look at the last sentence: only 2.5 percent is freshwater. What does that tell you about the whole passage?"
+        ],
+        "tell": "The passage above is mostly about how little of Earth's water is fresh. Most of it is saline, frozen, or underground.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "cloze",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": true,
+      "prompt": "Of the total freshwater, over 68 percent is locked up in ____ and glaciers.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. Over 68 percent of freshwater is locked up in ice and glaciers.",
+        "correct_reason": "The passage says that of the total freshwater, over 68 percent is locked up in ice and glaciers.",
+        "accept_words": [
+          "ice",
+          "ice caps"
+        ],
+        "normalize": "Ignore case and punctuation. Accept ice or ice caps.",
+        "reject_words": [
+          "water",
+          "ground"
+        ],
+        "if_they_say": [
+          {
+            "when": "They answer water or freshwater.",
+            "ask": "The sentence already says freshwater. What form is that freshwater locked up in?"
+          },
+          {
+            "when": "They answer ground.",
+            "ask": "The ground holds another 30 percent. What holds over 68 percent?"
+          }
+        ],
+        "help": [
+          "Read the sentence with the blank. What is the freshwater locked up in?",
+          "The passage pairs this word with glaciers. What is the other frozen form?"
+        ],
+        "tell": "The word is ice. Over 68 percent of freshwater is locked up in ice and glaciers.",
+        "say_back": "use_word",
+        "word": "ice",
+        "word_also": [
+          "ice caps"
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "Rivers are only a small part of freshwater. Why are they still important?",
+      "tutor_only": {
+        "confirm": "Right. Rivers and lakes supply most of the water people use every day.",
+        "correct_reason": "The passage says rivers are a small share of freshwater, but rivers and lakes are the sources of most water people use. Their importance is out of proportion to their size.",
+        "accept_ideas": [
+          "Rivers and lakes supply most of the water people use every day.",
+          "People depend on rivers and lakes for most of their water.",
+          "Rivers are small in amount, but people get a large portion of their water from them.",
+          "They are important because people can reach and use that surface water."
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case and punctuation. Accept 'people' or 'humans' and 'use' or 'depend on'.",
+        "partial": [
+          {
+            "when": "They say rivers are small, but they do not say why that small share matters.",
+            "ask": "You have the size. What do people get from rivers and lakes?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say rivers are important because they are large.",
+            "ask": "The passage says rivers are a small share. Why does that small share still matter?"
+          },
+          {
+            "when": "They say rivers are important for fish or boats, but not for people's water.",
+            "ask": "The last paragraph names one use for people. What is it?"
+          }
+        ],
+        "help": [
+          "Look at the last paragraph. What do rivers and lakes supply?",
+          "The passage says their importance is out of proportion to their size. Who uses that water?"
+        ],
+        "tell": "Rivers are a small share of freshwater. Even so, rivers and lakes supply most of the water people use every day.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is the whole passage mostly about, both sections together?",
+      "tutor_only": {
+        "confirm": "Right. Earth has a lot of water, but very little of it is fresh and available.",
+        "correct_reason": "The whole passage connects the two sections: most water is saline, frozen, or underground, and the tiny share of fresh surface water is the water people depend on. That is the central idea.",
+        "accept_ideas": [
+          "Earth has a lot of water, but very little is fresh and available.",
+          "Most of Earth's water is salt, ice, or underground, so people depend on a tiny share.",
+          "Only a small share of Earth's water is freshwater, and people rely on rivers and lakes.",
+          "The passage explains how little of Earth's water people can actually use."
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case and punctuation. Accept 'salty' for saline and 'small part' for small share.",
+        "partial": [
+          {
+            "when": "They name only one section's idea, such as the ocean being salty or rivers being important, without joining the two.",
+            "ask": "That is one section. What does the whole passage say about Earth's water and the water people use?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the passage is mostly about oceans.",
+            "ask": "Oceans hold most of the water. What does the passage say about the water people can use?"
+          },
+          {
+            "when": "They say the passage is mostly about numbers.",
+            "ask": "The numbers are details. What do they show about Earth's water?"
+          }
+        ],
+        "help": [
+          "Section one says most water is salt, ice, or underground. Section two says people use a tiny share. Put those together.",
+          "What is the one point both sections support about the water people can use?"
+        ],
+        "tell": "Earth has a lot of water. Most of it is saline, frozen, or underground. People depend on the tiny share of fresh surface water.",
+        "say_back": "own_words"
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_L1000_0002",
+    "next_level": 1000,
+    "next_means": "This same lesson, because no later main_idea lesson is authored yet.",
+    "student_line": "You have the main-idea move. This same reading is here for another try."
+  },
+  "retry": {
+    "next_file": "main_idea_L1000_0001",
+    "next_level": 1000,
+    "next_means": "The first main-idea lesson, for reteaching the move with a simpler passage.",
+    "student_line": "The next reading is the first main-idea lesson, for another look at the move."
+  },
+  "stopped": {
+    "next_file": "main_idea_L1000_0002",
+    "next_level": 1000,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

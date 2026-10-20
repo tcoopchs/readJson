@@ -30,7 +30,7 @@
     },
     "authoring_exceptions": [
       "Two passage parts instead of three. The source is 192 words and a third split would break the causal chain.",
-      "Advance and retry both repeat this lesson because no later main_idea lesson is authored yet. Pointing either route at an empty placeholder would hand the student an empty file."
+      "Retry repeats this lesson so the student can practice the same passage before moving on."
     ]
   },
   "script_overrides": {
@@ -252,10 +252,10 @@
     }
   ],
   "advance": {
-    "next_file": "main_idea_L1000_0001",
+    "next_file": "main_idea_L1000_0002",
     "next_level": 1000,
-    "next_means": "This same lesson, because no later main_idea lesson is authored yet.",
-    "student_line": "You have the main-idea move. This same reading is here for another try."
+    "next_means": "The second main-idea lesson, which explains the same move with a proportional passage.",
+    "student_line": "You have the main-idea move. The next reading is another main-idea lesson in this band."
   },
   "retry": {
     "next_file": "main_idea_L1000_0001",
