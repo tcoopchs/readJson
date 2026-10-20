@@ -26,10 +26,11 @@
       "time_target_minutes": 12,
       "difficulty_basis": "Two-step inference. The reader must join a detail from one paragraph to a detail from another, and must not import the idea that someone is hurt or that a crime happened."
     },
-    "protocol_version": "1.0",
     "authoring_exceptions": [
-      "Only two later inference lessons exist in the 1000-1099 band, so a retry here repeats this lesson instead of naming a file that does not exist."
-    ]
+      "Only two later inference lessons exist in the 1000-1099 band, so a retry here repeats this lesson instead of naming a file that does not exist.",
+      "Advance also repeats this lesson because inference_L1100_0001 is still an empty placeholder."
+    ],
+    "protocol_version": "1.0"
   },
   "passage": {
     "part_1": "Dell is the superintendent of a six-story building. On Tuesday, he notices that the lights in apartment 4B have stayed on for three days. The curtains are closed. On Wednesday, the mail in the 4B box is still there: two bills and a postcard.\n\nDell knocks on the door on Thursday morning. No one answers. He listens. The television is on, but no one moves inside.\n\nDell goes back to his basement office and opens a binder. It lists every tenant and an emergency contact. For 4B, the page says 'Mariam Osei' and a phone number with a note: 'call her sister first.'\n\nHe calls the sister. She says Mariam left on Sunday for a training course out of town. She thought Mariam had turned the lights off.",
@@ -273,10 +274,10 @@
     },
     "server_routes": {
       "advance": {
-        "next_file": "inference_L1100_0001",
-        "next_level": 1100,
-        "next_means": "The inference entry lesson for the 1100-1199 Star band.",
-        "student_line": "You handled most of this on your own. The next reading would be another inference lesson at a higher Star band."
+        "next_file": "inference_L1000_0003",
+        "next_level": 1000,
+        "next_means": "This same lesson, because no later inference lesson is authored and the 1100 entry is a placeholder.",
+        "student_line": "You handled most of this on your own. This same reading is here for another try."
       },
       "retry": {
         "next_file": "inference_L1000_0003",

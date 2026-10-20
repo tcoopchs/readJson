@@ -50,7 +50,7 @@
       "prompt": "What does chlorophyll do with sunlight?",
       "tutor_only": {
         "confirm": "Right. Chlorophyll absorbs sunlight and turns it into food and energy for the tree.",
-        "correct_reason": "The first part says chlorophyll absorbs the sun's rays and turns sunlight into food and energy. It also gives the plant its green color.",
+        "correct_reason": "The passage above says chlorophyll absorbs the sun's rays and turns sunlight into food and energy. It also gives the plant its green color.",
         "accept_ideas": [
           "It absorbs sunlight and turns it into food and energy for the tree.",
           "It takes in sunlight and makes food for the tree.",
@@ -133,7 +133,7 @@
       "prompt": "Once the chlorophyll breaks down, the other ____ in the leaf become visible.\n\nWrite the missing word.",
       "tutor_only": {
         "confirm": "Right. The other pigments become visible.",
-        "correct_reason": "The second part says that once chlorophyll breaks down, the other pigments in the leaf become visible. The next sentences explain that different mixes of pigments give leaves their colors.",
+        "correct_reason": "The passage above says that once chlorophyll breaks down, the other pigments in the leaf become visible. The next sentences explain that different mixes of pigments give leaves their colors.",
         "accept_words": [
           "pigment",
           "pigments"
@@ -154,7 +154,7 @@
           }
         ],
         "help": [
-          "Look at the first sentence of the second part. What word follows 'other'?",
+          "Look at the first sentence of the passage above. What word follows 'other'?",
           "The passage says every tree has a different mix of these. What are they called?"
         ],
         "tell": "The word is pigments. Once chlorophyll breaks down, the other pigments become visible.",
@@ -174,7 +174,7 @@
       "prompt": "Why do leaves show different colors in the fall?",
       "tutor_only": {
         "confirm": "Right. Chlorophyll breaks down, and the other pigments in each leaf become visible.",
-        "correct_reason": "The second part says chlorophyll breaks down, which lets other pigments show. Each tree has a different mix of pigments, and weather affects how bright the colors are.",
+        "correct_reason": "The passage above says chlorophyll breaks down, which lets other pigments show. Each tree has a different mix of pigments, and weather affects how bright the colors are.",
         "accept_ideas": [
           "Chlorophyll breaks down and the other pigments become visible.",
           "Each tree has a different mix of pigments, so the colors differ.",

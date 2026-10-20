@@ -26,10 +26,11 @@
       "time_target_minutes": 12,
       "difficulty_basis": "Multi-stage dependency. The reader must follow four stages in order and predict what a failure in one stage does to the stages after it."
     },
-    "protocol_version": "1.0",
     "authoring_exceptions": [
-      "The retry route drops one Star band to process_L1000_0002 because no later 1100-band process lesson exists yet."
-    ]
+      "The retry route drops one Star band to process_L1000_0002 because no later 1100-band process lesson exists yet.",
+      "Advance repeats this lesson because process_L1200_0001 is still an empty placeholder."
+    ],
+    "protocol_version": "1.0"
   },
   "passage": {
     "part_1": "Wastewater leaves a city through large pipes. It does not go straight to a river. It goes to a treatment plant, and the plant cleans it in stages.\n\nFirst, the water passes through a screen. The screen is a row of metal bars. Rags, wipes, and sticks catch on the bars and are pulled off. Nothing living is involved yet.\n\nNext, the water sits in a grit tank. Sand and small stones sink to the bottom. The water moves slowly, so the heavy material has time to fall.\n\nThen the water enters a large open tank. Pumps blow air into it. The air feeds bacteria that already live in the water. The bacteria eat the waste and multiply. This stage takes hours, not minutes. Without the air, those bacteria would die or stop working. The pumps run day and night.",
@@ -282,10 +283,10 @@
     },
     "server_routes": {
       "advance": {
-        "next_file": "process_L1200_0001",
-        "next_level": 1200,
-        "next_means": "The process entry lesson for the 1200-1299 Star band.",
-        "student_line": "You handled most of this on your own. The next reading would be another process lesson at a higher Star band."
+        "next_file": "process_L1100_0001",
+        "next_level": 1100,
+        "next_means": "This same lesson, because process_L1200_0001 is still an empty placeholder.",
+        "student_line": "You handled most of this on your own. This same reading is here for another try."
       },
       "retry": {
         "next_file": "process_L1000_0002",

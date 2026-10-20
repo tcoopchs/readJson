@@ -53,7 +53,7 @@
         "if_they_say": [
           {
             "when": "They say the boat is already inside the lock.",
-            "ask": "Look at the first part again. The boat is still outside while the water falls. Why are the big lower gates shut?"
+            "ask": "Look at the passage above again. The boat is still outside while the water falls. Why are the big lower gates shut?"
           },
           {
             "when": "They say the gates stay shut in order to fill the lock, or to make the boat rise.",
@@ -91,8 +91,8 @@
           }
         ],
         "help": [
-          "The first part names the small doors in the gates. What does it call them?",
-          "Find the words 'small doors' in the first part. What name comes right after 'called'?"
+          "The passage above names the small doors in the gates. What does it call them?",
+          "Find the words 'small doors' in the passage above. What name comes right after 'called'?"
         ],
         "tell": "Those small doors are called sluices.",
         "say_back": "use_word",

@@ -26,10 +26,10 @@
       "time_target_minutes": 12,
       "difficulty_basis": "Cause and effect inside a cycle. The reader must explain why height replaces a pump, and why the pumps wait for a set point instead of starting at once."
     },
-    "protocol_version": "1.0",
     "authoring_exceptions": [
       "Only one later process lesson exists in the 1000-1099 band, so a retry repeats this lesson instead of naming a file that does not exist."
-    ]
+    ],
+    "protocol_version": "1.0"
   },
   "passage": {
     "part_1": "A water tower is a tall tank on a column. It does not push water by itself. The height of the water does the work. Water at the top presses down on the water below it. That pressure moves water through the pipes under the street. The column is taller than the buildings around it. The higher the water sits, the more pressure it makes below.\n\nA gauge on the column shows how full the tank is. Pumps fill the tank at night, when most people are asleep and use little water. The pumps run until the tank is nearly full. Then they stop.",

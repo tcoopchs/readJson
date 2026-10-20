@@ -26,8 +26,9 @@
       "time_target_minutes": 12,
       "difficulty_basis": "Clue distance and one competing detail. The reader must connect an empty shelf to a missing delivery, and a job's materials to the order Rosa starts first."
     },
-    "protocol_version": "0.1",
-    "authoring_exceptions": []
+    "authoring_exceptions": [
+      "Advance routes to inference_L1000_0003 because inference_L1100_0001 is still an empty placeholder."
+    ]
   },
   "script_overrides": {
     "near_copy_2": "Start with the shelf, or with the paper. One sentence is enough."
@@ -223,10 +224,10 @@
     }
   ],
   "advance": {
-    "next_file": "inference_L1100_0001",
-    "next_level": 1100,
-    "next_means": "The inference entry lesson for the 1100-1199 Star band.",
-    "student_line": "You handled most of this on your own. The next reading would be another inference lesson at a higher Star band."
+    "next_file": "inference_L1000_0003",
+    "next_level": 1000,
+    "next_means": "Another inference lesson in the same band, because the 1100 inference entry is still a placeholder.",
+    "student_line": "You handled most of this on your own. The next reading is another inference lesson in this band."
   },
   "retry": {
     "next_file": "inference_L1000_0003",

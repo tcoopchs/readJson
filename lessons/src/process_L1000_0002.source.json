@@ -26,7 +26,6 @@
       "time_target_minutes": 12,
       "difficulty_basis": "Cause and effect inside a cycle. The reader must explain why height replaces a pump, and why the pumps wait for a set point instead of starting at once."
     },
-    "protocol_version": "0.1",
     "authoring_exceptions": [
       "Only one later process lesson exists in the 1000-1099 band, so a retry repeats this lesson instead of naming a file that does not exist."
     ]

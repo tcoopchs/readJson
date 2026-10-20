@@ -26,9 +26,9 @@
       "time_target_minutes": 12,
       "difficulty_basis": "Two-step inference. The reader must join a detail from one paragraph to a detail from another, and must not import the idea that someone is hurt or that a crime happened."
     },
-    "protocol_version": "0.1",
     "authoring_exceptions": [
-      "Only two later inference lessons exist in the 1000-1099 band, so a retry here repeats this lesson instead of naming a file that does not exist."
+      "Only two later inference lessons exist in the 1000-1099 band, so a retry here repeats this lesson instead of naming a file that does not exist.",
+      "Advance also repeats this lesson because inference_L1100_0001 is still an empty placeholder."
     ]
   },
   "script_overrides": {
@@ -218,10 +218,10 @@
     }
   ],
   "advance": {
-    "next_file": "inference_L1100_0001",
-    "next_level": 1100,
-    "next_means": "The inference entry lesson for the 1100-1199 Star band.",
-    "student_line": "You handled most of this on your own. The next reading would be another inference lesson at a higher Star band."
+    "next_file": "inference_L1000_0003",
+    "next_level": 1000,
+    "next_means": "This same lesson, because no later inference lesson is authored and the 1100 entry is a placeholder.",
+    "student_line": "You handled most of this on your own. This same reading is here for another try."
   },
   "retry": {
     "next_file": "inference_L1000_0003",

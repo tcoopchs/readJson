@@ -8,7 +8,7 @@
     "skill": "inference",
     "level": 1000,
     "sequence": 1,
-    "skill_frame": "Practice one-step inference: use facts from the passage to figure out something it does not say outright.",
+    "skill_frame": "Use facts from the passage to figure out something it does not say.",
     "reader": {
       "who": "High school students who read at about a 5th-grade level.",
       "reading_level": 5,
@@ -16,6 +16,7 @@
       "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
     },
     "source": {
+      "basis": "Written for this lesson. The diner, the cooler, and the note are original.",
       "text_status": "Written for this lesson. Not a verbatim excerpt.",
       "survey": "McGuffey's Fifth Eclectic Reader (1879) is a fifth reader in name only. Its lessons are speeches, poems, and sentences such as 'endeavor to make the thought and feeling and sentiments of the writer his own.' That is harder than a modern 5th-grade reading level. A public-domain grade-5 adaptation, 'Animal Studies' (Center for Urban Education), talks down to the reader and explains a sawfly by comparing its body to a saw. Little words, a harder picture. Current grade 4-6 inference packs are mostly children's stories or animal pieces, and they are not free to put in this file. This passage keeps one kitchen, one time jump, and inferences a reader can point to.",
       "avoided": "No children's story. No outdated science. No diagram of how a cooler works. The passage never says the cooler is broken. That is the inference."
@@ -26,8 +27,10 @@
       "time_target_minutes": 12,
       "difficulty_basis": "Legacy proof-of-concept lesson migrated to the compiled schema."
     },
-    "protocol_version": "1.0",
-    "authoring_exceptions": []
+    "authoring_exceptions": [
+      "Part 2 is 72 words. The inference is answerable from the two short paragraphs, and extending the scene would add no evidence.",
+      "Advance routes to inference_L1000_0002 because inference_L1100_0001 is still an empty placeholder."
+    ]
   },
   "script_overrides": {
     "near_copy_2": "Start with the food, or with the cooler. One sentence is enough."
@@ -40,10 +43,13 @@
     {
       "id": "q1",
       "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
       "show_part": "part_1",
       "prompt": "Yesterday the food in the cooler was cold and firm. What is different about that food tonight?",
       "tutor_only": {
         "confirm": "Right. Tonight the food is warm and soft. Yesterday it was cold.",
+        "correct_reason": "The passage says the milk is warm and the ice cream is soft at the edges. Yesterday the same food was cold and firm.",
         "accept_ideas": [
           "The food is warm, soft, or no longer cold.",
           "The milk is warm, or the ice cream is soft, or the lettuce is soft and wet."
@@ -76,10 +82,13 @@
     {
       "id": "q2",
       "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
       "show_part": null,
       "prompt": "Mia does not throw the food away. She leaves a note on the office desk. What is that note for?",
       "tutor_only": {
         "confirm": "Right. The note tells the next person that the food in the cooler is not cold.",
+        "correct_reason": "Mia finds warm food and leaves a note on the office desk. The note tells the next person what she found.",
         "accept_ideas": [
           "To tell the manager, or the next person, that the food is warm or soft.",
           "To report the problem in the cooler so someone else will see it."
@@ -105,17 +114,20 @@
           "Someone will read that note in the office. What did Mia just find in the cooler?",
           "Does the note hide the warm food, or does it point to the warm food?"
         ],
-        "tell": "The note tells the next person that the food in the cooler is warm and soft. Mia wants that person to see the problem.",
+        "tell": "The note tells the next person the food is not cold. Mia wants the problem seen.",
         "say_back": "own_words"
       }
     },
     {
       "id": "q3",
       "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
       "show_part": "part_2",
       "prompt": "The manager reads Mia's note. She keeps the front door locked and does not turn on the grill. Why doesn't she open the diner?",
       "tutor_only": {
         "confirm": "Right. She keeps the diner closed because that food is not cold enough to serve.",
+        "correct_reason": "The food in the cooler is warm and soft. Serving it would be unsafe, so the manager keeps the diner closed.",
         "accept_ideas": [
           "The food that should be cold is warm, so she cannot serve it.",
           "The diner stays closed because of the warm food in the cooler."
@@ -144,10 +156,13 @@
     {
       "id": "q4",
       "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
       "show_part": null,
       "prompt": "A cook asks if he should come in. The manager says no. Then she calls a repair shop. Why does she call a repair shop?",
       "tutor_only": {
         "confirm": "Right. She calls a repair shop because the cooler is not keeping the food cold.",
+        "correct_reason": "The cooler failed to keep the food cold. A repair shop is called to fix that cooler.",
         "accept_ideas": [
           "The cooler or freezer needs to be fixed or checked.",
           "The food went warm, so the cooler is not doing its job.",
@@ -178,10 +193,13 @@
     {
       "id": "q5",
       "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
       "show_part": null,
-      "prompt": "The repair worker opens that same cooler and kneels beside it. How do you know he is there about the food Mia found, and not about some other problem?",
+      "prompt": "The repair worker opens the same cooler. How do you know he is there about Mia's food, not something else?",
       "tutor_only": {
         "confirm": "Right. He goes to the same cooler where Mia found the warm food.",
+        "correct_reason": "The repair worker opens the same cooler where Mia found the warm food. That is the problem the note described.",
         "accept_ideas": [
           "He opens the same cooler Mia opened, the one with the warm food.",
           "He works on the cooler or the freezer, not the grill or the front door.",
@@ -215,10 +233,10 @@
     }
   ],
   "advance": {
-    "next_file": "inference_L1100_0001",
-    "next_level": 1100,
-    "next_means": "The inference entry lesson for the 1100-1199 Star band.",
-    "student_line": "You put most of these facts together on your own. The next reading would be another inference lesson at a higher Star band."
+    "next_file": "inference_L1000_0002",
+    "next_level": 1000,
+    "next_means": "Another inference lesson in the same band, because the 1100 inference entry is still a placeholder.",
+    "student_line": "You put most of these facts together on your own. The next reading is another inference lesson in this band."
   },
   "retry": {
     "next_file": "inference_L1000_0002",
