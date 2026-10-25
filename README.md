@@ -2,67 +2,281 @@
 
 Published lesson JSON files for the stateless reading harness server.
 
-This document is the authoritative contract for naming, levels, starting lessons, and routing.
-Any AI or human authoring lessons in this repository must follow it exactly. If an old example or
-lesson file conflicts with this contract, this document wins.
+This document is the authoritative contract for filenames, instructional placement, student-facing
+bands, source layout, compilation, and routing. Any AI or human authoring lessons in this repository
+must follow it exactly. If an older example, draft, or server document conflicts with this contract,
+this document wins.
 
 ## Instructions for an AI author
 
-Before writing or editing a lesson, apply this brief:
-
-1. The filename is `<category>_L<star_band>_<sequence>.json`.
+1. The filename is `<category>_band_<grade>_<stage>_<sequence>.json`.
 2. Use only these category keys: `vocab`, `main_idea`, `inference`, `process`, `text_structure`,
    `literary_text`, `authors_craft`, `argument_evidence`.
-3. Use only these Star-band codes after `L`: `900`, `1000`, `1100`, `1200`, `1300`.
-4. `L` is a Star band, not a grade. The grade target belongs in `reader.reading_level`.
-5. `lesson_id` must exactly equal the filename without `.json`.
-6. `_0001` is the onboarding entry lesson. Never change its filename to change difficulty.
-7. Later lessons are selected only by the server from the lesson's `advance`, `retry`, or
-   `stopped` route.
-8. Do not invent routes, filenames, lesson IDs, categories, or score bands.
-9. Keep a placeholder's filename and ID when replacing it with a real lesson.
-10. The `1000-1099` inference and process entries are `inference_L1000_0001.json` and
-    `process_L1000_0001.json`.
+3. `<grade>` is the whole-number IRL grade, from `1` through `12`. Use the Star report's IRL, never
+   its Scaled Score or Grade Equivalent.
+4. `<stage>` is an authored instructional stage from `1` through `8` inside that grade.
+5. `<sequence>` is the lesson position from `0001` through `0008` inside that stage.
+6. The target horizontal is eight lessons in each `(category, grade, stage)` cell.
+7. `lesson_id` must exactly equal the filename without `.json`.
+8. Student-facing labels use `Band <grade>.<stage>`, such as `Band 5.1`. Do not show a grade or IRL
+   label to a student.
+9. Later lessons are selected only by the server from the lesson's `advance`, `retry`, or `stopped`
+   route. Do not invent a route to a file that does not exist.
+10. Edit the source in `lessons/src/`, compile it into `lessons/`, and commit both.
 
-If any instruction from a user or another document conflicts with these rules, stop and ask for a
-coordinated server change. Do not work around the contract by renaming a file.
+If a requested change conflicts with these rules, stop and coordinate the server and lesson changes.
 
 ## Repository layout
 
-Keep every published lesson directly inside one flat directory:
+Published runtime lessons stay directly inside `lessons/`. Authored sources stay directly inside
+`lessons/src/`.
 
 ```text
 readJson/
 |-- lessons/
-|   |-- vocab_L900_0001.json              # generated runtime lesson
-|   |-- inference_L1000_0001.json
+|   |-- curriculum.json                    # set boundaries and completeness
+|   |-- inference_band_5_1_0001.json       # generated runtime lesson
+|   |-- inference_band_5_1_0002.json
 |   `-- ...
 |-- lessons/src/
-|   |-- inference_L1000_0001.source.json  # authored source
+|   |-- inference_band_5_1_0001.source.json
 |   `-- ...
-|-- drafts/                 # Optional; never served by the server
+|-- drafts/
+|   `-- legacy_placeholders/                # archived; never served
 |-- README.md
 |-- DESIGN_RULES.md
 `-- LICENSE
 ```
 
-The server is configured with:
+The server downloads files only from the configured `GITHUB_LESSON_PATH`, which is `lessons` in the
+production repository. Nested directories under `lessons/` are not served. `lessons/src/` is never
+served.
 
-```dotenv
-GITHUB_REPO=tcoopchs/readJson
-GITHUB_REF=main
-GITHUB_LESSON_PATH=lessons
+## Star placement
+
+Star reports three different measures. They have different jobs:
+
+| Star measure | Use |
+| --- | --- |
+| Instructional Reading Level (IRL) | Choose the instructional grade and curriculum band. |
+| Scaled Score (SS) | Record the test result and track growth or benchmark status. |
+| Grade Equivalent (GE) | Do not use for lesson placement. It is a norm comparison, not an IRL. |
+| Percentile Rank (PR) | Report the student's relative standing. Do not use for placement. |
+| ZPD | Suggest an independent-reading range. Do not use for lesson routing. |
+
+Use the whole-number part of IRL for the curriculum grade:
+
+```text
+IRL 4.2 -> grade 4 -> Band 4.1 is the entry stage
+IRL 4.7 -> grade 4 -> Band 4.1 is the entry stage
+IRL 5.0 -> grade 5 -> Band 5.1 is the entry stage
+IRL 5.1 -> grade 5 -> Band 5.1 is the entry stage
 ```
 
-The server does not search nested directories. A lesson is published when it is directly inside
-`lessons/`, is valid JSON, and passes server catalog validation. `lessons/src/` is never served.
+IRL 4.7 is still grade-4 instructional material. Grade 5 begins at IRL 5.0. The decimal is a test
+measurement, not a separate curriculum grade.
+
+The student-facing selector uses opaque Band labels, such as `Band 5.1`. It must not show `Grade 5`,
+`5th grade`, `IRL 5.1`, or any copy that tells a student their reading is below their school grade.
+
+## The band contract
+
+Every filename has exactly this shape:
+
+```text
+<category>_band_<grade>_<stage>_<sequence>.json
+```
+
+| Part | Meaning | Valid examples |
+| --- | --- | --- |
+| `<category>` | One fixed lesson-type key | `inference`, `process`, `main_idea` |
+| `band_` | Fixed marker for the student-facing band scheme | `band_` |
+| `<grade>` | Whole-number IRL grade | `3`, `5`, `9`, `12` |
+| `<stage>` | Authored progression stage within the grade | `1` through `8` |
+| `<sequence>` | Lesson within the horizontal stage | `0001` through `0008` |
+
+Examples:
+
+```text
+inference_band_5_1_0001.json
+inference_band_5_1_0008.json
+inference_band_5_2_0001.json
+process_band_9_8_0004.json
+```
+
+`Band 5.1` means grade-5 instructional content, stage 1. It does not mean IRL 5.1 exactly. The
+grade controls the reading load; the stage controls authored progression inside that grade.
+
+The JSON `lesson_id` is always the filename without `.json`:
+
+```json
+{
+  "lesson_id": "inference_band_5_1_0001"
+}
+```
+
+## Horizontal and vertical progression
+
+The target progression cell is a horizontal:
+
+```text
+8 lessons in one category, grade, and stage
+```
+
+The set boundaries are declared in `lessons/curriculum.json`. The target size is a default, not a
+hardcoded server constant. Each set lists its actual sequences and is marked `complete` only when
+all of them exist:
+
+```json
+{
+  "skill": "inference",
+  "grade": 5,
+  "stage": 1,
+  "expected_sequences": [1, 2, 3, 4, 5, 6, 7, 8],
+  "status": "complete"
+}
+```
+
+An `incomplete` set remains available through its authored routes but does not use central
+progression. This prevents a partially authored set from treating its current last lesson as the
+true end of the horizontal.
+
+Within a horizontal, sequences run in order:
+
+```text
+inference_band_5_1_0001.json
+inference_band_5_1_0002.json
+...
+inference_band_5_1_0008.json
+```
+
+A student may advance before all eight lessons are exhausted if they meet the mastery rule. The
+eight lessons are the full practice pool, not a requirement to repeat material after mastery.
+
+Vertical movement follows stages first, then grades:
+
+```text
+5.1 -> 5.2 -> ... -> 5.8 -> 6.1
+```
+
+Every vertical move keeps the same category. A student in inference Band 5.2 moves to inference
+Band 5.3, not to main idea or to an unrelated grade.
+
+### Completing the last lesson without mastery
+
+If a student completes the last lesson in the set and still does not meet the advance rule, do not
+force them upward. Move them down to the middle of the previous progression:
+
+```text
+current Band 5.3, last lesson completed without mastery
+-> previous Band 5.2, sequence 0004
+```
+
+The server computes the middle from the previous set's actual `expected_sequences`. Eight lessons
+use sequence `0004`; five use `0003`; seven use `0004`; one uses `0001`. If the current stage is the
+first stage of a grade, the previous progression is the last authored stage of the grade below:
+
+```text
+current Band 5.1, last lesson completed without mastery
+-> Band 4.8, sequence 0004
+```
+
+If the student is already at the bottom band supported by the catalog, restart at the beginning of
+that band:
+
+```text
+current lowest Band, last lesson completed without mastery
+-> lowest Band, sequence 0001
+```
+
+Do not apply the original IRL placement rule again after a step-down. The student has already been
+placed; this is remediation inside the authored progression.
+
+The server does not need a cross-lesson counter. It derives the next lesson from the current
+lesson's category, grade, stage, and sequence plus the manifest. A stopped session resumes the
+current lesson and does not trigger the step-down.
+
+During sparse-content development, a step-down destination must already exist. If it does not,
+point `retry` at the current lesson rather than inventing a missing file.
+
+## Completion routing
+
+Every source lesson must contain finite, explicit `advance`, `retry`, and `stopped` destinations.
+The compiler writes them into `rules.server_routes`. The server chooses the route.
+
+The unsigned completion line is:
+
+```text
+v1|from=<lesson_id>|done=<completed-items>|got_there=<unaided-or-helped>
+```
+
+A stopped session adds `|stop=1`. The AI reports only the current lesson and counts. It must not
+name or choose a destination.
+
+Routes use `next_irl` for the target band grade. The filename supplies the target stage and sequence.
+
+```json
+{
+  "advance": {
+    "next_file": "inference_band_5_2_0001",
+    "next_irl": 5,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another inference lesson."
+  },
+  "retry": {
+    "next_file": "inference_band_5_1_0002",
+    "next_irl": 5,
+    "next_means": "The next inference lesson in this stage.",
+    "student_line": "The next reading is another inference lesson in this band."
+  },
+  "stopped": {
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
+```
+
+Every destination file must already exist. Do not publish a route to a planned lesson.
+
+## Onboarding bands
+
+The server's `onboarding.json` lists exact entry lessons for student-facing Band keys. A key such as
+`5.1` displays as `Band 5.1` and points to the `_0001` entry for that category and stage.
+
+An empty `entries` object means that band is visible but has no authored lesson for that category.
+The server must not substitute a different grade or stage.
+
+## Current content status
+
+Only the eight compiled lessons under `lessons/` are live content. They are prototype coverage, not
+a completed eight-lesson horizontal:
+
+| Band | Category | Authored |
+| --- | --- | --- |
+| 5.1 | inference | 2 |
+| 6.1 | inference | 1 |
+| 7.1 | main idea | 2 |
+| 9.1 | process | 2 |
+| 10.1 | process | 1 |
+
+The remaining empty Star-band placeholders were archived under `drafts/legacy_placeholders/`. Do
+not publish them or recreate empty files in `lessons/`.
+
+## Adding a lesson
+
+1. Choose one of the eight category keys.
+2. Determine the whole-number IRL grade.
+3. Choose an authored stage from 1 through 8.
+4. Choose the next unused sequence from 0001 through 0008.
+5. Create `<category>_band_<grade>_<stage>_<sequence>.source.json` in `lessons/src/`.
+6. Set `lesson_id` to the filename without `.json`.
+7. Set `meta.reader.reading_level` to the whole-number grade.
+8. Write the lesson according to `DESIGN_RULES.md`.
+9. Rebuild the runtime JSON.
+10. Reference the lesson from a route only after the generated file exists.
 
 ## Building lessons
-
-Shared tutor instructions, common student scripts, result definitions, route thresholds, and
-completion-token formats come from `server/config/protocol.json` in the readingHarness repository.
-Lesson sources contain only lesson-specific content: metadata, passage, items, script overrides,
-and the three route destinations.
 
 From the readingHarness repository:
 
@@ -72,7 +286,7 @@ uv run python scripts/build_lessons.py \
   --output-dir /path/to/readJson/lessons
 ```
 
-Check that generated files are current:
+Check generated files:
 
 ```bash
 uv run python scripts/build_lessons.py \
@@ -81,264 +295,29 @@ uv run python scripts/build_lessons.py \
   --check
 ```
 
-Do not edit generated runtime files by hand. Edit the source, rebuild, and commit both.
-
-## The filename contract
-
-Every lesson filename has exactly this shape:
-
-```text
-<category>_L<star_band>_<sequence>.json
-```
-
-Examples:
-
-```text
-vocab_L900_0001.json
-inference_L1000_0001.json
-process_L1300_0001.json
-authors_craft_L1100_0002.json
-```
-
-The three variable parts have fixed meanings:
-
-| Part | Meaning | Valid examples |
-| --- | --- | --- |
-| `<category>` | One fixed lesson-type key configured on the server | `vocab`, `main_idea`, `inference` |
-| `<star_band>` | Lower bound of a Star Reading scaled-score band | `900`, `1000`, `1100`, `1200`, `1300` |
-| `<sequence>` | Order within that category and Star band | `0001`, `0002`, `0003` |
-
-`L` does **not** mean grade level. Never put a grade number there. The Star-band code and the
-reader's grade target are separate facts:
-
-- `inference_L1000_0001.json` means the `1000-1099` Star band.
-- Its JSON may have `"reader": {"reading_level": 9}`.
-- That means a ninth-grade readability target inside the `1000-1099` Star band.
-- It does **not** mean `L9`, Grade 9 in the filename, or Star grade equivalent 9.
-
-The JSON `lesson_id` is always the filename without `.json`:
-
-```json
-{
-  "lesson_id": "inference_L1000_0001"
-}
-```
-
-Never rename a lesson after its ID has appeared in a signed student bookmark.
-
-## Fixed categories
-
-These eight category keys are the complete current set. Do not invent another category key in a
-lesson filename or JSON field:
-
-| Key | Student label |
-| --- | --- |
-| `vocab` | Vocabulary |
-| `main_idea` | Main idea and details |
-| `inference` | Inference and conclusions |
-| `process` | Sequence and process |
-| `text_structure` | Text structure |
-| `literary_text` | Literary text |
-| `authors_craft` | Author's craft |
-| `argument_evidence` | Argument and evidence |
-
-Adding a category is a server change, not an isolated JSON-file change. It requires coordinated
-updates to the server's `categories.json`, `onboarding.json`, and lesson catalog.
-
-## Fixed Star bands
-
-The onboarding UI uses these five Star Reading bands:
-
-| Star range | Filename code | Typical grade context |
-| --- | --- | --- |
-| `900-999` | `900` | early fourth-grade performance |
-| `1000-1099` | `1000` | fourth-grade through early ninth-grade performance |
-| `1100-1199` | `1100` | later ninth-grade or advanced secondary performance |
-| `1200-1299` | `1200` | above typical secondary performance |
-| `1300-1400` | `1300` | postsecondary or beyond Grade 12 performance |
-
-The grade context is guidance only. Grade Equivalent is a norm comparison, not an instructional
-assignment. Use `reader.reading_level` and `reader.why_this_level` to state the intended reader
-and the actual cognitive load.
-
-The band labels and ranges are a presentation and routing contract. Do not create `L950`, `L1099`,
-`L4`, `L5`, `L9`, `L12`, or any other extra band without an explicit server change.
-
-## The 40 starting lessons
-
-There are five Star bands multiplied by eight categories. Every combination has one stable entry
-lesson ending in `_0001`:
-
-```text
-vocab_L900_0001.json                 main_idea_L900_0001.json
-inference_L900_0001.json             process_L900_0001.json
-text_structure_L900_0001.json        literary_text_L900_0001.json
-authors_craft_L900_0001.json         argument_evidence_L900_0001.json
-
-vocab_L1000_0001.json                main_idea_L1000_0001.json
-inference_L1000_0001.json            process_L1000_0001.json
-text_structure_L1000_0001.json       literary_text_L1000_0001.json
-authors_craft_L1000_0001.json        argument_evidence_L1000_0001.json
-
-vocab_L1100_0001.json                main_idea_L1100_0001.json
-inference_L1100_0001.json            process_L1100_0001.json
-text_structure_L1100_0001.json       literary_text_L1100_0001.json
-authors_craft_L1100_0001.json        argument_evidence_L1100_0001.json
-
-vocab_L1200_0001.json                main_idea_L1200_0001.json
-inference_L1200_0001.json            process_L1200_0001.json
-text_structure_L1200_0001.json       literary_text_L1200_0001.json
-authors_craft_L1200_0001.json        argument_evidence_L1200_0001.json
-
-vocab_L1300_0001.json                main_idea_L1300_0001.json
-inference_L1300_0001.json            process_L1300_0001.json
-text_structure_L1300_0001.json       literary_text_L1300_0001.json
-authors_craft_L1300_0001.json        argument_evidence_L1300_0001.json
-```
-
-The `1000-1099` inference and process entries are the authored files
-`inference_L1000_0001.json` and `process_L1000_0001.json`. They were migrated from the old
-proof-of-concept IDs, and the server onboarding mapping was updated in the same change.
-
-The server's onboarding configuration names these exact IDs. The onboarding page serves only the
-starting lesson for the selected band and category. It does not choose a later lesson from a
-sequence.
-
-Most files are currently deliberately minimal placeholders:
-
-```json
-{"lesson_id":"vocab_L900_0001"}
-```
-
-The minimal contents mean **replace me**. They are not approved lesson content. When replacing a
-placeholder:
-
-1. Keep the filename unchanged.
-2. Keep `lesson_id` exactly equal to the filename without `.json`.
-3. Keep the same category key and Star-band code.
-4. Put the intended grade target in `reader.reading_level`.
-5. Replace the rest of the JSON with a complete authored lesson.
-6. Preserve the entry mapping; no server onboarding edit is needed.
-
-## Entry lessons versus later lessons
-
-The `_0001` file is the only lesson selected by the onboarding form. Later lessons are reached
-only through a signed link selected by the server from the lesson's authored routes.
-
-- `_0001` = starting lesson for that category and Star band.
-- `_0002`, `_0003`, ... = later lessons at the same category and Star band.
-- The next Star band starts again at `_0001`, for example `inference_L1100_0001.json`.
-- Adding a later file never changes which `_0001` file onboarding serves.
-
-If a source route names a later lesson, that exact JSON file must exist before the route is
-published. Do not point a route at a filename you merely intend to create.
-
-## Completion routing
-
-Every source lesson must contain finite, explicit `advance`, `retry`, and `stopped` destinations.
-The compiler writes them into `rules.server_routes`. The server chooses one; the AI must not choose
-or name a destination.
-
-The unsigned completion-line format is:
-
-```text
-v1|from=<lesson_id>|done=<completed-items>|got_there=<unaided-or-helped>
-```
-
-For example:
-
-```text
-v1|from=inference_L1000_0002|done=5|got_there=4
-```
-
-The AI reports the current lesson and counts only. The server verifies the catalog entry, chooses
-the route, signs the next lesson, and sets the server-side unlock time. A stopped session adds
-`|stop=1`.
-
-A typical route table is:
-
-```json
-{
-  "server_routes": {
-    "advance": {
-      "next_level": 1100,
-      "next_file": "inference_L1100_0001",
-      "next_means": "The inference starting lesson for the 1100-1199 Star band."
-    },
-    "retry": {
-      "next_level": 1000,
-      "next_file": "inference_L1000_0002",
-      "next_means": "Another inference lesson in the 1000-1099 Star band."
-    },
-    "stopped": {
-      "next_level": 1000,
-      "next_file": "inference_L1000_0002",
-      "next_means": "Resume the current lesson."
-    }
-  }
-}
-```
-
-Success can advance to the next band's `_0001`. Retry can stay in the same band and use a later
-sequence. A stopped session returns to the current `lesson_id`.
-
-At `1300-1400`, there is no higher band in the current scale. A success route must stay within the
-existing lesson set or stop. Do not invent `L1400`, a grade-based code, or a new category. If a
-lesson needs a higher-level destination, the server's band policy must change first.
-
-A wrong answer does not trigger either route during the lesson. The tutor stays on the current
-item through the authored misconception branch, help ladder, `tell`, and say-back. Route selection
-happens only after the final item.
-
-The server validates all three destinations when it builds the catalog. If a route points to a
-missing file or the wrong level, startup fails rather than serving a broken next lesson.
-
-## No legacy lesson files
-
-The two proof-of-concept files were migrated to the Star-band convention:
-
-```text
-inference_L5_0001.json  ->  inference_L1000_0001.json
-process_L9_0001.json    ->  process_L1000_0001.json
-```
-
-The server onboarding mapping was updated in the same change, so the `1000-1099` entries now name
-the new IDs. `lesson_id`, exit routes, and ticket templates moved with them. No file in
-`lessons/` uses a grade label after `L`.
-
-## Adding a later lesson
-
-1. Choose one of the eight fixed category keys.
-2. Choose one of the five Star-band codes.
-3. Choose the next unused sequence for that category and band.
-4. Create `<category>_L<star_band>_<sequence>.source.json` inside `lessons/src/`.
-5. Set `lesson_id` to the filename without `.json`.
-6. Write the lesson source according to `DESIGN_RULES.md`.
-7. Reference it from a route only after the generated file exists.
-8. Run the build, commit the source and generated JSON, then push and redeploy.
-
-Do not put drafts in `lessons/`. Keep unpublished work outside that directory.
+Do not edit generated runtime files by hand. The compiler removes the authoring `reader` block,
+`irl_grade`, and other placement-only metadata from the student-facing JSON.
 
 ## Validation checklist
 
-- [ ] The file is directly inside `lessons/`.
+- [ ] The filename uses `<category>_band_<grade>_<stage>_<sequence>.json`.
 - [ ] The category is one of the eight fixed keys.
-- [ ] The Star-band code is exactly `900`, `1000`, `1100`, `1200`, or `1300`.
-- [ ] The sequence is a positive integer, padded for readability.
-- [ ] `lesson_id` exactly matches the filename without `.json`.
-- [ ] The grade target is in `reader.reading_level`, not in the filename's `L` code.
-- [ ] The starting file preserves `_0001` and its onboarding ID.
-- [ ] Advance, retry, and stopped routes name existing lessons in this repository.
-- [ ] `scripts/build_lessons.py --check` passes.
-- [ ] The ticket `level` matches the Star-band code.
-- [ ] Stopped sessions return to the current lesson.
-- [ ] The lesson is complete JSON and is not a placeholder unless intentionally replacing it later.
-- [ ] The file is committed and pushed and the server has been restarted or redeployed.
+- [ ] The grade is a whole number from 1 through 12.
+- [ ] The stage is from 1 through 8.
+- [ ] The sequence is from 0001 through 0008.
+- [ ] `lesson_id` equals the filename without `.json`.
+- [ ] `meta.reader.reading_level` equals the filename grade in the source.
+- [ ] Student-facing text uses a Band label or no label, never a grade or IRL phrase.
+- [ ] The generated runtime file contains no `reader` or `irl_grade` metadata.
+- [ ] `advance`, `retry`, and `stopped` name existing lessons.
+- [ ] `next_irl` matches the destination filename grade.
+- [ ] The compiler `--check` passes.
+- [ ] No empty placeholder is placed in `lessons/`.
 
 ## Publishing
 
-The server downloads a snapshot at startup. Commit and push lesson changes, then restart or
-redeploy the server. It does not poll GitHub continuously.
+Commit and push both lesson sources and generated runtime files, then restart or redeploy the
+server. The server downloads a snapshot at startup and does not poll GitHub continuously.
 
 Pin `GITHUB_REF` to a commit SHA when a deployment must remain on one known lesson set. Use `main`
-when every server restart should receive the latest published files.
+when every restart should receive the latest published files.

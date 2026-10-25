@@ -1,20 +1,12 @@
 {
   "schema_version": 3,
   "document_type": "reading_lesson",
-  "lesson_id": "main_idea_L1000_0002",
+  "lesson_id": "main_idea_band_7_1_0002",
   "meta": {
     "status": "reviewed",
     "title": "The Water We Can Use",
     "skill": "main_idea",
-    "level": 1000,
-    "sequence": 2,
     "skill_frame": "Find the main idea: decide what a passage is mostly about.",
-    "reader": {
-      "who": "High school and adult readers at about a 7th-grade level.",
-      "reading_level": 7,
-      "why_this_level": "Language load 2, idea load 2, structure 1, knowledge 1. The excerpt scores FK 5.9, which understates the load: the reader must hold several proportions and see that they all support one conclusion. All needed knowledge is in the passage. This is the second main-idea lesson in the 1000-1099 Star band. The band is not a grade; the grade target is 7.",
-      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
-    },
     "source": {
       "basis": "U.S. Geological Survey, Water Science School, 'Where is Earth's Water?' A U.S. federal government work, public domain in the United States.",
       "attribution": "U.S. Geological Survey, 'Where is Earth's Water?', https://www.usgs.gov/water-science-school/science/where-earths-water, accessed 2026-10-19. Text bank TB-002.",
@@ -337,20 +329,20 @@
     },
     "server_routes": {
       "advance": {
-        "next_file": "main_idea_L1000_0002",
-        "next_level": 1000,
+        "next_file": "main_idea_band_7_1_0002",
+        "next_irl": 7,
         "next_means": "This same lesson, because no later main_idea lesson is authored yet.",
         "student_line": "You have the main-idea move. This same reading is here for another try."
       },
       "retry": {
-        "next_file": "main_idea_L1000_0001",
-        "next_level": 1000,
+        "next_file": "main_idea_band_7_1_0001",
+        "next_irl": 7,
         "next_means": "The first main-idea lesson, for reteaching the move with a simpler passage.",
         "student_line": "The next reading is the first main-idea lesson, for another look at the move."
       },
       "stopped": {
-        "next_file": "main_idea_L1000_0002",
-        "next_level": 1000,
+        "next_file": "main_idea_band_7_1_0002",
+        "next_irl": 7,
         "next_means": "This same lesson, so it can be finished.",
         "student_line": null
       }

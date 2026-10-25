@@ -1,12 +1,13 @@
 {
   "schema_version": 3,
   "document_type": "lesson_source",
-  "lesson_id": "process_L1100_0001",
+  "lesson_id": "process_band_10_1_0001",
   "meta": {
     "status": "published",
     "title": "What the Plant Removes",
     "skill": "process",
-    "level": 1100,
+    "irl_grade": 10,
+    "stage": 1,
     "sequence": 1,
     "skill_frame": "Follow a multi-stage process: track the stage order and what a failure changes.",
     "reader": {
@@ -251,20 +252,20 @@
     }
   ],
   "advance": {
-    "next_file": "process_L1100_0001",
-    "next_level": 1100,
+    "next_file": "process_band_10_1_0001",
+    "next_irl": 10,
     "next_means": "This same lesson, because process_L1200_0001 is still an empty placeholder.",
     "student_line": "You handled most of this on your own. This same reading is here for another try."
   },
   "retry": {
-    "next_file": "process_L1000_0002",
-    "next_level": 1000,
+    "next_file": "process_band_9_1_0002",
+    "next_irl": 9,
     "next_means": "Another process lesson in the 1000-1099 Star band, for reteaching the same chain with fewer stages.",
     "student_line": "The stage chain is still new. The next reading would be a process lesson in the band below."
   },
   "stopped": {
-    "next_file": "process_L1100_0001",
-    "next_level": 1100,
+    "next_file": "process_band_10_1_0001",
+    "next_irl": 10,
     "next_means": "This same lesson, so it can be finished."
   }
 }

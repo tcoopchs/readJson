@@ -1,13 +1,14 @@
 # JSON Lesson File Design Ruleset
 
 This document defines the content authoring rules for `readJson` lesson sources and the runtime
-lessons compiled from them. It applies to every reading category, topic, Star band, and reader
-target. [README.md](README.md) is authoritative for filenames, fixed categories, Star-band codes,
-starting-lesson mapping, source layout, compilation, and legacy exceptions. This document is
-authoritative for passage, question, readability, routing, and lesson content. Both override
-older examples when they conflict.
+lessons compiled from them. It applies to every reading category, instructional band, and reader
+target. [README.md](README.md) is authoritative for filenames, fixed categories, Band codes,
+starting-lesson mapping, source layout, compilation, and progression. This document is
+authoritative for passage, question, readability, routing, and lesson content. Both override older
+examples when they conflict.
 
-New lessons are authored as `lessons/src/<category>_L<star_band>_<sequence>.source.json` using
+New lessons are authored as
+`lessons/src/<category>_band_<grade>_<stage>_<sequence>.source.json` using
 `schema_version: 3` and `document_type: "lesson_source"`. The readingHarness compiler combines the
 source with the shared protocol and writes the runtime JSON into `lessons/`. Do not hand-write the
 shared tutor instructions, common scripts, result definitions, route thresholds, or ticket
@@ -27,17 +28,23 @@ readability statistics and through other standard readability tools. If a Lexile
 needed, use the Lexile Analyzer or another documented Lexile tool. Record which measure was used
 and where. Do not rely on intuition alone.
 
-**1.2 `reading_level` labels the reader, not the filename.** `reader.reading_level` is the grade
-target for the intended reader. It is independent of the Star-band code in the filename:
+**1.2 The IRL grade controls instructional placement.** Use the whole-number part of Star's
+Instructional Reading Level (IRL). Do not use the Scaled Score, Percentile Rank, ZPD, or Grade
+Equivalent to choose a curriculum grade:
 
 ```text
-inference_L1000_0001.json   # filename: 1000-1099 Star band
-reader.reading_level: 9     # content: intended for a ninth-grade reader
+Star IRL 5.1 -> grade 5 -> inference_band_5_1_0001.json
+reader.reading_level: 5
 ```
 
-A passage that scores FK 6.2 can still be appropriate for a ninth-grade reader when vocabulary,
-background knowledge, inference distance, and working-memory load are controlled. State that
-distinction in `reader.why_this_level`. Never put the reading grade into the filename's `L` code.
+IRL 4.2 and IRL 4.7 both mean grade-4 instructional material. Grade 5 begins at IRL 5.0. A passage
+that scores FK 6.2 can still be appropriate for a grade-9 reader when vocabulary, background
+knowledge, inference distance, and working-memory load are controlled. State that distinction in
+`reader.why_this_level`.
+
+The `reader` block and `reader.reading_level` are authoring metadata only. The compiler removes them
+from the student-facing runtime lesson. Student-facing labels use `Band <grade>.<stage>` and must
+not reveal a grade, IRL, or below-grade comparison.
 
 **1.3 Use the Common Core text-complexity bands as a sanity check.** A Grade 4-5 reader target is
 roughly FK 4.51-7.73. A Grade 6-8 reader target is roughly FK 6.51-10.34. These are review
@@ -57,9 +64,9 @@ small doors, where the boat is, which water is higher, and a reversed trip at th
 the skill is sentence-level; document a longer exception in `reader.why_this_level` or
 `meta.authoring_exceptions`.
 
-**2.2 Each Star band and reader target gets its own passage.** Do not generate runtime rewrites of
-one passage to step difficulty. Write or select a separate passage for each authored lesson.
-Adaptation moves across exact files named in the source routes, never across AI-authored rewrites.
+**2.2 Each Band gets its own passage.** Do not generate runtime rewrites of one passage to step
+difficulty. Write or select a separate passage for each authored lesson. Adaptation moves across
+exact files named in the source routes, never across AI-authored rewrites.
 
 **2.3 The passage must contain the evidence in plain sight.** Every inference, cloze, main-idea,
 and author's-purpose answer must be derivable from text shown in the current lesson. If an item
@@ -212,35 +219,66 @@ raise cognitive load for struggling readers. The most useful combinations are de
 main idea with text structure and retelling. Do not mix four skills into one file. The lesson's
 primary skill must match one of the eight fixed filename categories in README.md.
 
-## 7. Star Bands, Entry Lessons, and Exit Routing
+## 7. Instructional Bands, Horizontals, and Exit Routing
 
 **7.1 Filename convention.**
 
 ```text
-lessons/src/<category>_L<star_band>_<sequence>.source.json
+lessons/src/<category>_band_<grade>_<stage>_<sequence>.source.json
 ```
 
-The category must be one of the eight fixed keys in README.md. The Star-band code must be exactly
-`900`, `1000`, `1100`, `1200`, or `1300`. The code is the lower bound of the Star range; it is not
-a grade. For example, `_L1000_` means Star `1000-1099`. Labels such as `L9`, `L950`, `L1099`, and
-`L5a` are invalid for new lessons. After compilation, the runtime file drops `.source` and is
-written directly into `lessons/`. The only legacy exceptions are the two files named in README.md.
+The category must be one of the eight fixed keys in README.md. The grade is the whole-number IRL
+grade from 1 through 12. The stage is an authored progression stage from 1 through 8. The sequence
+is a lesson position from 0001 through 0008. For example,
+`inference_band_5_2_0003.json` is the third grade-5 inference lesson in stage 2.
 
-**7.2 `_0001` is the onboarding entry lesson.**
+The target horizontal is eight lessons for one category, grade, and stage. Do not use tenths of an
+IRL point as independent curriculum grades. Use stages to create finer progression inside a grade.
+After compilation, the runtime file drops `.source` and is written directly into `lessons/`.
 
-For each category and Star band, `_0001` is the starting lesson selected by the onboarding form.
-Later sequences are reached only through server-selected routes. There is no fixed `_0005`
-ceiling. Choose the next unused sequence deliberately; do not invent a horizontal lesson merely
-because a slot exists.
+Set boundaries live in `lessons/curriculum.json`. Each set declares `expected_sequences` and a
+`status` of `complete` or `incomplete`. A set may be marked `complete` only when every expected
+lesson exists. The target size is a default; the server uses the set's actual sequence list.
 
-The server's onboarding mapping names exact lesson IDs, so adding `_0002`, `_0003`, or later never
-changes which lesson the dropdown serves.
+**7.2 `_0001` is the entry lesson for a stage.**
+
+For each category and stage, `_0001` is the starting lesson an onboarding Band key may name. Later
+sequences are reached only through server-selected routes. A stage may contain fewer than eight
+lessons while it is being authored, but the target is eight.
+
+The server's onboarding mapping names exact lesson IDs, so adding `_0002` or later never changes
+which lesson the dropdown serves.
 
 **7.3 `lesson_id` must equal the filename without `.json`.** Never rename a lesson after its ID has
 appeared in a signed bookmark.
 
-The grade target is not part of the ID. Record it in `reader.reading_level` and explain it in
-`reader.why_this_level`.
+The source records the same whole-number grade in `meta.reader.reading_level` and explains the load
+in `reader.why_this_level`. The compiler removes that block from the runtime lesson.
+
+**7.3.1 Horizontal and vertical progression.**
+
+```text
+horizontal: 8 lessons in inference Band 5.1
+vertical:   Band 5.1 -> Band 5.2 -> ... -> Band 5.8 -> Band 6.1
+```
+
+An advance moves one stage forward at the same grade until stage 8, then to stage 1 of the next
+grade. It never changes the category.
+
+If a student completes the last lesson in the set without meeting the advance rule, move down to
+the middle of the previous set. For an eight-lesson previous set that is sequence `0004`; the server
+computes it from `expected_sequences`, so variable set sizes are supported. If the current stage is
+stage 1, the previous set is the last authored stage of the grade below. If the student is already
+at the lowest supported band, restart that band at its first sequence. Do not force an upward move
+and do not reapply initial IRL placement.
+
+The transition is server-owned. A stopped destination resumes the current lesson and must not
+trigger the step-down. Lesson files retain fallback destinations so incomplete sets remain usable,
+but they do not decide progression in a complete set.
+
+During sparse-content development, mark the set `incomplete` in `curriculum.json`. The server can
+then use the lesson's authored route or hold according to the progression policy. Never mark a
+partially authored set complete.
 
 **7.4 Exit routing data is authored; threshold selection is server-owned.** Every source lesson
 must contain exactly three finite destinations: `advance`, `retry`, and `stopped`.
@@ -248,20 +286,20 @@ must contain exactly three finite destinations: `advance`, `retry`, and `stopped
 ```json
 {
   "advance": {
-      "next_level": 1100,
-      "next_file": "inference_L1100_0001",
-      "next_means": "The inference starting lesson for the 1100-1199 Star band.",
+      "next_irl": 5,
+      "next_file": "inference_band_5_2_0001",
+      "next_means": "The first lesson in the next inference stage.",
       "student_line": "You put most of these facts together on your own. The next reading is another inference lesson."
   },
   "retry": {
-      "next_level": 1000,
-      "next_file": "inference_L1000_0002",
-      "next_means": "Another inference lesson in the same 1000-1099 Star band.",
+      "next_irl": 5,
+      "next_file": "inference_band_5_1_0002",
+      "next_means": "Another inference lesson in the same stage.",
       "student_line": "You have the basic move. The next reading is another inference lesson."
   },
   "stopped": {
-      "next_level": 1000,
-      "next_file": "inference_L1000_0001",
+      "next_irl": 5,
+      "next_file": "inference_band_5_1_0001",
       "next_means": "This same lesson, so it can be finished."
   }
 }
@@ -273,9 +311,8 @@ The shared policy in `server/config/protocol.json` applies these rules in order:
 - otherwise, at least the configured `advance_min_got_there`: use `advance`;
 - otherwise: use `retry`.
 
-For a lesson in the top `1300-1400` band, there is no next Star band. Use an existing authored
-lesson at the same band or stop. Do not invent `L1400` or any other code outside the five bands in
-README.md. Changing the top of the band scale is a server change, not a lesson-file choice.
+At grade 12 stage 8, there is no higher authored band. Hold at that band or flag the student for a
+teacher; do not invent grade 13. Adding content above the ceiling is a curriculum and server change.
 
 The AI never fills `{next_file}` and never chooses a route. It reports only:
 
@@ -288,12 +325,13 @@ route is published; otherwise server startup fails.
 
 **7.5 Stopped sessions return to the same lesson.** `stopped.next_file` must name the current
 `lesson_id` unless a deliberately authored continuation lesson exists. A stopped ticket does not
-replace or repeat an item mid-session and does not imply a grade change.
+replace or repeat an item mid-session and does not imply a grade change. A stop is not a failed
+lesson and must not trigger the lesson-8 step-down.
 
 ## 8. Authoring Workflow
 
-**8.1 Draft the passage first.** Write or adapt the source text, run a readability check, and
-verify the target band before writing questions.
+**8.1 Draft the passage first.** Write or adapt the source text, run a readability check, and verify
+the target IRL grade before writing questions.
 
 **8.2 Identify the evidence points.** For each item, point to the sentence or sentences in the
 passage that support the answer. If you cannot point to the evidence, the item is not ready.
@@ -308,8 +346,8 @@ then teach with the complete authored explanation.
 it.
 
 **8.6 Write the three route destinations.** Choose the exact next lesson for success, the exact
-later lesson for retry, and the current lesson for an early stop. Use the Star-band code, not a
-grade, in `next_level`. Confirm all referenced runtime files exist before publishing.
+later lesson for retry, and the current lesson for an early stop. Use the destination's
+whole-number grade in `next_irl`. Confirm all referenced runtime files exist before publishing.
 
 The route is chosen only after the final item. Record why each item missed, but do not change its
 route until the session exits.
@@ -336,9 +374,12 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 ## 10. Final Checklist
 
 - [ ] Source uses `schema_version: 3` and `document_type: "lesson_source"`.
-- [ ] Source filename and `lesson_id` match and use one of the eight fixed categories and five Star-band codes.
+- [ ] Source filename and `lesson_id` match and use one of the eight categories, grades 1-12, stages 1-8, and sequences 1-8.
 - [ ] `_0001` remains the onboarding entry lesson; later sequences are changed only through authored routes.
-- [ ] `reader.reading_level` contains the grade target, not the filename's `L` code.
+- [ ] `reader.reading_level` equals the whole-number IRL grade in the filename.
+- [ ] The target horizontal has eight lessons, and stages move vertically before the grade changes.
+- [ ] The set is listed in `curriculum.json` with its actual expected sequences and correct completeness status.
+- [ ] Completing the set's last lesson without mastery steps down to the middle of the previous set, or restarts at the bottom band.
 - [ ] `reader.why_this_level` states both the readability evidence and the cognitive load.
 - [ ] 100-200 words per passage part unless an exception is documented.
 - [ ] Every item has one defensible answer, a reasoning chain, and specific misreadings.
@@ -347,7 +388,7 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 - [ ] Student-facing language is plain, direct, and non-condescending.
 - [ ] There is one primary skill and no more than one secondary skill.
 - [ ] `advance`, `retry`, and `stopped` destinations are explicit.
-- [ ] Every route destination exists in the compiled repository and has the matching level.
+- [ ] Every route destination exists in the compiled repository and has the matching `next_irl` grade.
 - [ ] Stopped sessions return to the current lesson.
 - [ ] The ticket contains no PII.
 - [ ] Shared instructions, scripts, results, thresholds, and token formats were not copied into the source.

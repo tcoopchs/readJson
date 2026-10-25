@@ -1,24 +1,25 @@
 {
   "schema_version": 3,
   "document_type": "lesson_source",
-  "lesson_id": "inference_L1000_0001",
+  "lesson_id": "inference_band_5_1_0001",
   "meta": {
     "status": "published",
     "title": "The Warm Cooler",
     "skill": "inference",
-    "level": 1000,
+    "irl_grade": 5,
+    "stage": 1,
     "sequence": 1,
     "skill_frame": "Use facts from the passage to figure out something it does not say.",
     "reader": {
       "who": "High school students who read at about a 5th-grade level.",
       "reading_level": 5,
-      "why_this_level": "One place, two times, people you can track one at a time. The words are common. Each inference is one step from facts on the page. There is no machine to build in your head. This is the entry lesson for the 1000-1099 Star band. The band is not a grade; the grade target is 5.",
+      "why_this_level": "One place, two times, people you can track one at a time. The words are common. Each inference is one step from facts on the page. There is no machine to build in your head. This is a grade-5 instructional lesson, stage 1.",
       "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
     },
     "source": {
       "basis": "Written for this lesson. The diner, the cooler, and the note are original.",
       "text_status": "Written for this lesson. Not a verbatim excerpt.",
-      "survey": "McGuffey's Fifth Eclectic Reader (1879) is a fifth reader in name only. Its lessons are speeches, poems, and sentences such as 'endeavor to make the thought and feeling and sentiments of the writer his own.' That is harder than a modern 5th-grade reading level. A public-domain grade-5 adaptation, 'Animal Studies' (Center for Urban Education), talks down to the reader and explains a sawfly by comparing its body to a saw. Little words, a harder picture. Current grade 4-6 inference packs are mostly children's stories or animal pieces, and they are not free to put in this file. This passage keeps one kitchen, one time jump, and inferences a reader can point to.",
+      "survey": "Selected for one kitchen, one time jump, and inferences a reader can point to. The passage avoids children's-story framing and a mechanical explanation of how a cooler works.",
       "avoided": "No children's story. No outdated science. No diagram of how a cooler works. The passage never says the cooler is broken. That is the inference."
     },
     "session": {
@@ -29,7 +30,7 @@
     },
     "authoring_exceptions": [
       "Part 2 is 72 words. The inference is answerable from the two short paragraphs, and extending the scene would add no evidence.",
-      "Advance routes to inference_L1000_0002 because inference_L1100_0001 is still an empty placeholder."
+      "Advance routes to inference_band_5_1_0002. A later stage will be added when that content is authored."
     ]
   },
   "script_overrides": {
@@ -264,20 +265,20 @@
     }
   ],
   "advance": {
-    "next_file": "inference_L1000_0002",
-    "next_level": 1000,
-    "next_means": "Another inference lesson in the same band, because the 1100 inference entry is still a placeholder.",
+    "next_file": "inference_band_5_1_0002",
+    "next_irl": 5,
+    "next_means": "Another inference lesson in Band 5.1.",
     "student_line": "You put most of these facts together on your own. The next reading is another inference lesson in this band."
   },
   "retry": {
-    "next_file": "inference_L1000_0002",
-    "next_level": 1000,
-    "next_means": "The next inference lesson in the 1000-1099 Star band.",
-    "student_line": "You have the basic move. The next reading would be another inference lesson in this same Star band."
+    "next_file": "inference_band_5_1_0002",
+    "next_irl": 5,
+    "next_means": "The next inference lesson in Band 5.1.",
+    "student_line": "You have the basic move. The next reading is another inference lesson at this level."
   },
   "stopped": {
-    "next_file": "inference_L1000_0001",
-    "next_level": 1000,
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
     "next_means": "This same lesson, so it can be finished."
   }
 }

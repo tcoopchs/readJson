@@ -1,12 +1,13 @@
 {
   "schema_version": 3,
   "document_type": "lesson_source",
-  "lesson_id": "main_idea_L1000_0002",
+  "lesson_id": "main_idea_band_7_1_0002",
   "meta": {
     "status": "reviewed",
     "title": "The Water We Can Use",
     "skill": "main_idea",
-    "level": 1000,
+    "irl_grade": 7,
+    "stage": 1,
     "sequence": 2,
     "skill_frame": "Find the main idea: decide what a passage is mostly about.",
     "reader": {
@@ -279,20 +280,20 @@
     }
   ],
   "advance": {
-    "next_file": "main_idea_L1000_0002",
-    "next_level": 1000,
+    "next_file": "main_idea_band_7_1_0002",
+    "next_irl": 7,
     "next_means": "This same lesson, because no later main_idea lesson is authored yet.",
     "student_line": "You have the main-idea move. This same reading is here for another try."
   },
   "retry": {
-    "next_file": "main_idea_L1000_0001",
-    "next_level": 1000,
+    "next_file": "main_idea_band_7_1_0001",
+    "next_irl": 7,
     "next_means": "The first main-idea lesson, for reteaching the move with a simpler passage.",
     "student_line": "The next reading is the first main-idea lesson, for another look at the move."
   },
   "stopped": {
-    "next_file": "main_idea_L1000_0002",
-    "next_level": 1000,
+    "next_file": "main_idea_band_7_1_0002",
+    "next_irl": 7,
     "next_means": "This same lesson, so it can be finished."
   }
 }
