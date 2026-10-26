@@ -20,8 +20,9 @@ this document wins.
 7. `lesson_id` must exactly equal the filename without `.json`.
 8. Student-facing labels use `Band <grade>.<stage>`, such as `Band 5.1`. Do not show a grade or IRL
    label to a student.
-9. Later lessons are selected only by the server from the lesson's `advance`, `retry`, or `stopped`
-   route. Do not invent a route to a file that does not exist.
+9. Write `advance`, `retry`, and `stopped` so every `next_file` names a lesson that already exists.
+   While the set is `incomplete`, the server does not follow those destinations. It serves the next
+   existing lesson in that band and holds at the last one. Do not invent a route to a missing file.
 10. Edit the source in `lessons/src/`, compile it into `lessons/`, and commit both.
 
 If a requested change conflicts with these rules, stop and coordinate the server and lesson changes.
@@ -138,8 +139,11 @@ all of them exist:
 ```
 
 An `incomplete` set does not use central progression. The default `on_incomplete_set` policy is
-`hold_and_alert`: a student who reaches the last authored lesson is held there and the curriculum
-gap is reported. An authored route is used only when the protocol explicitly selects
+`hold_and_alert`. Finishing a lesson in that set serves the next file that already exists in the
+same category, grade, and stage. Mastery does not leave the band. Finishing the last existing file
+holds the student and reports the curriculum gap. After the next file is added and the server is
+restarted, the same ticket serves that file. The set stays `incomplete` until every sequence in
+`expected_sequences` exists. An authored route is used only when the protocol explicitly selects
 `authored_route`. This prevents a partially authored set from treating its current last lesson as
 the true end of the horizontal.
 
@@ -152,8 +156,9 @@ inference_band_5_1_0002.json
 inference_band_5_1_0008.json
 ```
 
-A student may advance before all eight lessons are exhausted if they meet the mastery rule. The
-eight lessons are the full practice pool, not a requirement to repeat material after mastery.
+On a complete set, a student may leave the band before lesson 0008 by meeting the mastery rule.
+The eight lessons are the practice pool for a student who has not met that rule. On an incomplete
+set, mastery stays inside the lessons that exist.
 
 Vertical movement follows stages first, then grades:
 
@@ -199,12 +204,29 @@ lesson's category, grade, stage, and sequence plus the manifest. A stopped sessi
 current lesson and does not trigger the step-down.
 
 During sparse-content development, a step-down destination must already exist. If it does not,
-point `retry` at the current lesson rather than inventing a missing file.
+point `retry` at the current lesson rather than inventing a missing file. That stored field keeps
+startup from failing. The live hold does not read it.
 
 ## Completion routing
 
 Every source lesson must contain finite, explicit `advance`, `retry`, and `stopped` destinations.
-The compiler writes them into `rules.server_routes`. The server chooses the route.
+The compiler writes them into `rules.server_routes`. Each `next_file` must already exist, and
+`next_irl` must match that file's grade. `stopped.next_file` names the current lesson.
+
+The published protocol is `hold_and_alert`. While a set is `incomplete`, the server does not follow
+`advance` or `retry`. It serves the next existing lesson in the band and holds at the last one.
+Adding that next file and restarting the server lets the same ticket serve it.
+
+Mark the set `complete` only when every sequence in `expected_sequences` exists. On a complete set,
+`got_there` of at least `advance_min_got_there` (currently 4) moves to the first lesson of the next
+stage in the same category, or to stage 1 of the next grade after stage 8. Fewer than that moves
+to the next sequence. The last sequence without mastery steps down to the middle of the previous
+set. A stopped session returns the current lesson.
+
+Those three destinations are the fallback used only when `on_incomplete_set` is `authored_route`.
+Write `advance` as the first lesson of the next stage, `retry` as the next sequence in this stage,
+and `stopped` as this lesson. Point a field at an existing lesson when the preferred file is not
+authored yet.
 
 The unsigned completion line is:
 
@@ -317,6 +339,10 @@ Do not edit generated runtime files by hand. The compiler removes the authoring 
 - [ ] The source has five items unless a documented exception changes the prototype target.
 - [ ] `advance`, `retry`, and `stopped` name existing lessons.
 - [ ] `next_irl` matches the destination filename grade.
+- [ ] `stopped.next_file` names the current lesson.
+- [ ] The set stays `incomplete` until every expected sequence exists. `advance` and `retry` are
+      stored fallbacks; they do not choose the next lesson while the set is incomplete.
+- [ ] `script_overrides.near_copy_2` is present. The shared instructions tell the tutor to say it.
 - [ ] The set is listed in `curriculum.json` with its actual sequences and completeness status.
 - [ ] The compiler `--check` passes.
 - [ ] No empty placeholder is placed in `lessons/`.

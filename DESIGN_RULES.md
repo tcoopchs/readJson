@@ -264,8 +264,9 @@ horizontal: 8 lessons in inference Band 5.1
 vertical:   Band 5.1 -> Band 5.2 -> ... -> Band 5.8 -> Band 6.1
 ```
 
-An advance moves one stage forward at the same grade until stage 8, then to stage 1 of the next
-grade. It never changes the category.
+On a complete set, mastery moves one stage forward at the same grade until stage 8, then to stage 1
+of the next grade. It never changes the category. On an incomplete set, mastery does not leave the
+band.
 
 If a student completes the last lesson in the set without meeting the advance rule, move down to
 the middle of the previous set. For an eight-lesson previous set that is sequence `0004`; the server
@@ -274,14 +275,16 @@ stage 1, the previous set is the last authored stage of the grade below. If the 
 at the lowest supported band, restart that band at its first sequence. Do not force an upward move
 and do not reapply initial IRL placement.
 
-The transition is server-owned. A stopped destination resumes the current lesson and must not
-trigger the step-down. Lesson files retain fallback destinations so incomplete sets remain usable,
-but they do not decide progression in a complete set.
+The transition is server-owned. A stopped session resumes the current lesson and must not trigger
+the step-down. Lesson files still store `advance`, `retry`, and `stopped`. Those fields do not
+choose the next lesson while `on_incomplete_set` is `hold_and_alert`, and they do not choose it on
+a complete set either. They are used only when the protocol selects `authored_route`.
 
-During sparse-content development, mark the set `incomplete` in `curriculum.json`. The default
-`on_incomplete_set` policy is `hold_and_alert`: the server holds a student who reaches the last
-authored lesson and reports the curriculum gap. An authored route is used only when the protocol
-explicitly selects `authored_route`. Never mark a partially authored set complete.
+During sparse-content development, mark the set `incomplete` in `curriculum.json`. The server then
+serves the next lesson that already exists in the band. It holds a student who reaches the last
+authored lesson and reports the curriculum gap. Adding the next file and restarting the server lets
+the same ticket serve that file. The set stays `incomplete` until every expected sequence exists.
+Never mark a partially authored set complete.
 
 **7.4 Exit routing data is authored; threshold selection is server-owned.** Every source lesson
 must contain exactly three finite destinations: `advance`, `retry`, and `stopped`.
@@ -308,11 +311,18 @@ must contain exactly three finite destinations: `advance`, `retry`, and `stopped
 }
 ```
 
-The shared policy in `server/config/protocol.json` applies these rules in order:
+The shared policy in `server/config/protocol.json` decides the next lesson. The published setting
+is `hold_and_alert`.
 
-- a stopped session uses `stopped`;
-- otherwise, at least the configured `advance_min_got_there`: use `advance`;
-- otherwise: use `retry`.
+- A stopped session returns the current lesson. `stopped.next_file` must name that lesson.
+- While the set is `incomplete`, `advance` and `retry` are not followed. The next existing lesson
+  in the band is served. The last existing lesson holds the student.
+- On a complete set, `got_there` of at least `advance_min_got_there` (currently 4) moves to the
+  first lesson of the next stage. Fewer than that moves to the next sequence.
+- `authored_route` is the only setting that serves the stored `advance` or `retry` destination.
+
+Startup fails when a destination is missing or `next_irl` does not match that file's grade. Write
+all three destinations even though the published policy does not follow `advance` and `retry`.
 
 At grade 12 stage 8, there is no higher authored band. Hold at that band or flag the student for a
 teacher; do not invent grade 13. Adding content above the ceiling is a curriculum and server change.
@@ -327,9 +337,9 @@ For a stopped session it appends `|stop=1`. A referenced runtime lesson must exi
 route is published; otherwise server startup fails.
 
 **7.5 Stopped sessions return to the same lesson.** `stopped.next_file` must name the current
-`lesson_id` unless a deliberately authored continuation lesson exists. A stopped ticket does not
-replace or repeat an item mid-session and does not imply a grade change. A stop is not a failed
-lesson and must not trigger the lesson-8 step-down.
+`lesson_id`. The server returns that lesson and does not follow a different stopped destination.
+A stopped ticket does not replace or repeat an item mid-session and does not imply a grade change.
+A stop is not a failed lesson and must not trigger the lesson-8 step-down.
 
 ## 8. Authoring Workflow
 
@@ -380,7 +390,8 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 - [ ] Source uses `schema_version: 3` and `document_type: "lesson_source"`.
 - [ ] Source filename and `lesson_id` match and use one of the eight categories, grades 1-12, stages 1-8, and sequences 1-8.
 - [ ] The passage and items are human-written; no AI-drafted candidate text is used.
-- [ ] `_0001` remains the onboarding entry lesson; later sequences are changed only through authored routes.
+- [ ] `_0001` remains the onboarding entry lesson. Later sequences are served by the server from the files that exist, not by the stored `advance` or `retry` fields, while the set is incomplete.
+- [ ] `script_overrides.near_copy_2` is a lesson-specific say-back line. The shared instructions require it.
 - [ ] `reader.reading_level` equals the whole-number IRL grade in the filename.
 - [ ] The target horizontal has eight lessons, and stages move vertically before the grade changes.
 - [ ] The prototype lesson has five items unless a documented exception changes that target.
