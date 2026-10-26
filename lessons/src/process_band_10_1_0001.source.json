@@ -13,7 +13,7 @@
     "reader": {
       "who": "High school students who read at about a 10th-grade level.",
       "reading_level": 10,
-      "why_this_level": "Four stages and a dependency chain: the screen protects the pumps, air feeds the bacteria, the bacteria make sludge, chlorine kills the remaining germs. The reader tracks the order of four stages and one failure path. A Flesch-Kincaid check puts the passage near grade 10. This is the entry lesson for the 1100-1199 Star band. The band is not a grade; the grade target is 10.",
+      "why_this_level": "Four stages and a dependency chain: the screen protects the pumps, air feeds the bacteria, the bacteria make sludge, chlorine kills the remaining germs. The reader tracks the order of four stages and one failure path. A Flesch-Kincaid check puts the passage near grade 10. This is the entry lesson for Band 10.1. The band is not a grade; the grade target is 10.",
       "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
     },
     "source": {
@@ -28,8 +28,8 @@
       "difficulty_basis": "Multi-stage dependency. The reader must follow four stages in order and predict what a failure in one stage does to the stages after it."
     },
     "authoring_exceptions": [
-      "The retry route drops one Star band to process_L1000_0002 because no later 1100-band process lesson exists yet.",
-      "Advance repeats this lesson because process_L1200_0001 is still an empty placeholder."
+      "The retry route drops to process_band_9_1_0002 because no later Band 10.1 process lesson exists yet.",
+      "Advance repeats this lesson because no later Band 10.1 process lesson exists yet."
     ]
   },
   "script_overrides": {
@@ -254,13 +254,13 @@
   "advance": {
     "next_file": "process_band_10_1_0001",
     "next_irl": 10,
-    "next_means": "This same lesson, because process_L1200_0001 is still an empty placeholder.",
+    "next_means": "This same lesson, because no later Band 10.1 process lesson is authored.",
     "student_line": "You handled most of this on your own. This same reading is here for another try."
   },
   "retry": {
     "next_file": "process_band_9_1_0002",
     "next_irl": 9,
-    "next_means": "Another process lesson in the 1000-1099 Star band, for reteaching the same chain with fewer stages.",
+    "next_means": "Another process lesson in Band 9.1, for reteaching the same chain with fewer stages.",
     "student_line": "The stage chain is still new. The next reading would be a process lesson in the band below."
   },
   "stopped": {

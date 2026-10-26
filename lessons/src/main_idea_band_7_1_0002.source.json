@@ -3,7 +3,7 @@
   "document_type": "lesson_source",
   "lesson_id": "main_idea_band_7_1_0002",
   "meta": {
-    "status": "reviewed",
+    "status": "published",
     "title": "The Water We Can Use",
     "skill": "main_idea",
     "irl_grade": 7,
@@ -13,7 +13,7 @@
     "reader": {
       "who": "High school and adult readers at about a 7th-grade level.",
       "reading_level": 7,
-      "why_this_level": "Language load 2, idea load 2, structure 1, knowledge 1. The excerpt scores FK 5.9, which understates the load: the reader must hold several proportions and see that they all support one conclusion. All needed knowledge is in the passage. This is the second main-idea lesson in the 1000-1099 Star band. The band is not a grade; the grade target is 7.",
+      "why_this_level": "Language load 2, idea load 2, structure 1, knowledge 1. The excerpt scores FK 5.9, which understates the load: the reader must hold several proportions and see that they all support one conclusion. All needed knowledge is in the passage. This is the second main-idea lesson in Band 7.1. The band is not a grade; the grade target is 7.",
       "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
     },
     "source": {
@@ -31,7 +31,7 @@
     },
     "authoring_exceptions": [
       "Two passage parts instead of three. The source is a short explanatory article and a third split would separate the proportions from their meaning.",
-      "Advance repeats this lesson because no later main_idea lesson is authored and the 1100 entry is an empty placeholder."
+      "Advance repeats this lesson because no later main_idea lesson is authored and the next Band entry is unavailable."
     ]
   },
   "script_overrides": {

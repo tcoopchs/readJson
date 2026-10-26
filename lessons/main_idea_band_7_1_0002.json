@@ -3,7 +3,7 @@
   "document_type": "reading_lesson",
   "lesson_id": "main_idea_band_7_1_0002",
   "meta": {
-    "status": "reviewed",
+    "status": "published",
     "title": "The Water We Can Use",
     "skill": "main_idea",
     "skill_frame": "Find the main idea: decide what a passage is mostly about.",
@@ -22,7 +22,7 @@
     },
     "authoring_exceptions": [
       "Two passage parts instead of three. The source is a short explanatory article and a third split would separate the proportions from their meaning.",
-      "Advance repeats this lesson because no later main_idea lesson is authored and the 1100 entry is an empty placeholder."
+      "Advance repeats this lesson because no later main_idea lesson is authored and the next Band entry is unavailable."
     ],
     "protocol_version": "1.0"
   },

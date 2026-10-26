@@ -13,11 +13,12 @@
     "reader": {
       "who": "High school students who read at about a 9th-grade level.",
       "reading_level": 9,
-      "why_this_level": "The words are common. The load is the picture: two gates, the small doors, where the boat is, and which water is higher, plus a reversed trip at the end. This is the entry lesson for the 1000-1099 Star band. The band is not a grade; the grade target is 9.",
+      "why_this_level": "The words are common. The load is the picture: two gates, the small doors, where the boat is, and which water is higher, plus a reversed trip at the end. This is the entry lesson for Band 9.1. The band is not a grade; the grade target is 9.",
       "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
     },
     "source": {
       "basis": "The steps are the standard canal-lock procedure, as described in the 1911 Encyclopaedia Britannica entry on canals and in Frederic J. Haskin, The Panama Canal (1913). Both are public domain.",
+      "attribution": "Encyclopaedia Britannica, article on canals (1911); Frederic J. Haskin, The Panama Canal (1913). Both public domain. Text bank TB-004.",
       "text_status": "Written for this lesson at a controlled reading length. Not a verbatim excerpt.",
       "avoided": "No children's story. No outdated science. The passage describes a mechanism that still works this way."
     },
@@ -244,14 +245,14 @@
   "advance": {
     "next_file": "process_band_10_1_0001",
     "next_irl": 10,
-    "next_means": "The process entry lesson for the 1100-1199 Star band.",
-    "student_line": "You handled most of this on your own. The next reading would be another process lesson at a higher Star band."
+    "next_means": "The process entry lesson for Band 10.1.",
+    "student_line": "You handled most of this on your own. The next reading would be another process lesson at a higher Band."
   },
   "retry": {
     "next_file": "process_band_9_1_0002",
     "next_irl": 9,
-    "next_means": "The next process lesson in the 1000-1099 Star band.",
-    "student_line": "You have the basic steps. The next reading would be another process lesson in this same Star band."
+    "next_means": "The next process lesson in Band 9.1.",
+    "student_line": "You have the basic steps. The next reading would be another process lesson in this same Band."
   },
   "stopped": {
     "next_file": "process_band_9_1_0001",

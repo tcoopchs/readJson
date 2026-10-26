@@ -77,9 +77,11 @@ when the item is answerable from text already on screen, such as a quoted cloze 
 written. If the text is too hard, rewrite the source before publishing. Do not ask the tutor to
 simplify, paraphrase, or regenerate it during a session.
 
-**2.5 Source discipline.** Use public-domain, openly licensed, or original text. An AI may draft a
-candidate, but a human must review and edit it before it enters `passage` or `items`. State the
-source basis and text status in `source.basis` and `source.text_status`. Never invent a citation.
+**2.5 Source discipline.** Use public-domain, openly licensed, or original text written by a
+person. An AI may help locate, compare, or fact-check source material, but it must not draft the
+passage or items. A human author must write the passage and items, or select and adapt permitted
+source text within its license. State the source basis and text status in `source.basis` and
+`source.text_status`. Never invent a citation.
 
 ## 3. Question Design
 
@@ -276,9 +278,10 @@ The transition is server-owned. A stopped destination resumes the current lesson
 trigger the step-down. Lesson files retain fallback destinations so incomplete sets remain usable,
 but they do not decide progression in a complete set.
 
-During sparse-content development, mark the set `incomplete` in `curriculum.json`. The server can
-then use the lesson's authored route or hold according to the progression policy. Never mark a
-partially authored set complete.
+During sparse-content development, mark the set `incomplete` in `curriculum.json`. The default
+`on_incomplete_set` policy is `hold_and_alert`: the server holds a student who reaches the last
+authored lesson and reports the curriculum gap. An authored route is used only when the protocol
+explicitly selects `authored_route`. Never mark a partially authored set complete.
 
 **7.4 Exit routing data is authored; threshold selection is server-owned.** Every source lesson
 must contain exactly three finite destinations: `advance`, `retry`, and `stopped`.
@@ -331,7 +334,8 @@ lesson and must not trigger the lesson-8 step-down.
 ## 8. Authoring Workflow
 
 **8.1 Draft the passage first.** Write or adapt the source text, run a readability check, and verify
-the target IRL grade before writing questions.
+the target IRL grade before writing questions. The passage and items must be human-written as
+required by 2.5.
 
 **8.2 Identify the evidence points.** For each item, point to the sentence or sentences in the
 passage that support the answer. If you cannot point to the evidence, the item is not ready.
@@ -375,10 +379,13 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 
 - [ ] Source uses `schema_version: 3` and `document_type: "lesson_source"`.
 - [ ] Source filename and `lesson_id` match and use one of the eight categories, grades 1-12, stages 1-8, and sequences 1-8.
+- [ ] The passage and items are human-written; no AI-drafted candidate text is used.
 - [ ] `_0001` remains the onboarding entry lesson; later sequences are changed only through authored routes.
 - [ ] `reader.reading_level` equals the whole-number IRL grade in the filename.
 - [ ] The target horizontal has eight lessons, and stages move vertically before the grade changes.
+- [ ] The prototype lesson has five items unless a documented exception changes that target.
 - [ ] The set is listed in `curriculum.json` with its actual expected sequences and correct completeness status.
+- [ ] Every live source and generated lesson has `meta.status: published`.
 - [ ] Completing the set's last lesson without mastery steps down to the middle of the previous set, or restarts at the bottom band.
 - [ ] `reader.why_this_level` states both the readability evidence and the cognitive load.
 - [ ] 100-200 words per passage part unless an exception is documented.

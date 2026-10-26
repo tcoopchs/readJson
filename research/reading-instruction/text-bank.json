@@ -1,0 +1,99 @@
+{
+  "bank_version": 1,
+  "updated": "2026-10-19",
+  "rubric": "L/I/S/K 0-3; band is highest demand, grade_target is the reader label",
+  "texts": [
+    {
+      "id": "TB-001",
+      "title": "Why Do Leaves Change Colors in the Fall",
+      "author": "U.S. National Park Service",
+      "url": "https://www.nps.gov/articles/why-do-leaves-change-in-the-fall.htm",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "grade_target": 7,
+      "band": "Band 7.1",
+      "length_words": 192,
+      "length_note": "full article excerpt",
+      "fk_grade": 7.81,
+      "complexity": { "language": 2, "idea": 2, "structure": 1, "knowledge": 1 },
+      "best_lesson_fit": ["main_idea_band_7_1_0001"],
+      "central_idea": "Trees drop their leaves and break down chlorophyll to save energy for winter, which reveals the other pigments already in the leaf.",
+      "supporting_details": [
+        "Chlorophyll absorbs sunlight to make food and gives leaves their green color.",
+        "Shorter days and colder temperatures signal the tree to conserve energy.",
+        "The tree sends an enzyme to break down chlorophyll.",
+        "Other pigments become visible once chlorophyll is gone.",
+        "Rain and cool weather affect how bright the colors are."
+      ],
+      "cautions": "Source uses exclamation points; quote as written or trim. Define pigment, chlorophyll, and enzyme in context."
+    },
+    {
+      "id": "TB-002",
+      "title": "Where is Earth's Water?",
+      "author": "U.S. Geological Survey, Water Science School",
+      "url": "https://www.usgs.gov/water-science-school/science/where-earths-water",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "grade_target": 7,
+      "band": "Band 7.1",
+      "length_words": 174,
+      "length_note": "prose excerpt; excludes data table",
+      "fk_grade": 8.29,
+      "complexity": { "language": 2, "idea": 2, "structure": 1, "knowledge": 1 },
+      "best_lesson_fit": ["main_idea_band_7_1_0002", "text_structure_band_7_1_0001"],
+      "central_idea": "Almost all of Earth's water is salt water or locked in ice and underground, so only a tiny share is fresh surface water that people can use.",
+      "supporting_details": [
+        "About 96 percent of Earth's water is saline.",
+        "Over 68 percent of freshwater is in ice and glaciers.",
+        "About 30 percent of freshwater is underground.",
+        "Surface freshwater is about 1/150th of one percent of total water.",
+        "Rivers and lakes supply most of the water people use."
+      ],
+      "cautions": "Page is table-heavy; use the prose excerpt. Recheck figures at authoring time."
+    },
+    {
+      "id": "TB-003",
+      "title": "The Diamond Necklace",
+      "author": "Guy de Maupassant",
+      "url": "https://www.gutenberg.org/ebooks/3080",
+      "clean_text_url": "https://viva.pressbooks.pub/compreader/chapter/necklace/",
+      "license": "Public domain in the U.S.",
+      "genre": "fiction",
+      "grade_target": "7 readability; 8-9 literary",
+      "band": "Band 9.1",
+      "length_words": null,
+      "length_note": "full short story; excerpt required for one lesson",
+      "fk_grade": null,
+      "reading_ease": 78.6,
+      "reading_ease_note": "Gutenberg reports about 7th grade",
+      "complexity": { "language": 2.5, "idea": 2, "structure": 2, "knowledge": 1.5 },
+      "best_lesson_fit": ["literary_text_band_9_1_0001"],
+      "central_idea": "A young woman's desire for a richer life leads her to borrow a necklace, lose it, and spend years paying for a replacement that was never valuable.",
+      "supporting_details": [
+        "Mathilde is unhappy with her ordinary life and wants to appear wealthy.",
+        "She borrows a necklace for the ball and loses it.",
+        "The couple borrows heavily to buy a replacement.",
+        "Years of hard work and poverty follow.",
+        "The ending reveals the original necklace was paste."
+      ],
+      "cautions": "1884 and translated; violates the modern-text default below grade 11. Full story is too long for five items; excerpt must still contain setup, loss, and reveal."
+    }
+  ],
+  "screened_not_banked": [
+    {
+      "title": "How Do Coral Reefs Form?",
+      "url": "https://oceanservice.noaa.gov/education/tutorial_corals/coral04_reefs.html",
+      "reason": "FK 10.5 on the excerpt; better at Band 9.1, vocabulary needs support."
+    },
+    {
+      "title": "Wolf Restoration in Yellowstone",
+      "url": "https://www.nps.gov/articles/wolf-restoration-in-yellowstone-reintroduction-to-recovery.htm",
+      "reason": "Technical research-report tone; not a clean grade-7 main-idea passage."
+    },
+    {
+      "title": "How Bees Make Honey",
+      "url": "https://news.cals.wisc.edu/2012/06/04/how-bees-make-honey-producing-honey-is-a-strenuous-team-effort-for-bees/",
+      "reason": "Not a government work; license needs checking before use."
+    }
+  ]
+}

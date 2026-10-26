@@ -19,7 +19,7 @@
       "difficulty_basis": "Cause and effect inside a cycle. The reader must explain why height replaces a pump, and why the pumps wait for a set point instead of starting at once."
     },
     "authoring_exceptions": [
-      "Only one later process lesson exists in the 1000-1099 band, so a retry repeats this lesson instead of naming a file that does not exist."
+      "Only one later process lesson exists in Band 9.1, so a retry repeats this lesson instead of naming a file that does not exist."
     ],
     "protocol_version": "1.0"
   },
@@ -312,8 +312,8 @@
       "advance": {
         "next_file": "process_band_10_1_0001",
         "next_irl": 10,
-        "next_means": "The process entry lesson for the 1100-1199 Star band.",
-        "student_line": "You handled most of this on your own. The next reading would be another process lesson at a higher Star band."
+        "next_means": "The process entry lesson for Band 10.1.",
+        "student_line": "You handled most of this on your own. The next reading would be another process lesson at a higher Band."
       },
       "retry": {
         "next_file": "process_band_9_1_0002",

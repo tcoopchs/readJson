@@ -137,9 +137,11 @@ all of them exist:
 }
 ```
 
-An `incomplete` set remains available through its authored routes but does not use central
-progression. This prevents a partially authored set from treating its current last lesson as the
-true end of the horizontal.
+An `incomplete` set does not use central progression. The default `on_incomplete_set` policy is
+`hold_and_alert`: a student who reaches the last authored lesson is held there and the curriculum
+gap is reported. An authored route is used only when the protocol explicitly selects
+`authored_route`. This prevents a partially authored set from treating its current last lesson as
+the true end of the horizontal.
 
 Within a horizontal, sequences run in order:
 
@@ -260,8 +262,8 @@ a completed eight-lesson horizontal:
 | 9.1 | process | 2 |
 | 10.1 | process | 1 |
 
-The remaining empty Star-band placeholders were archived under `drafts/legacy_placeholders/`. Do
-not publish them or recreate empty files in `lessons/`.
+The remaining empty legacy placeholders were archived under `drafts/legacy_placeholders/`. Do not
+publish them or recreate empty files in `lessons/`.
 
 ## Adding a lesson
 
@@ -272,9 +274,11 @@ not publish them or recreate empty files in `lessons/`.
 5. Create `<category>_band_<grade>_<stage>_<sequence>.source.json` in `lessons/src/`.
 6. Set `lesson_id` to the filename without `.json`.
 7. Set `meta.reader.reading_level` to the whole-number grade.
-8. Write the lesson according to `DESIGN_RULES.md`.
-9. Rebuild the runtime JSON.
-10. Reference the lesson from a route only after the generated file exists.
+8. Set `meta.status` to `published` before the lesson enters `lessons/`.
+9. Write five items for the prototype lesson and follow `DESIGN_RULES.md`.
+10. Rebuild the runtime JSON.
+11. Update `lessons/curriculum.json` and reference the lesson from a route only after the generated
+    file exists.
 
 ## Building lessons
 
@@ -309,8 +313,11 @@ Do not edit generated runtime files by hand. The compiler removes the authoring 
 - [ ] `meta.reader.reading_level` equals the filename grade in the source.
 - [ ] Student-facing text uses a Band label or no label, never a grade or IRL phrase.
 - [ ] The generated runtime file contains no `reader` or `irl_grade` metadata.
+- [ ] The source and generated file both use `meta.status: published`.
+- [ ] The source has five items unless a documented exception changes the prototype target.
 - [ ] `advance`, `retry`, and `stopped` name existing lessons.
 - [ ] `next_irl` matches the destination filename grade.
+- [ ] The set is listed in `curriculum.json` with its actual sequences and completeness status.
 - [ ] The compiler `--check` passes.
 - [ ] No empty placeholder is placed in `lessons/`.
 

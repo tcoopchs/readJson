@@ -20,7 +20,7 @@
     },
     "authoring_exceptions": [
       "No later inference lesson in Band 6.1 is authored yet, so a retry repeats this lesson instead of naming a file that does not exist.",
-      "Advance also repeats this lesson because inference_L1100_0001 is still an empty placeholder."
+      "Advance also repeats this lesson because the next Band entry is unavailable."
     ],
     "protocol_version": "1.0"
   },
@@ -302,7 +302,7 @@
       "advance": {
         "next_file": "inference_band_6_1_0001",
         "next_irl": 6,
-        "next_means": "This same lesson, because no later inference lesson is authored and the 1100 entry is a placeholder.",
+        "next_means": "This same lesson, because no later inference lesson is authored and the next Band entry is unavailable.",
         "student_line": "You handled most of this on your own. This same reading is here for another try."
       },
       "retry": {
