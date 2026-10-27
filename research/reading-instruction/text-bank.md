@@ -65,7 +65,7 @@ sentences. Define `pigment`, `chlorophyll`, and `enzyme` in context if the lesso
 | Length | 174-word excerpt |
 | FK grade | 8.29 |
 | Complexity | L2, I2, S1, K1 |
-| Best lesson fit | `main_idea_band_7_1_0002`, `text_structure_band_7_1_0001` |
+| Best lesson fit | `main_idea_band_7_1_0002` (cell owner; may supply more of Band 7.1 main_idea if it yields 8 disjoint prose passages) |
 
 **Central idea.** Almost all of Earth's water is salt water or locked in ice and underground, so
 only a tiny share is fresh surface water that people can use.
@@ -141,3 +141,10 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
 4. Write the central idea and three to five supporting details.
 5. Record the lesson slot it fits, not just the topic.
 6. Add a caution line. Every text has one.
+7. **One work per (category, band) cell; one passage per lesson.** A good long work is milked across
+   the whole cell: take every lesson's passage from it, as long as no displayed passage repeats and
+   each lesson's passage is self-sufficient. Record the cell it serves, and record how many disjoint
+   passages the work can yield — it must sustain eight of 100-200 words even if only four are
+   authored now.
+8. **A work never serves two cells.** Not two bands, not two categories. The move from Band 5.1 to
+   Band 6.1 is the transition a student always notices, so it gets fresh material.

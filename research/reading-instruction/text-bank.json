@@ -40,7 +40,8 @@
       "length_note": "prose excerpt; excludes data table",
       "fk_grade": 8.29,
       "complexity": { "language": 2, "idea": 2, "structure": 1, "knowledge": 1 },
-      "best_lesson_fit": ["main_idea_band_7_1_0002", "text_structure_band_7_1_0001"],
+      "best_lesson_fit": ["main_idea_band_7_1_0002"],
+      "cell_use": "Owns main_idea_band_7_1_0002 and may supply other passages in that cell. Does not serve text_structure_band_7_1_0001: a work serves one cell only. Doubtful it yields 8 disjoint prose passages because the page is table-heavy.",
       "central_idea": "Almost all of Earth's water is salt water or locked in ice and underground, so only a tiny share is fresh surface water that people can use.",
       "supporting_details": [
         "About 96 percent of Earth's water is saline.",

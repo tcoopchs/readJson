@@ -64,9 +64,33 @@ small doors, where the boat is, which water is higher, and a reversed trip at th
 the skill is sentence-level; document a longer exception in `reader.why_this_level` or
 `meta.authoring_exceptions`.
 
-**2.2 Each Band gets its own passage.** Do not generate runtime rewrites of one passage to step
-difficulty. Write or select a separate passage for each authored lesson. Adaptation moves across
-exact files named in the source routes, never across AI-authored rewrites.
+**2.2 One passage per lesson; a work serves one cell.** A cell is one `(category, grade, stage)`.
+When a long, good work is worth milking, it may carry every lesson in the cell. It is also fine to
+draw a cell's lessons from more than one work; that is a sourcing choice, not a defect. What is fixed
+is the boundary: a work serves one cell only. The step from one Band to the next always brings new
+material, so the one transition a student is certain to notice stays fresh.
+
+Never display the same passage twice. No two lessons show the same words. A repeat lets the second
+lesson be answered from a student's memory of the first, which corrupts the measure rather than the
+variety.
+
+Before committing to a work, confirm two things by reading it:
+
+- it yields eight disjoint, self-sufficient passages of 100-200 words, roughly 4,000-6,000 words of
+  usable text. Four shipped lessons need eight passages of headroom, or expanding the set later
+  strands it;
+- it is internally varied: chapters on different subtopics, a report with several distinct cases, an
+  essay that moves through scenes, a novella. A single-mechanism explainer yields eight passages that
+  test one idea, and the back half of the set becomes practice without progress.
+
+This needs no register. The publish validator enforces it mechanically over the whole source set: it
+groups lessons by cell and by the work named in `meta.source.attribution` or `meta.source.basis`, then
+compares `passage` text. A repeated passage and a work spanning two cells both fail; a cell drawing
+on several works is reported as a note. Give external works their exact URL so the grouping is
+reliable.
+
+Do not generate runtime rewrites of one passage to step difficulty. Adaptation moves across exact
+files named in the source routes, never across AI-authored rewrites.
 
 **2.3 The passage must contain the evidence in plain sight.** Every inference, cloze, main-idea,
 and author's-purpose answer must be derivable from text shown in the current lesson. If an item
@@ -399,6 +423,8 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 - [ ] Every live source and generated lesson has `meta.status: published`.
 - [ ] Completing the set's last lesson without mastery steps down to the middle of the previous set, or restarts at the bottom band.
 - [ ] `reader.why_this_level` states both the readability evidence and the cognitive load.
+- [ ] No displayed passage repeats anywhere in the catalog; a work never serves two cells.
+- [ ] Any work expected to carry a whole cell yields eight disjoint passages of 100-200 words.
 - [ ] 100-200 words per passage part unless an exception is documented.
 - [ ] Every item has one defensible answer, a reasoning chain, and specific misreadings.
 - [ ] Every evidence-dependent item has the correct `show_part`.
