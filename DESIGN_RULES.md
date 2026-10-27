@@ -171,6 +171,16 @@ simplify, paraphrase, or regenerate it during a session.
 
 Items are never AI-drafted in any route: the answer key is authored. Never invent a citation.
 
+**Scope: Band 4.1 only.** Adaptation is a single exception for the entry band, where free adult-register
+text rarely measures below FK 8. Every other cell — 4.2 upward, and every other vertical at 4.1 — uses
+verbatim or original text. Two limits follow from the exception being temporary rather than structural:
+
+- **Adapt toward the band's ceiling, not its floor.** Reduce only what exceeds the band. An adapted
+  passage should land at the top of 4.1, not in the middle of it, so the student is not being taught a
+  register the next band does not use.
+- **Keep the band's last lesson unadapted.** The final sequence uses verbatim or original text at the
+  band's upper load. Leaving 4.1 should be a step up, not a shock.
+
 ## 3. Question Design
 
 Every item must carry:

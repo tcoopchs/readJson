@@ -133,13 +133,17 @@ Consequences:
 - **The genre boundary is a difficulty boundary too.** The first lesson of band 6 sits at or below the
   difficulty of the last lesson of band 5, so the reader meets one new thing at a time.
 
-### Adaptation as a supply route
+### Adaptation as a supply route — Band 4.1 only
 
-Free adult-topic text at FK 4.5-7.7 is scarce, so from band 4 onward a passage may be an **adapted**
-human-written work: an AI may reduce the reading load of a licensed source, with a human approving the
-result. Bounded by DESIGN_RULES 2.5 — public domain, CC0, or CC BY only (never NoDerivatives, never
-ShareAlike), no invented facts, provenance recorded in `source.adaptation`, and every item re-mapped
-against the adapted text.
+Free adult-topic text at FK 4.5-7.7 is scarce, so **in Band 4.1 and nowhere else** a passage may be an
+**adapted** human-written work: an AI may reduce the reading load of a licensed source, with a human
+approving the result. Every other band and every other vertical uses verbatim or original text, so the
+mainstream catalog stays unmodified. Bounded by DESIGN_RULES 2.5 — public domain, CC0, or CC BY only
+(never NoDerivatives, never ShareAlike), no invented facts, provenance in `source.adaptation`, every
+item re-mapped against the adapted text.
+
+Two limits protect the exit from the band: adapt only down to the top of 4.1 rather than the middle,
+and keep `_0008` unadapted so the step into 4.2 is a step and not a cliff.
 
 This does not unlock modern YA fiction: *Just YA* is CC BY-NC-ND, so it can be excerpted verbatim but
 not adapted, and its NC term is still an open commercial question. What it does unlock is federal

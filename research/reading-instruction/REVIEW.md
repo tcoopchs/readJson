@@ -15,7 +15,8 @@ separate question templates because they demand different inference work.
 
 **Material rule (user decision, revised 2026-10-26).** Passages are human-written at source and free
 to use, by one of three routes: verbatim, written for the lesson by a person, or an adaptation of a
-public-domain / CC0 / CC BY work under `DESIGN_RULES` 2.5. An AI may reduce reading load; it may not
+public-domain / CC0 / CC BY work under `DESIGN_RULES` 2.5. **Adaptation is permitted in Band 4.1
+only**; every other band uses verbatim or original text. An AI may reduce reading load; it may not
 draft an original passage or an answer key, and it may not adapt NoDerivatives or ShareAlike text.
 Modern text by default. Canonical old text only at the top grade (11-12).
 
