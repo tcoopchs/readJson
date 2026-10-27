@@ -1,0 +1,238 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_1_0005",
+  "meta": {
+    "status": "published",
+    "title": "How Water Makes a Cave",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The chain is one step at a time and every cause is stated. The percentage contrast is concrete and needs no background.7-7.1 on the two parts. The reading load stays inside the grade 4-5 band.4-6.6 on the two parts. The reading load stays inside the grade 4-5 band. Measured FK 6.4-6.6 on the two parts. The reading load stays inside the grade 4-5 band.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "National Park Service, 'Caves and Aquifers'.",
+      "attribution": "U.S. National Park Service, 'Caves and Aquifers', https://www.nps.gov/articles/caves-and-aquifers.htm, accessed 2026-10-26. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Split sentences, removed the acid-rain aside to one short line, kept both the formation chain and the karst figures.",
+      "drafted_by": "TC review pending",
+      "survey": "Chosen for a visible causal chain and a striking pair of percentages.",
+      "avoided": "No speleothem vocabulary beyond two names. No geology terms except karst."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and one hidden link, held level across the band."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "In some places, the rocks are soluble, which means they dissolve in the right conditions. As rain falls through the air and soil, it picks up small amounts of carbon dioxide. That makes the water slightly acidic by the time it reaches the rock. The water then dissolves the rock along cracks and layers, and chemical and physical erosion work together over thousands of years. Over that time, tiny holes and cracks widen to form caves. This is not acid rain; it is normal rainwater. Caves form slowly, over a very long time. Water does the work over a very long time.",
+    "part_2": "Once caves form, water carrying minerals can leave material along the floor, ceiling, and walls. This process builds shapes such as stalagmites and stalactites, one drop at a time over thousands of years. The rocks that dissolve to form caves also store water, much as a sponge holds water in many small holes. Karst covers about 20 percent of the United States but holds about 40 percent of its groundwater. Springs in karst supply drinking water to millions of people. Water keeps moving through the rock. That is why caves and springs are linked. Caves and springs are part of one system."
+  },
+  "items": [
+    {
+      "id": "c1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What makes rainwater slightly acidic?",
+      "tutor_only": {
+        "confirm": "Right. It picks up carbon dioxide from the air and soil.",
+        "correct_reason": "The passage states that rain picks up small amounts of carbon dioxide, which makes it slightly acidic.",
+        "tell": "Rain absorbs carbon dioxide as it falls. That turns it slightly acidic before it reaches the rock.",
+        "help": [
+          "Look at the sentences about rain and carbon dioxide.",
+          "They name one thing the rain picks up."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Rain picks up carbon dioxide, which makes it slightly acidic.",
+        "accept_ideas": [
+          "it picks up carbon dioxide",
+          "carbon dioxide from the air and soil",
+          "it absorbs gas from the air"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the chemical name for the acid"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the rain is polluted by factories",
+            "ask": "The passage names a gas from the air and soil. What is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why do cracks in the rock grow wider over time?",
+      "tutor_only": {
+        "confirm": "Yes. Slightly acidic water dissolves the rock along the cracks.",
+        "correct_reason": "The passage joins acidic water with dissolving rock over thousands of years, which widens cracks.",
+        "tell": "Water dissolves the rock it touches. A crack lets water in, so the crack slowly opens.",
+        "help": [
+          "Find the sentences about cracks and layers.",
+          "Ask what the water does to the rock it touches."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the water dissolves the rock along the cracks, so they widen.",
+        "accept_ideas": [
+          "the water dissolves the rock",
+          "acidic water wears the rock away",
+          "water eats along the cracks"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long a cave takes to form"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the cracks fill with water and burst open",
+            "ask": "The passage says the rock dissolves. What does that do to the crack?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Karst covers about 20 percent of the United States. It holds about 40 percent of the groundwater. What does that tell you?",
+      "tutor_only": {
+        "confirm": "Right. Karst stores more water than its share of the land would suggest.",
+        "correct_reason": "The two figures have to be compared: 20 percent of the land, 40 percent of the water.",
+        "tell": "Karst holds twice the water you would expect for its area. It is an unusually good store of groundwater.",
+        "help": [
+          "Compare the two numbers. One describes land and one describes water.",
+          "Which number is larger?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "Karst holds more groundwater than its share of land would suggest.",
+        "accept_ideas": [
+          "it holds more water than its area suggests",
+          "karst stores a lot of water",
+          "it holds twice as much water as land"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the exact area of karst"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says karst is 40 percent of the country",
+            "ask": "One number is land and one is water. Which is 40 percent?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What happens to the minerals that water carries into a cave?",
+      "tutor_only": {
+        "confirm": "Yes. They are left behind and build shapes.",
+        "correct_reason": "The passage says each drop leaves a tiny amount of material, which builds shapes over time.",
+        "tell": "Water leaves minerals behind as it drips. The minerals slowly build stalagmites and stalactites.",
+        "help": [
+          "Find the sentence about each drop.",
+          "It says the drop leaves something behind."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They are left behind and slowly build shapes.",
+        "accept_ideas": [
+          "they are left behind",
+          "they build shapes",
+          "they form stalagmites and stalactites"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how fast the shapes grow"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the water washes the minerals away",
+            "ask": "The passage says each drop leaves material. Where does it stay?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Besides their beauty, why do caves matter to people?",
+      "tutor_only": {
+        "confirm": "Yes. The rock around caves holds groundwater that people drink.",
+        "correct_reason": "The passage connects cave rock to stored groundwater and drinking water.",
+        "tell": "The same rock that makes caves stores water. Many people drink groundwater from karst.",
+        "help": [
+          "Look at the end of the passage, where karst is described.",
+          "They connect the rock to something people need."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the rock around caves stores groundwater that people drink.",
+        "accept_ideas": [
+          "it stores groundwater",
+          "people drink the water",
+          "many people drink karst water"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the cave shapes form"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says caves matter because they are pretty",
+            "ask": "The question sets beauty aside. What does the passage say about water?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "The first inference lesson in the next band.",
+    "student_line": "You have the move. The next reading is another inference lesson."
+  },
+  "retry": {
+    "next_file": "inference_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "Another inference lesson in this band.",
+    "student_line": "The next reading is another inference lesson in this band."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_1_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_1_0008",
+  "meta": {
+    "status": "published",
+    "title": "How Much of You Is Water",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 8,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Plain prose with concrete percentages. The load is one relation: more fat means less water. Measured 7.6, the top of the band.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "USGS Water Science School, 'The Water in You: Water and the Human Body'.",
+      "attribution": "U.S. Geological Survey, Water Science School, 'The Water in You: Water and the Human Body', https://www.usgs.gov/special-topics/water-science-school/science/water-you-water-and-human-body, accessed 2026-10-26. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Verbatim excerpt. Not adapted.",
+      "drafted_by": "TC review pending",
+      "survey": "Chosen as the unadapted close of the band: measured 7.6 at the top of the band.",
+      "avoided": "No percentage tables. No later sections on water's functions."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and one hidden link, held level across the band."
+    },
+    "authoring_exceptions": [
+      "Part 2 is 96 words. The excerpt is verbatim and ends where the source section ends."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Water is indeed essential for all life on, in, and above the Earth. This is important to you because you are made up mostly of water. Find out what water does for the human body. According to Mitchell and others (1945), the brain and heart are composed of 73% water, and the lungs are about 83% water. The skin contains 64% water, muscles and kidneys are 79%, and even the bones are watery: 31%. Each day humans must consume a certain amount of water to survive. Of course, this varies according to age and gender, and also by where someone lives. Generally, an adult male needs about 3 liters (3.2 quarts) per day while an adult female needs about 2.2 liters (2.3 quarts) per day. All of the water a person needs does not have to come from drinking liquids, as some of this water is contained in the food we eat.",
+    "part_2": "According to Dr. Jeffrey Utz, Neuroscience, pediatrics, Allegheny University, different people have different percentages of their bodies made up of water. Babies have the most, being born at about 78%. By one year of age, that amount drops to about 65%. In adult men, about 60% of their bodies are water. However, fat tissue does not have as much water as lean tissue. In adult women, fat makes up more of the body than men, so they have about 55% of their bodies made of water. People with more fatty tissue have less water than people with less fatty tissue."
+  },
+  "items": [
+    {
+      "id": "w1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "How much of the lungs is water, according to the passage?",
+      "tutor_only": {
+        "confirm": "Right. About 83 percent.",
+        "correct_reason": "The passage states that the lungs are about 83% water.",
+        "tell": "The lungs are about 83 percent water, the highest share named in the passage.",
+        "help": [
+          "Look at the sentence that gives the percentage for the lungs.",
+          "It starts with the lungs."
+        ],
+        "say_back": "own_words",
+        "core_idea": "About 83 percent.",
+        "accept_ideas": [
+          "83 percent",
+          "about 83%",
+          "eighty-three percent"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the weight of the lungs"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says 73 percent",
+            "ask": "73 percent belongs to another organ. Which one is 83?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why do adult women have a lower percentage of water than adult men?",
+      "tutor_only": {
+        "confirm": "Yes. Fat tissue holds less water, and women carry more fat.",
+        "correct_reason": "The passage joins two facts: fat holds less water, and women have more fat.",
+        "tell": "Fat tissue holds less water than lean tissue. That is why a higher share of fat lowers the water percentage.",
+        "help": [
+          "Look at the sentences about fat tissue and water.",
+          "They link fat tissue to the percentage."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because fat tissue holds less water, and women carry more fat.",
+        "accept_ideas": [
+          "they have more fat",
+          "fat holds less water",
+          "more fat means less water"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the exact percentage difference"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says women are smaller",
+            "ask": "The passage names a kind of tissue. What does it hold?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The passage gives 78 percent for babies and 55 percent for adult women. What explains the drop?",
+      "tutor_only": {
+        "confirm": "Right. The body's share of fat changes, and fat holds less water.",
+        "correct_reason": "The passage says fat tissue has less water, and that the share of fat differs by age and sex.",
+        "tell": "Water share falls as the share of fat rises. Fat holds less water than lean tissue.",
+        "help": [
+          "Compare what the passage says about babies and about fat tissue.",
+          "One number is about age and one is about tissue."
+        ],
+        "say_back": "own_words",
+        "core_idea": "As the share of fat rises, the share of water falls.",
+        "accept_ideas": [
+          "more fat means less water",
+          "fat tissue holds less water",
+          "the body changes as it grows"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the diet of each group"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says babies drink more water",
+            "ask": "The passage names a kind of tissue, not a habit. What does that tissue hold?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "How much water does an adult male need each day?",
+      "tutor_only": {
+        "confirm": "Yes. About 3 liters.",
+        "correct_reason": "The passage states that an adult male needs about 3 liters per day.",
+        "tell": "An adult male needs about 3 liters a day. An adult female needs about 2.2 liters.",
+        "help": [
+          "Read the sentence that begins with generally.",
+          "It gives two amounts for two groups."
+        ],
+        "say_back": "own_words",
+        "core_idea": "About 3 liters per day.",
+        "accept_ideas": [
+          "3 liters",
+          "about 3 liters",
+          "3.2 quarts"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much of that comes from food"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says 2.2 liters",
+            "ask": "That figure belongs to another group. Which group needs 3 liters?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage says food contains water. Why does that matter for a person who does not like to drink water?",
+      "tutor_only": {
+        "confirm": "Yes. They can still get some of the water they need from food.",
+        "correct_reason": "The last sentence of part one says some of the water a person needs is in food.",
+        "tell": "Drinking is not the only source. Food carries part of the water the body uses.",
+        "help": [
+          "Look at the final sentence. It names a second source of water.",
+          "It names a second source of water."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They can still get some of the water they need from food.",
+        "accept_ideas": [
+          "food supplies part of the water",
+          "they get water from food",
+          "they do not need all of it from drinking"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which foods hold the most water"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says they will get no water at all",
+            "ask": "The passage names another source besides drinking. What is it?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "The first inference lesson in the next band.",
+    "student_line": "You have the move. The next reading is another inference lesson."
+  },
+  "retry": {
+    "next_file": "inference_band_4_1_0008",
+    "next_irl": 4,
+    "next_means": "Another inference lesson in this band.",
+    "student_line": "The next reading is another inference lesson in this band."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_1_0008",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_1_0002",
+  "meta": {
+    "status": "published",
+    "title": "Water Under Your Feet",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Every idea is concrete and tied to a hole in sand. The load is two links: wells share one aquifer, and recharge is what refills it.9-6.4 on the two parts. The reading load stays inside the grade 4-5 band.3-6.4 on the two parts. The reading load stays inside the grade 4-5 band. Measured FK 5.3-6.4 on the two parts. The reading load stays inside the grade 4-5 band.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "USGS Water Science School, 'Aquifers and Groundwater'.",
+      "attribution": "U.S. Geological Survey, Water Science School, 'Aquifers and Groundwater', https://www.usgs.gov/water-science-school/science/aquifers-and-groundwater, accessed 2026-10-26. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Split sentences, removed the diagram references, kept the beach-hole example and the recharge chain.",
+      "drafted_by": "TC review pending",
+      "survey": "Chosen because the beach-hole example makes an invisible system visible.",
+      "avoided": "No porosity or permeability figures. No geology vocabulary. No diagram."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and one hidden link, held level across the band."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A huge amount of water exists in the ground below your feet. People all over the world make use of it. It is found in usable amounts only in certain places underground, and those places are called aquifers. An aquifer is rock or sand that holds water and can pass it to wells and springs. The wet area beneath the water table is the aquifer, and aquifers are huge storehouses of water. Wells are drilled into them, and pumps pull the water out. Rain and snow add water back over time, and that process is called recharge. Some aquifers are deep underground.",
+    "part_2": "The upper surface of the water-filled area is called the water table, and below it every space in the rock is full. Dig a hole in wet sand at the beach. Water will rise in it until it reaches the same level as the ocean. The water table can rise and fall with the weather, and pumping too much water too fast draws it down. A well can then yield less water or run dry, and a neighbor's well on the same aquifer can fail for the same reason. Wells must reach down to the water. That is why well depth matters."
+  },
+  "items": [
+    {
+      "id": "a1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is an aquifer?",
+      "tutor_only": {
+        "confirm": "Right. Rock or sand that holds water and lets it move.",
+        "correct_reason": "The passage defines an aquifer in one sentence.",
+        "tell": "An aquifer is rock or sand. It holds water and lets water pass through it.",
+        "help": [
+          "Find the sentence that begins with the words an aquifer is.",
+          "The definition names two jobs: holding water and letting it move."
+        ],
+        "say_back": "own_words",
+        "core_idea": "An aquifer is rock or sand that holds water and lets water move through it.",
+        "accept_ideas": [
+          "rock or sand that holds water",
+          "a layer that holds water and lets it move",
+          "an underground place where water is stored"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how deep an aquifer sits"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says an aquifer is a kind of pipe",
+            "ask": "A pipe carries water in a closed tube. The passage names rock and sand. What do they do?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The passage says rain and snow recharge an aquifer. What does recharge mean here?",
+      "tutor_only": {
+        "confirm": "Yes. It means water is added back to the aquifer.",
+        "correct_reason": "Recharge is defined by the sentence before it: rain and snow add water back over time.",
+        "tell": "Recharge means refilling. Rain and snow add water back to the aquifer after it is pumped.",
+        "help": [
+          "Read the sentence just before the word recharge.",
+          "That sentence says what rain and snow do to the aquifer."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Recharge means water is added back to the aquifer.",
+        "accept_ideas": [
+          "water is added back",
+          "the aquifer refills",
+          "rain and snow refill it"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how fast recharge happens"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says recharge means pumping water out",
+            "ask": "Pumping takes water out. Which direction does rain and snow move the water?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Pumping too much water can make a neighbor's well run dry. Why?",
+      "tutor_only": {
+        "confirm": "Right. Both wells pull from the same aquifer, so the level drops for both.",
+        "correct_reason": "The passage says pumping lowers the water table and that a neighbor on the same aquifer is affected.",
+        "tell": "A well does not own its water. Both wells draw from one aquifer, so heavy pumping lowers the water for both.",
+        "help": [
+          "Look at the end of the passage, where pumping is described.",
+          "Ask where the neighbor's water comes from."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because both wells use the same aquifer, so pumping lowers the water for both.",
+        "accept_ideas": [
+          "they share the same aquifer",
+          "the water table drops for both wells",
+          "the neighbor's well pulls from the same water"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the depth of either well"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the neighbor's well is broken",
+            "ask": "The passage does not say the well breaks. What happens to the water level?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Where does the water stop in a hole dug in wet sand at the beach?",
+      "tutor_only": {
+        "confirm": "Yes. At the same level as the ocean.",
+        "correct_reason": "The passage states that the water in the beach hole stops level with the ocean.",
+        "tell": "The water in the hole rises to the ocean's level. That level is the water table.",
+        "help": [
+          "Find the sentence about the beach hole.",
+          "It compares the water level in the hole to something nearby."
+        ],
+        "say_back": "own_words",
+        "core_idea": "At the same level as the ocean.",
+        "accept_ideas": [
+          "at the level of the ocean",
+          "level with the sea",
+          "the same height as the ocean"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the hole takes to fill"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the hole fills to the top",
+            "ask": "The passage names a level. Which level does it name?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Why should people who use wells care about recharge?",
+      "tutor_only": {
+        "confirm": "Yes. Without recharge, the water they pump is not replaced.",
+        "correct_reason": "The two parts connect: wells take water out, recharge puts water back.",
+        "tell": "Recharge is the refilling. A well that pumps faster than the aquifer refills will run low.",
+        "help": [
+          "Think about what happens to a store of water when water only leaves.",
+          "Connect the pumping sentences to the recharge sentence."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because recharge is how the water they pump is replaced.",
+        "accept_ideas": [
+          "recharge replaces the water",
+          "without it the aquifer runs low",
+          "the water they use is not added back"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the exact rate of recharge"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says recharge is another word for rain",
+            "ask": "Rain is one source. The passage gives recharge a job. What is that job?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "The first inference lesson in the next band.",
+    "student_line": "You have the move. The next reading is another inference lesson."
+  },
+  "retry": {
+    "next_file": "inference_band_4_1_0003",
+    "next_irl": 4,
+    "next_means": "Another inference lesson in this band.",
+    "student_line": "The next reading is another inference lesson in this band."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_1_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

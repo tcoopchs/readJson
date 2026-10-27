@@ -1,0 +1,239 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_1_0004",
+  "meta": {
+    "status": "published",
+    "title": "Where Rain Goes",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The cause is one step: surface decides whether water soaks or runs. Vocabulary is everyday except infiltration, which the passage defines.6-6.0 on the two parts. The reading load stays inside the grade 4-5 band.3-6.0 on the two parts. The reading load stays inside the grade 4-5 band. Measured FK 5.5-6.0 on the two parts. The reading load stays inside the grade 4-5 band.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "USGS Water Science School, 'Infiltration and the Water Cycle'.",
+      "attribution": "U.S. Geological Survey, Water Science School, 'Infiltration and the Water Cycle', https://www.usgs.gov/water-science-school/science/infiltration-and-water-cycle, accessed 2026-10-26. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Split sentences, dropped the Georgia cave photograph reference, kept land cover and the stream funnel.",
+      "drafted_by": "TC review pending",
+      "survey": "Chosen because land cover is visible in the reader's own neighborhood.",
+      "avoided": "No soil science terms. No photograph references."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and one hidden link, held level across the band."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A large part of the world's fresh water lies underground, and it may start as rain or snow. Water soaks into the ground in vast amounts. Anywhere in the world part of the rain and snow seeps into the soil and rock. How much seeps in depends on the ground, because dry, loose soil absorbs water quickly while hard ground takes very little. Some water stays in the top layer of soil where plants can use it, and some goes deeper and refills an aquifer. Rain and snow both feed the ground, but not all of the water soaks in.",
+    "part_2": "Land cover has a great effect on how much water seeps in. Plants slow the water down, which gives it more time to soak into the soil. Hard surfaces, such as parking lots and roads, do the opposite, sending rain into storm drains that empty into streams. A stream can also act as a funnel into groundwater, and in some places a stream vanishes into a cave. Water may travel a long way or stay in storage for a long time before it returns. Water that seeps in may stay underground for years. Plants use some of the water before it goes deeper."
+  },
+  "items": [
+    {
+      "id": "i1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is infiltration?",
+      "tutor_only": {
+        "confirm": "Right. Water soaking into the soil.",
+        "correct_reason": "The passage defines infiltration as the soaking of water into the soil.",
+        "tell": "Infiltration is water soaking into the ground instead of running off.",
+        "help": [
+          "Find the sentence that uses the word infiltration.",
+          "The sentence before it says what the water does."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Infiltration is water soaking into the soil.",
+        "accept_ideas": [
+          "water soaking into the soil",
+          "water seeping into the ground",
+          "rain soaking down"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how deep the water goes"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says infiltration is water running off",
+            "ask": "Running off is the other path. Which path goes into the ground?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why do plants help rain soak into the ground?",
+      "tutor_only": {
+        "confirm": "Yes. They slow the water, so it has time to soak in.",
+        "correct_reason": "The passage says plants slow water down and slow water has time to soak in.",
+        "tell": "Plants slow the water's movement. That gives the ground time to absorb it.",
+        "help": [
+          "Look at the sentences about plants and water.",
+          "They link speed to soaking."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because plants slow the water, so it has time to soak in.",
+        "accept_ideas": [
+          "they slow the water down",
+          "slow water has time to soak in",
+          "plants give water time to sink in"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the kinds of plants"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says plants drink all the rain",
+            "ask": "Plants do use water. The passage names a different effect. What is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "A parking lot covers the ground where a field used to be. What happens to the rain now?",
+      "tutor_only": {
+        "confirm": "Right. It runs off to storm drains instead of soaking in.",
+        "correct_reason": "The passage says hard surfaces send rain straight to storm drains, the opposite of soaking in.",
+        "tell": "Hard ground cannot absorb the rain. The rain runs off fast and reaches streams through drains.",
+        "help": [
+          "Find the sentence about roads and parking lots.",
+          "It says they do the opposite of what plants do."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The rain runs off to storm drains instead of soaking into the ground.",
+        "accept_ideas": [
+          "it runs off",
+          "it goes to storm drains",
+          "it does not soak in"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much rain falls"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the rain soaks in faster on pavement",
+            "ask": "The passage says hard surfaces do the opposite of plants. Which way does the water go?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Which ground takes water quickly, and which takes very little?",
+      "tutor_only": {
+        "confirm": "Yes. Loose soil takes it quickly and hard ground takes very little.",
+        "correct_reason": "The last two sentences of part one state the contrast.",
+        "tell": "Dry, loose soil absorbs water fast. Hard ground absorbs very little.",
+        "help": [
+          "Look at the sentences that compare loose soil and hard ground.",
+          "They compare two kinds of ground."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Loose soil takes water quickly and hard ground takes very little.",
+        "accept_ideas": [
+          "loose soil takes it quickly",
+          "hard ground takes very little",
+          "dry soil takes water fast"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "why loose soil behaves that way"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says all ground takes water at the same rate",
+            "ask": "The passage compares two kinds. What is the difference?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "A town wants more rain to reach its groundwater. What could it change?",
+      "tutor_only": {
+        "confirm": "Yes. It could add plants or replace pavement with ground that soaks.",
+        "correct_reason": "The passage links plant cover and hard surfaces to how much water soaks in.",
+        "tell": "More plants and fewer hard surfaces let rain soak in instead of running off.",
+        "help": [
+          "Think about the two things that change how much soaks in.",
+          "One slows water down. One sends it away."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It could plant more and pave less so more rain soaks in.",
+        "accept_ideas": [
+          "add plants",
+          "replace pavement with soil",
+          "slow the water down",
+          "fewer hard surfaces"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the cost of such a change"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the town should build more storm drains",
+            "ask": "Drains carry water away. The town wants water to stay. Which change does that?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "The first inference lesson in the next band.",
+    "student_line": "You have the move. The next reading is another inference lesson."
+  },
+  "retry": {
+    "next_file": "inference_band_4_1_0005",
+    "next_irl": 4,
+    "next_means": "Another inference lesson in this band.",
+    "student_line": "The next reading is another inference lesson in this band."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_1_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

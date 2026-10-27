@@ -1,0 +1,240 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_1_0007",
+  "meta": {
+    "status": "published",
+    "title": "The CCC at Cedar Breaks",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 7,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Dates and causes are stated plainly and the scene is concrete. Load is one reason-and-result chain about a place.0-7.1 on the two parts. The reading load stays inside the grade 4-5 band.3-6.6 on the two parts. The reading load stays inside the grade 4-5 band. Measured FK 6.3-6.6 on the two parts. The reading load stays inside the grade 4-5 band.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "National Park Service, 'The Civilian Conservation Corps at Cedar Breaks'.",
+      "attribution": "U.S. National Park Service, 'The Civilian Conservation Corps at Cedar Breaks', https://www.nps.gov/articles/the-civilian-conservation-corps-at-cedar-breaks.htm, accessed 2026-10-26. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Split sentences, kept one worker quotation as reported speech, dropped the 4,932-post fence detail.",
+      "drafted_by": "TC review pending",
+      "survey": "Chosen to hold a date-and-cause structure with people in it, which the other works lack.",
+      "avoided": "No Depression statistics. No acronyms beyond CCC."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and one hidden link, held level across the band."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "In 1933, the United States was in the Great Depression, and many people had no work. As part of the New Deal, President Franklin Roosevelt started the Civilian Conservation Corps, which people called the CCC. The program let single men between 18 and 25 join work projects that improved public lands, forests, and parks. In 1934, the CCC arrived at Cedar Breaks. On the Fourth of July, the men directed traffic and served food to about 3,000 people at the dedication of the new monument. The monument was new that year. The men stayed for four more years. The program was meant to help the country.",
+    "part_2": "Because of the high elevation, the Cedar Breaks camp was a stub camp occupied only during the warmer months. For the rest of the year, the men worked in lower camps, such as Zion National Park. Even in summer the weather was hard, and one worker said they were hailed on and snowed on, but they still did the job. From 1934 to 1938, the crews built roads, trails, and a campground with picnic tables and fireplaces. In 1936 and 1937 they built a log museum, which is now the visitor center. The crews also installed a disposal system and restrooms. The building still stands."
+  },
+  "items": [
+    {
+      "id": "k1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Who could join the CCC?",
+      "tutor_only": {
+        "confirm": "Right. Single men between 18 and 25.",
+        "correct_reason": "The passage states that the CCC hired single men between 18 and 25.",
+        "tell": "The CCC hired single men aged 18 to 25 to work on public land.",
+        "help": [
+          "Look at the sentence that names who the program hired.",
+          "Look for who the program hired, not what the crews built."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Single men between 18 and 25.",
+        "accept_ideas": [
+          "single men 18 to 25",
+          "men between 18 and 25",
+          "young single men"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much they were paid"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says anyone could join",
+            "ask": "The passage names a group. Which group?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why was the Cedar Breaks camp called a stub camp?",
+      "tutor_only": {
+        "confirm": "Yes. It was so high that men could only stay in the warm months.",
+        "correct_reason": "The passage says the camp was high and only occupied in warm months, which is what a stub camp means.",
+        "tell": "A stub camp was a seasonal camp. Cedar Breaks was too high and cold for year-round work.",
+        "help": [
+          "Look at the opening sentences about the camp and its height.",
+          "One explains the name and the other explains the cause."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because it was too high and cold to use all year.",
+        "accept_ideas": [
+          "it was high up",
+          "men could only stay in warm months",
+          "the weather was too cold"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many men lived there"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it was a small camp",
+            "ask": "The passage gives a reason about height and seasons. What is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did the CCC men work at Zion in the winter?",
+      "tutor_only": {
+        "confirm": "Right. Cedar Breaks was too cold, so they moved to a lower camp.",
+        "correct_reason": "The passage joins the high camp with the winter move to lower camps.",
+        "tell": "The Cedar Breaks camp could not be used in winter. The crews went to lower, warmer camps.",
+        "help": [
+          "Find the sentence about winter.",
+          "It names another park and says the camps were lower."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because Cedar Breaks was too cold in winter, so they moved to lower camps.",
+        "accept_ideas": [
+          "Cedar Breaks was too cold",
+          "they moved to a lower camp",
+          "the high camp closed in winter"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how far Zion was"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says they preferred Zion",
+            "ask": "The passage gives a reason about the camp, not a preference. What is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Name two things the crews built between 1934 and 1938.",
+      "tutor_only": {
+        "confirm": "Yes. Roads, trails, a campground, and a log museum.",
+        "correct_reason": "The passage lists roads, trails, a campground, and the museum.",
+        "tell": "The crews built roads, trails, and a campground. They also built a log museum. It is now the visitor center.",
+        "help": [
+          "Look at the sentences that list what the crews built.",
+          "They list what the crews made."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Two of these: roads, trails, a campground, a log museum.",
+        "accept_ideas": [
+          "roads",
+          "trails",
+          "a campground",
+          "a log museum",
+          "roads and trails"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long each project took"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student names only one",
+            "ask": "You named one. The passage lists several. What is another?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Why does the CCC still matter at Cedar Breaks today?",
+      "tutor_only": {
+        "confirm": "Yes. The roads, trails, and museum they built are still in use.",
+        "correct_reason": "The passage says the log museum is now the visitor center and lists structures still used.",
+        "tell": "The work outlasted the program. Visitors still use the roads, trails, and the museum building.",
+        "help": [
+          "Look at the end of the passage, where the museum is mentioned.",
+          "It says what a building is used for now."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the things they built are still used by visitors.",
+        "accept_ideas": [
+          "the buildings are still used",
+          "the museum is the visitor center",
+          "people still use the roads and trails"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the details of the fence"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the CCC is only history",
+            "ask": "The passage says one building has a job today. What is it?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "The first inference lesson in the next band.",
+    "student_line": "You have the move. The next reading is another inference lesson."
+  },
+  "retry": {
+    "next_file": "inference_band_4_1_0008",
+    "next_irl": 4,
+    "next_means": "Another inference lesson in this band.",
+    "student_line": "The next reading is another inference lesson in this band."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_1_0007",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

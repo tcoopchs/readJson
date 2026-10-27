@@ -1,0 +1,239 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "A Hole You Cannot See",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The passage kills the vacuum-cleaner idea with one comparison. Load is one relation: gravity follows mass.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "NASA, 'What Is a Black Hole?' (Grades 5-8).",
+      "attribution": "National Aeronautics and Space Administration, 'What Is a Black Hole? (Grades 5-8)', https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-a-black-hole-grades-5-8/, accessed 2026-10-26. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Verbatim excerpt. Not adapted.",
+      "drafted_by": "TC review pending",
+      "survey": "Chosen for a misconception the passage kills outright: a black hole is not a vacuum cleaner.",
+      "avoided": "No singularity or event horizon material. No size classes."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and one hidden link, held level across the band."
+    },
+    "authoring_exceptions": [
+      "Part 1 is 95 words. The excerpt is verbatim, and extending it would add material the items do not use."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A black hole is a region in space where the pulling force of gravity is so strong that light is not able to escape. The strong gravity occurs because matter has been pressed into a tiny space. This compression can take place at the end of a star’s life. Some black holes are a result of dying stars. Because no light can escape, black holes are invisible. However, space telescopes with special instruments can help find black holes. They can observe the behavior of material and stars that are very close to black holes.",
+    "part_2": "If a black hole with the same mass as the sun were to replace the sun, Earth would not fall in. The black hole with the same mass as the sun would keep the same gravity as the sun. The planets would still orbit the black hole as they orbit the sun now. The sun does not have enough mass to collapse into a black hole. In billions of years, when the sun is at the end of its life, it will become a red giant star. Then, when it has used the last of its fuel, it will throw off its outer layers and turn into a glowing ring of gas called a planetary nebula. Finally, all that will be left of the sun is a cooling white dwarf star."
+  },
+  "items": [
+    {
+      "id": "b1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why can no light escape from a black hole?",
+      "tutor_only": {
+        "confirm": "Right. The pull of gravity there is too strong.",
+        "correct_reason": "The first sentence states that gravity is so strong light cannot escape.",
+        "tell": "Gravity at a black hole is strong enough to hold light. Nothing that enters can get out.",
+        "help": [
+          "Read the opening sentence. It describes a black hole.",
+          "It names the force that holds the light."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the pull of gravity is too strong for light to escape.",
+        "accept_ideas": [
+          "the gravity is too strong",
+          "the pull is stronger than light",
+          "gravity keeps light from leaving"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what happens inside the black hole"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says black holes have no gravity",
+            "ask": "The passage says the opposite. What does the gravity do to light?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Black holes are invisible. How do scientists find them?",
+      "tutor_only": {
+        "confirm": "Yes. Telescopes watch material and stars moving near them.",
+        "correct_reason": "The passage says telescopes observe the behavior of material and stars close to black holes.",
+        "tell": "Scientists cannot see the hole. They watch what happens to nearby stars and gas instead.",
+        "help": [
+          "Look at the sentences about how telescopes find black holes.",
+          "They name the instrument and what it watches."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They watch how nearby stars and material behave.",
+        "accept_ideas": [
+          "telescopes watch nearby stars",
+          "they observe material close to it",
+          "they watch how nearby things move"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the names of the telescopes"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says scientists take a photograph of the hole",
+            "ask": "The passage says the hole cannot be seen. What do telescopes watch instead?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "If a black hole with the sun's mass replaced the sun, would Earth fall in? Why?",
+      "tutor_only": {
+        "confirm": "Right. No. The same mass means the same gravity, so orbits stay the same.",
+        "correct_reason": "The passage states that equal mass gives equal gravity, so Earth would not fall in.",
+        "tell": "Gravity depends on mass. A black hole with the sun's mass pulls exactly as the sun does.",
+        "help": [
+          "Find the sentence about the same mass.",
+          "It compares the gravity of the hole with the gravity of the sun."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No. A black hole with the same mass would keep the same gravity, so Earth would not fall in.",
+        "accept_ideas": [
+          "no, the gravity would be the same",
+          "no, Earth would still orbit",
+          "the same mass gives the same pull"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the sky would look like"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says Earth would be sucked in",
+            "ask": "The passage says the same mass means the same gravity. What follows for Earth?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What will the sun become at the end of its life?",
+      "tutor_only": {
+        "confirm": "Yes. A red giant, then a white dwarf.",
+        "correct_reason": "The passage says the sun will become a red giant and later a cooling white dwarf.",
+        "tell": "The sun will swell into a red giant. Then it will shed its layers and leave a white dwarf.",
+        "help": [
+          "Look at the end of the passage, where the sun's future is described.",
+          "They name two stages in order."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It will become a red giant and then a white dwarf.",
+        "accept_ideas": [
+          "a red giant then a white dwarf",
+          "a red giant",
+          "a white dwarf"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long that will take"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the sun will become a black hole",
+            "ask": "The passage says the sun lacks something. What does it lack?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "A black hole with the sun's mass would keep the sun's gravity. What does that tell you about what makes gravity strong?",
+      "tutor_only": {
+        "confirm": "Yes. Gravity comes from mass, not from being a black hole.",
+        "correct_reason": "The passage says equal mass gives equal gravity, so the pull depends on mass alone.",
+        "tell": "Mass sets the pull. Being a black hole does not add gravity by itself.",
+        "help": [
+          "Compare the sun and a black hole with the same mass.",
+          "The passage says their gravity would match."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Gravity depends on mass, so equal mass means equal pull.",
+        "accept_ideas": [
+          "gravity depends on mass",
+          "the same mass means the same gravity",
+          "a black hole does not add gravity"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "why stars collapse"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says black holes always have more gravity",
+            "ask": "The passage compares two objects with the same mass. What does it say about their pull?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "The first inference lesson in the next band.",
+    "student_line": "You have the move. The next reading is another inference lesson."
+  },
+  "retry": {
+    "next_file": "inference_band_4_1_0007",
+    "next_irl": 4,
+    "next_means": "Another inference lesson in this band.",
+    "student_line": "The next reading is another inference lesson in this band."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

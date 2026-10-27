@@ -1,0 +1,239 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_1_0001",
+  "meta": {
+    "status": "published",
+    "title": "Why the Body Runs Low on Water",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The words are common and each cause is stated outright. The load is one link: a cause removes water, so the body runs low. Two parts, no diagram.2-6.5 on the two parts. The reading load stays inside the grade 4-5 band.0-6.5 on the two parts. The reading load stays inside the grade 4-5 band. Measured FK 6.0-6.5 on the two parts. The reading load stays inside the grade 4-5 band.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "MedlinePlus 'Dehydration' (U.S. National Library of Medicine).",
+      "attribution": "MedlinePlus, U.S. National Library of Medicine, 'Dehydration', https://medlineplus.gov/dehydration.html, accessed 2026-10-26. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Split long sentences, replaced clinical terms, kept every stated cause and prevention step.",
+      "drafted_by": "TC review pending",
+      "survey": "Chosen for a cause-and-effect chain a reader can follow without medical knowledge.",
+      "avoided": "No list of chronic illnesses. No dosage advice. No site banner."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and one hidden link, held level across the band."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Dehydration is a condition caused by the loss of too much fluid from the body. It happens when you lose more fluid than you take in. The body lacks what it needs to work properly. Fluid leaves the body in several ways. Diarrhea and vomiting remove water quickly, and heavy sweating does the same. Urinating more often than usual also removes water, and some illnesses and some medicines cause that. A fever uses up water too, and you can lose fluid by not drinking enough. Some people lose fluid when they are sick. The body loses water all day long.",
+    "part_2": "Older adults are at higher risk because some people lose their sense of thirst as they age. They may not feel thirsty, so they drink less than the body needs, and dehydration can set in without anyone noticing. Dehydration can be mild, or it can be severe enough to threaten a person's life. To prevent it, drink water every day, and remember that each person's needs vary. Drink extra in hot weather and when you exercise or work outside. Drink extra when you are sick. Sports drinks can replace minerals lost in sweat, but some contain a lot of sugar."
+  },
+  "items": [
+    {
+      "id": "d1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "When does dehydration happen?",
+      "tutor_only": {
+        "confirm": "Right. You lose more fluid than you take in.",
+        "correct_reason": "The second sentence states the condition: fluid out is greater than fluid in.",
+        "tell": "Dehydration happens when more fluid leaves the body than comes in. The body then lacks the water it needs.",
+        "help": [
+          "Find the sentence that tells when dehydration happens."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Dehydration happens when you lose more fluid than you take in.",
+        "accept_ideas": [
+          "when you lose more fluid than you take in",
+          "when you lose more water than you drink",
+          "when fluid loss is greater than fluid intake"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the specific ways a person loses water"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says dehydration happens when you drink too much water",
+            "ask": "Check the direction. Does the body have too much water or too little?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Some medicines make a person urinate more. Why would that cause dehydration?",
+      "tutor_only": {
+        "confirm": "Yes. More water leaves the body, so more is lost than replaced.",
+        "correct_reason": "The passage lists urinating more as a way to lose fluid, and defines dehydration as losing more than you take in.",
+        "tell": "Urinating more removes extra water. If that loss is bigger than what the person drinks, dehydration follows.",
+        "help": [
+          "Find where the passage lists ways to lose fluid.",
+          "Connect that loss to the rule about losing more than you take in."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because urinating more removes water, so the person loses more fluid than they take in.",
+        "accept_ideas": [
+          "more water leaves the body",
+          "you lose more fluid than you take in",
+          "the body loses water faster than it is replaced"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of any medicine"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the medicine dries up the water inside the body",
+            "ask": "The passage names one effect of the medicine. What does that effect do to the body's water?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why might an older adult become dehydrated without noticing?",
+      "tutor_only": {
+        "confirm": "Right. They may not feel thirsty, so they drink less.",
+        "correct_reason": "The passage joins two facts: the sense of thirst fades with age, and less drinking follows.",
+        "tell": "Thirst is the body's signal to drink. When that signal fades, a person drinks less and may not notice the loss.",
+        "help": [
+          "Look at the part about older adults. It names a signal the body sends.",
+          "Ask what happens to drinking when that signal fades."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They may not feel thirsty, so they drink less than their body needs.",
+        "accept_ideas": [
+          "they do not feel thirsty",
+          "they lose their sense of thirst and drink less",
+          "they drink less because they are not thirsty"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the exact age when thirst fades"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says older adults forget to drink",
+            "ask": "The passage names a body signal, not memory. Which signal changes with age?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The passage names three times to drink extra water. Name two of them.",
+      "tutor_only": {
+        "confirm": "Yes. Hot weather, exercise or outdoor work, and being sick.",
+        "correct_reason": "The prevention sentences list three conditions that call for extra fluid.",
+        "tell": "Drink extra water in hot weather. Drink extra during exercise or outdoor work. Drink extra when you are sick.",
+        "help": [
+          "Look at the end of the passage. Each sentence there names a time to drink more.",
+          "You need two of the three. Find a sentence you have not used yet."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Two of these: hot weather, exercise or working outside, being sick.",
+        "accept_ideas": [
+          "hot weather",
+          "exercising",
+          "working outside",
+          "being sick",
+          "hot weather and exercise"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "amounts in cups or liters"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student names only one time",
+            "ask": "You named one. The passage gives three. What is another?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "A person works outside on a hot day and drinks only at meals. What does the passage suggest could happen?",
+      "tutor_only": {
+        "confirm": "Yes. They may lose more fluid than they take in.",
+        "correct_reason": "The passage lists sweating and hot weather as fluid losses, and defines dehydration as losing more than you take in.",
+        "tell": "Heat and sweat remove water all day. Drinking only at meals may not replace it.",
+        "help": [
+          "Look at the ways the passage says water leaves the body.",
+          "Compare that loss with how often the person drinks."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They could lose more fluid than they take in and become dehydrated.",
+        "accept_ideas": [
+          "they could become dehydrated",
+          "they may lose more fluid than they drink",
+          "they might not replace the water they sweat out"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much water they need in a day"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says nothing will happen because they drink at meals",
+            "ask": "The passage lists sweating as a loss. How does one drink at meals compare with a whole hot day?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "The first inference lesson in the next band.",
+    "student_line": "You have the move. The next reading is another inference lesson."
+  },
+  "retry": {
+    "next_file": "inference_band_4_1_0002",
+    "next_irl": 4,
+    "next_means": "Another inference lesson in this band.",
+    "student_line": "The next reading is another inference lesson in this band."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
