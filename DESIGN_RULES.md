@@ -107,6 +107,23 @@ reliable.
 Do not generate runtime rewrites of one passage to step difficulty. Adaptation moves across exact
 files named in the source routes, never across AI-authored rewrites.
 
+**2.2.1 Fiction and nonfiction mix inside one cell; there are no genre tracks.** A student practices
+inference on both, alternating by sequence, for example nonfiction at `_0001` and fiction at `_0002`.
+Do not build parallel fiction and nonfiction sets: that doubles the catalog and teaches the same
+skill twice.
+
+Two rules keep a mixed cell honest:
+
+- **Genre is content, not difficulty.** Hold the difficulty knobs still across a genre switch — same
+  part count, same item count, same clue distance. Never raise difficulty and change genre in the same
+  step, or the sequence ladder stops meaning anything.
+- **The item set follows the genre.** Fiction uses character motive, change, conflict, and the
+  narrative signposts; nonfiction uses claim, cause, sequence, and the expository signposts. A generic
+  inference template flattens both.
+
+Record the genre on every lesson so a cell's mix can be audited, and so a fiction lesson is never
+scored with an expository key.
+
 **2.3 The passage must contain the evidence in plain sight.** Every inference, cloze, main-idea,
 and author's-purpose answer must be derivable from text shown in the current lesson. If an item
 depends on an earlier passage part, set `show_part` to that part. `show_part: null` is valid only

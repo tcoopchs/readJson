@@ -114,6 +114,18 @@ and long federal explainers at that load are uncommon. Expect some 4.1 cells to 
 works rather than one. That is allowed by 2.2 and reported as a note, and at this band it is the
 likely shape rather than the exception.
 
+### Genre inside a cell
+
+Decided: no fiction and nonfiction tracks. Genres mix within the cell, so 4.1 stays at 64 lessons
+instead of 128. Intended shape for inference 4.1 is five nonfiction and three fiction, with fiction
+landing at `_0002`, `_0005`, and `_0008` so a student meets a story early, in the middle, and at the
+top. Genre is recorded per lesson; difficulty knobs stay fixed across a genre switch.
+
+Consequence for sourcing: the bank currently has zero fiction, so three works are needed before the
+fiction slots can be authored. Two are public-domain adventures that measure in band (Treasure
+Island 7.5, Call of the Wild 7.5); the third is either commissioned original fiction or the *Just YA*
+pool if the product is non-commercial.
+
 ### Phase 1 — inference 4.1, eight lessons
 
 Eight lessons on one cell. Build 0001 first, validate it, cold-chat test it, then use it as the
