@@ -46,6 +46,21 @@ The `reader` block and `reader.reading_level` are authoring metadata only. The c
 from the student-facing runtime lesson. Student-facing labels use `Band <grade>.<stage>` and must
 not reveal a grade, IRL, or below-grade comparison.
 
+**1.2.1 A low-load text may sit one band above its target.** Topic quality matters to older readers.
+A passage they want to read is worth more than a perfectly matched score, so a work whose idea load
+is at or below the band may be placed in the lower band even when its language measures higher. The
+allowance is bounded:
+
+- the measured FK must still fall inside the Common Core band for the target grade (4.51-7.73 for a
+  grade 4-5 target), so the stretch is at most about one grade;
+- every word above the band that carries evidence must be supported in `help[0]` or `tell`;
+- `reader.why_this_level` states the gap in plain words, for example: "Ideas are one-step and
+  concrete. Three words (porosity, karst, aquifer) are above the band and are supported in the first
+  help."
+
+Never stretch more than one grade, and never stretch a text whose idea load is above the band. The
+two-axis rule still decides: language load may be traded down for topic quality, idea load may not.
+
 **1.3 Use the Common Core text-complexity bands as a sanity check.** A Grade 4-5 reader target is
 roughly FK 4.51-7.73. A Grade 6-8 reader target is roughly FK 6.51-10.34. These are review
 targets, not proof of placement. If a passage falls outside the intended band, rewrite it or change

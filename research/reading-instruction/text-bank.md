@@ -12,8 +12,13 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | ID | Title | Genre | Grade target | Band | Length | FK | Best fit |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | TB-001 | Why Do Leaves Change Colors in the Fall | Nonfiction | 7 | Band 7.1 | 192 words | 7.81 | `main_idea_band_7_1_0001` |
-| TB-002 | Where is Earth's Water? | Nonfiction | 7 | Band 7.1 | 174-word excerpt | 8.29 | `main_idea_band_7_1_0002`, `text_structure_band_7_1_0001` |
+| TB-002 | Where is Earth's Water? | Nonfiction | 7 | Band 7.1 | 174-word excerpt | 8.29 | `main_idea_band_7_1_0002` |
 | TB-003 | The Diamond Necklace | Fiction | 7 readability; 8-9 literary | Band 9.1 | Full short story | Gutenberg ease 78.6 (~7th) | `literary_text_band_9_1_0001`, later |
+| TB-004 | The Water in You | Nonfiction | 4 | Band 4.1 | 1,371 words | 6.6 prose / 9.8 whole page | `inference_band_4_1_0001` |
+| TB-005 | What is a rip current? | Nonfiction | 4 | Band 4.1 | 209 words | 7.4 | `inference_band_4_1_0002` |
+| TB-006 | Dehydration | Nonfiction | 4 | Band 4.1 | 396 words | 8.5 page / ~5 definition | `inference_band_4_1_0003` |
+| TB-007 | Caves and Aquifers | Nonfiction | 4 | Band 4.1 | 460 words | 4.5-7.7 | `inference_band_4_1_0004` |
+| TB-008 | What Is a Black Hole? (Grades 5-8) | Nonfiction | 4 | Band 4.1 | 900 words | 5.1-6.7 sections | `inference_band_4_1_0005` |
 
 ---
 
@@ -123,12 +128,176 @@ grade 7 main-idea slot.
 
 ---
 
+## TB-004 — The Water in You: Water and the Human Body
+
+| Field | Value |
+| --- | --- |
+| Source | U.S. Geological Survey, Water Science School |
+| URL | https://www.usgs.gov/special-topics/water-science-school/science/water-you-water-and-human-body |
+| License | U.S. federal government work; public domain in the U.S. |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science |
+| Grade target | 4 |
+| Band | Band 4.1 (provisional slot `inference_band_4_1_0001`) |
+| Length | 1,371 words total; the prose sections are usable |
+| FK grade | 6.6 on the opening sections; 9.8 for the whole page |
+| Complexity | L2, I2, S2, K1 |
+
+**Central idea.** The share of water in the human body changes with age and body fat, and water is
+required for nearly every function the body performs.
+
+**Supporting details.** Babies are born about 78 percent water and fall to about 65 percent by age
+one. Adult men are about 60 percent water, adult women about 55 percent, because fat tissue holds
+less water than lean tissue. The brain and heart are about 73 percent water and the lungs about 83
+percent. Even bones are about 31 percent water. Water carries nutrients, removes waste, and controls
+body temperature.
+
+**Why it works.** Two facts ("fat holds less water" and "women carry more fat") combine into an
+unstated conclusion, which is the inference the lesson teaches. The percentages are concrete and the
+scene is the reader's own body.
+
+**Cautions.** The page mixes simple prose with percent tables and a 1945 citation. Excerpt only the
+prose; the tables raise the score without adding inference work.
+
+---
+
+## TB-005 — What is a rip current?
+
+| Field | Value |
+| --- | --- |
+| Source | NOAA National Ocean Service |
+| URL | https://oceanservice.noaa.gov/facts/ripcurrent.html |
+| License | U.S. federal government work; public domain in the U.S. |
+| Genre | Nonfiction, explanatory/safety |
+| Topic domain | nature |
+| Grade target | 4 |
+| Band | Band 4.1 (provisional slot `inference_band_4_1_0002`) |
+| Length | 209 words |
+| FK grade | 7.4 |
+| Complexity | L2, I2, S1, K1 |
+
+**Central idea.** A rip current is a fast, narrow flow moving away from shore, and swimmers get into
+trouble by fighting it instead of swimming parallel to the beach.
+
+**Supporting details.** Rip currents run along the East, Gulf, and West coasts and in the Great
+Lakes. They move up to eight feet per second, faster than an Olympic swimmer. A rip current is not a
+rip tide. The way out is to swim parallel to shore.
+
+**Why it works.** The safety rule is stated but its reason is not: the reader has to connect "faster
+than an Olympic swimmer" to "do not swim against it." That is a clean two-fact join with real stakes.
+
+**Cautions.** Very short, 209 words. It supports one lesson of two parts, not a cell. One paragraph
+scores 14.0 on its own because of words like *prevalent* and *channels*; do not build an item on that
+sentence alone.
+
+---
+
+## TB-006 — Dehydration
+
+| Field | Value |
+| --- | --- |
+| Source | MedlinePlus, U.S. National Library of Medicine |
+| URL | https://medlineplus.gov/dehydration.html |
+| License | U.S. federal government work; public domain in the U.S. |
+| Genre | Nonfiction, health explainer |
+| Topic domain | science |
+| Grade target | 4 |
+| Band | Band 4.1 (provisional slot `inference_band_4_1_0003`) |
+| Length | 396 words |
+| FK grade | 8.5 page-level; the definition paragraphs measure about 5 |
+| Complexity | L2, I2, S2, K1 |
+
+**Central idea.** Dehydration happens when a person loses more fluid than they take in, and some
+people are at higher risk because their bodies signal thirst weakly or lose fluid faster.
+
+**Supporting details.** Dehydration is a loss of too much fluid from the body. It happens when fluid
+loss exceeds intake. Some older adults lose their sense of thirst as they age. Infants and young
+children dehydrate faster through diarrhea or vomiting. Some medicines and illnesses increase
+urination or sweating.
+
+**Why it works.** "Older adults lose their sense of thirst" plus "dehydration means not enough fluid"
+produces the unstated conclusion: they can be dehydrated without feeling thirsty. That is exactly
+the kind of clue-join the band should practice.
+
+**Cautions.** Strip the site banner and the terminology notice before banking a passage. The at-risk
+list names diabetes, cystic fibrosis, and kidney problems, which is outside grade-4 knowledge.
+
+---
+
+## TB-007 — Caves and Aquifers
+
+| Field | Value |
+| --- | --- |
+| Source | U.S. National Park Service |
+| URL | https://www.nps.gov/articles/caves-and-aquifers.htm |
+| License | U.S. federal government work; public domain in the U.S. |
+| Genre | Nonfiction, explanatory |
+| Topic domain | nature |
+| Grade target | 4 |
+| Band | Band 4.1 (provisional slot `inference_band_4_1_0004`) |
+| Length | 460 words |
+| FK grade | 7.7 at the densest paragraph, 4.5 at the simplest |
+| Complexity | L3, I1, S2, K1 |
+| Placement | Placed one band below its language score under 1.2.1: idea load is one-step |
+
+**Central idea.** Caves form when slightly acidic rainwater slowly dissolves bedrock, and the same
+openings can hold groundwater like a sponge.
+
+**Supporting details.** Rain picks up carbon dioxide from the air and soil, which makes it slightly
+acidic. Slightly acidic water dissolves bedrock over a long time, which opens caves. Porous rock acts
+like a sponge and stores groundwater. The openings in cave country hold a large share of the water
+people use.
+
+**Why it works.** Nothing in the passage requires background knowledge of chemistry: the reader
+follows "rain picks up gas" to "water is slightly acidic" to "rock dissolves." At the same time the
+topic is one people actually wonder about, which is the point of 1.2.1.
+
+**Cautions.** `karst`, `porosity`, `aquifer`, and `soluble` are above the band and each must be
+supported in `help[0]` or `tell`. The page's light voice ("Don't worry though!") stays out of student
+copy.
+
+---
+
+## TB-008 — What Is a Black Hole? (Grades 5-8)
+
+| Field | Value |
+| --- | --- |
+| Source | NASA |
+| URL | https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-a-black-hole-grades-5-8/ |
+| License | U.S. federal government work; public domain in the U.S. |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science |
+| Grade target | 4 |
+| Band | Band 4.1 (provisional slot `inference_band_4_1_0005`) |
+| Length | ~900 words; use the mass-and-gravity sections |
+| FK grade | 5.1 and 6.7 on the sections to be used; 9+ on the dense ones |
+| Complexity | L2, I2, S2, K1 |
+| Placement | Uses the mass-and-gravity sections under 1.2.1; the singularity material is skipped |
+
+**Central idea.** A black hole pulls with the gravity of whatever mass it holds, so one with the
+sun's mass would keep the planets in their orbits, and the sun itself is too small to become one.
+
+**Supporting details.** A black hole with the sun's mass would have the sun's gravity. Earth would
+not fall in; the planets would orbit it the same way. The sun lacks the mass to collapse into a black
+hole. At the end of its life it will become a red giant and throw off its outer layers.
+
+**Why it works.** The common wrong idea — that a black hole is a vacuum cleaner — dies on one
+sentence: same mass means same gravity. That is a real misconception to build a distractor on, and
+the topic is the most interesting thing in the bank.
+
+**Cautions.** The page is written for students, so its framing is school-facing; the tutor must not
+adopt a classroom voice. Skip the singularity and event-horizon paragraphs entirely.
+
+---
+
 ## Screened but not banked
 
 These were reviewed and set aside. Keep them visible for later; do not treat them as approved.
 
 | Text | Source | Why not banked |
 | --- | --- | --- |
+| Handwashing | MedlinePlus, https://medlineplus.gov/ency/patientinstructions/000972.htm | User judged it boring: hygiene instruction with no stake or surprise. FK 6.2 was in band, so this is a fit problem, not a level problem. |
+| How to Recognize and Report Spam Text Messages | FTC, https://consumer.ftc.gov/articles/how-recognize-and-report-spam-text-messages | User judged it boring: consumer checklist. FK 7-9 depending on excerpt. |
 | How Do Coral Reefs Form? | NOAA, https://oceanservice.noaa.gov/education/tutorial_corals/coral04_reefs.html | FK 10.5 on the excerpt; better at Band 9.1, and the vocabulary needs support. |
 | Wolf Restoration in Yellowstone | NPS, https://www.nps.gov/articles/wolf-restoration-in-yellowstone-reintroduction-to-recovery.htm | Technical and research-report tone; not a clean grade-7 main-idea passage. |
 | How Bees Make Honey | Wisconsin CALS, https://news.cals.wisc.edu/2012/06/04/how-bees-make-honey-producing-honey-is-a-strenuous-team-effort-for-bees/ | Not a government work; license needs checking before use. |
