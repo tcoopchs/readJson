@@ -1,6 +1,7 @@
 # Curriculum Build Plan — initial proposal
 
-Status: proposal for discussion. Nothing here is implemented.
+Status: decisions recorded and committed 2026-10-26. Band 4.1 nonfiction is the build target;
+inference is the first vertical. `DESIGN_RULES.md` is normative wherever this plan summarizes it.
 Scope: which lessons we author, in what order, against which progression, and under which
 sourcing and authoring rules.
 Authoritative inputs: `README.md` (naming, bands, progression), `DESIGN_RULES.md` (passage, items,
@@ -114,17 +115,35 @@ and long federal explainers at that load are uncommon. Expect some 4.1 cells to 
 works rather than one. That is allowed by 2.2 and reported as a note, and at this band it is the
 likely shape rather than the exception.
 
-### Genre inside a cell
+### Genre by band
 
-Decided: no fiction and nonfiction tracks. Genres mix within the cell, so 4.1 stays at 64 lessons
-instead of 128. Intended shape for inference 4.1 is five nonfiction and three fiction, with fiction
-landing at `_0002`, `_0005`, and `_0008` so a student meets a story early, in the middle, and at the
-top. Genre is recorded per lesson; difficulty knobs stay fixed across a genre switch.
+Genre runs in two-band blocks rather than per lesson: **4-5 nonfiction, 6-7 fiction, 8-9 nonfiction,
+10-11 fiction, 12 nonfiction.** Single-genre verticals are exempt — `process` and `argument_evidence`
+stay nonfiction at every band, `literary_text` stays fiction. Within the flexible five
+(`vocab`, `inference`, `main_idea`, `text_structure`, `authors_craft`) a band teaches one construct,
+so `main_idea` at 4 is central idea and `main_idea` at 6 is theme, with no averaging inside a cell.
 
-Consequence for sourcing: the bank currently has zero fiction, so three works are needed before the
-fiction slots can be authored. Two are public-domain adventures that measure in band (Treasure
-Island 7.5, Call of the Wild 7.5); the third is either commissioned original fiction or the *Just YA*
-pool if the product is non-commercial.
+Consequences:
+
+- **Band 4 is nonfiction**, which matches the five banked works exactly. Inference 4.1 can be authored
+  from TB-004 without waiting on any sourcing.
+- **Fiction moves to bands 6-7.** The fiction sourcing problem is deferred, not solved. When it lands,
+  prefer complete short stories of 1,200-2,500 words over novel chapters: an excerpt cannot deliver
+  the payoff that makes a story worth reading.
+- **The genre boundary is a difficulty boundary too.** The first lesson of band 6 sits at or below the
+  difficulty of the last lesson of band 5, so the reader meets one new thing at a time.
+
+### Adaptation as a supply route
+
+Free adult-topic text at FK 4.5-7.7 is scarce, so from band 4 onward a passage may be an **adapted**
+human-written work: an AI may reduce the reading load of a licensed source, with a human approving the
+result. Bounded by DESIGN_RULES 2.5 — public domain, CC0, or CC BY only (never NoDerivatives, never
+ShareAlike), no invented facts, provenance recorded in `source.adaptation`, and every item re-mapped
+against the adapted text.
+
+This does not unlock modern YA fiction: *Just YA* is CC BY-NC-ND, so it can be excerpted verbatim but
+not adapted, and its NC term is still an open commercial question. What it does unlock is federal
+nonfiction at FK 9-12, which is most of the public corpus.
 
 ### Phase 1 — inference 4.1, eight lessons
 
@@ -263,18 +282,20 @@ sources, 8 distinct works, zero shingle overlap.
 yields eight disjoint prose passages — its caution line says the page is table-heavy, so that is
 doubtful, and it should not be banked for a second cell (`text_structure_band_7_1_0001`) either way.
 
-### The rule I need a decision on
+### Resolved: adaptation is allowed, drafting is not
 
-`DESIGN_RULES.md` 2.5 and `README.md` both say the passage and items must be **human-written**, and
-that an AI may locate, compare, or fact-check but must not draft. Under that rule the supply is
-public-domain and CC text, which is overwhelmingly nonfiction. That is fine for inference and the
-rest of the nonfiction verticals at 4.1. It becomes the wall at the fiction verticals, and it limits
-modern fiction permanently below grade 12.
+`DESIGN_RULES` 2.5 now carries three routes — verbatim, original, adapted. An AI may reduce the
+reading load of a public-domain, CC0, or CC BY work when a human approves it; it may never draft an
+original passage or an answer key. That removes the supply wall for nonfiction, which is the bulk of
+the free corpus at FK 9-12.
 
-Also worth an audit: several existing sources say `source.basis: "Written for this lesson"`. If any
-of those passages were AI-drafted during earlier work, they violate 2.5. I am not asserting they
-were; I am saying the provenance is not recorded well enough to tell, and the 64 lessons in band 4.1
-will multiply that ambiguity. Recommend recording `source.drafted_by` (initials) on every new lesson.
+What it does not remove: modern fiction stays hard, because the modern YA pool is NoDerivatives and
+therefore exempt from adaptation. Fiction in bands 6-7 will need either verbatim CC works, public
+domain, or commissioned writing.
+
+Provenance still needs work. Several existing sources say `source.basis: "Written for this lesson"`
+with nothing about who wrote it. Record `source.drafted_by` (initials) and, for adapted passages,
+`source.adaptation` on every new lesson so the 64 lessons in band 4.1 cannot repeat that ambiguity.
 
 ---
 

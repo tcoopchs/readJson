@@ -104,25 +104,39 @@ compares `passage` text. A repeated passage and a work spanning two cells both f
 on several works is reported as a note. Give external works their exact URL so the grouping is
 reliable.
 
-Do not generate runtime rewrites of one passage to step difficulty. Adaptation moves across exact
-files named in the source routes, never across AI-authored rewrites.
+Do not generate runtime rewrites of one passage to step difficulty. Adaptation happens at authoring
+time only, into a fixed passage stored in the source, and is recorded under 2.5. The tutor never
+rewrites, simplifies, paraphrases, or regenerates text during a session.
 
-**2.2.1 Fiction and nonfiction mix inside one cell; there are no genre tracks.** A student practices
-inference on both, alternating by sequence, for example nonfiction at `_0001` and fiction at `_0002`.
-Do not build parallel fiction and nonfiction sets: that doubles the catalog and teaches the same
-skill twice.
+**2.2.1 Genre runs in two-band blocks, not per lesson.** A band teaches one genre, so a cell teaches
+one construct and the routing label stays meaningful. No fiction and nonfiction tracks: that doubles
+the catalog and teaches the same skill twice.
 
-Two rules keep a mixed cell honest:
+```text
+4-5 nonfiction     6-7 fiction     8-9 nonfiction     10-11 fiction     12 nonfiction
+```
 
-- **Genre is content, not difficulty.** Hold the difficulty knobs still across a genre switch — same
-  part count, same item count, same clue distance. Never raise difficulty and change genre in the same
-  step, or the sequence ladder stops meaning anything.
-- **The item set follows the genre.** Fiction uses character motive, change, conflict, and the
-  narrative signposts; nonfiction uses claim, cause, sequence, and the expository signposts. A generic
-  inference template flattens both.
+Two rules keep the cycle honest:
 
-Record the genre on every lesson so a cell's mix can be audited, and so a fiction lesson is never
+- **Only one knob moves at a genre boundary.** The first lesson of a band that changes genre sits at
+  or slightly below the difficulty of the last lesson of the preceding band. The reader meets a new
+  genre, not a new genre and a harder text at once.
+- **The item set follows the band's genre.** Fiction cells use character motive, change, conflict,
+  and the narrative signposts. Nonfiction cells use claim, cause, sequence, and the expository
+  signposts. A generic inference template flattens both.
+
+Record `meta.genre` on every lesson so a cell's genre can be audited, and a fiction lesson is never
 scored with an expository key.
+
+**Verticals that cannot alternate are exempt.** `process` and `argument_evidence` are exposition by
+construct; `literary_text` is fiction by definition. Those cells follow their own genre at every band
+and are never left empty to satisfy the cycle. Genre alternation applies only to `vocab`, `inference`,
+`main_idea`, `text_structure`, and `authors_craft`.
+
+**Prefer complete short stories to novel excerpts.** An excerpt cannot deliver the payoff that makes
+a story worth reading, so a fiction lesson built on chapter fragments asks a reader to care about
+something it never finishes. A complete story of 1,200-2,500 words fits a lesson and supports
+whole-text items — theme, character change, ending-dependent inference — that an excerpt cannot.
 
 **2.3 The passage must contain the evidence in plain sight.** Every inference, cloze, main-idea,
 and author's-purpose answer must be derivable from text shown in the current lesson. If an item
@@ -133,11 +147,29 @@ when the item is answerable from text already on screen, such as a quoted cloze 
 written. If the text is too hard, rewrite the source before publishing. Do not ask the tutor to
 simplify, paraphrase, or regenerate it during a session.
 
-**2.5 Source discipline.** Use public-domain, openly licensed, or original text written by a
-person. An AI may help locate, compare, or fact-check source material, but it must not draft the
-passage or items. A human author must write the passage and items, or select and adapt permitted
-source text within its license. State the source basis and text status in `source.basis` and
-`source.text_status`. Never invent a citation.
+**2.5 Source discipline.** Every passage traces to one of three routes, and `source.basis` plus
+`source.text_status` must say which:
+
+1. **Verbatim.** Human-written source text used as written, within its license.
+2. **Original.** Written for the lesson by a person. An AI may not draft it.
+3. **Adapted.** A human-written source rewritten to the band's reading load. The rewrite may be
+   produced by an AI from a named source under these conditions:
+
+   - **The license must permit derivative works**: public domain, CC0, or CC BY. Never adapt
+     NoDerivatives material, and never adapt ShareAlike material into a lesson file. Adaptation of a
+     CC BY work must say that changes were made, as that license requires.
+   - **A human reviews and approves the final text** before it is banked. Unreviewed output is a
+     draft, whatever produced it.
+   - **Adaptation may simplify, never invent.** Shorter sentences, common words, split clauses,
+     removed asides. It may not add facts, examples, or explanations the source does not contain,
+     and it may not change the argument or the sequence of events.
+   - **Record the provenance.** `source.basis` names the base work, `source.text_status` says
+     "adapted, reading load reduced," and `source.adaptation` states in one line what was done
+     ("split long sentences, replaced six technical terms, dropped the second paragraph").
+   - **Re-map the evidence afterwards.** A simplified sentence can delete the clue an item depended
+     on. Write or rewrite every item against the adapted text, never against the original.
+
+Items are never AI-drafted in any route: the answer key is authored. Never invent a citation.
 
 ## 3. Question Design
 

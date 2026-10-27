@@ -13,9 +13,11 @@ word-level gap blocks comprehension; in that case the lesson supplies the suppor
 **Text types.** Fiction and nonfiction both in scope. Narrative and expository passages get
 separate question templates because they demand different inference work.
 
-**Material rule (user decision).** Passages are human-written and free to use: original work
-written for the lesson, public domain, or permissive license (CC BY / CC0). No AI-drafted
-passages. Modern text by default. Canonical old text only at the top grade (11-12).
+**Material rule (user decision, revised 2026-10-26).** Passages are human-written at source and free
+to use, by one of three routes: verbatim, written for the lesson by a person, or an adaptation of a
+public-domain / CC0 / CC BY work under `DESIGN_RULES` 2.5. An AI may reduce reading load; it may not
+draft an original passage or an answer key, and it may not adapt NoDerivatives or ShareAlike text.
+Modern text by default. Canonical old text only at the top grade (11-12).
 
 **Placement rule (user decision).** Reading level is not Lexile alone. Score language load and
 idea load separately. A simple-sentence passage with stages, dependencies, or abstraction can sit
