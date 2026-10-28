@@ -1,0 +1,241 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_3_0002",
+  "meta": {
+    "status": "published",
+    "title": "The Bread That Failed Upstairs",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is three links: thin air lets gas expand, large bubbles cannot hold, and water boils lower so the inside sets late. Measured FK 6.3-7.5 on the 2 parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and rises across the stage.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 4.3, sequence 2. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the stage: everyday subject, stated facts, links held apart.",
+      "avoided": "No named real places or people. No figures that could go stale."
+    },
+    "session": {
+      "scope": "build-front",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A baker moved from a town near the coast to a town high in the mountains, and she kept the same recipe, the same flour, and the same model of oven. At the coast the loaves rose evenly and held their shape. In the mountains the dough rose faster, the loaves fell in the oven, and the crumb came out coarse. Customers said the bread still tasted good, and the oven was new in both shops.",
+    "part_2": "Air pressure is lower high up. A lower pressure outside the dough lets the gas inside expand more easily, so the dough rises faster and the bubbles grow larger. When the bubbles are too large, the structure cannot hold them, and the loaf sinks as it bakes. Water also boils at a lower temperature at altitude, so the inside of a loaf sets later than its crust."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What did the baker keep the same after the move?",
+      "tutor_only": {
+        "confirm": "Right. The recipe, the flour, and the oven model.",
+        "correct_reason": "The second sentence lists the three things she did not change.",
+        "tell": "She kept the recipe, the flour, and the oven model the same.",
+        "help": [
+          "Find the sentence that lists what stayed the same."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The recipe, the flour, and the oven model.",
+        "accept_ideas": [
+          "the recipe flour and oven",
+          "recipe and flour",
+          "the same recipe",
+          "flour and oven"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "where she buys flour"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says she bought a new oven",
+            "ask": "The passage says the oven was new in both shops. What did she keep the same?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Customers said the bread still tasted good. What does that rule out?",
+      "tutor_only": {
+        "confirm": "Yes. It rules out bad ingredients.",
+        "correct_reason": "Bread made from poor flour or spoiled yeast does not taste right. Good flavour leaves the dough's structure as the problem.",
+        "tell": "The taste was fine, so the flour and the other ingredients were fine. What failed was the shape.",
+        "help": [
+          "Look at what good taste tells you about the ingredients.",
+          "Then look at what did go wrong."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It rules out bad ingredients, because the bread still tasted right.",
+        "accept_ideas": [
+          "the ingredients were fine",
+          "it is not the flour",
+          "it rules out bad flour",
+          "the ingredients were good"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the bread cost"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the customers were being kind",
+            "ask": "The passage uses their reaction as evidence. What did they still find good?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did the dough rise faster in the mountains?",
+      "tutor_only": {
+        "confirm": "Right. Lower air pressure lets the gas expand more easily.",
+        "correct_reason": "The passage joins low pressure to easier expansion of gas inside the dough.",
+        "tell": "The air outside pushes less, so the gas inside pushes out more. That makes the dough rise faster.",
+        "help": [
+          "Find the sentence about lower pressure.",
+          "Look at what that lets the gas inside do."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Lower air pressure let the gas in the dough expand more easily.",
+        "accept_ideas": [
+          "the pressure is lower",
+          "gas expands more easily",
+          "thin air lets it expand",
+          "lower pressure outside"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how warm the kitchen was"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the kitchen was warmer",
+            "ask": "Temperature is not mentioned as different. What does the passage say about pressure?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did the loaves fall in the oven?",
+      "tutor_only": {
+        "confirm": "Yes. The bubbles grew too large for the structure to hold.",
+        "correct_reason": "The passage says large bubbles cannot be held, so the loaf sinks as it bakes.",
+        "tell": "Rising too fast makes big holes. Big holes leave nothing to hold the loaf up, so it collapses.",
+        "help": [
+          "Find the sentence about bubbles that are too large.",
+          "Look at what happens to a loaf whose structure cannot hold them."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The bubbles were too large for the dough to hold, so the loaf sank.",
+        "accept_ideas": [
+          "the bubbles were too big",
+          "the structure could not hold",
+          "it collapsed",
+          "the dough could not hold the gas"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long it baked"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says she baked it too long",
+            "ask": "The loaf sank as it baked. What does the passage blame for that?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "Why would less yeast and a shorter first rise help?",
+      "tutor_only": {
+        "confirm": "Right. They keep the dough from over-expanding before the heat sets it.",
+        "correct_reason": "The problem is too much expansion too early, so the fix is to slow the rise rather than change flour or oven.",
+        "tell": "Less yeast and less time mean less gas before baking. The loaf reaches the oven with bubbles it can hold.",
+        "help": [
+          "Look at what the extra expansion did to the loaf.",
+          "Then think about what would reduce that expansion."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They slow the rise, so the dough does not over-expand before it bakes.",
+        "accept_ideas": [
+          "less gas before baking",
+          "it slows the rise",
+          "the dough does not over-expand",
+          "fewer bubbles to hold"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the shape of the tin"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says she needs a hotter oven",
+            "ask": "The oven was the same model. What did the passage say was too large?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_4_3_0003",
+    "next_irl": 4,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "The next reading is another lesson on this skill in this stage."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_3_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

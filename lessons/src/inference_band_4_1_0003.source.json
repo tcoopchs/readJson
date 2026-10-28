@@ -126,7 +126,7 @@
         "tell": "Water moves slowly underground. A pumped well may wait a long time for water to come back.",
         "help": [
           "Connect the slow movement sentence to the refill sentences.",
-          "Ask what slow water means for a person waiting on a well."
+          "Look at what slow water means for a person waiting on a well."
         ],
         "say_back": "own_words",
         "core_idea": "Because the water a well removes comes back slowly, so refill takes time.",
@@ -196,7 +196,7 @@
         "tell": "Refill speed decides how much water can be pumped without using up the store.",
         "help": [
           "Think about a store of water that refills slowly.",
-          "Ask what happens if people pump faster than the refill."
+          "Look at what happens if people pump faster than the refill."
         ],
         "say_back": "own_words",
         "core_idea": "Because pumping faster than the refill uses up the water.",

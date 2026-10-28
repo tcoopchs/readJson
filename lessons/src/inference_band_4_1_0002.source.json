@@ -90,7 +90,7 @@
         "correct_reason": "Recharge is defined by the sentence before it: rain and snow add water back over time.",
         "tell": "Recharge means refilling. Rain and snow add water back to the aquifer after it is pumped.",
         "help": [
-          "Read the sentence just before the word recharge.",
+          "Read the sentence before the word recharge.",
           "That sentence says what rain and snow do to the aquifer."
         ],
         "say_back": "own_words",
@@ -126,7 +126,7 @@
         "tell": "A well does not own its water. Both wells draw from one aquifer, so heavy pumping lowers the water for both.",
         "help": [
           "Look at the end of the passage, where pumping is described.",
-          "Ask where the neighbor's water comes from."
+          "Look at where the neighbor's water comes from."
         ],
         "say_back": "own_words",
         "core_idea": "Because both wells use the same aquifer, so pumping lowers the water for both.",

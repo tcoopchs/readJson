@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_3_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Bridge That Ices First",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is three links: air moves under the deck, heat leaves from two sides, and salt cannot act on ice below freezing. Measured FK 5.8-6.3 on the 3 parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and rises across the stage.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 4.3, sequence 3. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the stage: everyday subject, stated facts, links held apart.",
+      "avoided": "No named real places or people. No figures that could go stale."
+    },
+    "session": {
+      "scope": "build-front",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The bridge on the county road ices before the road on either side, so drivers see bare asphalt, then a sheet of ice on the bridge deck, then bare asphalt again. The bridge is not older than the road, and the county salts both. The bridge is on a straight stretch with no trees near it, and nothing blocks the wind.",
+    "part_2": "A road sits on soil, and soil keeps some of the day's heat and some heat from below. A bridge deck is open to the air above and to the air below. Cold air moving under the deck takes heat out of the concrete from two sides at once, so the deck reaches freezing before the road does. Moisture in the air then condenses on the cold deck and freezes there.",
+    "part_3": "Salt only works when it can dissolve. On a deck already below freezing, salt lies on the ice and does nothing until traffic works it in or the sun warms the surface."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Where does the ice form?",
+      "tutor_only": {
+        "confirm": "Right. On the bridge deck.",
+        "correct_reason": "The passage says drivers see bare asphalt, then ice on the bridge, then bare asphalt.",
+        "tell": "The ice forms on the bridge deck, with clear road on both sides.",
+        "help": [
+          "Find the sentence about what drivers see."
+        ],
+        "say_back": "own_words",
+        "core_idea": "On the bridge deck.",
+        "accept_ideas": [
+          "the bridge",
+          "on the bridge",
+          "the bridge deck",
+          "on the deck"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the bridge is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says on the road",
+            "ask": "The road on both sides is bare. Where is the ice?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The bridge is not older than the road, and both are salted. What does that rule out?",
+      "tutor_only": {
+        "confirm": "Yes. Age and salting cannot be the difference.",
+        "correct_reason": "The passage removes two easy explanations before describing the real one.",
+        "tell": "An old bridge or an unsalted one would explain the ice. Neither applies here.",
+        "help": [
+          "Look at what a reader would blame for an icy bridge.",
+          "Then find where the passage removes those."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It rules out the bridge's age and a lack of salt.",
+        "accept_ideas": [
+          "age and salt",
+          "it is not age",
+          "salt is not the difference",
+          "the bridge is not older and is salted"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who maintains the bridge"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the county forgot to salt",
+            "ask": "The passage says the county salts both. What else does it remove?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the bridge deck freeze before the road?",
+      "tutor_only": {
+        "confirm": "Right. Heat leaves it from above and below at once.",
+        "correct_reason": "The passage contrasts soil, which holds heat, with an open deck that loses heat from two sides.",
+        "tell": "The road keeps heat in the ground under it. The deck has cold air above and below, so it cools twice as fast.",
+        "help": [
+          "Find the sentence about air under the deck.",
+          "Look at how many sides the deck loses heat from."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because cold air takes heat from the deck above and below, while the road is warmed by soil.",
+        "accept_ideas": [
+          "heat leaves from two sides",
+          "air under the deck",
+          "the deck loses heat from below too",
+          "the road keeps heat in the soil"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how thick the concrete is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the bridge is in the shade",
+            "ask": "The passage says there are no trees and it is a straight stretch. What does it say about the air under the deck?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Where does the ice on the deck come from?",
+      "tutor_only": {
+        "confirm": "Yes. Moisture in the air condenses and freezes on the cold deck.",
+        "correct_reason": "The passage says moisture condenses on the cold surface and freezes there.",
+        "tell": "The air carries water. On a cold deck that water settles and freezes.",
+        "help": [
+          "Find the sentence about moisture.",
+          "Look at what a cold surface does to water in the air."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Moisture in the air condenses on the cold deck and freezes.",
+        "accept_ideas": [
+          "moisture from the air",
+          "water in the air freezes on it",
+          "condensation",
+          "the air is wet"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much rain fell"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the ice came from the road",
+            "ask": "Nothing flows from the road. What does the passage name as the source?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "Why is a cold, sunless morning the worst case for this bridge?",
+      "tutor_only": {
+        "confirm": "Right. No sun to warm the deck, and the salt cannot act.",
+        "correct_reason": "The passage gives two things that could rescue the deck, traffic and sun, and on a sunless cold morning the salt has nothing to work with.",
+        "tell": "With no sun and hard cold, salt sits on the ice. Only traffic can work it in.",
+        "help": [
+          "Find what the passage says salt needs.",
+          "Then find what else could warm the deck."
+        ],
+        "say_back": "own_words",
+        "core_idea": "There is no sun to warm the deck, and the salt cannot dissolve in hard cold.",
+        "accept_ideas": [
+          "no sun and salt does not work",
+          "salt needs warmth",
+          "nothing melts it",
+          "the salt sits on the ice"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many cars cross"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the bridge is busier",
+            "ask": "Traffic can help, but the passage names two things. What are they?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_4_3_0004",
+    "next_irl": 4,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "The next reading is another lesson on this skill in this stage."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_3_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

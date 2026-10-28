@@ -1,0 +1,241 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_3_0004",
+  "meta": {
+    "status": "published",
+    "title": "The Book That Wore Out",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is three links: handling causes wear, one copy was borrowed far more, and demand is why a second copy helps. Measured FK 5.1-6.9 on the 3 parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and rises across the stage.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 4.3, sequence 4. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the stage: everyday subject, stated facts, links held apart.",
+      "avoided": "No named real places or people. No figures that could go stale."
+    },
+    "session": {
+      "scope": "build-front",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A library bought two copies of the same book on the same day. One copy sits in the children's room and the other in the adult section. After a year the children's copy is falling apart, and the adult copy looks new. Both are the same printing and the same binding.",
+    "part_2": "The children's copy was borrowed 74 times. The adult copy was borrowed 9 times. A book wears out from handling, not from age. Each loan means the cover is opened, the spine is bent, and the pages are turned. Children also tend to read in shorter sittings, so a borrowed book goes back and forth more often.",
+    "part_3": "The librarian did not change suppliers. She replaced the children's copy with a reinforced binding and bought a second copy for that room."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Which copy wore out?",
+      "tutor_only": {
+        "confirm": "Right. The children's copy.",
+        "correct_reason": "The fourth sentence says the children's copy is falling apart and the adult copy looks new.",
+        "tell": "The children's copy is falling apart. The adult copy still looks new.",
+        "help": [
+          "Find the sentence about the two copies after a year."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The children's copy.",
+        "accept_ideas": [
+          "the children's copy",
+          "the one in the children's room",
+          "the kids copy"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which book it was"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says both",
+            "ask": "One looks new. Which one is falling apart?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Both copies are the same printing and binding. What does that rule out?",
+      "tutor_only": {
+        "confirm": "Yes. It rules out a defective copy.",
+        "correct_reason": "Identical manufacture means the difference cannot be in the book itself, so it has to be in use.",
+        "tell": "If one were badly made it would explain the damage. They were made the same way.",
+        "help": [
+          "Think about what would explain one copy failing if they were made differently.",
+          "They were not. So what is left?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "It rules out a badly made copy.",
+        "accept_ideas": [
+          "it is not the printing",
+          "the binding was the same",
+          "it rules out a bad copy",
+          "not a manufacturing fault"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the book cost"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the children's copy was cheaper",
+            "ask": "The passage says same printing and binding. What else could differ?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did the children's copy wear out first?",
+      "tutor_only": {
+        "confirm": "Right. It was borrowed 74 times against 9.",
+        "correct_reason": "The passage gives the two loan counts and says wear comes from handling, so more loans means more wear.",
+        "tell": "Seventy-four loans against nine. Every loan bends the spine and turns the pages.",
+        "help": [
+          "Find the two loan numbers.",
+          "Then find the sentence about what handling does."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It was borrowed far more often, and handling is what wears a book.",
+        "accept_ideas": [
+          "it was borrowed more",
+          "74 against 9",
+          "more loans",
+          "handling wore it out"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old each copy is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says children are rougher",
+            "ask": "The passage names handling and loan counts, not carelessness. Which one does it measure?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Children read in shorter sittings. How does that add to the wear?",
+      "tutor_only": {
+        "confirm": "Yes. The book goes back and forth more often.",
+        "correct_reason": "The passage says shorter sittings mean more trips back and forth, and each trip is another loan.",
+        "tell": "A book read in short pieces is borrowed, returned, and borrowed again. More trips mean more handling.",
+        "help": [
+          "Find the sentence about shorter sittings.",
+          "Look at what that does to the number of loans."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It means more loans, and more loans mean more handling.",
+        "accept_ideas": [
+          "more loans back and forth",
+          "more trips",
+          "it means more handling",
+          "the book travels more"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how fast children read"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says children damage books",
+            "ask": "The passage is about trips, not damage. What does a short sitting increase?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "Why did the librarian buy a second copy rather than a stronger one alone?",
+      "tutor_only": {
+        "confirm": "Right. The demand is the cause, so more copies share the handling.",
+        "correct_reason": "The passage shows wear tracking loans, and the fix is a reinforced copy plus a second copy for the same room.",
+        "tell": "One strong copy still gets borrowed 74 times. Two copies split the handling between them.",
+        "help": [
+          "Look at what caused the wear.",
+          "Then look at what splits that cause between two books."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because demand caused the wear, so a second copy shares the handling.",
+        "accept_ideas": [
+          "demand is the cause",
+          "two copies share the wear",
+          "it spreads the loans",
+          "more copies means less handling each"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long a book should last"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the first copy was poor quality",
+            "ask": "The passage rules that out. What did it say about loans?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_4_3_0005",
+    "next_irl": 4,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "The next reading is another lesson on this skill in this stage."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_3_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

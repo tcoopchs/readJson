@@ -1,0 +1,240 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_2_0002",
+  "meta": {
+    "status": "published",
+    "title": "The Plant That Leans",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is two links: shaded cells stretch, and longer cells curve the stem. Measured FK 6.8-7.2 on the 2 parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and rises across the stage.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 4.2, sequence 2. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the stage: everyday subject, stated facts, links held apart.",
+      "avoided": "No named real places or people. No figures that could go stale."
+    },
+    "session": {
+      "scope": "build-front",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A potted plant stands on a classroom windowsill, and in September its stem grew straight up. By November the stem leaned toward the glass, so the teacher turned the pot a quarter turn every Monday. Each week the stem leaned back toward the glass again. The plant was watered on the same schedule all year, and the room stayed at the same temperature.",
+    "part_2": "A stem grows toward light, and cells on the shaded side of the stem stretch longer than the cells on the lit side. Longer cells on one side push that side out, so the stem curves toward the window. Turning the pot does not damage the plant; it only means the stem has to start leaning again from a new position."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What did the teacher do every Monday?",
+      "tutor_only": {
+        "confirm": "Right. She turned the pot a quarter turn.",
+        "correct_reason": "The fourth sentence says the teacher turned the pot a quarter turn every Monday.",
+        "tell": "She turned the pot a quarter turn each Monday.",
+        "help": [
+          "Find the sentence about Mondays."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She turned the pot a quarter turn.",
+        "accept_ideas": [
+          "turned the pot",
+          "a quarter turn",
+          "she rotated it",
+          "turned it"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which window it was"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says she watered it",
+            "ask": "Watering happened on its own schedule. What happened every Monday?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The stem leaned toward the glass again after each turn. What does that show?",
+      "tutor_only": {
+        "confirm": "Yes. The lean follows the light, not the pot's position.",
+        "correct_reason": "A quarter turn moves the glass relative to the stem, and the stem leans back to it. That means the light sets the direction.",
+        "tell": "If the lean followed the pot, turning it would end the lean. Instead the stem found the glass again.",
+        "help": [
+          "Look at what changed when the pot turned.",
+          "The glass did not move. What did the stem do?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "The stem leans toward the light, not toward a fixed side of the pot.",
+        "accept_ideas": [
+          "it leans toward the light",
+          "the light decides the direction",
+          "it follows the window",
+          "the lean follows the sun"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much water it got"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the plant was reaching for water",
+            "ask": "Watering never changed. What did change after each turn?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the stem curve instead of growing straight?",
+      "tutor_only": {
+        "confirm": "Right. Cells on the shaded side stretch longer.",
+        "correct_reason": "The passage says shaded cells stretch longer, and longer cells on one side push that side out.",
+        "tell": "One side of the stem grows longer than the other. The longer side pushes the stem into a curve.",
+        "help": [
+          "Find the sentence about the shaded side.",
+          "Look at what a longer cell does to that side of the stem."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Cells on the shaded side stretch longer, so that side pushes the stem into a curve.",
+        "accept_ideas": [
+          "the shaded cells stretch",
+          "one side grows longer",
+          "the dark side grows faster",
+          "longer cells on one side"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the colour of the pot"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the stem is weak",
+            "ask": "A weak stem would droop evenly. The passage names one side growing longer. Which side?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The passage says the water and the temperature never changed. Why say that?",
+      "tutor_only": {
+        "confirm": "Yes. To rule them out as the cause of the lean.",
+        "correct_reason": "The passage lists the steady conditions so the reader can cross them off and leave light as the cause.",
+        "tell": "Steady water and steady heat cannot explain a change that keeps happening. That leaves light.",
+        "help": [
+          "Look at which conditions stayed the same.",
+          "A cause has to change when the effect changes."
+        ],
+        "say_back": "own_words",
+        "core_idea": "To rule out water and heat, leaving light as the cause.",
+        "accept_ideas": [
+          "to rule them out",
+          "so it is not water or heat",
+          "to show light was the cause",
+          "because they did not change"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what kind of plant it is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the plant needed more water",
+            "ask": "Water was steady all year. What was different between September and November?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "If the window were on the opposite wall, what would the stem do?",
+      "tutor_only": {
+        "confirm": "Yes. It would lean toward that window instead.",
+        "correct_reason": "The passage makes light the cause, so the lean follows whichever way the light comes from.",
+        "tell": "The stem grows toward light. Move the light and the lean moves with it.",
+        "help": [
+          "Find the sentence that says what a stem grows toward."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It would lean toward the new window.",
+        "accept_ideas": [
+          "lean toward the other window",
+          "lean the other way",
+          "it would follow the light",
+          "turn toward the new window"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long it would take"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it would keep leaning the old way",
+            "ask": "The stem leaned back after every turn. What does that say about a new window?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_4_2_0003",
+    "next_irl": 4,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "The next reading is another lesson on this skill in this stage."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_2_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

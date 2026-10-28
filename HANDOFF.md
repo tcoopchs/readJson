@@ -55,15 +55,16 @@ middle of 4.2.
 
 ## What is NOT done
 
-1. **Cold-chat coverage is two lessons.** main_idea 4.1 sequences 0001 and 0006 went through full
-   sessions on 2026-10-27, covering misconceptions, blank answers, the help ladder, tell and
-   say-back, early stop, and injection; both passed except one opening-gate miss. Findings are in
-   `research/reading-instruction/coldchat-log.md`. The other 44 lessons are un-cold-chatted.
-   `anchor` is now defined as the lesson's first item, in `DESIGN_RULES` 7.4, `README.md`, and the
-   protocol at both the definition and the ticket step; the tutor had been guessing, and a correct
-   unaided first answer was being stamped `an=0` and routed as a hard fail. The opening `ready` gate
-   is still unreliable — two of six sessions in this pass drew `script.ready` again after `yes`, and
-   one of them failed the gate across four consecutive turns.
+1. **Every lesson has been swept, but not every branch.** On 2026-10-27 all 46 lessons ran a smooth
+   path (open, five items, `u=5 an=1`, no leak, no early ticket) and a hard path (blank answers, the
+   authored help ladder, `tell`, say-back, stop with `an=0`), 46 of 46 both ways. main_idea 4.1
+   sequences 0001 and 0006 also went through misconception, injection, and stop sessions. Still
+   untested anywhere: the near-copy say-back loop, and misconception branches outside those two
+   lessons. Findings and fixes are in `research/reading-instruction/coldchat-log.md`.
+   Three catalog-wide defects were fixed to get there: help lines written to the tutor instead of the
+   student (85 lines), a single-help item making the tutor invent a second hint, and a ready gate that
+   dropped `yes`. `anchor` is now defined as the lesson's first item in `DESIGN_RULES` 7.4,
+   `README.md`, and the protocol at both the definition and the ticket step.
 2. **30 lessons are AI-drafted and unreviewed.** inference 3.1, main_idea 3.1, inference 4.2 and
    4.3, and main_idea 4.1 were drafted under `2.6` and every one says `drafted_by: "TC review
    pending"`. Band 5+ cannot use that route.

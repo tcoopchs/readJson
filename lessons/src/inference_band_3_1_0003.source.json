@@ -1,0 +1,243 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_3_1_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Tire That Went Soft",
+    "skill": "inference",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The load is a chain of two facts held two sentences apart: the spoke presses the tube, so the air leaves slowly. Measured FK 2.9-4.8 on the two parts (Flesch-Kincaid, approximate syllable count). The reading load sits inside the grade 2-3 band and below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 3.1, band 3.1, sequence 3. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the floor: short sentences, everyday words, one or two links.",
+      "avoided": "No childish subject. No talking down. No invented facts about real named places."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": [
+      "Parts run 55-85 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the load stays at one or two links. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "On Tuesday the back tire of my bike went soft, so I pumped it up before work. By Wednesday morning it was flat again, which meant the air was going somewhere. I looked for the leak with soapy water and watched where the bubbles came out. Bubbles came out along the side of the tire, close to the rim. Nothing came out of the tread at all, and a thorn would have left a hole there. I ran my thumb around the inside of the tire and found the end of a spoke.",
+    "part_2": "The rim tape is the strip that covers the ends of the spokes. When the tape wears thin, or slides over to one side, a spoke end can press on the inner tube. Every turn of the wheel pushes that spoke a little harder. That is why the air left slowly at first and then all at once. A patch will fix the tube, but a patch will not fix the spoke. New rim tape will."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Which tire went flat?",
+      "tutor_only": {
+        "confirm": "Right. The back tire.",
+        "correct_reason": "The first sentence names the back tire.",
+        "tell": "The back tire went soft on Tuesday and was flat on Wednesday.",
+        "help": [
+          "Find the first sentence."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The back tire.",
+        "accept_ideas": [
+          "the back tire",
+          "back",
+          "the back",
+          "the back wheel"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the size of the tire"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the front tire",
+            "ask": "The passage names one tire. Which one?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The bubbles came out near the rim, not on the tread. What does that tell you?",
+      "tutor_only": {
+        "confirm": "Yes. The hole is not where a thorn would make one.",
+        "correct_reason": "The passage uses the tread test to rule out a thorn, and the bubbles point to the rim side instead.",
+        "tell": "A thorn holes the tread. The air was leaving near the rim, so the hole was there.",
+        "help": [
+          "Find where the bubbles came out.",
+          "Then find what the passage says a thorn would do."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The hole is near the rim, not in the tread, so a thorn is not the cause.",
+        "accept_ideas": [
+          "the hole is near the rim",
+          "it is not the tread",
+          "a thorn did not cause it",
+          "the hole is not where a thorn would be"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the tire is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the tire had a thorn",
+            "ask": "The tread had no hole. Where did the air come out?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did the tire lose air slowly at first?",
+      "tutor_only": {
+        "confirm": "Right. Each turn of the wheel pressed the spoke a little more.",
+        "correct_reason": "The passage joins the spoke pressing on the tube to the slow loss of air, then the sudden one.",
+        "tell": "The spoke end pressed a little at a time. The hole grew with every turn of the wheel.",
+        "help": [
+          "Find the sentence about every turn of the wheel.",
+          "Look at what a small hole does before it gets bigger."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The spoke pressed a little more with each turn, so the hole grew slowly.",
+        "accept_ideas": [
+          "the spoke pressed a little each turn",
+          "the hole got bigger slowly",
+          "the spoke wore the tube a little at a time",
+          "each turn made it worse"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the air pressure in the tire"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the tube was old",
+            "ask": "The passage names the part that pressed on the tube. What was it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The passage says a thorn would have left a hole in the tread. Why does it say that?",
+      "tutor_only": {
+        "confirm": "Yes. To rule out a thorn.",
+        "correct_reason": "The uncle is testing causes. The tread had no hole, so a thorn is crossed off.",
+        "tell": "He checked the tread for a thorn hole and found none. That crossed a thorn off the list.",
+        "help": [
+          "Look at what the uncle was trying to rule out.",
+          "The tread had no hole. Which cause does that remove?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "It rules out a thorn as the cause.",
+        "accept_ideas": [
+          "to rule out a thorn",
+          "a thorn was not the cause",
+          "it shows there was no thorn",
+          "to show it was not a thorn"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what kind of thorn"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says a thorn made the hole near the rim",
+            "ask": "A thorn holes the tread. Where was this hole?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "A patch alone would not solve this problem. Why not?",
+      "tutor_only": {
+        "confirm": "Yes. The spoke would press through again.",
+        "correct_reason": "The passage says a patch fixes the tube but not the spoke, and new rim tape is the fix for the spoke.",
+        "tell": "A patch covers the hole. It does not stop the spoke from making a new one.",
+        "help": [
+          "Find the sentence about what a patch will fix.",
+          "Look at what is still pressing on the tube afterwards."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The spoke would press through the patch and make a new hole.",
+        "accept_ideas": [
+          "the spoke would do it again",
+          "the spoke would make another hole",
+          "the patch does not fix the spoke",
+          "the cause is still there"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much a patch costs"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the patch is too small",
+            "ask": "A patch covers the hole. What else does the passage say a patch cannot fix?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_3_1_0004",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "inference_band_3_1_0003",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

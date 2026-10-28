@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_3_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Chimney That Smokes in Wind",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is three links: wind raises pressure on the leeward side, that pressure pushes down the flue, and a downdraft outruns the fire. Measured FK 6.2-6.8 on the 3 parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and rises across the stage.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 4.3, sequence 6. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the stage: everyday subject, stated facts, links held apart.",
+      "avoided": "No named real places or people. No figures that could go stale."
+    },
+    "session": {
+      "scope": "build-front",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A fireplace burns cleanly on still evenings, but when the wind rises, smoke spills into the room instead of going up. The chimney is not blocked, and the wood is dry. The house sits below a ridge, and tall trees stand to the west of it, so the wind reaching the roof is never steady.",
+    "part_2": "A chimney works because warm air rises and pulls air in behind it. Wind moving over a roof can build a higher pressure on the sheltered side. If that pressure is high enough, it pushes down the chimney and beats the upward pull. Trees and a ridge make the wind uneven, so the pressure changes from minute to minute.",
+    "part_3": "A taller chimney or a cap that keeps the wind from crossing the outlet fixes the problem. Adding more fuel does not, because the downdraft pushes smoke back faster than the fire can push it out."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "When does smoke spill into the room?",
+      "tutor_only": {
+        "confirm": "Right. When the wind rises.",
+        "correct_reason": "The second sentence says smoke spills when the wind rises.",
+        "tell": "It happens when the wind rises. On still evenings the fire burns cleanly.",
+        "help": [
+          "Find the sentence about the wind."
+        ],
+        "say_back": "own_words",
+        "core_idea": "When the wind rises.",
+        "accept_ideas": [
+          "when it is windy",
+          "when the wind blows",
+          "on windy days",
+          "when the wind picks up"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what wood is burned"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says when it is cold",
+            "ask": "The passage ties it to the wind, not the temperature. Which?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The chimney is not blocked and the wood is dry. What does that rule out?",
+      "tutor_only": {
+        "confirm": "Yes. It rules out a blocked flue and wet wood.",
+        "correct_reason": "Both are the usual causes of a smoky fire. The passage removes them before explaining the wind effect.",
+        "tell": "A blocked chimney or damp wood would smoke all the time. This fire only smokes when it is windy.",
+        "help": [
+          "Look at what usually makes a fire smoke.",
+          "Then find where the passage removes those."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It rules out a blocked chimney and wet wood.",
+        "accept_ideas": [
+          "blockage and wet wood",
+          "the chimney is clear",
+          "it is not the wood",
+          "not a blocked flue"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the house is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the chimney needs sweeping",
+            "ask": "The passage says it is not blocked. What else does it rule out?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does wind make the smoke come down instead of up?",
+      "tutor_only": {
+        "confirm": "Right. Wind builds pressure on the sheltered side and pushes down the flue.",
+        "correct_reason": "The passage joins wind over the roof to higher pressure on the leeward side, which beats the upward pull.",
+        "tell": "Wind over the roof raises the pressure on one side. When that pressure is high enough it pushes air down the chimney.",
+        "help": [
+          "Find the sentence about pressure on the sheltered side.",
+          "Look at what that pressure does to air in the chimney."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Higher pressure on the sheltered side pushes air down the chimney.",
+        "accept_ideas": [
+          "the pressure pushes down",
+          "high pressure on the sheltered side",
+          "the wind pushes it back down",
+          "a downdraft"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which way the house faces"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the wind blows the smoke out",
+            "ask": "The smoke comes in. What does the pressure on the sheltered side do?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why do the trees and the ridge matter?",
+      "tutor_only": {
+        "confirm": "Yes. They make the wind uneven, so the pressure keeps changing.",
+        "correct_reason": "The passage says uneven wind changes the pressure from minute to minute, which matches smoke that comes and goes.",
+        "tell": "Trees and a ridge break up the wind. The pressure at the chimney is never steady, so the smoke behaves unevenly.",
+        "help": [
+          "Find the sentence about the wind being uneven.",
+          "Look at what that does to the pressure."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They make the wind uneven, so the pressure at the chimney keeps changing.",
+        "accept_ideas": [
+          "they make the wind uneven",
+          "the wind is not steady",
+          "the pressure keeps changing",
+          "they disturb the wind"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how tall the trees are"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the trees block the chimney",
+            "ask": "Blocking is ruled out. What does the passage say the trees do to the wind?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "Why does adding more fuel not fix it?",
+      "tutor_only": {
+        "confirm": "Right. The downdraft is stronger than the fire's upward pull.",
+        "correct_reason": "The passage says the downdraft beats the upward pull, so more heat cannot win by adding to the same losing pull.",
+        "tell": "A bigger fire needs a stronger upward pull. The downdraft is already beating the pull it has.",
+        "help": [
+          "Find the sentence about adding fuel.",
+          "Look at which force the passage says wins."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the downdraft pushes smoke back faster than the fire can push it out.",
+        "accept_ideas": [
+          "the downdraft wins",
+          "the pressure is stronger",
+          "the wind beats the fire",
+          "the smoke is pushed back faster"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much wood is used"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the fire is too small",
+            "ask": "The fire is not the problem; the pull is being beaten. What does the passage say a cap or a taller chimney does?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "The next reading is another lesson on this skill in this stage."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

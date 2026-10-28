@@ -1,0 +1,240 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_2_0004",
+  "meta": {
+    "status": "published",
+    "title": "Why One Roof Clears First",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is two links: a heated attic warms the shingles, and snow melts from underneath. Measured FK 6.0-6.3 on the 2 parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and rises across the stage.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 4.2, sequence 4. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the stage: everyday subject, stated facts, links held apart.",
+      "avoided": "No named real places or people. No figures that could go stale."
+    },
+    "session": {
+      "scope": "build-front",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Two houses on the same street have the same roof pitch and the same shingles, and after a light snow the roof of the corner house is clear by noon. The roof next door still holds snow at dinner. Both roofs face the same way and get the same sun, so the difference is not the weather. The corner house has a heated attic room, and the attic next door is unheated and open to the cold.",
+    "part_2": "Heat rises from the rooms below. In a heated attic that heat reaches the shingles and warms them from the inside, so the snow melts from underneath and slides off. In an unheated attic the shingles stay near the outside air temperature, and the snow waits for the sun or the wind. The corner house burns more fuel in winter for that same reason."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Which roof is clear by noon?",
+      "tutor_only": {
+        "confirm": "Right. The corner house.",
+        "correct_reason": "The second and third sentences say the corner house roof is clear and the other still holds snow.",
+        "tell": "The corner house roof clears by noon. The one next door still has snow at dinner.",
+        "help": [
+          "Find the sentence about noon."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The corner house roof.",
+        "accept_ideas": [
+          "the corner house",
+          "the corner one",
+          "the corner roof"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the houses are"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says both roofs",
+            "ask": "The passage says one is clear at noon and the other still holds snow. Which one is clear?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Both roofs face the same way and get the same sun. What does that rule out?",
+      "tutor_only": {
+        "confirm": "Yes. The sun cannot be the difference.",
+        "correct_reason": "The passage fixes the two conditions that would explain melting, then points to the attic.",
+        "tell": "Equal sun on both roofs cannot explain one clearing and the other not. Something else is different.",
+        "help": [
+          "Look at which conditions the passage says are the same.",
+          "Then look at what is left that differs."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It rules out the sun as the cause of the difference.",
+        "accept_ideas": [
+          "the sun",
+          "the sun is not the difference",
+          "it rules out sunlight",
+          "both get the same sun"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much snow fell"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the corner roof faces the sun better",
+            "ask": "The passage says both face the same way and get the same sun. What else differs?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the corner roof melt its snow so much sooner?",
+      "tutor_only": {
+        "confirm": "Right. Heat from the attic warms the shingles from underneath.",
+        "correct_reason": "The passage joins the heated attic to warmed shingles and melting from below.",
+        "tell": "The attic heat comes up through the roof. The snow melts from underneath instead of from the top.",
+        "help": [
+          "Find the sentence about heat rising from below.",
+          "Look at which side of the snow that heat reaches."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Heat from the heated attic warms the shingles and melts the snow from underneath.",
+        "accept_ideas": [
+          "the attic is heated",
+          "heat from inside",
+          "the heat comes up through the roof",
+          "warm shingles melt it from below"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the colour of the shingles"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the corner roof is newer",
+            "ask": "Pitch and shingles are the same. What does the passage say about the attic?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The corner house burns more fuel. Why?",
+      "tutor_only": {
+        "confirm": "Yes. Heat is escaping through the roof.",
+        "correct_reason": "The passage says the attic is heated and that heat reaches the shingles. Heat that reaches the roof is heat the rooms paid for.",
+        "tell": "Fuel heats the attic room, and some of that heat leaves through the roof. The same heat that clears the snow is wasted money.",
+        "help": [
+          "Look at what the passage says happens to the heat in the attic.",
+          "Then look at where that heat ends up."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Heat from the heated attic escapes through the roof.",
+        "accept_ideas": [
+          "heat escapes through the roof",
+          "the attic loses heat",
+          "the heat goes out the roof",
+          "it is heating the outside"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what fuel they use"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the corner house is bigger",
+            "ask": "The passage gives one reason tied to the roof. What is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The owner of the corner house could see the fast snow melting and the fuel bill as one problem. Why?",
+      "tutor_only": {
+        "confirm": "Right. Both come from heat escaping through the roof.",
+        "correct_reason": "The passage ties the melting and the fuel use to the same escaping heat, so one cause explains both signs.",
+        "tell": "The roof is losing heat. That loss melts the snow early and costs fuel at the same time.",
+        "help": [
+          "Look at what the melting and the fuel bill have in common.",
+          "Both point to the same heat going somewhere it should not."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Both are signs that heat is escaping through the roof.",
+        "accept_ideas": [
+          "heat is escaping",
+          "the same heat loss",
+          "the roof is losing heat",
+          "both come from the heat loss"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the price of fuel"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the corner house is warmer inside",
+            "ask": "The heat is leaving. What two things does that cause outside and on the bill?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_4_2_0005",
+    "next_irl": 4,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "The next reading is another lesson on this skill in this stage."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_2_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

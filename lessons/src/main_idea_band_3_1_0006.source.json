@@ -1,0 +1,239 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_3_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Rack That Fills by Nine",
+    "skill": "main_idea",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "skill_frame": "Find the main idea: decide what a passage is mostly about.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The load is one shortage and one addition. Both parts stay on the same eight places. Measured FK 2.6-4.4 on the two parts (Flesch-Kincaid, approximate syllable count). The reading load sits inside the grade 2-3 band and below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for main_idea 3.1, band 3.1, sequence 6. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the floor: short sentences, everyday words, one or two links.",
+      "avoided": "No childish subject. No talking down. No invented facts about real named places."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": [
+      "Parts run 55-85 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the load stays at one or two links. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The bike rack behind the science building holds eight bikes. Last year it was full by nine every morning. Riders began locking bikes to the handrail and to a tree beside the door. The principal counted fourteen bikes out there on a Tuesday. The rack had not broken. There were simply more riders than places to lock a bike.",
+    "part_2": "In the spring the district bolted a second rack beside the first one. The new rack holds ten bikes. The handrail is clear now, and the tree is clear too. Nothing else about the building changed. The change was ten more places to lock a bike."
+  },
+  "items": [
+    {
+      "id": "m1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is the first part mostly about?",
+      "tutor_only": {
+        "confirm": "Right. The rack was too small for the number of riders.",
+        "correct_reason": "The first part counts the spaces, the bikes, and the overflow.",
+        "tell": "The first part is about too many bikes and too few places to lock them.",
+        "help": [
+          "Look at how many spaces there were and how many bikes came."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The rack held eight bikes, and fourteen showed up.",
+        "accept_ideas": [
+          "there were more bikes than places",
+          "the rack was too small",
+          "too many bikes for the rack",
+          "eight places and fourteen bikes"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who built the rack"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about a tree",
+            "ask": "The tree is where bikes overflowed. What is the part about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is the second part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. A second rack solved the crowding.",
+        "correct_reason": "The second part adds ten spaces and reports both overflow spots clear.",
+        "tell": "The second part is about the new rack and the space it added.",
+        "help": [
+          "Look at what the district added and what happened after."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A second rack added ten places and the crowding stopped.",
+        "accept_ideas": [
+          "they added a second rack",
+          "a new rack fixed it",
+          "ten more places",
+          "the second rack solved it"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the racks are made of"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about the spring",
+            "ask": "Spring is when it happened. What is the part about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What is the whole passage mostly about?",
+      "tutor_only": {
+        "confirm": "Right. There were too few places to park bikes, and more places fixed it.",
+        "correct_reason": "Both parts serve one idea: capacity. Too few places, then ten more.",
+        "tell": "The passage is about a bike rack that was too small and the space added to fix it.",
+        "help": [
+          "One part shows the shortage. The other shows the fix.",
+          "Both are about the number of places."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The school had too few bike spaces, and a second rack fixed it.",
+        "accept_ideas": [
+          "too few spaces and they added more",
+          "the rack was too small so they added one",
+          "more places fixed the crowding",
+          "a shortage of bike places"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the principal"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about counting bikes",
+            "ask": "The count is how the shortage showed. What is the passage about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "How many bikes did the principal count?",
+      "tutor_only": {
+        "confirm": "Yes. Fourteen.",
+        "correct_reason": "The sentence says fourteen bikes on a Tuesday.",
+        "tell": "The principal counted fourteen bikes on one Tuesday.",
+        "help": [
+          "Find the sentence with the count."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Fourteen.",
+        "accept_ideas": [
+          "fourteen",
+          "14"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which Tuesday it was"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says eight",
+            "ask": "Eight was the number of spaces. How many bikes?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The passage says the handrail is clear now. Is that the main idea? Explain.",
+      "tutor_only": {
+        "confirm": "Right. It is a result that shows the shortage is gone.",
+        "correct_reason": "The clear handrail is evidence of the fix, not the idea itself.",
+        "tell": "That sentence shows the fix worked. The passage is about the number of places.",
+        "help": [
+          "Look at what the clear handrail proves.",
+          "Then look at what made it clear."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No. It is a result showing the shortage is gone.",
+        "accept_ideas": [
+          "no it is a result",
+          "it is a detail",
+          "no, it shows the fix worked",
+          "no, the main idea is the new rack"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who uses the handrail"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says yes because the handrail is mentioned twice",
+            "ask": "Two mentions of a result still leave the idea elsewhere. What is it?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "The next main-idea stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "main_idea_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

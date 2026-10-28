@@ -1,0 +1,241 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_2_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Lock That Only Fails in the Rain",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is two links: bare steel rusts, and rust swells when the air is wet. Measured FK 6.0-6.0 on the 2 parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and rises across the stage.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 4.2, sequence 1. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the stage: everyday subject, stated facts, links held apart.",
+      "avoided": "No named real places or people. No figures that could go stale."
+    },
+    "session": {
+      "scope": "build-front",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The bike rack behind the shop has a steel loop set into the concrete, and every night the owner padlocks a bike to that loop. In dry weather the key turns easily, but after a night of rain the key sticks, and twice it has not turned at all. The owner put oil on the key, and the key still stuck the next time it rained. The lock itself is only three years old.",
+    "part_2": "The loop is much older than the lock. It was set into the concrete when the shop was built, and the paint has worn off in two places. Bare steel rusts wherever water sits on it, and rust takes up more space than the steel it replaces, so the metal swells as it rusts. Wet air makes that swelling worse, and the swollen metal grips the shackle of the lock. The owner replaced the loop, and the key has turned every morning since."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the owner put on the loop every night?",
+      "tutor_only": {
+        "confirm": "Right. A bike and a padlock.",
+        "correct_reason": "The second sentence says he padlocks a bike to the loop every night.",
+        "tell": "He locks a bike to the loop with a padlock, every night.",
+        "help": [
+          "Find the sentence about what he does every night."
+        ],
+        "say_back": "own_words",
+        "core_idea": "He padlocks a bike to the loop.",
+        "accept_ideas": [
+          "a padlock",
+          "he locks a bike to it",
+          "a lock and a bike",
+          "he padlocks a bike"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the make of the lock"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says he puts oil on the loop",
+            "ask": "Oil is something he tried later. What goes on the loop every night?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The key turns in dry weather. What does that tell you about the lock?",
+      "tutor_only": {
+        "confirm": "Yes. The lock itself still works.",
+        "correct_reason": "A lock that turns when dry has not failed. The trouble depends on the weather, not on the lock being worn out.",
+        "tell": "The key turns when the weather is dry. A broken lock would not do that.",
+        "help": [
+          "Compare the dry mornings with the wet ones.",
+          "If the lock were worn out, when would it fail?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "The lock still works, so the trouble is something the rain affects.",
+        "accept_ideas": [
+          "the lock is fine",
+          "the lock is not broken",
+          "it still works",
+          "the trouble is the rain"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the lock is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the lock is worn out",
+            "ask": "A worn lock would stick every day. This one sticks only after rain. What does that suggest?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Oil on the key did not help. Why not?",
+      "tutor_only": {
+        "confirm": "Right. The sticking was outside the lock, not inside the keyway.",
+        "correct_reason": "The oil went on the key, which reaches the inside of the lock. The grip was the rusted loop closing on the shackle.",
+        "tell": "Oil on a key reaches the inside of the lock. The rust was squeezing the shackle from outside.",
+        "help": [
+          "Look at where the oil actually goes.",
+          "Then find where the passage says the metal grips."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The oil could not reach the rusted loop, which was gripping the shackle.",
+        "accept_ideas": [
+          "the oil does not reach the rust",
+          "the rust was outside the lock",
+          "it could not get to the loop",
+          "the grip was on the shackle"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what kind of oil he used"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says he used the wrong oil",
+            "ask": "The passage says where the grip was, not what oil he chose. Where was the grip?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The paint wore off the loop. Why does that matter?",
+      "tutor_only": {
+        "confirm": "Yes. Bare steel rusts, and rust swells.",
+        "correct_reason": "Paint keeps water off the steel. Without it the loop rusts, and the passage says rust takes up more space.",
+        "tell": "Paint protects steel. Where the paint wore off, the steel rusted and swelled.",
+        "help": [
+          "Find the sentence about bare steel.",
+          "Then find what rust does to the space the metal takes."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Without paint the steel rusted, and rust made the loop swell.",
+        "accept_ideas": [
+          "bare steel rusts",
+          "the steel rusted and swelled",
+          "no paint means rust",
+          "it let the loop rust"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who painted the shop"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the paint made the loop slippery",
+            "ask": "Paint is there to keep water off. What happened to the steel where it was gone?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The owner replaced the loop, not the lock. Why did that fix it?",
+      "tutor_only": {
+        "confirm": "Right. The swelling rust was the thing gripping the lock.",
+        "correct_reason": "The passage puts the cause on the loop: rust swelling in wet weather. A new loop has paint and no rust.",
+        "tell": "The loop was the part that changed size. A new loop does not swell, so it cannot grip the shackle.",
+        "help": [
+          "Look at which part changed size with the weather.",
+          "Then look at which part the owner replaced."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The rusted loop was the cause, so replacing it removed the grip.",
+        "accept_ideas": [
+          "the loop was the cause",
+          "the rust was on the loop",
+          "a new loop does not swell",
+          "the loop was gripping the lock"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the price of a new lock"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says a new loop is stronger",
+            "ask": "Strength is not the issue. What did the old loop do in wet weather?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_4_2_0002",
+    "next_irl": 4,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "The next reading is another lesson on this skill in this stage."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

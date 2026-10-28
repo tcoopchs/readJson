@@ -1,0 +1,239 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_2_0005",
+  "meta": {
+    "status": "published",
+    "title": "The Shop That Closes at Noon",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is two links: the delivery needs the shop floor, and counting needs the aisles empty. Measured FK 5.9-7.2 on the 2 parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and rises across the stage.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 4.2, sequence 5. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the stage: everyday subject, stated facts, links held apart.",
+      "avoided": "No named real places or people. No figures that could go stale."
+    },
+    "session": {
+      "scope": "build-front",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The hardware store on Mill Street closes at noon every Wednesday, and the sign on the door has said so for years. On other days the store stays open until six. A customer who came on a Wednesday afternoon found the door locked and the lights off. The owner was not away, and the shelves were not empty.",
+    "part_2": "Wednesday afternoon is when the delivery truck arrives. The store has one narrow back door and no loading bay. Boxes have to be carried through the shop floor and counted against the invoice as they come in. With customers in the aisles that counting cannot be done. The owner closes for the afternoon, takes the delivery, and restocks before Thursday."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "When does the store close early?",
+      "tutor_only": {
+        "confirm": "Right. Wednesday at noon.",
+        "correct_reason": "The first sentence gives the closing time.",
+        "tell": "It closes at noon on Wednesdays and stays open until six on other days.",
+        "help": [
+          "Find the first sentence."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Wednesday at noon.",
+        "accept_ideas": [
+          "wednesday at noon",
+          "wednesday",
+          "noon on wednesday"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who owns the store"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is closed for the day",
+            "ask": "It closes at noon and reopens Thursday. Which day does that happen?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The customer found the door locked and the lights off. What does that suggest?",
+      "tutor_only": {
+        "confirm": "Yes. The closing was planned, not an accident.",
+        "correct_reason": "A shop that has gone dark and locked up is not having a slow afternoon. The sign and the years of practice agree.",
+        "tell": "Lights off and a locked door look like a plan. A shop in trouble would be open.",
+        "help": [
+          "Look at what a shop looks like when it shuts down for a reason.",
+          "Then look at what the sign has said for years."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The shop was closed on purpose, as it is every Wednesday.",
+        "accept_ideas": [
+          "it was planned",
+          "it closes every wednesday",
+          "the closing was on purpose",
+          "the sign says so"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many staff work there"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the store went out of business",
+            "ask": "The shelves were not empty. What does the sign on the door say?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why close the store instead of counting the delivery with customers there?",
+      "tutor_only": {
+        "confirm": "Right. The counting cannot be done with customers in the aisles.",
+        "correct_reason": "The passage says boxes come through the shop floor and are counted against the invoice, which cannot happen in a busy aisle.",
+        "tell": "The boxes have to pass through the shop. Counting them while serving customers does not work.",
+        "help": [
+          "Find the sentence about customers in the aisles.",
+          "Look at what the counting needs."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The delivery has to be counted as it comes in, and that needs the aisles clear.",
+        "accept_ideas": [
+          "the counting needs an empty shop",
+          "you cannot count with customers there",
+          "the boxes block the aisles",
+          "the counting needs the floor"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many boxes arrive"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the owner wanted a day off",
+            "ask": "The passage says the owner was not away. What does the delivery need?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the narrow back door matter?",
+      "tutor_only": {
+        "confirm": "Yes. Boxes have to come through the shop floor.",
+        "correct_reason": "Without a loading bay the delivery must cross the shop, which is why customers and counting conflict.",
+        "tell": "A wide back door would let boxes bypass the shop. This one does not, so the boxes go through the aisles.",
+        "help": [
+          "Find the sentence about the back door.",
+          "Look at where the boxes have to go after that door."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It forces every box through the shop floor.",
+        "accept_ideas": [
+          "the boxes come through the shop",
+          "there is no loading bay",
+          "the boxes go through the aisles",
+          "it makes the delivery cross the shop"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how wide Mill Street is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the door is hard to open",
+            "ask": "The problem is the route the boxes take. Where do they end up?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "Why Wednesday and not another afternoon?",
+      "tutor_only": {
+        "confirm": "Right. That is when the delivery truck comes.",
+        "correct_reason": "The closing exists to receive the delivery, and the delivery arrives on Wednesday afternoon.",
+        "tell": "The shop closes when the delivery comes. Move the delivery and the closing would move with it.",
+        "help": [
+          "Find the sentence that says when the truck arrives."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because Wednesday afternoon is when the delivery truck arrives.",
+        "accept_ideas": [
+          "the delivery comes then",
+          "that is when the truck comes",
+          "because of the delivery",
+          "the truck arrives on wednesday"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which day is busiest"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says Wednesday is quiet",
+            "ask": "Quietness is not mentioned. What does the passage say happens on Wednesday afternoon?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_4_2_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "The next reading is another lesson on this skill in this stage."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_2_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

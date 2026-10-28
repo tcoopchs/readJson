@@ -1,0 +1,241 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_2_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Pool After the Storm",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is two links: rain loads the filter and dilutes the chlorine, and the test has to wait for the water to mix. Measured FK 5.8-7.2 on the 2 parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and rises across the stage.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 4.2, sequence 6. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the stage: everyday subject, stated facts, links held apart.",
+      "avoided": "No named real places or people. No figures that could go stale."
+    },
+    "session": {
+      "scope": "build-front",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The town pool closes for a day after a heavy storm, and swimmers complain because the water looks clear. The pool is not closed for the look of the water. Rain washes dust, pollen, and grit off the deck and into the pool, and the filter can take the grit out. The filter needs hours, though, to turn the whole volume of water over.",
+    "part_2": "The water also has to be tested before anyone swims. A large volume of rain dilutes the chlorine, and the test has to show a safe reading first. Staff cannot shorten the wait by adding chlorine and reopening, because the test must be taken after the water has mixed. The pool reopens when the filter has finished and the test has passed."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "When does the pool close for a day?",
+      "tutor_only": {
+        "confirm": "Right. After a heavy storm.",
+        "correct_reason": "The first sentence says the pool closes for a day after a heavy storm.",
+        "tell": "It closes for a day after a heavy storm.",
+        "help": [
+          "Find the first sentence."
+        ],
+        "say_back": "own_words",
+        "core_idea": "After a heavy storm.",
+        "accept_ideas": [
+          "after a storm",
+          "after heavy rain",
+          "when it storms",
+          "after a big storm"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how big the pool is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says every day",
+            "ask": "The passage ties the closing to one kind of weather. Which?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Swimmers say the water looks clear. Why is that not the reason the pool is closed?",
+      "tutor_only": {
+        "confirm": "Yes. Clarity is not what the pool is testing.",
+        "correct_reason": "The passage names what the closing is about: grit in the water and a chlorine reading, not appearance.",
+        "tell": "Clear water can still be dirty or low on chlorine. The pool closes on tests, not on looks.",
+        "help": [
+          "Find the sentence that says what the pool is not closed for.",
+          "Then find what it is closed for."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because looking clear does not mean the water is safe or filtered.",
+        "accept_ideas": [
+          "clear is not safe",
+          "clarity is not the test",
+          "the water can be clear and still unsafe",
+          "it is about the filter and chlorine"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who complains"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the staff are being careful about looks",
+            "ask": "The passage says the opposite. What two things decide the reopening?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why can staff not add chlorine and reopen straight away?",
+      "tutor_only": {
+        "confirm": "Right. The test has to be taken after the water has mixed.",
+        "correct_reason": "The passage says the reading must come after mixing, so adding chlorine early does not shorten the wait.",
+        "tell": "Chlorine added at the edge is not spread through the pool. A test taken before mixing proves nothing.",
+        "help": [
+          "Find the sentence about the test and mixing.",
+          "Look at what a reading taken too early would show."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the test must come after the water has mixed, so adding chlorine early does not help.",
+        "accept_ideas": [
+          "the test needs mixed water",
+          "the water has to mix first",
+          "a test too early proves nothing",
+          "the chlorine has to spread"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much chlorine costs"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says chlorine is dangerous",
+            "ask": "Danger is not the point here. What has to happen before the test?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What can the filter do, and what can it not do quickly?",
+      "tutor_only": {
+        "confirm": "Yes. It removes the grit, but turning the volume over takes hours.",
+        "correct_reason": "The passage says the filter takes the grit out but needs hours to turn the whole volume over.",
+        "tell": "The filter does its job, only slowly. Clearing a whole pool is not a ten-minute task.",
+        "help": [
+          "Find the sentence about the filter.",
+          "Look at what the filter needs in order to finish."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It removes grit, but it needs hours to turn the whole pool over.",
+        "accept_ideas": [
+          "it removes grit but takes hours",
+          "it cleans slowly",
+          "it needs hours",
+          "it clears the grit, not quickly"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what kind of filter it is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the filter is broken",
+            "ask": "The filter works. What does the passage say about its speed?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "Why does the pool need a full day rather than an hour?",
+      "tutor_only": {
+        "confirm": "Right. The filter has to turn the water over and the test has to follow the mixing.",
+        "correct_reason": "The passage gives two waits in sequence, and neither can be shortened.",
+        "tell": "Two jobs have to finish: the filter's hours of turnover, then a test on mixed water.",
+        "help": [
+          "Count the jobs the passage says must finish.",
+          "Both of them take time, and one waits on the other."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the filter needs hours and the test waits for the water to mix.",
+        "accept_ideas": [
+          "the filter takes hours and then the test",
+          "two jobs take time",
+          "the filter has to finish and the test follow",
+          "it needs the filter and the test"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many swimmers use it"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the staff are slow",
+            "ask": "The passage names two causes of the delay. What are they?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_4_2_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "The next reading is another lesson on this skill in this stage."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_2_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_3_1_0004",
+  "meta": {
+    "status": "published",
+    "title": "Why the Soup Boils Over",
+    "skill": "inference",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The load is two competing causes. The flame is not the reason, and one named object is there to be ruled out. Measured FK 3.4-3.6 on the two parts (Flesch-Kincaid, approximate syllable count). The reading load sits inside the grade 2-3 band and below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 3.1, band 3.1, sequence 4. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the floor: short sentences, everyday words, one or two links.",
+      "avoided": "No childish subject. No talking down. No invented facts about real named places."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": [
+      "Parts run 55-85 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the load stays at one or two links. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "My pot of soup boiled over twice last night, and the stove was not set too high. I checked the flame myself, and it was low. Soup does not boil over only when it is too hot. Bubbles form at the bottom of the pot and rise up to the top. I had filled the pot almost to the rim, so the bubbles pushed soup over the edge. I had also left the lid on, and a lid traps the steam inside. The wooden spoon I left in the pot did nothing at all.",
+    "part_2": "So the fix is not a lower flame. Use a bigger pot, or fill this one only halfway. Take the lid off when the soup starts to bubble, and let the steam out. A wide pot gives the bubbles room to break before the level rises. The flame can stay exactly where it is, and the soup will still stay in the pot."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "How many times did the soup boil over?",
+      "tutor_only": {
+        "confirm": "Right. Twice.",
+        "correct_reason": "The first sentence says twice.",
+        "tell": "It boiled over twice last night.",
+        "help": [
+          "Find the first sentence."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Twice.",
+        "accept_ideas": [
+          "twice",
+          "two times",
+          "2"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long it cooked"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says once",
+            "ask": "The passage gives a number in the first sentence. What is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The flame was not too high. What else made the soup boil over?",
+      "tutor_only": {
+        "confirm": "Yes. The pot was filled too full.",
+        "correct_reason": "The passage rules out the flame, then names the fill level and the lid as the causes.",
+        "tell": "The soup came too high in the pot. The bubbles had nowhere to go but over the rim.",
+        "help": [
+          "Find the sentence about how full the pot was.",
+          "Look at what bubbles do when the pot is that full."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The pot was too full, so the bubbles pushed soup over the edge.",
+        "accept_ideas": [
+          "the pot was too full",
+          "it was filled to the rim",
+          "too much soup in the pot",
+          "the pot was filled too high"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what kind of soup it was"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the flame was too high",
+            "ask": "The passage says the flame was not high. What else does it name?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why does a lid make it worse?",
+      "tutor_only": {
+        "confirm": "Right. It traps the steam.",
+        "correct_reason": "The passage says the lid traps the steam, and that the steam has nowhere to go.",
+        "tell": "Steam needs a way out. With the lid on, the steam pushes the soup up and over.",
+        "help": [
+          "Find the sentence about the lid.",
+          "Look at where the steam goes with a lid on."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The lid traps the steam, so it pushes the soup over.",
+        "accept_ideas": [
+          "the steam is trapped",
+          "it traps the steam",
+          "the steam has nowhere to go",
+          "the lid holds the steam in"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the lid is made of"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the lid makes the pot hotter",
+            "ask": "The passage says the lid traps something. What is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What did the wooden spoon do?",
+      "tutor_only": {
+        "confirm": "Right. Nothing.",
+        "correct_reason": "The passage says the spoon did nothing.",
+        "tell": "The spoon had no effect. It is in the passage only to be ruled out.",
+        "help": [
+          "Find the last sentence of the first part."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Nothing.",
+        "accept_ideas": [
+          "nothing",
+          "it did nothing",
+          "nothing at all",
+          "none"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the spoon was in the pot"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the spoon made it boil over",
+            "ask": "The passage says the spoon did what?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What is the best fix for this problem, and why?",
+      "tutor_only": {
+        "confirm": "Yes. A bigger pot or less soup, because the bubbles need room.",
+        "correct_reason": "The passage rejects a lower flame and names pot size and fill level as the causes, so the fix addresses room for the bubbles.",
+        "tell": "Give the bubbles room. A wider pot or a lower fill level keeps the soup where it belongs.",
+        "help": [
+          "Find the sentences that say what the fix is not.",
+          "Then find the sentence about room for the bubbles."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Use a bigger pot or less soup, because the bubbles need room to break.",
+        "accept_ideas": [
+          "a bigger pot",
+          "fill it halfway",
+          "use a bigger pot or fill it less",
+          "give the bubbles room",
+          "less soup in the pot"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the exact temperature of the soup"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says turn the flame down",
+            "ask": "The passage says the fix is not the flame. What is it?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_3_1_0005",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "inference_band_3_1_0004",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

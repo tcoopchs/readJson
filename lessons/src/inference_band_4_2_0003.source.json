@@ -1,0 +1,239 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_2_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Bus That Arrives Empty",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is two links: the second bus runs behind the first, so the first has already taken the riders. Measured FK 5.7-6.2 on the 2 parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and rises across the stage.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 4.2, sequence 3. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the stage: everyday subject, stated facts, links held apart.",
+      "avoided": "No named real places or people. No figures that could go stale."
+    },
+    "session": {
+      "scope": "build-front",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Route 9 runs from the depot to the north end of town, and at 6:40 a bus leaves the depot with most seats taken. At 6:50 a second bus leaves, and it reaches the north end almost empty. People waiting at the north-end stops watch the second bus pass and do not get on, even though it stops for them. The second bus is not broken, and its driver is not new.",
+    "part_2": "The second bus is a short turn. It is sent out to fill a gap at the far end of the route, where the first bus is often late. It carries few riders because it runs a few minutes behind the first bus, which has already picked them up. The transit office keeps the short turn, because it keeps the north end from waiting twenty minutes when the first bus runs late."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "How many buses leave the depot in that stretch of the morning?",
+      "tutor_only": {
+        "confirm": "Right. Two, at 6:40 and 6:50.",
+        "correct_reason": "The passage names a bus at 6:40 and a second at 6:50.",
+        "tell": "Two buses leave, ten minutes apart.",
+        "help": [
+          "Find the two times in the first part."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Two.",
+        "accept_ideas": [
+          "two",
+          "2",
+          "two buses"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many seats the bus has"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says one",
+            "ask": "The passage gives two departure times. How many buses is that?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "People at the north-end stops see the second bus and do not get on. What does that suggest?",
+      "tutor_only": {
+        "confirm": "Yes. They had already been picked up or were not waiting for it.",
+        "correct_reason": "The passage says riders watch it pass. People who still needed a bus would board one.",
+        "tell": "Nobody boards a bus they need. They let it pass because their ride has already come.",
+        "help": [
+          "Look at what a rider would do if they still needed a bus.",
+          "Then think about why these riders did nothing."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They already had their ride, so the second bus was no use to them.",
+        "accept_ideas": [
+          "they were already picked up",
+          "they did not need it",
+          "the first bus took them",
+          "they had a ride already"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how often the bus runs"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the bus was full",
+            "ask": "The passage says it was almost empty. Why did the waiting people let it pass?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the second bus carry so few riders?",
+      "tutor_only": {
+        "confirm": "Right. It runs behind the first bus, which takes them first.",
+        "correct_reason": "The passage says it runs a few minutes behind the first bus, which has already picked the riders up.",
+        "tell": "The first bus gets to the stops first. By the time the second arrives there is no one left to collect.",
+        "help": [
+          "Find the sentence about the second bus running behind.",
+          "Look at who reaches the stops first."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It runs behind the first bus, so the riders are already gone.",
+        "accept_ideas": [
+          "it runs behind the first bus",
+          "the first bus takes them",
+          "it comes second",
+          "the riders are already on the first bus"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the driver's experience"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the driver is slow",
+            "ask": "The passage says the driver is not new. What does it say about the bus's position on the route?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The passage says the bus is not broken and the driver is not new. Why?",
+      "tutor_only": {
+        "confirm": "Yes. To rule those out as the reason it is empty.",
+        "correct_reason": "The passage names the two easy explanations and removes them, leaving the schedule as the cause.",
+        "tell": "An empty bus looks like a broken bus. The passage closes that off before explaining the real reason.",
+        "help": [
+          "Look at what a reader might blame for an empty bus.",
+          "Then find where the passage removes those two."
+        ],
+        "say_back": "own_words",
+        "core_idea": "To rule out a broken bus and a new driver.",
+        "accept_ideas": [
+          "to rule them out",
+          "so it is not a breakdown",
+          "to show those are not the reason",
+          "the bus and driver are fine"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who owns the buses"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the bus was too small",
+            "ask": "Size is not mentioned. What two things does the passage say are not the problem?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "Why does the transit office keep running a bus that carries almost nobody?",
+      "tutor_only": {
+        "confirm": "Right. It fills a gap when the first bus is late.",
+        "correct_reason": "The passage gives the purpose: the short turn covers the far end when the first bus runs late.",
+        "tell": "The bus is insurance. On days the first bus is late, the north end still gets served.",
+        "help": [
+          "Find the sentence that says why the office keeps the short turn."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because it covers the north end when the first bus is late.",
+        "accept_ideas": [
+          "it fills a gap",
+          "for when the first bus is late",
+          "so people do not wait twenty minutes",
+          "it is a backup"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much fuel it uses"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the office made a mistake",
+            "ask": "The passage gives a reason for keeping it. What is the reason?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_4_2_0004",
+    "next_irl": 4,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "The next reading is another lesson on this skill in this stage."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_2_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

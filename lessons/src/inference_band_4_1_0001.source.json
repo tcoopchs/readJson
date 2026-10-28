@@ -125,7 +125,7 @@
         "tell": "Thirst is the body's signal to drink. When that signal fades, a person drinks less and may not notice the loss.",
         "help": [
           "Look at the part about older adults. It names a signal the body sends.",
-          "Ask what happens to drinking when that signal fades."
+          "Look at what happens to drinking when that signal fades."
         ],
         "say_back": "own_words",
         "core_idea": "They may not feel thirsty, so they drink less than their body needs.",

@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_3_1_0005",
+  "meta": {
+    "status": "published",
+    "title": "The Squeak in the Gym Floor",
+    "skill": "inference",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The load is two links in a row: dry air shrinks the wood, and the gap under a board lets it move. Measured FK 2.5-3.8 on the two parts (Flesch-Kincaid, approximate syllable count). The reading load sits inside the grade 2-3 band and below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 3.1, band 3.1, sequence 5. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the floor: short sentences, everyday words, one or two links.",
+      "avoided": "No childish subject. No talking down. No invented facts about real named places."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": [
+      "Parts run 55-85 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the load stays at one or two links. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The gym floor squeaks in one spot, near the free-throw line. The squeak started in the fall, when the heating came on for the winter. Wood shrinks when the air around it gets dry. The boards along the outside wall dry out first, because cold air leaks in along that wall. When a board shrinks, the space underneath it gets wider than before. The floor moves a little when a shoe lands on it, and that movement is the squeak.",
+    "part_2": "A repair crew could lift the boards and add a thin shim under them. That would stop the movement, and the squeak would stop with it. But the gym would have to close for two days. The other choice is to wait for spring. When the air gets moist again, the wood swells and the gap closes by itself. The squeak came in the fall and left in the spring for four years running."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Where does the floor squeak?",
+      "tutor_only": {
+        "confirm": "Right. Near the free-throw line.",
+        "correct_reason": "The first sentence names the spot.",
+        "tell": "The squeak is in one spot, near the free-throw line.",
+        "help": [
+          "Find the first sentence."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Near the free-throw line.",
+        "accept_ideas": [
+          "near the free-throw line",
+          "by the free-throw line",
+          "at the free-throw line",
+          "near the free throw line"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the size of the gym"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the whole floor squeaks",
+            "ask": "The passage says the squeak is in one spot. Where?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "When did the squeak start?",
+      "tutor_only": {
+        "confirm": "Yes. In the fall, when the heat came on.",
+        "correct_reason": "The second sentence ties the start of the squeak to the heat coming on.",
+        "tell": "It started in the fall. That is when the heat came on and the air got dry.",
+        "help": [
+          "Find the sentence about when it started.",
+          "The passage links the start to a change in the air."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It started in the fall, when the heat came on.",
+        "accept_ideas": [
+          "in the fall",
+          "when the heat came on",
+          "the fall",
+          "in autumn"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the month of the first game"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it started in the spring",
+            "ask": "The passage says the squeak left in the spring. When did it start?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why does dry air lead to a squeak?",
+      "tutor_only": {
+        "confirm": "Right. The wood shrinks, a gap opens, and the floor moves.",
+        "correct_reason": "The passage chains three steps: dry air, shrinking wood, a wider space, then movement.",
+        "tell": "Dry air shrinks the wood. The board then has space under it and moves when a shoe lands.",
+        "help": [
+          "Find the sentence about wood shrinking.",
+          "Then find the sentence about the space under the board."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The wood shrinks, a gap opens, and the board moves.",
+        "accept_ideas": [
+          "the wood shrinks and the board moves",
+          "dry air shrinks the wood so the board moves",
+          "the gap gets wider and the floor moves",
+          "the wood dries and shrinks"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the kind of wood used"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the floor is worn out",
+            "ask": "The passage names a cause in the air. What does it do to the wood?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why do the boards along the outside wall dry first?",
+      "tutor_only": {
+        "confirm": "Yes. Cold air leaks in along that wall.",
+        "correct_reason": "The passage gives the reason outright: cold air leaks in along the outside wall.",
+        "tell": "Cold air gets in along that wall, so those boards dry sooner.",
+        "help": [
+          "Find the sentence that explains why those boards dry first."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because cold air leaks in along that wall.",
+        "accept_ideas": [
+          "cold air leaks in along that wall",
+          "cold air gets in there",
+          "cold air comes in by the wall",
+          "it is colder by that wall"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which direction the gym faces"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says they are older boards",
+            "ask": "The passage gives a cause that is in the air. What is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The crew could fix the floor in two days. Why might the school wait instead?",
+      "tutor_only": {
+        "confirm": "Yes. The squeak goes away on its own in spring.",
+        "correct_reason": "The passage gives the trade: two days of a closed gym now, or a squeak that returns in the fall and leaves in the spring.",
+        "tell": "Waiting costs no gym days. The wood swells in the spring and the noise stops on its own.",
+        "help": [
+          "Find the sentence about spring.",
+          "Compare that with the two days the gym would close."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the squeak goes away by itself in spring, and a repair would close the gym.",
+        "accept_ideas": [
+          "it goes away in spring",
+          "the wood swells in spring",
+          "waiting costs nothing",
+          "the gym would close for two days"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who pays for the repair"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says they cannot afford it",
+            "ask": "The passage does not mention money. What does it say happens in spring?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "inference_band_3_1_0005",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

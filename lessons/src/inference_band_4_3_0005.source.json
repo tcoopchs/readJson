@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_3_0005",
+  "meta": {
+    "status": "published",
+    "title": "The Field That Floods",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is three links: hard surfaces shed water fast, the drains lead above the field, and the field cannot take the volume at that speed. Measured FK 4.6-5.1 on the 3 parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and rises across the stage.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 4.3, sequence 5. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the stage: everyday subject, stated facts, links held apart.",
+      "avoided": "No named real places or people. No figures that could go stale."
+    },
+    "session": {
+      "scope": "build-front",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A low field beside a housing estate floods after every heavy rain. Before the estate was built, the same field drained within a day. The field has not sunk, and the ditch at its edge is clear. The estate's lawns are green all summer, even in dry spells.",
+    "part_2": "Rain that falls on open ground soaks in or runs off slowly. Rain that falls on roofs, drives, and pavements runs off quickly. The estate covers ground that used to absorb water, and its drains lead to the ditch above the field. More water arrives in a shorter time than the field can take.",
+    "part_3": "The ditch is clear, and the field is not sinking. What changed is the volume and the speed of the water reaching it, not the field's ability to drain."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "When does the field flood?",
+      "tutor_only": {
+        "confirm": "Right. After every heavy rain.",
+        "correct_reason": "The first sentence says the field floods after every heavy rain.",
+        "tell": "It floods after heavy rain, and it used to drain within a day.",
+        "help": [
+          "Find the first sentence."
+        ],
+        "say_back": "own_words",
+        "core_idea": "After heavy rain.",
+        "accept_ideas": [
+          "after heavy rain",
+          "after rain",
+          "when it rains hard",
+          "in heavy rain"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how big the field is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says every day",
+            "ask": "The passage ties it to one kind of weather. Which?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The ditch is clear and the field has not sunk. What does that rule out?",
+      "tutor_only": {
+        "confirm": "Yes. It rules out blocked drainage and a sinking field.",
+        "correct_reason": "Both would explain standing water. The passage removes them so the reader looks upstream.",
+        "tell": "A blocked ditch or a sunken field would hold water. Neither is true here.",
+        "help": [
+          "Think about what would make water stand in a field.",
+          "Then find where the passage says those are not the case."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It rules out a blocked ditch and a sunken field.",
+        "accept_ideas": [
+          "blocked drainage and sinking",
+          "the ditch is not blocked",
+          "it rules out a bad ditch",
+          "the field is not sinking"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who owns the field"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the ditch needs cleaning",
+            "ask": "The passage says it is clear. What else does it rule out?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the field flood now when it did not before?",
+      "tutor_only": {
+        "confirm": "Right. Roofs and paving send water off fast instead of soaking it in.",
+        "correct_reason": "The passage contrasts open ground, which absorbs, with hard surfaces, which shed water quickly.",
+        "tell": "The estate turned absorbing ground into surfaces that shed water. The field gets it all at once.",
+        "help": [
+          "Find the sentence about roofs and pavements.",
+          "Look at what used to happen to rain on that ground."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the estate's roofs and paving shed water quickly instead of soaking it in.",
+        "accept_ideas": [
+          "hard surfaces send water fast",
+          "the ground cannot absorb it now",
+          "the paving sheds water",
+          "roofs and drives run off"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much rain falls"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it rains more now",
+            "ask": "The passage does not say that. What does it say about the surfaces?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The passage says the estate's lawns are green even in dry spells. Does that explain the flooding?",
+      "tutor_only": {
+        "confirm": "No. It is a detail about garden watering, not about how rain runs off.",
+        "correct_reason": "Green lawns in dry weather suggest sprinklers. That is a separate fact and does not move water to the field during a storm.",
+        "tell": "Lawns do not cause a storm flood. The hard surfaces do.",
+        "help": [
+          "Look at what green lawns in a dry spell tell you about.",
+          "Then think about whether that has anything to do with rain running off roofs."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No. It is a separate detail and does not explain the flooding.",
+        "accept_ideas": [
+          "no it is unrelated",
+          "no, lawns do not cause it",
+          "it is a detail about watering",
+          "no, it is about the gardens"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who waters the lawns"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the lawns hold water",
+            "ask": "Grass absorbs water; it does not send it to the field. What surfaces does the passage blame?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What would reduce the flooding without moving the field?",
+      "tutor_only": {
+        "confirm": "Right. Slow the water down or let more of it soak in upstream.",
+        "correct_reason": "The passage locates the cause in volume and speed arriving from the estate, so reducing either fixes the field.",
+        "tell": "The field is not the problem. Give it less water, or give it more time, and it drains.",
+        "help": [
+          "Look at what the passage says actually changed.",
+          "Then think about what would change it back."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Give the field less water at once, by letting more soak in or slowing the runoff.",
+        "accept_ideas": [
+          "slow the water down",
+          "let more soak in",
+          "less paving",
+          "more ground to absorb"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how deep the field is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says dig a deeper ditch",
+            "ask": "The ditch is already clear. What changed upstream?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "The next reading is another lesson on this skill in this stage."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_3_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

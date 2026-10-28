@@ -1,0 +1,243 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_3_1_0002",
+  "meta": {
+    "status": "published",
+    "title": "Ice on the North Steps",
+    "skill": "inference",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The load is one comparison. Two sets of steps get the same weather and end up different, and the passage says why. Measured FK 4.1-5.0 on the two parts (Flesch-Kincaid, approximate syllable count). The reading load sits inside the grade 2-3 band and below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 3.1, band 3.1, sequence 2. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the floor: short sentences, everyday words, one or two links.",
+      "avoided": "No childish subject. No talking down. No invented facts about real named places."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": [
+      "Parts run 55-85 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the load stays at one or two links. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Two flights of steps lead up to the school building. The south flight faces the sun for most of the day. The north flight sits in the building's shade until late in the afternoon. In January both flights get the same rain and the same snow. The south steps dry before the first bell, and the north steps stay slick until lunch. The building manager salts the north steps every single morning before the doors open.",
+    "part_2": "Salt does not melt every kind of ice, and it works best on thin ice. It also needs air that is not far below freezing. On a very cold morning the salt sits on the steps and does nothing at all. Sand is a different story, because sand does not melt ice even a little. Sand simply gives shoes something rough to grip. On the coldest mornings the manager spreads sand and salts again once the sun reaches the steps."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Which steps stay slick longer?",
+      "tutor_only": {
+        "confirm": "Right. The north steps.",
+        "correct_reason": "The passage says the north steps stay slick until lunch.",
+        "tell": "The north steps stay slick until lunch. The south steps dry before the first bell.",
+        "help": [
+          "Find the sentence about the north steps in the morning."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The north steps stay slick longer.",
+        "accept_ideas": [
+          "the north steps",
+          "north",
+          "the north",
+          "the north flight"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which way the steps face"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the south steps",
+            "ask": "The south steps dry early. Which flight stays slick?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Both flights get the same snow. Why do they end up different?",
+      "tutor_only": {
+        "confirm": "Yes. The sun reaches one flight and not the other.",
+        "correct_reason": "The two flights differ in one thing only: the sun. The passage gives facing and shade, then the different results.",
+        "tell": "The sun dries the south steps early. The north steps are in shade, so the ice stays.",
+        "help": [
+          "Compare the first three sentences. What is different about the two flights?",
+          "Only one thing is different. What is it?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "The south steps get sun and the north steps stay in shade.",
+        "accept_ideas": [
+          "the sun reaches one and not the other",
+          "one is in the shade",
+          "the north steps are shaded",
+          "the south steps get more sun"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which flight is closer to the door"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the north steps get more snow",
+            "ask": "The passage says both flights get the same snow. What is different?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the manager use sand instead of salt on the coldest mornings?",
+      "tutor_only": {
+        "confirm": "Right. Salt stops working in deep cold, and sand gives grip.",
+        "correct_reason": "The passage says salt does nothing on a very cold morning, and that sand does not melt ice but gives grip.",
+        "tell": "Salt needs warmer air to work. Sand does not melt anything, but it makes the ice rough enough to walk on.",
+        "help": [
+          "Find what salt does on a very cold morning.",
+          "Then find what the passage says sand does."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Salt does nothing in deep cold, so sand is used to give grip.",
+        "accept_ideas": [
+          "salt does not work when it is very cold",
+          "sand gives grip and salt does not work",
+          "the salt stops working in the cold",
+          "sand gives shoes something to grip"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much salt costs"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says sand melts the ice faster",
+            "ask": "The passage says sand melts nothing. What does sand do?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The passage says the north steps are shaded until late afternoon. What does that explain?",
+      "tutor_only": {
+        "confirm": "Yes. It explains why the ice lasts so long there.",
+        "correct_reason": "Shade until late afternoon accounts for the wet steps lasting until lunch and needing salt every morning.",
+        "tell": "No sun means no drying. The shade is the reason the ice stays on that flight.",
+        "help": [
+          "Look at what the shade keeps the sun from doing.",
+          "Connect the shade to the slick steps."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It explains why the ice stays on the north steps.",
+        "accept_ideas": [
+          "why the ice stays",
+          "why they stay slick",
+          "why the sun does not dry them",
+          "it explains the ice"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the time of the first bell"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the shade makes the steps colder than the air",
+            "ask": "The passage uses the shade to explain something about the ice. What?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "On a warm afternoon in March, which steps would dry first, and why?",
+      "tutor_only": {
+        "confirm": "Yes. The south steps, because they face the sun.",
+        "correct_reason": "The passage gives one cause for drying, the sun, and says the south steps face it.",
+        "tell": "The sun dries steps. The south steps face the sun, so they dry first.",
+        "help": [
+          "Find what dries the steps in the passage.",
+          "Which flight faces that?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "The south steps, because they face the sun.",
+        "accept_ideas": [
+          "the south steps because they face the sun",
+          "south steps",
+          "the south flight, they get the sun",
+          "the south steps dry first"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the temperature in March"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says both flights dry at the same time",
+            "ask": "The passage says one flight dries first. Which one, and why?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_3_1_0003",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "inference_band_3_1_0002",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

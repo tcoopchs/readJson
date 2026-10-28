@@ -1,0 +1,243 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_3_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Door That Sticks in July",
+    "skill": "inference",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The load is two links plus one true but useless fact. The oiled hinges are real and irrelevant, and the reader has to set them aside. Measured FK 3.4-4.8 on the two parts (Flesch-Kincaid, approximate syllable count). The reading load sits inside the grade 2-3 band and below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 3.1, band 3.1, sequence 6. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the floor: short sentences, everyday words, one or two links.",
+      "avoided": "No childish subject. No talking down. No invented facts about real named places."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": [
+      "Parts run 55-85 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the load stays at one or two links. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The front door of the hardware store sticks in July and swings free in January. The door is wood, and it was hung in 1962. In July the air is wet, and wood takes water from the air and swells. The door grows a little wider, and its edge rubs against the frame near the latch. The owner oils the hinges every month, and the oil does help the hinges. The door still sticks.",
+    "part_2": "In January the air is dry, and the wood shrinks back. The door swings without touching the frame at all. The owner learned to wait it out instead of fighting it. Every July he planes a little wood off the edge, and by January the gap is too wide. Cold air comes in through that gap all winter. A metal door would not take in water, but the owner priced one in the spring and has not ordered it."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "When does the door stick?",
+      "tutor_only": {
+        "confirm": "Right. In July.",
+        "correct_reason": "The first sentence says July.",
+        "tell": "It sticks in July and swings free in January.",
+        "help": [
+          "Find the first sentence."
+        ],
+        "say_back": "own_words",
+        "core_idea": "In July.",
+        "accept_ideas": [
+          "july",
+          "in july",
+          "during july",
+          "summer"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the store"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says January",
+            "ask": "The door swings free in January. When does it stick?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why does the door stick in July?",
+      "tutor_only": {
+        "confirm": "Yes. The wet air makes the wood swell.",
+        "correct_reason": "The passage links wet July air to wood swelling, and the swelling to the edge rubbing.",
+        "tell": "Wet air gets into the wood. The wood swells and the edge presses on the frame.",
+        "help": [
+          "Find the sentences about wet air and wood.",
+          "Look at what the wood does when it takes in water."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The wet air makes the wood swell, so the edge rubs the frame.",
+        "accept_ideas": [
+          "the wood swells",
+          "the wet air makes it swell",
+          "the wood takes in water and gets wider",
+          "the door swells in the wet air"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the store is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the hinges are stiff",
+            "ask": "The passage says the oil helps the hinges. What else is happening?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Oiling the hinges does not stop the sticking. Why not?",
+      "tutor_only": {
+        "confirm": "Right. The rubbing is at the edge and frame, not the hinges.",
+        "correct_reason": "The passage separates the hinges, which the oil helps, from the edge rubbing the frame, which it does not.",
+        "tell": "The hinges turn freely. The noise comes from the door's edge dragging on the frame.",
+        "help": [
+          "Find what the oil helps and what it does not.",
+          "Look at where the door touches the frame."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the door rubs the frame at its edge, not at the hinges.",
+        "accept_ideas": [
+          "the rubbing is at the edge",
+          "the edge rubs the frame",
+          "it is not the hinges",
+          "the door touches the frame"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what kind of oil he uses"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says he needs more oil",
+            "ask": "The passage says the oil works on the hinges. Where does the door rub?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The owner planes the edge each July. What goes wrong in January?",
+      "tutor_only": {
+        "confirm": "Yes. The gap is too wide and cold air comes in.",
+        "correct_reason": "The passage follows the planing from July to the January gap.",
+        "tell": "The wood shrinks again in January. The edge he shaved off is now a gap.",
+        "help": [
+          "Find the sentence about the gap in January.",
+          "Look at what the shrunken wood does to the gap."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The gap gets too wide, and cold air comes in.",
+        "accept_ideas": [
+          "the gap is too wide",
+          "cold air comes in",
+          "it does not fit any more",
+          "the door is too small in january"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much wood he takes off"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the door sticks in January too",
+            "ask": "The passage says it swings free in January. What goes wrong instead?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What is the real cause of the sticking, and what would fix it for good?",
+      "tutor_only": {
+        "confirm": "Yes. Wood swelling with moisture, and a door that does not take in water.",
+        "correct_reason": "The passage gives the cause as wood taking in water from the air, and names a metal door as the lasting fix.",
+        "tell": "The wood swells when the air is wet. A metal door would not swell, so it would not stick.",
+        "help": [
+          "Find what the door is made of and what that material does.",
+          "Then find the sentence about a metal door."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The wood swells with moisture, and a metal door would fix it.",
+        "accept_ideas": [
+          "the wood swells and a metal door",
+          "wood swelling, a metal door",
+          "the wood takes in water, use a metal door",
+          "a metal door would not swell"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the price of the new door"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says planing the edge is the fix",
+            "ask": "Planing buys a few months each year. What does the passage say would last?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "inference_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

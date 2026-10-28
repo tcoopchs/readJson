@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_3_1_0005",
+  "meta": {
+    "status": "published",
+    "title": "The Bulletin for the Coast",
+    "skill": "main_idea",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "skill_frame": "Find the main idea: decide what a passage is mostly about.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The load is one warning and one outcome. Both parts point at the same bulletin. Measured FK 4.4-5.1 on the two parts (Flesch-Kincaid, approximate syllable count). The reading load sits inside the grade 2-3 band and below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for main_idea 3.1, band 3.1, sequence 5. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the floor: short sentences, everyday words, one or two links.",
+      "avoided": "No childish subject. No talking down. No invented facts about real named places."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": [
+      "Parts run 55-85 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the load stays at one or two links. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The weather office put out a bulletin at six on Friday morning. Winds would reach thirty knots by noon, and seas would build to eight feet. Small craft were told to stay in port until the wind dropped. The bulletin covered the coast from the point to the river mouth.",
+    "part_2": "At the dock, two boats went out anyway. Both turned back before one, because the wind came early and pushed the water into short, steep waves. The bulletin was right. The rest of the fleet stayed tied up until Sunday morning, when the wind dropped below ten knots."
+  },
+  "items": [
+    {
+      "id": "m1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is the first part mostly about?",
+      "tutor_only": {
+        "confirm": "Right. A bulletin warned of high wind and seas.",
+        "correct_reason": "The first part lists the wind, the seas, the advice, and the area.",
+        "tell": "The first part is about a warning for strong wind and high seas.",
+        "help": [
+          "Look at what the office put out and what it said."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A bulletin warned of strong wind and high seas, and small boats were told to stay in.",
+        "accept_ideas": [
+          "a warning about wind and seas",
+          "the weather was going to be bad",
+          "a bulletin warned of high wind",
+          "small boats were told to stay in port"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who wrote the bulletin"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about Friday",
+            "ask": "Friday is when it happened. What is the part about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is the second part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. The boats that went out turned back because the warning was right.",
+        "correct_reason": "The second part follows two boats out and back, then says the bulletin was right.",
+        "tell": "The second part is about the warning proving correct on the water.",
+        "help": [
+          "Look at what happened to the two boats.",
+          "Then find the sentence about the bulletin."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Two boats went out, turned back, and the warning proved correct.",
+        "accept_ideas": [
+          "the warning was right",
+          "two boats turned back",
+          "the boats came back",
+          "the forecast was correct"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the names of the boats"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about the weekend",
+            "ask": "The weekend is when the wind dropped. What is the part about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What is the whole passage mostly about?",
+      "tutor_only": {
+        "confirm": "Right. A bulletin warned of dangerous water, and it was correct.",
+        "correct_reason": "Both parts serve one idea: the warning and its accuracy.",
+        "tell": "The passage is about a weather warning that was right.",
+        "help": [
+          "One part gives the warning. The other shows it was right.",
+          "Both are about the same bulletin."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A weather bulletin warned of dangerous water, and it turned out to be right.",
+        "accept_ideas": [
+          "a warning that was correct",
+          "the bulletin was right",
+          "the forecast was accurate",
+          "a weather warning about the coast"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the number of boats in the fleet"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about two boats",
+            "ask": "Two boats are an example. What is the passage about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "How high were the seas expected to build?",
+      "tutor_only": {
+        "confirm": "Yes. Eight feet.",
+        "correct_reason": "The third sentence gives eight feet.",
+        "tell": "The bulletin said the seas would build to eight feet.",
+        "help": [
+          "Find the sentence about the seas."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Eight feet.",
+        "accept_ideas": [
+          "eight feet",
+          "8 feet",
+          "eight",
+          "8"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the bulletin lasted"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says thirty",
+            "ask": "Thirty was the wind speed. How high were the seas?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The passage says two boats went out. Is that the main idea? Explain.",
+      "tutor_only": {
+        "confirm": "Right. It is one example that shows the warning was real.",
+        "correct_reason": "The two boats illustrate the warning. The passage is about the bulletin, not those boats.",
+        "tell": "Two boats are an example. The main idea is the warning and its accuracy.",
+        "help": [
+          "Look at what the two boats are there to show.",
+          "Then look at what the rest of the passage is about."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No. It is an example showing the warning was right.",
+        "accept_ideas": [
+          "no it is an example",
+          "it is a detail",
+          "no, the main idea is the warning",
+          "no, it shows the warning was right"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how big the boats were"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says yes because the boats take up a whole part",
+            "ask": "A second part can be an example. What does it show?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_3_1_0005",
+    "next_irl": 3,
+    "next_means": "The next main-idea stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "main_idea_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_3_1_0005",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

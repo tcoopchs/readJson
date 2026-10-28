@@ -120,11 +120,11 @@
           },
           {
             "when": "They say the note is a food order, a shopping list, or a way to ask someone to eat the ice cream.",
-            "ask": "The note is about the food she just found. What did she find that the next person needs to know?"
+            "ask": "The note is about the food she found. What did she find that the next person needs to know?"
           }
         ],
         "help": [
-          "Someone will read that note in the office. What did Mia just find in the cooler?",
+          "Someone will read that note in the office. What did Mia find in the cooler?",
           "Does the note hide the warm food, or does it point to the warm food?"
         ],
         "tell": "The note tells the next person the food is not cold. Mia wants the problem seen.",

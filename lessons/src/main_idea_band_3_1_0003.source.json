@@ -1,0 +1,243 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_3_1_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Garden That Needed Bees",
+    "skill": "main_idea",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "skill_frame": "Find the main idea: decide what a passage is mostly about.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The load is one cause and one repair. Both parts point at the same missing thing. Measured FK 2.7-4.7 on the two parts (Flesch-Kincaid, approximate syllable count). The reading load sits inside the grade 2-3 band and below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for main_idea 3.1, band 3.1, sequence 3. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the floor: short sentences, everyday words, one or two links.",
+      "avoided": "No childish subject. No talking down. No invented facts about real named places."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": [
+      "Parts run 55-85 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the load stays at one or two links. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The school garden grew squash for three years without any trouble. Last year the plants flowered and then dropped their flowers, and no squash formed at all. A gardener came and looked at the beds, and she found no bees anywhere near them. The beds sit beside a new parking lot. The lot was poured where a field of clover used to grow.",
+    "part_2": "This year the class planted a strip of flowers along the fence. They also put two boxes for mason bees on the sunny wall. The squash flowered in July and set fruit in August. The plants did not change, and the soil did not change. The bees came back."
+  },
+  "items": [
+    {
+      "id": "m1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is the first part mostly about?",
+      "tutor_only": {
+        "confirm": "Right. The squash failed because there were no bees.",
+        "correct_reason": "The first part moves from empty plants to the gardener's finding: no bees, and the clover field is gone.",
+        "tell": "The first part is about squash that did not grow because the bees were gone.",
+        "help": [
+          "Look at what the gardener found.",
+          "Then look at what the plants did without it."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The squash failed because there were no bees to visit the flowers.",
+        "accept_ideas": [
+          "there were no bees",
+          "the squash failed because there were no bees",
+          "no bees meant no squash",
+          "the bees were gone"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many years the garden ran"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about a parking lot",
+            "ask": "The lot is one reason the bees left. What is the part about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is the second part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. The class brought the bees back and the squash grew.",
+        "correct_reason": "The second part lists two things the class did, then the result: fruit and bees.",
+        "tell": "The second part is about what the class changed and how it worked.",
+        "help": [
+          "Look at what the class planted and put up.",
+          "Then look at what happened in August."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The class brought bees back with flowers and bee boxes, and the squash grew.",
+        "accept_ideas": [
+          "they brought the bees back",
+          "the class fixed it",
+          "they planted flowers and put up bee boxes",
+          "the squash grew again"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how tall the flowers grew"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about the fence",
+            "ask": "The fence is where the flowers went. What is the part about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What is the whole passage mostly about?",
+      "tutor_only": {
+        "confirm": "Right. The garden needed bees, and the class brought them back.",
+        "correct_reason": "Both parts serve one idea: the squash depended on bees that were missing, then present.",
+        "tell": "The passage is about a garden that failed without bees and worked once they returned.",
+        "help": [
+          "One part shows the problem. The other shows the fix.",
+          "Both are about the same thing being missing."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The squash needed bees, the bees were gone, and the class brought them back.",
+        "accept_ideas": [
+          "the garden needed bees",
+          "bees made the difference",
+          "they lost the bees and got them back",
+          "the squash needed bees and they brought them back"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the kind of squash"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about planting flowers",
+            "ask": "Flowers were one step in the fix. What is the passage mostly about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What was built where the clover used to grow?",
+      "tutor_only": {
+        "confirm": "Yes. A parking lot.",
+        "correct_reason": "The last sentence says the lot was poured where the clover grew.",
+        "tell": "A parking lot now covers the old clover field.",
+        "help": [
+          "Find the last sentence of the first part."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A parking lot.",
+        "accept_ideas": [
+          "a parking lot",
+          "parking lot",
+          "a lot for cars",
+          "a car park"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who poured the lot"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says a new garden",
+            "ask": "The passage names one thing poured there. What is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The passage says the soil did not change. Is that the main idea? Explain.",
+      "tutor_only": {
+        "confirm": "Right. It is a detail that rules out the soil as the cause.",
+        "correct_reason": "The sentence appears to show the garden failed for another reason, so the soil is not the main idea.",
+        "tell": "That sentence removes one cause. The passage is about the bees.",
+        "help": [
+          "Think about why the writer mentions the soil at all.",
+          "If the soil did not change, what did?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "No. It is a detail that shows the soil was not the problem.",
+        "accept_ideas": [
+          "no it is a detail",
+          "it is a supporting detail",
+          "no, it rules out the soil",
+          "no, the main idea is the bees"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the soil is made of"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says yes because the soil is described",
+            "ask": "The sentence is there to remove a cause. Which cause is left?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_3_1_0003",
+    "next_irl": 3,
+    "next_means": "The next main-idea stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "main_idea_band_3_1_0004",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_3_1_0003",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

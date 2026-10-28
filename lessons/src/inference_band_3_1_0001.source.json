@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_3_1_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Porch Light That Quits",
+    "skill": "inference",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The words are common and every step is stated. The load is one link: the bulb was good, so the trouble was somewhere else. Measured FK 3.9-4.3 on the two parts (Flesch-Kincaid, approximate syllable count). The reading load sits inside the grade 2-3 band and below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 3.1, band 3.1, sequence 1. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the floor: short sentences, everyday words, one or two links.",
+      "avoided": "No childish subject. No talking down. No invented facts about real named places."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": [
+      "Parts run 55-85 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the load stays at one or two links. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "My uncle put a new bulb in the porch light last week, and it burned for one night. Then it went dark again, so he took the bulb out to look at it. The glass was whole, and the thin wire inside the bulb was not broken. The socket was dry, with no water in it anywhere near the bulbs threads. He had not touched anything else on the porch that week. The switch beside the door still clicked the way it always had.",
+    "part_2": "Then he shut off the power and looked behind the socket. One wire had worked loose from its screw, and that wire fed the bulb. With the wire loose, no power could reach the bulb at all. Old houses do this when a screw is never tightened after the wire is set. He tightened the screw and put the parts back, and the light has worked every night since."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What did the uncle put in the light?",
+      "tutor_only": {
+        "confirm": "Right. A new bulb.",
+        "correct_reason": "The second sentence says he put in a new bulb.",
+        "tell": "He put in a new bulb, and the light worked for one night.",
+        "help": [
+          "Find the sentence about the bulb."
+        ],
+        "say_back": "own_words",
+        "core_idea": "He put in a new bulb.",
+        "accept_ideas": [
+          "a new bulb",
+          "he put in a new bulb",
+          "a bulb"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the switch"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says he put in a new light",
+            "ask": "The passage names the part he put in. What was it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The new bulb is whole and the wire inside it is not broken. What does that tell you about the bulb?",
+      "tutor_only": {
+        "confirm": "Yes. The bulb was still good.",
+        "correct_reason": "Two sentences show the bulb was not damaged: the glass is whole and the wire is not broken.",
+        "tell": "A whole bulb with an unbroken wire is a good bulb. So the trouble was not the bulb.",
+        "help": [
+          "Look at the two sentences that describe the bulb.",
+          "If the bulb is good, the trouble is in another part."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The bulb was good, so it was not the problem.",
+        "accept_ideas": [
+          "the bulb was good",
+          "the bulb was not the problem",
+          "the bulb was fine",
+          "it was still good"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the bulb had been in"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says he needed a better bulb",
+            "ask": "The passage says the bulb was whole. What does that mean for the bulb?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did the light go dark when the wire was loose?",
+      "tutor_only": {
+        "confirm": "Right. No power could get to the bulb.",
+        "correct_reason": "The passage joins the loose wire to the dark light: the wire fed the bulb, so a loose wire cut the power.",
+        "tell": "A wire carries power to the bulb. When it works loose, the power stops at the gap.",
+        "help": [
+          "Find the sentence that says what the loose wire did.",
+          "Look at what a bulb needs in order to burn."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The wire was loose, so no power could reach the bulb.",
+        "accept_ideas": [
+          "no power could reach the bulb",
+          "the power could not get to it",
+          "the wire could not carry power",
+          "the light had no power"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the number of the screw"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the loose wire made the bulb break",
+            "ask": "The passage says the bulb was whole. What did the wire stop?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The passage says the socket was dry. Why does that matter?",
+      "tutor_only": {
+        "confirm": "Yes. It rules out water as the cause.",
+        "correct_reason": "The uncle is checking causes. A dry socket means water is not one of them.",
+        "tell": "He looked for water and found none. That leaves other causes to check.",
+        "help": [
+          "Look at what the uncle was trying to rule out.",
+          "A dry socket rules one cause out. Which one?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "It shows water was not the problem.",
+        "accept_ideas": [
+          "it shows water was not the problem",
+          "water was not the cause",
+          "there was no water in it",
+          "it was not water"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what a socket is made of"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the socket was dry because the light was off",
+            "ask": "The passage uses the dry socket to cross off one cause. Which one?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "Before the light went dark, the switch still clicked as usual. What does that suggest?",
+      "tutor_only": {
+        "confirm": "Yes. The switch was probably fine, so the trouble was elsewhere.",
+        "correct_reason": "The passage lists the switch among the parts that had not changed, and the loose wire turned out to be the cause.",
+        "tell": "A switch that clicks is doing its job. The cause was the loose wire behind the socket.",
+        "help": [
+          "The passage says the switch had not changed.",
+          "Compare the switch with the part that did change."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The switch was probably working, so the problem was in the wiring.",
+        "accept_ideas": [
+          "the switch was probably fine",
+          "the switch was not the problem",
+          "it suggests the switch still worked",
+          "the trouble was somewhere else"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how a switch works inside"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the clicking switch caused the light to fail",
+            "ask": "A clicking switch is a switch that still works. Where did the passage find the real cause?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_3_1_0002",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "inference_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

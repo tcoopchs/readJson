@@ -69,4 +69,40 @@ long lesson it is most of the message length. Worth a design decision, not a def
 ## What this pass does not cover
 
 One model, two lessons, scripted students. It tests whether the file and the shared protocol are
-sufficient, not how a real reader behaves. Lessons 0002-0005 of this rung are still un-cold-chatted.
+sufficient, not how a real reader behaves.
+
+## 2026-10-27 — catalog sweep, all 46 lessons
+
+Two automated sweeps over every compiled lesson, run after the gate and help-copy fixes. Both use a
+scripted student and the same cold-chat contract: the served lesson is the whole system prompt.
+
+| Sweep | Student | Result |
+| --- | --- | --- |
+| Smooth run | `yes`, then the stored core idea for each item | 46 of 46: opened on the first reply, five items asked in order, `done=5 u=5 h=0 an=1`, no private field spoken, no early ticket |
+| Hard path | `yes`, then "I don't know" three times, a say-back, and a stop | 46 of 46: authored help copy only, `tell` reached, stopped ticket with `an=0`, no leak |
+
+Cost: $0.020 for the smooth sweep, $0.051 for the hard path.
+
+The sweeps found three catalog-wide defects, all now fixed:
+
+**6. A single-help item made the tutor invent a hint.** 36 items (23 of them first items) store one
+help line, but instruction 19 told the tutor to ask `help[0]`, then `help[1]`. Three lessons drew an
+improvised second hint ("Ask yourself what the gardener found"). Instruction 19 now says: ask only
+the stored helps, in order, never add one of your own, then go to `tell`.
+
+**7. Eighty-five help lines were written to the tutor, not the student.** They began "Ask what the
+...". The tutor read them back with small repairs ("Ask yourself what ..."), which is not copy anyone
+wrote. All are now student-facing pointers ("Look at what ...", "Think about why ..."). This covers
+inference 3.1, 4.1-4.3, main_idea 3.1, 7.1 and 5.1.
+
+**8. The ready gate dropped the student's first reply.** In the first sweep one `yes` in four was
+answered with `script.ready` again; in session F it failed four turns running. Instructions 3, 5 and
+6 now say: the first reply is `script.ready` only, the next reply always opens the lesson unless it is
+no/nope/not yet, and a question about the lesson gets `skill_frame` plus the first item in one reply.
+Probed with ok, start, hello, "I don't know", and "what is this lesson about": all five open.
+
+Ten student-facing lines used "just" ("not just one true detail", "the sentence just before"), which
+4.2 forbids. All ten are rewritten.
+
+Still open: the near-copy say-back loop (`near_copy_1`, `near_copy_2`, `open`) has never been
+triggered, and misconception branches have been exercised on two lessons only, not all 46.

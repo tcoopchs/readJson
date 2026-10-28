@@ -218,17 +218,19 @@ group. The current corpus passes: 8 sources, 8 distinct works, zero shingle over
 ## 11. Status board
 
 Move a row when its state changes. **Built** means six sources compile and the set is `complete`.
-**Done** means the cold-chat pass is recorded for every lesson in the rung. Nothing here is done yet.
+**Done** means the cold-chat pass is recorded for every lesson in the rung. Every lesson has now been
+through a smooth run and a hard path; `Done` still needs the misconception, injection, and stop
+sessions per rung, which so far exist for main_idea 4.1 only.
 
 | Item | State | Next action |
 | --- | --- | --- |
-| Engine: ticket v2, carry, window, guards | built; `anchor` undefined | define anchor items, then cold-chat the floor |
-| `inference` 3.1 | built, unreviewed | cold-chat 0001, then the rest |
-| `inference` 4.1 | built, adapted text unreviewed | cold-chat 0001-0008 |
-| `inference` 4.2 | built, unreviewed | cold-chat 0001 |
-| `inference` 4.3 | built, unreviewed | cold-chat 0001 |
-| `main_idea` 3.1 | built, unreviewed | cold-chat 0001 |
-| `main_idea` 4.1 | built; 0001 and 0006 cold-chatted | cold-chat 0002-0005 |
+| Engine: ticket v2, carry, window, guards | built; anchor defined as item 1 | cold-chat the floor for misconception and injection |
+| `inference` 3.1 | built; swept | misconception and injection sessions |
+| `inference` 4.1 | built; swept | adapted text still unreviewed; misconception sessions |
+| `inference` 4.2 | built; swept | misconception sessions |
+| `inference` 4.3 | built; swept | misconception sessions |
+| `main_idea` 3.1 | built; swept | misconception sessions |
+| `main_idea` 4.1 | built; 0001 and 0006 through every branch, all six swept | misconception sessions for 0002-0005 |
 | `main_idea` 4.2 | absent | author six — next in Phase 2 |
 | `vocab` 3.1 | absent | after `main_idea` 4.3 |
 | `text_structure` 3.1 | absent | after vocab |
@@ -236,7 +238,7 @@ Move a row when its state changes. **Built** means six sources compile and the s
 | `argument_evidence` 3.1 | absent, and may not fit grade-3 load | decide before authoring |
 | `literary_text` 3.1 | absent | needs a short story |
 | `authors_craft` 3.1 | absent, and may not fit grade-3 load | decide before authoring |
-| `text-bank` rows for the 24 drafted lessons | not written | backfill after the cold-chat pass |
+| `text-bank` rows for the 30 drafted lessons | not written | backfill after the cold-chat pass |
 
 ### Handoff checklist
 

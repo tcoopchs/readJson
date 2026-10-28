@@ -1,0 +1,243 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_3_1_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Bus That Leaves Early",
+    "skill": "main_idea",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "skill_frame": "Find the main idea: decide what a passage is mostly about.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The load is one change and one response. Every sentence supports the same point: the start time moved. Measured FK 3.2-3.9 on the two parts (Flesch-Kincaid, approximate syllable count). The reading load sits inside the grade 2-3 band and below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for main_idea 3.1, band 3.1, sequence 1. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the floor: short sentences, everyday words, one or two links.",
+      "avoided": "No childish subject. No talking down. No invented facts about real named places."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": [
+      "Parts run 55-85 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the load stays at one or two links. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Route 12 used to leave the square at 7:10 every morning. In March it started leaving at 7:05 instead. The bus cannot wait past the light on Third Street, and that light now stays red for a long time. So the bus pulls out five minutes early to stay on time. The new time is printed on the sign at the stop.",
+    "part_2": "Riders noticed the change right away, and some missed the bus for a week. The transit office put a note on the sign and sent a text to people on the route. The ride itself has not changed, and the fare has not changed. The bus still reaches the hospital by 7:40. Only the start time moved."
+  },
+  "items": [
+    {
+      "id": "m1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is the first part mostly about?",
+      "tutor_only": {
+        "confirm": "Right. The bus now leaves five minutes early, and why.",
+        "correct_reason": "Every sentence in the first part serves one point: the new 7:05 start and the red light behind it.",
+        "tell": "The first part is about the new start time and the reason for it.",
+        "help": [
+          "Look at what every sentence in the first part is about.",
+          "The time, the light, and the sign all point to one thing."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The bus now leaves five minutes early, and the red light is why.",
+        "accept_ideas": [
+          "the bus leaves early now",
+          "the bus started leaving at 7:05",
+          "the start time changed",
+          "it leaves five minutes early because of the light"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the street"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about a red light",
+            "ask": "The light is one reason inside a bigger point. What is the whole first part about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is the second part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. Riders and the office adjusted to the new time.",
+        "correct_reason": "The second part moves from riders missing the bus to the sign and text, then says nothing else changed.",
+        "tell": "The second part is about people getting used to the earlier time.",
+        "help": [
+          "Look at what the riders, the note, and the text have in common.",
+          "The last sentences say what did not change. What did?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "People adjusted to the new start time.",
+        "accept_ideas": [
+          "people getting used to it",
+          "riders adjusted",
+          "the office told people",
+          "how people dealt with the new time"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the number of the text message"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about the fare",
+            "ask": "The passage says the fare did not change. What is the second part about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What is the whole passage mostly about?",
+      "tutor_only": {
+        "confirm": "Right. One route changed its start time, and people dealt with it.",
+        "correct_reason": "Both parts serve one idea: the 7:05 start. The first explains it, the second shows the response.",
+        "tell": "The passage is about a bus that started leaving early, and what that did to riders.",
+        "help": [
+          "Both parts are about the same time change.",
+          "One part explains it. The other shows what people did."
+        ],
+        "say_back": "own_words",
+        "core_idea": "One bus route moved its start time five minutes earlier, and riders adjusted.",
+        "accept_ideas": [
+          "one route changed its start time",
+          "the bus leaves five minutes early now",
+          "a schedule change on one route",
+          "the bus start time changed and people adjusted"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the hospital on the route"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about buses in general",
+            "ask": "The passage is about one route and one change. What is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What time does Route 12 leave now?",
+      "tutor_only": {
+        "confirm": "Yes. Seven oh five.",
+        "correct_reason": "The second sentence gives the new time.",
+        "tell": "It leaves at 7:05, five minutes earlier than before.",
+        "help": [
+          "Find the sentence with the new time."
+        ],
+        "say_back": "own_words",
+        "core_idea": "At 7:05.",
+        "accept_ideas": [
+          "7:05",
+          "seven oh five",
+          "seven o five",
+          "705"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the time the hospital opens"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says 7:10",
+            "ask": "That was the old time. What does the passage say it is now?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The passage says the fare did not change. Is that the main idea? Explain.",
+      "tutor_only": {
+        "confirm": "Right. It is one detail, not the main idea.",
+        "correct_reason": "The main idea is the schedule change. The fare appears once, to show what stayed the same.",
+        "tell": "One sentence about the fare does not carry the passage. The passage is about the time.",
+        "help": [
+          "Count how many sentences are about the fare.",
+          "Then look at how many are about the time."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No. It is one detail; the passage is about the start time.",
+        "accept_ideas": [
+          "no it is a detail",
+          "no, it is a supporting detail",
+          "it is just a detail",
+          "no, the main idea is the time change"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the price of the fare"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says yes because the fare is mentioned",
+            "ask": "One mention does not make a main idea. How many sentences are about the time?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "The next main-idea stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "main_idea_band_3_1_0002",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_3_1_0002",
+  "meta": {
+    "status": "published",
+    "title": "The Shelves That Moved",
+    "skill": "main_idea",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "skill_frame": "Find the main idea: decide what a passage is mostly about.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The load is one change and its effect. The passage stays inside one subject: how the books are arranged. Measured FK 3.8-4.4 on the two parts (Flesch-Kincaid, approximate syllable count). The reading load sits inside the grade 2-3 band and below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for main_idea 3.1, band 3.1, sequence 2. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the floor: short sentences, everyday words, one or two links.",
+      "avoided": "No childish subject. No talking down. No invented facts about real named places."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": [
+      "Parts run 55-85 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the load stays at one or two links. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The town library moved its shelves around in June. For years the books were sorted by number. People needed that number to find one. Now the books are sorted by subject. Each row has a sign over it. Cookbooks sit together, and books about cars sit together. The librarian said people come in asking for a subject. Nobody asks for a number.",
+    "part_2": "The first month was slow, because people walked to the old spot and found nothing there. Small cards now point from the old place to the new one. By August most people found what they wanted without asking for help. The number of books in the building did not change at all."
+  },
+  "items": [
+    {
+      "id": "m1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is the first part mostly about?",
+      "tutor_only": {
+        "confirm": "Right. The library changed how the books are sorted.",
+        "correct_reason": "The first part gives the old system, the new system, and the reason.",
+        "tell": "The first part is about sorting books by subject instead of by number.",
+        "help": [
+          "Look at what changed in June."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The library now sorts books by subject instead of by number.",
+        "accept_ideas": [
+          "the books are sorted by subject now",
+          "the library changed how books are sorted",
+          "they sort by subject",
+          "the sorting changed"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the month the shelves moved"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about moving shelves",
+            "ask": "The shelves did move. What is the part about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is the second part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. People were confused at first, then the signs helped.",
+        "correct_reason": "The second part follows readers from the slow first month to the signs that fixed it.",
+        "tell": "The second part is about people learning the new arrangement.",
+        "help": [
+          "Look at what happened in the first month and what changed by August."
+        ],
+        "say_back": "own_words",
+        "core_idea": "People got used to the new arrangement, with help from the signs.",
+        "accept_ideas": [
+          "people got used to it",
+          "the signs helped people find things",
+          "readers learned the new system",
+          "people were confused then found things"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many cards there are"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about the number of books",
+            "ask": "The passage says the number did not change. What is the part about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What is the whole passage mostly about?",
+      "tutor_only": {
+        "confirm": "Right. The library reorganized by subject and readers adjusted.",
+        "correct_reason": "Both parts serve one idea: the new subject arrangement and its effect on readers.",
+        "tell": "The passage is about a library that sorted by subject, and how readers found their way.",
+        "help": [
+          "Both parts are about the same change.",
+          "One part explains it. The other shows the effect."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The library switched to sorting by subject, and readers adjusted.",
+        "accept_ideas": [
+          "the library sorted by subject",
+          "the library changed its sorting and people adjusted",
+          "a new way of arranging books",
+          "sorting by subject instead of number"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the library"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about signs",
+            "ask": "The signs are one thing inside the effect. What is the passage mostly about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why did the librarian change the system?",
+      "tutor_only": {
+        "confirm": "Yes. People ask for a subject, not a number.",
+        "correct_reason": "The last sentence of the first part gives the reason.",
+        "tell": "People come in asking for a subject. Sorting by subject matches what they ask for.",
+        "help": [
+          "Find the librarian's sentence."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because people ask for a subject, not a number.",
+        "accept_ideas": [
+          "people ask for a subject",
+          "people ask by subject not number",
+          "because people ask for subjects",
+          "people look for subjects"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many shelves there are"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the old system was broken",
+            "ask": "The passage gives a reason about what people ask for. What is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The passage says the number of books did not change. Is that the main idea? Explain.",
+      "tutor_only": {
+        "confirm": "Right. It is a detail that shows only the order changed.",
+        "correct_reason": "The sentence about the count appears once, to prove the change was in arrangement, not size.",
+        "tell": "One sentence about the count supports the idea. It is not the idea.",
+        "help": [
+          "Look at what that sentence is there to show.",
+          "Count the sentences about arrangement."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No. It is a detail showing that only the order changed.",
+        "accept_ideas": [
+          "no it is a detail",
+          "it is a supporting detail",
+          "no, the main idea is the sorting",
+          "no it just shows the books stayed the same"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the exact number of books"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says yes because the count is mentioned",
+            "ask": "One sentence out of many does not carry the passage. What is it there to show?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_3_1_0002",
+    "next_irl": 3,
+    "next_means": "The next main-idea stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "main_idea_band_3_1_0003",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_3_1_0002",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

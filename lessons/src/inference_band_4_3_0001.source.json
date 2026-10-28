@@ -1,0 +1,241 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_4_3_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Well That Runs Dry in August",
+    "skill": "inference",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "skill_frame": "Use facts in the passage to work out something it does not say directly.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is three links held across parts: recharge happens in spring, the table falls in summer, and irrigation peaks at the same time. Measured FK 5.2-5.6 on the 3 parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and rises across the stage.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for inference 4.3, sequence 1. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the stage: everyday subject, stated facts, links held apart.",
+      "avoided": "No named real places or people. No figures that could go stale."
+    },
+    "session": {
+      "scope": "build-front",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and number of links, climbing one knob per sequence."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A farmhouse well has supplied water for forty years. In most months the pump runs without trouble. Every August the well runs low, and twice the pump has pulled air instead of water. The neighbours' wells, a few hundred metres away, do not run low in August. The pump was replaced two years ago, and the well was drilled deeper in 1998.",
+    "part_2": "A well draws from groundwater that seeps through soil and rock. Rain and snowmelt recharge that water, and most of the recharge happens in spring. Through the summer the water table falls, because plants draw water up and the sun evaporates it. A deep well keeps more in reserve, and this one is deep.",
+    "part_3": "The farmer also waters a large garden from the same well, and the garden is largest in August. The neighbours' wells are shallow, but they sit on the other side of a low ridge, where a different band of soil holds water longer. The well is not failing. It is being asked for more water in the month when there is least to draw on."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "When does the well run low?",
+      "tutor_only": {
+        "confirm": "Right. Every August.",
+        "correct_reason": "The third sentence says the well runs low every August.",
+        "tell": "It runs low in August, and twice the pump has pulled air.",
+        "help": [
+          "Find the sentence with the month."
+        ],
+        "say_back": "own_words",
+        "core_idea": "In August.",
+        "accept_ideas": [
+          "august",
+          "every august",
+          "in august"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how deep the well is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says in spring",
+            "ask": "Spring is when the water comes back. When does the well run low?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The neighbours' wells do not run low. What does that rule out?",
+      "tutor_only": {
+        "confirm": "Yes. It rules out a shortage across the whole area.",
+        "correct_reason": "Wells a few hundred metres away keep water. That removes a regional drought as the explanation for this specific well.",
+        "tell": "If the whole area were dry, the neighbours would be dry too. They are not, so the cause is local.",
+        "help": [
+          "Look at what the neighbours' wells prove.",
+          "They are close by and still full. What does that say about the area?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "It rules out a shortage of water across the whole area.",
+        "accept_ideas": [
+          "it is not a regional drought",
+          "the area is not dry",
+          "it rules out drought",
+          "the shortage is local"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the neighbours' wells are"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the neighbours use less water",
+            "ask": "That may be true, but what does the passage use their wells to show?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why is August the low point for the water table?",
+      "tutor_only": {
+        "confirm": "Right. Recharge happens in spring, and the summer draws it down.",
+        "correct_reason": "The passage places recharge in spring and summer losses after it, which puts the low point late in summer.",
+        "tell": "The water is replenished in spring. All summer it is drawn down by plants and sun, so August is the bottom.",
+        "help": [
+          "Find the sentence about when recharge happens.",
+          "Then find what happens through the summer."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Recharge comes in spring, and the summer draws the water down, so August is lowest.",
+        "accept_ideas": [
+          "recharge is in spring and summer draws it down",
+          "the table falls all summer",
+          "spring refills it and summer empties it",
+          "it is lowest at the end of summer"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how hot August is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says August is the hottest month",
+            "ask": "Heat matters, but the passage gives a sequence. When does the water come in?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The passage says the pump is new and the well is deep. Why mention both?",
+      "tutor_only": {
+        "confirm": "Yes. To rule out equipment and depth as the cause.",
+        "correct_reason": "Both facts would explain a failing well. The passage removes them so the reader looks at demand and the water table.",
+        "tell": "A new pump and a deep well are the two things people would blame. Neither is the problem.",
+        "help": [
+          "Look at what a reader would blame for a well running dry.",
+          "Then find where the passage takes those away."
+        ],
+        "say_back": "own_words",
+        "core_idea": "To rule out the pump and the well's depth as causes.",
+        "accept_ideas": [
+          "to rule them out",
+          "the pump and depth are fine",
+          "so it is not equipment",
+          "to show those are not the problem"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who drilled the well"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the pump is too small",
+            "ask": "The pump is two years old and the well is deep. What do those facts remove?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What are the two things happening at once in August?",
+      "tutor_only": {
+        "confirm": "Right. The water table is lowest and the garden asks for the most.",
+        "correct_reason": "The passage puts the lowest water table and the largest garden demand in the same month.",
+        "tell": "August is when there is least water underground and the most water wanted above it.",
+        "help": [
+          "Find the month in both halves of the passage.",
+          "One is about supply. The other is about demand."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The water table is at its lowest and the garden needs the most water.",
+        "accept_ideas": [
+          "lowest water and most demand",
+          "the table is low and the garden is big",
+          "least water and most use",
+          "low supply and high demand"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the garden grows"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says August is dry",
+            "ask": "Dry is only half of it. What is the farmer doing in the same month?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "The first lesson in the next inference stage.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "inference_band_4_3_0002",
+    "next_irl": 4,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "The next reading is another lesson on this skill in this stage."
+  },
+  "stopped": {
+    "next_file": "inference_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

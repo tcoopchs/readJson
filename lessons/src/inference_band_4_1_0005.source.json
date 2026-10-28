@@ -91,7 +91,7 @@
         "tell": "Water dissolves the rock it touches. A crack lets water in, so the crack slowly opens.",
         "help": [
           "Find the sentences about cracks and layers.",
-          "Ask what the water does to the rock it touches."
+          "Look at what the water does to the rock it touches."
         ],
         "say_back": "own_words",
         "core_idea": "Because the water dissolves the rock along the cracks, so they widen.",
