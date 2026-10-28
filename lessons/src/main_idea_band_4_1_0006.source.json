@@ -1,0 +1,249 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Notebook of Repairs That Failed",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not just one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is two records, and an idea stated only in the last two sentences. Measured FK 5.9-6.5 on the three parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and climbs one knob at a time across the rung: clue distance, then competing details, then how far the idea sits from words the passage uses.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for main_idea 4.1, sequence 6. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "The band's ceiling: the first two parts describe two records without ranking them, and the central idea depends on the contrast the last part draws.",
+      "avoided": "No named repair cafe, no brand names, no part numbers."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance, competing details, and distance between the idea and the words."
+    },
+    "authoring_exceptions": [
+      "Parts run 75-79 words instead of 100-200. The rung's ceiling lesson keeps three short parts so the contrast between the two records stays in view; the passage totals 230 words over 12 minutes. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The repair cafe opens in a church hall on the first Saturday of the month. People bring lamps, radios, kettles, and once a riding mower. Volunteers with soldering irons sit at long tables and try to fix what comes in. Nobody takes minutes at the tables. For two years the group kept one record: a list of the machines it had fixed, with a total at the bottom. The list was used in a grant application and nowhere else.",
+    "part_2": "Then a volunteer started a second notebook for the machines that could not be fixed. Each line gave the model, the fault, what was tried, and why it failed. Some cases could not be opened without breaking them. Some needed a part that is no longer made. Some had a battery sealed inside. The glue never held when that case was closed again. After a year, the volunteers read the notebook before they opened anything.",
+    "part_3": "The notebook changed the work in two ways. Volunteers stopped spending an hour on machines the group had already failed to open. They also began telling a visitor at the door what was likely, before the visitor waited. In the year after the notebook started, the share of machines fixed rose from half to two thirds. That was the group's best year. The list of successes never taught the group anything. The record of failures did."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What was the group's only record for two years?",
+      "tutor_only": {
+        "confirm": "Right. A list of the machines it had fixed.",
+        "correct_reason": "The part says the group kept one record, a list of fixed machines with a total, used in a grant application.",
+        "tell": "For two years the group only kept a list of the machines it had fixed.",
+        "help": [
+          "Find the sentence that describes the one record.",
+          "Then look at where the list was used."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A list of the machines the group had fixed.",
+        "accept_ideas": [
+          "a list of machines they fixed",
+          "the machines that were fixed",
+          "a list of successes",
+          "what they had repaired"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the total at the bottom"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it was a notebook of failures",
+            "ask": "The second notebook comes later. What did the group keep for two years first?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What did the second notebook hold?",
+      "tutor_only": {
+        "confirm": "Yes. The machines that could not be fixed, and why each attempt failed.",
+        "correct_reason": "The part lists the line contents: model, fault, what was tried, and why it failed, with three kinds of failure.",
+        "tell": "It held the machines that could not be fixed, and for each one, what was tried and why it failed.",
+        "help": [
+          "Find the sentence that lists what each line gave.",
+          "Then name the three kinds of failure it names."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The machines that could not be fixed, with what was tried and why it failed.",
+        "accept_ideas": [
+          "machines that could not be fixed",
+          "the failures and why they failed",
+          "what was tried on each machine",
+          "a record of failures"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the volunteer"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it held the fixed machines",
+            "ask": "There were already a list of those. What was the second notebook for?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did the volunteers read the notebook before opening a machine?",
+      "tutor_only": {
+        "confirm": "Right. So they would not spend an hour repeating a fix that had already failed.",
+        "correct_reason": "The part says they read it first, and part three explains the hour they stopped spending on machines the group had already failed to open.",
+        "tell": "They read it so they would not try a repair the group had already failed at.",
+        "help": [
+          "Look at what part three says they stopped doing.",
+          "The notebook records what was already tried."
+        ],
+        "say_back": "own_words",
+        "core_idea": "So they would not repeat a repair that had already failed.",
+        "accept_ideas": [
+          "to avoid repeating a failed fix",
+          "to see what had already been tried",
+          "so they did not waste time",
+          "to know what not to try"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who wrote the notebook"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says they read it to copy a repair",
+            "ask": "The notebook is about failures. What can a failed repair tell them?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. A repair group began recording its failures, and that record taught it more than its list of successes.",
+        "correct_reason": "Part one is the list of successes, part two the notebook of failures, part three the two changes and the rise in the share fixed.",
+        "tell": "The passage is about a repair group that started writing down what it could not fix, and learned more from those notes than from its count of successes.",
+        "help": [
+          "The last two sentences of the passage state the idea. Read them again.",
+          "Part one and part two each describe a record. Which one changed the work?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "A repair group started recording its failures, and that record taught it more than its list of successes did.",
+        "accept_ideas": [
+          "recording failures taught the group more than recording successes",
+          "the notebook of failures made them better",
+          "writing down what failed helped the group",
+          "failures taught them more than successes"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the church hall"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about a list of fixed machines",
+            "ask": "That list is one part, and the passage says it taught nothing. What did?"
+          },
+          {
+            "when": "the student says it is about batteries sealed inside",
+            "ask": "That is one kind of failure. What did the notebook of failures do for the group?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage says the list of successes never taught the group anything. Why not?",
+      "tutor_only": {
+        "confirm": "Right. The successes only said what already worked; the failures said what to stop trying and what to tell a visitor.",
+        "correct_reason": "Part three ties the notebook to two changes in practice and a rise in the share of machines fixed, from half to two thirds.",
+        "tell": "A fixed machine told them the repair worked. A failure told them what not to try, and what to say at the door before a visitor waited.",
+        "help": [
+          "Compare what a success tells a volunteer with what a failure tells them.",
+          "Part three names two changes in practice."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The successes only confirmed what worked, while the failures told them what to stop trying and what to tell a visitor.",
+        "accept_ideas": [
+          "successes told them nothing new",
+          "the failures showed what not to try",
+          "a failure tells you what to change",
+          "the failures were the useful part"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many volunteers attend"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the list was never written down",
+            "ask": "It was written down and used in a grant application. Why did it teach nothing?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this band; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "Another main-idea lesson in this band.",
+    "student_line": "The next reading is another main-idea lesson in this band."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

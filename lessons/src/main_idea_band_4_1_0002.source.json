@@ -1,0 +1,252 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_1_0002",
+  "meta": {
+    "status": "published",
+    "title": "Why the Bus Turns at the Mill",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not just one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is two costs and one gain, with the point of the route stated in the middle part. Measured FK 4.6-6.6 on the three parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and climbs one knob at a time across the rung: clue distance, then competing details, then how far the idea sits from words the passage uses.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for main_idea 4.1, sequence 2. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "One knob up: the gain is stated plainly but spread over two sentences, and one part carries the people who lost something.",
+      "avoided": "No real transit agency, no named town, no timetable figures."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance, competing details, and distance between the idea and the words."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The number seven bus used to run straight past the old mill and stop a mile later, at the edge of the flats. Almost nobody got on or off along that mile. Drivers called it the empty mile, and they said so at the depot, where a late run costs the whole afternoon. Riders who worked at the mill walked from the flats stop, in rain and in the dark. The town counted riders on that stretch for a month, and the count came back at two people a day. The bus burned fuel and time on that mile twice an hour, and two riders do not pay for a mile of driving.",
+    "part_2": "In March the town moved the stop to the mill gate, which cost some riders a walk of about two hundred feet because they live past the mill. In exchange, the bus reaches the mill eight minutes sooner. It turns around there, and the same bus makes its next run with those minutes. Riders along the whole route now wait less, not more. The town put a sign at the mill gate a week before the change, and drivers said the turn was easier than the mile. Ridership on the number seven rose by a fifth in two months.",
+    "part_3": "Not everyone gained. Three houses on the flats lost the stop outside their doors, and the people living there are older and walk slowly. The town did not tell them to walk. It added a morning van that circles the flats twice, with one run before the mill shift and one after it, and the van costs less to run than the empty mile did. The van carries six people on a busy morning. The route change was a trade, and the town chose which side to spend on."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What was wrong with the old route?",
+      "tutor_only": {
+        "confirm": "Right. The bus spent fuel and time on a mile where two people a day got on or off.",
+        "correct_reason": "The part counts the riders on the mile, then names the fuel and time the bus burned there twice an hour.",
+        "tell": "The old route wasted fuel and time on a mile that almost nobody used.",
+        "help": [
+          "Find the number of riders the town counted.",
+          "Then look at what the last sentence says the bus burned."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The bus spent fuel and time on a mile where almost nobody got on or off.",
+        "accept_ideas": [
+          "it wasted time on an empty mile",
+          "almost nobody rode on that mile",
+          "the bus burned fuel for two riders",
+          "the mile was empty"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the depot"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the bus was always late",
+            "ask": "The passage does not blame lateness here. What does it say the mile cost?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The town made some riders walk farther. What did it get in exchange?",
+      "tutor_only": {
+        "confirm": "Yes. Eight minutes saved on each trip, and a bus that starts its next run on time.",
+        "correct_reason": "The part says the bus reaches the mill eight minutes sooner, uses those minutes on the next run, and carries a fifth more riders.",
+        "tell": "The town gained eight minutes a trip, which keeps the next run on time, and more people ride.",
+        "help": [
+          "Find the sentence about the eight minutes.",
+          "Then ask what the same bus does with those minutes."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The bus saves eight minutes and its next run starts on time.",
+        "accept_ideas": [
+          "eight minutes sooner",
+          "the bus stays on time for the rest of the route",
+          "a faster trip for everyone on the route",
+          "more riders"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the exact length of the walk"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the town saved money on fuel",
+            "ask": "Fuel is not named as the gain here. What does the part say about time?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "What is the third part mostly about?",
+      "tutor_only": {
+        "confirm": "Right. The town added a van so the people who lost their stop still have a ride.",
+        "correct_reason": "The part names the three houses, then reports the morning van that circles the flats twice a day.",
+        "tell": "The third part is about the people who lost their stop and the van the town added for them.",
+        "help": [
+          "Find what the town did instead of telling those people to walk.",
+          "Then ask who the van is for."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The town added a van for the people who lost their stop, so they were not left without a ride.",
+        "accept_ideas": [
+          "the town added a van",
+          "the people who lost a stop got a van",
+          "the town covered the loss",
+          "a van circles the flats"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the people are",
+          "how much the van costs"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the third part is about the cost of the van",
+            "ask": "Cost is one sentence. What is the van for?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. The town moved a stop to trade a longer walk for a few riders against a shorter, more reliable ride for everyone else.",
+        "correct_reason": "The three parts are the problem, the change and its gain, and the people who lost something and what the town did for them.",
+        "tell": "The passage is about a town that moved a bus stop to save time for the whole route, and added a van for the few riders who lost their stop.",
+        "help": [
+          "Name the problem, the change, and the repair, in one idea.",
+          "Parts one and two are the gain. Part three is who paid for it."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The town traded a small walk for a few riders against a shorter, more reliable ride for everyone else, and covered the loss with a van.",
+        "accept_ideas": [
+          "the town moved a stop and added a van",
+          "a bus route changed to save time for everyone",
+          "the town traded a walk for a better route",
+          "a route change that helped most riders"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the number of the bus",
+          "the length of the empty mile"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about a bus that carries more riders",
+            "ask": "More riders is one result. What did the town change to get them?"
+          },
+          {
+            "when": "the student says it is about people who lost their bus stop",
+            "ask": "That is one part. What happened on the whole route?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage calls the change a trade. What did the town give up, and what did it gain?",
+      "tutor_only": {
+        "confirm": "Right. It gave up a stop at three doorsteps and gained time for every rider on the route.",
+        "correct_reason": "The trade is stated at the end and shown twice: a two-hundred-foot walk for some riders, eight saved minutes and a fifth more riders for the route.",
+        "tell": "The town gave up door-to-door service for three houses and gained eight minutes and more riders on the whole route.",
+        "help": [
+          "Find the sentence that uses the word trade.",
+          "Then name what each side of the trade lost or gained."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It gave up service at three doorsteps and gained time for every rider on the route.",
+        "accept_ideas": [
+          "it gave up the stop at three houses and gained time",
+          "three houses lost a stop, everyone else saved eight minutes",
+          "a few people walk farther so the bus runs on time"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the cost of the van in dollars"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the town gained nothing",
+            "ask": "Part two names the gain. What does it say about the eight minutes?"
+          },
+          {
+            "when": "the student says the town gave up the mill stop",
+            "ask": "The mill stop is the new one. Which stop was removed?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this band; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_1_0003",
+    "next_irl": 4,
+    "next_means": "Another main-idea lesson in this band.",
+    "student_line": "The next reading is another main-idea lesson in this band."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_1_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

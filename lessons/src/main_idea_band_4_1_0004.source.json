@@ -1,0 +1,250 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_1_0004",
+  "meta": {
+    "status": "published",
+    "title": "The Shelf People Choose From",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not just one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is a stated problem, a measured result, and a doubt the count settles. Measured FK 4.7-6.0 on the three parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and climbs one knob at a time across the rung: clue distance, then competing details, then how far the idea sits from words the passage uses.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for main_idea 4.1, sequence 4. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "One knob up: two parts state their points, and the central idea has to cover both the waste and the doubt about taking too much.",
+      "avoided": "No named food bank, no dollar amounts beyond the shelf cost, no local figures."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance, competing details, and distance between the idea and the words."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The pantry used to hand every family a packed box. Volunteers filled the boxes on Thursday nights with whatever had come in that week. A family took the whole box home, and nobody asked what the family cooked. A box might hold six cans of beans and no rice, or rice and nothing to put on it. At the end of each month, the pantry weighed what came back unopened. It also weighed what went into the trash behind the building. The number was not small. The pantry was giving away food that people could not use.",
+    "part_2": "In January the pantry put up shelves and let people choose. A family walks through with a volunteer and takes what it cooks. Volunteers write down what each family took, so the pantry can see whether the shelves run low. The pantry weighed again in March, and the waste had fallen by half. The surprise was the amount: families came more often, but each one took less. The shelves cost the pantry two hundred dollars and a Saturday of work. The boxes had cost almost nothing to build, and they hid the problem for years.",
+    "part_3": "Some volunteers expected the shelves to fail. They said people would take too much, and the pantry would run out before the end of the month. The count said otherwise. One of them said the count was the argument. The shelves did cost more hours, because someone has to sort and stack what the boxes used to hide. The pantry decided the hours were worth the food it stopped throwing away. The volunteers who had doubted the change now run the shelves."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What problem did the packed boxes cause?",
+      "tutor_only": {
+        "confirm": "Right. Families got food they could not use, and the pantry threw some of it away.",
+        "correct_reason": "The part says a box might hold six cans of beans and no rice, and that the pantry weighed what came back and what went into the trash.",
+        "tell": "The boxes gave families food they could not cook, so some of it came back or was thrown away.",
+        "help": [
+          "Find the sentence that describes what a box might hold.",
+          "Then ask what the pantry weighed at the end of the month."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Families got food they could not use, and the pantry threw away some of it.",
+        "accept_ideas": [
+          "people got food they could not use",
+          "the boxes were wasted",
+          "families could not cook what was in the box",
+          "the pantry wasted food"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the boxes weighed"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the boxes were too heavy",
+            "ask": "Weight is how the pantry measured, not the problem. What was inside the boxes?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What happened after the pantry put up shelves?",
+      "tutor_only": {
+        "confirm": "Yes. The waste fell by half, and families took less each time even though they came more often.",
+        "correct_reason": "The March weigh-in shows the waste halved; the part also reports more visits but smaller amounts taken.",
+        "tell": "The waste fell by half. Families came more often but took less each visit.",
+        "help": [
+          "Find the sentence with the March weigh-in.",
+          "Then read the sentence that starts with the word surprise."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The waste fell by half, and families took less each visit.",
+        "accept_ideas": [
+          "the waste fell by half",
+          "people took only what they could use",
+          "there was less waste",
+          "families came more often and took less"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the exact weight in pounds"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the pantry ran out of food",
+            "ask": "Running out is what volunteers feared. What does the count say?"
+          },
+          {
+            "when": "the student says the shelves cost two hundred dollars",
+            "ask": "Cost is one sentence. What happened to the waste?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "What did the volunteers who expected failure get wrong?",
+      "tutor_only": {
+        "confirm": "Right. They said people would take too much, and families took less.",
+        "correct_reason": "The part gives their prediction, then the count that contradicted it.",
+        "tell": "They expected people to take too much. Instead families took less, and the pantry did not run out.",
+        "help": [
+          "Find the sentence that says what they expected.",
+          "Then find the two words that answer it."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They said people would take too much, and families took less instead.",
+        "accept_ideas": [
+          "people took less than they expected",
+          "the pantry did not run out",
+          "families took only what they cooked",
+          "the shelves did not fail"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who doubted the change"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the volunteers were right",
+            "ask": "Read the sentence that begins with the count. Did the pantry run out?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. Letting families choose cut the waste in half, and nobody took too much.",
+        "correct_reason": "The three parts are the waste under the boxes, the drop after the shelves, and the doubt that the count settled.",
+        "tell": "The passage is about a pantry that let families choose their own food, which cut the waste in half without anyone taking too much.",
+        "help": [
+          "Join the problem in part one to the result in part two.",
+          "Part three answers the worry that choice would cost the pantry food."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A pantry let families choose their own food, and the waste fell by half without anyone taking too much.",
+        "accept_ideas": [
+          "letting people choose cut the waste",
+          "a pantry stopped wasting food by letting people choose",
+          "choice worked better than packed boxes",
+          "the shelves cut waste and nobody took too much"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the price of the shelves"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about a shelving project",
+            "ask": "The shelves are how the pantry changed. What did the change do?"
+          },
+          {
+            "when": "the student says it is about volunteers who doubted the change",
+            "ask": "The doubt is one part. What did the count show?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "A reader says the passage is mostly about a two-hundred-dollar shelving project. What does that idea miss?",
+      "tutor_only": {
+        "confirm": "Right. It leaves out the waste and the amounts families took, which is what the pantry was testing.",
+        "correct_reason": "The shelves are the means. The passage measures waste, visits, and how much each family took.",
+        "tell": "It misses the result. The shelves cut the waste in half and showed that people take less, not more.",
+        "help": [
+          "Look at what the pantry weighed before and after.",
+          "The price appears once. How many parts are about waste?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "It misses the change in waste and in how much families took.",
+        "accept_ideas": [
+          "it misses the waste and what people took",
+          "the point is the waste, not the shelves",
+          "it leaves out the result"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who built the shelves"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says nothing is missing",
+            "ask": "Read the sentence about the March weigh-in. Is it about shelves?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this band; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_1_0005",
+    "next_irl": 4,
+    "next_means": "Another main-idea lesson in this band.",
+    "student_line": "The next reading is another main-idea lesson in this band."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_1_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

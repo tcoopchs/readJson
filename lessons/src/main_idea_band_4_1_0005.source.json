@@ -1,0 +1,247 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_1_0005",
+  "meta": {
+    "status": "published",
+    "title": "Breakfast at Four in the Afternoon",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not just one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is a stated problem, a stated result, and a reason stated in someone's words. Measured FK 4.3-5.7 on the three parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and climbs one knob at a time across the rung: clue distance, then competing details, then how far the idea sits from words the passage uses.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for main_idea 4.1, sequence 5. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Retry text: two parts state their points plainly, and the third reports what the manager says made the difference.",
+      "avoided": "No named hospital, no menu prices, no staff numbers."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance, competing details, and distance between the idea and the words."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The cleaning crew at the hospital works from eleven at night until seven in the morning. The cafeteria closes at eight, so the crew eats from a vending machine around three. The machine is the only thing open at that hour. Some of the crew go home and eat a large meal before sleeping, and then sleep badly. The crew asked for one thing in a staff survey: a hot meal in the middle of the shift. The hospital read the survey and did nothing for a year.",
+    "part_2": "In the spring the cafeteria opened at three in the morning for six weeks as a trial. The crew ate at the same tables at the same hour. Many of them had never done that. The kitchen served eggs, rice, and soup, and cooks were paid overtime for the trial. The cost was covered by the vending sales the cafeteria lost. At the end of six weeks, the crew reported sleeping better, and the large meals at home had mostly stopped. The trial cost the hospital less than the machines earned in a month.",
+    "part_3": "The cafeteria kept the three o'clock hour four nights a week. The manager said the food was not the reason. What changed was the hour and the table. The crew sat together before going home, instead of eating alone at a machine. The crew's own words were that the meal made the night shorter. The manager wrote the change up in one paragraph for the next survey. The hospital now counts that hour as part of the shift, and the crew is paid for it."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why did the crew eat from a vending machine?",
+      "tutor_only": {
+        "confirm": "Right. The cafeteria closes at eight, and the crew works all night.",
+        "correct_reason": "The part gives the shift hours and the closing time, then places the vending meal at three in the morning.",
+        "tell": "The cafeteria was closed during their shift, so the crew ate from a machine at three in the morning.",
+        "help": [
+          "Find the two times in the first two sentences.",
+          "Then look at the hour the crew eats."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The cafeteria was closed during their shift, so they ate from a machine.",
+        "accept_ideas": [
+          "the cafeteria was closed",
+          "nothing was open at night",
+          "the kitchen shut before their shift",
+          "they worked while the cafeteria was closed"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the machine sold"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says they liked the machine",
+            "ask": "The passage does not say that. Why was the machine the only choice?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What did the hospital learn from the six-week trial?",
+      "tutor_only": {
+        "confirm": "Yes. The crew slept better and stopped eating a large meal at home.",
+        "correct_reason": "The part reports the trial, then two results: better sleep and the end of the large meals at home.",
+        "tell": "The crew slept better, and the large meals at home mostly stopped.",
+        "help": [
+          "Find the sentence about the end of six weeks.",
+          "Then name the two changes it reports."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The crew slept better, and the large meals at home mostly stopped.",
+        "accept_ideas": [
+          "the crew slept better",
+          "they stopped eating big meals at home",
+          "the trial worked for the crew",
+          "the shift went better"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the kitchen served"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the hospital learned the food was too expensive",
+            "ask": "Cost is one sentence in the part. What happened to the crew's sleep?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "What did the manager say made the difference?",
+      "tutor_only": {
+        "confirm": "Right. The hour and the table, not the food.",
+        "correct_reason": "The part quotes the manager: the food was not the reason, and the change was sitting together at the same hour.",
+        "tell": "The manager said the hour and eating together made the difference, not the food.",
+        "help": [
+          "Find the sentence about what changed.",
+          "It names two things, and neither is on the plate."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The hour and the table made the difference, not the food.",
+        "accept_ideas": [
+          "eating together",
+          "the hour and the table",
+          "the crew sat together",
+          "the time of the meal"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the cost of the food"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the eggs and rice made the difference",
+            "ask": "The manager says the food was not the reason. What does he name instead?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. A hospital opened the cafeteria at three in the morning, and the shared meal changed the crew's nights.",
+        "correct_reason": "Part one is the vending meal, part two the trial and its results, part three what the manager says the change really was.",
+        "tell": "The passage is about a hospital that opened its cafeteria at three in the morning, and the meal at the right hour helped the crew more than the food did.",
+        "help": [
+          "Join the trial in part two to the manager's words in part three.",
+          "The food is on the plate. What does the passage say mattered?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "A hospital served a hot meal at three in the morning, and eating together at that hour changed the crew's nights more than the food did.",
+        "accept_ideas": [
+          "a hot meal in the middle of the night",
+          "the hospital opened the cafeteria at night",
+          "night workers got a meal and slept better",
+          "a shared meal at the right hour"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the meal cost"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about eggs and rice",
+            "ask": "The menu is one sentence. What does the manager say made the difference?"
+          },
+          {
+            "when": "the student says it is about a vending machine",
+            "ask": "The machine is the problem in part one. What did the hospital do about it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The crew said the meal made the night shorter. Why would a meal do that?",
+      "tutor_only": {
+        "confirm": "Right. They stopped eating alone at a machine and sat together at a table in the middle of the shift.",
+        "correct_reason": "The passage ties the change to the hour and the table, then reports better sleep and the end of large meals at home.",
+        "tell": "The meal broke up the shift and gave the crew a table to sit at together, so the night felt shorter and they slept better after it.",
+        "help": [
+          "Look at what the manager says changed.",
+          "Then look at what stopped at home."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They sat together at a table in the middle of the shift instead of eating alone, and they slept better after it.",
+        "accept_ideas": [
+          "they ate together instead of alone",
+          "the break in the middle of the shift",
+          "they stopped eating a big meal at home",
+          "they had company during the shift"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the length of the shift in hours"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the food was better",
+            "ask": "The manager says the food was not the reason. What was?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this band; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "Another main-idea lesson in this band.",
+    "student_line": "The next reading is another main-idea lesson in this band."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_1_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

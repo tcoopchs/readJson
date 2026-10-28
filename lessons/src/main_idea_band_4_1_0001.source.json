@@ -1,0 +1,250 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_1_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Shed That Lends",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not just one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "The load is a stated point at the start of every part. Measured FK 6.0-6.3 on the three parts (Flesch-Kincaid, approximate syllable count). The load sits inside the grade 4-5 band and climbs one knob at a time across the rung: clue distance, then competing details, then how far the idea sits from words the passage uses.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for main_idea 4.1, sequence 1. No external work.",
+      "text_status": "Drafted for the band, reviewed.",
+      "drafted_by": "TC review pending",
+      "survey": "Written to the stage: each part states its point in the first sentence, so clue distance is short and the work is deciding what covers all three parts.",
+      "avoided": "No named real places or people. No prices that could go stale."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance, competing details, and distance between the idea and the words."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The town library lends more than books. Last spring it opened a tool shed behind the reading room, where drills, saws, ladders, and a tile cutter sit on shelves. A card holder can borrow a tool for three weeks, on the same rules as a book. Staff keep a paper list of what leaves and what comes back. A volunteer crew built the shed in four weekends, using lumber from the town and space from the library. On the first Saturday, eleven people carried tools out the back door, and most of them had walked there. The nearest hardware store is a thirty-minute drive, and that drive is the reason the shed exists.",
+    "part_2": "The shed changes what a repair costs. A drill costs about the same as a week of groceries, and most people need one for an afternoon. Borrowing turns that price into a walk to the library. The shed buys very little. Most of what hangs on its wall came from garages and basements in town. A volunteer repairs the donated tools on Tuesdays, and a saw with a new handle cuts as well as a new one. Since the shed opened, the library counts more weekday visits, and many of those visits are for the shed rather than the shelves.",
+    "part_3": "The shed needs one thing the library cannot lend, and that is someone who knows how. On the first Tuesday of each month, two retired tradespeople sit at a table and show borrowers how to use a tool safely. A borrower can bring in a broken item and ask what is wrong with it. The table is not a repair shop. The volunteers show the borrower how to do the work, and the borrower does it. That rule keeps the shed cheap, because the library never pays for repairs. The volunteers are not paid either."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is the first part mostly about?",
+      "tutor_only": {
+        "confirm": "Right. The library opened a shed so people can borrow tools close to home.",
+        "correct_reason": "The part names the shed, what sits on its shelves, how long a tool may be kept, and the thirty-minute drive that explains it.",
+        "tell": "The first part is about a library that lends tools, because the nearest hardware store is thirty minutes away.",
+        "help": [
+          "Look at what the shed holds and who may borrow from it.",
+          "The last sentence says why the shed was opened."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The library opened a tool shed so people can borrow tools instead of driving to a hardware store.",
+        "accept_ideas": [
+          "the library lends tools",
+          "a tool shed opened at the library",
+          "people can borrow tools from the library",
+          "the library has tools to lend"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the kinds of tools on the shelf",
+          "how long a card lasts"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about a tile cutter",
+            "ask": "A tile cutter is one tool on the shelf. What does the whole first part say about the shed?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is the second part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. Borrowing saves the cost of buying, and donated tools keep the shelf full.",
+        "correct_reason": "The part compares a drill with a week of groceries, then explains that the shed buys little and repairs what it is given.",
+        "tell": "The second part is about what the shed saves. People borrow instead of buying, and old tools are repaired for the shelf.",
+        "help": [
+          "Find the sentence that compares a drill with groceries.",
+          "Then ask what the shed does with tools people give away."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Borrowing a tool saves the cost of buying one, and donated tools keep the shed stocked.",
+        "accept_ideas": [
+          "borrowing is cheaper than buying",
+          "people save money by borrowing tools",
+          "donated tools fill the shed",
+          "it saves people money"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the price of a saw",
+          "how many visits the library counts"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about a volunteer who repairs saws",
+            "ask": "The saw is one example. What does that example show about what a borrower pays?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "What is the third part mostly about?",
+      "tutor_only": {
+        "confirm": "Right. The volunteers teach the work, and the borrower does it.",
+        "correct_reason": "The part states the rule of the table: volunteers show how, the borrower does the work, and the library pays nothing.",
+        "tell": "The third part is about volunteers who show borrowers how to do the work, which keeps repairs free for the library.",
+        "help": [
+          "Read the sentence about what the table is not.",
+          "Then ask who does the work at the table."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Volunteers teach borrowers to do the work themselves, which keeps the shed cheap.",
+        "accept_ideas": [
+          "volunteers show people how to use tools",
+          "people learn to do their own repairs",
+          "the volunteers teach, they do not repair",
+          "the shed teaches instead of repairing"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which tools the volunteers own",
+          "how many borrowers come on a Tuesday"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the volunteers fix broken tools",
+            "ask": "The passage says the table is not a repair shop. Who does the work?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. A library lends tools and teaches people to use them, because buying a tool for one job costs too much.",
+        "correct_reason": "All three parts sit under one idea: the shed lends tools, it saves the cost of buying, and volunteers teach the work so the shed stays cheap.",
+        "tell": "The passage is about a library that lends tools and teaches people to use them, so a repair costs a walk instead of a purchase.",
+        "help": [
+          "Name what every part is about, not only the last one.",
+          "Parts one and two are about tools. Part three is about the people who teach."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A town library lends tools and teaches people to use them, because buying a tool for one job costs too much.",
+        "accept_ideas": [
+          "a library that lends tools and teaches people to use them",
+          "a tool shed that saves people money and shows them how",
+          "the library lends tools and helps people learn to use them"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the price of a drill",
+          "the library's weekday visits"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about a library with more weekday visits",
+            "ask": "Visits are a result of the shed. What did the library add that caused them?"
+          },
+          {
+            "when": "the student says it is about a volunteer who repairs tools",
+            "ask": "Repairs are one job in one part. What are the other parts about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "One reader says the passage is mostly about a library that lends books. What is missing from that idea?",
+      "tutor_only": {
+        "confirm": "Right. It leaves out the shed, and all three parts are about tools.",
+        "correct_reason": "The books appear only as the setting. Every part describes the shed, its cost, or its volunteers.",
+        "tell": "That idea leaves out the tool shed. The books are only where the story starts.",
+        "help": [
+          "Look at what each part describes.",
+          "Two parts do not mention a book at all."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It leaves out the tool shed, and every part of the passage is about the shed.",
+        "accept_ideas": [
+          "it leaves out the tools",
+          "the passage is about tools, not books",
+          "it misses the shed",
+          "books are only the setting"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the library's opening hours"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says nothing is missing",
+            "ask": "Count the parts that are about the shed. Then count the parts about books."
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this band; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_1_0002",
+    "next_irl": 4,
+    "next_means": "Another main-idea lesson in this band.",
+    "student_line": "The next reading is another main-idea lesson in this band."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
