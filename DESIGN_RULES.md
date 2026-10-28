@@ -91,12 +91,12 @@ variety.
 
 Before committing to a work, confirm two things by reading it:
 
-- it yields eight disjoint, self-sufficient passages of 100-200 words, roughly 4,000-6,000 words of
-  usable text. Four shipped lessons need eight passages of headroom, or expanding the set later
-  strands it;
+- it yields six disjoint, self-sufficient passages of 100-200 words, roughly 3,000-4,500 words of
+  usable text. Four lessons carry a rung and two are retry text; a work that yields only four leaves
+  the push-back without new passages;
 - it is internally varied: chapters on different subtopics, a report with several distinct cases, an
-  essay that moves through scenes, a novella. A single-mechanism explainer yields eight passages that
-  test one idea, and the back half of the set becomes practice without progress.
+  essay that moves through scenes, a novella. A single-mechanism explainer yields six passages that
+  test one idea, and the back half of the rung becomes practice without progress.
 
 This needs no register. The publish validator enforces it mechanically over the whole source set: it
 groups lessons by cell and by the work named in `meta.source.attribution` or `meta.source.basis`, then
@@ -151,7 +151,8 @@ simplify, paraphrase, or regenerate it during a session.
 `source.text_status` must say which:
 
 1. **Verbatim.** Human-written source text used as written, within its license.
-2. **Original.** Written for the lesson by a person. An AI may not draft it.
+2. **Original.** Written for the lesson. At band 5 and above a person writes it. Below band 5, see
+   2.6.
 3. **Adapted.** A human-written source rewritten to the band's reading load. The rewrite may be
    produced by an AI from a named source under these conditions:
 
@@ -169,17 +170,27 @@ simplify, paraphrase, or regenerate it during a session.
    - **Re-map the evidence afterwards.** A simplified sentence can delete the clue an item depended
      on. Write or rewrite every item against the adapted text, never against the original.
 
-Items are never AI-drafted in any route: the answer key is authored. Never invent a citation.
+At band 5 and above, items are never AI-drafted: the answer key is authored. Below band 5, 2.6
+applies. Never invent a citation.
 
-**Scope: Band 4.1 only.** Adaptation is a single exception for the entry band, where free adult-register
-text rarely measures below FK 8. Every other cell — 4.2 upward, and every other vertical at 4.1 — uses
-verbatim or original text. Two limits follow from the exception being temporary rather than structural:
+**2.6 Sourcing depends on the band.** Band 5 and above: every passage is based on human-written text —
+verbatim, adapted from a named work under 2.5, or written by a person for the lesson. No AI-drafted
+passage and no AI-drafted answer key at any band 5 or above. Below band 5 (bands 3.x and 4.x): a
+passage and the item set keyed to it may be drafted by an AI when the catalog needs volume, on three
+conditions:
 
-- **Adapt toward the band's ceiling, not its floor.** Reduce only what exceeds the band. An adapted
-  passage should land at the top of 4.1, not in the middle of it, so the student is not being taught a
-  register the next band does not use.
-- **Keep the band's last lesson unadapted.** The final sequence uses verbatim or original text at the
-  band's upper load. Leaving 4.1 should be a step up, not a shock.
+- a human reads and approves the whole file before it is banked;
+- `source.drafted_by` names the reviewer and `source.text_status` says "drafted for the band,
+  reviewed";
+- every item is re-checked against the text as published, because a drafted passage carries no audit
+  trail and no source to re-read.
+
+Two habits carry over from the old 4.1-only exception:
+
+- **Land at the band's ceiling, not its floor.** Below-5 drafting exists to fill a band with usable
+  text, not to teach a register the next band does not use.
+- **Keep a band's last sequence at the band's upper load.** Leaving a band should be a step up, not a
+  shock.
 
 ## 3. Question Design
 
@@ -328,12 +339,15 @@ lessons/src/<category>_band_<grade>_<stage>_<sequence>.source.json
 ```
 
 The category must be one of the eight fixed keys in README.md. The grade is the whole-number IRL
-grade from 1 through 12. The stage is an authored progression stage from 1 through 8. The sequence
-is a lesson position from 0001 through 0008. For example,
-`inference_band_5_2_0003.json` is the third grade-5 inference lesson in stage 2.
+grade from 1 through 12. The stage is an authored progression stage: 1 through 8 is reserved, stages
+1 through 3 are the authored rungs per grade, and stages 4 through 8 may be appended later but never
+inserted. The sequence is a lesson position from 0001 through 0008. For example,
+`inference_band_5_2_0003.json` is the third grade-5 inference lesson in stage 2, the second rung of
+grade 5.
 
-The target horizontal is eight lessons for one category, grade, and stage. Do not use tenths of an
-IRL point as independent curriculum grades. Use stages to create finer progression inside a grade.
+The target horizontal is six lessons for one category, grade, and stage: four are expected to carry
+a reader through the rung, and sequences 5 and 6 are retry text. Do not use tenths of an IRL point
+as independent curriculum grades. Use stages to create finer progression inside a grade.
 After compilation, the runtime file drops `.source` and is written directly into `lessons/`.
 
 Set boundaries live in `lessons/curriculum.json`. Each set declares `expected_sequences` and a
@@ -343,8 +357,8 @@ lesson exists. The target size is a default; the server uses the set's actual se
 **7.2 `_0001` is the entry lesson for a stage.**
 
 For each category and stage, `_0001` is the starting lesson an onboarding Band key may name. Later
-sequences are reached only through server-selected routes. A stage may contain fewer than eight
-lessons while it is being authored, but the target is eight.
+sequences are reached only through server-selected routes. A stage may contain fewer than six
+lessons while it is being authored, but the target is six.
 
 The server's onboarding mapping names exact lesson IDs, so adding `_0002` or later never changes
 which lesson the dropdown serves.
@@ -355,26 +369,38 @@ appeared in a signed bookmark.
 The source records the same whole-number grade in `meta.reader.reading_level` and explains the load
 in `reader.why_this_level`. The compiler removes that block from the runtime lesson.
 
-**7.3.1 Horizontal and vertical progression.**
+**7.3.1 One ladder per skill.** Grade and stage are labels on a single ordered ramp. The only moves
+are up and down. Sequences are the road inside a rung, not a second progression.
 
 ```text
-horizontal: 8 lessons in inference Band 5.1
-vertical:   Band 5.1 -> Band 5.2 -> ... -> Band 5.8 -> Band 6.1
+inference: 3.1 -> 4.1 -> 4.2 -> 4.3 -> 5.1 -> 5.2 -> 5.3 -> ...
 ```
 
-On a complete set, mastery moves one stage forward at the same grade until stage 8, then to stage 1
-of the next grade. It never changes the category. On an incomplete set, mastery does not leave the
-band.
+A move never changes the category. It follows the evidence, not the lesson count:
 
-If a student completes the last lesson in the set without meeting the advance rule, move down to
-the middle of the previous set. For an eight-lesson previous set that is sequence `0004`; the server
-computes it from `expected_sequences`, so variable set sizes are supported. If the current stage is
-stage 1, the previous set is the last authored stage of the grade below. If the student is already
-at the lowest supported band, restart that band at its first sequence. Do not force an upward move
-and do not reapply initial IRL placement.
+- **Up** when 2 of the last 3 lessons in the rung reach 4 or more of 5 items with no help.
+- **Down** when 2 of the last 3 reach 3 or fewer, or when the anchor item — the first item — needed a
+  help or reached `tell`.
+- **Stay** in every other case, and take the next sequence in the rung. This is the normal state;
+  the rung is a place a student lives for weeks, not a turnstile.
+- At most one move per day. Two down-moves in a row holds the ladder and alerts a teacher instead of
+  moving a third time.
+- A stopped session never moves.
 
-The transition is server-owned. A stopped session resumes the current lesson and must not trigger
-the step-down. Lesson files still store `advance`, `retry`, and `stopped`. Those fields do not
+Six sequences per rung. Four carry a reader through it; sequences 5 and 6 exist so that a push-back
+has text that has not been displayed. A down-move lands on the previous rung's middle sequence. A
+rung's `_0001` sits at or below the previous rung's last sequence only at a grade boundary, because
+that is where genre and register change; inside a grade the ramp rises across stages.
+
+**Floor and ceiling.** Band 3.1 is the bottom of the catalog. Its onboarding `entries` stay empty so
+no student starts there, but a down-move may serve it. Below 3.1 there is nothing: hold the student
+and alert a teacher rather than serving a lesson that cannot help. At the top authored rung, hold.
+
+**Sparse content.** While a set is incomplete, the server serves the next existing lesson in the rung
+and holds at the last one it has. A move is never chosen from a set that is not complete.
+
+The transition is server-owned. A stopped session resumes the current lesson. Lesson files still
+store `advance`, `retry`, and `stopped`. Those fields do not
 choose the next lesson while `on_incomplete_set` is `hold_and_alert`, and they do not choose it on
 a complete set either. They are used only when the protocol selects `authored_route`.
 
@@ -415,8 +441,9 @@ is `hold_and_alert`.
 - A stopped session returns the current lesson. `stopped.next_file` must name that lesson.
 - While the set is `incomplete`, `advance` and `retry` are not followed. The next existing lesson
   in the band is served. The last existing lesson holds the student.
-- On a complete set, `got_there` of at least `advance_min_got_there` (currently 4) moves to the
-  first lesson of the next stage. Fewer than that moves to the next sequence.
+- On a complete set, the move is decided by the window rule in 7.3.1, not by `got_there` alone.
+  `advance_min_got_there` stays as the per-lesson clear threshold: one lesson clears at 4 or more of
+  5 items, and the window decides whether that clear changes the rung.
 - `authored_route` is the only setting that serves the stored `advance` or `retry` destination.
 
 Startup fails when a destination is missing or `next_irl` does not match that file's grade. Write
@@ -428,22 +455,46 @@ teacher; do not invent grade 13. Adding content above the ceiling is a curriculu
 The AI never fills `{next_file}` and never chooses a route. It reports only:
 
 ```text
-v1|from=<lesson_id>|done=<completed-items>|got_there=<unaided-or-helped>
+v2|from=<lesson_id>|done=<items-with-a-result>|u=<unaided>|h=<helped>|m=<mercy>|o=<open>|an=<0-or-1>|carry=<carry>
 ```
 
-For a stopped session it appends `|stop=1`. A referenced runtime lesson must exist before its
+`an` is 1 only when the anchor item was marked unaided, otherwise 0. `u+h+m+o` must equal `done`.
+**The anchor item is the first item in the lesson**, the literal or part-level move every lesson opens
+with; no separate field marks it, and a lesson has exactly one. Any result other than unaided — helped,
+mercy, or open — fails the anchor, so a clear needs 4 unaided items including the first, and a helped
+first item records the lesson as a hard fail. For a stopped session the line appends `|stop=1`. A referenced runtime lesson must exist before its
 route is published; otherwise server startup fails.
 
 **7.5 Stopped sessions return to the same lesson.** `stopped.next_file` must name the current
 `lesson_id`. The server returns that lesson and does not follow a different stopped destination.
 A stopped ticket does not replace or repeat an item mid-session and does not imply a grade change.
-A stop is not a failed lesson and must not trigger the lesson-8 step-down.
+A stop is not a failed lesson and must not trigger a step-down.
+
+**7.6 The ticket carries the memory.** The server is stateless by design, so a move decision cannot
+depend on history the server does not hold. The continuation the server mints after a verified ticket
+carries one field:
+
+```text
+carry=<stage>.<lessons-in-rung>.<history>.<downs>
+```
+
+- `history` holds up to three results, oldest first: `1` a clear, `0` a hard fail, `m` neither.
+- `downs` counts consecutive down-moves, so a third cannot happen.
+- Reset it on any move.
+- A missing or unreadable carry means the first sequence of that rung. Losing the link costs at most
+  two lessons of evidence and never moves a student up.
+- A replayed carry buys a repeated lesson, never a skipped one.
+- The ticket also reports the per-item result counts and whether an anchor item needed help. "No
+  help" and "anchor item" cannot be decided from `got_there` alone, which counts unaided and helped
+  together.
+- No database, no account, no student record. A carry field is not a data model: nothing may be
+  built on it that needs history longer than three lessons.
 
 ## 8. Authoring Workflow
 
 **8.1 Draft the passage first.** Write or adapt the source text, run a readability check, and verify
-the target IRL grade before writing questions. The passage and items must be human-written as
-required by 2.5.
+the target IRL grade before writing questions. At band 5 and above the passage and items must be
+human-written as required by 2.5; below band 5, 2.6 governs.
 
 **8.2 Identify the evidence points.** For each item, point to the sentence or sentences in the
 passage that support the answer. If you cannot point to the evidence, the item is not ready.
@@ -486,19 +537,19 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 ## 10. Final Checklist
 
 - [ ] Source uses `schema_version: 3` and `document_type: "lesson_source"`.
-- [ ] Source filename and `lesson_id` match and use one of the eight categories, grades 1-12, stages 1-8, and sequences 1-8.
-- [ ] The passage and items are human-written; no AI-drafted candidate text is used.
+- [ ] Source filename and `lesson_id` match and use one of the eight categories, grades 1-12, an authored stage from 1-3, and sequences 1-8.
+- [ ] The passage and items are human-written at band 5 and above; below band 5, 2.6's review and provenance are recorded.
 - [ ] `_0001` remains the onboarding entry lesson. Later sequences are served by the server from the files that exist, not by the stored `advance` or `retry` fields, while the set is incomplete.
 - [ ] `script_overrides.near_copy_2` is a lesson-specific say-back line. The shared instructions require it.
 - [ ] `reader.reading_level` equals the whole-number IRL grade in the filename.
-- [ ] The target horizontal has eight lessons, and stages move vertically before the grade changes.
+- [ ] The rung has six sequences: four that carry a reader through it and two kept as retry text.
 - [ ] The prototype lesson has five items unless a documented exception changes that target.
 - [ ] The set is listed in `curriculum.json` with its actual expected sequences and correct completeness status.
 - [ ] Every live source and generated lesson has `meta.status: published`.
-- [ ] Completing the set's last lesson without mastery steps down to the middle of the previous set, or restarts at the bottom band.
+- [ ] A move is decided by the 7.3.1 window, is capped at one per day, and never restarts the band the student just failed.
 - [ ] `reader.why_this_level` states both the readability evidence and the cognitive load.
 - [ ] No displayed passage repeats anywhere in the catalog; a work never serves two cells.
-- [ ] Any work expected to carry a whole cell yields eight disjoint passages of 100-200 words.
+- [ ] Any work expected to carry a whole rung yields six disjoint passages of 100-200 words.
 - [ ] 100-200 words per passage part unless an exception is documented.
 - [ ] Every item has one defensible answer, a reasoning chain, and specific misreadings.
 - [ ] Every evidence-dependent item has the correct `show_part`.
@@ -508,6 +559,6 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 - [ ] `advance`, `retry`, and `stopped` destinations are explicit.
 - [ ] Every route destination exists in the compiled repository and has the matching `next_irl` grade.
 - [ ] Stopped sessions return to the current lesson.
-- [ ] The ticket contains no PII.
+- [ ] The ticket contains no PII beyond the `carry` field of 7.6.
 - [ ] Shared instructions, scripts, results, thresholds, and token formats were not copied into the source.
 - [ ] Compiler output passes `--check` and a cold-chat test.

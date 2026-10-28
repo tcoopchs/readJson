@@ -10,15 +10,16 @@ outside the repo; the findings and the fixes are here.
 
 ## 2026-10-27 — main_idea 4.1, sequences 0001 and 0006
 
-Five sessions, about 35 turns, $0.012 total. Both lessons were unreviewed drafts going in.
+Eight sessions, about 55 turns, $0.018 total. Both lessons were unreviewed drafts going in.
 
 | Session | Lesson | Covered | Result |
 | --- | --- | --- | --- |
-| A main path | 0001 | correct answers, one named misconception, blank answer, two-help ladder, tell and say-back, finished ticket | pass |
+| A main path | 0001 | correct answers, one named misconception, blank answer, two-help ladder, tell and say-back, finished ticket | pass, after the anchor fix |
 | B early stop | 0001 | stop request, confirmation, stopped ticket | pass |
 | C injection | 0001 | answer-key demand, band demand, next-lesson demand, false system override | pass |
 | D ceiling | 0006 | correct answers, two misconception branches, whole-text item | pass except the opening gate |
 | E help path | 0001 | "just tell me", tell after a second ask, say-back, an answer to the wrong item | pass |
+| F anchor helped | 0001 | blank answer at the anchor, stop | blocked by the opening gate |
 
 What the tutor did correctly:
 
@@ -38,21 +39,28 @@ the student read "Then ask who does the work at the table." Every help line is n
 the student can act on ("Look at who does the work at the table."), and the sources and runtime
 files were rebuilt.
 
-**2. `anchor` is never defined. Open, and it is a catalog-wide problem.** Instruction 29 tells the tutor
-to report `an=1` only when every anchor item was marked unaided, but nothing says which items are
-anchors: no `anchor` field in any lesson, no definition in `protocol.json` or `DESIGN_RULES`. The
-model guesses. In session A the first item was answered correctly with no help, and the tutor still
-reported `an=0`. Routed through the real progression code, that same session records `hist=0` (a
-hard fail) instead of a neutral `m`; two of three like it would move the reader down a rung. With
-four of five items reached, a wrong anchor flag turns a good session into a failure.
+**2. `anchor` was never defined. Fixed.** The ticket reports `an` against "anchor items" that no
+lesson field or protocol line designated, so the tutor guessed: a correct unaided first answer was
+stamped `an=0`. Routed through the real progression code, that session records `hist=0` (a hard
+fail) instead of a neutral `m`; two of three like it move the reader down a rung. The rule is now
+stated in three places — `DESIGN_RULES` 7.4, `README.md`, and `protocol.json`, once as a definition
+and once at the ticket step where the line is composed: **the anchor is the first item in the
+lesson**, and any result other than unaided fails it. Two reruns of session A then reported `an=1`
+with the same item results, and session D reported `an=1` where it had guessed 0 before. The
+difficulty-1 definition was tried first and rejected: 21 of 46 lessons carry more than one
+difficulty-1 item, but every lesson opens on the first passage part.
 
-**3. The ready gate is unstable. Open, model-following.** In session D the student typed `yes` and the
-tutor re-sent `script.ready` instead of showing the first passage part, so the first answer arrived
-before its question. Instruction 5 lists `yes` explicitly. One failure in four openings, same file,
-same model.
+**3. The opening gate is unreliable. Open, model-following.** The first reply is `script.ready`, and
+the next `yes` should start the passage. In session D one `yes` drew `script.ready` again. In session
+F the gate failed four turns running: `yes` was ignored, two "I don't know" replies drew
+`script.ready` twice — one of them even drew `script.not_yet` ("Come back when you want to start"),
+which reads as a refusal to a student who is trying to begin — and only a content attempt opened the
+lesson. Two failures in six sessions, one of them across four consecutive turns, same file, same
+model, with instruction 5 listing `yes` explicitly.
 
-**4. Untested branch: near-copy say-back.** Sessions did not produce a true copy of `tell` on the first
-two tries, so `near_copy_1`, `near_copy_2`, and the `open` fallback are still unverified.
+**4. Untested branches.** A true near-copy of `tell` never happened, so `near_copy_1`,
+`near_copy_2`, and the `open` fallback are unverified. The anchor-helped case (a blank answer at the
+first item, expecting `an=0`) is unverified too, because session F never got past the gate.
 
 **5. Whole-text items replay the whole passage.** Each `show_part: all` item re-sends all three parts
 (four times in 0001). That follows `show_part_again: true`, and the corpus does the same, but on a
