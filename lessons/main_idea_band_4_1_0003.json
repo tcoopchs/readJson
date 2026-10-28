@@ -81,7 +81,7 @@
         "tell": "The trees cooled the wall by twelve degrees, the cooler ran less, and the July bill fell by a tenth.",
         "help": [
           "Find the sentence with the twelve degrees.",
-          "Then look at what happened to the cooler and the bill."
+          "Look at what happened to the cooler and the bill."
         ],
         "say_back": "own_words",
         "core_idea": "The wall was twelve degrees cooler, the cooler cycled less, and the electric bill fell.",
@@ -117,7 +117,7 @@
         "tell": "The third part is about people using the shaded strip, and the owner giving up the fence he had planned.",
         "help": [
           "Find what the delivery drivers and the bus riders started doing.",
-          "Then ask what the owner did with his plan for a fence."
+          "Look at what the owner did with his plan for a fence."
         ],
         "say_back": "own_words",
         "core_idea": "The shade turned the strip beside the store into a place people use, so the owner dropped his fence.",

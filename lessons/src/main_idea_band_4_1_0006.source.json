@@ -58,7 +58,7 @@
         "tell": "For two years the group only kept a list of the machines it had fixed.",
         "help": [
           "Find the sentence that describes the one record.",
-          "Then look at where the list was used."
+          "Look at where the list was used."
         ],
         "say_back": "own_words",
         "core_idea": "A list of the machines the group had fixed.",
@@ -94,7 +94,7 @@
         "tell": "It held the machines that could not be fixed, and for each one, what was tried and why it failed.",
         "help": [
           "Find the sentence that lists what each line gave.",
-          "Then name the three kinds of failure it names."
+          "Name the three kinds of failure it names."
         ],
         "say_back": "own_words",
         "core_idea": "The machines that could not be fixed, with what was tried and why it failed.",

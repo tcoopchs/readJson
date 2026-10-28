@@ -45,7 +45,7 @@
         "tell": "The old route wasted fuel and time on a mile that almost nobody used.",
         "help": [
           "Find the number of riders the town counted.",
-          "Then look at what the last sentence says the bus burned."
+          "Look at what the last sentence says the bus burned."
         ],
         "say_back": "own_words",
         "core_idea": "The bus spent fuel and time on a mile where almost nobody got on or off.",
@@ -81,7 +81,7 @@
         "tell": "The town gained eight minutes a trip, which keeps the next run on time, and more people ride.",
         "help": [
           "Find the sentence about the eight minutes.",
-          "Then ask what the same bus does with those minutes."
+          "Look at what the same bus does with those minutes."
         ],
         "say_back": "own_words",
         "core_idea": "The bus saves eight minutes and its next run starts on time.",
@@ -117,7 +117,7 @@
         "tell": "The third part is about the people who lost their stop and the van the town added for them.",
         "help": [
           "Find what the town did instead of telling those people to walk.",
-          "Then ask who the van is for."
+          "Look at who the van is for."
         ],
         "say_back": "own_words",
         "core_idea": "The town added a van for the people who lost their stop, so they were not left without a ride.",
@@ -195,7 +195,7 @@
         "tell": "The town gave up door-to-door service for three houses and gained eight minutes and more riders on the whole route.",
         "help": [
           "Find the sentence that uses the word trade.",
-          "Then name what each side of the trade lost or gained."
+          "Name what each side of the trade lost or gained."
         ],
         "say_back": "own_words",
         "core_idea": "It gave up service at three doorsteps and gained time for every rider on the route.",

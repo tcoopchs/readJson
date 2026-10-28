@@ -45,7 +45,7 @@
         "tell": "The boxes gave families food they could not cook, so some of it came back or was thrown away.",
         "help": [
           "Find the sentence that describes what a box might hold.",
-          "Then ask what the pantry weighed at the end of the month."
+          "Look at what the pantry weighed at the end of the month."
         ],
         "say_back": "own_words",
         "core_idea": "Families got food they could not use, and the pantry threw away some of it.",
@@ -81,7 +81,7 @@
         "tell": "The waste fell by half. Families came more often but took less each visit.",
         "help": [
           "Find the sentence with the March weigh-in.",
-          "Then read the sentence that starts with the word surprise."
+          "Read the sentence that starts with the word surprise."
         ],
         "say_back": "own_words",
         "core_idea": "The waste fell by half, and families took less each visit.",
@@ -121,7 +121,7 @@
         "tell": "They expected people to take too much. Instead families took less, and the pantry did not run out.",
         "help": [
           "Find the sentence that says what they expected.",
-          "Then find the two words that answer it."
+          "Find the two words that answer it."
         ],
         "say_back": "own_words",
         "core_idea": "They said people would take too much, and families took less instead.",

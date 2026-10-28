@@ -222,13 +222,13 @@ Move a row when its state changes. **Built** means six sources compile and the s
 
 | Item | State | Next action |
 | --- | --- | --- |
-| Engine: ticket v2, carry, window, guards | built | cold-chat the floor to see it in a real session |
+| Engine: ticket v2, carry, window, guards | built; `anchor` undefined | define anchor items, then cold-chat the floor |
 | `inference` 3.1 | built, unreviewed | cold-chat 0001, then the rest |
 | `inference` 4.1 | built, adapted text unreviewed | cold-chat 0001-0008 |
 | `inference` 4.2 | built, unreviewed | cold-chat 0001 |
 | `inference` 4.3 | built, unreviewed | cold-chat 0001 |
 | `main_idea` 3.1 | built, unreviewed | cold-chat 0001 |
-| `main_idea` 4.1 | built, unreviewed | cold-chat 0001 |
+| `main_idea` 4.1 | built; 0001 and 0006 cold-chatted | cold-chat 0002-0005 |
 | `main_idea` 4.2 | absent | author six — next in Phase 2 |
 | `vocab` 3.1 | absent | after `main_idea` 4.3 |
 | `text_structure` 3.1 | absent | after vocab |

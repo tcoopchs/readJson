@@ -93,7 +93,7 @@
         "tell": "The second part is about what the shed saves. People borrow instead of buying, and old tools are repaired for the shelf.",
         "help": [
           "Find the sentence that compares a drill with groceries.",
-          "Then ask what the shed does with tools people give away."
+          "Look at what the shed does with tools people give away."
         ],
         "say_back": "own_words",
         "core_idea": "Borrowing a tool saves the cost of buying one, and donated tools keep the shed stocked.",
@@ -130,7 +130,7 @@
         "tell": "The third part is about volunteers who show borrowers how to do the work, which keeps repairs free for the library.",
         "help": [
           "Read the sentence about what the table is not.",
-          "Then ask who does the work at the table."
+          "Look at who does the work at the table."
         ],
         "say_back": "own_words",
         "core_idea": "Volunteers teach borrowers to do the work themselves, which keeps the shed cheap.",

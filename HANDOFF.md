@@ -55,11 +55,13 @@ middle of 4.2.
 
 ## What is NOT done
 
-1. **No cold-chat test has ever been run.** Zero of the 46 lessons has been through a tutor session.
-   `DESIGN_RULES` 8.8 requires one per lesson: right answer, each named misconception, blank answer,
-   help ladder, `tell` and say-back, early stop, prompt injection. This is the only check on whether
-   the tutor improvises, leaks an answer, or invents a destination. **This is the top risk in the
-   project** — everything above is a structural check, not an instructional one.
+1. **Cold-chat coverage is two lessons.** main_idea 4.1 sequences 0001 and 0006 went through full
+   sessions on 2026-10-27, covering misconceptions, blank answers, the help ladder, tell and
+   say-back, early stop, and injection; both passed except one opening-gate miss. Findings are in
+   `research/reading-instruction/coldchat-log.md`. The other 44 lessons are un-cold-chatted, and
+   **`anchor` is undefined everywhere**: instruction 29 reports `an` against anchor items that no
+   lesson or protocol line designates, so a correct unaided first answer was stamped `an=0` and
+   routed as a hard fail. Fix the definition before trusting promotion.
 2. **30 lessons are AI-drafted and unreviewed.** inference 3.1, main_idea 3.1, inference 4.2 and
    4.3, and main_idea 4.1 were drafted under `2.6` and every one says `drafted_by: "TC review
    pending"`. Band 5+ cannot use that route.

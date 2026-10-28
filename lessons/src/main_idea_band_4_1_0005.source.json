@@ -56,7 +56,7 @@
         "tell": "The cafeteria was closed during their shift, so the crew ate from a machine at three in the morning.",
         "help": [
           "Find the two times in the first two sentences.",
-          "Then look at the hour the crew eats."
+          "Look at the hour the crew eats."
         ],
         "say_back": "own_words",
         "core_idea": "The cafeteria was closed during their shift, so they ate from a machine.",
@@ -92,7 +92,7 @@
         "tell": "The crew slept better, and the large meals at home mostly stopped.",
         "help": [
           "Find the sentence about the end of six weeks.",
-          "Then name the two changes it reports."
+          "Name the two changes it reports."
         ],
         "say_back": "own_words",
         "core_idea": "The crew slept better, and the large meals at home mostly stopped.",
@@ -204,7 +204,7 @@
         "tell": "The meal broke up the shift and gave the crew a table to sit at together, so the night felt shorter and they slept better after it.",
         "help": [
           "Look at what the manager says changed.",
-          "Then look at what stopped at home."
+          "Look at what stopped at home."
         ],
         "say_back": "own_words",
         "core_idea": "They sat together at a table in the middle of the shift instead of eating alone, and they slept better after it.",
