@@ -1,0 +1,267 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_2_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Marsh That Came Back",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.1-6.6 on the three parts, which sits inside the grade 4-5 band. The load is that no part states the whole idea: one part describes the drained land, one explains how the water returned, and one describes the cleanup, so the reader has to combine three parts and drop two true details.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "_comment": "Source: U.S. National Park Service, 'The Story of the Beaver Marsh', https://www.nps.gov/articles/000/story-of-the-beaver-marsh.htm (accessed 2026-10-28). U.S. federal government work, public domain in the U.S. Adapted for band 4: changes were made to the wording only.",
+      "basis": "U.S. National Park Service, 'The Story of the Beaver Marsh'.",
+      "attribution": "U.S. National Park Service, 'The Story of the Beaver Marsh', https://www.nps.gov/articles/000/story-of-the-beaver-marsh.htm, accessed 2026-10-28. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Split long sentences, dropped the photo captions and site navigation, and kept every stated fact about the land, the beavers, and the cleanup.",
+      "drafted_by": "TC review pending",
+      "survey": "A place that was drained and junked, then restored by two different agents, so the whole-passage idea has to be built from three parts.",
+      "avoided": "No image credits or page furniture. No claim the source does not make about why the marsh matters locally."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and how far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "For many years, this place was not a marsh at all. In the 1800s, land development drained the original wetland, and the Ohio and Erie Canal came through the valley. A dairy farm stood near Lock 26 in the early 1900s. Later, Burl Tonkin ran an auto repair shop along Riverview Road. He loved to tinker, so old cars and worn-out parts covered the ground. The Tonkin family lived in three homes across the street, in what is now Howe Meadow, and two other families lived beside the trailhead. By the 1970s, the land held buildings and junk instead of water.",
+    "part_2": "Beavers had been absent from Ohio for more than a century. People had trapped them for their fur. In the late 1970s and early 1980s, beavers began to return to the valley. The federal government had bought the land and removed the buildings. The young park planned an event site nearby. Beavers built a system of dams, and the dams flooded the area. Deep water let a beaver swim into its lodge from below. The beaver could gather food without walking on land. By 1985, the dams and lodges were well established. The buildings were gone, but the junk stayed behind.",
+    "part_3": "In the mid 1980s, the park began to clean up small dump sites across the land. Sierra Club volunteers organized the largest cleanup in 1984. With the National Park Service, they hauled away car parts, bed springs, and trash. Wetland plants grew again from seeds that had waited in the soil for years. The 70-acre marsh is now one of the most diverse natural communities in the park. Cuyahoga Valley National Park protects nearly 1,500 wetlands across more than 1,900 acres. Ohio has lost nearly 90% of its wetlands. Nationally, 46% of endangered species need wetlands to survive. Many of the park's wetlands are smaller than one acre."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "By the 1970s, what stood on this land?",
+      "tutor_only": {
+        "confirm": "Right. Buildings, an auto repair shop, and junk stood there instead of water.",
+        "correct_reason": "The first part traces the land from a drained wetland to a dairy farm, a repair shop, and homes, and ends with buildings and junk.",
+        "tell": "By the 1970s, the land held buildings, an auto repair shop, and junk instead of water.",
+        "help": [
+          "Look at the last sentence of the opening.",
+          "The passage names an auto repair shop and old parts."
+        ],
+        "say_back": "own_words",
+        "core_idea": "By the 1970s, the drained wetland held buildings, an auto repair shop, and junk instead of water.",
+        "accept_ideas": [
+          "buildings and junk",
+          "an auto repair shop and old cars",
+          "homes, a shop, and junk",
+          "old cars and worn-out parts",
+          "it was drained and built on"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who Burl Tonkin was",
+          "what Lock 26 is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says a marsh or a wetland stood there",
+            "ask": "The opening says the wetland was drained. What took its place by the 1970s?"
+          },
+          {
+            "when": "the student says beavers stood there",
+            "ask": "The beavers come into the passage later. What was on the land in the 1970s?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is this part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. Beavers came back, their dams flooded the land, and the water returned.",
+        "correct_reason": "The part follows the beavers' return after a century, the dams they built, and the flooding that made deep water.",
+        "tell": "This part is about beavers returning and their dams flooding the land again.",
+        "help": [
+          "Look at what the beavers built and what happened after.",
+          "The part ends with the dams and lodges well established."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Beavers returned to the valley, and their dams flooded the land again.",
+        "accept_ideas": [
+          "beavers came back and flooded the area",
+          "beaver dams raised the water",
+          "beavers built dams that brought the water back",
+          "the beavers made a pond"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many beavers returned",
+          "which trees they cut"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about people trapping beavers for fur",
+            "ask": "Trapping is one sentence about the past. What did the beavers do when they came back?"
+          },
+          {
+            "when": "the student says it is about the federal government buying the land",
+            "ask": "The purchase is one detail. What happens to the water in this part?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage names two groups that helped this land. What did each one do?",
+      "tutor_only": {
+        "confirm": "Right. Volunteers hauled away the junk, and beavers raised the water.",
+        "correct_reason": "The cleanup falls to Sierra Club volunteers and the park service, and the water comes from the beaver dams, so the answer needs parts two and three.",
+        "tell": "Volunteers hauled away the trash and car parts, and beavers flooded the land with their dams.",
+        "help": [
+          "The pieces are in different parts. Look at the dams in one and the cleanup in the other.",
+          "One group moved junk. The other moved water."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Volunteers hauled away the junk, and beavers raised the water with their dams.",
+        "accept_ideas": [
+          "people cleaned the junk and beavers raised the water",
+          "volunteers hauled trash and beavers built dams",
+          "the beavers flooded it and people cleaned it up"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the club",
+          "the year of the cleanup"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student names only the volunteers",
+            "ask": "That is one group. What did the other group do to the land?"
+          },
+          {
+            "when": "the student names only the beavers",
+            "ask": "The beavers brought the water. Who removed the junk?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. A drained, junked wetland came back after people cleaned it and beavers raised the water.",
+        "correct_reason": "All three parts sit under one idea: the land was drained and junked, beavers flooded it again, and volunteers cleared the junk.",
+        "tell": "The passage is about a wetland that came back, because people cleaned the junk and beavers raised the water.",
+        "help": [
+          "Look at what every part is about, not only the middle one.",
+          "One part is about drained land. One is about water. One is about junk and cleaning."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A drained, junked wetland came back after people cleaned it and beavers raised the water.",
+        "accept_ideas": [
+          "a wetland that came back after a cleanup and the beavers' dams",
+          "people cleaned the land and beavers brought the water back",
+          "how a drained and junked place became a marsh again"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the size of the marsh",
+          "the year of the largest cleanup"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about how beavers build dams",
+            "ask": "Dams are one part of the story. What happened to the land before and after?"
+          },
+          {
+            "when": "the student says it is about a nature park for visitors",
+            "ask": "Visitors are not the subject of any part. What changed about the land itself?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "A reader says the passage is mostly about how beavers build dams. What does that idea leave out?",
+      "tutor_only": {
+        "confirm": "Right. It leaves out the drained land and the cleanup by volunteers.",
+        "correct_reason": "The dams are the middle part. The first part describes the drained, junked land, and the third describes the volunteer cleanup and what wetlands do.",
+        "tell": "That idea leaves out the years when the land was drained and junked, and the cleanup that came later.",
+        "help": [
+          "Look at all three parts, not only the middle one.",
+          "One part is about junk and cleaning."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It leaves out the years when the land was drained and junked, and the cleanup that came later.",
+        "accept_ideas": [
+          "it leaves out the people who cleaned the land",
+          "it leaves out how the land was drained and junked",
+          "it misses the cleanup and the lost wetlands"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long beaver dams last"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says nothing is missing",
+            "ask": "Count the parts about dams. Then count the parts about people and about the drained land."
+          },
+          {
+            "when": "the student says it leaves out the visitors",
+            "ask": "Visitors are named once, near the start. What is the cleanup about?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this rung; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_2_0002",
+    "next_irl": 4,
+    "next_means": "Another main-idea lesson in this rung.",
+    "student_line": "The next reading is another main-idea lesson in this rung."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

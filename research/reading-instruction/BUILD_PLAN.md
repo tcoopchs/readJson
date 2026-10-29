@@ -29,13 +29,13 @@ inference: 3.1 -> 4.1 -> 4.2 -> 4.3 -> 5.1 -> 5.2 -> 5.3 -> ...
 
 ## 2. Where the catalog stands (verified 2026-10-27)
 
-Forty-six compiled lessons. The inference ladder is complete from the floor through stage 4.3,
-and `main_idea` runs from its floor through stage 4.1.
+Fifty-two compiled lessons. The inference ladder is complete from the floor through stage 4.3,
+and `main_idea` runs from its floor through stage 4.2.
 
 | Ladder | 3.1 | 4.1 | 4.2 | 4.3 | 5.1 | above |
 | --- | --- | --- | --- | --- | --- | --- |
 | `inference` | 6 ✓ | 8 ✓ | 6 ✓ | 6 ✓ | 2/6 | 6.1 at 1/6 |
-| `main_idea` | 6 ✓ | 6 ✓ | — | — | — | 7.1 at 2/6 |
+| `main_idea` | 6 ✓ | 6 ✓ | 6 ✓ | — | — | 7.1 at 2/6 |
 | other six | — | — | — | — | — | — |
 
 Three facts that shape what comes next:
@@ -143,9 +143,10 @@ magazines, textbook scans, anything whose license is stated by the hosting site 
 
 1. **Licence verified per text, not per site.** Record the exact URL and access date.
 2. **FK computed on the exact excerpt**, never the whole page.
-3. **One work per rung; one passage per lesson.** The unit of uniqueness is the displayed passage. A
-   long work may supply every lesson in one (category, grade, stage) rung, provided no two lessons
-   display the same words. A work never serves two rungs, so every move brings fresh material.
+3. **One passage per lesson; a work serves one rung.** The unit of uniqueness is the displayed
+   passage. A long work may supply every lesson in one (category, grade, stage) rung, provided no two
+   lessons display the same words; a rung drawn from several works is a sourcing choice, not a defect
+   (DESIGN_RULES 2.2). A work never serves two rungs, so every move brings fresh material.
 4. **Milk the work.** Six disjoint passages of 100-200 words means roughly 3,000-4,500 words of usable
    text. Prefer a work that is internally varied: chapters on different subtopics, a report with
    several cases, an essay that moves through scenes. A single-mechanism explainer yields six
@@ -231,7 +232,8 @@ sessions per rung, which so far exist for main_idea 4.1 only.
 | `inference` 4.3 | built; swept | misconception sessions |
 | `main_idea` 3.1 | built; swept | misconception sessions |
 | `main_idea` 4.1 | built; 0001 and 0006 through every branch, all six swept | misconception sessions for 0002-0005 |
-| `main_idea` 4.2 | absent | author six — next in Phase 2 |
+| `main_idea` 4.2 | built; smooth and hard sweep clean | misconception, injection, and stop sessions |
+| `main_idea` 4.3 | absent | author six — next in Phase 2 |
 | `vocab` 3.1 | absent | after `main_idea` 4.3 |
 | `text_structure` 3.1 | absent | after vocab |
 | `process` 3.1 | absent | after text_structure |

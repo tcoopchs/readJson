@@ -31,6 +31,28 @@ What the tutor did correctly:
 - No praise, no exclamation, no band label, no invented next lesson.
 - An answer to the previous item was caught and redirected to the current one.
 
+## 2026-10-28 — main_idea 4.2, all six sequences
+
+Twelve scripted sessions through `coldchat_sweep.py`, one smooth and one hard per lesson.
+$0.048 total ($0.0355 smooth, $0.0128 hard). These are the first lessons in the catalog built
+from adapted federal sources rather than drafted text.
+
+| Pass | Coverage | Result |
+| --- | --- | --- |
+| smooth, 6/6 | open, five items answered correctly, whole-passage items, finished ticket | pass: `done=5 u=5 an=1`, no leak, no premature ticket |
+| hard, 6/6 | blank answer at the anchor, both help lines, `tell`, say-back, stop | pass: `reached_tell: true`, no invented help, stop ticket `done=1 m=1 an=0 stop=1` |
+
+What the tutor did correctly:
+
+- The `run` opened on the ready script and showed one passage part at a time, with its label.
+- `help[0]` then `help[1]` then `tell` came out as authored in all six lessons; the sweep found no
+  invented help line.
+- No private field (`tutor_only`, `accept_ideas`, `core_idea`) reached the student copy.
+- The ticket was printed once, with `carry` copied verbatim and `an=1` on the smooth pass.
+
+Not yet covered on this rung: the named misconception branches, injection, and the near-copy loop.
+Those are the next branch sessions; the sweep does not exercise them.
+
 ## Defects found
 
 **1. Help lines written in the tutor's voice. Fixed.** Sixteen `help[1]` strings across the six

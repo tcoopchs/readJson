@@ -1,0 +1,253 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_2_0004",
+  "meta": {
+    "status": "published",
+    "title": "Fire That Is Planned",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.5-5.8 on the three parts, inside the grade 4-5 band. The load is that the idea pairs two things the parts keep separate: the fire is set on purpose, and it is held to written conditions, which no single sentence states.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "_comment": "Source: U.S. National Park Service, 'Wildland Fire: What is a Prescribed Fire?', https://www.nps.gov/articles/what-is-a-prescribed-fire.htm (accessed 2026-10-28). U.S. federal government work, public domain in the U.S. Adapted for band 4: changes were made to the wording only.",
+      "basis": "U.S. National Park Service, 'Wildland Fire: What is a Prescribed Fire?'.",
+      "attribution": "U.S. National Park Service, 'Wildland Fire: What is a Prescribed Fire?', https://www.nps.gov/articles/what-is-a-prescribed-fire.htm, accessed 2026-10-28. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Split long sentences, dropped the ignition-device description and the photo captions, and kept the stated conditions, goals, and checks.",
+      "drafted_by": "TC review pending",
+      "survey": "Two ideas have to be joined: a fire set on purpose and a fire held to written conditions. Neither part states that pairing outright.",
+      "avoided": "No chemical detail about ignition devices. No park-specific burn statistics."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and how far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A prescribed fire is a fire that people plan, and it is also called a controlled burn. Rangers light it on purpose, under chosen conditions, to reach a goal. A prescription is a set of conditions. It covers the safety of the public and the crew, the weather, and the chance of meeting the goal. Each fire has a written plan made in advance. The plan describes what the fire should do, what will burn, and the weather the fire needs. Prescribed fire is one of the most important tools that parks use to manage fire today. Fire managers write the prescription for each burn.",
+    "part_2": "Parks use prescribed fire for several reasons. A burn can clear dead brush and small trees. That lowers the fuel for a wildfire and protects nearby homes. A burn can also create open habitat for plants and animals. Some burns help rare species recover. Others keep an old scene as it looked long ago, and some burns are made for research. Prescribed burns have also been used to restore natural woodlands. At Saratoga, in New York, fire keeps the grassland open as it was in the Revolutionary War. At Wilson's Creek, in Missouri, fire keeps a Civil War prairie open for visitors.",
+    "part_3": "A prescribed fire does not start by accident, and it does not run free. The park must first write a fire management plan and a burn plan, and each fire must meet every condition in the plan. On the day of the burn, the crew checks a go/no-go list. The fire starts only if every item on the list is met. Crews light the edges with special tools, so the fire moves where they want it. When fire cannot be used, crews cut and haul away brush instead, and they may pile it and burn it later. The list is checked before any fire starts."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is a prescription in this passage?",
+      "tutor_only": {
+        "confirm": "Right. It is a set of conditions for the burn.",
+        "correct_reason": "The first part defines a prescription as a set of conditions covering safety, weather, and the goal.",
+        "tell": "A prescription is a set of conditions for the burn.",
+        "help": [
+          "Find the sentence that begins with the word prescription.",
+          "It names safety, weather, and the goal."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A prescription is a set of conditions for the burn.",
+        "accept_ideas": [
+          "a set of conditions",
+          "the rules for the burn",
+          "the conditions the fire must meet"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the plan"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says a prescription is a medicine",
+            "ask": "The passage uses the word for a fire. What does the opening say it covers?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is this part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. The reasons parks set fires on purpose.",
+        "correct_reason": "The part names the purposes: clearing fuel, protecting homes, making habitat, helping rare species, and keeping old scenes.",
+        "tell": "This part is about the reasons parks use prescribed fire.",
+        "help": [
+          "Look at what the examples have in common.",
+          "Each example is a goal for the burn."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The reasons parks use prescribed fire.",
+        "accept_ideas": [
+          "the reasons for the burns",
+          "what the burns are for",
+          "the goals the fires reach"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of one park"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about Saratoga",
+            "ask": "Saratoga is one example. What is the list of examples about?"
+          },
+          {
+            "when": "the student says it is about wildfires",
+            "ask": "A wildfire is what the burn helps prevent. What is the part about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "Why does the crew check a go/no-go list on the day of the burn?",
+      "tutor_only": {
+        "confirm": "Right. The fire starts only if every condition on the list is met.",
+        "correct_reason": "The third part says the list is checked and that the fire starts only when every item is met.",
+        "tell": "The crew checks the list because the fire starts only if every condition is met.",
+        "help": [
+          "Read the sentence that follows the list check.",
+          "The list decides whether the fire can start."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The fire starts only if every condition on the list is met.",
+        "accept_ideas": [
+          "the fire starts only if every item is met",
+          "to be sure the conditions are right",
+          "so the fire is safe to start"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many people check the list"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the list is a record of the fire",
+            "ask": "The list comes before the fire. What does the passage say it decides?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. Prescribed fire is a planned burn held to written conditions, used to keep land and people safer.",
+        "correct_reason": "The parts cover the prescription, the reasons for burning, and the checks before ignition, and together they describe a fire set on purpose and controlled.",
+        "tell": "The passage is about a fire set on purpose. It is held to written conditions and used to reach a goal.",
+        "help": [
+          "Look at what every part is about.",
+          "One part is the plan. One is the reasons. One is the checks."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A planned fire held to written conditions, used to reach a goal on the land.",
+        "accept_ideas": [
+          "a planned fire held to written conditions",
+          "a controlled burn used for a purpose",
+          "how parks plan a fire and check it before starting"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the ignition tool",
+          "the size of a burn"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about putting out wildfires",
+            "ask": "The fire in the passage is set by people. What is it for?"
+          },
+          {
+            "when": "the student says it is about a go/no-go list",
+            "ask": "The list is one step. What is the whole passage about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "A reader says the passage is mostly about fighting wildfires. What is wrong with that idea?",
+      "tutor_only": {
+        "confirm": "Right. The fire in the passage is set on purpose to prevent worse fires.",
+        "correct_reason": "The passage describes a fire crews light under conditions; lowering fuel for a wildfire is one goal among several.",
+        "tell": "That idea gets it backwards. The fire here is set on purpose to prevent a worse one.",
+        "help": [
+          "Look at who lights the fire in the passage.",
+          "The fire is set on purpose to prevent a worse one."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The fire here is set on purpose to prevent a worse one, so it is a tool, not a wildfire.",
+        "accept_ideas": [
+          "the fire here is set on purpose",
+          "the passage is about a planned fire, not a wildfire",
+          "stopping fires is only one of its goals"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many acres a burn covers"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says nothing is wrong",
+            "ask": "Who lights the fire in the passage, and why?"
+          },
+          {
+            "when": "the student says it leaves out the weather",
+            "ask": "Weather is part of the conditions. What is the fire itself?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this rung; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_2_0005",
+    "next_irl": 4,
+    "next_means": "Another main-idea lesson in this rung.",
+    "student_line": "The next reading is another main-idea lesson in this rung."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_2_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

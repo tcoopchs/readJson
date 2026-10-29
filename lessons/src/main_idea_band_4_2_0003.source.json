@@ -1,0 +1,254 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_2_0003",
+  "meta": {
+    "status": "published",
+    "title": "Where the Water Goes",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.7-6.3 on the three parts, inside the grade 4-5 band. The load is a process spread over three parts: where water is stored, which pool is biggest, and how people change the movement, so the idea is a cycle rather than a thing.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "_comment": "Source: U.S. Geological Survey, Water Science School, 'The Water Cycle', https://www.usgs.gov/water-science-school/water-cycle (accessed 2026-10-28). U.S. federal government work, public domain in the U.S. Adapted for band 4: changes were made to the wording only.",
+      "basis": "U.S. Geological Survey, Water Science School, 'The Water Cycle'.",
+      "attribution": "U.S. Geological Survey, Water Science School, 'The Water Cycle', https://www.usgs.gov/water-science-school/water-cycle, accessed 2026-10-28. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Split long sentences, dropped the diagram labels and the linked-page references, and kept the stated pools and the statement that people affect the cycle.",
+      "drafted_by": "TC review pending",
+      "survey": "The idea is a process, not an event: water is stored in pools and moves between them, and people change the movement.",
+      "avoided": "No percentages the page does not state. No watershed diagrams or unit conversions."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and how far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Water is almost everywhere on Earth, and all of it is moving all the time. It fills the oceans and the sky. It sits under the ground and inside plants, animals, and people. The water cycle describes where water is and how it moves. Water is stored in the air, on the land, and below the ground. It can be liquid, solid, or a gas. Water moves at large scales, through watersheds and the atmosphere, and at small scales inside living things. Liquid water can be fresh or salty, and the cycle is a way to name those places and the paths between them.",
+    "part_2": "Most of Earth's water sits in a few large pools. Oceans hold about 96% of it, and ocean water is salty. On land, salty water sits in salty lakes. Lakes, rivers, and wetlands hold fresh water, while ice sheets, glaciers, and mountain snow hold water as ice. Some water is stored deep underground, and a little water floats in the air as vapor, which is water in gas form. These pools hold water for very different lengths of time. A river may carry its water away in days, while a glacier can hold ice for ages. Oceans are the largest pool.",
+    "part_3": "Water moves between the pools, and people change how it moves. It rises from oceans and lakes as vapor, forms clouds, and falls as rain or snow. It runs over the ground, soaks into the soil, and flows underground. It also passes through plants and animals. People pump water from the ground, store it behind dams, and drain wetlands for building, and we change how clean the water is. The same water moves from pool to pool, and it has done so for a very long time. The cycle has to describe where water is stored, how it moves, and how people affect it."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Where does the passage say water is stored?",
+      "tutor_only": {
+        "confirm": "Right. In the air, on the land, and below the ground.",
+        "correct_reason": "The first part names the three places and adds that water can be liquid, solid, or a gas.",
+        "tell": "Water is stored in the air, on the land, and below the ground.",
+        "help": [
+          "Look at the second sentence of the opening.",
+          "The part names three places water is stored."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Water is stored in the air, on the land, and below the ground.",
+        "accept_ideas": [
+          "in the air, on the land, and underground",
+          "in the sky, on land, and in the ground",
+          "everywhere and in three forms"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much water each place holds"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says water is stored in the ocean only",
+            "ask": "The ocean is one place. What three places does the opening name?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is this part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. The pools where water is stored, and how long each holds it.",
+        "correct_reason": "The part names oceans, lakes, ice, groundwater, and vapor, and it ends on the different lengths of time each pool holds water.",
+        "tell": "This part is about the large pools that hold Earth's water and how long they keep it.",
+        "help": [
+          "Look at which places the part names.",
+          "The last sentences are about how long water stays."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The large pools where water is stored, and how long each holds it.",
+        "accept_ideas": [
+          "the pools that hold water",
+          "where most water is stored",
+          "the places water sits in"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the exact share of water in lakes",
+          "the number of oceans"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about the ocean holding 96%",
+            "ask": "That is one pool. What does the part say about the other pools?"
+          },
+          {
+            "when": "the student says it is about rivers carrying water to the sea",
+            "ask": "Movement is the next part. What is this part about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "People pump water, build dams, and drain wetlands. What does the passage say those actions change?",
+      "tutor_only": {
+        "confirm": "Right. They change where water is stored, how it moves, and how clean it is.",
+        "correct_reason": "The third part lists the actions and then states what they affect, including how clean the water is.",
+        "tell": "They change where water is stored, how it moves, and how clean the water is.",
+        "help": [
+          "Read the sentence after the list of actions.",
+          "The part names three effects."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They change where water is stored, how it moves, and how clean it is.",
+        "accept_ideas": [
+          "where water is stored and how it moves",
+          "the movement of water and its cleanliness",
+          "they affect the whole cycle"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much water a dam holds"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says they change the weather",
+            "ask": "Weather is not named. Read the sentence that follows the list of actions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. Water is always moving between the places it is stored, and people change that movement.",
+        "correct_reason": "The parts cover the stored water, the pools, and the movement, and the last part states that people affect all of it.",
+        "tell": "The passage is about water moving between the places it is stored, and how people change that movement.",
+        "help": [
+          "Look at what every part is about.",
+          "One part is places. One is pools. One is movement and people."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Water moves between the places it is stored, and people change that movement.",
+        "accept_ideas": [
+          "water moving between places it is stored and how people affect it",
+          "the water cycle and how people change it",
+          "where water is and how it moves"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the exact share of water in the ocean",
+          "the names of the pools"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about the ocean",
+            "ask": "The ocean is the largest pool. What do the other parts add?"
+          },
+          {
+            "when": "the student says it is about how rain forms",
+            "ask": "Rain is one step in the movement. What is the whole passage about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "A reader says the passage is mostly about the ocean, because it holds almost all of Earth's water. What does that idea miss?",
+      "tutor_only": {
+        "confirm": "Right. It treats one pool as the subject, and the passage is about movement between all of them.",
+        "correct_reason": "The share is one fact in the second part. The passage turns on where water is stored, how it moves, and what people change.",
+        "tell": "That idea leaves out movement. The passage is about water passing between all the pools, and what people change.",
+        "help": [
+          "Look at how many parts are about the ocean.",
+          "Two parts are about movement and people."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It treats one pool as the subject, and the passage is about movement between all the pools.",
+        "accept_ideas": [
+          "it leaves out how water moves between places",
+          "the passage is about the cycle, not one pool",
+          "it misses what people do to the water"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the names of the smaller pools"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says nothing is missing",
+            "ask": "Count the parts about the ocean. Then count the parts about movement and people."
+          },
+          {
+            "when": "the student says it leaves out rain",
+            "ask": "Rain is one step. What larger thing do all the steps belong to?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this rung; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_2_0004",
+    "next_irl": 4,
+    "next_means": "Another main-idea lesson in this rung.",
+    "student_line": "The next reading is another main-idea lesson in this rung."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_2_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

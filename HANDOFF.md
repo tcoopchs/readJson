@@ -1,9 +1,7 @@
 # Handoff — readJson / readingHarness
 
-State as of 2026-10-27, uncommitted on `main`. Last commit is `16104a9`. Everything below is on
-disk and verified, but **nothing since that commit is committed yet** — 70 files are modified or
-untracked, including every runtime lesson, because the ticket-v2 change required recompiling the
-whole catalog. Commit before handing this to anyone else.
+State as of 2026-10-28, committed on `main` through the `main_idea` 4.2 rung. The catalog is
+clean: `git status` shows nothing uncommitted, and every runtime lesson matches its source.
 
 Normative docs: `README.md` (naming, bands, routing), `DESIGN_RULES.md` (passage, items, ladder),
 `research/reading-instruction/BUILD_PLAN.md` (what to build next). If this handoff and the rules
@@ -13,17 +11,17 @@ disagree, the rules win — and this file is wrong.
 
 ## Where the catalog stands
 
-46 compiled lessons. The inference ladder is complete from the floor through stage 4.3, and
-`main_idea` now runs from its floor through stage 4.1.
+52 compiled lessons. The inference ladder is complete from the floor through stage 4.3, and
+`main_idea` now runs from its floor through stage 4.2.
 
 | Ladder | Rungs built | Notes |
 | --- | --- | --- |
 | `inference` | 3.1 ✓ (6) · 4.1 ✓ (8) · 4.2 ✓ (6) · 4.3 ✓ (6) · 5.1 2/6 · 6.1 1/6 | 5.1 and 6.1 are prototype files, incomplete |
-| `main_idea` | 3.1 ✓ (6) · 4.1 ✓ (6) · 7.1 2/6 | the 7.1 gap is why a clear on 4.1 holds |
+| `main_idea` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 7.1 2/6 | 4.2 is one cell from six federal works; the 7.1 gap is why a clear on 4.2 holds |
 | the other six | none | see Phase 2 in the build plan |
 
 `lessons/curriculum.json` matches reality: 4.1 inference keeps its eight files as road; 3.1, 4.2, 4.3
-and main_idea 3.1 and 4.1 declare six each and are `complete`.
+and main_idea 3.1, 4.1, and 4.2 declare six each and are `complete`.
 
 ## The start of the ladder is now wired
 
@@ -45,9 +43,15 @@ and main_idea 3.1 and 4.1 declare six each and are `complete`.
 
 ```bash
 build_lessons.py --check          # exit 0
-pytest                            # 54 passed
-catalog load (46 lessons)         # ladders in order, onboarding rows valid
+pytest                            # 57 passed
+validate_lesson.py --strict       # 53 sources, 0 errors, 0 warnings
+audit_lessons.py                  # no finding in any 4.2 lesson
+catalog load (52 lessons)         # ladders in order, onboarding rows valid
 ```
+
+`main_idea` 4.2 ran a smooth and a hard sweep on 2026-10-28, six of six both ways: smooth ends
+`u=5 an=1` with no leak and no early ticket; hard reaches `tell`, invents no help, and stops with
+`an=0`. Spend for both passes was $0.048.
 
 Routed against the live code: a clear on 3.1 → 4.1; a clear on 4.2 → 4.3; a second clear on 4.3
 holds because 5.1 is incomplete; a hard fail on 4.2 → the middle of 4.1; a hard fail on 4.3 → the
@@ -69,7 +73,8 @@ middle of 4.2.
    4.3, and main_idea 4.1 were drafted under `2.6` and every one says `drafted_by: "TC review
    pending"`. Band 5+ cannot use that route.
 3. **No `text-bank` rows** for any of the 30 drafted passages. Provenance lives only in each source
-   block.
+   block. The six adapted `main_idea` 4.2 passages are banked (TB-009 to TB-014) with licence, URL,
+   access date, measured FK, complexity scores, central idea, supports, and a caution line.
 4. **`validate_lesson.py` is in the skill, not in either repo.** It lives at
    `~/.hermes/skills/productivity/readjson-lessons/scripts/validate_lesson.py`, so the plan's paths
    point at nothing. Run it from the skill against this repo:
@@ -79,7 +84,7 @@ middle of 4.2.
      --strict --src-dir lessons/src --lessons-dir lessons lessons/src/*.source.json
    ```
 
-   It validated all 47 sources at 0 errors on 2026-10-28. `build_lessons.py --check` remains the
+   It validated all 52 sources at 0 errors and 0 warnings on 2026-10-28. `build_lessons.py --check` remains the
    second gate: sources and compiled files must agree.
 5. **57 `audit_lessons.py` style findings stand** (bare ordinal section references such as "What is
    the second part mostly about?", mainly in main_idea 4.1). These are a known backlog, not errors,
@@ -88,11 +93,13 @@ middle of 4.2.
 
 ## Next actions, in order
 
-1. Cold-chat `inference_band_3_1_0001`, then the rest of that rung. Fix source defects, not prompts.
-2. `main_idea 4.2`, six lessons — Phase 2 finishes a vertical up its ladder before starting the next,
-   so 4.2 and 4.3 come before `vocab 3.1`.
-3. Backfill `text-bank` rows for the 30 drafted lessons, then commit in two parts: lessons repo, then
-   the `readingHarness` config/code change.
+1. `main_idea 4.3`, six lessons — Phase 2 finishes a vertical up its ladder before starting the next,
+   so 4.3 comes before `vocab 3.1`. Drafting is not available here by choice: 4.2 established the
+   adapted-federal-source route at grade 4, and 4.3 should follow it.
+2. Branch sessions on `main_idea` 4.2: misconception, injection, and stop per rung. The smooth and
+   hard sweeps are clean, so what is left is the copy that only a branch reaches.
+3. Cold-chat `inference_band_3_1_0001`, then the rest of that rung. Fix source defects, not prompts.
+4. Backfill `text-bank` rows for the 30 drafted lessons.
 
 ## Rules a new author must not relearn the hard way
 

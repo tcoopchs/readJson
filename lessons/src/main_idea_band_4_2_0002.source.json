@@ -1,0 +1,259 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_2_0002",
+  "meta": {
+    "status": "published",
+    "title": "The Park Built by Hand",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.6-6.2 on the three parts, inside the grade 4-5 band. The load is that the parts describe work, not a stated point: camps, then projects, then the shaping of the land, so the reader has to decide what the work adds up to.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "_comment": "Source: U.S. National Park Service, 'Shenandoah: Not Without the CCC', https://www.nps.gov/articles/shenandoah-not-without-the-ccc.htm (accessed 2026-10-28). U.S. federal government work, public domain in the U.S. Adapted for band 4: changes were made to the wording only.",
+      "basis": "U.S. National Park Service, 'Shenandoah: Not Without the CCC'.",
+      "attribution": "U.S. National Park Service, 'Shenandoah: Not Without the CCC', https://www.nps.gov/articles/shenandoah-not-without-the-ccc.htm, accessed 2026-10-28. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Split long sentences, dropped the opening quotation and the camp-by-camp project list, and replaced three agency abbreviations with plain names.",
+      "drafted_by": "TC review pending",
+      "survey": "The whole-passage idea is that a park which looks wild was built and shaped by people, and each part supplies one piece of that case.",
+      "avoided": "No quotations from the 1933 pageant. No acreage disputes or court detail. No claim about present-day park policy."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and how far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "In 1933, the country was deep in the Great Depression. President Roosevelt started the Civilian Conservation Corps to give young men work outdoors. By May, two CCC camps stood in the Shenandoah Valley, at Skyland and at Big Meadows, and more than 1,000 young men lived in them. The Army ran the camps, and the National Park Service chose the work. The park itself did not exist yet, because it would not open until 1935. Roosevelt wanted the camps seen, so photographers followed his tour. Between 1933 and 1942, ten CCC camps were set up in or near the park. Most early work stayed along the narrow strip of land beside the road.",
+    "part_2": "The men built the park from the ground up, and their projects fell into three groups: buildings, roads and trails, and landscaping. They cut trails and fire roads, put up log comfort stations, and cleared picnic grounds. They built a sawmill and cut lumber for park buildings, and some of the lumber came from chestnut trees that a blight had killed years earlier. A shingle mill made heavy tiles shaped like wood shingles. A blacksmith shop made hinges, latches, and tools. Workers raised plants in nurseries, so bare ground could be planted again. A sign shop made wooden signboards for the park.",
+    "part_3": "The crews did more than build. They also changed how the land looked. They removed dead chestnut trees, thinned the undergrowth, and cut deadwood to lower the risk of fire. They planted trees, shrubs, and small plants along the road, and they spent eight years trying to remove an invasive tree called Ailanthus. A landscape architect named Benson planned the views. Researchers now say that no area in view of the Skyline Drive is fully natural. The land was shaped on purpose, for the eye of a driver. Visitors see a park that looks wild, but people made it that way."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Who ran the camps, and who chose the work?",
+      "tutor_only": {
+        "confirm": "Right. The Army ran the camps, and the National Park Service chose the work.",
+        "correct_reason": "The first part states both roles in one sentence.",
+        "tell": "The Army ran the camps, and the National Park Service chose the work.",
+        "help": [
+          "Look at the sentence that names both groups.",
+          "One group ran the camps. The other chose the work."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The Army ran the camps, and the National Park Service chose the work.",
+        "accept_ideas": [
+          "the army ran them and the park service chose the work",
+          "the army and the national park service"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the men were paid",
+          "how long each man stayed"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the President ran the camps",
+            "ask": "The President started the program. Which two groups ran the camps and chose the work?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is this part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. The crews built trails, buildings, mills, and a supply of plants.",
+        "correct_reason": "The part lists the work: trails, fire roads, comfort stations, picnic grounds, a sawmill, a shingle mill, a blacksmith shop, and nurseries.",
+        "tell": "This part is about the many kinds of work the crews did to build the park.",
+        "help": [
+          "Look at the list of work in this part.",
+          "The list begins with trails and ends with plants."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The crews did many kinds of work to build the park.",
+        "accept_ideas": [
+          "the work the crews did",
+          "what the men built",
+          "the buildings, roads, and plants they made"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the sawmill",
+          "how many trails they cut"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about a blacksmith shop",
+            "ask": "The shop is one item in a list. What does the list as a whole describe?"
+          },
+          {
+            "when": "the student says it is about the Army",
+            "ask": "The Army appears in the opening. What does this part say the men made?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The crews cut undergrowth and planted trees. Why does the passage include that work?",
+      "tutor_only": {
+        "confirm": "Right. The crews were shaping how the land looked for drivers.",
+        "correct_reason": "The third part ends with the architect planning the views and the claim that no area in view of the road is fully natural.",
+        "tell": "The crews were shaping the land and the views along the road, not only building things.",
+        "help": [
+          "Read the sentences about planting and about the views.",
+          "A landscape architect planned the views."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The crews were shaping the land and the views along the road.",
+        "accept_ideas": [
+          "they were shaping the views along the road",
+          "to make the land look a certain way",
+          "the land was shaped on purpose"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many trees they planted",
+          "which shrubs they used"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the work was to stop fires",
+            "ask": "Cutting deadwood is one job. What does the passage say the planting was for?"
+          },
+          {
+            "when": "the student says the work was to sell the trees",
+            "ask": "Nothing in the passage mentions selling. What did the planting change for a driver?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. CCC crews built the park's roads, buildings, and views, so much of its wild look was made by people.",
+        "correct_reason": "The three parts cover the camps, the work, and the shaping of the land, and the last sentence states the result: people made the park look wild.",
+        "tell": "The passage is about CCC crews who built and shaped the park, so its wild look came from people.",
+        "help": [
+          "Look at what every part is about.",
+          "Two parts are about building. One is about shaping the land."
+        ],
+        "say_back": "own_words",
+        "core_idea": "CCC crews built the park and shaped how it looks, so its wild look came from people.",
+        "accept_ideas": [
+          "crews that built a park and shaped how it looks",
+          "people made the park, including the views",
+          "a park built by hand during the Depression"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the names of the camps",
+          "the year the park opened"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about the Great Depression",
+            "ask": "The Depression explains why the camps existed. What did the men do there?"
+          },
+          {
+            "when": "the student says it is about a sawmill and a blacksmith shop",
+            "ask": "Those are two workplaces. What do all the workplaces add up to?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage says no area in view of the Skyline Drive is fully natural. Why does it say that?",
+      "tutor_only": {
+        "confirm": "Right. Crews cleared, planted, and shaped the land to create those views.",
+        "correct_reason": "The claim follows the list of work on the land and the architect who planned the views, so the view is a result of the work.",
+        "tell": "Because people cleared, planted, and shaped the land to make the views along the road.",
+        "help": [
+          "Read the sentences before that claim.",
+          "The architect planned the views on purpose."
+        ],
+        "say_back": "own_words",
+        "core_idea": "People cleared, planted, and shaped the land to make the views.",
+        "accept_ideas": [
+          "people shaped the land to make the views",
+          "crews cleared and planted the whole area",
+          "the view was made on purpose"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the road was paved"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the road was built through wild land",
+            "ask": "Read the sentences just before that claim. What had the crews done to the land?"
+          },
+          {
+            "when": "the student says the park is too small to be natural",
+            "ask": "Size is not the reason given. What did the landscape architect do?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this rung; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_2_0003",
+    "next_irl": 4,
+    "next_means": "Another main-idea lesson in this rung.",
+    "student_line": "The next reading is another main-idea lesson in this rung."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_2_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

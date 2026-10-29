@@ -1,0 +1,253 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_2_0005",
+  "meta": {
+    "status": "published",
+    "title": "The Storm That Runs on Warm Water",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.8-6.2 on the three parts, inside the grade 4-5 band. The load is three kinds of information under one idea: what a hurricane is, how it is measured, and how it is named, so the reader has to see a system rather than a list.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "_comment": "Source: National Oceanic and Atmospheric Administration, 'Hurricanes', https://www.noaa.gov/education/resource-collections/weather-atmosphere/hurricanes (accessed 2026-10-28). U.S. federal government work, public domain in the U.S. Adapted for band 4: changes were made to the wording only.",
+      "basis": "National Oceanic and Atmospheric Administration, 'Hurricanes'.",
+      "attribution": "National Oceanic and Atmospheric Administration, 'Hurricanes', https://www.noaa.gov/education/resource-collections/weather-atmosphere/hurricanes, accessed 2026-10-28. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Split long sentences, dropped the Coriolis and wind-shear explanations, the videos, and the image captions, and kept the stated definitions and wind classes.",
+      "drafted_by": "TC review pending",
+      "survey": "The central idea joins what a hurricane is with how it is measured and named, so the reader has to hold three kinds of information.",
+      "avoided": "No seasonal outlook figures. No named-storm history beyond the naming rule."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and how far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A hurricane is a large storm that forms over warm ocean water. It is a low-pressure system with many thunderstorms packed together, and the storms gain their energy from the warm water below. As the storm grows, its winds begin to move in a circle. This circular pattern is called closed circulation. The spinning winds open a calm, clear center, which is the eye. Around the eye is the eyewall, where the winds are strongest. A hurricane can bring strong wind, heavy rain, and a rise of sea water called storm surge. The eye is calm, but the eyewall is not.",
+    "part_2": "Storms are sorted by wind speed, and winds below 39 miles per hour make a tropical depression. Winds from 39 to 73 miles per hour make a tropical storm. At 74 miles per hour and above, the storm is a hurricane. A major hurricane has winds of at least 111 miles per hour. Major hurricanes can reach speeds of over 180 miles per hour. For a storm to grow, several things must be true at once: the ocean water must be at least 80 degrees, the air must be moist, and the winds must not change much with height. The classes are measured in miles per hour.",
+    "part_3": "The same storm has different names in different places. In the North Atlantic and the eastern Pacific, it is a hurricane. In the western North Pacific, it is a typhoon. In the South Pacific and the Indian Ocean, it is a cyclone. These storms are rare in the South Atlantic, and a hurricane is also called a tropical cyclone. Once a storm reaches tropical-storm strength, it gets a name. An international committee chooses the names. The list is reused every six years. A name can be retired after a deadly storm. Hurricanes, typhoons, and cyclones are the same kind of storm."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What do hurricanes gain their energy from?",
+      "tutor_only": {
+        "confirm": "Right. From warm ocean water.",
+        "correct_reason": "The first part says the storms gain their energy from the warm water below.",
+        "tell": "Hurricanes gain their energy from warm ocean water.",
+        "help": [
+          "Look at the second sentence of the opening.",
+          "The energy comes from below the storm."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Hurricanes gain their energy from warm ocean water.",
+        "accept_ideas": [
+          "warm ocean water",
+          "warm water",
+          "the warm sea"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how warm the water must be"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says from wind",
+            "ask": "The wind is a result. What does the passage say the storm gains energy from?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is this part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. How storms are sorted by wind speed, and what they need to grow.",
+        "correct_reason": "The part gives the wind classes and then the conditions a storm needs, including warm water, moist air, and steady winds.",
+        "tell": "This part is about sorting storms by wind speed and the conditions they need to grow.",
+        "help": [
+          "Look at what the numbers in this part describe.",
+          "The last sentences name the conditions a storm needs."
+        ],
+        "say_back": "own_words",
+        "core_idea": "How storms are sorted by wind speed, and what they need to grow.",
+        "accept_ideas": [
+          "how storms are sorted by wind speed",
+          "wind classes and what storms need",
+          "the wind speeds that make a hurricane"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the scale"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about the eye of the storm",
+            "ask": "The eye is in the opening. What does this part measure?"
+          },
+          {
+            "when": "the student says it is about warm water only",
+            "ask": "Warm water is one condition. What else must be true?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "The same storm has three names. What decides which name it gets?",
+      "tutor_only": {
+        "confirm": "Right. Where the storm forms.",
+        "correct_reason": "The third part gives the regions: hurricane in the North Atlantic and eastern Pacific, typhoon in the western Pacific, cyclone in the South Pacific and Indian Ocean.",
+        "tell": "The place where the storm forms decides whether it is called a hurricane, a typhoon, or a cyclone.",
+        "help": [
+          "Look at the three regions named.",
+          "The name changes with the place, not with the wind."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Where the storm forms decides which of the three names it gets.",
+        "accept_ideas": [
+          "where it forms",
+          "the place it forms",
+          "which ocean it is in"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how strong the storm is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the wind speed decides the name",
+            "ask": "Wind speed decides whether it is a hurricane at all. What decides which of the three words is used?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. Hurricanes are storms powered by warm water, and they are measured and named by set rules.",
+        "correct_reason": "The parts cover what the storm is, how it is measured, and how it is named, so the whole passage is a description of one kind of storm.",
+        "tell": "The passage is about hurricanes: storms fed by warm water, sorted by wind speed and named by place.",
+        "help": [
+          "Look at what every part is about.",
+          "One part is the storm. One is its speed. One is its name."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Hurricanes are storms fed by warm water, sorted by wind speed and named by place.",
+        "accept_ideas": [
+          "hurricanes and how they are measured and named",
+          "what a hurricane is and how it is sorted",
+          "storms that feed on warm water and get names"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the number of names on the list",
+          "the size of the eye"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about storm names",
+            "ask": "Names are one part. What do the other parts describe?"
+          },
+          {
+            "when": "the student says it is about the ocean",
+            "ask": "The ocean supplies energy. What is the passage about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "One reader says the passage is mostly about how storms get their names. What does that idea leave out?",
+      "tutor_only": {
+        "confirm": "Right. It leaves out what a hurricane is, how it gets its energy, and how storms are sorted.",
+        "correct_reason": "Naming fills the third part. The first explains the storm and its energy, and the second sorts storms by wind speed.",
+        "tell": "That idea leaves out the storm itself: its energy, its winds, and the wind speeds that sort it.",
+        "help": [
+          "Look at how many parts are about names.",
+          "Two parts are about the storm and its wind speeds."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It leaves out what a hurricane is and how it is measured.",
+        "accept_ideas": [
+          "it leaves out what a hurricane is and where its energy comes from",
+          "it misses the wind speeds and the eye",
+          "the storm itself is missing"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which names have been retired"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says nothing is missing",
+            "ask": "Count the parts about names. Then count the parts about wind and energy."
+          },
+          {
+            "when": "the student says it leaves out the beach",
+            "ask": "The coast is not the subject. What do the first two parts describe?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this rung; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_2_0006",
+    "next_irl": 4,
+    "next_means": "Another main-idea lesson in this rung.",
+    "student_line": "The next reading is another main-idea lesson in this rung."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_2_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -19,6 +19,12 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-006 | Dehydration | Nonfiction | 4 | Band 4.1 | 396 words | 8.5 page / ~5 definition | `inference_band_4_1_0003` |
 | TB-007 | Caves and Aquifers | Nonfiction | 4 | Band 4.1 | 460 words | 4.5-7.7 | `inference_band_4_1_0004` |
 | TB-008 | What Is a Black Hole? (Grades 5-8) | Nonfiction | 4 | Band 4.1 | 900 words | 5.1-6.7 sections | `inference_band_4_1_0005` |
+| TB-009 | The Story of the Beaver Marsh | Nonfiction | 4 | Band 4.2 | 304 words | 5.85 | `main_idea_band_4_2_0001` |
+| TB-010 | Shenandoah: Not Without the CCC | Nonfiction | 4 | Band 4.2 | 311 words | 5.73 | `main_idea_band_4_2_0002` |
+| TB-011 | The Water Cycle | Nonfiction | 4 | Band 4.2 | 308 words | 5.69 | `main_idea_band_4_2_0003` |
+| TB-012 | Wildland Fire: What is a Prescribed Fire? | Nonfiction | 4 | Band 4.2 | 314 words | 5.56 | `main_idea_band_4_2_0004` |
+| TB-013 | Hurricanes | Nonfiction | 4 | Band 4.2 | 304 words | 5.88 | `main_idea_band_4_2_0005` |
+| TB-014 | What is a planet? | Nonfiction | 4 | Band 4.2 | 308 words | 5.69 | `main_idea_band_4_2_0006` |
 
 ---
 
@@ -290,6 +296,198 @@ adopt a classroom voice. Skip the singularity and event-horizon paragraphs entir
 
 ---
 
+## TB-009 — The Story of the Beaver Marsh
+
+| Field | Value |
+| --- | --- |
+| Source | U.S. National Park Service |
+| URL | https://www.nps.gov/articles/000/story-of-the-beaver-marsh.htm |
+| License | U.S. federal government work; public domain in the U.S. |
+| Genre | Nonfiction, narrative history of a place |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 304 words (three passages, 100-103 each) |
+| FK grade | 5.85 on the three passages together |
+| Complexity | L2, I2, S2, K1 |
+| Best lesson fit | `main_idea_band_4_2_0001` |
+
+**Central idea.** A wetland that was drained and junked came back after volunteers cleared the junk
+and beavers raised the water.
+
+**Supporting details.** Land development and the Ohio and Erie Canal drained the wetland. A dairy
+farm, homes, and an auto repair shop stood on the land by the 1970s. Beavers returned in the late
+1970s after more than a century away and built dams that flooded the area. Sierra Club volunteers
+and the park service hauled away car parts, bed springs, and trash in the mid 1980s. Ohio has lost
+nearly 90 percent of its wetlands, and 46 percent of endangered species need wetlands.
+
+**Why it works.** Two agents, not one, bring the land back, so the whole-passage idea cannot be
+lifted from a single sentence. The detail about the auto shop is a real competing detail: true,
+vivid, and not the idea.
+
+**Cautions.** Local names (Lock 26, Riverview Road, Howe Meadow) were kept because they date the
+place without adding difficulty. Recheck both percentages at authoring time.
+
+---
+
+## TB-010 — Shenandoah: Not Without the CCC
+
+| Field | Value |
+| --- | --- |
+| Source | U.S. National Park Service |
+| URL | https://www.nps.gov/articles/shenandoah-not-without-the-ccc.htm |
+| License | U.S. federal government work; public domain in the U.S. |
+| Genre | Nonfiction, history |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 311 words (three passages, 101-108 each) |
+| FK grade | 5.73 on the three passages together |
+| Complexity | L2, I2, S2, K2 |
+| Best lesson fit | `main_idea_band_4_2_0002` |
+
+**Central idea.** CCC crews built the park's roads, buildings, and views, so much of what looks wild
+was made by people.
+
+**Supporting details.** Two camps opened in 1933 and ten stood in or near the park by 1942. The Army
+ran the camps and the National Park Service chose the work. Crews built trails, fire roads, comfort
+stations, a sawmill, a shingle mill, a blacksmith shop, and nurseries. Crews cleared, planted, and
+shaped the land along the Skyline Drive. Researchers say no area in view of the drive is fully
+natural.
+
+**Why it works.** The parts describe work, not a point, and the idea arrives as a consequence in the
+final sentences. That is one clean step past a rung where every part states its own point.
+
+**Cautions.** Needs the Depression context the passage itself supplies. The 1933 pageant quotation
+was dropped as above the band.
+
+---
+
+## TB-011 — The Water Cycle
+
+| Field | Value |
+| --- | --- |
+| Source | U.S. Geological Survey, Water Science School |
+| URL | https://www.usgs.gov/water-science-school/water-cycle |
+| License | U.S. federal government work; public domain in the U.S. |
+| Genre | Nonfiction, explanatory |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 308 words (three passages, 100-104 each) |
+| FK grade | 5.69 on the three passages together |
+| Complexity | L2, I2, S2, K1 |
+| Best lesson fit | `main_idea_band_4_2_0003` |
+
+**Central idea.** Water is always moving between the places it is stored, and people change that
+movement.
+
+**Supporting details.** Water is stored in the air, on the land, and below the ground, as liquid,
+solid, or gas. Oceans hold about 96 percent of Earth's water and the rest is fresh. Pools hold water
+for very different lengths of time. Water moves by evaporation, clouds, rain, runoff, and
+underground flow. People pump water, build dams, drain wetlands, and change how clean the water is.
+
+**Why it works.** The subject is a process rather than a thing, so a detail-led answer (the ocean)
+is visibly incomplete. It also reuses the water topic of inference 4.1 from a different page, which
+keeps the science vocabulary familiar without repeating a passage.
+
+**Cautions.** Strip the diagram labels and linked-page references. Do not import the 68/30 percent
+figures; those belong to a different USGS page.
+
+---
+
+## TB-012 — Wildland Fire: What is a Prescribed Fire?
+
+| Field | Value |
+| --- | --- |
+| Source | U.S. National Park Service |
+| URL | https://www.nps.gov/articles/what-is-a-prescribed-fire.htm |
+| License | U.S. federal government work; public domain in the U.S. |
+| Genre | Nonfiction, explanatory |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 314 words (three passages, 102-107 each) |
+| FK grade | 5.56 on the three passages together |
+| Complexity | L2, I2, S2, K1 |
+| Best lesson fit | `main_idea_band_4_2_0004` |
+
+**Central idea.** A prescribed fire is a planned burn held to written conditions and used to reach a
+goal on the land.
+
+**Supporting details.** A prescription covers public and crew safety, weather, and the chance of
+meeting the goal. Burns clear fuel near homes, create habitat, help rare species, and keep historic
+scenes open. Every burn needs a fire management plan and a burn plan. A go/no-go list is checked on
+the day of the burn. When fire cannot be used, crews cut and haul brush and may burn the piles later.
+
+**Why it works.** The idea pairs two things the parts keep apart: a fire set on purpose and a fire
+held to conditions. A reader who takes only the first half produces the misconception the last item
+tests.
+
+**Cautions.** Drop the ignition-device chemistry (glycol, potassium permanganate) and the park
+statistics. The two park examples stay as examples only.
+
+---
+
+## TB-013 — Hurricanes
+
+| Field | Value |
+| --- | --- |
+| Source | National Oceanic and Atmospheric Administration |
+| URL | https://www.noaa.gov/education/resource-collections/weather-atmosphere/hurricanes |
+| License | U.S. federal government work; public domain in the U.S. |
+| Genre | Nonfiction, explanatory |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 304 words (three passages, 100-102 each) |
+| FK grade | 5.88 on the three passages together |
+| Complexity | L2, I2, S2, K2 |
+| Best lesson fit | `main_idea_band_4_2_0005` |
+
+**Central idea.** A hurricane is a storm fed by warm ocean water, and storms are sorted by wind speed
+and named by the place where they form.
+
+**Supporting details.** Hurricanes are low-pressure systems that gain energy from warm ocean water.
+Winds circle in closed circulation around a calm eye, with the eyewall around it. Storms are classed
+by wind speed: below 39, 39-73, and 74 miles per hour and above. Storms need warm water, moist air,
+and steady winds to grow. The same storm is a hurricane, a typhoon, or a cyclone depending on where
+it forms, and names are reused every six years.
+
+**Why it works.** Three kinds of information sit under one idea, which is the load step for this
+rung. Naming is a strong competing subject for the final item.
+
+**Cautions.** The page is navigation-heavy; extract the three sections only. Coriolis and wind shear
+were dropped as above the band.
+
+---
+
+## TB-014 — What is a planet?
+
+| Field | Value |
+| --- | --- |
+| Source | National Aeronautics and Space Administration |
+| URL | https://science.nasa.gov/solar-system/planets/what-is-a-planet/ |
+| License | U.S. federal government work; public domain in the U.S. |
+| Genre | Nonfiction, explanatory |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 308 words (three passages, 101-105 each) |
+| FK grade | 5.69 on the three passages together |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `main_idea_band_4_2_0006` |
+
+**Central idea.** The word planet means what astronomers agree it means, and that agreement changed
+when new objects were found.
+
+**Supporting details.** The 2006 definition requires a planet to orbit a star, be round from its own
+gravity, and clear its path. Pluto was called the ninth planet from 1930. Better telescopes found
+many icy objects in the Kuiper Belt in the 1990s. Eris, found in 2005, forced the vote that made
+Pluto a dwarf planet. Astronomers still disagree about the rule, and the meaning may change again.
+
+**Why it works.** The highest idea load in the rung: the subject is a definition and the argument
+around it, so the reader has to separate one famous case from the rule that produced it.
+
+**Cautions.** Keep the disagreement, or the passage teaches a false certainty. The quoted IAU
+resolution and the Greek history were dropped as above the band.
+
+---
+
 ## Screened but not banked
 
 These were reviewed and set aside. Keep them visible for later; do not treat them as approved.
@@ -310,10 +508,10 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
 4. Write the central idea and three to five supporting details.
 5. Record the lesson slot it fits, not just the topic.
 6. Add a caution line. Every text has one.
-7. **One work per (category, band) cell; one passage per lesson.** A good long work is milked across
-   the whole cell: take every lesson's passage from it, as long as no displayed passage repeats and
-   each lesson's passage is self-sufficient. Record the cell it serves, and record how many disjoint
-   passages the work can yield — it must sustain eight of 100-200 words even if only four are
-   authored now.
+7. **One passage per lesson; a work serves one cell.** Where a work can carry a cell, milk it: take
+   every lesson's passage from it, as long as no displayed passage repeats and each lesson's passage
+   is self-sufficient. A cell drawing on several works is a sourcing choice, not a defect
+   (`DESIGN_RULES` 2.2). Record which cell a work serves, and how many disjoint passages it can
+   yield (eight of 100-200 words, even if only four are authored now).
 8. **A work never serves two cells.** Not two bands, not two categories. The move from Band 5.1 to
    Band 6.1 is the transition a student always notices, so it gets fresh material.
