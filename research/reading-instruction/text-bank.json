@@ -32,7 +32,8 @@
     "Other pigments become visible once chlorophyll is gone.",
     "Rain and cool weather affect how bright the colors are."
    ],
-   "cautions": "Source uses exclamation points; quote as written or trim. Define pigment, chlorophyll, and enzyme in context."
+   "cautions": "Source uses exclamation points; quote as written or trim. Define pigment, chlorophyll, and enzyme in context.",
+   "topic_domain": "science and nature"
   },
   {
    "id": "TB-002",
@@ -64,7 +65,8 @@
     "Surface freshwater is about 1/150th of one percent of total water.",
     "Rivers and lakes supply most of the water people use."
    ],
-   "cautions": "Page is table-heavy; use the prose excerpt. Recheck figures at authoring time."
+   "cautions": "Page is table-heavy; use the prose excerpt. Recheck figures at authoring time.",
+   "topic_domain": "science and nature"
   },
   {
    "id": "TB-003",
@@ -98,7 +100,8 @@
     "Years of hard work and poverty follow.",
     "The ending reveals the original necklace was paste."
    ],
-   "cautions": "1884 and translated; violates the modern-text default below grade 11. Full story is too long for five items; excerpt must still contain setup, loss, and reveal."
+   "cautions": "1884 and translated; violates the modern-text default below grade 11. Full story is too long for five items; excerpt must still contain setup, loss, and reveal.",
+   "topic_domain": "arts and language"
   },
   {
    "id": "TB-004",
@@ -107,7 +110,7 @@
    "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-you-water-and-human-body",
    "license": "U.S. federal government work; public domain in the U.S.",
    "genre": "nonfiction",
-   "topic_domain": "science",
+   "topic_domain": "science and nature",
    "grade_target": 4,
    "band": "Band 4.1",
    "length_words": 1371,
@@ -142,7 +145,7 @@
    "url": "https://oceanservice.noaa.gov/facts/ripcurrent.html",
    "license": "U.S. federal government work; public domain in the U.S.",
    "genre": "nonfiction",
-   "topic_domain": "nature",
+   "topic_domain": "science and nature",
    "grade_target": 4,
    "band": "Band 4.1",
    "length_words": 209,
@@ -175,7 +178,7 @@
    "url": "https://medlineplus.gov/dehydration.html",
    "license": "U.S. federal government work; public domain in the U.S.",
    "genre": "nonfiction",
-   "topic_domain": "science",
+   "topic_domain": "science and nature",
    "grade_target": 4,
    "band": "Band 4.1",
    "length_words": 396,
@@ -210,7 +213,7 @@
    "url": "https://www.nps.gov/articles/caves-and-aquifers.htm",
    "license": "U.S. federal government work; public domain in the U.S.",
    "genre": "nonfiction",
-   "topic_domain": "nature",
+   "topic_domain": "science and nature",
    "grade_target": 4,
    "band": "Band 4.1",
    "measured_fk": 7.7,
@@ -245,7 +248,7 @@
    "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-a-black-hole-grades-5-8/",
    "license": "U.S. federal government work; public domain in the U.S.",
    "genre": "nonfiction",
-   "topic_domain": "science",
+   "topic_domain": "science and nature",
    "grade_target": 4,
    "band": "Band 4.1",
    "measured_fk": 6.7,
@@ -302,7 +305,8 @@
     "Sierra Club volunteers and the park service hauled away car parts, bed springs, and trash in the mid 1980s.",
     "Ohio has lost nearly 90 percent of its wetlands, and 46 percent of endangered species need wetlands."
    ],
-   "cautions": "Local names (Lock 26, Howe Meadow, Riverview Road) were kept; they date the place without adding difficulty. Recheck the two percentages at authoring time."
+   "cautions": "Local names (Lock 26, Howe Meadow, Riverview Road) were kept; they date the place without adding difficulty. Recheck the two percentages at authoring time.",
+   "topic_domain": "science and nature"
   },
   {
    "id": "TB-010",
@@ -333,7 +337,8 @@
     "Crews cleared, planted, and shaped the land along the Skyline Drive.",
     "Researchers say no area in view of the drive is fully natural."
    ],
-   "cautions": "Needs one line of context for the Depression, which the passage supplies. The 1933 pageant quotation was dropped."
+   "cautions": "Needs one line of context for the Depression, which the passage supplies. The 1933 pageant quotation was dropped.",
+   "topic_domain": "history and people"
   },
   {
    "id": "TB-011",
@@ -364,7 +369,8 @@
     "Water moves by evaporation, clouds, rain, runoff, and underground flow.",
     "People pump water, build dams, drain wetlands, and change how clean the water is."
    ],
-   "cautions": "Strip the diagram labels and the linked-page references. Do not import the 68/30 percent figures; they belong to a different USGS page."
+   "cautions": "Strip the diagram labels and the linked-page references. Do not import the 68/30 percent figures; they belong to a different USGS page.",
+   "topic_domain": "science and nature"
   },
   {
    "id": "TB-012",
@@ -395,7 +401,8 @@
     "A go/no-go list is checked on the day of the burn.",
     "When fire cannot be used, crews cut and haul brush and may burn the piles later."
    ],
-   "cautions": "Drop the ignition-device chemistry (glycol, potassium permanganate) and the park statistics. Keep the two park examples as examples only."
+   "cautions": "Drop the ignition-device chemistry (glycol, potassium permanganate) and the park statistics. Keep the two park examples as examples only.",
+   "topic_domain": "science and nature"
   },
   {
    "id": "TB-013",
@@ -426,7 +433,8 @@
     "Storms need warm water, moist air, and steady winds to grow.",
     "The same storm is a hurricane, a typhoon, or a cyclone depending on where it forms, and names are reused every six years."
    ],
-   "cautions": "The page is navigation-heavy; extract the three sections only. Coriolis and wind shear were dropped as above the band."
+   "cautions": "The page is navigation-heavy; extract the three sections only. Coriolis and wind shear were dropped as above the band.",
+   "topic_domain": "science and nature"
   },
   {
    "id": "TB-014",
@@ -457,7 +465,8 @@
     "Eris, found in 2005, forced the vote that made Pluto a dwarf planet.",
     "Astronomers still disagree about the rule, and the meaning may change again."
    ],
-   "cautions": "Highest idea load in the rung: the subject is a definition, not an object. Keep the disagreement, or the passage teaches a false certainty."
+   "cautions": "Highest idea load in the rung: the subject is a definition, not an object. Keep the disagreement, or the passage teaches a false certainty.",
+   "topic_domain": "science and nature"
   }
  ],
  "screened_not_banked": [

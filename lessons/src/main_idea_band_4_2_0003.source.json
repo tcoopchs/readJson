@@ -10,6 +10,7 @@
     "stage": 2,
     "sequence": 3,
     "genre": "nonfiction",
+    "topic_domain": "science and nature",
     "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
     "reader": {
       "who": "Older students who read at about a fourth-grade level.",

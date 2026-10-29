@@ -36,6 +36,7 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | URL | https://www.nps.gov/articles/why-do-leaves-change-in-the-fall.htm |
 | License | U.S. federal government work; public domain in the U.S. |
 | Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
 | Grade target | 7 |
 | Band | Band 7.1 |
 | Length | 192 words |
@@ -71,6 +72,7 @@ sentences. Define `pigment`, `chlorophyll`, and `enzyme` in context if the lesso
 | URL | https://www.usgs.gov/water-science-school/science/where-earths-water |
 | License | U.S. federal government work; public domain in the U.S. |
 | Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
 | Grade target | 7 |
 | Band | Band 7.1 |
 | Length | 174-word excerpt |
@@ -106,6 +108,7 @@ need to be checked against the page at authoring time.
 | Clean text | https://viva.pressbooks.pub/compreader/chapter/necklace/ |
 | License | Public domain in the U.S. |
 | Genre | Fiction, short story |
+| Topic domain | arts and language |
 | Grade target | 7 readability; 8-9 literary |
 | Band | Band 9.1 for a literary lesson |
 | Length | Full short story; an excerpt is required for one lesson |
@@ -304,6 +307,7 @@ adopt a classroom voice. Skip the singularity and event-horizon paragraphs entir
 | URL | https://www.nps.gov/articles/000/story-of-the-beaver-marsh.htm |
 | License | U.S. federal government work; public domain in the U.S. |
 | Genre | Nonfiction, narrative history of a place |
+| Topic domain | science and nature |
 | Grade target | 4 |
 | Band | Band 4.2 |
 | Length | 304 words (three passages, 100-103 each) |
@@ -337,6 +341,7 @@ place without adding difficulty. Recheck both percentages at authoring time.
 | URL | https://www.nps.gov/articles/shenandoah-not-without-the-ccc.htm |
 | License | U.S. federal government work; public domain in the U.S. |
 | Genre | Nonfiction, history |
+| Topic domain | history and people |
 | Grade target | 4 |
 | Band | Band 4.2 |
 | Length | 311 words (three passages, 101-108 each) |
@@ -369,6 +374,7 @@ was dropped as above the band.
 | URL | https://www.usgs.gov/water-science-school/water-cycle |
 | License | U.S. federal government work; public domain in the U.S. |
 | Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
 | Grade target | 4 |
 | Band | Band 4.2 |
 | Length | 308 words (three passages, 100-104 each) |
@@ -401,6 +407,7 @@ figures; those belong to a different USGS page.
 | URL | https://www.nps.gov/articles/what-is-a-prescribed-fire.htm |
 | License | U.S. federal government work; public domain in the U.S. |
 | Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
 | Grade target | 4 |
 | Band | Band 4.2 |
 | Length | 314 words (three passages, 102-107 each) |
@@ -433,6 +440,7 @@ statistics. The two park examples stay as examples only.
 | URL | https://www.noaa.gov/education/resource-collections/weather-atmosphere/hurricanes |
 | License | U.S. federal government work; public domain in the U.S. |
 | Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
 | Grade target | 4 |
 | Band | Band 4.2 |
 | Length | 304 words (three passages, 100-102 each) |
@@ -465,6 +473,7 @@ were dropped as above the band.
 | URL | https://science.nasa.gov/solar-system/planets/what-is-a-planet/ |
 | License | U.S. federal government work; public domain in the U.S. |
 | Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
 | Grade target | 4 |
 | Band | Band 4.2 |
 | Length | 308 words (three passages, 101-105 each) |
@@ -513,5 +522,9 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
    is self-sufficient. A cell drawing on several works is a sourcing choice, not a defect
    (`DESIGN_RULES` 2.2). Record which cell a work serves, and how many disjoint passages it can
    yield (eight of 100-200 words, even if only four are authored now).
-8. **A work never serves two cells.** Not two bands, not two categories. The move from Band 5.1 to
+8. **Rotate the subject across a rung.** Record `topic_domain` on every row, and list the six
+   domains of a rung before sourcing: no two consecutive lessons may share one, and a rung spans at
+   least four. Federal science pages are the cheapest licence, not the default subject; a rung of six
+   of them fails this rule even with clean licences.
+9. **A work never serves two cells.** Not two bands, not two categories. The move from Band 5.1 to
    Band 6.1 is the transition a student always notices, so it gets fresh material.

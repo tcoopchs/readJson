@@ -66,6 +66,40 @@ Three consequences worth stating up front:
 - Training data is not a source. A drafted passage is written to the band; it is not recalled from a
   work and it carries no attribution. Never invent a citation to make a drafted passage look sourced.
 
+### 3.1 Subject variety
+
+A rung is six readings a student meets in a week, so the subjects have to move. This is a product
+decision, not a preference: a vertical that reads as six science explainers teaches the skill and
+still bores the reader out of it.
+
+- **No two consecutive sequences in one rung share a topic domain**, and the six lessons of a cell
+  span at least four of: history and people, science and nature, food and farming, work and trade,
+  arts and language, sport and play, places and travel.
+- **A federal page is the cheapest licence, not the default subject.** NPS, USGS, NOAA and NASA
+  carry science and public history well. They do not carry cooking, money, sport, music, or family
+  life, and a rung built only from them is a rut.
+- **Record the domain per lesson** in `meta.topic_domain`, using the same word the text-bank row
+  uses, and check the six-lesson spread before authoring rather than after.
+- **Some domains need a different source family** because the free pool is thinner:
+  - *Food and farming*: USDA and its research arms, Smithsonian food-history pages, land-grant
+    university extension publications (licence varies by institution and by page — verify the page),
+    and pre-1929 public-domain cookbooks or farm manuals adapted under 2.5. Modern cookbooks,
+    magazine recipes, and food blogs are copyrighted; they are not usable.
+  - *Arts and language*: public-domain essays and criticism adapted under 2.5, CC BY writing guides
+    (OpenStax), and museum or archive pages about a writer, a form, or a craft. Below grade 6,
+    `DESIGN_RULES` 2.2.1 keeps the cell nonfiction, so this slot holds nonfiction about books,
+    language, or a maker — not an excerpt of a novel.
+  - *Work and trade*: OSHA, BLS, and USDA publications, state extension, and public-domain manuals.
+  - *Sport and play*: Smithsonian and NPS recreation pages, plus public-domain rule books and club
+    histories.
+- **A rung that already shipped keeps its sources.** Do not retrofit a published rung to balance a
+  domain count; carry the missing domains into the next rung in the same vertical. `main_idea` 4.2
+  shipped five science and nature pages and one history and people lesson, and every other banked
+  row is a federal science page apart from one public-domain story, so `main_idea` 4.3 carries the
+  debt: it must place food and farming,
+  arts and language, work and trade, and sport and play, and none of them can be a federal science
+  page. That is the rung where the sourcing rule first bites, not a rung to discover it on.
+
 ## 4. Rate
 
 **Six lessons per day: one rung per day.** Stop at the rung boundary. A rung that fails
@@ -133,7 +167,9 @@ so `main_idea` at 4 is central idea and `main_idea` at 6 is theme, with no avera
 | OpenStax | process, text_structure, argument_evidence | CC BY; keep attribution |
 | Our World in Data | argument_evidence, text_structure | CC BY; check per-chart vs per-article |
 | The Conversation | argument_evidence, authors_craft on nonfiction | CC BY-ND — verbatim excerpt only, no adaptation |
-| Project Gutenberg / standard public-domain texts | literary_text and authors_craft at 12.1 only | Public domain in the U.S.; pre-1929 |
+| Project Gutenberg / standard public-domain texts | literary_text and authors_craft at 12.1; food, work, sport, and language topics at any band when adapted | Public domain in the U.S.; pre-1929 |
+| Smithsonian museums (verify the unit is a federal work, not a contractor page) | history, arts, food, sport | Public domain in the U.S. when federal; check per page |
+| Land-grant university extension (USDA-affiliated) | food, farming, household and trade skills | Licence varies by institution and page; verify the page, and prefer federal or PD where it is close |
 | Text written for the lesson | any | `source.basis: written for this lesson` with `source.drafted_by` |
 
 Reject without discussion: Wikipedia (share-alike complicates attribution), news wires and most
@@ -153,6 +189,9 @@ magazines, textbook scans, anything whose license is stated by the hosting site 
    passages testing one idea, and lessons four through six become practice without progress.
 5. **Numbers and figures rechecked at authoring time.** Federal pages get revised.
 6. **Screened-but-rejected goes in the table with a reason**, so the next author does not re-fetch.
+7. **Rotate the subject across a rung.** List the six domains before sourcing; if two neighbours
+   match, replace one source. Six federal science pages in one rung is a sourcing failure even when
+   every licence is clean.
 
 Enforced without bookkeeping by one publish-gate check: group lessons by `(category, grade, stage)`
 and by normalized attribution — two lessons in one rung citing different works fail, two lessons in
@@ -233,7 +272,7 @@ sessions per rung, which so far exist for main_idea 4.1 only.
 | `main_idea` 3.1 | built; swept | misconception sessions |
 | `main_idea` 4.1 | built; 0001 and 0006 through every branch, all six swept | misconception sessions for 0002-0005 |
 | `main_idea` 4.2 | built; smooth and hard sweep clean | misconception, injection, and stop sessions |
-| `main_idea` 4.3 | absent | author six — next in Phase 2 |
+| `main_idea` 4.3 | absent | author six — next in Phase 2; four domains owed under 3.1 (food, arts, work, sport) |
 | `vocab` 3.1 | absent | after `main_idea` 4.3 |
 | `text_structure` 3.1 | absent | after vocab |
 | `process` 3.1 | absent | after text_structure |
