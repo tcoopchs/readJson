@@ -113,7 +113,7 @@
       "tutor_only": {
         "confirm": "Right. The library reorganized by subject and readers adjusted.",
         "correct_reason": "Both parts serve one idea: the new subject arrangement and its effect on readers.",
-        "tell": "The passage is about a library that sorted by subject, and how readers found their way.",
+        "tell": "The library now sorts books by subject. Readers learned the new order.",
         "help": [
           "Both parts are about the same change.",
           "One part explains it. The other shows the effect."

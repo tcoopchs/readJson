@@ -152,7 +152,7 @@
       "tutor_only": {
         "confirm": "Yes. A repair group began recording its failures, and that record taught it more than its list of successes.",
         "correct_reason": "Part one is the list of successes, part two the notebook of failures, part three the two changes and the rise in the share fixed.",
-        "tell": "The passage is about a repair group that started writing down what it could not fix, and learned more from those notes than from its count of successes.",
+        "tell": "A repair group began writing down what it could not fix. That record taught it more than the list of successes did.",
         "help": [
           "The last two sentences of the passage state the idea. Read them again.",
           "Part one and part two each describe a record. Which one changed the work?"

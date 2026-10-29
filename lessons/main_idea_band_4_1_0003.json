@@ -148,9 +148,9 @@
       "show_part_again": true,
       "prompt": "What is this passage mostly about?",
       "tutor_only": {
-        "confirm": "Yes. Shade trees cooled a hot wall, cut the cooling bill, and turned the strip beside the store into a place people use.",
+        "confirm": "The trees cooled the wall, cut the bill, and made the strip a place people use.",
         "correct_reason": "Part one is the problem, part two the measured saving, part three the change in how people use the strip.",
-        "tell": "The passage is about six shade trees that cooled a store, cut its summer bill, and made the strip beside it a place people stay.",
+        "tell": "Six shade trees cooled a hot wall and cut the store's summer bill. They also made the strip beside it a place people use.",
         "help": [
           "Name what each part adds about the trees.",
           "The last part is not about the bill. What is it about?"

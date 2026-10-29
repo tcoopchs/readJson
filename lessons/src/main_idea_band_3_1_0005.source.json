@@ -125,7 +125,7 @@
       "tutor_only": {
         "confirm": "Right. A bulletin warned of dangerous water, and it was correct.",
         "correct_reason": "Both parts serve one idea: the warning and its accuracy.",
-        "tell": "The passage is about a weather warning that was right.",
+        "tell": "A weather bulletin warned of dangerous water. It was right.",
         "help": [
           "One part gives the warning. The other shows it was right.",
           "Both are about the same bulletin."
@@ -195,7 +195,7 @@
       "prompt": "The passage says two boats went out. Is that the main idea? Explain.",
       "tutor_only": {
         "confirm": "Right. It is one example that shows the warning was real.",
-        "correct_reason": "The two boats illustrate the warning. The passage is about the bulletin, not those boats.",
+        "correct_reason": "The two boats illustrate the warning. The bulletin is the subject, not those boats.",
         "tell": "Two boats are an example. The main idea is the warning and its accuracy.",
         "help": [
           "Look at what the two boats are there to show.",

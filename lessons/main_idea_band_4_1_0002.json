@@ -149,9 +149,9 @@
       "show_part_again": true,
       "prompt": "What is this passage mostly about?",
       "tutor_only": {
-        "confirm": "Yes. The town moved a stop to trade a longer walk for a few riders against a shorter, more reliable ride for everyone else.",
+        "confirm": "The town traded a longer walk for a few riders against a shorter ride for everyone else.",
         "correct_reason": "The three parts are the problem, the change and its gain, and the people who lost something and what the town did for them.",
-        "tell": "The passage is about a town that moved a bus stop to save time for the whole route, and added a van for the few riders who lost their stop.",
+        "tell": "The town moved a bus stop to save time on the whole route. It added a van for the riders who lost their stop.",
         "help": [
           "Name the problem, the change, and the repair, in one idea.",
           "Parts one and two are the gain. Part three is who paid for it."

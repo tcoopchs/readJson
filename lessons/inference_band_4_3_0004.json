@@ -168,7 +168,7 @@
         "if_they_say": [
           {
             "when": "the student says children damage books",
-            "ask": "The passage is about trips, not damage. What does a short sitting increase?"
+            "ask": "The passage measures trips, not damage. What does a short sitting increase?"
           }
         ]
       }

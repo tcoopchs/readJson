@@ -115,7 +115,7 @@
       "tutor_only": {
         "confirm": "Right. The garden needed bees, and the class brought them back.",
         "correct_reason": "Both parts serve one idea: the squash depended on bees that were missing, then present.",
-        "tell": "The passage is about a garden that failed without bees and worked once they returned.",
+        "tell": "The squash failed without bees. It grew once the class brought them back.",
         "help": [
           "One part shows the problem. The other shows the fix.",
           "Both are about the same thing being missing."
@@ -186,7 +186,7 @@
       "tutor_only": {
         "confirm": "Right. It is a detail that rules out the soil as the cause.",
         "correct_reason": "The sentence appears to show the garden failed for another reason, so the soil is not the main idea.",
-        "tell": "That sentence removes one cause. The passage is about the bees.",
+        "tell": "That sentence removes one cause. The missing bees are the other.",
         "help": [
           "Think about why the writer mentions the soil at all.",
           "If the soil did not change, what did?"

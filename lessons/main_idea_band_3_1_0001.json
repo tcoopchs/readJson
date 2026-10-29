@@ -115,7 +115,7 @@
       "tutor_only": {
         "confirm": "Right. One route changed its start time, and people dealt with it.",
         "correct_reason": "Both parts serve one idea: the 7:05 start. The first explains it, the second shows the response.",
-        "tell": "The passage is about a bus that started leaving early, and what that did to riders.",
+        "tell": "One bus route started leaving five minutes early. Riders adjusted.",
         "help": [
           "Both parts are about the same time change.",
           "One part explains it. The other shows what people did."
@@ -135,7 +135,7 @@
         "if_they_say": [
           {
             "when": "the student says it is about buses in general",
-            "ask": "The passage is about one route and one change. What is it?"
+            "ask": "The passage follows one route and one change. What is it?"
           }
         ]
       }
@@ -186,7 +186,7 @@
       "tutor_only": {
         "confirm": "Right. It is one detail, not the main idea.",
         "correct_reason": "The main idea is the schedule change. The fare appears once, to show what stayed the same.",
-        "tell": "One sentence about the fare does not carry the passage. The passage is about the time.",
+        "tell": "One sentence about the fare does not carry the passage. The time change does.",
         "help": [
           "Count how many sentences are about the fare.",
           "Then look at how many are about the time."

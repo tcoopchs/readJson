@@ -127,7 +127,7 @@
       "tutor_only": {
         "confirm": "Right. The volunteers teach the work, and the borrower does it.",
         "correct_reason": "The part states the rule of the table: volunteers show how, the borrower does the work, and the library pays nothing.",
-        "tell": "The third part is about volunteers who show borrowers how to do the work, which keeps repairs free for the library.",
+        "tell": "Volunteers show borrowers how to do the work. That keeps repairs free for the library.",
         "help": [
           "Read the sentence about what the table is not.",
           "Look at who does the work at the table."
@@ -164,7 +164,7 @@
       "tutor_only": {
         "confirm": "Yes. A library lends tools and teaches people to use them, because buying a tool for one job costs too much.",
         "correct_reason": "All three parts sit under one idea: the shed lends tools, it saves the cost of buying, and volunteers teach the work so the shed stays cheap.",
-        "tell": "The passage is about a library that lends tools and teaches people to use them, so a repair costs a walk instead of a purchase.",
+        "tell": "The shed lends tools and shows people how to use them. A repair costs a walk, not a purchase.",
         "help": [
           "Name what every part is about, not only the last one.",
           "Parts one and two are about tools. Part three is about the people who teach."

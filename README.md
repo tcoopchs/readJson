@@ -220,8 +220,11 @@ cannot know "2 of the last 3" on its own. The continuation the server mints afte
 carries one field:
 
 ```text
-carry=<stage>.<lessons-in-rung>.<clears>
+carry=<stage>.<lessons-in-rung>.<history>.<downs>
 ```
+
+`history` holds up to three results, oldest first: `1` a clear, `0` a hard fail, `m` neither.
+`downs` counts down-moves already taken inside this rung.
 
 Reset it on any move. A missing or unreadable carry means the first sequence of that rung; losing the
 link costs at most two lessons of evidence and never moves a student up. A replayed carry buys a

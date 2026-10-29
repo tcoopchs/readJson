@@ -124,7 +124,7 @@
       "tutor_only": {
         "confirm": "Right. There were too few places to park bikes, and more places fixed it.",
         "correct_reason": "Both parts serve one idea: capacity. Too few places, then ten more.",
-        "tell": "The passage is about a bike rack that was too small and the space added to fix it.",
+        "tell": "The school had too few bike spaces. A second rack added ten more.",
         "help": [
           "One part shows the shortage. The other shows the fix.",
           "Both are about the number of places."
@@ -193,7 +193,7 @@
       "tutor_only": {
         "confirm": "Right. It is a result that shows the shortage is gone.",
         "correct_reason": "The clear handrail is evidence of the fix, not the idea itself.",
-        "tell": "That sentence shows the fix worked. The passage is about the number of places.",
+        "tell": "That sentence shows the fix worked. The idea is the number of places.",
         "help": [
           "Look at what the clear handrail proves.",
           "Then look at what made it clear."

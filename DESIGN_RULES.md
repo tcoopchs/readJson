@@ -479,7 +479,8 @@ carry=<stage>.<lessons-in-rung>.<history>.<downs>
 ```
 
 - `history` holds up to three results, oldest first: `1` a clear, `0` a hard fail, `m` neither.
-- `downs` counts consecutive down-moves, so a third cannot happen.
+- `downs` counts down-moves taken inside this rung, so a second one holds for a teacher instead of
+  stepping down again.
 - Reset it on any move.
 - A missing or unreadable carry means the first sequence of that rung. Losing the link costs at most
   two lessons of evidence and never moves a student up.

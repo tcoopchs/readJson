@@ -161,7 +161,7 @@
       "tutor_only": {
         "confirm": "Yes. A hospital opened the cafeteria at three in the morning, and the shared meal changed the crew's nights.",
         "correct_reason": "Part one is the vending meal, part two the trial and its results, part three what the manager says the change really was.",
-        "tell": "The passage is about a hospital that opened its cafeteria at three in the morning, and the meal at the right hour helped the crew more than the food did.",
+        "tell": "A hospital served a hot meal at three in the morning. Eating together at that hour changed the crew's nights more than the food did.",
         "help": [
           "Join the trial in part two to the manager's words in part three.",
           "The food is on the plate. What does the passage say mattered?"
@@ -201,7 +201,7 @@
       "tutor_only": {
         "confirm": "Right. They stopped eating alone at a machine and sat together at a table in the middle of the shift.",
         "correct_reason": "The passage ties the change to the hour and the table, then reports better sleep and the end of large meals at home.",
-        "tell": "The meal broke up the shift and gave the crew a table to sit at together, so the night felt shorter and they slept better after it.",
+        "tell": "The meal broke up the shift and gave the crew a table to share. The night felt shorter, and they slept better after it.",
         "help": [
           "Look at what the manager says changed.",
           "Look at what stopped at home."

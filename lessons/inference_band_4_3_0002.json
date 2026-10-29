@@ -110,7 +110,7 @@
       "show_part_again": false,
       "prompt": "Why did the dough rise faster in the mountains?",
       "tutor_only": {
-        "confirm": "Right. Lower air pressure lets the gas expand more easily.",
+        "confirm": "Right. Lower air pressure lets the gas inside expand more.",
         "correct_reason": "The passage joins low pressure to easier expansion of gas inside the dough.",
         "tell": "The air outside pushes less, so the gas inside pushes out more. That makes the dough rise faster.",
         "help": [

@@ -70,8 +70,21 @@ middle of 4.2.
    pending"`. Band 5+ cannot use that route.
 3. **No `text-bank` rows** for any of the 30 drafted passages. Provenance lives only in each source
    block.
-4. **`validate_lesson.py` does not exist** in either repo, though the plan and the old handoff both
-   cite it. `build_lessons.py --check` is the only automated gate that actually runs.
+4. **`validate_lesson.py` is in the skill, not in either repo.** It lives at
+   `~/.hermes/skills/productivity/readjson-lessons/scripts/validate_lesson.py`, so the plan's paths
+   point at nothing. Run it from the skill against this repo:
+
+   ```
+   python3 ~/.hermes/skills/productivity/readjson-lessons/scripts/validate_lesson.py \
+     --strict --src-dir lessons/src --lessons-dir lessons lessons/src/*.source.json
+   ```
+
+   It validated all 47 sources at 0 errors on 2026-10-28. `build_lessons.py --check` remains the
+   second gate: sources and compiled files must agree.
+5. **57 `audit_lessons.py` style findings stand** (bare ordinal section references such as "What is
+   the second part mostly about?", mainly in main_idea 4.1). These are a known backlog, not errors,
+   and they need a copy decision before any sweep: the section ordinals are how the passage parts are
+   named to the reader.
 
 ## Next actions, in order
 
