@@ -53,7 +53,7 @@ pytest                            # 57 passed
 validate_lesson.py --strict       # 77 sources, 0 errors, 0 warnings
 audit_lessons.py                  # 57 findings, the known ordinal backlog, none new in vocab
 catalog load (76 lessons)         # ladders in order, onboarding rows valid, 3 vocab rungs complete
-cold-chat sweep, 18 vocab lessons # smooth 18/18; hard reached tell 18/18, 0 leaks
+cold-chat sweep, 18 vocab lessons # smooth 18/18 ($0.0662); hard reached tell 18/18, 0 leaks
 ```
 
 The sweep above was run after the ready-line change on 2026-10-28, so it covers the shared protocol
