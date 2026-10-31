@@ -31,6 +31,24 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-018 | Twenty-Six Miles and Change | Nonfiction | 4 | Band 4.3 | 310 words | 5.50 | `main_idea_band_4_3_0004` |
 | TB-019 | The Village Under the Water | Nonfiction | 4 | Band 4.3 | 320 words | 6.60 | `main_idea_band_4_3_0005` |
 | TB-020 | The Pass That Closes for Winter | Nonfiction | 4 | Band 4.3 | 327 words | 6.00 | `main_idea_band_4_3_0006` |
+| TB-021 | The Tree That Keeps Its Leaves | Nonfiction | 3 | Band 3.1 | 314 words | 4.56 | `vocab_band_3_1_0001` |
+| TB-022 | The Lighthouse Keeper's Night | Nonfiction | 3 | Band 3.1 | 339 words | 4.82 | `vocab_band_3_1_0002` |
+| TB-023 | Bread That Rises | Nonfiction | 3 | Band 3.1 | 331 words | 4.33 | `vocab_band_3_1_0003` |
+| TB-024 | The Cobbler's Bench | Nonfiction | 3 | Band 3.1 | 321 words | 4.51 | `vocab_band_3_1_0004` |
+| TB-025 | The Race Nobody Wins Early | Nonfiction | 3 | Band 3.1 | 312 words | 4.64 | `vocab_band_3_1_0005` |
+| TB-026 | The Sign Painter's Hand | Nonfiction | 3 | Band 3.1 | 310 words | 4.59 | `vocab_band_3_1_0006` |
+| TB-027 | The Printer's Apprentice | Nonfiction | 4 | Band 4.1 | 321 words | 5.89 | `vocab_band_4_1_0001` |
+| TB-028 | The River That Bends | Nonfiction | 4 | Band 4.1 | 318 words | 5.82 | `vocab_band_4_1_0002` |
+| TB-029 | The Whistle That Waits | Nonfiction | 4 | Band 4.1 | 312 words | 5.60 | `vocab_band_4_1_0003` |
+| TB-030 | The School That Met in a Church | Nonfiction | 4 | Band 4.1 | 339 words | 6.51 | `vocab_band_4_1_0004` |
+| TB-031 | Salt and the Winter Table | Nonfiction | 4 | Band 4.1 | 324 words | 5.99 | `vocab_band_4_1_0005` |
+| TB-032 | The Canal That Climbs | Nonfiction | 4 | Band 4.1 | 313 words | 6.08 | `vocab_band_4_1_0006` |
+| TB-033 | A Map Drawn from Memory | Nonfiction | 4 | Band 4.2 | 313 words | 6.01 | `vocab_band_4_2_0001` |
+| TB-034 | The Editor's Pencil | Nonfiction | 4 | Band 4.2 | 323 words | 6.32 | `vocab_band_4_2_0002` |
+| TB-035 | The Quiet Work of Fungi | Nonfiction | 4 | Band 4.2 | 303 words | 6.52 | `vocab_band_4_2_0003` |
+| TB-036 | The Cost of Waiting | Nonfiction | 4 | Band 4.2 | 323 words | 6.42 | `vocab_band_4_2_0004` |
+| TB-037 | The Census Taker's Round | Nonfiction | 4 | Band 4.2 | 322 words | 6.18 | `vocab_band_4_2_0005` |
+| TB-038 | The Orchard's Off Year | Nonfiction | 4 | Band 4.2 | 317 words | 6.23 | `vocab_band_4_2_0006` |
 
 ---
 
@@ -708,6 +726,546 @@ load here: the reader has to see the closure as a decision with a price, not a f
 
 **Cautions.** No pass, highway, or agency is named. The drive times are illustrative and are marked
 as one case, not a measurement.
+
+---
+
+## TB-021 — The Tree That Keeps Its Leaves
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 314 words (three passages, 103-106 each) |
+| FK grade | 4.56 on the three passages together (4.3, 5.2, 4.3 per part) |
+| Complexity | L1, I1, S1, K1 |
+| Best lesson fit | `vocab_band_3_1_0001` |
+
+**Central idea.** Evergreens keep their leaves because a narrow, waxy needle holds water on days when a wide leaf cannot.
+
+**Supporting details.**
+
+- A pine's thin, sharp leaves are called needles.
+- Winter freezes the ground water, so a tree cannot replace what it loses.
+- A waxy coat and a small surface keep water loss low.
+- A narrow needle and a cone shape shed snow before a branch breaks.
+- The tree drops a few old needles at a time, so the branch never looks bare.
+
+**Why it works.** Each part gives the cause before the effect, so the vocabulary item on 'waxy' is answerable from the displayed text alone.
+
+**Cautions.** No species named beyond pine and maple. No needle counts or year spans.
+
+## TB-022 — The Lighthouse Keeper's Night
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | history and people |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 339 words (three passages, 107-119 each) |
+| FK grade | 4.82 on the three passages together (5.2, 4.3, 5.0 per part) |
+| Complexity | L1, I1, S1, K2 |
+| Best lesson fit | `vocab_band_3_1_0002` |
+
+**Central idea.** A keeper's night was a few small tasks repeated, and the lens was what turned one flame into a light ships could see.
+
+**Supporting details.**
+
+- The wick is the cord that draws oil into the flame.
+- A long wick smokes, so the keeper trims it with scissors.
+- The lens bends the flame into a beam that reaches twenty miles.
+- The keeper checks oil, logs passing ships, and rings the bell in fog.
+
+**Why it works.** The trade word 'trim' is carried by the action around it, which is the skill the lesson practices.
+
+**Cautions.** No lighthouse, country, or date. No ship counts or pay figures.
+
+## TB-023 — Bread That Rises
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | food and farming |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 331 words (three passages, 106-116 each) |
+| FK grade | 4.33 on the three passages together (3.9, 4.4, 4.8 per part) |
+| Complexity | L1, I1, S1, K1 |
+| Best lesson fit | `vocab_band_3_1_0003` |
+
+**Central idea.** Bread rises because yeast eats sugar and gives off gas the dough traps, so the baker's job is warmth and time.
+
+**Supporting details.**
+
+- Yeast is a living thing that gives off gas.
+- The gas forms bubbles, and the dough swells and lifts.
+- Warmth helps the yeast; too much heat kills it.
+- Pressing and folding the dough clears big bubbles and lines up the strands.
+- In the oven the gas expands once more before the crust sets.
+
+**Why it works.** The chain of cause and effect is short enough for the floor of the band, and 'risen' names its own result.
+
+**Cautions.** No temperatures, times, or flour amounts. No brand or region.
+
+## TB-024 — The Cobbler's Bench
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 321 words (three passages, 104-110 each) |
+| FK grade | 4.51 on the three passages together (2.9, 5.4, 5.3 per part) |
+| Complexity | L1, I1, S1, K1 |
+| Best lesson fit | `vocab_band_3_1_0004` |
+
+**Central idea.** A cobbler's repair is shaped by the shoe: the sole keeps water out, the form keeps the shape, and the short stitch keeps the patch.
+
+**Supporting details.**
+
+- The sole is the bottom of a shoe, and a worn sole lets rain reach the foot.
+- A wooden form holds the shoe's shape while wet leather dries.
+- A drawer of buckles and laces lets a customer buy a part, not a pair.
+- Few shoes are mended now, because new shoes cost less than a repair.
+
+**Why it works.** 'Worth mending' is the item that carries the lesson: a judgment about value, read from the last sentence.
+
+**Cautions.** No prices, dates, or place names. No claim about how many cobblers remain.
+
+## TB-025 — The Race Nobody Wins Early
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | sport and play |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 312 words (three passages, 101-107 each) |
+| FK grade | 4.64 on the three passages together (4.0, 5.1, 4.9 per part) |
+| Complexity | L1, I1, S1, K1 |
+| Best lesson fit | `vocab_band_3_1_0005` |
+
+**Central idea.** A long race is won by saving speed for the end, and the same limit applies to a month of study.
+
+**Supporting details.**
+
+- A pace is a speed a runner can hold for the whole distance.
+- Steady means an even speed, not the fastest speed.
+- A sprint is a short burst the body cannot keep up.
+- A runner who saved strength can answer a tired runner's finish.
+
+**Why it works.** The same term is carried from the race to the study seat, which is what makes the last part a vocabulary test.
+
+**Cautions.** No distances, times, or named runners. No training claims.
+
+## TB-026 — The Sign Painter's Hand
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | arts and language |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 310 words (three passages, 100-108 each) |
+| FK grade | 4.59 on the three passages together (4.3, 3.7, 5.8 per part) |
+| Complexity | L1, I1, S1, K2 |
+| Best lesson fit | `vocab_band_3_1_0006` |
+
+**Central idea.** A sign painter's skill shows in spacing and patience rather than in the drawing alone.
+
+**Supporting details.**
+
+- An outline around each letter makes the shape stand out.
+- The painter rests his wrist so the line does not shake.
+- The first coat is thin and soaks into the wood.
+- A coat put on wet makes the sign blister in the sun.
+- A hard-to-read sign is usually crowded, not badly drawn.
+
+**Why it works.** 'Crowded' reverses the obvious guess about bad drawing, and the answer is stated in the last part.
+
+**Cautions.** No named sign, town, or period. No pay or training claims.
+
+## TB-027 — The Printer's Apprentice
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 321 words (three passages, 100-113 each) |
+| FK grade | 5.89 on the three passages together (6.4, 6.5, 5.1 per part) |
+| Complexity | L2, I2, S1, K2 |
+| Best lesson fit | `vocab_band_4_1_0001` |
+
+**Central idea.** Hand-set printing worked because the type was reversed, a second reader checked it, and the press took one sheet at a time.
+
+**Supporting details.**
+
+- One metal block stands for each letter, cut in reverse.
+- The apprentice sets lines without looking, keeping his eyes on the copy.
+- A proofreader catches the reversed letters the setter has stopped seeing.
+- Presswork ran about a hundred sheets an hour, and paper was dear.
+- Setting still took one letter at a time, and the type was taken apart after.
+
+**Why it works.** 'In reverse' is a physical arrangement, not a direction, and the passage explains it before the item asks.
+
+**Cautions.** No shop, city, or date. The press rate is marked as fast work, not a measured average.
+
+## TB-028 — The River That Bends
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 318 words (three passages, 102-113 each) |
+| FK grade | 5.82 on the three passages together (5.6, 6.6, 5.5 per part) |
+| Complexity | L2, I2, S2, K2 |
+| Best lesson fit | `vocab_band_4_1_0002` |
+
+**Central idea.** A river's bend is the shape moving water gives to soil: the outside loses ground, the inside gains it, and a loop may be cut off as an oxbow.
+
+**Supporting details.**
+
+- Fast water on the outside of a bend carries soil away.
+- Slow water on the inside drops silt and builds a shelf.
+- A loop cut off from the river becomes an oxbow lake.
+- Engineers stone the outside bank but rarely straighten a river, because fast water floods worse.
+
+**Why it works.** 'Silt' and 'oxbow' are each defined by what the water does, and the last part reverses the intuitive fix.
+
+**Cautions.** No river, region, or measurement. No rate for how fast a bend moves.
+
+## TB-029 — The Whistle That Waits
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | sport and play |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 312 words (three passages, 102-106 each) |
+| FK grade | 5.60 on the three passages together (4.8, 6.8, 5.3 per part) |
+| Complexity | L2, I2, S2, K2 |
+| Best lesson fit | `vocab_band_4_1_0003` |
+
+**Central idea.** The referee's whistle is a tool for restoring fair play, so it waits when stopping play would hurt the team that was fouled.
+
+**Supporting details.**
+
+- A foul is contact such as a push, a trip, or a hand on the ball.
+- A foul usually stops play and gives the ball to the other team.
+- Stopping play can take away the fouled team's best chance.
+- Playing the advantage is a judgment, and the wait is short because injury is a risk.
+- Coaches teach players to stay up through a light push.
+
+**Why it works.** The rule's obvious action is the wrong one in the case the passage describes, which is the difficulty of this rung.
+
+**Cautions.** No sport, league, or referee is named. No rule numbers or penalty distances.
+
+## TB-030 — The School That Met in a Church
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | history and people |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 339 words (three passages, 112-114 each) |
+| FK grade | 6.51 on the three passages together (7.1, 5.7, 6.8 per part) |
+| Complexity | L2, I2, S2, K2 |
+| Best lesson fit | `vocab_band_4_1_0004` |
+
+**Central idea.** A one-room school taught students at different levels by rotating recitation groups, and its calendar bent around the harvest.
+
+**Supporting details.**
+
+- One teacher taught every grade in a single room.
+- Recitation meant saying the lesson aloud from memory.
+- Slates were wiped clean, and paper was saved for a final copy.
+- Monitor duty was a student hearing the younger ones read.
+- A term ran between harvests, and pay could depend on attendance.
+
+**Why it works.** 'Recitation' and 'term' are school words used in their period sense, and the last part names the problem the room solved.
+
+**Cautions.** No state, district, or date. No attendance or pay numbers.
+
+## TB-031 — Salt and the Winter Table
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | food and farming |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 324 words (three passages, 104-111 each) |
+| FK grade | 5.99 on the three passages together (5.3, 7.1, 5.7 per part) |
+| Complexity | L2, I2, S2, K2 |
+| Best lesson fit | `vocab_band_4_1_0005` |
+
+**Central idea.** Salt preserved meat by removing the water bacteria need, and the cost of salt decided what each region ate in winter.
+
+**Supporting details.**
+
+- Meat was packed in dry salt or soaked in brine.
+- Salt pulls water out, and spoiling bacteria cannot grow without it.
+- A hard rind protects the cured meat from mold and insects.
+- Smoke added flavor but the salt did the preserving.
+- Where salt was dear, regions dried or buried food instead.
+
+**Why it works.** 'Brine' is defined by its recipe, and the last part turns the process into a question of cost and place.
+
+**Cautions.** No country or date. No prices or storage times.
+
+## TB-032 — The Canal That Climbs
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 313 words (three passages, 100-108 each) |
+| FK grade | 6.08 on the three passages together (5.8, 6.7, 5.8 per part) |
+| Complexity | L2, I2, S2, K2 |
+| Best lesson fit | `vocab_band_4_1_0006` |
+
+**Central idea.** A canal climbs by using locks to lift boats between levels, and it was slow on purpose because slow hauling was cheap and safe.
+
+**Supporting details.**
+
+- A canal must stay level, and water will not run uphill.
+- A lock is a chamber with gates that raises or lowers a boat.
+- A flight is several locks close together, and the pound is the level stretch between them.
+- A lock keeper worked the gates and recorded the traffic.
+- A horse on the towpath moved loads at about three miles an hour.
+
+**Why it works.** 'Pound' has no ordinary sense in this context, so the definition has to be taken from the water it describes.
+
+**Cautions.** No canal, town, or date. No dimensions or tolls.
+
+## TB-033 — A Map Drawn from Memory
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 313 words (three passages, 103-106 each) |
+| FK grade | 6.01 on the three passages together (6.3, 6.2, 5.6 per part) |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `vocab_band_4_2_0001` |
+
+**Central idea.** A map is a tool with a purpose: its scale and its omissions decide what it is good for, and a reader who forgets that mistakes the map for the ground.
+
+**Supporting details.**
+
+- Early coastal charts were rough: useful and dangerous at once.
+- A landmark and a depth reading were the sailor's fixed points.
+- A small scale leaves out inlets too narrow to draw, which can hide a shoal.
+- A large scale shows one harbor and keeps the detail.
+- Leaving things out is a choice, and fitness for the journey is the test.
+
+**Why it works.** Every claim in the passage is abstract, so the reader has to hold a definition across parts rather than watch a process.
+
+**Cautions.** No named coast, chart, or date. No depths or distances of its own.
+
+## TB-034 — The Editor's Pencil
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | arts and language |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 323 words (three passages, 100-114 each) |
+| FK grade | 6.32 on the three passages together (6.7, 6.4, 6.3 per part) |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `vocab_band_4_2_0002` |
+
+**Central idea.** Editing removes what stands between the reader and the thought, and the best editing is answered mark by mark rather than obeyed.
+
+**Supporting details.**
+
+- The first draft says too much, and an editor marks what must go.
+- Spare means no decoration, not short.
+- The hardest cut is a good sentence in the wrong place.
+- Tightening keeps the argument and shortens the sentences.
+- The editor sees the shape; the writer knows which detail is load-bearing.
+- A draft survives when every mark is answered by a change or a reason.
+
+**Why it works.** 'Spare' and 'tightening' both mean the opposite of the obvious guess, so the definitions have to be read rather than recalled.
+
+**Cautions.** No named writer, editor, or publication. No claims about how long editing takes.
+
+## TB-035 — The Quiet Work of Fungi
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 303 words (three passages, 100-102 each) |
+| FK grade | 6.52 on the three passages together (5.9, 7.3, 6.4 per part) |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `vocab_band_4_2_0003` |
+
+**Central idea.** Fungi break dead matter back into circulation and trade with living roots, which is why the soil is literally alive.
+
+**Supporting details.**
+
+- Fungal threads dissolve dead leaves and take what they need.
+- Leftover material stays in the soil and is taken up by plants.
+- Decomposition returns material to circulation rather than merely rotting it.
+- A fungus trades water and minerals for sugar from a tree's roots.
+- The mushroom is the fruit; the web in the soil is most of the organism.
+
+**Why it works.** The organism is invisible at its working scale, so 'thread' and 'network' have to be understood as structure the reader cannot see.
+
+**Cautions.** No species names or measurements. No claim about which forests do this beyond 'many'.
+
+## TB-036 — The Cost of Waiting
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 323 words (three passages, 104-113 each) |
+| FK grade | 6.42 on the three passages together (6.2, 5.9, 7.3 per part) |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `vocab_band_4_2_0004` |
+
+**Central idea.** Stock is money already spent, so waiting on the shelf costs twice: the goods lose value and the cash cannot move.
+
+**Supporting details.**
+
+- Stock is goods on the shelf, and every item is money already spent.
+- Margin is the gap between cost and selling price.
+- A small margin on a fast item can beat a large margin on a slow one.
+- Spoilage is the visible loss, and markdowns erase the margin.
+- The same cash cannot buy what is selling, so the cost is paid twice.
+
+**Why it works.** 'Margin' and 'spoilage' are trade words defined by what they cost, and the second cost is the one the reader must carry.
+
+**Cautions.** No store, chain, or currency. No percentages or prices.
+
+## TB-037 — The Census Taker's Round
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | history and people |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 322 words (three passages, 107-108 each) |
+| FK grade | 6.18 on the three passages together (6.8, 6.7, 5.3 per part) |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `vocab_band_4_2_0005` |
+
+**Central idea.** A census is valuable only in aggregate: each return must follow the same rule so thousands can be compared.
+
+**Supporting details.**
+
+- The count decides representation and money for a place.
+- A household is everyone under one roof, related or not.
+- A taker may not guess, so doubtful answers are recorded as given.
+- A house was visited three times before it could be recorded as empty.
+- A return is the filed sheet, and its value depends on consistent treatment.
+- The pattern appears only when thousands of returns are stacked.
+
+**Why it works.** The passage ends by reversing the value of a single form, which is the abstract move at this rung.
+
+**Cautions.** No country, year, or office. No population numbers.
+
+## TB-038 — The Orchard's Off Year
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | food and farming |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 317 words (three passages, 101-110 each) |
+| FK grade | 6.23 on the three passages together (6.3, 5.8, 6.7 per part) |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `vocab_band_4_2_0006` |
+
+**Central idea.** A heavy apple crop spends the energy next year's buds need, so growers thin the fruit to break the cycle.
+
+**Supporting details.**
+
+- Many varieties swing between a heavy year and a light one.
+- Next spring's buds form in the summer of the heavy crop.
+- A tree carrying heavy fruit cannot make strong buds, so the next crop is light.
+- Thinning removes young fruit in early summer so the rest grow larger.
+- The harvest lost this year is paid back next year, and the two-year total is usually higher.
+
+**Why it works.** The remedy is to throw fruit away, which is counterintuitive, and the reason is a two-year cycle the reader must hold.
+
+**Cautions.** No variety names, yields, or prices. No claim about which regions grow which apples.
 
 ---
 

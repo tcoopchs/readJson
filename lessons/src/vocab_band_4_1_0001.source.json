@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_4_1_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Printer's Apprentice",
+    "skill": "vocab",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "topic_domain": "work and trade",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.4, 6.5, 5.1 (5.9 together) on the 3 parts. The load is a trade with four named objects and one reversed reading rule: the type sits backwards, so 'in reverse' has to be understood as a physical arrangement, not a direction.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "Hand-set printing explained through what the apprentice's hands do, so 'set', 'in reverse', and 'proof' are read from the work rather than from a dictionary.",
+      "avoided": "No named printing shop, city, or date. No invented wages or press counts beyond 'a hundred sheets an hour', which the passage marks as fast work."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: the trade word is used, then the next sentence says what it looks like."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A hundred years before the electric light, every letter on a printed page was made by hand. The printer kept trays of metal type, with one small block for each letter, each one cut in reverse. An apprentice learned to pick the blocks out of the tray without looking, because his eyes stayed on the text he was copying. He set the letters in a wooden stick until the line was long enough, with even spaces between the words. One line held about ten words. Then he slid the finished line onto a flat tray and began the next one.",
+    "part_2": "Setting a page took hours, and a single mistake could ruin the whole run. The apprentice read the lines upside down and backwards, since that was how the type sat in the form. A reversed letter is hard to spot when the line reads correctly in the tray, which is why the shop kept a second person to check. That reader was called a proofreader, and his job was to catch what the setter had stopped seeing. Nothing went to the press until the proof came back clean. A proof was a single sheet, pulled slowly by hand, so a mistake cost one page instead of a hundred.",
+    "part_3": "Presswork was the reward. Ink came in small cakes that had to be ground with oil before use. The apprentice inked the raised faces with a leather pad, laid a sheet on top, and pulled the bar. A hundred sheets an hour was fast work. Paper was expensive, so a spoiled sheet was cut up for notes rather than thrown away. A shop counted its paper the way a kitchen counts flour, because running out stopped the work. Printing made books cheaper than copying by hand, but it did not make them easy. The type still had to be set one letter at a time, and then taken apart for the next job."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "The printer kept trays of metal ____, with one small block for each letter.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The metal blocks were called type.",
+        "correct_reason": "The first part says the printer kept trays of metal type, with one block for each letter.",
+        "tell": "The word is type. It means the metal blocks, one for each letter.",
+        "help": [
+          "Look at the second sentence of the passage.",
+          "The word names the blocks in the trays."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers letters",
+            "ask": "Letters is the plain word. What does the passage call the metal blocks?"
+          }
+        ],
+        "accept_words": [
+          "type"
+        ],
+        "normalize": "Ignore case and punctuation. Accept type, including a clear misspelling such as typ.",
+        "word": "type"
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "What does it mean that each block was cut in reverse?",
+      "tutor_only": {
+        "confirm": "Yes. The block is a mirror image, so the sheet reads normally.",
+        "correct_reason": "The part says each block was cut in reverse, and the next part says the apprentice read the lines upside down and backwards because that is how the type sat.",
+        "tell": "Cutting in reverse means the letter is backwards on the block. The printed sheet then shows it the right way round.",
+        "help": [
+          "Look at how the block is cut, then at how the apprentice reads the lines.",
+          "The printed page must read normally."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the letters were printed backwards",
+            "ask": "The sheet read correctly; it was the block that was backwards. What does the block show?"
+          },
+          {
+            "when": "the student says the apprentice set the line from right to left",
+            "ask": "The line runs left to right on the page. What about each letter?"
+          }
+        ],
+        "core_idea": "The letter was cut backwards, so it printed the right way round on paper.",
+        "accept_ideas": [
+          "the letter was cut backwards",
+          "it was a mirror image",
+          "the block showed the letter flipped so the print came out normal"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what metal was used",
+          "how big the blocks were"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "That reader was called a ____, and his job was to catch what the setter had stopped seeing.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The second reader was the proofreader.",
+        "correct_reason": "The second part says that reader was called a proofreader, and his job was to catch what the setter had stopped seeing.",
+        "tell": "The word is proofreader. He read the proof, the first printed sheet, before the run began.",
+        "help": [
+          "Look at the sentence naming the second reader.",
+          "The word is built from 'proof'."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers apprentice",
+            "ask": "The apprentice set the type. What was the second reader called?"
+          }
+        ],
+        "accept_words": [
+          "proofreader"
+        ],
+        "normalize": "Ignore case and punctuation. Accept proofreader or proof reader, including a clear misspelling.",
+        "word": "proofreader",
+        "word_also": [
+          "proof reader"
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "Why did the apprentice read the lines upside down and backwards?",
+      "tutor_only": {
+        "confirm": "Yes. He read the blocks in their own arrangement, not as a page reads.",
+        "correct_reason": "The part says he read the lines upside down and backwards, since that was how the type sat in the form.",
+        "tell": "The blocks sat reversed in the form, so reading them meant reading them upside down and backwards.",
+        "help": [
+          "Look at the sentence that gives the reason, starting with 'since'.",
+          "It describes how the type sat."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says it was a game or a test",
+            "ask": "The part gives a practical reason. What did the form look like?"
+          },
+          {
+            "when": "the student says he was learning to read",
+            "ask": "He already read. What did the arrangement of the type require?"
+          }
+        ],
+        "core_idea": "Because that is how the type sat in the form, so he was reading the blocks as they were arranged.",
+        "accept_ideas": [
+          "that was the way the type was arranged",
+          "because the type was reversed in the tray",
+          "so he could check the blocks the way they sat"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many hours it took",
+          "who checked the work"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "all",
+      "prompt": "What does setting a page mean in this passage?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Right. Setting a page is arranging the type into lines.",
+        "correct_reason": "The first part shows the apprentice setting letters in a stick and sliding finished lines onto a tray; the part above says setting a page took hours.",
+        "tell": "To set a page is to build it letter by letter from the metal type before printing.",
+        "help": [
+          "Look at what the apprentice does with the stick and the tray.",
+          "Then look at the phrase 'setting a page' in the next part."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says it means printing the page",
+            "ask": "Printing comes after, at the press. What happens with the letters first?"
+          },
+          {
+            "when": "the student says it means writing the text",
+            "ask": "The text was already written. What is done with the metal blocks?"
+          }
+        ],
+        "core_idea": "Arranging the metal letters into lines before the page is printed.",
+        "accept_ideas": [
+          "putting the letters in order for printing",
+          "building the page out of type",
+          "laying out the letters to be printed"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long it took",
+          "what the book was about"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson of the next rung, Band 4.2.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_4_1_0002",
+    "next_irl": 4,
+    "next_means": "Another word lesson in this rung.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

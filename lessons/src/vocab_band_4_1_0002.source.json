@@ -1,0 +1,245 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_4_1_0002",
+  "meta": {
+    "status": "published",
+    "title": "The River That Bends",
+    "skill": "vocab",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.6, 6.6, 5.5 (5.8 together) on the 3 parts. The load is one mechanism with two effects that move in opposite directions on the same bend, plus a cause that is easy to invert: the outside bank loses soil, the inside gains it.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "River bends as a result of moving water, with 'silt' and 'oxbow' learned from what the water does rather than from a glossary.",
+      "avoided": "No river, region, or measurement. No claim about how fast a bend moves."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: the term is defined by the action two sentences earlier."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A river running straight is unusual. Most rivers curve, and the curve grows sharper with every flood. Water moves fastest on the outside of a bend, and it carries soil away from that bank. On the inside, the water slows and drops the soil it was carrying, which builds a shallow shelf. Silt is the name for that fine soil, and it settles wherever the current loses speed. Over years the outside bank is cut back and the inside shelf grows, so the whole bend shifts sideways. A bend that began as a slight curve can move a field's width in a lifetime.",
+    "part_2": "When a bend becomes a loop, the river may cut a new path across the narrow neck of land. The old loop is left behind as a curved lake, open at one end at first and then closed off. Such a lake is called an oxbow, because its shape matches the yoke a team of oxen wore. It slowly fills with silt and plants, and in a few decades it is a wet meadow rather than open water. The meadow keeps the shape of the old loop, which is how a map can show where the river used to run. The river has not changed its habits; it found a shorter route downhill.",
+    "part_3": "People who build near a river have to read these bends. A town on the outside of a curve loses ground in every flood, while the inside of the same curve gains it. Engineers sometimes reinforce the outside bank with stone to slow the loss. The stone does not stop the river; it buys the town time to move what it can. They rarely try to make a river straight, because a straightened river runs faster downstream and can flood worse than before. The bend is not a defect in the river. It is what moving water does when it carries soil."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "____ is the name for that fine soil, and it settles wherever the current loses speed.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The fine soil carried by the river is silt.",
+        "correct_reason": "The first part says silt is the name for that fine soil, and it settles wherever the current loses speed.",
+        "tell": "The word is silt. It is the fine soil a river carries and drops when it slows.",
+        "help": [
+          "Look at the sentence that names the fine soil.",
+          "The word comes right before 'is the name for'."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers soil, the general word",
+            "ask": "Soil is the general word. What does the passage call this fine river soil?"
+          }
+        ],
+        "accept_words": [
+          "silt"
+        ],
+        "normalize": "Ignore case and punctuation. Accept silt, including a clear misspelling such as silte.",
+        "reject_words": [
+          "soil"
+        ],
+        "word": "silt"
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "What happens on the outside of a bend?",
+      "tutor_only": {
+        "confirm": "Yes. Fast water on the outside strips soil from that bank.",
+        "correct_reason": "The part says water moves fastest on the outside of a bend and carries soil away from that bank, and the outside bank is cut back.",
+        "tell": "On the outside of a bend the water is fastest. It pulls soil off the bank, so the bank retreats.",
+        "help": [
+          "Look at the third sentence of the earlier part.",
+          "It says where the water is fastest and what it does there."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says soil is dropped there",
+            "ask": "Dropping happens on the inside. What does fast water do to the outside bank?"
+          },
+          {
+            "when": "the student says the water slows there",
+            "ask": "The fast side is the outside. Where does the water slow?"
+          }
+        ],
+        "core_idea": "The water moves fastest there and carries soil away, so that bank is cut back.",
+        "accept_ideas": [
+          "the bank is worn away",
+          "the fast water carries soil off the bank",
+          "the outside bank loses ground"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how deep the water is",
+          "what kind of soil it is"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "Such a lake is called an ____, because its shape matches the yoke a team of oxen wore.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The curved leftover lake is an oxbow.",
+        "correct_reason": "The second part says such a lake is called an oxbow, because its shape matches the yoke a team of oxen wore.",
+        "tell": "The word is oxbow. The lake is named for the curved yoke the oxen wore.",
+        "help": [
+          "Look at the sentence that names the curved lake.",
+          "The name comes from the shape of a yoke."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers loop",
+            "ask": "A loop is the bend itself. What is the leftover lake called?"
+          }
+        ],
+        "accept_words": [
+          "oxbow"
+        ],
+        "normalize": "Ignore case and punctuation. Accept oxbow or ox bow.",
+        "word": "oxbow",
+        "word_also": [
+          "ox bow"
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "prompt": "Why do engineers rarely try to make a river straight?",
+      "tutor_only": {
+        "confirm": "Right. Straightening speeds the water up and makes flooding worse.",
+        "correct_reason": "The third part says engineers rarely straighten a river, because a straightened river runs faster downstream and can flood worse than before.",
+        "tell": "A straight channel moves water faster, and faster water floods worse downstream than a bending one.",
+        "help": [
+          "Look at the sentence beginning 'They rarely try'.",
+          "It gives the reason in the same sentence."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says straightening costs too much",
+            "ask": "Cost is not the reason given. What happens to the water downstream?"
+          },
+          {
+            "when": "the student says the bends are protected by law",
+            "ask": "No law is mentioned. What does fast water do?"
+          }
+        ],
+        "core_idea": "A straightened river runs faster downstream and can flood worse than before.",
+        "accept_ideas": [
+          "the water would move faster and flood more",
+          "straightening makes flooding worse",
+          "the faster water causes more damage downstream"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what stone they use",
+          "where the town is"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "all",
+      "prompt": "The passage says the bend is not a defect in the river. What does that mean?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Right. A bend is a normal result of water moving soil, not a flaw.",
+        "correct_reason": "The last sentence says the bend is not a defect; it is what moving water does when it carries soil.",
+        "tell": "A defect is a fault. The passage says the curve is normal work of water and soil, not a fault.",
+        "help": [
+          "Look at the last two sentences of the passage.",
+          "The second one says what the bend really is."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the river is damaged",
+            "ask": "The passage says the opposite, that it is not a defect. What is it instead?"
+          },
+          {
+            "when": "the student says bends should be removed",
+            "ask": "The passage says engineers rarely straighten rivers. What does the bend come from?"
+          }
+        ],
+        "core_idea": "The curve is what moving water naturally does with soil, not damage or a mistake.",
+        "accept_ideas": [
+          "bends are normal for a river, not a fault",
+          "the curve comes from water carrying soil",
+          "a bend is not something broken"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the river is",
+          "where the town sits"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson of the next rung, Band 4.2.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_4_1_0003",
+    "next_irl": 4,
+    "next_means": "Another word lesson in this rung.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_4_1_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

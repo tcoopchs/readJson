@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_4_2_0004",
+  "meta": {
+    "status": "published",
+    "title": "The Cost of Waiting",
+    "skill": "vocab",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "topic_domain": "work and trade",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.2, 5.9, 7.3 (6.4 together) on the 3 parts. The load is a business idea with a double cost: goods lose value while the money tied up in them cannot be used. 'Margin' and 'stock' are trade words, and the second cost is the one the passage says is invisible.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A grocer's shelf as a bet, so 'stock', 'margin', and 'spoilage' are read as money in different states rather than as groceries.",
+      "avoided": "No store, chain, or currency. No invented percentages or prices."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: each trade word is defined by what it costs, not by a dictionary sense."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A grocer buys stock before customers ask for it. Stock is the goods on the shelf, and every item on it is money already spent. The grocer earns a margin: the difference between what a case cost and what it sells for. A small margin on a fast item can be better than a large margin on a slow one, because the slow item ties up cash and space. The shelf is a bet about what people will want this week. A grocer who guesses well sells the shelf twice over; one who guesses badly lives with the guess. The bet is small and repeated, which is why the trade survives its mistakes.",
+    "part_2": "Waiting has a price, and spoilage is only the visible part. A crate of fruit that sits too long loses value before it is unsellable, because customers pick the best and leave the rest. The grocer marks the rest down, and the margin disappears. Meanwhile the cash that bought the crate cannot buy what is selling. The cost of waiting is therefore paid twice, once in the goods and once in the money that cannot move. A grocer with a full shelf and an empty till cannot take a bargain when one appears. The shelf looks like an asset and behaves like a lock.",
+    "part_3": "Good grocers watch the shelf the way a driver watches the road. They order less of what is slow, place it where it will be seen, and cut the price before the loss is total. None of this requires a spreadsheet; it requires counting what leaves and noticing what stays. The skill is not in buying well, which is mostly price, but in selling before the shelf decides for you. Buying is a conversation with a supplier; selling is a conversation with a customer, and the second is harder. A grocer who knows the shelf can order on Monday for a demand that appears on Thursday."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "____ is the goods on the shelf, and every item on it is money already spent.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. Stock is the goods on the shelf.",
+        "correct_reason": "The first part defines stock as the goods on the shelf, money already spent.",
+        "tell": "The word is stock. It is the goods a shop has already paid for.",
+        "help": [
+          "Look at the second sentence of the passage.",
+          "The word is defined right there."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers goods, the general word",
+            "ask": "Goods is the plain word. What is the trade word for goods held to sell?"
+          }
+        ],
+        "accept_words": [
+          "stock"
+        ],
+        "normalize": "Ignore case and punctuation. Accept stock, including a clear misspelling such as stok.",
+        "reject_words": [
+          "goods"
+        ],
+        "word": "stock"
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "What is a margin?",
+      "tutor_only": {
+        "confirm": "Yes. Margin is the gap between cost and selling price.",
+        "correct_reason": "The first part defines a margin as the difference between what a case cost and what it sells for.",
+        "tell": "A margin is the space between the cost of an item and its price.",
+        "help": [
+          "Look at the sentence beginning 'The grocer earns'.",
+          "The definition follows the colon."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says it is the price of the item",
+            "ask": "Price is one side of the gap. What is the other side?"
+          },
+          {
+            "when": "the student says it is the amount sold",
+            "ask": "Amount sold is volume. What is the money difference called?"
+          }
+        ],
+        "core_idea": "The difference between what an item cost the grocer and what it sells for.",
+        "accept_ideas": [
+          "the profit on an item",
+          "the gap between cost and selling price",
+          "what is left after the cost is paid"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the item weighs",
+          "where it sits on the shelf"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "Waiting has a price, and ____ is only the visible part.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. Spoilage is the visible loss.",
+        "correct_reason": "The second part says waiting has a price, and spoilage is only the visible part.",
+        "tell": "The word is spoilage. It is food going bad, the part of the loss you can see.",
+        "help": [
+          "Look at the first sentence of the part above.",
+          "The word names food going bad."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers waste",
+            "ask": "Waste is the general idea. What word does the passage use for food going bad?"
+          }
+        ],
+        "accept_words": [
+          "spoilage"
+        ],
+        "normalize": "Ignore case and punctuation. Accept spoilage, including a clear misspelling such as spoilidge.",
+        "word": "spoilage"
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "Why is the cost of waiting paid twice?",
+      "tutor_only": {
+        "confirm": "Right. The loss lands on the goods and on the money behind them.",
+        "correct_reason": "The second part says the cost is paid once in the goods and once in the money that cannot move.",
+        "tell": "Waiting costs you the value of the goods and the use of the cash that bought them.",
+        "help": [
+          "Look at the last sentence of the part above.",
+          "It names the two places the cost is paid."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the grocer pays twice for the stock",
+            "ask": "The stock is bought once. What else is stuck?"
+          },
+          {
+            "when": "the student says the fruit is marked down twice",
+            "ask": "Marking down is one loss. What is the second?"
+          }
+        ],
+        "core_idea": "The goods lose value, and the cash tied up in them cannot buy what is selling.",
+        "accept_ideas": [
+          "the food loses value and the money is stuck in it",
+          "you lose on the goods and on the money you cannot use",
+          "the item spoils while the cash stays locked in it"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the fruit keeps",
+          "what else the grocer sells"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "What does selling before the shelf decides for you mean?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Right. The shelf decides when the goods have lost their value, and the grocer must act first.",
+        "correct_reason": "The last part says good grocers cut the price before the loss is total, and the skill is selling before the shelf decides for you.",
+        "tell": "If you wait, the goods spoil and the choice is made for you. Selling first keeps the choice yours.",
+        "help": [
+          "Look at the last sentence of the passage.",
+          "Then look at the sentence about cutting the price."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the shelf tells you what to order",
+            "ask": "Ordering comes earlier. What does waiting on the shelf cause?"
+          },
+          {
+            "when": "the student says the shelf is where goods are displayed",
+            "ask": "That is the plain sense. Here the shelf is doing something to the goods. What?"
+          }
+        ],
+        "core_idea": "Selling or discounting goods in time, before they lose all their value on their own.",
+        "accept_ideas": [
+          "sell before the food spoils",
+          "cut the price before the goods become worthless",
+          "act before the goods decide the outcome for you"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the shelf is built",
+          "what the grocer orders"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson in this rung; no higher word rung is authored yet.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_4_2_0005",
+    "next_irl": 4,
+    "next_means": "Another word lesson in this rung.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_4_2_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

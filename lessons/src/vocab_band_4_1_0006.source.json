@@ -1,0 +1,239 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_4_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Canal That Climbs",
+    "skill": "vocab",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "places and travel",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.8, 6.7, 5.8 (6.1 together) on the 3 parts. The load is a machine explained by the problem it solves, with four linked terms (lock, flight, pound, towpath) and one final judgment about speed. Each term depends on the one before it.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "Canal locks as a solution to a level problem, so 'lock', 'pound', and 'towpath' are read from the water and the boat rather than from a diagram.",
+      "avoided": "No canal, town, or date is named. No invented dimensions or tolls."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: the term follows the problem it solves, then the next sentence says what it does."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A canal is a river built by people, and unlike a river it has to stay level. Water will not run uphill, so a canal that must cross a hill needs a way to lift boats. The answer is a lock: a stone chamber with gates at both ends. A boat enters, the lower gate closes behind it, and water is let in until the boat rises to the level above. Then the upper gate opens and the boat leaves. A single lock lifts a boat only a few feet, so a steep hill needs several in a row. A crossing takes about ten minutes.",
+    "part_2": "Locks came in flights. A flight is a series of locks close together, and a boat may pass through several in an afternoon. Each lock costs water, so a canal needs a supply at the top, often a reservoir built for the purpose. The pound is the level stretch between two locks, and its depth must be kept steady or boats run aground. A lock keeper watched the gates, opened and closed them for each boat, and recorded the traffic. He also watched the level of each pound, because a leak in one stretch could strand every boat above it.",
+    "part_3": "Before engines, boats were pulled by horses walking a path beside the water. The towpath is still there on many canals, now used by walkers and cyclists. A horse walked the path at a steady pace, and a boy or a girl often led it while the boat followed. The route flattened hills that a road would have had to climb. A horse could move a load that would have taken many carts and a much better road. The canal was slow, perhaps three miles an hour, and that was the point: the load arrived whole, and the cost of moving it fell. Speed came later, on rails."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "The answer is a ____: a stone chamber with gates at both ends.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. A lock is the chamber that lifts boats.",
+        "correct_reason": "The first part says the answer is a lock, a stone chamber with gates at both ends.",
+        "tell": "The word is lock. It is the chamber that raises or lowers a boat to the next level.",
+        "help": [
+          "Look at the sentence that names the stone chamber.",
+          "The word follows 'The answer is a'."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers gate",
+            "ask": "Gates are part of it. What is the whole chamber called?"
+          }
+        ],
+        "accept_words": [
+          "lock"
+        ],
+        "normalize": "Ignore case and punctuation. Accept lock, including a clear misspelling such as lok.",
+        "word": "lock"
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "Why does a canal need a lock?",
+      "tutor_only": {
+        "confirm": "Yes. The lock solves the level problem on a hill.",
+        "correct_reason": "The first part says water will not run uphill, so a canal crossing a hill needs a way to lift boats, and the lock does that.",
+        "tell": "A lock raises the water, and the boat with it, so a level canal can cross a hill.",
+        "help": [
+          "Look at the first two sentences of the passage.",
+          "One names what water will not do."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says a lock stores water for the town",
+            "ask": "Water supply comes in the next part for a different reason. What does a lock do for a boat?"
+          },
+          {
+            "when": "the student says it keeps boats from escaping",
+            "ask": "No escape is mentioned. What problem does the hill create?"
+          }
+        ],
+        "core_idea": "Because water will not run uphill, so a lock lifts boats to the next level.",
+        "accept_ideas": [
+          "to raise boats over a hill",
+          "to move boats up or down between levels",
+          "because the canal must stay level"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how big the chamber is",
+          "who opens the gates"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "The ____ is the level stretch between two locks, and its depth must be kept steady.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The level stretch between locks is a pound.",
+        "correct_reason": "The second part says the pound is the level stretch between two locks.",
+        "tell": "The word is pound. It is the calm, level water between two locks.",
+        "help": [
+          "Look at the sentence about the level stretch.",
+          "The word is its subject."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers flight",
+            "ask": "A flight is a series of locks. What is one level stretch called?"
+          }
+        ],
+        "accept_words": [
+          "pound"
+        ],
+        "normalize": "Ignore case and punctuation. Accept pound, including a clear misspelling such as pownd.",
+        "word": "pound"
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "What did a lock keeper do?",
+      "tutor_only": {
+        "confirm": "Right. The keeper ran the gates and kept the record.",
+        "correct_reason": "The second part says the lock keeper watched the gates, opened and closed them for each boat, and recorded the traffic.",
+        "tell": "The lock keeper worked the gates for each boat and wrote down the traffic.",
+        "help": [
+          "Look at the last sentence of the part above.",
+          "It lists three things the keeper did."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says he built the locks",
+            "ask": "Building is not mentioned. What did he do each day?"
+          },
+          {
+            "when": "the student says he drove the horses",
+            "ask": "Horses come in the last part. What did he do with the gates?"
+          }
+        ],
+        "core_idea": "Watched the gates, opened and closed them for each boat, and recorded the traffic.",
+        "accept_ideas": [
+          "opened and closed the gates for boats",
+          "ran the locks and kept a record of boats",
+          "let the water in and out for each boat"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the job paid",
+          "where the reservoir was"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "The passage says the canal was slow, and that was the point. What does that mean?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Right. Slow was traded for cheap, undamaged delivery.",
+        "correct_reason": "The last part says the canal was slow, perhaps three miles an hour, and that was the point: the load arrived whole and the cost of moving it fell.",
+        "tell": "The canal was slow on purpose, because slow hauling kept the goods whole and the price low.",
+        "help": [
+          "Look at the sentence beginning 'The canal was slow'.",
+          "The words after the colon give the reason."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the horses could not go faster",
+            "ask": "The passage says the slowness had a purpose. What was it?"
+          },
+          {
+            "when": "the student says speed came later, so slow was all they had",
+            "ask": "The passage says speed came on rails, but it also says the slowness was the point. Why?"
+          }
+        ],
+        "core_idea": "The slowness was acceptable because the load arrived whole and the cost of moving it was low.",
+        "accept_ideas": [
+          "being slow did not matter because the goods arrived safely and cheaply",
+          "slow travel was worth it for the low cost",
+          "the point was cheap, safe delivery, not speed"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how fast a horse walks",
+          "what the canal carried"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson of the next rung, Band 4.2.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

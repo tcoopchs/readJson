@@ -1,0 +1,245 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_3_1_0002",
+  "meta": {
+    "status": "published",
+    "title": "The Lighthouse Keeper's Night",
+    "skill": "vocab",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "topic_domain": "history and people",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 5.2, 4.3, 5.0 (4.8 together) on the 3 parts. The load is one job with four steps and one tool explained inline: fill, light, trim, wind. The verb 'trim' is the item that needs the surrounding sentences, since it is not defined.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A pre-electric lighthouse night, told through the tools the keeper handled, so 'trim' and 'keeping' have to be read from what he does.",
+      "avoided": "No named lighthouse, country, or date. No invented pay figures or ship counts."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: the meaning of a verb is carried by the action around it."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Before electric lights, a lighthouse burned oil. The keeper climbed a spiral stair each evening with a can of oil. At the top he filled the lamp and lit the wick. A wick is a thick cord that draws oil up into the flame. If the wick was too long, the flame smoked and the glass turned black. The keeper trimmed it with small scissors until the flame stood steady. A steady flame burned less oil and gave a cleaner light, so trimming saved the supply as much as it improved the picture on the water. Then he wound the clockwork that turned the lens, and the light began to sweep the water.",
+    "part_2": "The lens was the reason the light could be seen far out at sea. It was a set of glass rings that bent the flame into a narrow beam. Without the lens, the same flame looked like a candle from a mile away. With it, the beam reached ships twenty miles out. Sailors watched for that sweep and counted the seconds between flashes, which told them which light they were passing. That count was a rough kind of map. The keeper did not invent the lens, and he did not own the light. He kept it burning, night after night, in weather that kept other people indoors.",
+    "part_3": "A keeper's night was not one long watch. He climbed down to check the oil, then climbed up again. The clockwork had to be wound every few hours, so the light never stopped turning while he dozed on a chair. He wrote the time of every ship that passed. The log mattered when a ship was late, because the keeper's page was the only record of when it had been seen. In fog he started the bell and listened for the answer. The pay was small, and the house was often far from town. The job was called keeping, and the word fit: the light had to be kept, hour after hour, by a person who did not leave."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "A ____ is a thick cord that draws oil up into the flame.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The cord that feeds the flame is the wick.",
+        "correct_reason": "The first part says a wick is a thick cord that draws oil up into the flame.",
+        "tell": "The word is wick. It is the cord that carries oil into the flame.",
+        "help": [
+          "Look at the sentence that defines the cord.",
+          "The word is the subject of 'is a thick cord'."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers candle",
+            "ask": "A candle is the whole thing. What is the cord called?"
+          }
+        ],
+        "accept_words": [
+          "wick"
+        ],
+        "normalize": "Ignore case and punctuation. Accept wick, including a clear misspelling such as wik.",
+        "reject_words": [
+          "candle"
+        ],
+        "word": "wick"
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "What does the keeper do when he trims the wick?",
+      "tutor_only": {
+        "confirm": "Yes. Trimming means cutting the wick back so the flame burns clean.",
+        "correct_reason": "The part says a long wick smoked and blackened the glass, and the keeper trimmed it with small scissors until the flame stood steady.",
+        "tell": "To trim the wick is to cut it shorter, which stops the smoke and keeps the flame steady.",
+        "help": [
+          "Look at what happens before the keeper uses the scissors.",
+          "The sentence says what the long wick did wrong."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says he lights the wick",
+            "ask": "Lighting comes before. What does he do with the scissors?"
+          },
+          {
+            "when": "the student says he fills the lamp with oil",
+            "ask": "Oil comes first, in a separate action. What does trimming do to the wick?"
+          }
+        ],
+        "core_idea": "He cuts it shorter with small scissors so the flame stops smoking.",
+        "accept_ideas": [
+          "he cuts it with scissors",
+          "he makes it shorter so the flame is steady",
+          "he cuts off the burned part"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the wick should be",
+          "what kind of oil he used"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "It was a set of glass rings that bent the flame into a narrow ____.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The lens bent the light into a beam.",
+        "correct_reason": "The second part says the lens was a set of glass rings that bent the flame into a narrow beam.",
+        "tell": "The word is beam. A beam is a narrow line of light.",
+        "help": [
+          "Look at the sentence about the glass rings.",
+          "The word follows 'narrow'."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers candle",
+            "ask": "A candle is compared to the bare flame. What did the lens make the light into?"
+          }
+        ],
+        "accept_words": [
+          "beam"
+        ],
+        "normalize": "Ignore case and punctuation. Accept beam, including a clear misspelling such as beem.",
+        "reject_words": [
+          "candle"
+        ],
+        "word": "beam"
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "Why did the lens matter more than the size of the flame?",
+      "tutor_only": {
+        "confirm": "Yes. The lens turned a small flame into a far-reaching beam.",
+        "correct_reason": "The second part compares the bare flame with the lens: a candle from a mile away without it, a beam twenty miles out with it.",
+        "tell": "The lens gathered the flame into a narrow beam. That is what carried the light twenty miles out to ships.",
+        "help": [
+          "Look at the two sentences that compare the flame with and without the lens.",
+          "One gives a mile and the other gives twenty miles."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the lens made the flame bigger",
+            "ask": "The passage says the lens bent the flame. What did bending the light do?"
+          },
+          {
+            "when": "the student says the lens kept the rain off",
+            "ask": "The passage does not mention rain here. What does the lens do to the light?"
+          }
+        ],
+        "core_idea": "The lens bent the light into a narrow beam, so it reached ships twenty miles out instead of looking like a candle a mile away.",
+        "accept_ideas": [
+          "it made the light travel much farther",
+          "it turned the flame into a beam that ships could see from twenty miles",
+          "without it the light looked like a candle from a mile away"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the glass was made",
+          "who invented the lens"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "all",
+      "prompt": "The passage says the word keeping fit the job. What does that mean?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Right. The name of the job was the work itself: keeping the light.",
+        "correct_reason": "The last part says the light had to be kept, hour after hour, by a person who did not leave.",
+        "tell": "To keep the light meant to stay at the post all night and keep it burning. That is why the job had that name.",
+        "help": [
+          "Look at the last sentence of the passage, after the word 'fit'.",
+          "The sentence says what had to be kept, and by whom."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says it means he kept the house clean",
+            "ask": "The passage ends with the light. What did he keep?"
+          },
+          {
+            "when": "the student says it means he kept the pay",
+            "ask": "Pay is mentioned but not explained. What was kept hour after hour?"
+          }
+        ],
+        "core_idea": "The job was to keep the light burning and stay at the post, hour after hour.",
+        "accept_ideas": [
+          "he had to keep the light going all night",
+          "he kept the light burning and did not leave",
+          "the work was keeping the light alive, not building it"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much he was paid",
+          "what the bell was for"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson of the next rung, Band 4.1.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_3_1_0003",
+    "next_irl": 3,
+    "next_means": "Another word lesson in this rung.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_3_1_0002",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

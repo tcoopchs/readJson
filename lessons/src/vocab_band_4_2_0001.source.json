@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_4_2_0001",
+  "meta": {
+    "status": "published",
+    "title": "A Map Drawn from Memory",
+    "skill": "vocab",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "topic_domain": "places and travel",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.3, 6.2, 5.6 (6.0 together) on the 3 parts. The load is three abstract ideas in a row: a map is a promise, scale is a choice about what to leave out, and a tool can be mistaken for the world. Nothing here is a process the reader can watch.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "Early coastal mapping, built to make 'rough' and 'scale' mean something about trust rather than about drawing quality.",
+      "avoided": "No named coast, chart, or date. No invented depths or distances."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: each abstract claim is stated, then explained by a case two sentences later."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A map is a promise that distances can be trusted, yet the first maps of a new coast were drawn by people who had seen it once. A sailor sketched the shape of a bay from the deck, guessing at the land behind it. He marked a landmark, a hill or a white cliff, and wrote the depth of water beside it. The result was rough, which meant it was close enough to be useful and wrong enough to be dangerous. Later ships corrected the errors and kept the corrections. A chart improved only as fast as ships came back to say what they had found.",
+    "part_2": "Scale is the part that most readers ignore. A map at a small scale shows a whole country on one sheet, and a map at a large scale shows a single harbor. The same coastline looks different on each, because the small-scale map must leave out every inlet too narrow to draw. A sailor who trusted the small-scale chart into a harbor he did not know could run onto a shoal the chart had simplified away. The chart was not lying. It was answering a different question. The answer was right for crossing an ocean and wrong for entering a bay.",
+    "part_3": "What a map leaves out is a choice, not an accident. A road map leaves out footpaths, and a walking map leaves out the roads. Each keeps what its user needs and drops the rest. Neither is wrong, and neither is complete. A map that shows everything shows nothing clearly, because the eye cannot sort a thousand marks at once. The test of a map is not whether it is accurate in general but whether it is accurate for the journey in hand. A map is a tool with a purpose, and a reader who forgets the purpose reads the tool as the world."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "He marked a ____, a hill or a white cliff, and wrote the depth of water beside it.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The hill or cliff was a landmark.",
+        "correct_reason": "The first part says he marked a landmark, a hill or a white cliff.",
+        "tell": "The word is landmark. It is a feature a sailor can see and steer by.",
+        "help": [
+          "Look at the sentence about what he marked.",
+          "The word is followed by a hill and a white cliff."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers hill",
+            "ask": "A hill is one example of it. What is the general word for a feature to steer by?"
+          }
+        ],
+        "accept_words": [
+          "landmark"
+        ],
+        "normalize": "Ignore case and punctuation. Accept landmark or land mark.",
+        "word": "landmark",
+        "word_also": [
+          "land mark"
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "What does scale mean in this passage?",
+      "tutor_only": {
+        "confirm": "Yes. Scale is how much ground one sheet covers.",
+        "correct_reason": "The second part contrasts a small scale that shows a whole country with a large scale that shows a single harbor, and says the small-scale map must leave out narrow inlets.",
+        "tell": "Scale is the amount of ground one sheet covers, and a small scale covers more ground with less detail.",
+        "help": [
+          "Look at the two examples in the part above: a country and a harbor.",
+          "Ask what changes between them."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says scale means the size of the paper",
+            "ask": "The paper can be the same size. What changes is how much land it shows."
+          },
+          {
+            "when": "the student says scale means the distance across the map",
+            "ask": "Distances are marked, but scale is about coverage. What does a whole country on one sheet require?"
+          }
+        ],
+        "core_idea": "How much of the land is shown on one sheet, so a small scale covers more ground with less detail.",
+        "accept_ideas": [
+          "how much of the world fits on the map",
+          "the amount of detail shown for the area",
+          "whether the map shows a country or a harbor"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the map is",
+          "who drew it"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "prompt": "The result was ____, which meant it was close enough to be useful and wrong enough to be dangerous.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The early map was rough.",
+        "correct_reason": "The first part says the result was rough: close enough to be useful and wrong enough to be dangerous.",
+        "tell": "The word is rough. Here it means approximate, not badly made.",
+        "help": [
+          "Look at the sentence that explains the result.",
+          "The word is followed by 'which meant'."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers wrong",
+            "ask": "Wrong is half of it. What word does the passage use for the whole result?"
+          }
+        ],
+        "accept_words": [
+          "rough"
+        ],
+        "normalize": "Ignore case and punctuation. Accept rough, including a clear misspelling such as ruff.",
+        "word": "rough"
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "Why could a small-scale chart be dangerous in a harbor?",
+      "tutor_only": {
+        "confirm": "Right. The chart simplified away what the sailor needed most.",
+        "correct_reason": "The second part says the small-scale map leaves out every inlet too narrow to draw, and a sailor could run onto a shoal the chart had simplified away.",
+        "tell": "A small-scale chart leaves out anything too small to draw, and a shoal is exactly that.",
+        "help": [
+          "Look at the sentence about the inlet too narrow to draw.",
+          "Then read what the sailor could run onto."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the chart showed the wrong country",
+            "ask": "It showed the right coast at a small scale. What did it leave out?"
+          },
+          {
+            "when": "the student says the chart was too old",
+            "ask": "Age is not the reason given. What happens to small features?"
+          }
+        ],
+        "core_idea": "It leaves out inlets and shoals too narrow to draw, so the sailor could run onto a hazard the chart simplified away.",
+        "accept_ideas": [
+          "it leaves out small features like shoals",
+          "the details were too small to show",
+          "the chart was simplified, so a hidden shoal could be missed"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how deep the harbor is",
+          "when the chart was made"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "What does it mean that a reader reads the tool as the world?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Right. The reader forgets the map is a tool and treats it as the ground.",
+        "correct_reason": "The last sentence says a map is a tool with a purpose, and a reader who forgets the purpose reads the tool as the world.",
+        "tell": "Reading the tool as the world means treating the drawing as if it were the actual place.",
+        "help": [
+          "Look at the last sentence of the passage.",
+          "It contrasts a tool with the world."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the reader looks at the world",
+            "ask": "The phrase is the other way round. What does the reader confuse the map with?"
+          },
+          {
+            "when": "the student says the reader cannot read maps",
+            "ask": "The reader understands the marks but forgets something. What is it?"
+          }
+        ],
+        "core_idea": "The reader mistakes the map for the place itself, forgetting that the map leaves things out.",
+        "accept_ideas": [
+          "they think the map is the real place",
+          "they forget the map is only a drawing with choices",
+          "they trust the map instead of looking at the land"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the map shows",
+          "who made the map"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson in this rung; no higher word rung is authored yet.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_4_2_0002",
+    "next_irl": 4,
+    "next_means": "Another word lesson in this rung.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

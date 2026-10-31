@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_3_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Sign Painter's Hand",
+    "skill": "vocab",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "arts and language",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 4.3, 3.7, 5.8 (4.6 together) on the 3 parts. The load is three rules of a craft, one per part, with 'outline', 'coat', and 'crowded' used in their trade sense. The last part reverses the obvious idea: spacing, not drawing, is where skill shows.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "Hand lettering as a craft of spacing and waiting, so 'crowded' has to be read as a judgment about space rather than about too much paint.",
+      "avoided": "No named sign, town, or period. No claim about pay or training time."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: the word is used, then the next sentence says what it costs to get wrong."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A sign painter works by hand, without a printer. First he draws the letters in pencil on the board. Then he paints an outline around each letter, so the shape stands out from far away. The outline must be the same width on every side. If one side is thicker, the letter looks tilted even when it is not. A hand that shakes shows in the line, so the painter rests his wrist on the board and moves his whole arm. A line painted from the wrist curves; a line painted from the shoulder stays straight. The shoulder is the hinge, and the wrist is only the guide.",
+    "part_2": "Color comes in layers. The first coat is thin and soaks into the wood. The second coat covers, and the third makes the color even. Each coat must dry before the next. Drying is not the same as setting: the surface can feel dry while the paint below is still soft. A painter who hurries gets a skin on top and wet paint below, and the sign blisters in the sun. Good work here is mostly waiting. A sign that is rushed looks fine in the shop and fails on the wall, where sun and rain find every weak coat.",
+    "part_3": "Letters have rules that most people never notice. A round letter such as O is drawn slightly taller than a straight one such as H, or it looks small. The space between letters matters as much as the letters themselves. Too little space and the letters merge; too much and the word falls apart into separate marks. A sign that is hard to read is usually crowded, not badly drawn. The painter's skill is in the spacing, and spacing is what a customer never sees. They see a sign that is easy to read and assume the letters were simply drawn well."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "Then he paints an ____ around each letter, so the shape stands out.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. He paints an outline around each letter.",
+        "correct_reason": "The first part says he paints an outline around each letter.",
+        "tell": "The word is outline. It is the line painted around the edge of a letter.",
+        "help": [
+          "Look at the third sentence of the passage.",
+          "The word names the line around each letter."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers shadow",
+            "ask": "A shadow is not mentioned. What line goes around the letter?"
+          }
+        ],
+        "accept_words": [
+          "outline"
+        ],
+        "normalize": "Ignore case and punctuation. Accept outline, including a clear misspelling such as out line.",
+        "word": "outline"
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "Why does the painter rest his wrist on the board?",
+      "tutor_only": {
+        "confirm": "Yes. The wrist on the board steadies the line.",
+        "correct_reason": "The part says a shaking hand shows in the line, so the painter rests his wrist and moves his whole arm.",
+        "tell": "Resting the wrist keeps the hand steady, so the painted line does not wobble.",
+        "help": [
+          "Look at the last sentence of the earlier part.",
+          "It names what a shaking hand would do to the line."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says to be comfortable",
+            "ask": "Comfort is not the reason given. What would a shaking hand do?"
+          },
+          {
+            "when": "the student says to reach the top of the sign",
+            "ask": "Reaching is not mentioned. What does the wrist keep steady?"
+          }
+        ],
+        "core_idea": "So his hand does not shake and the outline stays even.",
+        "accept_ideas": [
+          "so the line is steady",
+          "to keep his hand from shaking",
+          "so the outline is the same width"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long he works",
+          "what kind of paint he uses"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "The first ____ is thin and soaks into the wood.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The first coat is thin and soaks in.",
+        "correct_reason": "The second part says the first coat is thin and soaks into the wood.",
+        "tell": "The word is coat. Paint goes on in coats, and the first one is thin.",
+        "help": [
+          "Look at the second sentence of the part above.",
+          "It names one layer of paint."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers layer",
+            "ask": "The passage does use 'layers' as the general idea. What word does it use for one layer of paint?"
+          }
+        ],
+        "accept_words": [
+          "coat"
+        ],
+        "normalize": "Ignore case and punctuation. Accept coat, including a clear misspelling such as cote.",
+        "reject_words": [
+          "layer"
+        ],
+        "word": "coat"
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "What happens if the painter puts on the next coat before the first one dries?",
+      "tutor_only": {
+        "confirm": "Yes. Hurrying traps wet paint under a dry skin, and the sign blisters.",
+        "correct_reason": "The part says a painter who hurries gets a skin on top and wet paint below, and the sign blisters in the sun.",
+        "tell": "The top dries first and seals wet paint underneath, so the sign blisters when the sun heats it.",
+        "help": [
+          "Look at the sentence beginning 'A painter who hurries'",
+          "It gives the result for both the top and the paint below."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the colors run together",
+            "ask": "Mixing colors is not mentioned. What forms on top?"
+          },
+          {
+            "when": "the student says the coat takes longer to dry",
+            "ask": "Slow drying is not the problem. What is trapped below the skin?"
+          }
+        ],
+        "core_idea": "A skin forms on top with wet paint below, and the sign blisters in the sun.",
+        "accept_ideas": [
+          "the paint blisters",
+          "the top dries but the paint underneath stays wet",
+          "the sign is ruined by trapped wet paint"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many coats a sign needs",
+          "what color the paint is"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "all",
+      "prompt": "The passage says a hard-to-read sign is usually crowded. What does crowded mean here?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Right. Crowded describes the space between letters, not the drawing.",
+        "correct_reason": "The last part says the space between letters matters, and that a sign hard to read is usually crowded, not badly drawn.",
+        "tell": "A crowded sign has its letters packed too tightly, so the eye cannot separate them.",
+        "help": [
+          "Look at the sentence that mentions the space between letters.",
+          "Then read the next sentence about what a hard sign usually is."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says too many words are on the sign",
+            "ask": "The passage talks about space between letters. What fills that space?"
+          },
+          {
+            "when": "the student says the paint is too thick",
+            "ask": "Paint thickness is in the earlier part. What is crowded here?"
+          }
+        ],
+        "core_idea": "The letters are set too close together, so they are hard to tell apart.",
+        "accept_ideas": [
+          "there is not enough space between the letters",
+          "the letters are too close",
+          "too many letters are packed in"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the letters are drawn",
+          "what the sign says"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson of the next rung, Band 4.1.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

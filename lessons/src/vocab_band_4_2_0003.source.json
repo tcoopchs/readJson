@@ -1,0 +1,240 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_4_2_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Quiet Work of Fungi",
+    "skill": "vocab",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.9, 7.3, 6.4 (6.5 together) on the 3 parts. The load is an organism described at a scale the reader cannot see, plus one disputed claim the passage refuses to settle. 'Thread' and 'network' are ordinary words used for a structure the reader must imagine.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "Fungi as the agents of decomposition and as partners of roots, so 'decomposition' is learned as a return of material rather than as rot.",
+      "avoided": "No species names or measurements. No claim about which forests do this, beyond 'many'."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: the abstract term is defined by the process it names, in the same sentence."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A forest floor is covered with leaves that do not pile up. Something breaks them down, and most of that work is done by fungi. A fungus grows as a network of fine threads, too thin to see one at a time. The threads push through a dead leaf and release substances that dissolve it. What the fungus cannot use stays in the soil, where plants take it up. A leaf that falls in October is mostly soil by the following summer, and nothing is wasted. Decomposition is not decay for its own sake; it is the return of material to circulation.",
+    "part_2": "The threads also connect living roots. In many forests a fungus wraps around a tree's roots and trades with it: water and minerals go to the tree, sugar comes back to the fungus. The network can join one tree to another, and water can move between them through it. Whether this is cooperation or a market is still argued. What is not argued is that the fungus is paid, and that a tree without its fungus grows more slowly. A seedling planted in sterile soil often fails, even with water and light, because it has no partner to trade with.",
+    "part_3": "Fungi are easy to overlook because they fruit briefly. The mushroom is the part that appears above ground, and it is the smallest part of the organism. The rest is a web in the soil and in the wood, sometimes spreading across a whole grove. Some webs are centuries old and cover many acres, which makes one organism hard to see and harder to measure. A mushroom is the fruit of that web, not the web itself. When people say a forest is one living thing, they are usually speaking loosely. When they say the soil is alive, they are not."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "____ is not decay for its own sake; it is the return of material to circulation.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The process is decomposition.",
+        "correct_reason": "The first part says decomposition is not decay for its own sake but the return of material to circulation.",
+        "tell": "The word is decomposition. It means breaking dead material down so plants can use it again.",
+        "help": [
+          "Look at the last sentence of the earlier part.",
+          "The word is the subject of that sentence."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers decay",
+            "ask": "Decay is the plain word. What word does the passage use for the process that returns material?"
+          }
+        ],
+        "accept_words": [
+          "decomposition",
+          "decay"
+        ],
+        "normalize": "Ignore case and punctuation. Accept decomposition. Accept decay only if the student explains it as breaking down into material; otherwise ask for the passage's word.",
+        "word": "decomposition"
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "What is a thread in this passage?",
+      "tutor_only": {
+        "confirm": "Yes. A thread is one thin strand of the fungus.",
+        "correct_reason": "The first part says a fungus grows as a network of fine threads, too thin to see one at a time.",
+        "tell": "A thread is one thin strand of the fungus, and the threads together make the network.",
+        "help": [
+          "Look at the third sentence of the passage.",
+          "It says how thin one thread is."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says it is a string the fungus finds",
+            "ask": "The fungus grows the threads. What are they part of?"
+          },
+          {
+            "when": "the student says it is a root",
+            "ask": "Roots belong to the tree. Whose strand is this?"
+          }
+        ],
+        "core_idea": "One very thin strand of the fungus, too small to see alone.",
+        "accept_ideas": [
+          "a thin strand of the fungus",
+          "one fine part of the network",
+          "a strand too thin to see by itself"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long it grows",
+          "what it is made of"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "The ____ can join one tree to another, and water can move between them through it.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The network of threads can join trees.",
+        "correct_reason": "The second part says the network can join one tree to another, and water can move between them through it.",
+        "tell": "The word is network. It is all the threads taken together.",
+        "help": [
+          "Look at the fourth sentence of the part above.",
+          "The word refers to the joined threads."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers fungus",
+            "ask": "The fungus is the organism. What is the joined structure called?"
+          }
+        ],
+        "accept_words": [
+          "network"
+        ],
+        "normalize": "Ignore case and punctuation. Accept network, including a clear misspelling.",
+        "word": "network"
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "What does the fungus get from the tree?",
+      "tutor_only": {
+        "confirm": "Right. Sugar goes to the fungus, water and minerals go to the tree.",
+        "correct_reason": "The second part says water and minerals go to the tree, and sugar comes back to the fungus.",
+        "tell": "The trade runs both ways: the fungus supplies water and minerals, and the tree supplies sugar.",
+        "help": [
+          "Look at the sentence about the trade.",
+          "It lists what each side receives."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the fungus gets water",
+            "ask": "Water goes to the tree. What comes back to the fungus?"
+          },
+          {
+            "when": "the student says the fungus gets nothing",
+            "ask": "The passage says the fungus is paid. In what?"
+          }
+        ],
+        "core_idea": "Sugar, in exchange for water and minerals it gives the tree.",
+        "accept_ideas": [
+          "sugar",
+          "food made by the tree",
+          "sugar in return for water and minerals"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much sugar",
+          "how old the tree is"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "The passage says that when people call the soil alive, they are not speaking loosely. What does that mean?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Right. The phrase is literal: the soil holds living organisms.",
+        "correct_reason": "The passage describes fungi living as webs through the soil, then contrasts loose talk about a forest with the literal claim that the soil is alive.",
+        "tell": "Speaking loosely means using a figure of speech. The passage says the soil claim is literal, because living fungi fill it.",
+        "help": [
+          "Look at the last two sentences of the passage.",
+          "The first is called loose speech; the second is not."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the soil moves like an animal",
+            "ask": "Alive here means containing living things. What fills the soil?"
+          },
+          {
+            "when": "the student says it means the forest is one tree",
+            "ask": "The forest claim is the loose one. What makes the soil claim different?"
+          }
+        ],
+        "core_idea": "The soil really does contain living organisms, so the phrase is accurate rather than poetic.",
+        "accept_ideas": [
+          "the soil actually holds living things",
+          "it is literally true, not just a figure of speech",
+          "the soil is full of living fungi and other organisms"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what lives in the soil",
+          "how deep the soil goes"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson in this rung; no higher word rung is authored yet.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_4_2_0004",
+    "next_irl": 4,
+    "next_means": "Another word lesson in this rung.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_4_2_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

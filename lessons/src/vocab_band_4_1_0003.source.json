@@ -1,0 +1,239 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_4_1_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Whistle That Waits",
+    "skill": "vocab",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 4.8, 6.8, 5.3 (5.6 together) on the 3 parts. The load is a rule with an exception that reverses the expected outcome: a foul normally stops play, but stopping play can hurt the team that was fouled.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "The referee's advantage rule, built as a case where the obvious action, blowing the whistle, would take away the wronged team's chance.",
+      "avoided": "No sport, league, or referee is named. No rule numbers or penalty distances."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: the rule's purpose is stated twice, once as a judgment and once as a tool."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A referee carries a whistle but does not blow it at every knock. Some contact in a game is a foul: a push, a trip, or a hand on the ball. A foul usually stops play so the other team can restart with the ball. Yet stopping play is not always a help to the team that was fouled. It can even be a loss. If the fouled team still has the ball and a clear path, the whistle would take away its best chance. The rule exists to protect the team that was wronged, and stopping play can be the opposite of help.",
+    "part_2": "Referees are taught to wait a second before blowing. This is called playing the advantage, and it is a judgment, not a rule the referee can look up. If the fouled team keeps the ball and gains ground, the referee says nothing and play continues. If the foul has already cost the team its chance, the whistle comes and the free kick is awarded. A referee who waits too long can let a real injury pass unmarked, so the wait is short. The same second that protects a chance can leave a hurt player on the ground, and the referee weighs both.",
+    "part_3": "Players read the wait as part of the game. A team that has been fouled and keeps running expects no whistle, and a team that has lost the ball expects one. Coaches teach players to stay on their feet through a light push, because falling can turn an advantage into a stoppage. A player who stays up keeps the play alive, and the foul can be dealt with once the ball is dead. The whistle is not a punishment for the foul, and the referee's silence is a call in its own right. It is a tool for putting the game back where it should be."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "Some contact in a game is a ____: a push, a trip, or a hand on the ball.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. A push or a trip is a foul.",
+        "correct_reason": "The first part says some contact is a foul: a push, a trip, or a hand on the ball.",
+        "tell": "The word is foul. It is contact that breaks the rules of the game.",
+        "help": [
+          "Look at the second sentence of the passage.",
+          "The word is followed by a list of examples."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers knock",
+            "ask": "Knock is the general word used first. What is the rule-breaking contact called?"
+          }
+        ],
+        "accept_words": [
+          "foul"
+        ],
+        "normalize": "Ignore case and punctuation. Accept foul, including a clear misspelling such as fowl.",
+        "word": "foul"
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "What usually happens after a foul?",
+      "tutor_only": {
+        "confirm": "Yes. Play stops and the other team restarts with the ball.",
+        "correct_reason": "The first part says a foul usually stops play so the other team can restart with the ball.",
+        "tell": "A foul normally stops the game, and the team that was fouled restarts with the ball.",
+        "help": [
+          "Look at the third sentence of the earlier part.",
+          "It says what a foul usually does to play."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the fouling player is sent off",
+            "ask": "Sending off is not mentioned. What happens to play?"
+          },
+          {
+            "when": "the student says nothing happens",
+            "ask": "The part says a foul usually does something. What is it?"
+          }
+        ],
+        "core_idea": "Play stops and the other team restarts with the ball.",
+        "accept_ideas": [
+          "the game stops and the other team gets the ball",
+          "play is stopped for a restart",
+          "the fouled team gets the ball back"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who the referee is",
+          "how long the game lasts"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "This is called playing the ____, and it is a judgment, not a rule the referee can look up.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. Waiting so the fouled team can keep its chance is playing the advantage.",
+        "correct_reason": "The second part says referees wait a second, and this is called playing the advantage.",
+        "tell": "The word is advantage. The referee lets play continue because the fouled team is better off.",
+        "help": [
+          "Look at the second sentence of the part above.",
+          "The word names the benefit the fouled team keeps."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers wait",
+            "ask": "Waiting is what the referee does. What is the name of the call?"
+          }
+        ],
+        "accept_words": [
+          "advantage"
+        ],
+        "normalize": "Ignore case and punctuation. Accept advantage, including a clear misspelling.",
+        "word": "advantage"
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "Why does the referee wait before blowing the whistle?",
+      "tutor_only": {
+        "confirm": "Yes. The wait protects the chance the fouled team still has.",
+        "correct_reason": "The part says the whistle would take away the fouled team's best chance, so the referee waits to see whether it keeps the ball and gains ground.",
+        "tell": "The referee waits to see if the fouled team is better off. The whistle comes only if the chance is already lost.",
+        "help": [
+          "Look at the sentence about the fouled team keeping the ball.",
+          "Then look at when the whistle does come."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the referee is unsure about the rule",
+            "ask": "The part calls it a judgment, not an uncertainty. What is being judged?"
+          },
+          {
+            "when": "the student says the referee wants to rest the players",
+            "ask": "Rest is not mentioned. What is the referee watching for?"
+          }
+        ],
+        "core_idea": "To see whether the fouled team still has a better chance if play continues.",
+        "accept_ideas": [
+          "to see if the fouled team keeps the ball and gains ground",
+          "because stopping play might hurt the team that was fouled",
+          "to give the fouled team its advantage"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the wait is",
+          "what the free kick is"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "all",
+      "prompt": "The passage says the whistle is a tool, not a punishment. What does that mean?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Right. The whistle restores the game; it is not there to punish.",
+        "correct_reason": "The last two sentences say the whistle is not a punishment for the foul but a tool for putting the game back where it should be.",
+        "tell": "A tool does a job. The whistle's job is to restore fair play, not to make the fouling team pay.",
+        "help": [
+          "Look at the last two sentences of the passage.",
+          "The second one says what the whistle is for."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the referee does not care about fouls",
+            "ask": "The referee calls fouls. What is the whistle's purpose?"
+          },
+          {
+            "when": "the student says the whistle warns the crowd",
+            "ask": "The crowd is not mentioned. Who is the whistle for, and why?"
+          }
+        ],
+        "core_idea": "The whistle is used to put the game back in order, not to penalize the player who fouled.",
+        "accept_ideas": [
+          "it fixes the play rather than punishing someone",
+          "its purpose is to restore fair play",
+          "it is used to correct the game, not to get even"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who carries the whistle",
+          "how loud it is"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson of the next rung, Band 4.2.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_4_1_0004",
+    "next_irl": 4,
+    "next_means": "Another word lesson in this rung.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_4_1_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

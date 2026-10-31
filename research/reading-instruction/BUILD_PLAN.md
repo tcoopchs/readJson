@@ -29,14 +29,15 @@ inference: 3.1 -> 4.1 -> 4.2 -> 4.3 -> 5.1 -> 5.2 -> 5.3 -> ...
 
 ## 2. Where the catalog stands (verified 2026-10-28)
 
-Fifty-eight compiled lessons. The inference ladder is complete from the floor through stage 4.3,
-and `main_idea` is complete through stage 4.3 as well.
+Seventy-six compiled lessons. The inference ladder is complete from the floor through stage 4.3,
+`main_idea` is complete through stage 4.3, and `vocab` is complete from the floor through 4.2.
 
 | Ladder | 3.1 | 4.1 | 4.2 | 4.3 | 5.1 | above |
 | --- | --- | --- | --- | --- | --- | --- |
 | `inference` | 6 ✓ | 8 ✓ | 6 ✓ | 6 ✓ | 2/6 | 6.1 at 1/6 |
 | `main_idea` | 6 ✓ | 6 ✓ | 6 ✓ | 6 ✓ | — | 7.1 at 2/6 |
-| other six | — | — | — | — | — | — |
+| `vocab` | 6 ✓ | 6 ✓ | 6 ✓ | — | — | — |
+| other five | — | — | — | — | — | — |
 
 Three facts that shape what comes next:
 
@@ -263,9 +264,11 @@ group. The current corpus passes: 8 sources, 8 distinct works, zero shingle over
 ## 11. Status board
 
 Move a row when its state changes. **Built** means six sources compile and the set is `complete`.
-**Done** means the cold-chat pass is recorded for every lesson in the rung. Every lesson has now been
-through a smooth run and a hard path; `Done` still needs the misconception, injection, and stop
-sessions per rung, which so far exist for main_idea 4.1 only.
+**Done** means the cold-chat pass is recorded for every lesson in the rung. Every lesson has been
+through a smooth run. The hard path is recorded for the pre-vocab corpus; five vocab lessons did not
+reach a stopped ticket inside the sweep's twelve turns, so the vocab hard pass is partial. `Done`
+still needs the misconception, injection, and stop sessions per rung, which so far exist for
+main_idea 4.1 only.
 
 | Item | State | Next action |
 | --- | --- | --- |
@@ -278,13 +281,15 @@ sessions per rung, which so far exist for main_idea 4.1 only.
 | `main_idea` 4.1 | built; 0001 and 0006 through every branch, all six swept | misconception sessions for 0002-0005 |
 | `main_idea` 4.2 | built; smooth and hard sweep clean | misconception, injection, and stop sessions |
 | `main_idea` 4.3 | built; drafted under 2.6; smooth and hard sweep clean on all six | misconception, injection, and stop sessions; TC review of the six passages |
-| `vocab` 3.1 | absent | next in Phase 2 |
-| `text_structure` 3.1 | absent | after vocab |
+| `vocab` 3.1 | built; drafted under 2.6; strict clean | misconception and injection sessions |
+| `vocab` 4.1 | built; drafted under 2.6; strict clean | misconception and injection sessions |
+| `vocab` 4.2 | built; drafted under 2.6; strict clean | misconception, injection, and stop sessions; TC review of eighteen passages |
+| `text_structure` 3.1 | absent | next in Phase 2 |
 | `process` 3.1 | absent | after text_structure |
 | `argument_evidence` 3.1 | absent, and may not fit grade-3 load | decide before authoring |
 | `literary_text` 3.1 | absent | needs a short story |
 | `authors_craft` 3.1 | absent, and may not fit grade-3 load | decide before authoring |
-| `text-bank` rows for the 30 older drafted lessons | not written; 4.3 is banked as TB-015 to TB-020 | backfill after the cold-chat pass |
+| `text-bank` rows for the 30 older drafted lessons | not written; 4.3 is TB-015 to TB-020 and vocab is TB-021 to TB-038 | backfill after the cold-chat pass |
 
 ### Handoff checklist
 

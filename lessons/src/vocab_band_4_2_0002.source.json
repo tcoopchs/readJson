@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_4_2_0002",
+  "meta": {
+    "status": "published",
+    "title": "The Editor's Pencil",
+    "skill": "vocab",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "topic_domain": "arts and language",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.7, 6.4, 6.3 (6.3 together) on the 3 parts. The load is a craft described in evaluative language, with 'spare' and 'tightening' meaning the opposite of short and small. The last part turns the craft into a negotiation between two people.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "Editing as subtraction, so 'spare' and 'tightening' have to be read as judgments about what a sentence carries.",
+      "avoided": "No named writer, editor, or publication. No claim about how long editing takes."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: the term is defined by what it removes, then by what stays."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "An editor does not write the piece; she reads it and decides what must go. The first draft is the writer's attempt to say everything, and it usually says too much. An editor marks the sentences that repeat an idea already made, the clauses that explain what the reader can infer, and the words that are doing no work. A spare sentence is one that carries its meaning without decoration. Cutting to spare is not the same as cutting short. A short sentence can still be padded, and a long one can be spare if every clause earns its place. That is why spare prose is hard to write: decoration is the easy part.",
+    "part_2": "The hardest cut is a good sentence in the wrong place. A writer keeps it because it is well made, and the editor removes it because it slows the paragraph. Editors speak of tightening: the argument stays, the sentences get shorter, and the reader reaches the end sooner. A tightened piece is not a smaller piece. It is the same piece with less between the reader and the thought. Cutting also removes the writer's protective habits. These are the phrasings that sound careful and say little. A reader notices the absence of clutter. It is like a listener noticing a room with no echo. The message simply arrives sooner.",
+    "part_3": "Writers sometimes resist, and sometimes they are right. An editor sees the shape of the whole and misses the detail that only the writer knows is load-bearing. The writer cannot see the shape. She is inside the argument, and she knows what each sentence is for. Each needs the other's blindness. A piece edited alone is usually either shapeless or thin. The best editing is therefore a conversation, not a correction. A draft that survives is not the one with no marks. It is the one where every mark was answered, either by a change or by a reason."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "The first ____ is the writer's attempt to say everything, and it usually says too much.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The first attempt is the draft.",
+        "correct_reason": "The first part says the first draft is the writer's attempt to say everything.",
+        "tell": "The word is draft. It is the first full version, before editing.",
+        "help": [
+          "Look at the second sentence of the passage.",
+          "The word names the first attempt."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers sentence",
+            "ask": "A sentence is one piece of it. What is the whole first version called?"
+          }
+        ],
+        "accept_words": [
+          "draft"
+        ],
+        "normalize": "Ignore case and punctuation. Accept draft, including a clear misspelling such as draught.",
+        "word": "draft"
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "What does spare mean as the passage uses it?",
+      "tutor_only": {
+        "confirm": "Yes. Spare means carrying the meaning with nothing added.",
+        "correct_reason": "The first part defines a spare sentence as one that carries its meaning without decoration, then says cutting to spare is not the same as cutting short.",
+        "tell": "Spare means no decoration: every word does work, and none is there to sound good.",
+        "help": [
+          "Look at the sentence that begins 'A spare sentence'.",
+          "Then read the sentence right after it."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says it means very short",
+            "ask": "The passage says spare is not the same as short. What is missing from a spare sentence?"
+          },
+          {
+            "when": "the student says it means boring",
+            "ask": "Boring is a judgment about interest. What is removed to make a sentence spare?"
+          }
+        ],
+        "core_idea": "A sentence that carries its meaning without extra decoration or words.",
+        "accept_ideas": [
+          "plain and without extra words",
+          "it does its job with nothing added",
+          "no decoration, just the meaning"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how short the sentence is",
+          "who wrote it"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "Editors speak of ____: the argument stays, the sentences get shorter, and the reader reaches the end sooner.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The process is called tightening.",
+        "correct_reason": "The second part says editors speak of tightening: the argument stays and the sentences get shorter.",
+        "tell": "The word is tightening. The piece keeps its argument and loses the slack.",
+        "help": [
+          "Look at the sentence that begins 'Editors speak of'.",
+          "The word is followed by a colon and an explanation."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers cutting",
+            "ask": "Cutting is the general act. What do editors call the process that keeps the argument?"
+          }
+        ],
+        "accept_words": [
+          "tightening"
+        ],
+        "normalize": "Ignore case and punctuation. Accept tightening or tighten.",
+        "word": "tighten",
+        "word_also": [
+          "tightening"
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "Why is a good sentence in the wrong place the hardest cut?",
+      "tutor_only": {
+        "confirm": "Right. Its quality makes it hard to cut, and its placement makes it necessary to cut.",
+        "correct_reason": "The second part says the writer keeps it because it is well made, and the editor removes it because it slows the paragraph.",
+        "tell": "A well-made sentence that slows the paragraph is hard to cut. The reason to keep it is real, and so is the reason to remove it.",
+        "help": [
+          "Look at the first three sentences of the part above.",
+          "They name the writer's reason and the editor's reason."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says it is hard because the sentence is long",
+            "ask": "Length is not the reason given. What two things does the part set against each other?"
+          },
+          {
+            "when": "the student says the editor does not understand it",
+            "ask": "The editor understands it is good. Why remove a good sentence?"
+          }
+        ],
+        "core_idea": "The writer keeps it because it is well made, but it slows the paragraph, so its quality is the reason it is hard to remove.",
+        "accept_ideas": [
+          "because it is well written but does not belong there",
+          "the writer likes it even though it slows the piece",
+          "it is good, so removing it feels wrong"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the sentence is",
+          "who wrote it"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "What does it mean that every mark was answered, either by a change or by a reason?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Right. Every mark gets a response: a change or a justification.",
+        "correct_reason": "The last part says the best editing is a conversation, and a draft survives when every mark was answered by a change or by a reason.",
+        "tell": "Answering a mark means accepting the edit or giving a reason to keep the sentence. Ignoring it is the failure.",
+        "help": [
+          "Look at the last two sentences of the passage.",
+          "They name the two ways a mark can be answered."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the writer accepted every change",
+            "ask": "A reason is the other way to answer. What does that mean?"
+          },
+          {
+            "when": "the student says the editor answered the writer",
+            "ask": "The passage has the writer answering marks. Who answers whom?"
+          }
+        ],
+        "core_idea": "The writer either made the edit or explained why it should not be made, so no mark was simply ignored.",
+        "accept_ideas": [
+          "the writer responded to every edit",
+          "each suggestion was either accepted or argued against",
+          "nothing was ignored; the writer changed it or defended it"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many marks there were",
+          "who won the argument"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson in this rung; no higher word rung is authored yet.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_4_2_0003",
+    "next_irl": 4,
+    "next_means": "Another word lesson in this rung.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_4_2_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

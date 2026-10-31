@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_3_1_0003",
+  "meta": {
+    "status": "published",
+    "title": "Bread That Rises",
+    "skill": "vocab",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 3.9, 4.4, 4.8 (4.3 together) on the 3 parts. The load is a short chain of cause and effect (yeast eats, gas forms, dough lifts) plus one verb, 'risen', that names the result rather than the action. The parts follow the order of the work.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "Bread rising, explained through what the yeast does rather than through a recipe, so 'risen' and 'folds' have to be read as stages.",
+      "avoided": "No temperatures, times, or flour amounts. No brand or country of origin."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: the result word sits two sentences after its cause."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Bread begins as flour, water, salt, and a little yeast. Yeast is a living thing too small to see. It eats sugar in the flour and gives off a gas that has nowhere to go, so it collects in small pockets trapped by the stretchy flour. The gas forms tiny bubbles inside the dough. Dough is the soft mass you get when flour and water are mixed. As the bubbles grow, the dough swells and lifts. A baker says the dough has risen. The dough looks alive because it is: the gas comes from a living thing that is eating the flour. The same dough, left in a cold room, rises slowly or not at all.",
+    "part_2": "Warmth helps yeast work, but too much heat kills it, so a baker tests the water with a finger: warm, not hot. Then the dough waits. When it has doubled, the baker presses it down and folds it. This pushes out the large bubbles and lines up the stretchy strands in the flour. The second rise is shorter. A baker shapes the loaf between the two rises, when the dough is soft enough to stretch but strong enough to hold a form. The shapes hold better because the strands are ordered. Bread made this way has a finer crumb, which is the small network of holes inside the slice.",
+    "part_3": "In the oven the last growth is quick, because the gas in the bubbles expands and the bread lifts one more time before the crust sets. A loaf with no yeast, such as a flatbread, can still be good. It simply does not rise. It is flat because nothing in it made gas, and the dough stayed where the baker put it. The word for the whole change is fermentation, though bakers mostly say the dough is working. That word covers many changes besides bread, such as milk turning sour. The work is done by the yeast, and the baker's job is to give it time."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "____ is a living thing too small to see.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. Yeast is the living thing that makes the gas.",
+        "correct_reason": "The first part says yeast is a living thing too small to see.",
+        "tell": "The word is yeast. It eats sugar and gives off the gas that lifts the dough.",
+        "help": [
+          "Look at the second sentence of the passage.",
+          "It names the living thing in the dough."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers flour",
+            "ask": "Flour is not alive. What living thing goes into the dough?"
+          }
+        ],
+        "accept_words": [
+          "yeast"
+        ],
+        "normalize": "Ignore case and punctuation. Accept yeast, including a clear misspelling such as yeest.",
+        "word": "yeast"
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "What does it mean when the passage says the dough has risen?",
+      "tutor_only": {
+        "confirm": "Yes. Risen means the dough has swollen and lifted.",
+        "correct_reason": "The part says the bubbles grow, the dough swells and lifts, and a baker says it has risen.",
+        "tell": "When dough rises, gas bubbles make it swell and lift.",
+        "help": [
+          "Look at the sentences just before the word risen.",
+          "They describe what the bubbles do to the dough."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says it has been baked",
+            "ask": "The oven comes in the last part. What happens to the dough before that?"
+          },
+          {
+            "when": "the student says it has been mixed",
+            "ask": "Mixing happens first, before the waiting. What does the dough do while it waits?"
+          }
+        ],
+        "core_idea": "The dough has swelled and lifted because gas bubbles grew inside it.",
+        "accept_ideas": [
+          "it got bigger and lifted up",
+          "the bubbles made it swell",
+          "it grew taller from the gas"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long it took",
+          "what temperature the room was"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "When it has doubled, the baker presses it down and ____ it.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. He presses the dough down and folds it.",
+        "correct_reason": "The second part says the baker presses the dough down and folds it.",
+        "tell": "The word is folds. Folding pushes out big bubbles and lines up the strands.",
+        "help": [
+          "Look at the sentence about the second step, after the dough doubles.",
+          "The word pairs with 'presses it down and'."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers bakes",
+            "ask": "The oven is the last part. What does he do by hand first?"
+          }
+        ],
+        "accept_words": [
+          "folds"
+        ],
+        "normalize": "Ignore case and punctuation. Accept fold or folds.",
+        "word": "fold",
+        "word_also": [
+          "folds"
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "Why does the baker press the dough down after the first rise?",
+      "tutor_only": {
+        "confirm": "Yes. Pressing and folding clears the big bubbles and orders the strands.",
+        "correct_reason": "The part says pressing it down and folding pushes out the large bubbles and lines up the stretchy strands, and the shapes hold better.",
+        "tell": "Pressing the dough knocks out the biggest bubbles and lines up the strands, so the loaf keeps its shape.",
+        "help": [
+          "Look at the sentence that begins 'This pushes out'",
+          "It names both the bubbles and the strands."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says to make the dough warm",
+            "ask": "Warmth was earlier, about the water. What does pressing do to the bubbles?"
+          },
+          {
+            "when": "the student says to add more flour",
+            "ask": "No flour is added here. What happens to the bubbles and strands?"
+          }
+        ],
+        "core_idea": "To push out the large bubbles and line up the stretchy strands, so the shape holds.",
+        "accept_ideas": [
+          "to get rid of big bubbles",
+          "to make the strands line up so the bread keeps its shape",
+          "so the second rise is even"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how hard he presses",
+          "how long the second rise takes"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "all",
+      "prompt": "The passage says the baker's job is to give it time. Why is that the baker's job?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Right. The yeast does the work, and time is what it needs.",
+        "correct_reason": "The last part says the work is done by the yeast, and the baker's job is to give it time.",
+        "tell": "The baker cannot do the rising for the yeast. He keeps the dough warm and lets the yeast work.",
+        "help": [
+          "Look at the last sentence of the passage.",
+          "It says who does the work."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the baker is too busy to do the work",
+            "ask": "The passage says who does the work, not how busy the baker is."
+          },
+          {
+            "when": "the student says time makes the bread bake",
+            "ask": "Baking is in the oven. What is the yeast doing while the baker waits?"
+          }
+        ],
+        "core_idea": "The yeast does the changing, and the baker can only keep it warm and wait.",
+        "accept_ideas": [
+          "because the yeast does the work and cannot be hurried",
+          "the baker cannot make it rise faster",
+          "because the dough needs time to rise"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the bread bakes",
+          "what kind of flour is used"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson of the next rung, Band 4.1.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_3_1_0004",
+    "next_irl": 3,
+    "next_means": "Another word lesson in this rung.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_3_1_0003",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

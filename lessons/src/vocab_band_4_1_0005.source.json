@@ -1,0 +1,239 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_4_1_0005",
+  "meta": {
+    "status": "published",
+    "title": "Salt and the Winter Table",
+    "skill": "vocab",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.3, 7.1, 5.7 (6.0 together) on the 3 parts. The load is a process with one cause that carries the whole explanation (salt removes water, so spoiling bacteria cannot grow), and one part that changes the subject to the cost of moving salt.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "Curing meat before freezing, so 'brine' and 'rind' are learned from what they do to the meat rather than from a list.",
+      "avoided": "No country, region, or date. No invented prices or storage times."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: the term is defined by its recipe, then by its effect."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Before a freezer, a farm that killed a pig in November had to make the meat last until spring. Salt did the work. The meat was packed in dry salt for weeks, or soaked in brine, which is water with as much salt as it will hold. Salt pulls water out of the meat, and the bacteria that spoil food cannot grow without water. The meat became darker, firmer, and much saltier than fresh meat. A family ate less of it at a time, which stretched the supply further. Salt was not a flavor added at the table; it was the reason the meat was still there in March.",
+    "part_2": "The rind is the outside of a cured piece, and it is not thrown away. A hard rind forms where the surface dries, and it protects the softer meat inside from mold and from insects. A farmer might smoke the meat after curing, which added flavor and dried it further, but smoke alone did not preserve it. The salt had already done the important work. Curing was a skill measured in weeks, not minutes, and a mistake showed up as a smell in January. A good cure depended on the weather, the thickness of the cut, and how evenly the salt was pressed in.",
+    "part_3": "Salt was cheap only if it could be carried. A town far from the sea paid more for salt than for the meat it preserved, and some regions used other methods instead: drying, smoking, or burying food in cold ground. A valley with a salt spring could cure meat; a valley without one had to dry it or eat it fresh. Trade in salt shaped roads as much as trade in grain did. The winter table was therefore different from one valley to the next. What a family ate in February told a stranger where it lived and what it could afford. The method was local, and so was the taste."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "____ is water with as much salt as it will hold.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. Salt water for soaking meat is brine.",
+        "correct_reason": "The first part defines brine as water with as much salt as it will hold.",
+        "tell": "The word is brine. It is water holding all the salt it can.",
+        "help": [
+          "Look at the sentence that defines the salt water.",
+          "The sentence says the water holds as much salt as it can."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers salt",
+            "ask": "Dry salt is the other method. What is the salt water called?"
+          }
+        ],
+        "accept_words": [
+          "brine"
+        ],
+        "normalize": "Ignore case and punctuation. Accept brine, including a clear misspelling such as brime.",
+        "word": "brine"
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "Why does salt keep meat from spoiling?",
+      "tutor_only": {
+        "confirm": "Right. Salt removes the water bacteria need.",
+        "correct_reason": "The first part says salt pulls water out of the meat, and the bacteria that spoil food cannot grow without water.",
+        "tell": "Salt draws the water out, and without water the spoiling bacteria cannot grow.",
+        "help": [
+          "Look at the sentence that begins 'Salt pulls'.",
+          "The same sentence says what cannot grow without water."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says salt kills the bacteria with its taste",
+            "ask": "Taste is not the mechanism given. What does salt remove?"
+          },
+          {
+            "when": "the student says salt makes the meat cold",
+            "ask": "Cold comes later with freezers. What does salt take out of the meat?"
+          }
+        ],
+        "core_idea": "It pulls water out of the meat, and the bacteria that spoil food cannot grow without water.",
+        "accept_ideas": [
+          "it takes the water out so bacteria cannot grow",
+          "bacteria need water and salt removes it",
+          "it dries the meat out"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how salty the meat tastes",
+          "how long it is packed"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "The ____ is the outside of a cured piece, and it is not thrown away.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The outside of a cured piece is the rind.",
+        "correct_reason": "The second part says the rind is the outside of a cured piece.",
+        "tell": "The word is rind. It is the hard outside layer that protects the meat.",
+        "help": [
+          "Look at the first sentence of the part above.",
+          "The word names the outside layer."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers skin",
+            "ask": "Skin is the general word. What does the passage call the cured outside?"
+          }
+        ],
+        "accept_words": [
+          "rind"
+        ],
+        "normalize": "Ignore case and punctuation. Accept rind, including a clear misspelling such as rined.",
+        "word": "rind"
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "Why is the rind not thrown away?",
+      "tutor_only": {
+        "confirm": "Yes. The rind is a protective layer, so it is kept.",
+        "correct_reason": "The second part says a hard rind forms where the surface dries, and it protects the softer meat from mold and insects.",
+        "tell": "The rind is a hard shell that keeps mold and insects off the meat, so it stays on.",
+        "help": [
+          "Look at the sentence about what forms where the surface dries.",
+          "It says what the rind does for the meat inside."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says it is the best-tasting part",
+            "ask": "Taste is not mentioned. What does the rind do?"
+          },
+          {
+            "when": "the student says it holds the salt",
+            "ask": "Salt went in earlier. What does the outside layer keep away?"
+          }
+        ],
+        "core_idea": "The hard outside layer protects the softer meat inside from mold and insects.",
+        "accept_ideas": [
+          "it protects the meat",
+          "it keeps mold and insects away",
+          "it guards the meat inside"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how thick it is",
+          "whether it is eaten"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "all",
+      "prompt": "The passage says the method was local, and so was the taste. What does that mean?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Right. Keeping food depended on the place, and so did the flavor.",
+        "correct_reason": "The third part says some regions used other methods, the winter table was different from one valley to the next, and the method was local.",
+        "tell": "Local means tied to a place. Each region kept food its own way, so the taste followed the region.",
+        "help": [
+          "Look at the last two sentences of the passage.",
+          "The first names valleys; the second says what was local."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says everyone used the same method",
+            "ask": "The passage says regions used different methods. What followed from that?"
+          },
+          {
+            "when": "the student says salt was made locally",
+            "ask": "The passage says salt was cheap only if it could be carried. What was local?"
+          }
+        ],
+        "core_idea": "Each region preserved food in its own way, depending on what it could get, so the food tasted different from place to place.",
+        "accept_ideas": [
+          "different regions used different methods, so the food was different",
+          "what people ate depended on where they lived",
+          "the way of keeping food changed from valley to valley"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which method worked best",
+          "how salt was carried"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson of the next rung, Band 4.2.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "Another word lesson in this rung.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_4_1_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

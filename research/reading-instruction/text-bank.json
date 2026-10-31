@@ -1,6 +1,6 @@
 {
   "bank_version": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-10-31",
   "rubric": "L/I/S/K 0-3; band is highest demand, grade_target is the reader label",
   "texts": [
     {
@@ -679,6 +679,652 @@
       ],
       "cautions": "No pass, highway, or agency is named. Drive times are illustrative, not measured.",
       "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-021",
+      "title": "The Tree That Keeps Its Leaves",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 314,
+      "fk_grade": 4.56,
+      "complexity": {
+        "language": 1,
+        "idea": 1,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "vocab_band_3_1_0001"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 3.1 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "Evergreens keep their leaves because a narrow, waxy needle holds water on days when a wide leaf cannot.",
+      "supporting_details": [
+        "A pine's thin, sharp leaves are called needles.",
+        "Winter freezes the ground water, so a tree cannot replace what it loses.",
+        "A waxy coat and a small surface keep water loss low.",
+        "A narrow needle and a cone shape shed snow before a branch breaks.",
+        "The tree drops a few old needles at a time, so the branch never looks bare."
+      ],
+      "cautions": "No species named beyond pine and maple. No needle counts or year spans.",
+      "topic_domain": "science and nature",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-022",
+      "title": "The Lighthouse Keeper's Night",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 339,
+      "fk_grade": 4.82,
+      "complexity": {
+        "language": 1,
+        "idea": 1,
+        "structure": 1,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_3_1_0002"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 3.1 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A keeper's night was a few small tasks repeated, and the lens was what turned one flame into a light ships could see.",
+      "supporting_details": [
+        "The wick is the cord that draws oil into the flame.",
+        "A long wick smokes, so the keeper trims it with scissors.",
+        "The lens bends the flame into a beam that reaches twenty miles.",
+        "The keeper checks oil, logs passing ships, and rings the bell in fog."
+      ],
+      "cautions": "No lighthouse, country, or date. No ship counts or pay figures.",
+      "topic_domain": "history and people",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-023",
+      "title": "Bread That Rises",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 331,
+      "fk_grade": 4.33,
+      "complexity": {
+        "language": 1,
+        "idea": 1,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "vocab_band_3_1_0003"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 3.1 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "Bread rises because yeast eats sugar and gives off gas the dough traps, so the baker's job is warmth and time.",
+      "supporting_details": [
+        "Yeast is a living thing that gives off gas.",
+        "The gas forms bubbles, and the dough swells and lifts.",
+        "Warmth helps the yeast; too much heat kills it.",
+        "Pressing and folding the dough clears big bubbles and lines up the strands.",
+        "In the oven the gas expands once more before the crust sets."
+      ],
+      "cautions": "No temperatures, times, or flour amounts. No brand or region.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-024",
+      "title": "The Cobbler's Bench",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 321,
+      "fk_grade": 4.51,
+      "complexity": {
+        "language": 1,
+        "idea": 1,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "vocab_band_3_1_0004"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 3.1 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A cobbler's repair is shaped by the shoe: the sole keeps water out, the form keeps the shape, and the short stitch keeps the patch.",
+      "supporting_details": [
+        "The sole is the bottom of a shoe, and a worn sole lets rain reach the foot.",
+        "A wooden form holds the shoe's shape while wet leather dries.",
+        "A drawer of buckles and laces lets a customer buy a part, not a pair.",
+        "Few shoes are mended now, because new shoes cost less than a repair."
+      ],
+      "cautions": "No prices, dates, or place names. No claim about how many cobblers remain.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-025",
+      "title": "The Race Nobody Wins Early",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 312,
+      "fk_grade": 4.64,
+      "complexity": {
+        "language": 1,
+        "idea": 1,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "vocab_band_3_1_0005"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 3.1 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A long race is won by saving speed for the end, and the same limit applies to a month of study.",
+      "supporting_details": [
+        "A pace is a speed a runner can hold for the whole distance.",
+        "Steady means an even speed, not the fastest speed.",
+        "A sprint is a short burst the body cannot keep up.",
+        "A runner who saved strength can answer a tired runner's finish."
+      ],
+      "cautions": "No distances, times, or named runners. No training claims.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-026",
+      "title": "The Sign Painter's Hand",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 310,
+      "fk_grade": 4.59,
+      "complexity": {
+        "language": 1,
+        "idea": 1,
+        "structure": 1,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_3_1_0006"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 3.1 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A sign painter's skill shows in spacing and patience rather than in the drawing alone.",
+      "supporting_details": [
+        "An outline around each letter makes the shape stand out.",
+        "The painter rests his wrist so the line does not shake.",
+        "The first coat is thin and soaks into the wood.",
+        "A coat put on wet makes the sign blister in the sun.",
+        "A hard-to-read sign is usually crowded, not badly drawn."
+      ],
+      "cautions": "No named sign, town, or period. No pay or training claims.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-027",
+      "title": "The Printer's Apprentice",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 321,
+      "fk_grade": 5.89,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_1_0001"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 4.1 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "Hand-set printing worked because the type was reversed, a second reader checked it, and the press took one sheet at a time.",
+      "supporting_details": [
+        "One metal block stands for each letter, cut in reverse.",
+        "The apprentice sets lines without looking, keeping his eyes on the copy.",
+        "A proofreader catches the reversed letters the setter has stopped seeing.",
+        "Presswork ran about a hundred sheets an hour, and paper was dear.",
+        "Setting still took one letter at a time, and the type was taken apart after."
+      ],
+      "cautions": "No shop, city, or date. The press rate is marked as fast work, not a measured average.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-028",
+      "title": "The River That Bends",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 318,
+      "fk_grade": 5.82,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_1_0002"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 4.1 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A river's bend is the shape moving water gives to soil: the outside loses ground, the inside gains it, and a loop may be cut off as an oxbow.",
+      "supporting_details": [
+        "Fast water on the outside of a bend carries soil away.",
+        "Slow water on the inside drops silt and builds a shelf.",
+        "A loop cut off from the river becomes an oxbow lake.",
+        "Engineers stone the outside bank but rarely straighten a river, because fast water floods worse."
+      ],
+      "cautions": "No river, region, or measurement. No rate for how fast a bend moves.",
+      "topic_domain": "science and nature",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-029",
+      "title": "The Whistle That Waits",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 312,
+      "fk_grade": 5.6,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_1_0003"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 4.1 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "The referee's whistle is a tool for restoring fair play, so it waits when stopping play would hurt the team that was fouled.",
+      "supporting_details": [
+        "A foul is contact such as a push, a trip, or a hand on the ball.",
+        "A foul usually stops play and gives the ball to the other team.",
+        "Stopping play can take away the fouled team's best chance.",
+        "Playing the advantage is a judgment, and the wait is short because injury is a risk.",
+        "Coaches teach players to stay up through a light push."
+      ],
+      "cautions": "No sport, league, or referee is named. No rule numbers or penalty distances.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-030",
+      "title": "The School That Met in a Church",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 339,
+      "fk_grade": 6.51,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_1_0004"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 4.1 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A one-room school taught students at different levels by rotating recitation groups, and its calendar bent around the harvest.",
+      "supporting_details": [
+        "One teacher taught every grade in a single room.",
+        "Recitation meant saying the lesson aloud from memory.",
+        "Slates were wiped clean, and paper was saved for a final copy.",
+        "Monitor duty was a student hearing the younger ones read.",
+        "A term ran between harvests, and pay could depend on attendance."
+      ],
+      "cautions": "No state, district, or date. No attendance or pay numbers.",
+      "topic_domain": "history and people",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-031",
+      "title": "Salt and the Winter Table",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 324,
+      "fk_grade": 5.99,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_1_0005"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 4.1 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "Salt preserved meat by removing the water bacteria need, and the cost of salt decided what each region ate in winter.",
+      "supporting_details": [
+        "Meat was packed in dry salt or soaked in brine.",
+        "Salt pulls water out, and spoiling bacteria cannot grow without it.",
+        "A hard rind protects the cured meat from mold and insects.",
+        "Smoke added flavor but the salt did the preserving.",
+        "Where salt was dear, regions dried or buried food instead."
+      ],
+      "cautions": "No country or date. No prices or storage times.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-032",
+      "title": "The Canal That Climbs",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 313,
+      "fk_grade": 6.08,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_1_0006"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 4.1 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A canal climbs by using locks to lift boats between levels, and it was slow on purpose because slow hauling was cheap and safe.",
+      "supporting_details": [
+        "A canal must stay level, and water will not run uphill.",
+        "A lock is a chamber with gates that raises or lowers a boat.",
+        "A flight is several locks close together, and the pound is the level stretch between them.",
+        "A lock keeper worked the gates and recorded the traffic.",
+        "A horse on the towpath moved loads at about three miles an hour."
+      ],
+      "cautions": "No canal, town, or date. No dimensions or tolls.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-033",
+      "title": "A Map Drawn from Memory",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 313,
+      "fk_grade": 6.01,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_2_0001"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 4.2 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A map is a tool with a purpose: its scale and its omissions decide what it is good for, and a reader who forgets that mistakes the map for the ground.",
+      "supporting_details": [
+        "Early coastal charts were rough: useful and dangerous at once.",
+        "A landmark and a depth reading were the sailor's fixed points.",
+        "A small scale leaves out inlets too narrow to draw, which can hide a shoal.",
+        "A large scale shows one harbor and keeps the detail.",
+        "Leaving things out is a choice, and fitness for the journey is the test."
+      ],
+      "cautions": "No named coast, chart, or date. No depths or distances of its own.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-034",
+      "title": "The Editor's Pencil",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 323,
+      "fk_grade": 6.32,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_2_0002"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 4.2 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "Editing removes what stands between the reader and the thought, and the best editing is answered mark by mark rather than obeyed.",
+      "supporting_details": [
+        "The first draft says too much, and an editor marks what must go.",
+        "Spare means no decoration, not short.",
+        "The hardest cut is a good sentence in the wrong place.",
+        "Tightening keeps the argument and shortens the sentences.",
+        "The editor sees the shape; the writer knows which detail is load-bearing.",
+        "A draft survives when every mark is answered by a change or a reason."
+      ],
+      "cautions": "No named writer, editor, or publication. No claims about how long editing takes.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-035",
+      "title": "The Quiet Work of Fungi",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 303,
+      "fk_grade": 6.52,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_2_0003"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 4.2 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "Fungi break dead matter back into circulation and trade with living roots, which is why the soil is literally alive.",
+      "supporting_details": [
+        "Fungal threads dissolve dead leaves and take what they need.",
+        "Leftover material stays in the soil and is taken up by plants.",
+        "Decomposition returns material to circulation rather than merely rotting it.",
+        "A fungus trades water and minerals for sugar from a tree's roots.",
+        "The mushroom is the fruit; the web in the soil is most of the organism."
+      ],
+      "cautions": "No species names or measurements. No claim about which forests do this beyond 'many'.",
+      "topic_domain": "science and nature",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-036",
+      "title": "The Cost of Waiting",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 323,
+      "fk_grade": 6.42,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_2_0004"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 4.2 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "Stock is money already spent, so waiting on the shelf costs twice: the goods lose value and the cash cannot move.",
+      "supporting_details": [
+        "Stock is goods on the shelf, and every item is money already spent.",
+        "Margin is the gap between cost and selling price.",
+        "A small margin on a fast item can beat a large margin on a slow one.",
+        "Spoilage is the visible loss, and markdowns erase the margin.",
+        "The same cash cannot buy what is selling, so the cost is paid twice."
+      ],
+      "cautions": "No store, chain, or currency. No percentages or prices.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-037",
+      "title": "The Census Taker's Round",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 322,
+      "fk_grade": 6.18,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_2_0005"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 4.2 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A census is valuable only in aggregate: each return must follow the same rule so thousands can be compared.",
+      "supporting_details": [
+        "The count decides representation and money for a place.",
+        "A household is everyone under one roof, related or not.",
+        "A taker may not guess, so doubtful answers are recorded as given.",
+        "A house was visited three times before it could be recorded as empty.",
+        "A return is the filed sheet, and its value depends on consistent treatment.",
+        "The pattern appears only when thousands of returns are stacked."
+      ],
+      "cautions": "No country, year, or office. No population numbers.",
+      "topic_domain": "history and people",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-038",
+      "title": "The Orchard's Off Year",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 317,
+      "fk_grade": 6.23,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_2_0006"
+      ],
+      "cell_use": "Owns its own lesson in vocab Band 4.2 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A heavy apple crop spends the energy next year's buds need, so growers thin the fruit to break the cycle.",
+      "supporting_details": [
+        "Many varieties swing between a heavy year and a light one.",
+        "Next spring's buds form in the summer of the heavy crop.",
+        "A tree carrying heavy fruit cannot make strong buds, so the next crop is light.",
+        "Thinning removes young fruit in early summer so the rest grow larger.",
+        "The harvest lost this year is paid back next year, and the two-year total is usually higher."
+      ],
+      "cautions": "No variety names, yields, or prices. No claim about which regions grow which apples.",
+      "topic_domain": "food and farming",
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, review pending.",
       "drafted_by": "TC review pending"

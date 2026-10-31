@@ -1,0 +1,239 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_4_1_0004",
+  "meta": {
+    "status": "published",
+    "title": "The School That Met in a Church",
+    "skill": "vocab",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "topic_domain": "history and people",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 7.1, 5.7, 6.8 (6.5 together) on the 3 parts. The load is an institution described by its routines, with 'recitation' and 'term' used in their school sense rather than explained outright. The last part asks the reader to see a solved problem behind a vanished building.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "The one-room school as a set of routines, so 'recitation', 'slate', and 'term' are learned from what people did with them.",
+      "avoided": "No state, district, or date. No invented attendance numbers or teacher pay."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: each school word is followed by the action that defines it."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "In many small towns a century ago, the school was a single room with a stove at the front and a bell on the roof. One teacher taught every grade at once. She divided the room into groups by reading level and called each group forward to a bench for recitation. Recitation meant saying the lesson aloud from memory while the teacher listened. The other students worked at their desks on the same subject, so the room was never quiet for long. A visitor would hear one group speaking and thirty pencils moving at once. The teacher moved between the bench and the desks all day, and her voice carried the room.",
+    "part_2": "Supplies were few. Each student had a slate, a thin sheet of rock in a wooden frame, and a piece of chalk. Work was written on the slate and wiped off with a rag or a sleeve, so nothing could be kept. Paper was saved for a final copy. A slate could be wiped clean in a second, which made it good for practice and useless for records. A desk was a bench with a lid, and the lid held the few books a family owned. A student who finished early might be sent to hear the younger ones read, which was called monitor duty and was the only help the teacher had.",
+    "part_3": "The school year bent around the harvest. In farming towns, few students came in the weeks when the corn or the hay had to be brought in, and the teacher's pay could depend on how many attended. A term was the length of time school ran between harvests, often only a few months. Attendance decided whether a school stayed open, so a teacher often taught for less than a full year. The one-room school is mostly gone now. What replaced it is a building with a room for each grade, but the problem the single teacher solved is still the same: how to teach thirty people who are not at the same place."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "She called each group forward to a bench for ____.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. Groups came forward for recitation.",
+        "correct_reason": "The first part says she called each group forward to a bench for recitation.",
+        "tell": "The word is recitation. It is saying the lesson aloud from memory.",
+        "help": [
+          "Look at the sentence that names what the group came forward to do.",
+          "The next sentence defines it."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers reading",
+            "ask": "Reading was one subject. What is the aloud-from-memory part called?"
+          }
+        ],
+        "accept_words": [
+          "recitation"
+        ],
+        "normalize": "Ignore case and punctuation. Accept recitation, including a clear misspelling such as recitasion.",
+        "word": "recitation"
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "What was recitation?",
+      "tutor_only": {
+        "confirm": "Yes. Recitation was the lesson said aloud from memory.",
+        "correct_reason": "The first part says recitation meant saying the lesson aloud from memory while the teacher listened.",
+        "tell": "Recitation was saying the lesson out loud from memory so the teacher could hear it.",
+        "help": [
+          "Look at the sentence right after the word recitation.",
+          "It begins 'Recitation meant'."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says it was writing the lesson",
+            "ask": "Writing happened at the desks. What was said aloud?"
+          },
+          {
+            "when": "the student says it was reading from a book",
+            "ask": "The part says from memory. What does that rule out?"
+          }
+        ],
+        "core_idea": "Saying the lesson aloud from memory while the teacher listened.",
+        "accept_ideas": [
+          "saying the lesson out loud from memory",
+          "speaking the lesson so the teacher could check it",
+          "reciting a lesson aloud"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many grades were in the room",
+          "when school started"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_3",
+      "prompt": "A ____ was the length of time school ran between harvests, often only a few months.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. A term was one stretch of school between harvests.",
+        "correct_reason": "The third part says a term was the length of time school ran between harvests.",
+        "tell": "The word is term. It is one period of school, not the whole year.",
+        "help": [
+          "Look at the sentence that defines the stretch of school.",
+          "The word is the subject of that sentence."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers year",
+            "ask": "The year held several terms. What is one stretch called?"
+          }
+        ],
+        "accept_words": [
+          "term"
+        ],
+        "normalize": "Ignore case and punctuation. Accept term, including a clear misspelling such as turm.",
+        "word": "term"
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "prompt": "Why did the school year bend around the harvest?",
+      "tutor_only": {
+        "confirm": "Yes. The farm set the calendar, so school fit between harvests.",
+        "correct_reason": "The third part says few students came in the weeks when corn or hay had to be brought in, and a term was the time between harvests.",
+        "tell": "Farm families needed the children at harvest, so school ran in the months when the fields did not.",
+        "help": [
+          "Look at the first two sentences of the last part.",
+          "They say who was missing and why."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the building was too cold in harvest",
+            "ask": "Weather is not given as the reason. Who was needed where?"
+          },
+          {
+            "when": "the student says the teacher took a holiday",
+            "ask": "The teacher's pay depended on attendance. What kept students away?"
+          }
+        ],
+        "core_idea": "Students were needed for the farm work, so few came during harvest and school ran between harvests.",
+        "accept_ideas": [
+          "children had to work on the farm",
+          "families needed help bringing in the crops",
+          "school had to fit around farm work"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the teacher was paid",
+          "what crops were grown"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "all",
+      "prompt": "What was monitor duty?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Right. Monitor duty was a student hearing the younger ones.",
+        "correct_reason": "The second part says a student who finished early might be sent to hear the younger ones read, which was called monitor duty.",
+        "tell": "Monitor duty was an older student hearing the younger ones read, the teacher's only help.",
+        "help": [
+          "Look at the last sentence of the part above.",
+          "It names the job and says it was the only help."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says it was watching the room for bad behavior",
+            "ask": "The passage says hearing the younger ones read. What does that mean?"
+          },
+          {
+            "when": "the student says it was cleaning the slate",
+            "ask": "Slates are on every desk. What did the monitor do for the teacher?"
+          }
+        ],
+        "core_idea": "An older student listening to younger ones read, which was the only help the teacher had.",
+        "accept_ideas": [
+          "a student hearing the younger children read",
+          "an older student helping with the little ones",
+          "a pupil listening to other pupils read"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long it lasted",
+          "what subject it covered"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson of the next rung, Band 4.2.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_4_1_0005",
+    "next_irl": 4,
+    "next_means": "Another word lesson in this rung.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_4_1_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

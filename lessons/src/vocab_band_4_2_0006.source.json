@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_4_2_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Orchard's Off Year",
+    "skill": "vocab",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.3, 5.8, 6.7 (6.2 together) on the 3 parts. The load is a two-year cycle with a counterintuitive cause: a heavy crop reduces the next crop, so the cure is to remove fruit. 'Thinning' means the opposite of what a grower wants.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "Alternate bearing in fruit trees, so 'bud', 'thinning', and 'off year' are read as parts of a cycle rather than as separate facts.",
+      "avoided": "No variety names, yields, or prices. No claim about which regions grow which apples."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: the remedy is named before the reason for it, so the reader must hold both."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "An apple tree does not bear the same crop every year. Many varieties swing between a heavy year and a light one, a habit called alternate bearing. The cause is in the buds. A bud that will open next spring forms this summer, and a tree carrying heavy fruit has little energy left to make strong buds. The next spring it opens fewer flowers, sets less fruit, and the light year leaves it with energy to spare. The swing repeats unless someone interrupts it. The pattern is old enough that growers plan for it years ahead, choosing varieties that swing less.",
+    "part_2": "Growers interrupt it by thinning. Thinning means removing some of the young fruit in early summer, before it has taken much from the tree. The remaining apples grow larger, and the tree has enough left to form good buds for the next year. It feels wasteful to throw away fruit that would have sold. The harvest that is lost this year is paid back next year, and the total over two years is usually higher. A grower who never thins gets one huge crop and one small one, and the huge crop is often too much to pick and sell. The tree pays for abundance with a year of scarcity.",
+    "part_3": "The same logic applies to a field and to a person. A system pushed to its maximum every season has nothing in reserve, and the reserve is what makes the next season possible. Farmers speak of resting land, and growers speak of a tree's off year as a fault to be managed. Both are describing a limit that does not disappear because the harvest is good. The limit is easy to ignore in a good year, which is exactly when it is being used up. A reserve is invisible until it is gone. The off year is the tree telling you what it could not do."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "A ____ that will open next spring forms this summer.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The bud for next spring forms in summer.",
+        "correct_reason": "The first part says a bud that will open next spring forms this summer.",
+        "tell": "The word is bud. It is the small growth that becomes a flower or a shoot.",
+        "help": [
+          "Look at the fourth sentence of the passage.",
+          "The word is the subject of that sentence."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers flower",
+            "ask": "The flower comes from it later. What forms in summer?"
+          }
+        ],
+        "accept_words": [
+          "bud"
+        ],
+        "normalize": "Ignore case and punctuation. Accept bud or buds.",
+        "word": "bud",
+        "word_also": [
+          "buds"
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "What does thinning mean here?",
+      "tutor_only": {
+        "confirm": "Yes. Thinning is taking off young fruit on purpose.",
+        "correct_reason": "The second part defines thinning as removing some of the young fruit in early summer.",
+        "tell": "Thinning means taking off some young fruit so the tree has energy for the rest and for next year's buds.",
+        "help": [
+          "Look at the second sentence of the part above.",
+          "The definition follows the word."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says it means picking the ripe apples",
+            "ask": "Ripe fruit comes later. What is removed in early summer?"
+          },
+          {
+            "when": "the student says it means cutting branches",
+            "ask": "Branches are not mentioned here. What is taken off the tree?"
+          }
+        ],
+        "core_idea": "Removing some of the young fruit in early summer so the rest grow larger and the tree can form buds.",
+        "accept_ideas": [
+          "taking off some of the young fruit",
+          "removing fruit early so the tree is not overloaded",
+          "cutting back the number of apples"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many apples are left",
+          "when the harvest happens"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "prompt": "Many varieties swing between a heavy year and a light one, a habit called alternate ____.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The habit is alternate bearing.",
+        "correct_reason": "The first part says the swing between a heavy year and a light one is called alternate bearing.",
+        "tell": "The word is bearing. Alternate bearing means the crop alternates heavy and light.",
+        "help": [
+          "Look at the second sentence of the passage.",
+          "The phrase ends with 'bearing'."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers years",
+            "ask": "Years are what alternate. What is the whole habit called?"
+          }
+        ],
+        "accept_words": [
+          "bearing"
+        ],
+        "normalize": "Ignore case and punctuation. Accept bearing, including a clear misspelling such as baring.",
+        "word": "bearing"
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "prompt": "Why does a heavy crop lead to a light one the next year?",
+      "tutor_only": {
+        "confirm": "Right. The heavy crop spends the energy next year's buds needed.",
+        "correct_reason": "The first part says a tree carrying heavy fruit has little energy left to make strong buds, so fewer flowers open the next spring.",
+        "tell": "The fruit takes the tree's energy, so the buds for next year form weak and the next crop is light.",
+        "help": [
+          "Look at the fourth and fifth sentences of the earlier part.",
+          "They connect the heavy fruit to the buds."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the tree gets old",
+            "ask": "Age is not the cause given. What is the tree spending its energy on?"
+          },
+          {
+            "when": "the student says the weather changes",
+            "ask": "Weather is not mentioned. What forms in summer for next spring?"
+          }
+        ],
+        "core_idea": "The tree uses its energy on the heavy fruit, so it makes fewer strong buds for next spring.",
+        "accept_ideas": [
+          "the tree has no energy left for buds",
+          "heavy fruit takes the energy the buds needed",
+          "the buds are weaker because the crop was big"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much rain fell",
+          "when the apples were picked"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "What does the passage mean by saying the off year is the tree telling you what it could not do?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Right. The light year is evidence of a limit, not a mystery.",
+        "correct_reason": "The last part says a system pushed to its maximum has nothing in reserve, and the off year describes a limit that does not disappear because the harvest was good.",
+        "tell": "The off year is the tree showing, by producing little, that the heavy year used up what it had.",
+        "help": [
+          "Look at the last two sentences of the passage.",
+          "The first is about a limit; the second names the evidence."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the tree is speaking",
+            "ask": "The passage is using a figure of speech. What does the light crop show?"
+          },
+          {
+            "when": "the student says the tree is resting",
+            "ask": "Rest is what farmers do for land. What does the off year reveal about the tree?"
+          }
+        ],
+        "core_idea": "The light year shows the limit the heavy year used up, so the tree's capacity is visible in what it failed to produce.",
+        "accept_ideas": [
+          "the light crop shows the tree ran out of energy",
+          "the off year is evidence of a limit the tree hit",
+          "the tree shows its limit by producing less"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many apples the tree made",
+          "how the tree is pruned"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson in this rung; no higher word rung is authored yet.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_4_2_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_4_2_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

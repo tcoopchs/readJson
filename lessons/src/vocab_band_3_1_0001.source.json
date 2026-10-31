@@ -1,0 +1,254 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_3_1_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Tree That Keeps Its Leaves",
+    "skill": "vocab",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 4.3, 5.2, 4.3 (4.6 together) on the 3 parts. The load is one cause and two effects: winter freezes the ground water, and a narrow waxy leaf loses very little. Each part gives the fact before it asks for the reason.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "Why a pine holds its leaves when the ground is frozen, worked out from the word 'waxy' and what it does.",
+      "avoided": "No species names beyond pine and maple. No numbers for needle counts or years."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: the reason sits in the sentence after the word."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Most trees in a cold place drop their leaves in fall, but a few keep them all winter. People call these trees evergreens, and the name sounds like a promise that the tree never changes at all. Their leaves are not flat like a maple leaf. They are thin and sharp, and people call them needles. A pine tree holds hundreds of needles on its branches. The needles stay green through snow and wind. From a distance the tree looks calm and unchanging, but the needles are still working in the cold. A person walking past in January sees the same green he saw in July.",
+    "part_2": "A wide leaf loses water through its flat surface. In winter the ground water is frozen, so a tree cannot replace what it loses. A needle is covered with a waxy coat that holds water in. It is also small, so it gives off very little. That coat is why a pine stays green when the ground is hard as stone. A maple has no such coat, so it must give up its wide leaves before the cold arrives and the water freezes. The same tree drops its oldest needles each fall, a few at a time, so the branch never looks bare.",
+    "part_3": "The shape helps too: snow slides off a narrow needle more easily than off a wide leaf. A branch that holds heavy snow can break. A broken branch costs the tree years of growth, and the wound is a place where rot can start. Some evergreens also grow in a cone shape, so the snow falls away from the trunk and lands on the ground. The shape sheds the weight instead of holding it. None of this makes the tree warm. It simply lets the tree keep working on days when a maple has stopped, and the slow work adds up over a long winter."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "Their leaves are thin and sharp, and people call them ____.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The thin, sharp leaves of a pine are called needles.",
+        "correct_reason": "The first part says the leaves are thin and sharp, and people call them needles.",
+        "tell": "The word is needles. A pine's thin, sharp leaves are called needles.",
+        "help": [
+          "Look at the sentence that describes the pine's leaves.",
+          "The word comes right after 'call them'."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers leaves, the general word",
+            "ask": "Leaves is the general word. What does the passage call a pine's thin, sharp leaves?"
+          },
+          {
+            "when": "the student answers branches",
+            "ask": "Branches hold the needles. What are the thin, sharp parts themselves called?"
+          }
+        ],
+        "accept_words": [
+          "needles",
+          "needle"
+        ],
+        "normalize": "Ignore case and punctuation. Accept needle or needles, including a clear misspelling such as needels.",
+        "reject_words": [
+          "leaves"
+        ],
+        "word": "needle",
+        "word_also": [
+          "needles"
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "What does evergreen mean as the passage uses it?",
+      "tutor_only": {
+        "confirm": "Yes. An evergreen keeps its leaves through the winter.",
+        "correct_reason": "The opening says a few trees keep their leaves all winter, and people call these trees evergreens.",
+        "tell": "An evergreen is a tree that keeps its leaves all winter instead of dropping them.",
+        "help": [
+          "Look at the second and third sentences, where the name is given.",
+          "The name is given for trees that keep their leaves."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says a tree that is always green but says nothing about leaves",
+            "ask": "Green is the color. What does the tree do with its leaves in winter?"
+          },
+          {
+            "when": "the student says a tree that grows in a cold place",
+            "ask": "Many trees grow in the cold and still drop their leaves. What do evergreens keep?"
+          }
+        ],
+        "core_idea": "A tree that keeps its leaves all winter.",
+        "accept_ideas": [
+          "a tree that keeps its leaves in winter",
+          "a tree that stays green all year",
+          "a tree that does not drop its leaves"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which trees are evergreens",
+          "how many needles a pine holds"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "A needle is covered with a ____ coat that holds water in.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The coat is waxy, and it holds water in.",
+        "correct_reason": "The second part says a needle is covered with a waxy coat that holds water in.",
+        "tell": "The word is waxy. The coat keeps the tree from losing water it cannot replace.",
+        "help": [
+          "Look at the sentence about the covering on a needle.",
+          "The word describes the coat."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers green",
+            "ask": "Green is the color of the needle. What kind of coat does the passage name?"
+          }
+        ],
+        "accept_words": [
+          "waxy",
+          "wax"
+        ],
+        "normalize": "Ignore case and punctuation. Accept waxy or wax.",
+        "word": "waxy",
+        "word_also": [
+          "wax"
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "Why does the waxy coat matter in winter?",
+      "tutor_only": {
+        "confirm": "Yes. The coat holds water in at the season when the tree cannot take more from the ground.",
+        "correct_reason": "The second part says winter ground water is frozen, a tree cannot replace what it loses, and the waxy coat holds water in.",
+        "tell": "In winter a tree cannot pull water from frozen ground. The waxy coat keeps it from losing what it has.",
+        "help": [
+          "Look at the first two sentences of this part, then the coat.",
+          "Ask what the tree cannot do in winter."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the coat keeps the tree warm",
+            "ask": "The passage says nothing about warmth. What does the coat keep in?"
+          },
+          {
+            "when": "the student says the coat keeps snow off",
+            "ask": "Snow is mentioned in the last part. What does the coat do for water?"
+          }
+        ],
+        "core_idea": "The ground water is frozen, so the tree cannot replace water it loses, and the coat keeps water in.",
+        "accept_ideas": [
+          "because the tree cannot get water when the ground is frozen",
+          "it keeps the tree from drying out in winter",
+          "so the tree does not lose water it cannot replace"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how thick the coat is",
+          "what the coat is made of"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "all",
+      "prompt": "The passage says the branch never looks bare. What does that mean?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Right. The tree loses a few old needles at a time, so the branch never stands empty.",
+        "correct_reason": "The end of the part above says the tree drops its oldest needles each fall, a few at a time, so the branch never looks bare.",
+        "tell": "The tree sheds old needles slowly, a few at a time. The branch is never stripped the way a maple branch is in fall.",
+        "help": [
+          "Look at the last sentence of the part above.",
+          "The sentence says how many needles drop at once."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the tree never drops any needles",
+            "ask": "The passage says it does drop its oldest needles. How many at a time?"
+          },
+          {
+            "when": "the student says the branch is covered with snow",
+            "ask": "Snow is not the reason given. What happens to the old needles?"
+          }
+        ],
+        "core_idea": "The tree drops only a few of its oldest needles at a time, so it always has needles on the branch.",
+        "accept_ideas": [
+          "it never loses all its needles at once",
+          "it drops a few old needles each fall, so the branch still has some",
+          "the branch always keeps some needles"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many needles drop",
+          "which needles are oldest"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson of the next rung, Band 4.1.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_3_1_0002",
+    "next_irl": 3,
+    "next_means": "Another word lesson in this rung.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

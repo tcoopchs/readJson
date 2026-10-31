@@ -1,0 +1,239 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_3_1_0005",
+  "meta": {
+    "status": "published",
+    "title": "The Race Nobody Wins Early",
+    "skill": "vocab",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Work out what a word means from the passage: use the sentence around it, not a dictionary guess.",
+    "reader": {
+      "who": "Students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 4.0, 5.1, 4.9 (4.6 together) on the 3 parts. The load is a contrast (fast start, slow start) carried across three parts, plus two words that name speeds, 'pace' and 'sprint'. The last part moves the same idea to studying, which asks the reader to carry the term.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "Pacing in a long race, built as a trade between early speed and late strength, with the same idea applied to study at the end.",
+      "avoided": "No distances, times, or named runners. No claim about training methods."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: the definition of pace sits in apposition, then is restated."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A long race is not won in the first minute. Runners who start too fast use up their strength before the last turn. Coaches teach a pace: a speed a runner can hold for the whole distance. A steady pace feels slow at the start. It lets the runner pass people later, when they are walking. That is not a trick; it is the result of spending energy at a rate the body can keep up for an hour instead of a minute. The body has a budget, and a race is where it gets spent. The word steady means the same speed, not the fastest speed.",
+    "part_2": "At the end of a race a runner may sprint. A sprint is a short burst at top speed. It lasts only a few seconds, because the body cannot keep it up. A runner who has saved something can sprint past a tired one. A runner who spent everything early has nothing to answer with. That is why the last lap looks easy for one person and hard for another. The same finish can look like a celebration from the stands and like a wall from inside the race. Both runners covered the same distance; only the way they paid for it was different.",
+    "part_3": "The same idea works outside a race. A person who studies a little each night remembers more at the end of a month than one who studies all night before a test. The slow worker who keeps going often finishes first. Cramming feels productive because the effort is easy to see, but most of what is learned in one night is gone by the next week. The person who spaced the work still has it when the test arrives. The lesson is not that speed is bad. It is that speed has to be saved for the place where it helps."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "Coaches teach a ____: a speed a runner can hold for the whole distance.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. A pace is a speed the runner can hold.",
+        "correct_reason": "The first part says coaches teach a pace, and the colon explains it as a speed a runner can hold.",
+        "tell": "The word is pace. It means the speed a runner keeps for the whole race.",
+        "help": [
+          "Look at the sentence with the colon.",
+          "The word is defined right after it."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers race",
+            "ask": "A race is the whole event. What is the speed called?"
+          }
+        ],
+        "accept_words": [
+          "pace"
+        ],
+        "normalize": "Ignore case and punctuation. Accept pace, including a clear misspelling such as pase.",
+        "word": "pace"
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "What does steady mean in this passage?",
+      "tutor_only": {
+        "confirm": "Yes. Steady means even, not fast.",
+        "correct_reason": "The first part defines a steady pace and then says steady means the same speed, not the fastest speed.",
+        "tell": "Steady means keeping one even speed, even if that speed feels slow.",
+        "help": [
+          "Look at the last sentence of the earlier part.",
+          "It says what steady does not mean."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says it means fast",
+            "ask": "The passage says steady is not the fastest speed. What is it?"
+          },
+          {
+            "when": "the student says it means walking",
+            "ask": "Walking is what tired runners do later. What does steady describe?"
+          }
+        ],
+        "core_idea": "The same speed all the way, not the fastest speed.",
+        "accept_ideas": [
+          "an even speed",
+          "the same speed for the whole race",
+          "not speeding up and slowing down"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how fast the runner goes",
+          "where the race is run"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "A ____ is a short burst at top speed.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. A sprint is a short burst at top speed.",
+        "correct_reason": "The second part says a sprint is a short burst at top speed.",
+        "tell": "The word is sprint. It is the short, fastest burst at the end.",
+        "help": [
+          "Look at the second sentence of the part above.",
+          "It defines the burst at top speed."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers race",
+            "ask": "The race is the whole thing. What is the short burst called?"
+          }
+        ],
+        "accept_words": [
+          "sprint"
+        ],
+        "normalize": "Ignore case and punctuation. Accept sprint, including a clear misspelling such as sprinnt.",
+        "word": "sprint"
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "Why can a runner who saved strength pass a tired runner at the end?",
+      "tutor_only": {
+        "confirm": "Right. Saved strength buys the final burst that a spent runner cannot match.",
+        "correct_reason": "The part says a sprint lasts only a few seconds, and a runner who spent everything early has nothing to answer with.",
+        "tell": "The final sprint is short, so a runner who saved strength can spend it all at once. A tired runner cannot.",
+        "help": [
+          "Look at the two sentences about the saved runner and the spent one.",
+          "One says a sprint lasts only a few seconds."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the tired runner is slower by nature",
+            "ask": "The passage says the tired runner spent everything early. What does that leave?"
+          },
+          {
+            "when": "the student says the winner trained harder",
+            "ask": "Training is not mentioned. What does the winner still have at the end?"
+          }
+        ],
+        "core_idea": "The tired runner has nothing left, and a sprint is short, so the fresh runner can use everything at once.",
+        "accept_ideas": [
+          "because the tired runner used up their strength early",
+          "the runner who saved something can sprint while the other cannot",
+          "the sprint is short, so saved strength is enough to pass"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many seconds a sprint lasts",
+          "what the runner eats"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "all",
+      "prompt": "The passage says a runner who spent everything early has nothing to answer with. What does that mean?",
+      "show_part_again": true,
+      "tutor_only": {
+        "confirm": "Yes. Spending everything early leaves nothing for the finish.",
+        "correct_reason": "The second part contrasts the runner who saved something with the one who has nothing to answer with, and the last part says speed has to be saved.",
+        "tell": "A runner who goes all out at the start has no strength left. There is no burst to answer the final push.",
+        "help": [
+          "Look at the sentence before 'That is why the last lap...'",
+          "Ask what was spent, and when."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the runner does not want to answer",
+            "ask": "Answer here means to respond with speed. What is missing?"
+          },
+          {
+            "when": "the student says the runner is hurt",
+            "ask": "Injury is not mentioned. What did the runner spend early?"
+          }
+        ],
+        "core_idea": "The runner used all their strength at the start, so there is none left when the race gets hard.",
+        "accept_ideas": [
+          "they have no strength left at the end",
+          "they cannot sprint when they need to",
+          "they used up everything early"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the race ends",
+          "who wins"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson of the next rung, Band 4.1.",
+    "student_line": "You worked the meaning out from the passage. The next reading is another word lesson."
+  },
+  "retry": {
+    "next_file": "vocab_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "Another word lesson in this rung.",
+    "student_line": "The next reading is another word lesson in this set."
+  },
+  "stopped": {
+    "next_file": "vocab_band_3_1_0005",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
