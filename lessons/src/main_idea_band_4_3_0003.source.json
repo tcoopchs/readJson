@@ -1,0 +1,265 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_3_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Price Before Dawn",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "work and trade",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 4.5-5.1 on the three parts (4.9 together), inside the grade 4-5 band. The load is a mechanism with two moving parts, supply and speed of sale, and one consequence that has to be inferred: a price nobody sets. The reader must also see that the weather sentence belongs to the supply story, not to a separate topic.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "_comment": "Source: written for this lesson, not adapted from a published work. The market practice described is general and carries no invented names or figures.",
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A price that is spoken rather than posted, so the whole-passage idea is about a process the reader never sees stated as a rule.",
+      "avoided": "No invented market name, city, or price figures. No claim about who regulates wholesale markets."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and how far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "At a wholesale produce market, the working day starts long before light. Trucks back into the loading bays and unload crates of tomatoes, peppers, and greens. Buyers walk the floor with a clipboard or a phone, looking for what their stores need. Nothing on the floor carries a printed price. The seller quotes one when a buyer stops at the table. By six in the morning, most of the load has been sold and the floor is thinning out. The price a store pays for a tomato that day was never set in an office. It was found on the floor, in a few hundred short conversations.",
+    "part_2": "A seller watches two things all morning: how much arrived and how fast it is moving. If three trucks of tomatoes came in and the market expected one, the price falls quickly. The seller would rather sell a crate cheap than throw it out that night. A crate that sits unsold is worth nothing by morning. If rain in a growing region cut the crop, the load is small and the price climbs instead. Buyers know this as well as sellers do. They wait, or they buy early, depending on what they think the floor will do. Weather from two weeks ago is sitting in today's price.",
+    "part_3": "The market closes at noon, and that price is gone with it. Tomorrow's price will be found the same way, from a different set of trucks and a different set of buyers. That is why a restaurant owner checks the market before writing a menu. A dish built on cheap peppers in July may cost too much to serve in August. The number is not a rule handed down from anywhere. It is a report on what showed up that morning, on that road, in that weather. It lasts about a day, and then the floor finds another one. A buyer who guesses wrong pays for it in the store, a week later."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "How does a buyer find out what a crate costs at this market?",
+      "tutor_only": {
+        "confirm": "Right. The seller quotes a price when the buyer stops at the table.",
+        "correct_reason": "The first part says nothing on the floor carries a printed price, and the seller quotes one when a buyer stops.",
+        "tell": "The buyer asks, and the seller quotes a price. Nothing is printed.",
+        "help": [
+          "Look for a price tag on any crate in the passage.",
+          "The seller speaks the number."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The seller quotes a price when the buyer stops; nothing on the floor is marked.",
+        "accept_ideas": [
+          "the seller tells them",
+          "the seller quotes a price",
+          "by asking the seller",
+          "the seller names a price"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much a crate weighs"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the price is printed on the crate",
+            "ask": "The part says the opposite. Who gives the number?"
+          },
+          {
+            "when": "the student says the price is set at an office",
+            "ask": "An office is mentioned only to say the price is not set there. Who quotes it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is this part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. The price follows how much arrived and how fast it is moving.",
+        "correct_reason": "The part works through a glut, then a short crop, and says buyers read the same two facts.",
+        "tell": "This part is about how the price follows what arrived that morning and how fast it sells.",
+        "help": [
+          "Find the two things the seller watches.",
+          "Then look at what each one does to the price."
+        ],
+        "say_back": "own_words",
+        "core_idea": "How the price follows the size of the load and how fast it sells.",
+        "accept_ideas": [
+          "what arrived and how fast it sells sets the price",
+          "supply sets the price",
+          "the size of the load decides the price",
+          "too much produce lowers the price"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which vegetables sell best"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about how tomatoes are grown",
+            "ask": "Growing is not in this part. What does the seller watch?"
+          },
+          {
+            "when": "the student says it is about why buyers arrive early",
+            "ask": "Timing is one sentence. What makes the price move?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why would a seller sell a crate cheap instead of waiting?",
+      "tutor_only": {
+        "confirm": "Right. A crate that sits unsold is worth nothing by morning.",
+        "correct_reason": "The part says the seller would rather sell cheap than throw it out, and that an unsold crate is worth nothing by morning.",
+        "tell": "Produce does not keep. A crate unsold at closing is worth nothing, so a low price beats no price.",
+        "help": [
+          "Look at what happens to a crate that is still on the floor at night.",
+          "The part says it is worth nothing by morning."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A crate unsold by morning is worth nothing, so a low price beats no sale.",
+        "accept_ideas": [
+          "unsold produce is worth nothing the next day",
+          "the crate would be thrown out",
+          "produce spoils",
+          "a cheap sale beats a loss"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the crate cost to grow"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the seller is being kind to the buyer",
+            "ask": "Kindness is not in the part. What happens to unsold produce?"
+          },
+          {
+            "when": "the student says the price is fixed by the city",
+            "ask": "The part says the price is not set in an office. Why sell low, then?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. The price for the day is found on the floor from that morning's supply, and it lasts one day.",
+        "correct_reason": "All three parts sit under one idea: no one fixes the price, the floor finds it from the load, and tomorrow finds another.",
+        "tell": "The passage is about a price found on the floor each morning. It comes from what arrived that day.",
+        "help": [
+          "Look at where the price comes from and how long it lasts.",
+          "The passage calls the number a report, not a rule."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The day's price is found on the floor from that morning's supply, and it lasts about a day.",
+        "accept_ideas": [
+          "the price is set each morning by what arrived",
+          "a daily price found on the market floor",
+          "price follows the morning's supply",
+          "the market finds a new price every day"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which store buys the most",
+          "how the market is built"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about how a restaurant writes a menu",
+            "ask": "The restaurant is one sentence at the end. What is the price doing?"
+          },
+          {
+            "when": "the student says it is about trucks and roads",
+            "ask": "Trucks carry the load. What does the load decide?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "A reader says the passage is about how weather affects crops. What does that leave out?",
+      "tutor_only": {
+        "confirm": "It leaves out how the price is found. The weather matters only because it changes the load.",
+        "correct_reason": "Weather appears once, as the reason a load is small. The passage is about the price that follows from the load, and about how quickly that price is replaced.",
+        "tell": "That idea leaves out the market itself: a price found on the floor each morning, and replaced the next day.",
+        "help": [
+          "Find the weather in the passage and ask what it changes.",
+          "Two weeks of weather shows up as one number."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It leaves out the price-finding on the floor, and that the weather matters only through the size of the load.",
+        "accept_ideas": [
+          "it leaves out how the price is found",
+          "it misses the market floor",
+          "the weather only matters because it changes the load",
+          "it leaves out that the price lasts a day"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which crops need rain"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says nothing is missing",
+            "ask": "Count the sentences about weather. What are the rest about?"
+          },
+          {
+            "when": "the student says it leaves out the buyers",
+            "ask": "Buyers are in every part. What do they and the sellers produce together?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this rung; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_3_0004",
+    "next_irl": 4,
+    "next_means": "Another main-idea lesson in this rung.",
+    "student_line": "The next reading is another main-idea lesson in this rung."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_3_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

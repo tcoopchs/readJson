@@ -25,6 +25,12 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-012 | Wildland Fire: What is a Prescribed Fire? | Nonfiction | 4 | Band 4.2 | 314 words | 5.56 | `main_idea_band_4_2_0004` |
 | TB-013 | Hurricanes | Nonfiction | 4 | Band 4.2 | 304 words | 5.88 | `main_idea_band_4_2_0005` |
 | TB-014 | What is a planet? | Nonfiction | 4 | Band 4.2 | 308 words | 5.69 | `main_idea_band_4_2_0006` |
+| TB-015 | The Field That Rests | Nonfiction | 4 | Band 4.3 | 331 words | 5.10 | `main_idea_band_4_3_0001` |
+| TB-016 | The Word That Changed Its Mind | Nonfiction | 4 | Band 4.3 | 325 words | 5.90 | `main_idea_band_4_3_0002` |
+| TB-017 | The Price Before Dawn | Nonfiction | 4 | Band 4.3 | 327 words | 4.90 | `main_idea_band_4_3_0003` |
+| TB-018 | Twenty-Six Miles and Change | Nonfiction | 4 | Band 4.3 | 310 words | 5.50 | `main_idea_band_4_3_0004` |
+| TB-019 | The Village Under the Water | Nonfiction | 4 | Band 4.3 | 320 words | 6.60 | `main_idea_band_4_3_0005` |
+| TB-020 | The Pass That Closes for Winter | Nonfiction | 4 | Band 4.3 | 327 words | 6.00 | `main_idea_band_4_3_0006` |
 
 ---
 
@@ -494,6 +500,214 @@ around it, so the reader has to separate one famous case from the rule that prod
 
 **Cautions.** Keep the disagreement, or the passage teaches a false certainty. The quoted IAU
 resolution and the Greek history were dropped as above the band.
+
+
+## TB-015 — The Field That Rests
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | food and farming |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 331 words (three passages, 105-118 each) |
+| FK grade | 5.10 on the three passages together (5.0, 5.1, 5.3 per part) |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `main_idea_band_4_3_0001` |
+
+**Central idea.** A farmer gives up a season of income so the field can rebuild what repeated
+cropping took out.
+
+**Supporting details.**
+
+- A fallow field is planted with a cover crop, and none of it is sold.
+- Repeated cropping takes nitrogen out, builds up pests and weeds, and lets rain carry soil away.
+- Legumes store nitrogen in their roots; the cover shades weeds; roots feed soil life.
+- The gain arrives later, as less fertilizer and a bigger next crop.
+- A cover crop between cash crops keeps money coming in but does not rest the ground the same way.
+
+**Why it works.** The rung's floor. Three problems are stated and answered in order, and the trade is
+left for the reader to name, so the central idea needs joining but not invention.
+
+**Cautions.** Do not add yield or price figures. The economics stay qualitative on purpose.
+
+---
+
+## TB-016 — The Word That Changed Its Mind
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | arts and language |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 325 words (three passages, 104-111 each) |
+| FK grade | 5.90 on the three passages together (5.9, 4.8, 6.9 per part) |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `main_idea_band_4_3_0002` |
+
+**Central idea.** Word meanings drift through everyday use, and dictionaries record the drift rather
+than decide it.
+
+**Supporting details.**
+
+- Nice came from Latin nescius, meant foolish in the 1200s, exact in the 1500s, pleasant by 1700.
+- No one voted; speakers used the word in slightly new ways and listeners followed.
+- Awful moved the other way, from full of awe to bad.
+- A dictionary records senses that are already common and keeps old ones until they die out.
+
+**Why it works.** The first lesson in the rung where the subject is a process with no agent. Two
+examples move in opposite directions, so a one-case summary fails the whole-passage item.
+
+**Cautions.** The etymologies are the standard reference ones and are stated without dates finer than
+a century. Do not add a dictionary citation the passage does not carry.
+
+---
+
+## TB-017 — The Price Before Dawn
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 327 words (three passages, 107-113 each) |
+| FK grade | 4.90 on the three passages together (5.1, 4.5, 5.1 per part) |
+| Complexity | L1, I2, S1, K2 |
+| Best lesson fit | `main_idea_band_4_3_0003` |
+
+**Central idea.** The day's price is found on the market floor from that morning's supply, and it
+lasts about a day.
+
+**Supporting details.**
+
+- Nothing is marked; the seller quotes a price when a buyer stops.
+- A glut lowers the price, and a short load raises it.
+- A seller would rather sell cheap than hold a crate that is worth nothing by morning.
+- Weather two weeks earlier reaches the price only through the size of today's load.
+- Tomorrow's price is found again, from a different set of trucks.
+
+**Why it works.** Carries the work-and-trade slot with a mechanism, not an instruction. The weather
+sentence is the trap: it belongs to the supply story, and a reader who files it as a separate topic
+loses the whole-passage item.
+
+**Cautions.** No market name, city, or figures. The practice is described generally on purpose.
+
+---
+
+## TB-018 — Twenty-Six Miles and Change
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | sport and play |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 310 words (three passages, 103-104 each) |
+| FK grade | 5.50 on the three passages together (5.0, 5.8, 5.7 per part) |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `main_idea_band_4_3_0004` |
+
+**Central idea.** A race distance that came from one 1908 course was later fixed by agreement for
+every marathon.
+
+**Supporting details.**
+
+- The 1908 race started below Windsor Castle and finished in a west London stadium.
+- The finish moved so it sat in front of the royal box, which added 385 yards.
+- Later host cities chose their own distances, so times could not be compared.
+- In 1921 the world running body adopted the London figure as the standard.
+- The odd tail of the race still shapes how runners plan a finish.
+
+**Why it works.** The sport-and-play slot without a training article. The idea is an accident that
+became a rule, which asks the reader to hold two decisions six years apart.
+
+**Cautions.** No times, records, or runner names. Do not add a winner or a record: neither is needed
+and both would need verification.
+
+---
+
+## TB-019 — The Village Under the Water
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | history and people |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 320 words (three passages, 100-114 each) |
+| FK grade | 6.60 on the three passages together (6.7, 6.6, 6.6 per part) |
+| Complexity | L2, I2, S2, K1 |
+| Best lesson fit | `main_idea_band_4_3_0005` |
+
+**Central idea.** A reservoir is built by emptying a lived-in valley, and the place stays
+half-visible under the water.
+
+**Supporting details.**
+
+- A river valley with high sides and a narrow end is dammed to hold water.
+- The land is bought, sometimes under a law that allows taking it.
+- Some buildings are sold or reused; a stone church keeps its walls because removal costs too much.
+- Graves are moved because families ask and because a drowned cemetery is a public problem.
+- In a dry summer the walls, the road, and a bridge come back into view.
+
+**Why it works.** The highest language load in the rung, at 6.6, still inside the band. The subject
+is a place in two states, so the central idea has to include the people rather than the dam.
+
+**Cautions.** No town, valley, or reservoir is named and no date is given. That is deliberate: the
+passage describes a practice, and naming a real reservoir would require facts this text does not
+carry.
+
+---
+
+## TB-020 — The Pass That Closes for Winter
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 327 words (three passages, 101-116 each) |
+| FK grade | 6.00 on the three passages together (6.0, 5.5, 6.6 per part) |
+| Complexity | L2, I3, S1, K2 |
+| Best lesson fit | `main_idea_band_4_3_0006` |
+
+**Central idea.** Some mountain passes close on purpose, because a slide cannot be managed while
+traffic is on the road.
+
+**Supporting details.**
+
+- Crews fire charges to bring snow down at an hour they choose, then plow the road.
+- A loaded slope can release without warning, and a car under it has nowhere to go.
+- Closing removes what would be hurt and lets crews work on their own schedule.
+- The cost falls on the towns: longer drives, rerouted deliveries, a thinner clinic.
+- A tunnel or gallery keeps a pass open, but costs far more than a gate.
+
+**Why it works.** Closes the rung on a trade-off rather than a process, which is the highest idea
+load here: the reader has to see the closure as a decision with a price, not a failure.
+
+**Cautions.** No pass, highway, or agency is named. The drive times are illustrative and are marked
+as one case, not a measurement.
 
 ---
 

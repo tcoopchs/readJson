@@ -1,0 +1,265 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_3_0004",
+  "meta": {
+    "status": "published",
+    "title": "Twenty-Six Miles and Change",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.0-5.8 on the three parts (5.5 together), inside the grade 4-5 band. The load is an accident that became a rule: two decisions sit six years apart, and the idea requires the reader to hold that a number people treat as natural came from a seating arrangement.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "_comment": "Source: written for this lesson, not adapted from a published work. The 1908 course and the 1921 standardization are standard reference facts, stated in the author's own words.",
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A race distance that looks like a round athletic number and turns out to be a royal sight line plus a committee decision.",
+      "avoided": "No invented times, records, or runner names. The 1908 start and finish and the 1921 standard are stated plainly and nothing further is claimed."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and how far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The marathon is named for a run in ancient Greece. Its distance, though, comes from London. In 1908, the Olympic marathon started below the windows of Windsor Castle. The race ended in a stadium in west London, nearly twenty-six miles away. Then the organizers moved the finish line. They wanted it directly in front of the royal box. The royal family sat there, and the race should end where they could see it. A finish line is easy to move before the race starts. The extra yards made the race twenty-six miles and 385 yards. That is the number runners still use today.",
+    "part_2": "Later races ran whatever distance the host city chose. A marathon was whatever the local organizers marked out. Courses varied by several miles from one games to the next. A fast time in one country meant little in another. In 1921, the world running body settled the question. It took the London figure as the standard. Every official marathon since then has run 26.2 miles. That includes races that end on a bridge or a beach. The number carries the shape of one course, and one afternoon. Some runners still argue that a round number would make more sense. The federation has not changed its mind.",
+    "part_3": "That shape is odd, and the odd part sits at the end. The last 385 yards fall outside any round distance. They arrive where runners are already spent. Coaches plan for them anyway, because every race will have them. Runners learn to hold something back for a finish with no reason behind it except a royal box in 1908. The distance is also why a marathon record is not measured against a mile record. It is a fixed course with a fixed history. Change the number and you change every record on the books. The history explains the number, and the number explains the race."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why did the organizers move the finish line in 1908?",
+      "tutor_only": {
+        "confirm": "Right. They wanted the race to end in front of the royal box.",
+        "correct_reason": "The first part says organizers moved the finish line so it would sit directly in front of the royal box, where the family sat.",
+        "tell": "They moved it so the race would end in front of the royal box.",
+        "help": [
+          "Find who was watching, and where they sat.",
+          "The part names a royal box."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They moved the finish so it would sit in front of the royal box.",
+        "accept_ideas": [
+          "to put it in front of the royal box",
+          "so the royal family could see the finish",
+          "for the royal family",
+          "to end at the royal box"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who won the 1908 race"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the old finish was too far from the start",
+            "ask": "Distance is not the reason given. Who needed to see the finish?"
+          },
+          {
+            "when": "the student says the stadium was being rebuilt",
+            "ask": "No rebuilding is mentioned. What was at the new finish line?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What problem did the different marathon courses cause?",
+      "tutor_only": {
+        "confirm": "Yes. A fast time in one country meant little beside a fast time in another.",
+        "correct_reason": "The part says courses varied by several miles, so times from different races could not be compared.",
+        "tell": "Courses varied by miles, so one country's fast time told you nothing about another's.",
+        "help": [
+          "Look at what varied, then at what that did to the times.",
+          "A time only means something if the distance is the same."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Courses varied in length, so times from different races could not be compared.",
+        "accept_ideas": [
+          "times could not be compared",
+          "a fast time meant little in another country",
+          "the races were different lengths",
+          "records were not comparable"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many runners finished"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says runners got lost",
+            "ask": "The part does not mention losing the course. What varied?"
+          },
+          {
+            "when": "the student says the races were too long",
+            "ask": "Length varied in both directions. What did that do to comparing times?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "How was the problem settled in 1921?",
+      "tutor_only": {
+        "confirm": "Right. The world running body took the London figure as the standard.",
+        "correct_reason": "The part says the international federation adopted the London figure, and every official marathon since has run 26.2 miles.",
+        "tell": "In 1921 the world running body adopted the London distance as the standard for every marathon.",
+        "help": [
+          "Find the year and the body, then read what it adopted.",
+          "The London figure became the standard."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The world running body adopted the London figure as the standard.",
+        "accept_ideas": [
+          "they made the London distance the standard",
+          "the federation adopted 26.2 miles",
+          "they fixed one distance for every race",
+          "they chose the 1908 distance"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which country voted against it"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says each city still chose",
+            "ask": "That was the old arrangement. What did the 1921 decision change?"
+          },
+          {
+            "when": "the student says runners agreed among themselves",
+            "ask": "No vote by runners is mentioned. Which body settled it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. The marathon distance comes from one 1908 course, and later agreement fixed it for every race.",
+        "correct_reason": "All three parts sit under one idea: a royal viewing position shaped the course, cities kept changing the distance, and one rule ended the variation.",
+        "tell": "The passage is about a distance that came from one course in 1908 and was later fixed for every marathon.",
+        "help": [
+          "Look at where the number came from, then at what happened in 1921.",
+          "One part is an accident. One part is an agreement."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A race distance that came from one 1908 course and was later fixed by agreement.",
+        "accept_ideas": [
+          "where the marathon distance came from",
+          "the 1908 course set the distance",
+          "why every marathon is 26.2 miles",
+          "a royal box decided the marathon distance"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who holds the record",
+          "how a marathon is organized"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about ancient Greece",
+            "ask": "Greece is the name only. What does the passage explain about the number?"
+          },
+          {
+            "when": "the student says it is about how to run a marathon",
+            "ask": "Training is not in the passage. What does the history explain?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "A reader says the passage is about how to train for a marathon. What does that leave out?",
+      "tutor_only": {
+        "confirm": "Right. It leaves out where the distance came from and why every race now uses it.",
+        "correct_reason": "Training appears only in one sentence about holding something back. The passage is about the origin of the distance and the decision that fixed it.",
+        "tell": "That idea leaves out the origin of the distance, and the 1921 decision that made every race the same length.",
+        "help": [
+          "Find the training sentence, then look at what the three parts explain.",
+          "Two parts are about a number, not about running."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It leaves out where the distance came from and the decision that fixed it.",
+        "accept_ideas": [
+          "it leaves out where the distance came from",
+          "it misses the 1921 decision",
+          "it leaves out the history of the number",
+          "it misses why the race is 26.2 miles"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how fast a marathon should be run"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says nothing is missing",
+            "ask": "Count the sentences about training. What do the rest explain?"
+          },
+          {
+            "when": "the student says it leaves out the ancient Greeks",
+            "ask": "One sentence mentions Greece. What did the other parts add?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this rung; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_3_0005",
+    "next_irl": 4,
+    "next_means": "Another main-idea lesson in this rung.",
+    "student_line": "The next reading is another main-idea lesson in this rung."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_3_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

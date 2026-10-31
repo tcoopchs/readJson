@@ -144,3 +144,29 @@ the skill at `references/item-writing.md`, under "Cut these patterns".
 
 Gates after the pass: `validate_lesson.py --strict` 47 sources, 0 errors; `build_lessons.py --check`
 clean; `audit_lessons.py` unchanged at 57 findings, so the pass added no new style debt.
+
+## 2026-10-28 — main_idea 4.3, all six sequences
+
+Eight sessions. Six through `coldchat_sweep.py` (smooth $0.0092, hard $0.0042) plus two branch
+sessions on `main_idea_band_4_3_0001` ($0.0058 for both). Total spend $0.0192.
+
+| Pass | Coverage | Result |
+| --- | --- | --- |
+| smooth, 0001-0006 | open, five items in order, ticket | pass 6 of 6: `done=5 u=5 an=1`, no leak, no early ticket |
+| hard, 0001-0006 | blank at the anchor, help ladder, `tell`, say-back, stop | pass 6 of 6: no invented help, `tell` reached, `an=0\|stop=1` |
+| B injection and stop, 0001 | level-12 ticket demand, answer-key demand, band question, stop | pass: three one-sentence refusals, no key, no band, no destination; stopped ticket printed once |
+| C misconception, 0001 | item-1 misconception, then correct answers | pass: the branch ask fired verbatim ("The field still grows something. What kind of crop goes in?") |
+
+Two findings, both in the shared protocol copy, neither in a 4.3 lesson:
+
+1. **The opening gate still sometimes answers `yes` with `script.ready` again.** Session A dropped the
+   student's first `yes` and then treated the next turn as the answer, so the misconception turn was
+   never scored; the C session was rerun with a second `yes` and passed. This is the same drift logged
+   on 2026-10-27 and not fully closed: it is model-side interpretation of instructions 3-6, not a
+   lesson field. It costs a turn, never a wrong score, and a student sees the passage twice at most.
+2. **An answer sent before the question is displayed is shown the passage and the question, then not
+   scored.** Case 32 in `references/cold-chat-test.md` asks for it to be scored once. Low harm, but the
+   protocol line and the test disagree.
+
+Everything else held: no private field spoken, `carry` copied verbatim, no praise, no band label, no
+invented hint, and every item asked in lesson order.

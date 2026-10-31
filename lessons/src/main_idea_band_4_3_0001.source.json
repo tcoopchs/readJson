@@ -1,0 +1,269 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_3_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Field That Rests",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.0-5.3 on the three parts (5.1 together), inside the grade 4-5 band and near the rung's floor. The load is three problems in a row, each stated and then answered, plus one trade that is never called a trade: the reader has to see that the lost season and the soil repair are the same decision.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "_comment": "Source: written for this lesson, not adapted from a published work. Central idea and every detail are the author's own; no external work is quoted or paraphrased.",
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A farm practice that costs money in plain sight and pays back in ways the road cannot show, so the whole-passage idea is a trade the passage never names.",
+      "avoided": "No invented yield figures or prices. No claim about organic certification or government programs, which the passage does not need."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and how far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Most farms plant every field they own each year, but a few leave one field bare on purpose. Farmers call that empty season a fallow year, and the field still grows something. A cover crop goes in instead: clover, rye, or a mix of the two. The crop is planted to feed the soil rather than to be sold at market. The plants come up, and then the farmer cuts them down and leaves the stems on the ground. Their roots stay in the soil and hold it through the winter rain. Nothing is harvested that year, and from the road the field looks untidy and half finished.",
+    "part_2": "A field that grows the same crop for years wears down in three ways at once. Each harvest takes nitrogen and other food out of the soil, so the next crop starts poorer. Insects and weeds that like that crop build up in the field, season after season. Plowing breaks the soil into smaller pieces, and rain carries some of those pieces away. A fallow year interrupts all three problems, though it does not fix them by itself. Clover and other legumes pull nitrogen from the air and store it in their roots. The cover crop shades out weeds before they can seed. Roots and dead plants feed the worms and the small life that keep soil loose.",
+    "part_3": "The cost is easy to see, and the gain is not. A fallow field earns nothing that season, so the farmer carries the loss for a whole year. The gain shows up later, when the next crop needs less fertilizer and yields more. Some farmers now plant a cash crop every year and put a cover crop between harvests instead. That keeps money coming in, and it protects the soil from rain and wind. It does not rest the ground the same way a fallow year does. A field that never rests has to be fed by someone, usually with fertilizer bought by the bag."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does a farmer plant in a fallow field?",
+      "tutor_only": {
+        "confirm": "Right. A cover crop such as clover or rye, grown to feed the soil.",
+        "correct_reason": "The opening says a cover crop goes in: clover, rye, or a mix of the two, planted for the soil rather than for sale.",
+        "tell": "A fallow field is planted with a cover crop like clover or rye, and none of it is sold.",
+        "help": [
+          "Look at what the farmer puts in the ground instead of a cash crop.",
+          "The opening names clover and rye."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A cover crop such as clover or rye, grown to feed the soil rather than to be sold.",
+        "accept_ideas": [
+          "a cover crop",
+          "clover or rye",
+          "clover",
+          "rye",
+          "a crop grown for the soil",
+          "grass or clover planted for the soil"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the cover crop grows",
+          "which mix is best"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says nothing at all is planted",
+            "ask": "The field still grows something. What kind of crop goes in?"
+          },
+          {
+            "when": "the student says the same crop as before is planted",
+            "ask": "That is what a fallow year replaces. What is planted instead?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is this part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. The three ways a field wears down, and how a fallow year interrupts them.",
+        "correct_reason": "The part lists three problems from repeated cropping, then names the cover crop that answers each one.",
+        "tell": "This part is about the three problems that build up in a field and how a fallow year interrupts them.",
+        "help": [
+          "Count what goes wrong when one crop is grown in the same field.",
+          "Three problems are named, and then each one is answered."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Three ways a field wears down when one crop is repeated, and how a fallow year interrupts them.",
+        "accept_ideas": [
+          "the soil wearing out and how resting helps",
+          "the field losing food and gaining weeds",
+          "why a field needs a rest",
+          "the problems a cover crop fixes"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of each legume",
+          "how deep plowing goes"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about what clover is",
+            "ask": "Clover is one plant in the part. What set of problems does the part list?"
+          },
+          {
+            "when": "the student says it is about worms and soil life",
+            "ask": "That is the last sentence. What does the rest of the part list?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does clover help the next crop?",
+      "tutor_only": {
+        "confirm": "Right. Clover is a legume, so it pulls nitrogen from the air and stores it in its roots.",
+        "correct_reason": "The part says clover and other legumes pull nitrogen from the air and store it in their roots, which feeds the next crop.",
+        "tell": "Clover stores nitrogen from the air in its roots, so the next crop starts with more food in the soil.",
+        "help": [
+          "Look at what the part says clover takes from the air and where it puts it.",
+          "The word nitrogen is in the sentence about legumes."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Clover stores nitrogen from the air in its roots, which feeds the next crop.",
+        "accept_ideas": [
+          "it adds nitrogen to the soil",
+          "it puts food back in the ground",
+          "its roots hold nitrogen",
+          "it feeds the soil"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much nitrogen a field needs",
+          "what other legumes do"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says clover covers the ground and blocks weeds",
+            "ask": "That is one thing it does. What does it put into the soil?"
+          },
+          {
+            "when": "the student says clover holds the soil in place",
+            "ask": "Holding soil is the roots' job. What do the roots store?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. A farmer gives up a season of income so the field can rebuild what the crops took out.",
+        "correct_reason": "All three parts sit under one idea: the field wears down, a fallow year repairs it, and the repair is paid for with a lost season.",
+        "tell": "The passage is about spending a season with no harvest so the soil can rebuild what the crops took out.",
+        "help": [
+          "Look at what the farmer gives up and what the field gets.",
+          "One part is about the loss. Two are about what the rest repairs."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Spending a season with no harvest so the soil can rebuild what repeated cropping takes out.",
+        "accept_ideas": [
+          "a farmer rests a field to rebuild the soil",
+          "resting a field costs money but pays back later",
+          "why farms leave a field empty for a year",
+          "a fallow year repairs soil at the cost of a season"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the loss is",
+          "which crops a farmer plants"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about how to grow clover",
+            "ask": "Clover is the tool. What is the passage about spending and getting back?"
+          },
+          {
+            "when": "the student says it is about the history of farming",
+            "ask": "No history is given. What does the farmer give up, and why?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "A reader says the passage is mostly about how to plow a field. What does that leave out?",
+      "tutor_only": {
+        "confirm": "Right. It leaves out the money the farmer gives up and the three problems the rest is meant to repair.",
+        "correct_reason": "Plowing appears once, as one of the ways soil breaks down. The passage is about the trade the farmer makes, and the repair comes from a cover crop, not a plow.",
+        "tell": "That idea leaves out the lost season of income and the three problems a fallow year is meant to repair.",
+        "help": [
+          "Find the plow in the passage, then look at what the other sentences do.",
+          "One part is about money. Another is about three problems."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It leaves out the lost season of income and the three problems the rest repairs.",
+        "accept_ideas": [
+          "it leaves out the money the farmer loses",
+          "it leaves out the soil problems and the cost",
+          "it misses the reason for giving up a season"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which plow a farm uses"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says nothing is missing",
+            "ask": "How many sentences are about plowing? What are the other parts about?"
+          },
+          {
+            "when": "the student says it leaves out the weeds",
+            "ask": "Weeds are one of the three problems. What else does the passage weigh?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this rung; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_3_0002",
+    "next_irl": 4,
+    "next_means": "Another main-idea lesson in this rung.",
+    "student_line": "The next reading is another main-idea lesson in this rung."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

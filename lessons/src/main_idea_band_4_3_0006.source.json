@@ -1,0 +1,264 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_3_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Pass That Closes for Winter",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "places and travel",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.5-6.6 on the three parts (6.0 together), inside the grade 4-5 band. The load is a trade-off rather than a sequence: the reader has to see that the closure is a choice, not a failure, and hold the cost to the towns at the same time as the reason for the gate.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "_comment": "Source: written for this lesson, not adapted from a published work. The practice described is general; no specific road or agency is claimed.",
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A road that is deliberately closed, so the central idea is a decision with a cost rather than an event or a process.",
+      "avoided": "No invented pass, highway, or agency names, and no figures beyond the drive times used to show cost."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and how far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Some mountain roads close every winter, and not because the plows cannot keep up with the snow. A pass that runs above the tree line collects snow in thick slabs that slide without much warning. Crews watch those slopes all winter and fire small charges into the worst of them. The charge brings the snow down on purpose, at an hour the crews have chosen after reading the layers. Then the plows clear the road, and the process repeats after the next storm. The work goes on for weeks before the first car is allowed through. The closure is planned, published, and repeated every year, and drivers plan around it.",
+    "part_2": "The reason for closing is that a slide cannot be managed while the road is open. A slope loaded with snow can release without warning, and a car under it has nowhere to go. Closing the road removes the thing that would be hurt, and that changes the problem. Crews then work on a schedule they control. They measure the snow, test the layers, and decide when to bring a slab down on their own terms. A closed pass is a slope with a road under it that no one is using. That is a safer arrangement than the same slope with traffic. The gate is not a failure of engineering, but a choice about risk.",
+    "part_3": "The cost of a closure falls on the towns on both sides of the mountain. A drive that takes forty minutes in summer becomes three hours around the pass. Deliveries reroute, and a clinic on one side serves fewer people through the winter. Some passes stay open with a tunnel or a gallery that sheds snow above the road. Those are expensive to build and expensive to keep up. The cheap answer is a gate, a sign, and a season with no traffic. Not every problem is solved by keeping the road open, and this one is solved by closing it."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why do crews fire small charges into the slopes?",
+      "tutor_only": {
+        "confirm": "Right. The charge brings the snow down on purpose, at a time the crews choose.",
+        "correct_reason": "The first part says crews fire charges into the worst slopes and the charge brings the snow down on purpose, at a chosen hour.",
+        "tell": "The charge makes the snow slide when the crews decide, instead of when it decides.",
+        "help": [
+          "Look at who chooses the hour.",
+          "The word on purpose is doing the work here."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A charge brings the snow down at a time the crews have chosen.",
+        "accept_ideas": [
+          "to bring the snow down on purpose",
+          "so it slides when they choose",
+          "to control when the snow falls",
+          "to set off a slide at a safe time"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how big the charges are"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the charge clears the road",
+            "ask": "The charge moves snow off the slope. What clears the road?"
+          },
+          {
+            "when": "the student says the charge melts the snow",
+            "ask": "Nothing is melted. What does the snow do after the charge?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is this part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. Closing the road removes what would be hurt, so crews can control when the snow comes down.",
+        "correct_reason": "The part says a loaded slope can release without warning, a car has nowhere to go, and closing the road changes the problem.",
+        "tell": "This part is about closing the road so a slide has nothing to hit. That lets crews work on their own schedule.",
+        "help": [
+          "Ask what the road closure removes from the problem.",
+          "A slide with no car under it is a different problem."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Closing the road removes what a slide would hit, so crews can work on a schedule they control.",
+        "accept_ideas": [
+          "why closing makes the slope safer",
+          "closing removes what could be hurt",
+          "a slide cannot be managed with traffic",
+          "the road is closed so crews can control the snow"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much snow falls in a winter"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about how plows work",
+            "ask": "Plowing is one sentence. What does the closure change?"
+          },
+          {
+            "when": "the student says it is about the cost to towns",
+            "ask": "The towns and the money come later. What is this part about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What does the writer mean by a slope with a road under it that no one is using?",
+      "tutor_only": {
+        "confirm": "Right. The danger is the slope and the traffic together, and closing takes the traffic away.",
+        "correct_reason": "A closed pass still has the slope and still has the road. What changed is that nothing is under the snow when it comes down.",
+        "tell": "It means the slope is still there and still dangerous, but with no traffic the crews can work on it.",
+        "help": [
+          "Ask what changed about the slope and what did not.",
+          "The road is still there. Who is missing?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "The slope is unchanged and still dangerous. Closing removes the traffic, not the snow.",
+        "accept_ideas": [
+          "the slope is still there but no cars are",
+          "the danger is gone because the traffic is gone",
+          "the road is empty so a slide hurts nothing",
+          "the slope can be worked on without traffic"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the closure lasts"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the road was removed",
+            "ask": "The road is still under the snow. What is missing?"
+          },
+          {
+            "when": "the student says the slope is safe now",
+            "ask": "The part says the slope can still release. What makes that acceptable?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "Why does the writer mention tunnels and galleries?",
+      "tutor_only": {
+        "confirm": "Right. To show that keeping a pass open costs far more than closing it.",
+        "correct_reason": "The part says tunnels and galleries that shed snow are expensive to build and keep up, and then calls the gate the cheap answer.",
+        "tell": "The tunnel is there to show the price of staying open, which is why most passes close instead.",
+        "help": [
+          "Compare the cost of the tunnel with the cost of the gate.",
+          "The next sentence calls the gate the cheap answer."
+        ],
+        "say_back": "own_words",
+        "core_idea": "To show what staying open costs, which is why the gate is the answer most passes get.",
+        "accept_ideas": [
+          "to show staying open costs more",
+          "to show the other options are expensive",
+          "to explain why most passes close",
+          "because a tunnel costs a lot to build"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which pass has a tunnel"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the writer likes tunnels",
+            "ask": "The word expensive is doing the work. What is it compared with?"
+          },
+          {
+            "when": "the student says a tunnel is safer",
+            "ask": "Safety is not the comparison here. What is?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. Some passes close on purpose, because snow cannot be managed with traffic on the road.",
+        "correct_reason": "All three parts sit under one idea: the closure is a controlled way to handle slides, it changes what the snow can hit, and the cost is weighed against a tunnel.",
+        "tell": "The passage is about passes that close on purpose. A slide cannot be handled while traffic is on the road.",
+        "help": [
+          "Look at what the closure makes possible, then at what it costs.",
+          "The last sentence says the problem is solved by closing."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Some mountain passes close on purpose, because a slide cannot be managed with traffic on the road.",
+        "accept_ideas": [
+          "some roads close on purpose to control slides",
+          "closing is how a pass handles avalanches",
+          "the closure is planned, not a failure",
+          "why a mountain pass shuts for the winter"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many passes close each year"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about how snow plows work",
+            "ask": "Plows arrive after the charge. What is the closure for?"
+          },
+          {
+            "when": "the student says it is about building tunnels",
+            "ask": "Tunnels are the alternative, mentioned once. What do most passes do?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this rung; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, the last in the rung.",
+    "student_line": "Read this one again when you are ready."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

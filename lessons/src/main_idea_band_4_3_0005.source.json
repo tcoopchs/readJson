@@ -1,0 +1,264 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_3_0005",
+  "meta": {
+    "status": "published",
+    "title": "The Village Under the Water",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "topic_domain": "history and people",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.4-6.7 on the three parts (6.6 together), at the upper end of the grade 4-5 band. The load is a place with two states: the valley as it was lived in and the same land under water, with the reader asked to hold both and to see that the clearing is the subject rather than the dam.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "_comment": "Source: written for this lesson, not adapted from a published work. No place, company, or person is named, so nothing here depends on an unverified record.",
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A reservoir built over a lived-in valley, told from the valley's side, so the central idea has to include the people and the walls rather than the engineering.",
+      "avoided": "No invented town, valley, or reservoir names, and no dates. The practice described is general; no specific place is claimed."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and how far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "When a city needs more water, engineers look for a valley with a river and high sides. They build a dam at the narrow end and let the river fill the space behind it. The valley is usually already lived in, and has been for generations. Farms, a road, a church, and a few dozen houses sit on land that will be under water. The city buys the land, sometimes under a law that lets it take what it needs. Then the slow work of emptying the valley begins, and it takes years of surveys, letters, and meetings. The dam takes years to build, and the water takes a season to rise behind it.",
+    "part_2": "Some buildings are taken down, and the materials are sold or reused elsewhere. Brick and timber are worth carrying away, and a standing wall is a hazard for boats. Some buildings are left where they stand. A stone church may be too solid to remove cheaply, so crews knock off the roof and the tower and leave the walls. Graves are moved, because families ask for it and because a cemetery under a reservoir becomes a public problem. Hedges and orchards are cut. The water rises over the stumps, the lanes, and the low stone walls that divided the fields.",
+    "part_3": "The valley does not disappear from memory, and it does not disappear from sight entirely. In a dry summer, when the reservoir drops, the old walls come back. A road surface shows as a dark line across the mud, and a bridge appears where there was water. People walk down to look at the village their grandparents left, and they take photographs of a doorway that leads nowhere now. The reservoir is a piece of engineering that holds a place inside it, and the old maps are still printed in books. The city got its water. The families got a story they tell for two generations."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why do engineers want a valley with high sides?",
+      "tutor_only": {
+        "confirm": "Right. The sides and the narrow end let one dam hold back a lot of water.",
+        "correct_reason": "The first part says engineers look for a valley with a river and high sides, and build the dam at the narrow end.",
+        "tell": "High sides and a narrow end mean one dam can hold a large body of water.",
+        "help": [
+          "Find what the dam needs from the land around it.",
+          "The dam goes at the narrow end."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A valley with high sides and a narrow end can be dammed to hold a lot of water.",
+        "accept_ideas": [
+          "the sides hold the water in",
+          "a narrow end makes the dam cheaper",
+          "the valley can hold the water",
+          "so one dam can hold back a lot of water"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how deep the valley is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the valley is beautiful",
+            "ask": "Nothing in the part is about how it looks. What does the dam need?"
+          },
+          {
+            "when": "the student says the river is fast there",
+            "ask": "The part does not mention speed. What do the sides and the narrow end do?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is this part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. What was taken down and what was left standing when the valley was cleared.",
+        "correct_reason": "The part sorts the buildings into those removed and those left, then explains each choice and ends with the cutting of hedges and orchards.",
+        "tell": "This part is about clearing the valley: what came down, what stayed, and why.",
+        "help": [
+          "Sort what the part says was removed from what it says was left.",
+          "One building is left standing on purpose."
+        ],
+        "say_back": "own_words",
+        "core_idea": "What was taken down and what was left standing when the valley was cleared.",
+        "accept_ideas": [
+          "what was removed and what was left",
+          "clearing the buildings out of the valley",
+          "which buildings stayed",
+          "how they emptied the valley"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many houses stood there"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about how a church is built",
+            "ask": "The church is one example. What is the part sorting?"
+          },
+          {
+            "when": "the student says it is about moving graves",
+            "ask": "Graves are one sentence. What does the whole part decide?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why were the church walls left standing?",
+      "tutor_only": {
+        "confirm": "Right. Solid stone cost too much to remove, so only the roof and tower came off.",
+        "correct_reason": "The part says a stone church may be too solid to remove cheaply, so crews knocked off the roof and the tower and left the walls.",
+        "tell": "Taking the stone down cost too much, so the crew removed the top and left the walls.",
+        "help": [
+          "Find the reason the crew stopped taking the church apart.",
+          "The word cheaply is in that sentence."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Removing the solid stone cost too much, so the roof and tower came off and the walls stayed.",
+        "accept_ideas": [
+          "it cost too much to remove",
+          "the stone was too solid",
+          "taking it down was too expensive",
+          "it was cheaper to leave the walls"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the church was"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says the walls were kept as a monument",
+            "ask": "The part gives a cost reason. What was it?"
+          },
+          {
+            "when": "the student says the walls were needed for the dam",
+            "ask": "The dam is built at the narrow end. What does the part say about the church?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. A reservoir is made by emptying a lived-in valley, and the place stays half-visible under the water.",
+        "correct_reason": "All three parts sit under one idea: the valley is chosen, the buildings are cleared or left, and the place keeps showing through.",
+        "tell": "The passage is about emptying a lived-in valley for a reservoir, and the place that stays half-visible under it.",
+        "help": [
+          "Look at what happens to the people, then at what happens in a dry summer.",
+          "One part chooses the valley. One clears it. One shows it coming back."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A lived-in valley emptied for a reservoir, with the place still half-visible under the water.",
+        "accept_ideas": [
+          "a village emptied to make a reservoir",
+          "the valley was cleared and the place still shows",
+          "building a reservoir means moving a village",
+          "what is left under a reservoir"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much water a reservoir holds"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about how dams are built",
+            "ask": "The dam is one sentence at the start. What do the other parts describe?"
+          },
+          {
+            "when": "the student says it is about a drought",
+            "ask": "The dry summer comes at the end. What does it reveal?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "A reader says the passage is about how dams are built. What does that leave out?",
+      "tutor_only": {
+        "confirm": "Right. It leaves out the people who left and everything that came back into view.",
+        "correct_reason": "The dam is described in one sentence. The parts are about the valley being emptied and about what remains of it.",
+        "tell": "That idea leaves out the families who left and the walls that still show when the water drops.",
+        "help": [
+          "Find the dam in the passage. Then count the sentences about people and buildings.",
+          "Look at what a dry summer brings back into view."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It leaves out the people who left and the place that still shows under the water.",
+        "accept_ideas": [
+          "it leaves out the people who lost homes",
+          "it misses what remained of the village",
+          "it leaves out the walls coming back",
+          "it misses the clearing of the valley"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long a dam lasts"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says nothing is missing",
+            "ask": "How many sentences describe the dam itself? What does the rest describe?"
+          },
+          {
+            "when": "the student says it leaves out the water supply",
+            "ask": "The city's water is the reason, not the subject. What did the valley lose?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this rung; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "Another main-idea lesson in this rung.",
+    "student_line": "The next reading is another main-idea lesson in this rung."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_3_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

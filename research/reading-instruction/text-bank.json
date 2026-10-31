@@ -1,499 +1,714 @@
 {
- "bank_version": 1,
- "updated": "2026-10-28",
- "rubric": "L/I/S/K 0-3; band is highest demand, grade_target is the reader label",
- "texts": [
-  {
-   "id": "TB-001",
-   "title": "Why Do Leaves Change Colors in the Fall",
-   "author": "U.S. National Park Service",
-   "url": "https://www.nps.gov/articles/why-do-leaves-change-in-the-fall.htm",
-   "license": "U.S. federal government work; public domain in the U.S.",
-   "genre": "nonfiction",
-   "grade_target": 7,
-   "band": "Band 7.1",
-   "length_words": 192,
-   "length_note": "full article excerpt",
-   "fk_grade": 7.81,
-   "complexity": {
-    "language": 2,
-    "idea": 2,
-    "structure": 1,
-    "knowledge": 1
-   },
-   "best_lesson_fit": [
-    "main_idea_band_7_1_0001"
-   ],
-   "central_idea": "Trees drop their leaves and break down chlorophyll to save energy for winter, which reveals the other pigments already in the leaf.",
-   "supporting_details": [
-    "Chlorophyll absorbs sunlight to make food and gives leaves their green color.",
-    "Shorter days and colder temperatures signal the tree to conserve energy.",
-    "The tree sends an enzyme to break down chlorophyll.",
-    "Other pigments become visible once chlorophyll is gone.",
-    "Rain and cool weather affect how bright the colors are."
-   ],
-   "cautions": "Source uses exclamation points; quote as written or trim. Define pigment, chlorophyll, and enzyme in context.",
-   "topic_domain": "science and nature"
-  },
-  {
-   "id": "TB-002",
-   "title": "Where is Earth's Water?",
-   "author": "U.S. Geological Survey, Water Science School",
-   "url": "https://www.usgs.gov/water-science-school/science/where-earths-water",
-   "license": "U.S. federal government work; public domain in the U.S.",
-   "genre": "nonfiction",
-   "grade_target": 7,
-   "band": "Band 7.1",
-   "length_words": 174,
-   "length_note": "prose excerpt; excludes data table",
-   "fk_grade": 8.29,
-   "complexity": {
-    "language": 2,
-    "idea": 2,
-    "structure": 1,
-    "knowledge": 1
-   },
-   "best_lesson_fit": [
-    "main_idea_band_7_1_0002"
-   ],
-   "cell_use": "Owns main_idea_band_7_1_0002 and may supply other passages in that cell. Does not serve text_structure_band_7_1_0001: a work serves one cell only. Doubtful it yields 8 disjoint prose passages because the page is table-heavy.",
-   "central_idea": "Almost all of Earth's water is salt water or locked in ice and underground, so only a tiny share is fresh surface water that people can use.",
-   "supporting_details": [
-    "About 96 percent of Earth's water is saline.",
-    "Over 68 percent of freshwater is in ice and glaciers.",
-    "About 30 percent of freshwater is underground.",
-    "Surface freshwater is about 1/150th of one percent of total water.",
-    "Rivers and lakes supply most of the water people use."
-   ],
-   "cautions": "Page is table-heavy; use the prose excerpt. Recheck figures at authoring time.",
-   "topic_domain": "science and nature"
-  },
-  {
-   "id": "TB-003",
-   "title": "The Diamond Necklace",
-   "author": "Guy de Maupassant",
-   "url": "https://www.gutenberg.org/ebooks/3080",
-   "clean_text_url": "https://viva.pressbooks.pub/compreader/chapter/necklace/",
-   "license": "Public domain in the U.S.",
-   "genre": "fiction",
-   "grade_target": "7 readability; 8-9 literary",
-   "band": "Band 9.1",
-   "length_words": null,
-   "length_note": "full short story; excerpt required for one lesson",
-   "fk_grade": null,
-   "reading_ease": 78.6,
-   "reading_ease_note": "Gutenberg reports about 7th grade",
-   "complexity": {
-    "language": 2.5,
-    "idea": 2,
-    "structure": 2,
-    "knowledge": 1.5
-   },
-   "best_lesson_fit": [
-    "literary_text_band_9_1_0001"
-   ],
-   "central_idea": "A young woman's desire for a richer life leads her to borrow a necklace, lose it, and spend years paying for a replacement that was never valuable.",
-   "supporting_details": [
-    "Mathilde is unhappy with her ordinary life and wants to appear wealthy.",
-    "She borrows a necklace for the ball and loses it.",
-    "The couple borrows heavily to buy a replacement.",
-    "Years of hard work and poverty follow.",
-    "The ending reveals the original necklace was paste."
-   ],
-   "cautions": "1884 and translated; violates the modern-text default below grade 11. Full story is too long for five items; excerpt must still contain setup, loss, and reveal.",
-   "topic_domain": "arts and language"
-  },
-  {
-   "id": "TB-004",
-   "title": "The Water in You: Water and the Human Body",
-   "author": "U.S. Geological Survey, Water Science School",
-   "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-you-water-and-human-body",
-   "license": "U.S. federal government work; public domain in the U.S.",
-   "genre": "nonfiction",
-   "topic_domain": "science and nature",
-   "grade_target": 4,
-   "band": "Band 4.1",
-   "length_words": 1371,
-   "length_note": "prose sections usable; FK measured on the opening sections, not the percentage tables",
-   "fk_grade": 6.6,
-   "fk_note": "body FK 9.8 because of the percentage and citation paragraphs; the opening two sections measure 5.1 and 7.2",
-   "complexity": {
-    "language": 2,
-    "idea": 2,
-    "structure": 2,
-    "knowledge": 1
-   },
-   "best_lesson_fit": [
-    "inference_band_4_1_0001"
-   ],
-   "slot_note": "provisional slot: first inference lesson of Band 4.1",
-   "single_passage_warning": "Use prose only. Drop the percentage tables and the 1945 citation; they raise the readability score without adding inference work.",
-   "central_idea": "The share of water in the human body changes with age and body fat, and water is required for nearly every function the body performs.",
-   "supporting_details": [
-    "Babies are born at about 78 percent water; by age one the share falls to about 65 percent.",
-    "Adult men are about 60 percent water; adult women are about 55 percent, because fat tissue holds less water than lean tissue.",
-    "The brain and heart are about 73 percent water and the lungs about 83 percent.",
-    "Even bones contain water, about 31 percent.",
-    "Water carries nutrients, removes waste, and controls body temperature."
-   ],
-   "cautions": "The page mixes simple prose with percent tables and a citation. Excerpt only the prose."
-  },
-  {
-   "id": "TB-005",
-   "title": "What is a rip current?",
-   "author": "NOAA National Ocean Service",
-   "url": "https://oceanservice.noaa.gov/facts/ripcurrent.html",
-   "license": "U.S. federal government work; public domain in the U.S.",
-   "genre": "nonfiction",
-   "topic_domain": "science and nature",
-   "grade_target": 4,
-   "band": "Band 4.1",
-   "length_words": 209,
-   "length_note": "short page; supports one lesson of two parts, not a cell",
-   "fk_grade": 7.4,
-   "complexity": {
-    "language": 2,
-    "idea": 2,
-    "structure": 1,
-    "knowledge": 1
-   },
-   "best_lesson_fit": [
-    "inference_band_4_1_0002"
-   ],
-   "slot_note": "provisional slot: second inference lesson of Band 4.1",
-   "single_passage_warning": "One paragraph scores 14.0 because of words like prevalent and channels. Rewrite nothing, but do not build an item on that sentence alone.",
-   "central_idea": "A rip current is a fast, narrow flow moving away from shore, and swimmers get into trouble by fighting it instead of swimming parallel to the beach.",
-   "supporting_details": [
-    "Rip currents occur on the East, Gulf, and West coasts and in the Great Lakes.",
-    "They move up to eight feet per second, faster than an Olympic swimmer.",
-    "A rip current is not the same thing as a rip tide.",
-    "The way out is to swim parallel to shore rather than against the current."
-   ],
-   "cautions": "Very short. Pair it with a second work if the cell needs more than one lesson from this topic."
-  },
-  {
-   "id": "TB-006",
-   "title": "Dehydration",
-   "author": "MedlinePlus, U.S. National Library of Medicine",
-   "url": "https://medlineplus.gov/dehydration.html",
-   "license": "U.S. federal government work; public domain in the U.S.",
-   "genre": "nonfiction",
-   "topic_domain": "science and nature",
-   "grade_target": 4,
-   "band": "Band 4.1",
-   "length_words": 396,
-   "length_note": "definition and cause paragraphs usable; the at-risk list drives the page-level score",
-   "fk_grade": 8.5,
-   "fk_note": "page-level 8.5 is inflated by the list of chronic illnesses; the definition paragraphs measure about 5",
-   "complexity": {
-    "language": 2,
-    "idea": 2,
-    "structure": 2,
-    "knowledge": 1
-   },
-   "best_lesson_fit": [
-    "inference_band_4_1_0003"
-   ],
-   "slot_note": "provisional slot: third inference lesson of Band 4.1",
-   "single_passage_warning": "Excerpt the prose only. The at-risk list carries diabetes, cystic fibrosis, and kidney problems, which are outside grade-4 knowledge.",
-   "central_idea": "Dehydration happens when a person loses more fluid than they take in, and some people are at higher risk because their bodies signal thirst weakly or lose fluid faster.",
-   "supporting_details": [
-    "Dehydration is a loss of too much fluid from the body.",
-    "It happens when fluid loss exceeds fluid intake.",
-    "Some older adults lose their sense of thirst as they age.",
-    "Infants and young children dehydrate faster because of diarrhea or vomiting.",
-    "Some medicines and illnesses cause more urination or sweating."
-   ],
-   "cautions": "Strip the site banner and the terminology notice before banking a passage. The at-risk list is a knowledge barrier at this band."
-  },
-  {
-   "id": "TB-007",
-   "title": "Caves and Aquifers",
-   "author": "U.S. National Park Service",
-   "url": "https://www.nps.gov/articles/caves-and-aquifers.htm",
-   "license": "U.S. federal government work; public domain in the U.S.",
-   "genre": "nonfiction",
-   "topic_domain": "science and nature",
-   "grade_target": 4,
-   "band": "Band 4.1",
-   "measured_fk": 7.7,
-   "placement_note": "Measured 7.7 at its densest paragraph and 4.5 at its simplest; idea load is one-step, so 1.2.1 places it one band below its language score.",
-   "length_words": 460,
-   "length_note": "prose sections usable",
-   "fk_grade": 7.7,
-   "complexity": {
-    "language": 3,
-    "idea": 1,
-    "structure": 2,
-    "knowledge": 1
-   },
-   "best_lesson_fit": [
-    "inference_band_4_1_0004"
-   ],
-   "slot_note": "provisional slot: fourth inference lesson of Band 4.1",
-   "single_passage_warning": "karst, porosity, aquifer, and soluble are above the band. Each must be supported in help[0] or tell, per 1.2.1.",
-   "central_idea": "Caves form when slightly acidic rainwater slowly dissolves bedrock, and the same openings can hold groundwater like a sponge.",
-   "supporting_details": [
-    "Rain picks up carbon dioxide from the air and soil, which makes it slightly acidic.",
-    "Slightly acidic water dissolves bedrock over a long time, which opens caves.",
-    "Porous rock acts like a sponge and stores groundwater.",
-    "The openings in cave country store a large share of the groundwater people use."
-   ],
-   "cautions": "The page addresses the reader in a light voice in places. Keep the tone adult; do not copy 'Don't worry though!' into student copy."
-  },
-  {
-   "id": "TB-008",
-   "title": "What Is a Black Hole? (Grades 5-8)",
-   "author": "National Aeronautics and Space Administration",
-   "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-a-black-hole-grades-5-8/",
-   "license": "U.S. federal government work; public domain in the U.S.",
-   "genre": "nonfiction",
-   "topic_domain": "science and nature",
-   "grade_target": 4,
-   "band": "Band 4.1",
-   "measured_fk": 6.7,
-   "placement_note": "Dense paragraphs run to 9+; the explanatory paragraphs about mass and gravity measure 5.1 and 6.7. Placement uses those, per 1.2.1.",
-   "length_words": 900,
-   "length_note": "use the mass-and-gravity sections only",
-   "fk_grade": 6.7,
-   "complexity": {
-    "language": 2,
-    "idea": 2,
-    "structure": 2,
-    "knowledge": 1
-   },
-   "best_lesson_fit": [
-    "inference_band_4_1_0005"
-   ],
-   "slot_note": "provisional slot: fifth inference lesson of Band 4.1",
-   "single_passage_warning": "Skip the singularity and event-horizon paragraphs; they are far above the band and are not needed for the inference.",
-   "central_idea": "A black hole pulls with the gravity of whatever mass it holds, so one with the sun's mass would keep the planets in their orbits, and the sun itself is too small to become one.",
-   "supporting_details": [
-    "A black hole with the same mass as the sun would have the same gravity as the sun.",
-    "Earth would not fall in; the planets would orbit it the same way.",
-    "The sun does not have enough mass to collapse into a black hole.",
-    "At the end of its life the sun will become a red giant and throw off its outer layers."
-   ],
-   "cautions": "The page is written for students, so its framing is school-facing. The passage is fine; the tutor must not adopt a classroom voice."
-  },
-  {
-   "id": "TB-009",
-   "title": "The Story of the Beaver Marsh",
-   "author": "U.S. National Park Service",
-   "url": "https://www.nps.gov/articles/000/story-of-the-beaver-marsh.htm",
-   "license": "U.S. federal government work; public domain in the U.S.",
-   "genre": "nonfiction",
-   "grade_target": 4,
-   "band": "Band 4.2",
-   "length_words": 304,
-   "length_note": "three adapted passages, 100-103 words each",
-   "fk_grade": 5.85,
-   "complexity": {
-    "language": 2,
-    "idea": 2,
-    "structure": 2,
-    "knowledge": 1
-   },
-   "best_lesson_fit": [
-    "main_idea_band_4_2_0001"
-   ],
-   "central_idea": "A wetland that was drained and junked came back after volunteers cleared the junk and beavers raised the water.",
-   "supporting_details": [
-    "Land development and the Ohio and Erie Canal drained the original wetland.",
-    "A dairy farm, homes, and an auto repair shop stood on the land by the 1970s.",
-    "Beavers returned in the late 1970s after more than a century away and built dams that flooded the area.",
-    "Sierra Club volunteers and the park service hauled away car parts, bed springs, and trash in the mid 1980s.",
-    "Ohio has lost nearly 90 percent of its wetlands, and 46 percent of endangered species need wetlands."
-   ],
-   "cautions": "Local names (Lock 26, Howe Meadow, Riverview Road) were kept; they date the place without adding difficulty. Recheck the two percentages at authoring time.",
-   "topic_domain": "science and nature"
-  },
-  {
-   "id": "TB-010",
-   "title": "Shenandoah: Not Without the CCC",
-   "author": "U.S. National Park Service",
-   "url": "https://www.nps.gov/articles/shenandoah-not-without-the-ccc.htm",
-   "license": "U.S. federal government work; public domain in the U.S.",
-   "genre": "nonfiction",
-   "grade_target": 4,
-   "band": "Band 4.2",
-   "length_words": 311,
-   "length_note": "three adapted passages, 101-108 words each",
-   "fk_grade": 5.73,
-   "complexity": {
-    "language": 2,
-    "idea": 2,
-    "structure": 2,
-    "knowledge": 2
-   },
-   "best_lesson_fit": [
-    "main_idea_band_4_2_0002"
-   ],
-   "central_idea": "CCC crews built the park's roads, buildings, and views, so much of what looks wild was made by people.",
-   "supporting_details": [
-    "Two CCC camps opened in 1933, and ten stood in or near the park by 1942.",
-    "The Army ran the camps; the National Park Service chose the work.",
-    "Crews built trails, fire roads, comfort stations, a sawmill, a shingle mill, a blacksmith shop, and nurseries.",
-    "Crews cleared, planted, and shaped the land along the Skyline Drive.",
-    "Researchers say no area in view of the drive is fully natural."
-   ],
-   "cautions": "Needs one line of context for the Depression, which the passage supplies. The 1933 pageant quotation was dropped.",
-   "topic_domain": "history and people"
-  },
-  {
-   "id": "TB-011",
-   "title": "The Water Cycle",
-   "author": "U.S. Geological Survey, Water Science School",
-   "url": "https://www.usgs.gov/water-science-school/water-cycle",
-   "license": "U.S. federal government work; public domain in the U.S.",
-   "genre": "nonfiction",
-   "grade_target": 4,
-   "band": "Band 4.2",
-   "length_words": 308,
-   "length_note": "three adapted passages, 100-104 words each",
-   "fk_grade": 5.69,
-   "complexity": {
-    "language": 2,
-    "idea": 2,
-    "structure": 2,
-    "knowledge": 1
-   },
-   "best_lesson_fit": [
-    "main_idea_band_4_2_0003"
-   ],
-   "central_idea": "Water is always moving between the places it is stored, and people change that movement.",
-   "supporting_details": [
-    "Water is stored in the air, on the land, and below the ground, as liquid, solid, or gas.",
-    "Oceans hold about 96 percent of Earth's water; the rest is fresh.",
-    "Pools hold water for very different lengths of time.",
-    "Water moves by evaporation, clouds, rain, runoff, and underground flow.",
-    "People pump water, build dams, drain wetlands, and change how clean the water is."
-   ],
-   "cautions": "Strip the diagram labels and the linked-page references. Do not import the 68/30 percent figures; they belong to a different USGS page.",
-   "topic_domain": "science and nature"
-  },
-  {
-   "id": "TB-012",
-   "title": "Wildland Fire: What is a Prescribed Fire?",
-   "author": "U.S. National Park Service",
-   "url": "https://www.nps.gov/articles/what-is-a-prescribed-fire.htm",
-   "license": "U.S. federal government work; public domain in the U.S.",
-   "genre": "nonfiction",
-   "grade_target": 4,
-   "band": "Band 4.2",
-   "length_words": 314,
-   "length_note": "three adapted passages, 102-107 words each",
-   "fk_grade": 5.56,
-   "complexity": {
-    "language": 2,
-    "idea": 2,
-    "structure": 2,
-    "knowledge": 1
-   },
-   "best_lesson_fit": [
-    "main_idea_band_4_2_0004"
-   ],
-   "central_idea": "A prescribed fire is a planned burn held to written conditions and used to reach a goal on the land.",
-   "supporting_details": [
-    "A prescription covers public and crew safety, weather, and the chance of meeting the goal.",
-    "Burns clear fuel near homes, create habitat, help rare species, and keep historic scenes open.",
-    "Every burn needs a fire management plan and a burn plan.",
-    "A go/no-go list is checked on the day of the burn.",
-    "When fire cannot be used, crews cut and haul brush and may burn the piles later."
-   ],
-   "cautions": "Drop the ignition-device chemistry (glycol, potassium permanganate) and the park statistics. Keep the two park examples as examples only.",
-   "topic_domain": "science and nature"
-  },
-  {
-   "id": "TB-013",
-   "title": "Hurricanes",
-   "author": "National Oceanic and Atmospheric Administration",
-   "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere/hurricanes",
-   "license": "U.S. federal government work; public domain in the U.S.",
-   "genre": "nonfiction",
-   "grade_target": 4,
-   "band": "Band 4.2",
-   "length_words": 304,
-   "length_note": "three adapted passages, 100-102 words each",
-   "fk_grade": 5.88,
-   "complexity": {
-    "language": 2,
-    "idea": 2,
-    "structure": 2,
-    "knowledge": 2
-   },
-   "best_lesson_fit": [
-    "main_idea_band_4_2_0005"
-   ],
-   "central_idea": "A hurricane is a storm fed by warm ocean water, and storms are sorted by wind speed and named by the place where they form.",
-   "supporting_details": [
-    "Hurricanes are low-pressure systems that gain energy from warm ocean water.",
-    "Winds circle in closed circulation around a calm eye, with the eyewall around it.",
-    "Storms are classed by wind speed: below 39, 39-73, and 74 miles per hour and above.",
-    "Storms need warm water, moist air, and steady winds to grow.",
-    "The same storm is a hurricane, a typhoon, or a cyclone depending on where it forms, and names are reused every six years."
-   ],
-   "cautions": "The page is navigation-heavy; extract the three sections only. Coriolis and wind shear were dropped as above the band.",
-   "topic_domain": "science and nature"
-  },
-  {
-   "id": "TB-014",
-   "title": "What is a planet?",
-   "author": "National Aeronautics and Space Administration",
-   "url": "https://science.nasa.gov/solar-system/planets/what-is-a-planet/",
-   "license": "U.S. federal government work; public domain in the U.S.",
-   "genre": "nonfiction",
-   "grade_target": 4,
-   "band": "Band 4.2",
-   "length_words": 308,
-   "length_note": "three adapted passages, 101-105 words each",
-   "fk_grade": 5.69,
-   "complexity": {
-    "language": 2,
-    "idea": 3,
-    "structure": 2,
-    "knowledge": 2
-   },
-   "best_lesson_fit": [
-    "main_idea_band_4_2_0006"
-   ],
-   "central_idea": "The word planet means what astronomers agree it means, and that agreement changed when new objects were found.",
-   "supporting_details": [
-    "The 2006 definition requires a planet to orbit a star, be round from its own gravity, and clear its path.",
-    "Pluto was called the ninth planet from 1930.",
-    "Better telescopes found many icy objects in the Kuiper Belt in the 1990s.",
-    "Eris, found in 2005, forced the vote that made Pluto a dwarf planet.",
-    "Astronomers still disagree about the rule, and the meaning may change again."
-   ],
-   "cautions": "Highest idea load in the rung: the subject is a definition, not an object. Keep the disagreement, or the passage teaches a false certainty.",
-   "topic_domain": "science and nature"
-  }
- ],
- "screened_not_banked": [
-  {
-   "title": "Handwashing",
-   "url": "https://medlineplus.gov/ency/patientinstructions/000972.htm",
-   "reason": "Rejected by user as boring: hygiene instruction with no stake or surprise. Not a level or license problem; FK 6.2 was in band."
-  },
-  {
-   "title": "How to Recognize and Report Spam Text Messages",
-   "url": "https://consumer.ftc.gov/articles/how-recognize-and-report-spam-text-messages",
-   "reason": "Rejected by user as boring: consumer checklist. FK 7-9 depending on excerpt; the list items raise the score."
-  },
-  {
-   "title": "How Do Coral Reefs Form?",
-   "url": "https://oceanservice.noaa.gov/education/tutorial_corals/coral04_reefs.html",
-   "reason": "FK 10.5 on the excerpt; better at Band 9.1, vocabulary needs support."
-  },
-  {
-   "title": "Wolf Restoration in Yellowstone",
-   "url": "https://www.nps.gov/articles/wolf-restoration-in-yellowstone-reintroduction-to-recovery.htm",
-   "reason": "Technical research-report tone; not a clean grade-7 main-idea passage."
-  },
-  {
-   "title": "How Bees Make Honey",
-   "url": "https://news.cals.wisc.edu/2012/06/04/how-bees-make-honey-producing-honey-is-a-strenuous-team-effort-for-bees/",
-   "reason": "Not a government work; license needs checking before use."
-  }
- ]
+  "bank_version": 1,
+  "updated": "2026-10-28",
+  "rubric": "L/I/S/K 0-3; band is highest demand, grade_target is the reader label",
+  "texts": [
+    {
+      "id": "TB-001",
+      "title": "Why Do Leaves Change Colors in the Fall",
+      "author": "U.S. National Park Service",
+      "url": "https://www.nps.gov/articles/why-do-leaves-change-in-the-fall.htm",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "grade_target": 7,
+      "band": "Band 7.1",
+      "length_words": 192,
+      "length_note": "full article excerpt",
+      "fk_grade": 7.81,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "main_idea_band_7_1_0001"
+      ],
+      "central_idea": "Trees drop their leaves and break down chlorophyll to save energy for winter, which reveals the other pigments already in the leaf.",
+      "supporting_details": [
+        "Chlorophyll absorbs sunlight to make food and gives leaves their green color.",
+        "Shorter days and colder temperatures signal the tree to conserve energy.",
+        "The tree sends an enzyme to break down chlorophyll.",
+        "Other pigments become visible once chlorophyll is gone.",
+        "Rain and cool weather affect how bright the colors are."
+      ],
+      "cautions": "Source uses exclamation points; quote as written or trim. Define pigment, chlorophyll, and enzyme in context.",
+      "topic_domain": "science and nature"
+    },
+    {
+      "id": "TB-002",
+      "title": "Where is Earth's Water?",
+      "author": "U.S. Geological Survey, Water Science School",
+      "url": "https://www.usgs.gov/water-science-school/science/where-earths-water",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "grade_target": 7,
+      "band": "Band 7.1",
+      "length_words": 174,
+      "length_note": "prose excerpt; excludes data table",
+      "fk_grade": 8.29,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "main_idea_band_7_1_0002"
+      ],
+      "cell_use": "Owns main_idea_band_7_1_0002 and may supply other passages in that cell. Does not serve text_structure_band_7_1_0001: a work serves one cell only. Doubtful it yields 8 disjoint prose passages because the page is table-heavy.",
+      "central_idea": "Almost all of Earth's water is salt water or locked in ice and underground, so only a tiny share is fresh surface water that people can use.",
+      "supporting_details": [
+        "About 96 percent of Earth's water is saline.",
+        "Over 68 percent of freshwater is in ice and glaciers.",
+        "About 30 percent of freshwater is underground.",
+        "Surface freshwater is about 1/150th of one percent of total water.",
+        "Rivers and lakes supply most of the water people use."
+      ],
+      "cautions": "Page is table-heavy; use the prose excerpt. Recheck figures at authoring time.",
+      "topic_domain": "science and nature"
+    },
+    {
+      "id": "TB-003",
+      "title": "The Diamond Necklace",
+      "author": "Guy de Maupassant",
+      "url": "https://www.gutenberg.org/ebooks/3080",
+      "clean_text_url": "https://viva.pressbooks.pub/compreader/chapter/necklace/",
+      "license": "Public domain in the U.S.",
+      "genre": "fiction",
+      "grade_target": "7 readability; 8-9 literary",
+      "band": "Band 9.1",
+      "length_words": null,
+      "length_note": "full short story; excerpt required for one lesson",
+      "fk_grade": null,
+      "reading_ease": 78.6,
+      "reading_ease_note": "Gutenberg reports about 7th grade",
+      "complexity": {
+        "language": 2.5,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1.5
+      },
+      "best_lesson_fit": [
+        "literary_text_band_9_1_0001"
+      ],
+      "central_idea": "A young woman's desire for a richer life leads her to borrow a necklace, lose it, and spend years paying for a replacement that was never valuable.",
+      "supporting_details": [
+        "Mathilde is unhappy with her ordinary life and wants to appear wealthy.",
+        "She borrows a necklace for the ball and loses it.",
+        "The couple borrows heavily to buy a replacement.",
+        "Years of hard work and poverty follow.",
+        "The ending reveals the original necklace was paste."
+      ],
+      "cautions": "1884 and translated; violates the modern-text default below grade 11. Full story is too long for five items; excerpt must still contain setup, loss, and reveal.",
+      "topic_domain": "arts and language"
+    },
+    {
+      "id": "TB-004",
+      "title": "The Water in You: Water and the Human Body",
+      "author": "U.S. Geological Survey, Water Science School",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-you-water-and-human-body",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "topic_domain": "science and nature",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_words": 1371,
+      "length_note": "prose sections usable; FK measured on the opening sections, not the percentage tables",
+      "fk_grade": 6.6,
+      "fk_note": "body FK 9.8 because of the percentage and citation paragraphs; the opening two sections measure 5.1 and 7.2",
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "inference_band_4_1_0001"
+      ],
+      "slot_note": "provisional slot: first inference lesson of Band 4.1",
+      "single_passage_warning": "Use prose only. Drop the percentage tables and the 1945 citation; they raise the readability score without adding inference work.",
+      "central_idea": "The share of water in the human body changes with age and body fat, and water is required for nearly every function the body performs.",
+      "supporting_details": [
+        "Babies are born at about 78 percent water; by age one the share falls to about 65 percent.",
+        "Adult men are about 60 percent water; adult women are about 55 percent, because fat tissue holds less water than lean tissue.",
+        "The brain and heart are about 73 percent water and the lungs about 83 percent.",
+        "Even bones contain water, about 31 percent.",
+        "Water carries nutrients, removes waste, and controls body temperature."
+      ],
+      "cautions": "The page mixes simple prose with percent tables and a citation. Excerpt only the prose."
+    },
+    {
+      "id": "TB-005",
+      "title": "What is a rip current?",
+      "author": "NOAA National Ocean Service",
+      "url": "https://oceanservice.noaa.gov/facts/ripcurrent.html",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "topic_domain": "science and nature",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_words": 209,
+      "length_note": "short page; supports one lesson of two parts, not a cell",
+      "fk_grade": 7.4,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "inference_band_4_1_0002"
+      ],
+      "slot_note": "provisional slot: second inference lesson of Band 4.1",
+      "single_passage_warning": "One paragraph scores 14.0 because of words like prevalent and channels. Rewrite nothing, but do not build an item on that sentence alone.",
+      "central_idea": "A rip current is a fast, narrow flow moving away from shore, and swimmers get into trouble by fighting it instead of swimming parallel to the beach.",
+      "supporting_details": [
+        "Rip currents occur on the East, Gulf, and West coasts and in the Great Lakes.",
+        "They move up to eight feet per second, faster than an Olympic swimmer.",
+        "A rip current is not the same thing as a rip tide.",
+        "The way out is to swim parallel to shore rather than against the current."
+      ],
+      "cautions": "Very short. Pair it with a second work if the cell needs more than one lesson from this topic."
+    },
+    {
+      "id": "TB-006",
+      "title": "Dehydration",
+      "author": "MedlinePlus, U.S. National Library of Medicine",
+      "url": "https://medlineplus.gov/dehydration.html",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "topic_domain": "science and nature",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_words": 396,
+      "length_note": "definition and cause paragraphs usable; the at-risk list drives the page-level score",
+      "fk_grade": 8.5,
+      "fk_note": "page-level 8.5 is inflated by the list of chronic illnesses; the definition paragraphs measure about 5",
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "inference_band_4_1_0003"
+      ],
+      "slot_note": "provisional slot: third inference lesson of Band 4.1",
+      "single_passage_warning": "Excerpt the prose only. The at-risk list carries diabetes, cystic fibrosis, and kidney problems, which are outside grade-4 knowledge.",
+      "central_idea": "Dehydration happens when a person loses more fluid than they take in, and some people are at higher risk because their bodies signal thirst weakly or lose fluid faster.",
+      "supporting_details": [
+        "Dehydration is a loss of too much fluid from the body.",
+        "It happens when fluid loss exceeds fluid intake.",
+        "Some older adults lose their sense of thirst as they age.",
+        "Infants and young children dehydrate faster because of diarrhea or vomiting.",
+        "Some medicines and illnesses cause more urination or sweating."
+      ],
+      "cautions": "Strip the site banner and the terminology notice before banking a passage. The at-risk list is a knowledge barrier at this band."
+    },
+    {
+      "id": "TB-007",
+      "title": "Caves and Aquifers",
+      "author": "U.S. National Park Service",
+      "url": "https://www.nps.gov/articles/caves-and-aquifers.htm",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "topic_domain": "science and nature",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "measured_fk": 7.7,
+      "placement_note": "Measured 7.7 at its densest paragraph and 4.5 at its simplest; idea load is one-step, so 1.2.1 places it one band below its language score.",
+      "length_words": 460,
+      "length_note": "prose sections usable",
+      "fk_grade": 7.7,
+      "complexity": {
+        "language": 3,
+        "idea": 1,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "inference_band_4_1_0004"
+      ],
+      "slot_note": "provisional slot: fourth inference lesson of Band 4.1",
+      "single_passage_warning": "karst, porosity, aquifer, and soluble are above the band. Each must be supported in help[0] or tell, per 1.2.1.",
+      "central_idea": "Caves form when slightly acidic rainwater slowly dissolves bedrock, and the same openings can hold groundwater like a sponge.",
+      "supporting_details": [
+        "Rain picks up carbon dioxide from the air and soil, which makes it slightly acidic.",
+        "Slightly acidic water dissolves bedrock over a long time, which opens caves.",
+        "Porous rock acts like a sponge and stores groundwater.",
+        "The openings in cave country store a large share of the groundwater people use."
+      ],
+      "cautions": "The page addresses the reader in a light voice in places. Keep the tone adult; do not copy 'Don't worry though!' into student copy."
+    },
+    {
+      "id": "TB-008",
+      "title": "What Is a Black Hole? (Grades 5-8)",
+      "author": "National Aeronautics and Space Administration",
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-a-black-hole-grades-5-8/",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "topic_domain": "science and nature",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "measured_fk": 6.7,
+      "placement_note": "Dense paragraphs run to 9+; the explanatory paragraphs about mass and gravity measure 5.1 and 6.7. Placement uses those, per 1.2.1.",
+      "length_words": 900,
+      "length_note": "use the mass-and-gravity sections only",
+      "fk_grade": 6.7,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "inference_band_4_1_0005"
+      ],
+      "slot_note": "provisional slot: fifth inference lesson of Band 4.1",
+      "single_passage_warning": "Skip the singularity and event-horizon paragraphs; they are far above the band and are not needed for the inference.",
+      "central_idea": "A black hole pulls with the gravity of whatever mass it holds, so one with the sun's mass would keep the planets in their orbits, and the sun itself is too small to become one.",
+      "supporting_details": [
+        "A black hole with the same mass as the sun would have the same gravity as the sun.",
+        "Earth would not fall in; the planets would orbit it the same way.",
+        "The sun does not have enough mass to collapse into a black hole.",
+        "At the end of its life the sun will become a red giant and throw off its outer layers."
+      ],
+      "cautions": "The page is written for students, so its framing is school-facing. The passage is fine; the tutor must not adopt a classroom voice."
+    },
+    {
+      "id": "TB-009",
+      "title": "The Story of the Beaver Marsh",
+      "author": "U.S. National Park Service",
+      "url": "https://www.nps.gov/articles/000/story-of-the-beaver-marsh.htm",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_words": 304,
+      "length_note": "three adapted passages, 100-103 words each",
+      "fk_grade": 5.85,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "main_idea_band_4_2_0001"
+      ],
+      "central_idea": "A wetland that was drained and junked came back after volunteers cleared the junk and beavers raised the water.",
+      "supporting_details": [
+        "Land development and the Ohio and Erie Canal drained the original wetland.",
+        "A dairy farm, homes, and an auto repair shop stood on the land by the 1970s.",
+        "Beavers returned in the late 1970s after more than a century away and built dams that flooded the area.",
+        "Sierra Club volunteers and the park service hauled away car parts, bed springs, and trash in the mid 1980s.",
+        "Ohio has lost nearly 90 percent of its wetlands, and 46 percent of endangered species need wetlands."
+      ],
+      "cautions": "Local names (Lock 26, Howe Meadow, Riverview Road) were kept; they date the place without adding difficulty. Recheck the two percentages at authoring time.",
+      "topic_domain": "science and nature"
+    },
+    {
+      "id": "TB-010",
+      "title": "Shenandoah: Not Without the CCC",
+      "author": "U.S. National Park Service",
+      "url": "https://www.nps.gov/articles/shenandoah-not-without-the-ccc.htm",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_words": 311,
+      "length_note": "three adapted passages, 101-108 words each",
+      "fk_grade": 5.73,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "main_idea_band_4_2_0002"
+      ],
+      "central_idea": "CCC crews built the park's roads, buildings, and views, so much of what looks wild was made by people.",
+      "supporting_details": [
+        "Two CCC camps opened in 1933, and ten stood in or near the park by 1942.",
+        "The Army ran the camps; the National Park Service chose the work.",
+        "Crews built trails, fire roads, comfort stations, a sawmill, a shingle mill, a blacksmith shop, and nurseries.",
+        "Crews cleared, planted, and shaped the land along the Skyline Drive.",
+        "Researchers say no area in view of the drive is fully natural."
+      ],
+      "cautions": "Needs one line of context for the Depression, which the passage supplies. The 1933 pageant quotation was dropped.",
+      "topic_domain": "history and people"
+    },
+    {
+      "id": "TB-011",
+      "title": "The Water Cycle",
+      "author": "U.S. Geological Survey, Water Science School",
+      "url": "https://www.usgs.gov/water-science-school/water-cycle",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_words": 308,
+      "length_note": "three adapted passages, 100-104 words each",
+      "fk_grade": 5.69,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "main_idea_band_4_2_0003"
+      ],
+      "central_idea": "Water is always moving between the places it is stored, and people change that movement.",
+      "supporting_details": [
+        "Water is stored in the air, on the land, and below the ground, as liquid, solid, or gas.",
+        "Oceans hold about 96 percent of Earth's water; the rest is fresh.",
+        "Pools hold water for very different lengths of time.",
+        "Water moves by evaporation, clouds, rain, runoff, and underground flow.",
+        "People pump water, build dams, drain wetlands, and change how clean the water is."
+      ],
+      "cautions": "Strip the diagram labels and the linked-page references. Do not import the 68/30 percent figures; they belong to a different USGS page.",
+      "topic_domain": "science and nature"
+    },
+    {
+      "id": "TB-012",
+      "title": "Wildland Fire: What is a Prescribed Fire?",
+      "author": "U.S. National Park Service",
+      "url": "https://www.nps.gov/articles/what-is-a-prescribed-fire.htm",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_words": 314,
+      "length_note": "three adapted passages, 102-107 words each",
+      "fk_grade": 5.56,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "main_idea_band_4_2_0004"
+      ],
+      "central_idea": "A prescribed fire is a planned burn held to written conditions and used to reach a goal on the land.",
+      "supporting_details": [
+        "A prescription covers public and crew safety, weather, and the chance of meeting the goal.",
+        "Burns clear fuel near homes, create habitat, help rare species, and keep historic scenes open.",
+        "Every burn needs a fire management plan and a burn plan.",
+        "A go/no-go list is checked on the day of the burn.",
+        "When fire cannot be used, crews cut and haul brush and may burn the piles later."
+      ],
+      "cautions": "Drop the ignition-device chemistry (glycol, potassium permanganate) and the park statistics. Keep the two park examples as examples only.",
+      "topic_domain": "science and nature"
+    },
+    {
+      "id": "TB-013",
+      "title": "Hurricanes",
+      "author": "National Oceanic and Atmospheric Administration",
+      "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere/hurricanes",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_words": 304,
+      "length_note": "three adapted passages, 100-102 words each",
+      "fk_grade": 5.88,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "main_idea_band_4_2_0005"
+      ],
+      "central_idea": "A hurricane is a storm fed by warm ocean water, and storms are sorted by wind speed and named by the place where they form.",
+      "supporting_details": [
+        "Hurricanes are low-pressure systems that gain energy from warm ocean water.",
+        "Winds circle in closed circulation around a calm eye, with the eyewall around it.",
+        "Storms are classed by wind speed: below 39, 39-73, and 74 miles per hour and above.",
+        "Storms need warm water, moist air, and steady winds to grow.",
+        "The same storm is a hurricane, a typhoon, or a cyclone depending on where it forms, and names are reused every six years."
+      ],
+      "cautions": "The page is navigation-heavy; extract the three sections only. Coriolis and wind shear were dropped as above the band.",
+      "topic_domain": "science and nature"
+    },
+    {
+      "id": "TB-014",
+      "title": "What is a planet?",
+      "author": "National Aeronautics and Space Administration",
+      "url": "https://science.nasa.gov/solar-system/planets/what-is-a-planet/",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_words": 308,
+      "length_note": "three adapted passages, 101-105 words each",
+      "fk_grade": 5.69,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "main_idea_band_4_2_0006"
+      ],
+      "central_idea": "The word planet means what astronomers agree it means, and that agreement changed when new objects were found.",
+      "supporting_details": [
+        "The 2006 definition requires a planet to orbit a star, be round from its own gravity, and clear its path.",
+        "Pluto was called the ninth planet from 1930.",
+        "Better telescopes found many icy objects in the Kuiper Belt in the 1990s.",
+        "Eris, found in 2005, forced the vote that made Pluto a dwarf planet.",
+        "Astronomers still disagree about the rule, and the meaning may change again."
+      ],
+      "cautions": "Highest idea load in the rung: the subject is a definition, not an object. Keep the disagreement, or the passage teaches a false certainty.",
+      "topic_domain": "science and nature"
+    },
+    {
+      "id": "TB-015",
+      "title": "The Field That Rests",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 331,
+      "fk_grade": 5.1,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "main_idea_band_4_3_0001"
+      ],
+      "cell_use": "Owns its own lesson in main_idea Band 4.3 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A farmer gives up a season of income so the field can rebuild what repeated cropping took out.",
+      "supporting_details": [
+        "A fallow field is planted with a cover crop, and none of it is sold.",
+        "Repeated cropping takes nitrogen out, builds pests and weeds, and lets rain carry soil away.",
+        "Legumes store nitrogen in their roots; the cover shades weeds; roots feed soil life.",
+        "The gain arrives later, as less fertilizer and a bigger next crop.",
+        "A cover crop between cash crops keeps money coming in but does not rest the ground the same way."
+      ],
+      "cautions": "No yield or price figures. The economics stay qualitative on purpose.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-016",
+      "title": "The Word That Changed Its Mind",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 325,
+      "fk_grade": 5.9,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "main_idea_band_4_3_0002"
+      ],
+      "cell_use": "Owns its own lesson in main_idea Band 4.3 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "Word meanings drift through everyday use, and dictionaries record the drift rather than decide it.",
+      "supporting_details": [
+        "Nice came from Latin nescius, meant foolish in the 1200s, exact in the 1500s, and pleasant by 1700.",
+        "No one voted; speakers used the word in new ways and listeners followed.",
+        "Awful moved the other way, from full of awe to bad.",
+        "A dictionary records senses already in common use and keeps old ones until they die out."
+      ],
+      "cautions": "Etymologies are the standard reference ones, stated without fine dates. Do not add a dictionary citation.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-017",
+      "title": "The Price Before Dawn",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 327,
+      "fk_grade": 4.9,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "main_idea_band_4_3_0003"
+      ],
+      "cell_use": "Owns its own lesson in main_idea Band 4.3 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "The day's price is found on the market floor from that morning's supply, and it lasts about a day.",
+      "supporting_details": [
+        "Nothing is marked; the seller quotes a price when a buyer stops.",
+        "A glut lowers the price, and a short load raises it.",
+        "A seller would rather sell cheap than hold a crate worth nothing by morning.",
+        "Weather two weeks earlier reaches the price only through the size of today's load.",
+        "Tomorrow's price is found again, from a different set of trucks."
+      ],
+      "cautions": "No market name, city, or figures. The practice is described generally.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-018",
+      "title": "Twenty-Six Miles and Change",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 310,
+      "fk_grade": 5.5,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "main_idea_band_4_3_0004"
+      ],
+      "cell_use": "Owns its own lesson in main_idea Band 4.3 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A race distance that came from one 1908 course was later fixed by agreement for every marathon.",
+      "supporting_details": [
+        "The 1908 race started below Windsor Castle and finished in a west London stadium.",
+        "The finish moved in front of the royal box, which added 385 yards.",
+        "Later host cities chose their own distances, so times could not be compared.",
+        "In 1921 the world running body adopted the London figure as the standard.",
+        "The odd tail of the race still shapes how runners plan a finish."
+      ],
+      "cautions": "No times, records, or runner names; each would need verification and none is needed.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-019",
+      "title": "The Village Under the Water",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 320,
+      "fk_grade": 6.6,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "main_idea_band_4_3_0005"
+      ],
+      "cell_use": "Owns its own lesson in main_idea Band 4.3 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A reservoir is built by emptying a lived-in valley, and the place stays half-visible under the water.",
+      "supporting_details": [
+        "A river valley with high sides and a narrow end is dammed to hold water.",
+        "The land is bought, sometimes under a law that allows taking it.",
+        "Some buildings are sold or reused; a stone church keeps its walls because removal costs too much.",
+        "Graves are moved because families ask and because a drowned cemetery is a public problem.",
+        "In a dry summer the walls, the road, and a bridge come back into view."
+      ],
+      "cautions": "No town, valley, reservoir, or date is named. Naming a real one would require facts this text does not carry.",
+      "topic_domain": "history and people",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-020",
+      "title": "The Pass That Closes for Winter",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 327,
+      "fk_grade": 6.0,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 1,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "main_idea_band_4_3_0006"
+      ],
+      "cell_use": "Owns its own lesson in main_idea Band 4.3 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "Some mountain passes close on purpose, because a slide cannot be managed while traffic is on the road.",
+      "supporting_details": [
+        "Crews fire charges to bring snow down at an hour they choose, then plow the road.",
+        "A loaded slope can release without warning, and a car under it has nowhere to go.",
+        "Closing removes what would be hurt and lets crews work on their own schedule.",
+        "The cost falls on the towns: longer drives, rerouted deliveries, a thinner clinic.",
+        "A tunnel or gallery keeps a pass open, but costs far more than a gate."
+      ],
+      "cautions": "No pass, highway, or agency is named. Drive times are illustrative, not measured.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    }
+  ],
+  "screened_not_banked": [
+    {
+      "title": "Handwashing",
+      "url": "https://medlineplus.gov/ency/patientinstructions/000972.htm",
+      "reason": "Rejected by user as boring: hygiene instruction with no stake or surprise. Not a level or license problem; FK 6.2 was in band."
+    },
+    {
+      "title": "How to Recognize and Report Spam Text Messages",
+      "url": "https://consumer.ftc.gov/articles/how-recognize-and-report-spam-text-messages",
+      "reason": "Rejected by user as boring: consumer checklist. FK 7-9 depending on excerpt; the list items raise the score."
+    },
+    {
+      "title": "How Do Coral Reefs Form?",
+      "url": "https://oceanservice.noaa.gov/education/tutorial_corals/coral04_reefs.html",
+      "reason": "FK 10.5 on the excerpt; better at Band 9.1, vocabulary needs support."
+    },
+    {
+      "title": "Wolf Restoration in Yellowstone",
+      "url": "https://www.nps.gov/articles/wolf-restoration-in-yellowstone-reintroduction-to-recovery.htm",
+      "reason": "Technical research-report tone; not a clean grade-7 main-idea passage."
+    },
+    {
+      "title": "How Bees Make Honey",
+      "url": "https://news.cals.wisc.edu/2012/06/04/how-bees-make-honey-producing-honey-is-a-strenuous-team-effort-for-bees/",
+      "reason": "Not a government work; license needs checking before use."
+    }
+  ]
 }

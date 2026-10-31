@@ -1,0 +1,267 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_4_3_0002",
+  "meta": {
+    "status": "published",
+    "title": "The Word That Changed Its Mind",
+    "skill": "main_idea",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "topic_domain": "arts and language",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 4.8-6.9 on the three parts (5.9 together), inside the grade 4-5 band. The load is a change with no agent: two examples move in opposite directions, and the reader has to hold a meaning that is wrong for its own century. The idea sits further from the words than in the first lesson, because no sentence says meanings change on their own.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "_comment": "Source: written for this lesson, not adapted from a published work. The etymologies are standard reference facts, stated in the author's own words.",
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A word whose meaning walked from foolish to pleasant, and a second word that walked the other way, so the reader must abstract a process from two cases.",
+      "avoided": "No invented dates or sources. The two etymologies are the standard ones; no dictionary is quoted."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance and how far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "English has a small word with a long and strange history behind it. In Latin, nescius meant ignorant. French kept the word as nice, meaning foolish or simple. English borrowed it in the 1200s, and for centuries nice meant silly or careless. A nice person was not someone you wanted to sit beside at dinner. Then the meaning moved again, without any announcement and without anyone objecting. By the 1500s, nice meant exact or careful, as in a nice difference between two things. By the 1700s it meant pleasant, and that is the sense you would meet in a shop today. The same five letters now do a small, friendly job.",
+    "part_2": "No one voted on the change, and no committee approved it. Speakers used the word in slightly new ways, and listeners understood what they meant. A word that means foolish can be said with a smile, and a smile moves it toward harmless. From there it drifts toward agreeable, one speaker at a time. Each step is small enough that no one notices it happening. The drift shows up later, when an old book sounds strange to a modern reader. Awful went the other way. It first meant full of awe, something that fills you with wonder or fear. Now it mostly means bad.",
+    "part_3": "A dictionary does not decide what a word means, whatever people assume about it. Editors read millions of sentences and record how people already use the word. When a new sense appears often enough, they add it to the entry. Old senses stay in the entry until they drop out of use entirely. That is why one entry can list five meanings, some of them centuries apart. The word did not break, and it was not replaced. Editors argue for years about when a sense is common enough to record. It accumulated. A reader who meets nice in a book from 1400 is meeting a different word wearing the same coat."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "In the 1200s, what did nice mean?",
+      "tutor_only": {
+        "confirm": "Right. It meant foolish, silly, or careless.",
+        "correct_reason": "The first part says English borrowed the word in the 1200s, and for centuries nice meant silly or careless.",
+        "tell": "In the 1200s, nice meant foolish, silly, or careless.",
+        "help": [
+          "Find the sentence about the 1200s and read the meaning it gives.",
+          "The passage says a nice person was not someone to sit beside."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Nice meant foolish, silly, or careless.",
+        "accept_ideas": [
+          "foolish",
+          "silly",
+          "careless",
+          "foolish or simple",
+          "silly or careless"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "where the word came from",
+          "how it was spelled"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it meant pleasant",
+            "ask": "Pleasant comes much later. What did it mean when English borrowed it?"
+          },
+          {
+            "when": "the student says it meant exact or careful",
+            "ask": "That is the 1500s sense. What did the 1200s say?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What is this part mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. Meanings drift a little at a time through everyday use, and nobody decides it.",
+        "correct_reason": "The part says no one voted, speakers used the word in new ways, each step was small, and the change shows up only later.",
+        "tell": "This part is about meanings drifting a little at a time through everyday use, with no one deciding.",
+        "help": [
+          "Look at who changes the meaning and how big each step is.",
+          "The part says no one voted and each step is small."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Meanings drift a little at a time through everyday use, with nobody deciding.",
+        "accept_ideas": [
+          "meanings change slowly as people use words",
+          "words drift through everyday use",
+          "people change meanings without deciding to",
+          "meaning changes in small steps"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what a smile does to a word",
+          "which century awful changed"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about where the word awful came from",
+            "ask": "Awful is an example at the end. What does the rest of the part explain?"
+          },
+          {
+            "when": "the student says it is about how to speak politely",
+            "ask": "Nothing in the part is advice. What happens to the meaning?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the writer include the word awful?",
+      "tutor_only": {
+        "confirm": "Right. It shows a meaning can move the other way, from wonder to bad.",
+        "correct_reason": "Nice moves from foolish to pleasant. Awful moves from full of awe to bad, so the second example shows drift in the opposite direction.",
+        "tell": "Awful is there to show that drift can run the other way, from wonder to bad.",
+        "help": [
+          "Compare what awful meant first with what it means now.",
+          "Nice got better. Ask what direction awful went."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Awful is a second case showing that a meaning can move in the opposite direction.",
+        "accept_ideas": [
+          "to show meanings can change the other way",
+          "to show a second direction of drift",
+          "because awful moved from awe to bad",
+          "to show drift is not always an improvement"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the word awful is"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it shows awful is a bad word",
+            "ask": "It is bad now. What did it mean first?"
+          },
+          {
+            "when": "the student says it is another word for a feeling",
+            "ask": "The point is the change, not the feeling. Which way did the meaning move?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What is this passage mostly about?",
+      "tutor_only": {
+        "confirm": "Yes. Word meanings drift through use, and dictionaries record the drift instead of deciding it.",
+        "correct_reason": "All three parts sit under one idea: meanings move through everyday use, no one votes, and a dictionary follows the result.",
+        "tell": "The passage is about meanings drifting through everyday use, and dictionaries recording the drift rather than deciding it.",
+        "help": [
+          "Look at the sentence about what editors do with the sentences they read.",
+          "One part gives two examples. One explains why. One says who records it."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Word meanings drift through everyday use, and dictionaries record the drift rather than decide it.",
+        "accept_ideas": [
+          "words change meaning over time and dictionaries record it",
+          "meanings drift and dictionaries follow",
+          "how words change meaning without anyone deciding",
+          "dictionaries record changes instead of making them"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many meanings an entry can have",
+          "the Latin root"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says it is about how to use a dictionary",
+            "ask": "A dictionary appears at the end. What happens to the words themselves?"
+          },
+          {
+            "when": "the student says it is about the history of Latin",
+            "ask": "Latin is one sentence. What do the next two parts do?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "A reader says the passage is mostly about how to look up a word. What does that leave out?",
+      "tutor_only": {
+        "confirm": "Right. It leaves out why the meanings changed and the centuries that separate them.",
+        "correct_reason": "Looking a word up is the third part. The first two parts are about the change itself, and about why no one decided it.",
+        "tell": "That idea leaves out why the meanings changed, and the centuries that separate the two senses.",
+        "help": [
+          "Ask what the first two parts are about.",
+          "One part follows nice through four centuries."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It leaves out why the meanings changed and the centuries that separate them.",
+        "accept_ideas": [
+          "it leaves out how the meanings changed",
+          "it misses the reason the word shifted",
+          "it leaves out the centuries of drift"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which dictionary to use"
+        ],
+        "if_they_say": [
+          {
+            "when": "the student says nothing is missing",
+            "ask": "Count the parts about looking words up. Then count the parts about change."
+          },
+          {
+            "when": "the student says it leaves out the writer's opinion",
+            "ask": "The passage gives no opinion. What does it show instead?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first main-idea lesson in this rung; no higher main-idea rung is authored yet.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_4_3_0003",
+    "next_irl": 4,
+    "next_means": "Another main-idea lesson in this rung.",
+    "student_line": "The next reading is another main-idea lesson in this rung."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_4_3_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

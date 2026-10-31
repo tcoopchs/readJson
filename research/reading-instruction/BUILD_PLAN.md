@@ -27,15 +27,15 @@ inference: 3.1 -> 4.1 -> 4.2 -> 4.3 -> 5.1 -> 5.2 -> 5.3 -> ...
   per day; two down-moves in a row holds and alerts.
 - A student is never told their band. Band labels are internal and teacher-facing.
 
-## 2. Where the catalog stands (verified 2026-10-27)
+## 2. Where the catalog stands (verified 2026-10-28)
 
-Fifty-two compiled lessons. The inference ladder is complete from the floor through stage 4.3,
-and `main_idea` runs from its floor through stage 4.2.
+Fifty-eight compiled lessons. The inference ladder is complete from the floor through stage 4.3,
+and `main_idea` is complete through stage 4.3 as well.
 
 | Ladder | 3.1 | 4.1 | 4.2 | 4.3 | 5.1 | above |
 | --- | --- | --- | --- | --- | --- | --- |
 | `inference` | 6 ✓ | 8 ✓ | 6 ✓ | 6 ✓ | 2/6 | 6.1 at 1/6 |
-| `main_idea` | 6 ✓ | 6 ✓ | 6 ✓ | — | — | 7.1 at 2/6 |
+| `main_idea` | 6 ✓ | 6 ✓ | 6 ✓ | 6 ✓ | — | 7.1 at 2/6 |
 | other six | — | — | — | — | — | — |
 
 Three facts that shape what comes next:
@@ -95,10 +95,15 @@ still bores the reader out of it.
 - **A rung that already shipped keeps its sources.** Do not retrofit a published rung to balance a
   domain count; carry the missing domains into the next rung in the same vertical. `main_idea` 4.2
   shipped five science and nature pages and one history and people lesson, and every other banked
-  row is a federal science page apart from one public-domain story, so `main_idea` 4.3 carries the
-  debt: it must place food and farming,
-  arts and language, work and trade, and sport and play, and none of them can be a federal science
-  page. That is the rung where the sourcing rule first bites, not a rung to discover it on.
+  row is a federal science page apart from one public-domain story, so `main_idea` 4.3 carried the
+  debt: it had to place food and farming, arts and language, work and trade, and sport and play, and
+  none of them could be a federal science page. That is the rung where the sourcing rule first bites,
+  not a rung to discover it on. As built, 4.3 met the debt by drafting all six passages under 2.6
+  (food and farming, arts and language, work and trade, sport and play, history and people, places and
+  travel; `meta.topic_domain` on every lesson, TB-015 to TB-020 in the bank). The four thin source
+  families above were therefore not exercised: the USDA/extension, OSHA/BLS, Smithsonian recreation,
+  and public-domain manual route still has no rung that tests it, and all six passages carry
+  `drafted_by: "TC review pending"` until a person reads them.
 
 ## 4. Rate
 
@@ -272,14 +277,14 @@ sessions per rung, which so far exist for main_idea 4.1 only.
 | `main_idea` 3.1 | built; swept | misconception sessions |
 | `main_idea` 4.1 | built; 0001 and 0006 through every branch, all six swept | misconception sessions for 0002-0005 |
 | `main_idea` 4.2 | built; smooth and hard sweep clean | misconception, injection, and stop sessions |
-| `main_idea` 4.3 | absent | author six — next in Phase 2; four domains owed under 3.1 (food, arts, work, sport) |
-| `vocab` 3.1 | absent | after `main_idea` 4.3 |
+| `main_idea` 4.3 | built; drafted under 2.6; smooth and hard sweep clean on all six | misconception, injection, and stop sessions; TC review of the six passages |
+| `vocab` 3.1 | absent | next in Phase 2 |
 | `text_structure` 3.1 | absent | after vocab |
 | `process` 3.1 | absent | after text_structure |
 | `argument_evidence` 3.1 | absent, and may not fit grade-3 load | decide before authoring |
 | `literary_text` 3.1 | absent | needs a short story |
 | `authors_craft` 3.1 | absent, and may not fit grade-3 load | decide before authoring |
-| `text-bank` rows for the 30 drafted lessons | not written | backfill after the cold-chat pass |
+| `text-bank` rows for the 30 older drafted lessons | not written; 4.3 is banked as TB-015 to TB-020 | backfill after the cold-chat pass |
 
 ### Handoff checklist
 
