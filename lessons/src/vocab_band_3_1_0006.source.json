@@ -195,7 +195,7 @@
         "tell": "A crowded sign has its letters packed too tightly, so the eye cannot separate them.",
         "help": [
           "Look at the sentence that mentions the space between letters.",
-          "Then read the next sentence about what a hard sign usually is."
+          "The next sentence says what a hard sign usually is. What word does it use?"
         ],
         "say_back": "own_words",
         "if_they_say": [

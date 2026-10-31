@@ -84,7 +84,7 @@
         "tell": "Spare means no decoration: every word does work, and none is there to sound good.",
         "help": [
           "Look at the sentence that begins 'A spare sentence'.",
-          "Then read the sentence right after it."
+          "The next sentence says spare is not the same as short. What does spare keep out?"
         ],
         "say_back": "own_words",
         "if_they_say": [

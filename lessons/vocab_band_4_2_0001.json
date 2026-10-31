@@ -76,7 +76,7 @@
         "tell": "Scale is the amount of ground one sheet covers, and a small scale covers more ground with less detail.",
         "help": [
           "Look at the two examples in the part above: a country and a harbor.",
-          "Ask what changes between them."
+          "One sheet shows a country and the other shows a harbor. What changes between them?"
         ],
         "say_back": "own_words",
         "if_they_say": [
@@ -144,7 +144,7 @@
         "tell": "A small-scale chart leaves out anything too small to draw, and a shoal is exactly that.",
         "help": [
           "Look at the sentence about the inlet too narrow to draw.",
-          "Then read what the sailor could run onto."
+          "The chart left something out. What could the sailor run onto?"
         ],
         "say_back": "own_words",
         "if_they_say": [

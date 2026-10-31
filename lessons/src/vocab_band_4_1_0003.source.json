@@ -152,7 +152,7 @@
         "tell": "The referee waits to see if the fouled team is better off. The whistle comes only if the chance is already lost.",
         "help": [
           "Look at the sentence about the fouled team keeping the ball.",
-          "Then look at when the whistle does come."
+          "The part says when the whistle does come. What has already been lost by then?"
         ],
         "say_back": "own_words",
         "if_they_say": [

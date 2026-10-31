@@ -264,11 +264,9 @@ group. The current corpus passes: 8 sources, 8 distinct works, zero shingle over
 ## 11. Status board
 
 Move a row when its state changes. **Built** means six sources compile and the set is `complete`.
-**Done** means the cold-chat pass is recorded for every lesson in the rung. Every lesson has been
-through a smooth run. The hard path is recorded for the pre-vocab corpus; five vocab lessons did not
-reach a stopped ticket inside the sweep's twelve turns, so the vocab hard pass is partial. `Done`
-still needs the misconception, injection, and stop sessions per rung, which so far exist for
-main_idea 4.1 only.
+**Done** means the cold-chat pass is recorded for every lesson in the rung. Every lesson has now been
+through a recorded smooth run and a hard path, the vocab rungs included. `Done` still needs the
+misconception, injection, and stop sessions per rung, which so far exist for main_idea 4.1 only.
 
 | Item | State | Next action |
 | --- | --- | --- |

@@ -184,7 +184,7 @@
         "tell": "If you wait, the goods spoil and the choice is made for you. Selling first keeps the choice yours.",
         "help": [
           "Look at the last sentence of the passage.",
-          "Then look at the sentence about cutting the price."
+          "The last part describes cutting the price before the loss is total. What loss is being avoided?"
         ],
         "say_back": "own_words",
         "if_they_say": [

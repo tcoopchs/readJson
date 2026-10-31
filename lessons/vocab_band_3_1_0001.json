@@ -156,7 +156,7 @@
         "tell": "In winter a tree cannot pull water from frozen ground. The waxy coat keeps it from losing what it has.",
         "help": [
           "Look at the first two sentences of this part, then the coat.",
-          "Ask what the tree cannot do in winter."
+          "The passage says the tree cannot replace the water it loses. What does the coat hold in?"
         ],
         "say_back": "own_words",
         "if_they_say": [

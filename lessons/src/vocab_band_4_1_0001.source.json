@@ -195,7 +195,7 @@
         "tell": "To set a page is to build it letter by letter from the metal type before printing.",
         "help": [
           "Look at what the apprentice does with the stick and the tray.",
-          "Then look at the phrase 'setting a page' in the next part."
+          "The next part uses the phrase 'setting a page'. What happens to the letters?"
         ],
         "say_back": "own_words",
         "if_they_say": [

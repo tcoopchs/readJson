@@ -141,7 +141,7 @@
         "tell": "The taker wrote the answer as given. A count where each taker guesses is worth less than one where all follow the same rule.",
         "help": [
           "Look at the last sentence of the earlier part.",
-          "Then read the last sentence of the part above."
+          "The part says every entry was treated the same way. What was the taker not allowed to do?"
         ],
         "say_back": "own_words",
         "if_they_say": [

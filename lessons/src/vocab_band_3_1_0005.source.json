@@ -192,7 +192,7 @@
         "tell": "A runner who goes all out at the start has no strength left. There is no burst to answer the final push.",
         "help": [
           "Look at the sentence before 'That is why the last lap...'",
-          "Ask what was spent, and when."
+          "The passage says the runner spent everything early. What was spent?"
         ],
         "say_back": "own_words",
         "if_they_say": [

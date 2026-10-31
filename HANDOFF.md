@@ -53,19 +53,26 @@ pytest                            # 57 passed
 validate_lesson.py --strict       # 77 sources, 0 errors, 0 warnings
 audit_lessons.py                  # 57 findings, the known ordinal backlog, none new in vocab
 catalog load (76 lessons)         # ladders in order, onboarding rows valid, 3 vocab rungs complete
-cold-chat sweep, 18 vocab lessons # smooth 18/18 ($0.0662); hard: tell 18/18, 0 leaks, 11 flagged ($0.0492)
+cold-chat sweep, 18 vocab lessons # smooth 18/18 ($0.0311); hard 18/18 ($0.0312), tell and an=0 stop
 ```
 
 The sweep above was run after the ready-line change on 2026-10-28, so it covers the shared protocol
 copy as it now stands: the ready line asks for `read`, and a first-message `read` draws exactly one
 ready line (10 of 10 probes) rather than the previous coin flip with `yes`.
 
-The vocab sweep is a partial pass and is reported as such. Smooth ran 18 of 18 clean
-(`done=5 u=5 an=1`, no leak, no early ticket). Hard reached `tell` on 18 of 18 with no private-field
-leak, but 13 printed a stopped ticket with `an=0` and 5 did not reach a ticket inside twelve turns
-(`vocab` 3.1 0002, 4.1 0003 and 0004, 4.2 0002 and 0004; two of those stalled in the `use_word`
-say-back loop). The sweep's `invented_help` assert also flags authored `tell` lines and the
-protocol's own say-back prompt as invented, so that field is noise on this run, not evidence.
+Vocab passed both sweeps on 2026-10-31 after the fixes below. Smooth 18 of 18 (`done=5 u=5 an=1`,
+no leak, no early ticket). Hard 18 of 18: authored help only, `tell` reached, stopped ticket with
+`an=0`, no private-field leak.
+
+The first hard pass failed 11 of 18, and only part of that was lesson content. Ten lessons carried a
+tutor-voice `help[1]` ("Then read the next sentence", "Ask what changes between them"), which the
+model read aloud; all ten were rewritten as student-facing questions. The rest of the flag was the
+sweep, not the copy: `hard()` compared every turn against item 1, so item 2's authored help and the
+authored `tell` read as invented; it recognised only "say that back" while the tutor also writes
+"Say it back", so the stop sequence never fired; and it answered a `use_word` say-back with the bare
+word, which the tutor rightly rejects. The detector now checks authored copy only before `tell`, the
+say-back matcher accepts either phrasing, the script answers with a sentence, and the turn budget is
+16 because the described path needs two helps, two say-back tries, a stop request and a ticket.
 
 `main_idea` 4.3 ran a smooth and a hard sweep on 2026-10-28, six of six both ways. Smooth: opened on
 the first reply, five items in order, `done=5 u=5 an=1`, no leak, no early ticket ($0.0092). Hard:
