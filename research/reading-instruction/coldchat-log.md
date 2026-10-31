@@ -170,3 +170,31 @@ Two findings, both in the shared protocol copy, neither in a 4.3 lesson:
 
 Everything else held: no private field spoken, `carry` copied verbatim, no praise, no band label, no
 invented hint, and every item asked in lesson order.
+
+## 2026-10-28 — the opening gate asks for `read`, not `yes`
+
+The ready line asked for `yes`, which was also the token rule 6 read as "open the lesson" and the
+token `script.stop_confirm` asks for. One word, three jobs. The copy now asks for `read`, rule 4 says
+a first-message `read` or `yes` still gets one ready line and does not open the lesson, and rule 6
+keeps every other reply as an opener so nothing depends on the student typing the magic word.
+
+Measured before and after, ten trials each, first-message only, on `main_idea_band_4_3_0001`:
+
+| Student turns | Before (`yes`) | After (`read`) |
+| --- | --- | --- |
+| bare first message | 5 ready-only, 5 opened | 10 ready-only |
+| `start`, then token | 10 opened | 10 opened |
+| token twice | 10 opened | 10 opened |
+
+The before-column split is the defect the copy caused: a bare `yes` was read half the time as an
+answer to "are you ready" and half the time as the opening reply. The after-column is deterministic,
+because `read` cannot be read as an acknowledgement of a yes/no question.
+
+Honest limit: 30 baseline trials (`start,yes`, `yes,yes`, `begin,yes`) never reproduced the damaging
+double-ready. The 2026-10-27 log recorded it before the protocol was tightened; since then the failure
+is preventive, not observed. What was observed and fixed is the turn-1 coin flip.
+
+Regression: all 58 lessons rebuilt, then a full smooth and a full hard sweep, 58 of 58 both ways,
+zero failures, no leak, no invented help, `an=1` on every smooth ticket ($0.0931 smooth, $0.0544
+hard). `validate_lesson.py --strict` 59 sources 0/0, `build_lessons.py --check` exit 0, pytest 57
+passed.

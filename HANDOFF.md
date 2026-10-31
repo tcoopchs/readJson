@@ -52,7 +52,12 @@ pytest                            # 57 passed
 validate_lesson.py --strict       # 59 sources, 0 errors, 0 warnings
 audit_lessons.py                  # 57 findings, the known ordinal backlog, none new in 4.3
 catalog load (58 lessons)         # ladders in order, onboarding rows valid
+cold-chat sweep, 58 lessons       # smooth 58/58, hard 58/58, zero failures ($0.1475)
 ```
+
+The sweep above was run after the ready-line change on 2026-10-28, so it covers the shared protocol
+copy as it now stands: the ready line asks for `read`, and a first-message `read` draws exactly one
+ready line (10 of 10 probes) rather than the previous coin flip with `yes`.
 
 `main_idea` 4.3 ran a smooth and a hard sweep on 2026-10-28, six of six both ways. Smooth: opened on
 the first reply, five items in order, `done=5 u=5 an=1`, no leak, no early ticket ($0.0092). Hard:
