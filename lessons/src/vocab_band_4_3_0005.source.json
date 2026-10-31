@@ -1,0 +1,240 @@
+{
+ "schema_version": 3,
+ "document_type": "lesson_source",
+ "lesson_id": "vocab_band_4_3_0005",
+ "meta": {
+  "status": "published",
+  "title": "The Cue Nobody Writes Down",
+  "skill": "vocab",
+  "irl_grade": 4,
+  "stage": 3,
+  "sequence": 5,
+  "genre": "nonfiction",
+  "topic_domain": "arts and language",
+  "skill_frame": "Work out a word's meaning from the passage. Two words here describe when things happen.",
+  "reader": {
+   "who": "Students who read at about a fourth-grade level.",
+   "reading_level": 4,
+   "why_this_level": "Measured FK 6.0, 6.4, 6.3 (6.2 together) on the 3 parts, 109, 104, 110 words. The load is one word with two jobs in the same workplace: a signal during the show and a dismantling after it, both fixed by agreement rather than by anything the audience can see.",
+   "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+  },
+  "source": {
+   "basis": "Written for this lesson.",
+   "text_status": "Drafted for the band, review pending.",
+   "drafted_by": "TC review pending",
+   "survey": "Backstage theater work, built so 'cue' and 'strike' name agreed moments rather than a line of dialogue or a blow.",
+   "avoided": "No play, theater, company, or city. No dates, seats, or ticket prices."
+  },
+  "session": {
+   "scope": "build-band",
+   "item_target": 5,
+   "time_target_minutes": 12,
+   "difficulty_basis": "Clue distance: each word is explained where it is used, and the last item joins the whole passage."
+  },
+  "authoring_exceptions": []
+ },
+ "script_overrides": {
+  "near_copy_2": "Say it in your own words. One sentence is enough."
+ },
+ "passage": {
+  "part_1": "In a theater, a cue is a signal for something to start, and most cues are not spoken. The stage manager watches the show from a desk at the back and calls each cue to the crew. A light may change after a line of dialogue, and a sound may follow a door closing. The cue is not the line itself but the moment after it, when the line has landed and the room is ready for what comes next. A cue called too early steps on the line, and an audience feels that without knowing why. The stage manager keeps a list, and the crew counts on it.",
+  "part_2": "The word has a second life at the end of a run. When the last show is over, the crew strikes the set, which means taking it apart and carrying it out. Nothing is thrown away at random; every screw and every borrowed lamp has a place to go. The pieces are sorted, the borrowed ones go back to their owners, and the wood is stacked for the next show. The crew works by a few work lights and keeps quiet. A strike is a long night of work that nobody in the audience ever sees, and it begins after the applause has stopped.",
+  "part_3": "Both uses of the words point at the same idea: a theater runs on agreed moments. A cue is agreed before the show and called on the night. A strike is agreed for after the last curtain and shared out among the crew. A visitor who walks onto the stage in the dark is in the way of both, because the floor is marked for scenes and not for feet. The work of the theater is mostly out of sight, and its words describe timing rather than art. The words are old, and they still do the work on the night, when nothing can be fixed by a later take."
+ },
+ "items": [
+  {
+   "id": "1",
+   "type": "cloze",
+   "skill": "vocab",
+   "difficulty": 1,
+   "show_part": "part_1",
+   "prompt": "The ____ is not the line itself but the moment after it.\n\nWrite the missing word.",
+   "tutor_only": {
+    "confirm": "Right. The signal is a cue.",
+    "correct_reason": "The first part says the cue is not the line itself but the moment after it, when the line has landed and the room is ready for what comes next.",
+    "tell": "The word is cue. A cue is the signal for something to start, and it comes after the line.",
+    "help": [
+     "The sentence says what the word is not, then what it is.",
+     "The next sentence says what happens to a cue called too early."
+    ],
+    "say_back": "use_word",
+    "if_they_say": [
+     {
+      "when": "the student answers line",
+      "ask": "The sentence rules the line out. What is the signal that follows it?"
+     }
+    ],
+    "accept_words": [
+     "cue"
+    ],
+    "normalize": "Ignore case and punctuation.",
+    "word": "cue"
+   }
+  },
+  {
+   "id": "2",
+   "type": "short_answer",
+   "skill": "vocab",
+   "difficulty": 2,
+   "show_part": "part_1",
+   "prompt": "Why does a cue called too early cause a problem?",
+   "tutor_only": {
+    "confirm": "Yes. It steps on the line before it has landed.",
+    "correct_reason": "The first part says a cue called too early steps on the line, and the audience feels that without knowing why.",
+    "tell": "The cue is meant to come after the line has landed. Called early, it starts the next thing on top of the line, and the room feels the jolt.",
+    "help": [
+     "Read the sentence about a cue called too early.",
+     "The passage says what the cue steps on."
+    ],
+    "say_back": "own_words",
+    "if_they_say": [
+     {
+      "when": "the student says the cue is wrong",
+      "ask": "The cue is the right one, at the wrong moment. What does it step on?"
+     },
+     {
+      "when": "the student says the audience is confused by the story",
+      "ask": "The story is not the problem. What does the audience feel about the timing?"
+     }
+    ],
+    "core_idea": "It steps on the line, so the change starts before the line has landed and the audience feels the timing go wrong.",
+    "accept_ideas": [
+     "it steps on the line",
+     "the change starts before the line is finished",
+     "the audience feels the timing is off"
+    ],
+    "one_idea_is_enough": true,
+    "not_required": [
+     "how loud the sound is",
+     "who calls the cue"
+    ]
+   }
+  },
+  {
+   "id": "3",
+   "type": "cloze",
+   "skill": "vocab",
+   "difficulty": 2,
+   "show_part": "part_2",
+   "prompt": "When the last show is over, the crew ____ the set, which means taking it apart and carrying it out.\n\nWrite the missing word.",
+   "tutor_only": {
+    "confirm": "Right. The crew strikes the set.",
+    "correct_reason": "The second part says that when the last show is over the crew strikes the set, which means taking it apart and carrying it out.",
+    "tell": "The word is strikes. To strike a set is to take it apart after the last show.",
+    "help": [
+     "The clause after the blank explains what the word means.",
+     "The next sentence says nothing is thrown away at random."
+    ],
+    "say_back": "use_word",
+    "if_they_say": [
+     {
+      "when": "the student answers clears",
+      "ask": "Clearing is part of it. The passage uses a word from the theater for taking the set apart."
+     }
+    ],
+    "accept_words": [
+     "strikes",
+     "strike"
+    ],
+    "normalize": "Ignore case and punctuation. Accept strikes or strike.",
+    "word": "strikes"
+   }
+  },
+  {
+   "id": "4",
+   "type": "short_answer",
+   "skill": "vocab",
+   "difficulty": 3,
+   "show_part": "part_2",
+   "prompt": "What does strike mean at the end of a run?",
+   "tutor_only": {
+    "confirm": "Yes. Taking the set apart and carrying it out.",
+    "correct_reason": "The second part defines the word: the crew strikes the set, which means taking it apart and carrying it out, sorting the pieces and returning what was borrowed.",
+    "tell": "At the end of a run, strike means taking the set apart. The crew sorts the pieces, returns what was borrowed, and stacks the wood.",
+    "help": [
+     "Read the sentence that defines the word.",
+     "The passage says what happens to the borrowed pieces."
+    ],
+    "say_back": "own_words",
+    "if_they_say": [
+     {
+      "when": "the student says it means the actors stop acting",
+      "ask": "The run is already over. What does the crew do to the set?"
+     },
+     {
+      "when": "the student says it means a hit or a blow",
+      "ask": "That is the everyday meaning. The passage uses the word for work on the set."
+     }
+    ],
+    "core_idea": "Taking the set apart and carrying it out, with the pieces sorted and the borrowed ones returned.",
+    "accept_ideas": [
+     "taking the set apart",
+     "pulling down the set after the last show",
+     "dismantling and clearing the stage"
+    ],
+    "one_idea_is_enough": true,
+    "not_required": [
+     "who watches the strike",
+     "how long the run lasted"
+    ]
+   }
+  },
+  {
+   "id": "5",
+   "type": "short_answer",
+   "skill": "vocab",
+   "difficulty": 4,
+   "show_part": "all",
+   "prompt": "What does it mean that the words describe timing rather than art?",
+   "tutor_only": {
+    "confirm": "Right. They name agreed moments, not anything about the play.",
+    "correct_reason": "The third part says a cue is agreed before the show and called on the night, and a strike is agreed for after the last curtain, so both words describe agreed moments.",
+    "tell": "It means the words are about when things happen, not about what the play is worth. A cue and a strike are both moments the crew has agreed on.",
+    "help": [
+     "Read the first sentence of the last part of the passage.",
+     "The passage calls both words moments that are agreed."
+    ],
+    "say_back": "own_words",
+    "if_they_say": [
+     {
+      "when": "the student says the words are about the story",
+      "ask": "The story is the play. These words are about the crew's work. What do they fix?"
+     },
+     {
+      "when": "the student says the words are old",
+      "ask": "Old is true but not the point. What do the words describe instead of art?"
+     }
+    ],
+    "core_idea": "The words name agreed moments in the working of the theater, not anything about the art of the play.",
+    "accept_ideas": [
+     "they are about when things happen",
+     "they name agreed moments",
+     "the words are about the work, not the play"
+    ],
+    "one_idea_is_enough": true,
+    "not_required": [
+     "how good the play is",
+     "who wrote it"
+    ]
+   },
+   "show_part_again": true
+  }
+ ],
+ "advance": {
+  "next_file": "vocab_band_4_3_0001",
+  "next_irl": 4,
+  "next_means": "The first word lesson in this rung; no higher word rung is authored yet.",
+  "student_line": "You worked the meanings out from the passage. The next reading is another word lesson."
+ },
+ "retry": {
+  "next_file": "vocab_band_4_3_0006",
+  "next_irl": 4,
+  "next_means": "Another word lesson in this rung.",
+  "student_line": "The next reading is another word lesson in this set."
+ },
+ "stopped": {
+  "next_file": "vocab_band_4_3_0005",
+  "next_irl": 4,
+  "next_means": "This same lesson, so it can be finished."
+ }
+}

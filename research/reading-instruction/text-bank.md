@@ -49,6 +49,12 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-036 | The Cost of Waiting | Nonfiction | 4 | Band 4.2 | 323 words | 6.42 | `vocab_band_4_2_0004` |
 | TB-037 | The Census Taker's Round | Nonfiction | 4 | Band 4.2 | 322 words | 6.18 | `vocab_band_4_2_0005` |
 | TB-038 | The Orchard's Off Year | Nonfiction | 4 | Band 4.2 | 317 words | 6.23 | `vocab_band_4_2_0006` |
+| TB-039 | The Wheel That Follows | Nonfiction | 4 | Band 4.3 | 332 words (three passages, 104-118 each) | 6.09 | `vocab_band_4_3_0001` |
+| TB-040 | Seeds That Wait | Nonfiction | 4 | Band 4.3 | 325 words (three passages, 102-118 each) | 6.10 | `vocab_band_4_3_0002` |
+| TB-041 | What a Chair Costs | Nonfiction | 4 | Band 4.3 | 362 words (three passages, 102-139 each) | 5.83 | `vocab_band_4_3_0003` |
+| TB-042 | The Town's Night Watch | Nonfiction | 4 | Band 4.3 | 332 words (three passages, 104-117 each) | 5.99 | `vocab_band_4_3_0004` |
+| TB-043 | The Cue Nobody Writes Down | Nonfiction | 4 | Band 4.3 | 323 words (three passages, 104-110 each) | 6.20 | `vocab_band_4_3_0005` |
+| TB-044 | The Ferry That Waits for the Water | Nonfiction | 4 | Band 4.3 | 308 words (three passages, 100-106 each) | 6.13 | `vocab_band_4_3_0006` |
 
 ---
 
@@ -1269,6 +1275,203 @@ as one case, not a measurement.
 
 ---
 
+## TB-039 — The Wheel That Follows
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | sport and play |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 332 words (three passages, 104-118 each) |
+| FK grade | 6.09 on the three passages together |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `vocab_band_4_3_0001` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** A group of riders rides faster when the front rider breaks the air and the others take turns in the pocket behind.
+
+**Supporting details.**
+
+- The front rider pushes the air aside, leaving a pocket of still air.
+- The rider behind the front wheel uses less effort at speed.
+- A line of riders moves faster than any single rider in it.
+- Riders rotate: each takes a turn at the front and then drifts back.
+- A rider dropped from the line loses the pocket and faces the wind alone.
+
+**Why it works.** Two abstract words about shared work, and the last part turns 'rotate' into an order the group keeps rather than a wheel turning.
+
+**Cautions.** No race, team, or named rider. No distances, times, or speeds.
+
+---
+
+## TB-040 — Seeds That Wait
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 325 words (three passages, 102-118 each) |
+| FK grade | 6.10 on the three passages together |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `vocab_band_4_3_0002` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** Some seeds need a long cold before warmth can start them, because the cold is a signal about the season rather than food or water.
+
+**Supporting details.**
+
+- A dormant seed is alive but not growing.
+- Cold-climate seeds often will not start until they have been through a winter.
+- Growers copy a winter by keeping seed cold in damp sand before sowing.
+- The trigger is the return of warmth after a long cold, not the cold alone.
+- One warm week in midwinter does not start a seed.
+
+**Why it works.** Two distinctions that look alike from outside: cold as food versus cold as signal, and the cold versus the change after it.
+
+**Cautions.** No species names, temperatures, or week counts. No claim about a particular climate.
+
+---
+
+## TB-041 — What a Chair Costs
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 362 words (three passages, 102-139 each) |
+| FK grade | 5.83 on the three passages together |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `vocab_band_4_3_0003` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** A hand workshop prices a chair from materials and hours, plus a margin that pays for tools and quiet weeks, so two honest quotes can differ.
+
+**Supporting details.**
+
+- The maker starts from what the chair costs to build, including hours.
+- Hours are the largest cost and the part buyers forget.
+- A quote is a promise about a number and a date.
+- The margin pays for worn tools and for weeks with no orders.
+- Two workshops with different costs can both quote honestly.
+
+**Why it works.** Three linked money ideas with no object to check, and the last part reverses 'cheaper' into 'what is missing'.
+
+**Cautions.** No currency, town, or trade name. No invented prices.
+
+---
+
+## TB-042 — The Town's Night Watch
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | history and people |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 332 words (three passages, 104-117 each) |
+| FK grade | 5.99 on the three passages together |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `vocab_band_4_3_0004` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** A town paid for its night watch in shares, so money and a night of walking counted equally, until the town outgrew the arrangement.
+
+**Supporting details.**
+
+- The watch walked the streets after dark and looked for fire and for people out when they should not be.
+- Each household owed a sum, and a poor household sent a man instead.
+- Money and time were treated as the same contribution.
+- A share paid in money went to the town, not to the man who walked.
+- Substitutes did not know the streets, and the paid force that replaced the watch was expensive.
+
+**Why it works.** An institution the reader has never seen, described through what it paid, and a value that reverses twice at the end.
+
+**Cautions.** No town, country, or date. No wage figures.
+
+---
+
+## TB-043 — The Cue Nobody Writes Down
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | arts and language |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 323 words (three passages, 104-110 each) |
+| FK grade | 6.20 on the three passages together |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `vocab_band_4_3_0005` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** Backstage words in a theater name agreed moments: a cue starts something after a line, and a strike takes the set apart after the last show.
+
+**Supporting details.**
+
+- A cue is a signal for something to start, and most cues are not spoken.
+- The cue comes after the line, not on it.
+- A cue called too early steps on the line.
+- A strike is the crew taking the set apart and carrying it out.
+- The pieces are sorted and the borrowed ones returned.
+
+**Why it works.** One word with two jobs in one workplace, and a closing idea that the words describe timing rather than art.
+
+**Cautions.** No play, theater, company, or city. No dates, seats, or ticket prices.
+
+---
+
+## TB-044 — The Ferry That Waits for the Water
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 308 words (three passages, 100-106 each) |
+| FK grade | 6.13 on the three passages together |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `vocab_band_4_3_0006` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** A shallow-harbor ferry keeps a timetable set by the tide, because depth at the bar and at the berth decides when a crossing is possible.
+
+**Supporting details.**
+
+- The boat needs depth to float over the bar at the harbor mouth.
+- At low water the ferry waits at the pier for the harbor to fill.
+- A berth is a length of wall with the right depth and a ramp at the right height.
+- The water changes both the depth and the ramp.
+- The printed times are the company's reading of the tide, not a rule the sea obeys.
+
+**Why it works.** A schedule set by something nobody controls, and a travel word that sounds like permission but works as a condition.
+
+**Cautions.** No harbor, port, or country. No times, depths, or fares.
+
+---
 ## Screened but not banked
 
 These were reviewed and set aside. Keep them visible for later; do not treat them as approved.

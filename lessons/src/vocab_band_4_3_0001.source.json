@@ -1,0 +1,239 @@
+{
+ "schema_version": 3,
+ "document_type": "lesson_source",
+ "lesson_id": "vocab_band_4_3_0001",
+ "meta": {
+  "status": "published",
+  "title": "The Wheel That Follows",
+  "skill": "vocab",
+  "irl_grade": 4,
+  "stage": 3,
+  "sequence": 1,
+  "genre": "nonfiction",
+  "topic_domain": "sport and play",
+  "skill_frame": "Work out a word's meaning from the passage. The word names a pocket and an order.",
+  "reader": {
+   "who": "Students who read at about a fourth-grade level.",
+   "reading_level": 4,
+   "why_this_level": "Measured FK 6.3, 5.9, 6.2 (6.1 together) on the 3 parts, 104, 110, 118 words. The load is a shared-work idea the reader cannot see: the front rider breaks the air for the riders behind, and the group has to keep an order to keep the saving. The last part turns one word into a social fact rather than a wheel.",
+   "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+  },
+  "source": {
+   "basis": "Written for this lesson.",
+   "text_status": "Drafted for the band, review pending.",
+   "drafted_by": "TC review pending",
+   "survey": "Group riding, built so 'draft' and 'rotate' mean something about shared work rather than about speed or machinery.",
+   "avoided": "No race, team, or named rider. No distances, times, or speeds."
+  },
+  "session": {
+   "scope": "build-band",
+   "item_target": 5,
+   "time_target_minutes": 12,
+   "difficulty_basis": "Clue distance: each word is explained where it is used, and the last item joins the whole passage."
+  },
+  "authoring_exceptions": []
+ },
+ "script_overrides": {
+  "near_copy_2": "Say it in your own words. One sentence is enough."
+ },
+ "passage": {
+  "part_1": "A rider who sits close behind another rider uses less effort than the rider in front. The front rider pushes the air aside, and the air closes again behind the wheel. That leaves a small pocket where the next rider can sit, out of the wind, and recover. Riders call this the draft, and it is not a small saving. At speed it can take a third of the work out of the ride. A group that understands the draft stays in a line, wheel behind wheel, and the line moves faster than any rider in it could move alone on a flat road.",
+  "part_2": "The draft only works if the riders take turns, and a group that has not learned this is slower than its strongest rider. The rider at the front does the most work and tires first, so the group rotates. Each rider moves up, holds the front for a short time, then drifts back to the end of the line. A rider who will not rotate is soon known. The others do extra work while he sits in the pocket and saves his legs. Groups that rotate cover more ground in a day than groups that do not, and they arrive with more riders still able to ride the next stage.",
+  "part_3": "None of this is a trick, and none of it is cheating, though it can look like both from the side of the road. It is a rule of the air, and the group uses it on purpose. A rider who is dropped from the line loses the pocket and faces the wind alone. That is why the back of a group is a hard place to be for a rider who is already tired. The word rotate describes the order of the line, not the wheels, and the order is the only thing the group owns. A group that forgets the order still has the same riders and the same road, and it stops being a group."
+ },
+ "items": [
+  {
+   "id": "1",
+   "type": "cloze",
+   "skill": "vocab",
+   "difficulty": 1,
+   "show_part": "part_1",
+   "prompt": "Riders call this the ____, and it is not a small saving.\n\nWrite the missing word.",
+   "tutor_only": {
+    "confirm": "Right. Riders call it the draft.",
+    "correct_reason": "The first part says riders call the pocket behind the front rider the draft, and that it can take a third of the work out of the ride.",
+    "tell": "The word is draft. The draft is the pocket of still air behind a rider, where the wind has been broken.",
+    "help": [
+     "The sentence names the pocket that forms behind the front wheel.",
+     "The next sentence says how much work the pocket saves."
+    ],
+    "say_back": "use_word",
+    "if_they_say": [
+     {
+      "when": "the student answers slipstream",
+      "ask": "Slipstream names the same pocket in general use. The passage uses a shorter word for it."
+     }
+    ],
+    "accept_words": [
+     "draft"
+    ],
+    "normalize": "Ignore case and punctuation.",
+    "word": "draft"
+   }
+  },
+  {
+   "id": "2",
+   "type": "short_answer",
+   "skill": "vocab",
+   "difficulty": 2,
+   "show_part": "part_1",
+   "prompt": "Why can a line of riders move faster than one rider alone?",
+   "tutor_only": {
+    "confirm": "Yes. The riders behind sit in the pocket and save effort.",
+    "correct_reason": "The first part says the front rider pushes the air aside, leaving a pocket where the next rider can sit out of the wind, and the line moves faster than any rider in it could move alone.",
+    "tell": "The front rider breaks the air, and the riders behind sit in the pocket. The group shares the work, so the line moves faster than one rider can.",
+    "help": [
+     "Read the sentence about what the front rider does to the air.",
+     "The pocket behind the wheel is where the next rider sits."
+    ],
+    "say_back": "own_words",
+    "if_they_say": [
+     {
+      "when": "the student says each rider pedals harder",
+      "ask": "The passage says the riders behind use less effort. What does the front rider do with the air?"
+     },
+     {
+      "when": "the student says the line is lighter",
+      "ask": "Weight is not the reason given. What happens to the air behind the front wheel?"
+     }
+    ],
+    "core_idea": "The front rider breaks the air, so the riders behind use less effort and the whole line moves faster.",
+    "accept_ideas": [
+     "the riders behind ride out of the wind",
+     "they take shelter behind the front rider",
+     "the front rider pushes the air aside for the rest"
+    ],
+    "one_idea_is_enough": true,
+    "not_required": [
+     "how fast the group travels",
+     "how many riders are in the line"
+    ]
+   }
+  },
+  {
+   "id": "3",
+   "type": "cloze",
+   "skill": "vocab",
+   "difficulty": 3,
+   "show_part": "part_2",
+   "prompt": "The rider at the front does the most work and tires first, so the group ____.\n\nWrite the missing word.",
+   "tutor_only": {
+    "confirm": "Right. The group rotates.",
+    "correct_reason": "The second part says the rider at the front tires first, so the group rotates, with each rider moving up and then drifting back.",
+    "tell": "The word is rotates. The group rotates by taking turns at the front and dropping back.",
+    "help": [
+     "The sentence explains what the group does about the tired front rider.",
+     "The next sentence describes each rider moving up and then back."
+    ],
+    "say_back": "use_word",
+    "if_they_say": [
+     {
+      "when": "the student answers stops",
+      "ask": "The line keeps moving. What does each rider do after a turn at the front?"
+     }
+    ],
+    "accept_words": [
+     "rotates"
+    ],
+    "normalize": "Ignore case and punctuation.",
+    "word": "rotates"
+   }
+  },
+  {
+   "id": "4",
+   "type": "short_answer",
+   "skill": "vocab",
+   "difficulty": 3,
+   "show_part": "part_3",
+   "prompt": "What does rotate mean for a group of riders?",
+   "tutor_only": {
+    "confirm": "Yes. The riders take turns at the front.",
+    "correct_reason": "The second part describes each rider moving up, holding the front for a short time, then drifting back, and the third part says rotate describes the order of the line.",
+    "tell": "To rotate is to take turns at the front and then drop to the back. The order of the line changes so the work is shared.",
+    "help": [
+     "Read the sentences about each rider moving up and then back.",
+     "The passage says what the word describes: the order of the line."
+    ],
+    "say_back": "own_words",
+    "if_they_say": [
+     {
+      "when": "the student says the wheels turn",
+      "ask": "The passage says the word describes the order of the line, not the wheels. What changes about the order?"
+     },
+     {
+      "when": "the student says the group turns around",
+      "ask": "The line does not reverse. What does each rider do after a turn at the front?"
+     }
+    ],
+    "core_idea": "Taking turns at the front, then drifting back, so everyone shares the work.",
+    "accept_ideas": [
+     "taking turns at the front",
+     "each rider leads for a while then drops back",
+     "the order of the line changes"
+    ],
+    "one_idea_is_enough": true,
+    "not_required": [
+     "how fast the group rides",
+     "who wins the ride"
+    ]
+   }
+  },
+  {
+   "id": "5",
+   "type": "short_answer",
+   "skill": "vocab",
+   "difficulty": 4,
+   "show_part": "all",
+   "prompt": "Why is the back of a group a hard place to be?",
+   "tutor_only": {
+    "confirm": "Right. A rider who is dropped loses the pocket and meets the wind alone.",
+    "correct_reason": "The third part says a rider who is dropped from the line loses the pocket and faces the wind alone, which is why the back is a hard place for a tired rider.",
+    "tell": "At the back, a rider who loses the wheel in front has no pocket. The wind is no longer broken, so that rider does the work alone.",
+    "help": [
+     "Read the sentence about a rider who is dropped from the line.",
+     "The passage says what that rider faces."
+    ],
+    "say_back": "own_words",
+    "if_they_say": [
+     {
+      "when": "the student says the back is where the slow riders are",
+      "ask": "The passage gives a reason about the air. What happens to a rider who is dropped?"
+     },
+     {
+      "when": "the student says the road is worse at the back",
+      "ask": "The road is the same. What does a rider at the back no longer have?"
+     }
+    ],
+    "core_idea": "A rider who is dropped from the line loses the pocket and faces the wind alone.",
+    "accept_ideas": [
+     "you lose the draft and face the wind",
+     "no one is in front to break the air",
+     "a dropped rider has to work alone"
+    ],
+    "one_idea_is_enough": true,
+    "not_required": [
+     "how tired the rider is",
+     "where the group is going"
+    ]
+   },
+   "show_part_again": true
+  }
+ ],
+ "advance": {
+  "next_file": "vocab_band_4_3_0001",
+  "next_irl": 4,
+  "next_means": "The first word lesson in this rung; no higher word rung is authored yet.",
+  "student_line": "You worked the meanings out from the passage. The next reading is another word lesson."
+ },
+ "retry": {
+  "next_file": "vocab_band_4_3_0002",
+  "next_irl": 4,
+  "next_means": "Another word lesson in this rung.",
+  "student_line": "The next reading is another word lesson in this set."
+ },
+ "stopped": {
+  "next_file": "vocab_band_4_3_0001",
+  "next_irl": 4,
+  "next_means": "This same lesson, so it can be finished."
+ }
+}

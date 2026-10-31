@@ -29,14 +29,14 @@ inference: 3.1 -> 4.1 -> 4.2 -> 4.3 -> 5.1 -> 5.2 -> 5.3 -> ...
 
 ## 2. Where the catalog stands (verified 2026-10-28)
 
-Seventy-six compiled lessons. The inference ladder is complete from the floor through stage 4.3,
-`main_idea` is complete through stage 4.3, and `vocab` is complete from the floor through 4.2.
+Eighty-two compiled lessons. The inference ladder is complete from the floor through stage 4.3,
+`main_idea` is complete through stage 4.3, and `vocab` is complete from the floor through 4.3.
 
 | Ladder | 3.1 | 4.1 | 4.2 | 4.3 | 5.1 | above |
 | --- | --- | --- | --- | --- | --- | --- |
 | `inference` | 6 ✓ | 8 ✓ | 6 ✓ | 6 ✓ | 2/6 | 6.1 at 1/6 |
 | `main_idea` | 6 ✓ | 6 ✓ | 6 ✓ | 6 ✓ | — | 7.1 at 2/6 |
-| `vocab` | 6 ✓ | 6 ✓ | 6 ✓ | — | — | — |
+| `vocab` | 6 ✓ | 6 ✓ | 6 ✓ | 6 ✓ | — | — |
 | other five | — | — | — | — | — | — |
 
 Three facts that shape what comes next:
@@ -282,12 +282,13 @@ misconception, injection, and stop sessions per rung, which so far exist for mai
 | `vocab` 3.1 | built; drafted under 2.6; strict clean | misconception and injection sessions |
 | `vocab` 4.1 | built; drafted under 2.6; strict clean | misconception and injection sessions |
 | `vocab` 4.2 | built; drafted under 2.6; strict clean | misconception, injection, and stop sessions; TC review of eighteen passages |
+| `vocab` 4.3 | built; drafted under 2.6; strict clean; smooth 6/6 and hard 6/6 | misconception, injection, and stop sessions; TC review of six passages |
 | `text_structure` 3.1 | absent | next in Phase 2 |
 | `process` 3.1 | absent | after text_structure |
 | `argument_evidence` 3.1 | absent, and may not fit grade-3 load | decide before authoring |
 | `literary_text` 3.1 | absent | needs a short story |
 | `authors_craft` 3.1 | absent, and may not fit grade-3 load | decide before authoring |
-| `text-bank` rows for the 30 older drafted lessons | not written; 4.3 is TB-015 to TB-020 and vocab is TB-021 to TB-038 | backfill after the cold-chat pass |
+| `text-bank` rows for the 30 older drafted lessons | not written; main_idea 4.3 is TB-015 to TB-020, vocab 3.1-4.2 is TB-021 to TB-038, vocab 4.3 is TB-039 to TB-044 | backfill after the cold-chat pass |
 
 ### Handoff checklist
 

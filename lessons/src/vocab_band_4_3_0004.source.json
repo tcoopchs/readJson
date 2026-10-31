@@ -1,0 +1,235 @@
+{
+ "schema_version": 3,
+ "document_type": "lesson_source",
+ "lesson_id": "vocab_band_4_3_0004",
+ "meta": {
+  "status": "published",
+  "title": "The Town's Night Watch",
+  "skill": "vocab",
+  "irl_grade": 4,
+  "stage": 3,
+  "sequence": 4,
+  "genre": "nonfiction",
+  "topic_domain": "history and people",
+  "skill_frame": "Work out a word's meaning from the passage. One word can name two things.",
+  "reader": {
+   "who": "Students who read at about a fourth-grade level.",
+   "reading_level": 4,
+   "why_this_level": "Measured FK 5.5, 6.4, 6.4 (6.0 together) on the 3 parts, 117, 104, 111 words. The load is an institution the reader has never seen, described through what it paid and who walked. The final move reverses the value of a night's work twice over, which is the abstract step at this rung.",
+   "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+  },
+  "source": {
+   "basis": "Written for this lesson.",
+   "text_status": "Drafted for the band, review pending.",
+   "drafted_by": "TC review pending",
+   "survey": "The pre-police night watch in a town, built so 'watch' and 'relief' name a job and a replacement rather than a clock or a feeling.",
+   "avoided": "No town, country, or date. No wage figures."
+  },
+  "session": {
+   "scope": "build-band",
+   "item_target": 5,
+   "time_target_minutes": 12,
+   "difficulty_basis": "Clue distance: each word is explained where it is used, and the last item joins the whole passage."
+  },
+  "authoring_exceptions": []
+ },
+ "script_overrides": {
+  "near_copy_2": "Say it in your own words. One sentence is enough."
+ },
+ "passage": {
+  "part_1": "Before a town had a paid police force, it had a watch. The watch was a group of men who walked the streets after dark, carrying a lantern and a staff. Their work had two parts. They looked for fire, which was the danger that could take a whole street in an hour, and they looked for people who were out when they should not be. The watch was not a small duty, and it was not a job a man could do half awake. A man on watch stood for four hours in cold and rain, and the town expected him to stay awake for all of it, after a full day of his own work.",
+  "part_2": "The town paid for the watch in shares, and every household stood on the list. Each household owed a sum, and a household too poor to pay sent a man instead. That exchange reads strangely now. Money and time were treated as the same kind of contribution. A merchant could buy his night's sleep, and a laborer could sell his. The arrangement worked while the town was small, because every household knew what the others had paid. It failed when the town grew, and the street stopped being a place where everyone knew the man on watch, and nobody could tell who had paid.",
+  "part_3": "What ended the watch was not a single failure but a change in the size of the problem. A watch of twelve men can cover twelve streets, and a town of thirty streets needs a different answer. The men were also unpaid in any real sense, because a share paid in money went to the town. It did not go to the man who walked. The town offered relief only when a household hired a substitute, and a substitute had no reason to know the streets. The paid force that replaced the watch was expensive. It was also the first arrangement in which the person walking was paid for the walking."
+ },
+ "items": [
+  {
+   "id": "1",
+   "type": "cloze",
+   "skill": "vocab",
+   "difficulty": 1,
+   "show_part": "part_1",
+   "prompt": "Before a town had a paid police force, it had a ____.\n\nWrite the missing word.",
+   "tutor_only": {
+    "confirm": "Right. The town had a watch.",
+    "correct_reason": "The first part says the town had a watch, then describes the men who walked the streets at night.",
+    "tell": "The word is watch. A watch was a group of men who walked the streets after dark.",
+    "help": [
+     "The next sentence says what the group of men did.",
+     "The passage uses the same word again when it says a man stood on it."
+    ],
+    "say_back": "use_word",
+    "if_they_say": [
+     {
+      "when": "the student answers guard",
+      "ask": "A guard is one person. The passage names the whole group of men who walked at night."
+     }
+    ],
+    "accept_words": [
+     "watch"
+    ],
+    "normalize": "Ignore case and punctuation.",
+    "word": "watch"
+   }
+  },
+  {
+   "id": "2",
+   "type": "short_answer",
+   "skill": "vocab",
+   "difficulty": 2,
+   "show_part": "part_1",
+   "prompt": "What two dangers did the watch look for?",
+   "tutor_only": {
+    "confirm": "Yes. Fire and people out when they should not be.",
+    "correct_reason": "The first part says the men looked for fire and for people who were out when they should not be.",
+    "tell": "The watch looked for fire, which could take a street in an hour. It also looked for people who were out when they should not be.",
+    "help": [
+     "Read the sentence that begins 'They looked for fire'.",
+     "The second danger is about people, not buildings."
+    ],
+    "say_back": "own_words",
+    "if_they_say": [
+     {
+      "when": "the student names only fire",
+      "ask": "Fire is one of the two. What else does the sentence say they looked for?"
+     }
+    ],
+    "core_idea": "Fire and people who were out when they should not be.",
+    "accept_ideas": [
+     "fire and people out at night",
+     "fire and people out when they should not be",
+     "fire and people on the street"
+    ],
+    "one_idea_is_enough": true,
+    "not_required": [
+     "how the men were armed",
+     "how many men walked"
+    ]
+   }
+  },
+  {
+   "id": "3",
+   "type": "cloze",
+   "skill": "vocab",
+   "difficulty": 3,
+   "show_part": "part_3",
+   "prompt": "The town offered ____ only when a household hired a substitute, and a substitute had no reason to know the streets.\n\nWrite the missing word.",
+   "tutor_only": {
+    "confirm": "Right. The town offered relief.",
+    "correct_reason": "The third part says the town offered relief only when a household hired a substitute, and a substitute did not know the streets.",
+    "tell": "The word is relief. Relief here means the person who takes over a man's watch.",
+    "help": [
+     "The sentence explains who came in when a household hired someone.",
+     "The word refers to the person who takes the watch, not to a feeling."
+    ],
+    "say_back": "use_word",
+    "if_they_say": [
+     {
+      "when": "the student answers help or comfort",
+      "ask": "Here the word names a person who takes over the watch. What is that person called in the sentence?"
+     },
+     {
+      "when": "the student answers substitute",
+      "ask": "A substitute is named later in the sentence. Which word does the blank hold?"
+     }
+    ],
+    "accept_words": [
+     "relief"
+    ],
+    "normalize": "Ignore case and punctuation.",
+    "word": "relief"
+   }
+  },
+  {
+   "id": "4",
+   "type": "short_answer",
+   "skill": "vocab",
+   "difficulty": 3,
+   "show_part": "part_2",
+   "prompt": "Why does the passage say money and time were the same kind of contribution?",
+   "tutor_only": {
+    "confirm": "Yes. A household could pay a sum or send a man.",
+    "correct_reason": "The second part says each household owed a sum, and a household too poor to pay sent a man instead.",
+    "tell": "A household could pay money or give a night of work. The town counted both as paying for the watch.",
+    "help": [
+     "Read the sentence about a household too poor to pay.",
+     "One household pays a sum; the other sends a man."
+    ],
+    "say_back": "own_words",
+    "if_they_say": [
+     {
+      "when": "the student says the town paid wages to the watchmen",
+      "ask": "The passage says the money went to the town. Who did the walking for a poor household?"
+     },
+     {
+      "when": "the student says the town forced men to work",
+      "ask": "The passage describes a choice: pay a sum or send a man. Who made that choice?"
+     }
+    ],
+    "core_idea": "A household could pay money or send a man to walk, and both counted as its share.",
+    "accept_ideas": [
+     "you could pay or send a man",
+     "money and a night of work both paid the share",
+     "the poor paid in time instead of cash"
+    ],
+    "one_idea_is_enough": true,
+    "not_required": [
+     "how much the sum was",
+     "how many households there were"
+    ]
+   }
+  },
+  {
+   "id": "5",
+   "type": "short_answer",
+   "skill": "vocab",
+   "difficulty": 4,
+   "show_part": "all",
+   "prompt": "Why did the watch stop working as the town grew?",
+   "tutor_only": {
+    "confirm": "Right. Too few men, and the shares stopped meaning anything.",
+    "correct_reason": "The third part says a watch of twelve men covers twelve streets, the money went to the town rather than the man walking, and substitutes did not know the streets.",
+    "tell": "The town outgrew the watch. Twelve men could not cover thirty streets, the men were not really paid, and substitutes did not know the streets.",
+    "help": [
+     "Read the opening of the part above about the size of the problem.",
+     "The passage names the number of streets and the substitutes."
+    ],
+    "say_back": "own_words",
+    "if_they_say": [
+     {
+      "when": "the student says the watchmen were lazy",
+      "ask": "The passage gives reasons about size and payment. What happened when the town grew?"
+     }
+    ],
+    "core_idea": "The town outgrew it: too few men for the streets, no real pay for the man walking, and substitutes who did not know the streets.",
+    "accept_ideas": [
+     "the town had more streets than men",
+     "the watchmen were not really paid",
+     "the town grew and the shares stopped working"
+    ],
+    "one_idea_is_enough": true,
+    "not_required": [
+     "when the paid force started",
+     "what the force cost"
+    ]
+   },
+   "show_part_again": true
+  }
+ ],
+ "advance": {
+  "next_file": "vocab_band_4_3_0001",
+  "next_irl": 4,
+  "next_means": "The first word lesson in this rung; no higher word rung is authored yet.",
+  "student_line": "You worked the meanings out from the passage. The next reading is another word lesson."
+ },
+ "retry": {
+  "next_file": "vocab_band_4_3_0005",
+  "next_irl": 4,
+  "next_means": "Another word lesson in this rung.",
+  "student_line": "The next reading is another word lesson in this set."
+ },
+ "stopped": {
+  "next_file": "vocab_band_4_3_0004",
+  "next_irl": 4,
+  "next_means": "This same lesson, so it can be finished."
+ }
+}

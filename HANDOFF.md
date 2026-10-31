@@ -1,7 +1,7 @@
 # Handoff — readJson / readingHarness
 
-State as of 2026-10-31, written in the working tree through the `vocab` 4.2 rung and committed with
-it. If `git status` shows the eighteen vocab sources uncommitted, the commit did not land and this
+State as of 2026-10-31, written in the working tree through the `vocab` 4.3 rung and committed with
+it. If `git status` shows the six vocab 4.3 sources uncommitted, the commit did not land and this
 file is ahead of the tree.
 
 Normative docs: `README.md` (naming, bands, routing), `DESIGN_RULES.md` (passage, items, ladder),
@@ -12,18 +12,19 @@ disagree, the rules win — and this file is wrong.
 
 ## Where the catalog stands
 
-76 compiled lessons. The inference ladder is complete from the floor through stage 4.3, `main_idea`
-is complete through stage 4.3, and `vocab` is complete from the floor through 4.2.
+82 compiled lessons. The inference ladder is complete from the floor through stage 4.3, `main_idea`
+is complete through stage 4.3, and `vocab` is complete from the floor through 4.3, so three verticals
+are now open at grade 4.
 
 | Ladder | Rungs built | Notes |
 | --- | --- | --- |
 | `inference` | 3.1 ✓ (6) · 4.1 ✓ (8) · 4.2 ✓ (6) · 4.3 ✓ (6) · 5.1 2/6 · 6.1 1/6 | 5.1 and 6.1 are prototype files, incomplete |
 | `main_idea` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) · 7.1 2/6 | 4.2 is one cell from six federal works; 4.3 is six drafted passages; the 7.1 gap is why a clear on 4.3 holds |
-| `vocab` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) | six drafted passages per rung under 2.6; TB-021 to TB-038; next rung is 4.3 |
+| `vocab` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) | four rungs, all drafted under 2.6; TB-021 to TB-044; ladder complete through 4.3 |
 | `the other five` | none | see Phase 2 in the build plan; `text_structure 3.1` is next |
 
 `lessons/curriculum.json` matches reality: 4.1 inference keeps its eight files as road; 3.1, 4.2, 4.3,
-main_idea 3.1, 4.1, 4.2 and 4.3, and vocab 3.1, 4.1 and 4.2 declare six each and are `complete`.
+main_idea 3.1, 4.1, 4.2 and 4.3, and vocab 3.1, 4.1, 4.2 and 4.3 declare six each and are `complete`.
 
 `main_idea` 4.3 (TB-015 to TB-020) is the rung the subject rule bit on: no two neighbours share a
 domain, and the six span six of the seven domains — food and farming, arts and language, work and
@@ -50,10 +51,11 @@ trade, sport and play, history and people, places and travel.
 ```bash
 build_lessons.py --check          # exit 0
 pytest                            # 57 passed
-validate_lesson.py --strict       # 77 sources, 0 errors, 0 warnings
-audit_lessons.py                  # 57 findings, the known ordinal backlog, none new in vocab
-catalog load (76 lessons)         # ladders in order, onboarding rows valid, 3 vocab rungs complete
+validate_lesson.py --strict       # 83 sources, 0 errors, 0 warnings
+audit_lessons.py                  # 57 findings, the known ordinal backlog, none in vocab 4.3
+catalog load (82 lessons)         # ladders in order, onboarding rows valid, 4 vocab rungs complete
 cold-chat sweep, 18 vocab lessons # smooth 18/18 ($0.0311); hard 18/18 ($0.0312), tell and an=0 stop
+cold-chat sweep, vocab 4.3        # smooth 6/6 ($0.0245); hard 6/6 ($0.0115), tell and an=0 stop
 ```
 
 The sweep above was run after the ready-line change on 2026-10-28, so it covers the shared protocol
@@ -80,6 +82,16 @@ only authored help reached the student, `tell` was reached, no invented help, st
 `an=0|stop=1` ($0.0042). One branch session on `main_idea_band_4_3_0001` fired the item-1
 misconception verbatim and refused two injections and a band question in one sentence each.
 
+`vocab` 4.3 ran a smooth and a hard sweep on 2026-10-31. Smooth 6 of 6: opened on the first reply,
+five items in order, `done=5 u=5 an=1`, no leak, no early ticket ($0.0245). Hard 6 of 6: only
+authored help reached the student, `tell` was reached, stopped ticket with `an=0`, no private
+field leak ($0.0115). No misconception, injection, or stop-by-request session has run on this
+rung yet.
+
+The six vocab 4.2 lessons now advance to `vocab_band_4_3_0001` instead of pointing back at
+themselves, and the 4.3 lessons advance to their own first sequence because no word rung above
+4.3 is authored.
+
 Routed against the live code: a clear on 3.1 → 4.1; a clear on 4.2 → 4.3; a second clear on 4.3
 holds because 5.1 is not authored; a hard fail on 4.3 → the middle of 4.2.
 
@@ -100,13 +112,15 @@ the authored route and the ladder agree.
    the student (85 lines), a single-help item making the tutor invent a second hint, and a ready gate
    that dropped `yes`. `anchor` is now defined as the lesson's first item in `DESIGN_RULES` 7.4,
    `README.md`, and the protocol at both the definition and the ticket step.
-2. **54 lessons are AI-drafted and unreviewed.** inference 3.1, main_idea 3.1, inference 4.2 and
-   4.3, main_idea 4.1, the six main_idea 4.3 lessons, and the eighteen new vocab lessons were drafted
+2. **60 lessons are AI-drafted and unreviewed.** inference 3.1, main_idea 3.1, inference 4.2 and
+   4.3, main_idea 4.1, the six main_idea 4.3 lessons, and the twenty-four vocab lessons were drafted
    under `2.6`, and every one says `drafted_by: "TC review pending"`. Band 5+ cannot use that route.
 3. **No `text-bank` rows** for 30 of those drafted passages. Provenance lives only in each source
    block. The six adapted `main_idea` 4.2 passages are banked (TB-009 to TB-014), the six drafted
-   4.3 passages are banked (TB-015 to TB-020), and the eighteen vocab passages are banked (TB-021 to
-   TB-038), each with measured FK, complexity scores, central idea, supports, and a caution line.
+   4.3 passages are banked (TB-015 to TB-020), the eighteen earlier vocab passages are banked (TB-021
+   to TB-038), and the six vocab 4.3 passages are banked (TB-039 to TB-044), each with measured FK,
+   complexity scores, central idea, supports, and a caution line. 30 older drafted lessons still have
+   no bank row.
 4. **`validate_lesson.py` is in the skill, not in either repo.** It lives at
    `~/.hermes/skills/productivity/readjson-lessons/scripts/validate_lesson.py`, so the plan's paths
    point at nothing. Run it from the skill against this repo:
@@ -128,11 +142,11 @@ the authored route and the ladder agree.
 
 ## Next actions, in order
 
-1. `vocab 4.3`, six lessons — the last rung of the vocab ladder before the next vertical. Then
-   `text_structure 3.1`. A vertical is finished up its ladder before the next starts, and
-   `argument_evidence` and `authors_craft` need the grade-3 load decision before authoring.
-2. TC review of the six 4.3 passages and the 30 older drafted ones; replace `drafted_by` with the
-   reviewer's name as each is read.
+1. `text_structure 3.1`, six lessons — the next vertical in Phase 2 now that vocab is complete
+   through 4.3, then `process 3.1`. `argument_evidence` and `authors_craft` need the grade-3 load
+   decision before authoring.
+2. TC review of the six vocab 4.3 passages, the eighteen vocab 3.1-4.2 passages, and the 30 older
+   drafted ones; replace `drafted_by` with the reviewer's name as each is read.
 3. Branch sessions on `main_idea` 4.3: misconception, injection, and stop on 0002-0006, plus the
    near-copy say-back loop, which has never been run anywhere.
 4. Backfill `text-bank` rows for the 30 older drafted lessons.

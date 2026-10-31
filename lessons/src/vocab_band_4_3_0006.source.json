@@ -1,0 +1,239 @@
+{
+ "schema_version": 3,
+ "document_type": "lesson_source",
+ "lesson_id": "vocab_band_4_3_0006",
+ "meta": {
+  "status": "published",
+  "title": "The Ferry That Waits for the Water",
+  "skill": "vocab",
+  "irl_grade": 4,
+  "stage": 3,
+  "sequence": 6,
+  "genre": "nonfiction",
+  "topic_domain": "places and travel",
+  "skill_frame": "Work out a word's meaning from the passage. A travel word can set a limit.",
+  "reader": {
+   "who": "Students who read at about a fourth-grade level.",
+   "reading_level": 4,
+   "why_this_level": "Measured FK 6.4, 6.2, 5.7 (6.1 together) on the 3 parts, 106, 102, 100 words. The load is a schedule set by something nobody controls: the water decides the crossing time, and a berth is a set of conditions rather than a space. The reader must treat a printed time as a reading rather than a promise.",
+   "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+  },
+  "source": {
+   "basis": "Written for this lesson.",
+   "text_status": "Drafted for the band, review pending.",
+   "drafted_by": "TC review pending",
+   "survey": "A shallow-harbor ferry, built so 'tide' and 'berth' name what sets a timetable and what makes a pier usable.",
+   "avoided": "No harbor, port, or country. No times, depths, or fares."
+  },
+  "session": {
+   "scope": "build-band",
+   "item_target": 5,
+   "time_target_minutes": 12,
+   "difficulty_basis": "Clue distance: each word is explained where it is used, and the last item joins the whole passage."
+  },
+  "authoring_exceptions": []
+ },
+ "script_overrides": {
+  "near_copy_2": "Say it in your own words. One sentence is enough."
+ },
+ "passage": {
+  "part_1": "A ferry that crosses a shallow harbor cannot keep a timetable like a train. The water in the harbor rises and falls twice a day. The boat needs a certain depth to float over the bar at the harbor mouth, and at low water that depth is not there. That rise and fall is the tide, and the crossing times have to follow it. A ferry may sit at the pier for an hour with its engine running, waiting for the harbor to fill. Passengers who read the timetable as a promise learn to read the tide tables too, and those are free at the pier.",
+  "part_2": "The boat also needs a berth, which is the space at the pier where it ties up. A berth is not just a parking place for a boat. It is a length of wall with the right depth beside it and a ramp that reaches the deck at the right height. When the water drops, the ramp becomes steep, and when it rises, the deck may sit above the wall. Crews adjust the ramp and the lines, and a boat that arrives at the wrong state of the tide may find the berth unusable even when the pier is empty and quiet.",
+  "part_3": "None of this comes from a bad plan or a careless office. The times are set by the water, and the water cannot be talked round by a printed sheet. A boat that promised to leave every hour would keep that word on some days, when the water allowed it. On other days it would break it, and those would be the days of low water. The printed times are the best read of the tide, and they are not a rule the sea obeys. A traveler who reads them that way holds a plan, and a plan can slip."
+ },
+ "items": [
+  {
+   "id": "1",
+   "type": "cloze",
+   "skill": "vocab",
+   "difficulty": 1,
+   "show_part": "part_1",
+   "prompt": "That rise and fall is the ____, and the crossing times have to follow it.\n\nWrite the missing word.",
+   "tutor_only": {
+    "confirm": "Right. That rise and fall is the tide.",
+    "correct_reason": "The first part says the water rises and falls twice a day, and that rise and fall is the tide that the crossing times follow.",
+    "tell": "The word is tide. The tide is the rise and fall of the water, and the ferry has to wait for it.",
+    "help": [
+     "The sentence names the rise and fall the crossing times follow.",
+     "The ferry waits at the pier for it."
+    ],
+    "say_back": "use_word",
+    "if_they_say": [
+     {
+      "when": "the student answers water",
+      "ask": "Water is what moves. The word names the rise and fall itself."
+     }
+    ],
+    "accept_words": [
+     "tide"
+    ],
+    "normalize": "Ignore case and punctuation.",
+    "word": "tide"
+   }
+  },
+  {
+   "id": "2",
+   "type": "short_answer",
+   "skill": "vocab",
+   "difficulty": 2,
+   "show_part": "part_1",
+   "prompt": "Why does the ferry sometimes wait at the pier with its engine running?",
+   "tutor_only": {
+    "confirm": "Yes. The harbor is too shallow until the water rises.",
+    "correct_reason": "The first part says the boat needs a certain depth to float over the bar, and at low water that depth is not there, so it waits for the harbor to fill.",
+    "tell": "At low water the harbor is too shallow over the bar. The ferry waits until the tide brings enough depth to cross.",
+    "help": [
+     "Read the sentence about the depth the boat needs over the bar.",
+     "The passage says what the ferry is waiting for."
+    ],
+    "say_back": "own_words",
+    "if_they_say": [
+     {
+      "when": "the student says the engine is broken",
+      "ask": "The engine is running. What is the boat waiting for?"
+     },
+     {
+      "when": "the student says the ferry is early",
+      "ask": "The time is not the problem. What is missing at the harbor mouth?"
+     }
+    ],
+    "core_idea": "The water is too shallow over the bar at low tide, so the ferry waits for the harbor to fill.",
+    "accept_ideas": [
+     "the harbor is too shallow at low water",
+     "it needs more depth to cross the bar",
+     "it is waiting for the tide to come in"
+    ],
+    "one_idea_is_enough": true,
+    "not_required": [
+     "how many passengers are aboard",
+     "how long the crossing takes"
+    ]
+   }
+  },
+  {
+   "id": "3",
+   "type": "cloze",
+   "skill": "vocab",
+   "difficulty": 2,
+   "show_part": "part_2",
+   "prompt": "The boat also needs a ____, which is the space at the pier where it ties up.\n\nWrite the missing word.",
+   "tutor_only": {
+    "confirm": "Right. The space at the pier is a berth.",
+    "correct_reason": "The second part says the boat needs a berth, which is the space at the pier where it ties up.",
+    "tell": "The word is berth. A berth is the length of wall where a boat ties up.",
+    "help": [
+     "The clause after the blank explains what the word means.",
+     "The next sentences say what else a berth needs besides space."
+    ],
+    "say_back": "use_word",
+    "if_they_say": [
+     {
+      "when": "the student answers dock or pier",
+      "ask": "The pier is the whole structure. The passage names the space where one boat ties up."
+     }
+    ],
+    "accept_words": [
+     "berth"
+    ],
+    "normalize": "Ignore case and punctuation.",
+    "word": "berth"
+   }
+  },
+  {
+   "id": "4",
+   "type": "short_answer",
+   "skill": "vocab",
+   "difficulty": 3,
+   "show_part": "part_2",
+   "prompt": "What makes a berth usable, besides being empty?",
+   "tutor_only": {
+    "confirm": "Yes. Enough depth beside the wall, and a ramp that reaches the deck.",
+    "correct_reason": "The second part says a berth is a length of wall with the right depth beside it and a ramp that reaches the deck at the right height, and the water changes both.",
+    "tell": "A berth needs enough water beside the wall and a ramp at the right height. When the tide drops or rises, those conditions change.",
+    "help": [
+     "Read the sentence that says what a berth is, besides a parking place.",
+     "The passage names the depth and the ramp."
+    ],
+    "say_back": "own_words",
+    "if_they_say": [
+     {
+      "when": "the student says a berth is usable when the pier is empty",
+      "ask": "The passage says a berth can be unusable even then. What else does it need?"
+     },
+     {
+      "when": "the student says the boat needs a ticket",
+      "ask": "Nothing in the passage is about tickets. What does the water change at the pier?"
+     }
+    ],
+    "core_idea": "Enough depth beside the wall and a ramp that still reaches the deck.",
+    "accept_ideas": [
+     "enough water beside the wall",
+     "a ramp that reaches the deck",
+     "the right height at the pier"
+    ],
+    "one_idea_is_enough": true,
+    "not_required": [
+     "how big the boat is",
+     "who owns the pier"
+    ]
+   }
+  },
+  {
+   "id": "5",
+   "type": "short_answer",
+   "skill": "vocab",
+   "difficulty": 4,
+   "show_part": "all",
+   "prompt": "What does it mean that the printed times are not a rule the sea obeys?",
+   "tutor_only": {
+    "confirm": "Right. The times follow the water; the water does not follow the times.",
+    "correct_reason": "The third part says the printed times are the best read of the tide, and not a rule the sea obeys, so a plan can slip.",
+    "tell": "It means the times are the company's reading of the tide. The water does what it does, so a printed time can be wrong on the day.",
+    "help": [
+     "Read the last two sentences of the passage above.",
+     "The passage contrasts a reading with a rule."
+    ],
+    "say_back": "own_words",
+    "if_they_say": [
+     {
+      "when": "the student says the company is careless",
+      "ask": "The passage says the times are its best reading. What can still go wrong?"
+     },
+     {
+      "when": "the student says the sea is dangerous",
+      "ask": "Danger is not the point here. What does the passage say the sea will not do?"
+     }
+    ],
+    "core_idea": "The times are the company's best reading of the water, and the water is not bound by them.",
+    "accept_ideas": [
+     "the times are a reading of the tide, not a command",
+     "the sea does not follow the timetable",
+     "the printed time can be wrong when the water differs"
+    ],
+    "one_idea_is_enough": true,
+    "not_required": [
+     "how often the ferry runs",
+     "what the fare is"
+    ]
+   },
+   "show_part_again": true
+  }
+ ],
+ "advance": {
+  "next_file": "vocab_band_4_3_0001",
+  "next_irl": 4,
+  "next_means": "The first word lesson in this rung; no higher word rung is authored yet.",
+  "student_line": "You worked the meanings out from the passage. The next reading is another word lesson."
+ },
+ "retry": {
+  "next_file": "vocab_band_4_3_0006",
+  "next_irl": 4,
+  "next_means": "This same lesson, the last in the rung.",
+  "student_line": "The next reading is another word lesson in this set."
+ },
+ "stopped": {
+  "next_file": "vocab_band_4_3_0006",
+  "next_irl": 4,
+  "next_means": "This same lesson, so it can be finished."
+ }
+}
