@@ -1,0 +1,247 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_3_1_0003",
+  "meta": {
+    "status": "published",
+    "title": "Two Bridges",
+    "skill": "text_structure",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "places and travel",
+    "skill_frame": "Text structure: compare two things and see how the passage marks the difference.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 3.4 and 3.0 on the two parts (57 and 59 words), 3.2 together. The load is two objects held side by side on three points: who may use each, how fast each is, and what each offers. Both objects are named in every sentence, so the reader does not have to hold an unnamed one in memory.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 3.1, band 3.1, sequence 3. No external work.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "Two bridges over one river, built so the comparison is stated plainly and the signal word for difference appears in the same sentence.",
+      "avoided": "No river name, town, or country. No lengths, ages, or traffic counts."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Two things compared on one point, then the same pair compared on two more points with a signal word."
+    },
+    "authoring_exceptions": [
+      "Parts run 49-62 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the structure stays visible on one screen. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The town has two bridges over the same river. The old stone bridge is wide enough for trucks and buses. It has four lanes and a rail on each side. The new footbridge is narrow. Only people on foot or on bikes may use it. Both bridges cross the river, but they are built for different travelers.",
+    "part_2": "The stone bridge is the faster way for a car. Drivers cross in about a minute. The footbridge is slower, and its path curves down to the water. Unlike the stone bridge, it has benches halfway across. People stop there to watch the river. The town needs both: one for wheels, one for a slow look at the water."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Which bridge can a truck use?",
+      "tutor_only": {
+        "confirm": "Right. The old stone bridge.",
+        "correct_reason": "The passage says the stone bridge is wide enough for trucks and buses, and only people on foot or bikes may use the footbridge.",
+        "tell": "The stone bridge carries wheels. The footbridge is for people walking or riding bikes.",
+        "help": [
+          "Look for the bridge described as wide enough for trucks.",
+          "Check who is allowed on the footbridge."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The old stone bridge.",
+        "accept_ideas": [
+          "the stone bridge",
+          "the wide bridge",
+          "the bridge with four lanes"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the river"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the footbridge",
+            "ask": "The passage says who may use the footbridge. Can a truck go there?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The passage says both bridges cross the river. What makes them different?",
+      "tutor_only": {
+        "confirm": "Yes. They are built for different travelers.",
+        "correct_reason": "The last sentence of the section says both cross the river but are built for different travelers, and the earlier sentences name trucks and buses on one side, feet and bikes on the other.",
+        "tell": "Both bridges do the same job of crossing. The difference is who they carry: wheels on the stone bridge, people on the footbridge.",
+        "help": [
+          "Look at the sentence that begins 'Both bridges cross the river.'",
+          "The word 'but' points at the difference."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They are built for different travelers.",
+        "accept_ideas": [
+          "one is for trucks and one is for people",
+          "they carry different travelers",
+          "one takes vehicles and one takes people"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the number of lanes"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the stone bridge is older",
+            "ask": "Age is stated, but the passage points to a different difference. Who uses each bridge?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What can people do on the footbridge that they cannot do on the stone bridge?",
+      "tutor_only": {
+        "confirm": "Right. They can sit on the benches and watch the river.",
+        "correct_reason": "The second part says the footbridge has benches halfway across, and people stop there to watch the river.",
+        "tell": "The footbridge has benches on the way across, so people can stop and look at the water.",
+        "help": [
+          "Look for the sentence that names what the footbridge has.",
+          "It is something people sit on."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Stop and sit on the benches to watch the river.",
+        "accept_ideas": [
+          "sit on the benches",
+          "stop and watch the river",
+          "rest halfway across"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the walk takes"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says drive across",
+            "ask": "Cars use the stone bridge. What does the footbridge offer that the other does not?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Which word signals that the two bridges are being compared?",
+      "tutor_only": {
+        "confirm": "Right. The passage uses 'but' and 'Unlike' to mark the difference.",
+        "correct_reason": "The first part says both bridges cross the river 'but' are built for different travelers; the second part says 'Unlike the stone bridge' before naming the benches. Both words set one bridge against the other.",
+        "tell": "'But' marks the difference in the first section. 'Unlike' does the same work in the second.",
+        "help": [
+          "Find a sentence that names both bridges.",
+          "Look for the small word that turns the sentence toward a difference."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A word that marks the difference, such as 'but' or 'Unlike'.",
+        "accept_ideas": [
+          "but",
+          "unlike",
+          "the word but",
+          "the word unlike",
+          "both but and unlike"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the number of lanes"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says 'both'",
+            "ask": "'Both' points at what they share. Which word points at the difference?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Why does the town need both bridges?",
+      "tutor_only": {
+        "confirm": "Right. One carries wheels quickly, and the other gives people a place to stop and look.",
+        "correct_reason": "The last sentence says the town needs both, one for wheels and one for a slow look at the water, after the second part has shown the stone bridge is fast for cars and the footbridge has benches.",
+        "tell": "Each bridge does something the other does not. The stone bridge moves cars fast, and the footbridge gives walkers a slow place to stop.",
+        "help": [
+          "Look at the last sentence, which begins 'The town needs both.'",
+          "It names a job for each bridge."
+        ],
+        "say_back": "own_words",
+        "core_idea": "One carries wheels quickly, and the other gives people a slow place to stop and look.",
+        "accept_ideas": [
+          "one is for cars and one is for walkers",
+          "one moves traffic and one is for watching the river",
+          "each does a job the other does not"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the bridges are"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says one bridge would be too crowded",
+            "ask": "Crowding is not mentioned. What job does each bridge do?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_3_1_0003",
+    "next_irl": 3,
+    "next_means": "The next text-structure stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "text_structure_band_3_1_0004",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_3_1_0003",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_3_1_0004",
+  "meta": {
+    "status": "published",
+    "title": "The Damp Paper",
+    "skill": "text_structure",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "topic_domain": "work and trade",
+    "skill_frame": "Text structure: find the problem, then the solution that answers it.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 4.3 and 3.7 on the two parts (55 and 50 words), 3.9 together. The load is one problem, one wrong cause that is ruled out, and one real cause found in a nearby detail. The reader has to hold the ruled-out cause long enough to see it dismissed, which is the first step up from the earlier rungs.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 3.1, band 3.1, sequence 4. No external work.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A print shop's morning jams, built so the wrong cause is checked first, the real cause is one detail away, and the fix costs nothing.",
+      "avoided": "No shop name, brand, town, or prices. No claim about how many sheets were wasted."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One problem and one failed check, then the real cause and the fix; the last sentence closes the wrong cause."
+    },
+    "authoring_exceptions": [
+      "Parts run 49-62 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the structure stays visible on one screen. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A small print shop had a problem. Its printer jammed almost every morning. The paper came out wrinkled. Some sheets tore inside the machine. The owner checked the printer and found nothing wrong. Then she noticed the paper boxes. They sat against a cold outside wall. Water from the air had soaked into the paper.",
+    "part_2": "The shop moved the boxes to a dry shelf away from the wall. It also began opening each box the night before a job, so the paper could adjust to the room. The jams stopped within a week. The fix cost nothing. The problem was not the printer at all."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "In the section that begins 'A small print shop had a problem,' what went wrong?",
+      "tutor_only": {
+        "confirm": "Right. The printer jammed almost every morning.",
+        "correct_reason": "The second sentence names the problem, and the next two describe what the jams did to the paper.",
+        "tell": "The problem was jams: the paper wrinkled and some sheets tore inside the machine.",
+        "help": [
+          "Look at the second sentence of the section.",
+          "It names what happened almost every morning."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The printer jammed almost every morning.",
+        "accept_ideas": [
+          "the printer kept jamming",
+          "the paper wrinkled and tore",
+          "the machine jammed every morning"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the shop"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the paper was wet",
+            "ask": "Wet paper is the cause the owner finds later. What was the problem she saw first?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What did the owner find when she checked the printer?",
+      "tutor_only": {
+        "confirm": "Yes. She found nothing wrong with it.",
+        "correct_reason": "The passage says she checked the printer and found nothing wrong, which is why she kept looking.",
+        "tell": "The machine was not broken. That is why the owner looked at the paper instead.",
+        "help": [
+          "Find the sentence that starts with 'The owner checked.'",
+          "It says what she found."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Nothing was wrong with the printer.",
+        "accept_ideas": [
+          "nothing was wrong with it",
+          "the printer was fine",
+          "she found no problem with the printer"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who made the printer"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she found a broken part",
+            "ask": "The passage says she found nothing wrong. Where did she look next?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What was really making the paper jam?",
+      "tutor_only": {
+        "confirm": "Right. Water from the air had soaked into the paper.",
+        "correct_reason": "The last two sentences say the boxes sat against a cold outside wall and water from the air had soaked into the paper.",
+        "tell": "The paper was damp. Damp sheets wrinkle and tear as they pass through the machine.",
+        "help": [
+          "Look at the last two sentences of the section.",
+          "They describe where the boxes sat and what got into the paper."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Water from the air had soaked into the paper.",
+        "accept_ideas": [
+          "the paper was wet",
+          "the paper soaked up water",
+          "damp paper"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the age of the printer"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the printer was old",
+            "ask": "The owner checked the printer and found nothing wrong. What had happened to the paper?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "How did moving the boxes to a dry shelf stop the jams?",
+      "tutor_only": {
+        "confirm": "Yes. The paper stayed dry, so it stopped wrinkling and tearing.",
+        "correct_reason": "A dry shelf away from the cold wall kept water out of the paper, and the jams stopped within a week.",
+        "tell": "The jams came from damp paper. Once the paper stayed dry, there was nothing to make it wrinkle or tear.",
+        "help": [
+          "Connect the new shelf to the cause you found in the earlier section.",
+          "What did the paper stop soaking up?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "The paper stayed dry, so it did not wrinkle or tear in the printer.",
+        "accept_ideas": [
+          "the paper stayed dry",
+          "no water got into the paper",
+          "the paper was not damp anymore"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the shelf cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the shelf held the paper straighter",
+            "ask": "The passage points at water, not at how the paper sat. What did the dry shelf keep out?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage ends, 'The problem was not the printer at all.' What does that mean?",
+      "tutor_only": {
+        "confirm": "Right. The cause was the damp paper, not the machine.",
+        "correct_reason": "The whole passage rules out the printer and traces the jams to water in the paper, so the last sentence closes the wrong cause.",
+        "tell": "The machine was never the cause. Damp paper was, and the last sentence says so plainly.",
+        "help": [
+          "Think about what the owner checked first and what she found.",
+          "The last sentence points away from the machine."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The cause was the damp paper, not the machine.",
+        "accept_ideas": [
+          "the paper was the problem, not the printer",
+          "the printer was fine and the paper was wet",
+          "it was the paper, not the machine"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the fix took"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the printer needed a new part",
+            "ask": "The owner found nothing wrong with it. What did the passage say had soaked into the paper?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_3_1_0004",
+    "next_irl": 3,
+    "next_means": "The next text-structure stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "text_structure_band_3_1_0005",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_3_1_0004",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_3_1_0002",
+  "meta": {
+    "status": "published",
+    "title": "Why the Sidewalk Cracks",
+    "skill": "text_structure",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Text structure: follow a cause and its effect through a passage.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 3.9 and 2.3 on the two parts (51 and 51 words), 3.1 together. The load is one physical cause, ice takes more room than water, repeated four times with a repair at the end. One cause carries the whole chain, so the reader tracks one thing, not several.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 3.1, band 3.1, sequence 2. No external work.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A freeze and thaw cycle on one sidewalk, built so one cause pushes one effect and the chain repeats in the second part.",
+      "avoided": "No town, street name, temperature, or measurement. No claim about repair costs."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One cause and one effect, then the same cause repeated across a season with a repair that removes it."
+    },
+    "authoring_exceptions": [
+      "Parts run 49-62 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the structure stays visible on one screen. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "In winter, water gets into small cracks in a sidewalk. At night the water freezes and turns to ice. Ice takes up more room than water, so it pushes the sides of the crack apart. In the morning the ice melts. The crack is a little wider than it was before.",
+    "part_2": "The same thing happens night after night. Each freeze pushes the crack open a little more. By spring, the crack can be wide enough to lift a corner of the walk. A town crew fills the crack with tar. The tar keeps water out, so the freeze has nothing to push."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "In the section that begins 'In winter, water gets into small cracks,' what happens at night?",
+      "tutor_only": {
+        "confirm": "Right. It freezes and turns to ice.",
+        "correct_reason": "The second sentence says the water freezes at night and becomes ice.",
+        "tell": "The water sits in the crack during the day. At night it freezes into ice.",
+        "help": [
+          "Find the sentence that starts with 'At night.'",
+          "It names what the water turns into."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It freezes and turns to ice.",
+        "accept_ideas": [
+          "it freezes",
+          "it turns to ice",
+          "it becomes ice"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "where the water came from"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it melts at night",
+            "ask": "Melting happens in the morning. What happens at night?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why does the ice push the sides of the crack apart?",
+      "tutor_only": {
+        "confirm": "Yes. Ice takes up more room than water.",
+        "correct_reason": "The third sentence gives the cause: ice needs more space than the water it came from, so it pushes outward.",
+        "tell": "Ice needs more room than the water it came from. The extra room pushes the sides of the crack apart.",
+        "help": [
+          "Look at the sentence that begins 'Ice takes up more room.'",
+          "What happens to the space inside the crack when water turns to ice?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "Ice takes up more room than water.",
+        "accept_ideas": [
+          "ice is bigger than water",
+          "ice needs more space",
+          "freezing makes it expand"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how cold the night was"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the ice is heavy",
+            "ask": "Weight is not the reason given. What does the passage say about the room ice takes?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the crack keep getting wider as the winter goes on?",
+      "tutor_only": {
+        "confirm": "Right. The freeze happens again and again, and each one pushes it open more.",
+        "correct_reason": "The second part says the same thing happens night after night and each freeze pushes the crack open a little more.",
+        "tell": "One freeze widens the crack a little. The next night does it again, and the widening adds up over the winter.",
+        "help": [
+          "Look at the first two sentences of the section.",
+          "The words 'night after night' tell you the cause repeats."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The freeze happens night after night, and each one pushes the crack wider.",
+        "accept_ideas": [
+          "it freezes again and again",
+          "each night the ice pushes it more",
+          "the freezing repeats"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the amount of snow"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the crack gets wider because cars drive on it",
+            "ask": "The passage names one cause. What happens to the water every night?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "How does the tar keep the crack from growing?",
+      "tutor_only": {
+        "confirm": "Yes. It keeps water out, so there is nothing left to freeze and push.",
+        "correct_reason": "The last sentence says the tar keeps water out, and without water the freeze has nothing to push.",
+        "tell": "The crack grows because water freezes inside it. Tar seals the crack, so no water gets in, and the pushing stops.",
+        "help": [
+          "Look at the last two sentences of the section.",
+          "What does the tar keep out of the crack?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "It keeps water out, so the freeze has nothing to push.",
+        "accept_ideas": [
+          "it stops water getting in",
+          "no water means no ice to push",
+          "it seals the crack"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the color of the tar"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the tar holds the two sides together",
+            "ask": "Holding the sides is not the reason given. What does the tar keep out?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage describes a chain of events. Which happens first: the water freezes or the crack gets wider?",
+      "tutor_only": {
+        "confirm": "Right. The water freezes first, and the crack widens after.",
+        "correct_reason": "The passage says the water freezes into ice, and the ice then pushes the crack apart, so freezing comes first.",
+        "tell": "Freezing causes the push, and the push widens the crack. The cause comes before the effect.",
+        "help": [
+          "Find the sentence that says what the ice does to the crack.",
+          "Which event needs the other one to happen first?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "The water freezes first; the crack gets wider after.",
+        "accept_ideas": [
+          "the water freezes first",
+          "freezing comes first, then the crack widens",
+          "the ice forms before the crack grows"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how wide the crack gets"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the crack gets wider first",
+            "ask": "The crack has to hold water before anything can freeze. Which event needs the other?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_3_1_0002",
+    "next_irl": 3,
+    "next_means": "The next text-structure stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "text_structure_band_3_1_0003",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_3_1_0002",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

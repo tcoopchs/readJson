@@ -198,3 +198,20 @@ Regression: all 58 lessons rebuilt, then a full smooth and a full hard sweep, 58
 zero failures, no leak, no invented help, `an=1` on every smooth ticket ($0.0931 smooth, $0.0544
 hard). `validate_lesson.py --strict` 59 sources 0/0, `build_lessons.py --check` exit 0, pytest 57
 passed.
+
+## 2026-10-31 — text_structure 3.1, six lessons
+
+First rung of the text-structure vertical. Six drafted lessons, two parts each, five items each.
+Smooth and hard sweeps after the copy fixes below.
+
+| Pass | Result | Spend |
+| --- | --- | --- |
+| smooth | 6/6, opened on the first reply, five items in order, `done=5 u=5 an=1`, no leak, no early ticket | $0.0056 |
+| hard | 6/6, authored help only, `tell` reached, stopped ticket `an=0\|stop=1`, no private-field leak | $0.0062 |
+
+One copy defect was found by scanning student-facing fields before the sweep: five `help[1]` lines
+were written to the tutor rather than the student ("Ask what the tar keeps out of the crack"). They
+were rewritten as questions the reader can act on. The first hard pass was killed after three
+lessons because it ran on the pre-fix compiled files; the figures above are from the rerun on the
+final lesson files. No misconception, injection, or stop-by-request session has run on this rung yet,
+and no near-copy say-back loop has been run anywhere.

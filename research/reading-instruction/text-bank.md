@@ -1472,6 +1472,204 @@ as one case, not a measurement.
 **Cautions.** No harbor, port, or country. No times, depths, or fares.
 
 ---
+## TB-045 — The Farm Stand's Morning
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | food and farming |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 104 words (two passages) |
+| FK grade | 2.70 on the two passages together |
+| Complexity | L1, I1, S1, K1 |
+| Best lesson fit | `text_structure_band_3_1_0001` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** A farm stand opens in a fixed order: pick, wash, price, then open the gate, because each step needs the one before it.
+
+**Supporting details.**
+
+- The grower picks ripe tomatoes and beans first.
+- She washes the boxes before writing the prices.
+- Wet boxes would smear the ink on the cards.
+- The cards carry the prices for the food on the table.
+- The gate stays shut until every price is showing.
+
+**Why it works.** A four-step chain with the time words printed in the text, then the same chain justified; the reader only has to follow one step at a time.
+
+**Cautions.** No farm name, town, season, or prices. No claim about how much food was picked.
+
+---
+
+## TB-046 — Why the Sidewalk Cracks
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 102 words (two passages) |
+| FK grade | 3.10 on the two passages together |
+| Complexity | L1, I2, S1, K1 |
+| Best lesson fit | `text_structure_band_3_1_0002` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** Water in a sidewalk crack freezes, expands, and pushes the crack wider, and tar stops it by keeping water out.
+
+**Supporting details.**
+
+- Water gets into small cracks in winter.
+- At night the water freezes into ice.
+- Ice takes more room than water, so it pushes the crack apart.
+- The freeze repeats night after night, and the crack widens a little each time.
+- Tar keeps water out, so there is nothing left to freeze and push.
+
+**Why it works.** One physical cause, repeated across a season, with a repair that removes the cause; one thing to track, not several.
+
+**Cautions.** No town, street name, temperature, or measurement. No claim about repair costs.
+
+---
+
+## TB-047 — Two Bridges
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 116 words (two passages) |
+| FK grade | 3.20 on the two passages together |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `text_structure_band_3_1_0003` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** Two bridges over one river are built for different travelers: one carries wheels quickly, the other gives walkers a slow place to stop.
+
+**Supporting details.**
+
+- Both bridges cross the same river.
+- The stone bridge is wide enough for trucks and buses.
+- Only people on foot or bikes may use the footbridge.
+- The stone bridge crosses in about a minute.
+- The footbridge has benches halfway across, where people watch the river.
+
+**Why it works.** Two objects held side by side on three points, with both named in each sentence so neither has to be held in memory unnamed.
+
+**Cautions.** No river name, town, or country. No lengths, ages, or traffic counts.
+
+---
+
+## TB-048 — The Damp Paper
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 105 words (two passages) |
+| FK grade | 3.90 on the two passages together |
+| Complexity | L2, I2, S2, K1 |
+| Best lesson fit | `text_structure_band_3_1_0004` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** A print shop's jams came from damp paper against a cold wall, not from the printer, and moving the paper to a dry shelf fixed them.
+
+**Supporting details.**
+
+- The printer jammed almost every morning.
+- The paper wrinkled and some sheets tore.
+- The owner checked the printer and found nothing wrong.
+- The paper boxes sat against a cold outside wall, and water from the air soaked into the paper.
+- Moving the boxes to a dry shelf stopped the jams within a week.
+
+**Why it works.** One problem, one ruled-out cause, and one real cause in a nearby detail; the reader has to hold the wrong cause long enough to see it dismissed.
+
+**Cautions.** No shop name, brand, town, or prices. No claim about how many sheets were wasted.
+
+---
+
+## TB-049 — Marking the Field
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | sport and play |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 116 words (two passages) |
+| FK grade | 3.70 on the two passages together |
+| Complexity | L2, I2, S2, K1 |
+| Best lesson fit | `text_structure_band_3_1_0005` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** A field is prepared in a fixed order because each step depends on the one before it, from short grass before paint to dry paint before water.
+
+**Supporting details.**
+
+- The groundskeeper mows the grass and clears the stones first.
+- The lines are painted next, from the corners.
+- The nets go up after the lines because the posts stand on the painted corners.
+- Watering comes last.
+- Watering waits so the paint is dry before the field gets wet.
+
+**Why it works.** A four-step chain where every position has a reason tied to an earlier step; the reader holds one dependency at a time.
+
+**Cautions.** No sport, team, league, or field size. No times, scores, or weather.
+
+---
+
+## TB-050 — Why the Backdrop Cracked
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | arts and language |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 117 words (two passages) |
+| FK grade | 3.90 on the two passages together |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `text_structure_band_3_1_0006` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** A painted cloth backdrop cracked because the paint shrank as it dried fast while the cloth did not, and the crew fixed it by slowing the drying.
+
+**Supporting details.**
+
+- The backdrop was painted on cloth and hung above the stage.
+- The room was warm and dry, so the paint dried too fast.
+- The paint shrank as it dried, and the cloth did not shrink with it.
+- Small cracks opened and spread to the middle by opening night.
+- The crew painted a thin new layer and let it dry slowly in a cool room.
+
+**Why it works.** Two causes acting together and a repair that changes a condition rather than a material; the top step of the rung.
+
+**Cautions.** No play title, theater name, city, or dates. No claim about how much the repair cost.
+
+---
+
 ## Screened but not banked
 
 These were reviewed and set aside. Keep them visible for later; do not treat them as approved.

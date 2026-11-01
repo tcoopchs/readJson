@@ -1,0 +1,245 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_3_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "Why the Backdrop Cracked",
+    "skill": "text_structure",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "arts and language",
+    "skill_frame": "Text structure: follow a chain of causes, and see what changed the second time.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 4.4 and 3.4 on the two parts (60 and 57 words), 3.9 together. The load is two causes acting together, warm dry air and a cloth that does not shrink, and a repair that changes one condition instead of the materials. This is the rung's top step: the reader has to see that neither the paint nor the cloth was wrong by itself.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 3.1, band 3.1, sequence 6. No external work.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A theater backdrop that cracked as it dried, built so two conditions combine and the repair changes the speed of drying rather than the materials.",
+      "avoided": "No play title, theater name, city, or dates. No claim about how much the repair cost."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "A two-part cause, then a repair that changes the drying speed; the last sentence ties the fix to the cause."
+    },
+    "authoring_exceptions": [
+      "Parts run 49-62 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the structure stays visible on one screen. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The theater's new backdrop was painted on cloth and hung above the stage. The paint dried too fast because the room was warm and dry, so it shrank as it dried. The cloth did not shrink with it, and small cracks opened across the painted sky. By opening night, the cracks had spread from the top edge to the middle.",
+    "part_2": "The stage crew did not throw the backdrop away. They painted a thin new layer over the cracks, and this time they let it dry slowly in a cool room. Slowly was the point, because a slow dry gave the paint time to move with the cloth. The sky held through the whole run of the show."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why did the paint on the new backdrop dry too fast?",
+      "tutor_only": {
+        "confirm": "Right. The room was warm and dry.",
+        "correct_reason": "The second sentence says the paint dried too fast because the room was warm and dry.",
+        "tell": "Warm, dry air pulls moisture out of paint. That is why it dried faster than the cloth could follow.",
+        "help": [
+          "Find the sentence that gives the reason the paint dried fast.",
+          "It describes the room."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The room was warm and dry.",
+        "accept_ideas": [
+          "the room was warm and dry",
+          "the air was warm and dry",
+          "because the room was warm"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who painted the backdrop"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the paint was old",
+            "ask": "The passage names the room, not the paint. What was the air like?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What did the paint do as it dried?",
+      "tutor_only": {
+        "confirm": "Yes. It shrank.",
+        "correct_reason": "The second sentence says the paint shrank as it dried.",
+        "tell": "Drying took the paint inward. It became smaller as it set.",
+        "help": [
+          "Look at the words right after 'so it' in the second sentence.",
+          "They name what the paint did as it dried."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It shrank.",
+        "accept_ideas": [
+          "it got smaller",
+          "it shrank as it dried",
+          "it pulled in"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how thick the paint was"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it cracked",
+            "ask": "Cracks came later. What did the paint do first, as it dried?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why did small cracks open across the sky?",
+      "tutor_only": {
+        "confirm": "Right. The paint shrank but the cloth did not shrink with it.",
+        "correct_reason": "The passage says the paint shrank as it dried, the cloth did not shrink with it, and cracks opened.",
+        "tell": "Two things had to happen together. The paint pulled in, and the cloth stayed the same size, so the paint had to tear.",
+        "help": [
+          "Read the sentence about the cloth right after the paint shrank.",
+          "What did the cloth do while the paint got smaller?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "The paint shrank but the cloth did not shrink with it.",
+        "accept_ideas": [
+          "the paint got smaller and the cloth did not",
+          "the cloth stayed the same size",
+          "the paint pulled away from the cloth"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how wide the cracks were"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the cloth was too thin",
+            "ask": "Thinness is not mentioned. What did each material do as it dried?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did the crew let the new layer dry slowly?",
+      "tutor_only": {
+        "confirm": "Yes. So the paint had time to move with the cloth.",
+        "correct_reason": "The second part says a slow dry gave the paint time to move with the cloth.",
+        "tell": "Slow drying keeps the paint from pulling in faster than the cloth. Both materials then change together.",
+        "help": [
+          "Find the sentence that begins 'Slowly was the point.'",
+          "It says what a slow dry gave the paint."
+        ],
+        "say_back": "own_words",
+        "core_idea": "So the paint had time to move with the cloth.",
+        "accept_ideas": [
+          "so the paint could move with the cloth",
+          "so the paint and cloth shrank together",
+          "so it would not dry too fast"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how cool the room was"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says slow drying made the paint stronger",
+            "ask": "Strength is not the reason given. What did the slow dry let the paint do?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The crew fixed the backdrop without throwing it away. What did they change?",
+      "tutor_only": {
+        "confirm": "Right. They changed how fast the paint dried.",
+        "correct_reason": "The crew painted a new layer and let it dry slowly in a cool room, so the change was the drying speed, not the paint or the cloth.",
+        "tell": "The materials stayed the same. The crew changed the conditions, so the paint and cloth could shrink together.",
+        "help": [
+          "Compare what caused the cracks with what the crew did the second time.",
+          "Which condition in the room did the crew change?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "How fast the paint dried.",
+        "accept_ideas": [
+          "the drying speed",
+          "they let it dry slowly",
+          "they changed the room and dried it slowly"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the show ran"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says they used different paint",
+            "ask": "The passage says they painted a thin new layer of the same kind. What did they change about the room and the time?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "The next text-structure stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "text_structure_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

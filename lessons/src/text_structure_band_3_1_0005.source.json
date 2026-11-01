@@ -1,0 +1,245 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_3_1_0005",
+  "meta": {
+    "status": "published",
+    "title": "Marking the Field",
+    "skill": "text_structure",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Text structure: follow a set of steps and see why their order cannot change.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 2.8 and 4.8 on the two parts (62 and 54 words), 3.7 together. The load is a four-step chain in which each step has a reason tied to the one before it: short grass before paint, painted corners before posts, and dry paint before water. The steps are named in order, then justified in the second part, so the reader holds one dependency at a time.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 3.1, band 3.1, sequence 5. No external work.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A groundskeeper preparing a field, built so every step depends on the one before it and the second part says why.",
+      "avoided": "No sport, team, league, or field size. No times, scores, or weather."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "A four-step chain, then the same chain with a reason for each position; every reason points at an earlier step."
+    },
+    "authoring_exceptions": [
+      "Parts run 49-62 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the structure stays visible on one screen. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Before a game, the groundskeeper gets the field ready. First, she mows the grass and clears the stones so the field is smooth. Next, she paints the white lines from the corners. Then she sets the nets in place and checks that they are tight. Last, she waters the dirt near the goal, so dust will not blow into the players' eyes.",
+    "part_2": "The steps have to come in this order. The lines cannot be painted until the grass is short, or the paint would bend with long blades. The nets go up after the lines, because the posts stand on the painted corners. Watering comes last, so the paint is dry before the field gets wet."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "In the section that begins 'Before a game,' what does the groundskeeper do first?",
+      "tutor_only": {
+        "confirm": "Right. She mows the grass and clears the stones.",
+        "correct_reason": "The second sentence starts with 'First' and names mowing and clearing stones.",
+        "tell": "The work starts with the grass. Mowing and clearing come before any paint.",
+        "help": [
+          "Look at the sentence that begins with the word First.",
+          "It names two jobs on the grass."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She mows the grass and clears the stones.",
+        "accept_ideas": [
+          "she mows the grass",
+          "she mows and clears the stones",
+          "she cuts the grass"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who plays the game"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she paints the lines",
+            "ask": "Paint comes next, not first. What happens to the grass before that?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does she do last?",
+      "tutor_only": {
+        "confirm": "Yes. She waters the dirt near the goal.",
+        "correct_reason": "The last sentence starts with 'Last' and names watering the dirt near the goal.",
+        "tell": "Watering is the final step. It comes after the nets are up and the lines are painted.",
+        "help": [
+          "Look at the sentence that begins with the word Last.",
+          "It names water and dirt."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She waters the dirt near the goal.",
+        "accept_ideas": [
+          "she waters the dirt",
+          "she waters near the goal",
+          "she waters the field"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much water she uses"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she sets the nets",
+            "ask": "The nets come before the last step. What happens after them?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why are the lines painted after the grass is mowed?",
+      "tutor_only": {
+        "confirm": "Right. Long blades would bend the paint.",
+        "correct_reason": "The second part says the lines cannot be painted until the grass is short, or the paint would bend with long blades.",
+        "tell": "Paint sits on short grass. Long blades would bend under the paint and spoil the line.",
+        "help": [
+          "Find the sentence about the lines and the grass.",
+          "It names what long blades would do to the paint."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Long blades would bend the paint.",
+        "accept_ideas": [
+          "the paint would bend",
+          "the grass has to be short for the paint",
+          "long grass ruins the line"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the color of the paint"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the mower would run over the paint",
+            "ask": "The passage gives a different reason. What would long blades do to the paint?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why do the nets go up after the lines are painted?",
+      "tutor_only": {
+        "confirm": "Yes. The posts stand on the painted corners.",
+        "correct_reason": "The second part says the nets go up after the lines because the posts stand on the painted corners.",
+        "tell": "The posts sit on the corners, so the corners are painted first. The nets go up on top of them.",
+        "help": [
+          "Find the sentence about the nets and the lines.",
+          "It says where the posts stand."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The posts stand on the painted corners.",
+        "accept_ideas": [
+          "the posts go on the painted corners",
+          "the posts stand on the corners",
+          "the corners are painted first"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who carries the nets"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the nets would get paint on them",
+            "ask": "The passage gives a reason about the posts. Where do they stand?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Why does watering come last?",
+      "tutor_only": {
+        "confirm": "Right. So the paint is dry before the field gets wet.",
+        "correct_reason": "The last sentence of the second part says watering comes last so the paint is dry before the field gets wet.",
+        "tell": "Water would spoil fresh paint. Waiting until the end lets the lines dry first.",
+        "help": [
+          "Find the last sentence about the order of the steps.",
+          "It names what must be dry before the water comes."
+        ],
+        "say_back": "own_words",
+        "core_idea": "So the paint is dry before the field gets wet.",
+        "accept_ideas": [
+          "the paint needs to dry first",
+          "so the paint does not run",
+          "so the lines are dry"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the grass takes to grow"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the dirt would blow away",
+            "ask": "Dust is why she waters at all. Why must watering wait until the end?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_3_1_0005",
+    "next_irl": 3,
+    "next_means": "The next text-structure stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "text_structure_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_3_1_0005",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

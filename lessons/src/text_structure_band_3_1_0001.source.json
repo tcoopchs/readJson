@@ -1,0 +1,245 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_3_1_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Farm Stand's Morning",
+    "skill": "text_structure",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Text structure: follow the order of steps in a passage.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 2.9 and 2.8 on the two parts (55 and 49 words), 2.7 together. The load is one chain of four steps in one place, with the time words printed in the text and the reason for each order stated in the second part. This sits below the grade 4 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 3.1, band 3.1, sequence 1. No external work.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A farm stand opening on a market morning, built so each step has one clear time word and the reason for the order sits in the second part.",
+      "avoided": "No farm name, town, season, or prices. No claim about how much food was picked."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One chain of four steps, then the same chain with its order explained; the time words stay explicit."
+    },
+    "authoring_exceptions": [
+      "Parts run 49-62 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the structure stays visible on one screen. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "First, the grower walks the rows and picks what is ripe. She puts the tomatoes and beans in flat boxes. Next, she washes the boxes at the stand and sets them on the table. After that, she writes each price on a small card. Last, she opens the gate and turns the sign to open.",
+    "part_2": "The order matters. The grower picks first. The boxes must be full before the table is set. She washes the boxes before she writes the cards. Wet boxes would smear the ink. The gate stays shut until every card is out, so no one buys food with no price."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "In the section that begins 'First, the grower walks the rows,' what does she do first?",
+      "tutor_only": {
+        "confirm": "Right. She picks what is ripe.",
+        "correct_reason": "The first sentence names the first step: she walks the rows and picks what is ripe.",
+        "tell": "The section opens with picking. First marks the step that comes before the others.",
+        "help": [
+          "Look at the sentence that starts with the word First.",
+          "That sentence says what she does in the rows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She picks what is ripe.",
+        "accept_ideas": [
+          "she picks the ripe food",
+          "she picks the tomatoes and beans",
+          "she walks the rows and picks what is ripe"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the color of the boxes"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she opens the gate",
+            "ask": "The gate opens at the end. What does the passage say she does first?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the grower do right before she opens the gate?",
+      "tutor_only": {
+        "confirm": "Yes. She writes the prices on small cards.",
+        "correct_reason": "The order runs picks, washes, writes cards, opens the gate, so the step before the gate is writing the prices.",
+        "tell": "The card comes before the gate. Last is opening; the step before it is writing each price.",
+        "help": [
+          "Find the step named right before the gate opens.",
+          "It involves a small card and a price."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She writes each price on a small card.",
+        "accept_ideas": [
+          "she writes the prices",
+          "she puts prices on cards",
+          "she makes price cards"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the stand"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she washes the boxes",
+            "ask": "Washing comes earlier. Which step comes right before the gate opens?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The section uses the words First, Next, After that, and Last. What do those words show?",
+      "tutor_only": {
+        "confirm": "Right. They show the order of the steps.",
+        "correct_reason": "Each word marks one step in a chain, and the steps are listed in the order they happen.",
+        "tell": "Those four words mark the order: what happens first, next, and last.",
+        "help": [
+          "Read the four words in the order they appear.",
+          "Each one starts a new step in the same morning."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The order of the steps.",
+        "accept_ideas": [
+          "the order she does things",
+          "what happens first and last",
+          "the sequence of steps"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long each step takes"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says they show the time of day",
+            "ask": "The words mark order, not clock time. Which step comes after which?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the grower pick the food before she sets the table?",
+      "tutor_only": {
+        "confirm": "Yes. The boxes have to be full before the table is set.",
+        "correct_reason": "The second part says the boxes must be full before the table is set, which is why picking comes first.",
+        "tell": "Picking comes first because the table is set with full boxes. There is nothing to set until the boxes are full.",
+        "help": [
+          "Look at the sentence that begins 'The grower picks first.'",
+          "The next sentence gives the reason."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The boxes must be full before the table is set.",
+        "accept_ideas": [
+          "she needs food to put on the table",
+          "the table needs full boxes",
+          "the boxes have to be full first"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how heavy the boxes are"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she picks because the food is ripe",
+            "ask": "Ripe food is why she picks at all. Why must picking come before setting the table?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Why does the passage say the gate stays shut until every card is out?",
+      "tutor_only": {
+        "confirm": "Right. So no one buys food with no price.",
+        "correct_reason": "The last sentence gives the reason: a card carries the price, so the gate waits until every price is showing.",
+        "tell": "A card shows a price. The gate waits so that no one reaches the food before its price is on the table.",
+        "help": [
+          "Look at the last sentence, which starts with 'The gate stays shut.'",
+          "It says what would happen if a card were missing."
+        ],
+        "say_back": "own_words",
+        "core_idea": "So no one buys food with no price.",
+        "accept_ideas": [
+          "so people know the prices",
+          "so no food is sold without a price",
+          "so every item has a price showing"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who wrote the cards"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the gate is shut for safety",
+            "ask": "The passage gives a reason about prices. What would a shopper not know?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "The next text-structure stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "text_structure_band_3_1_0002",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

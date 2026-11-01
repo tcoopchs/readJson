@@ -1328,6 +1328,438 @@
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, review pending.",
       "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-039",
+      "title": "The Wheel That Follows",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 332,
+      "fk_grade": 6.09,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_3_0001"
+      ],
+      "cell_use": "Owns its own lesson in Band 4.3 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A group of riders rides faster when the front rider breaks the air and the others take turns in the pocket behind.",
+      "supporting_details": [
+        "The front rider pushes the air aside, leaving a pocket of still air.",
+        "The rider behind the front wheel uses less effort at speed.",
+        "A line of riders moves faster than any single rider in it.",
+        "Riders rotate: each takes a turn at the front and then drifts back.",
+        "A rider dropped from the line loses the pocket and faces the wind alone."
+      ],
+      "cautions": "No race, team, or named rider. No distances, times, or speeds.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-040",
+      "title": "Seeds That Wait",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 325,
+      "fk_grade": 6.1,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_3_0002"
+      ],
+      "cell_use": "Owns its own lesson in Band 4.3 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "Some seeds need a long cold before warmth can start them, because the cold is a signal about the season rather than food or water.",
+      "supporting_details": [
+        "A dormant seed is alive but not growing.",
+        "Cold-climate seeds often will not start until they have been through a winter.",
+        "Growers copy a winter by keeping seed cold in damp sand before sowing.",
+        "The trigger is the return of warmth after a long cold, not the cold alone.",
+        "One warm week in midwinter does not start a seed."
+      ],
+      "cautions": "No species names, temperatures, or week counts. No claim about a particular climate.",
+      "topic_domain": "science and nature",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-041",
+      "title": "What a Chair Costs",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 362,
+      "fk_grade": 5.83,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_3_0003"
+      ],
+      "cell_use": "Owns its own lesson in Band 4.3 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A hand workshop prices a chair from materials and hours, plus a margin that pays for tools and quiet weeks, so two honest quotes can differ.",
+      "supporting_details": [
+        "The maker starts from what the chair costs to build, including hours.",
+        "Hours are the largest cost and the part buyers forget.",
+        "A quote is a promise about a number and a date.",
+        "The margin pays for worn tools and for weeks with no orders.",
+        "Two workshops with different costs can both quote honestly."
+      ],
+      "cautions": "No currency, town, or trade name. No invented prices.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-042",
+      "title": "The Town's Night Watch",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 332,
+      "fk_grade": 5.99,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_3_0004"
+      ],
+      "cell_use": "Owns its own lesson in Band 4.3 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A town paid for its night watch in shares, so money and a night of walking counted equally, until the town outgrew the arrangement.",
+      "supporting_details": [
+        "The watch walked the streets after dark and looked for fire and for people out when they should not be.",
+        "Each household owed a sum, and a poor household sent a man instead.",
+        "Money and time were treated as the same contribution.",
+        "A share paid in money went to the town, not to the man who walked.",
+        "Substitutes did not know the streets, and the paid force that replaced the watch was expensive."
+      ],
+      "cautions": "No town, country, or date. No wage figures.",
+      "topic_domain": "history and people",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-043",
+      "title": "The Cue Nobody Writes Down",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 323,
+      "fk_grade": 6.2,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_3_0005"
+      ],
+      "cell_use": "Owns its own lesson in Band 4.3 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "Backstage words in a theater name agreed moments: a cue starts something after a line, and a strike takes the set apart after the last show.",
+      "supporting_details": [
+        "A cue is a signal for something to start, and most cues are not spoken.",
+        "The cue comes after the line, not on it.",
+        "A cue called too early steps on the line.",
+        "A strike is the crew taking the set apart and carrying it out.",
+        "The pieces are sorted and the borrowed ones returned."
+      ],
+      "cautions": "No play, theater, company, or city. No dates, seats, or ticket prices.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-044",
+      "title": "The Ferry That Waits for the Water",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part",
+      "length_words": 308,
+      "fk_grade": 6.13,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "vocab_band_4_3_0006"
+      ],
+      "cell_use": "Owns its own lesson in Band 4.3 and serves no other cell. Drafted for the band, so it yields no second passage beyond its three parts.",
+      "central_idea": "A shallow-harbor ferry keeps a timetable set by the tide, because depth at the bar and at the berth decides when a crossing is possible.",
+      "supporting_details": [
+        "The boat needs depth to float over the bar at the harbor mouth.",
+        "At low water the ferry waits at the pier for the harbor to fill.",
+        "A berth is a length of wall with the right depth and a ramp at the right height.",
+        "The water changes both the depth and the ramp.",
+        "The printed times are the company's reading of the tide, not a rule the sea obeys."
+      ],
+      "cautions": "No harbor, port, or country. No times, depths, or fares.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-045",
+      "title": "The Farm Stand's Morning",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part",
+      "length_words": 104,
+      "fk_grade": 2.7,
+      "complexity": {
+        "language": 1,
+        "idea": 1,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_3_1_0001"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "A farm stand opens in a fixed order: pick, wash, price, then open the gate, because each step needs the one before it.",
+      "supporting_details": [
+        "The grower picks ripe tomatoes and beans first.",
+        "She washes the boxes before writing the prices.",
+        "Wet boxes would smear the ink on the cards.",
+        "The cards carry the prices for the food on the table.",
+        "The gate stays shut until every price is showing."
+      ],
+      "cautions": "No farm name, town, season, or prices. No claim about how much food was picked.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-046",
+      "title": "Why the Sidewalk Cracks",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part",
+      "length_words": 102,
+      "fk_grade": 3.1,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_3_1_0002"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "Water in a sidewalk crack freezes, expands, and pushes the crack wider, and tar stops it by keeping water out.",
+      "supporting_details": [
+        "Water gets into small cracks in winter.",
+        "At night the water freezes into ice.",
+        "Ice takes more room than water, so it pushes the crack apart.",
+        "The freeze repeats night after night, and the crack widens a little each time.",
+        "Tar keeps water out, so there is nothing left to freeze and push."
+      ],
+      "cautions": "No town, street name, temperature, or measurement. No claim about repair costs.",
+      "topic_domain": "science and nature",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-047",
+      "title": "Two Bridges",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part",
+      "length_words": 116,
+      "fk_grade": 3.2,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_3_1_0003"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "Two bridges over one river are built for different travelers: one carries wheels quickly, the other gives walkers a slow place to stop.",
+      "supporting_details": [
+        "Both bridges cross the same river.",
+        "The stone bridge is wide enough for trucks and buses.",
+        "Only people on foot or bikes may use the footbridge.",
+        "The stone bridge crosses in about a minute.",
+        "The footbridge has benches halfway across, where people watch the river."
+      ],
+      "cautions": "No river name, town, or country. No lengths, ages, or traffic counts.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-048",
+      "title": "The Damp Paper",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part",
+      "length_words": 105,
+      "fk_grade": 3.9,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_3_1_0004"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "A print shop's jams came from damp paper against a cold wall, not from the printer, and moving the paper to a dry shelf fixed them.",
+      "supporting_details": [
+        "The printer jammed almost every morning.",
+        "The paper wrinkled and some sheets tore.",
+        "The owner checked the printer and found nothing wrong.",
+        "The paper boxes sat against a cold outside wall, and water from the air soaked into the paper.",
+        "Moving the boxes to a dry shelf stopped the jams within a week."
+      ],
+      "cautions": "No shop name, brand, town, or prices. No claim about how many sheets were wasted.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-049",
+      "title": "Marking the Field",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part",
+      "length_words": 116,
+      "fk_grade": 3.7,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_3_1_0005"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "A field is prepared in a fixed order because each step depends on the one before it, from short grass before paint to dry paint before water.",
+      "supporting_details": [
+        "The groundskeeper mows the grass and clears the stones first.",
+        "The lines are painted next, from the corners.",
+        "The nets go up after the lines because the posts stand on the painted corners.",
+        "Watering comes last.",
+        "Watering waits so the paint is dry before the field gets wet."
+      ],
+      "cautions": "No sport, team, league, or field size. No times, scores, or weather.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-050",
+      "title": "Why the Backdrop Cracked",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part",
+      "length_words": 117,
+      "fk_grade": 3.9,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_3_1_0006"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "A painted cloth backdrop cracked because the paint shrank as it dried fast while the cloth did not, and the crew fixed it by slowing the drying.",
+      "supporting_details": [
+        "The backdrop was painted on cloth and hung above the stage.",
+        "The room was warm and dry, so the paint dried too fast.",
+        "The paint shrank as it dried, and the cloth did not shrink with it.",
+        "Small cracks opened and spread to the middle by opening night.",
+        "The crew painted a thin new layer and let it dry slowly in a cool room."
+      ],
+      "cautions": "No play title, theater name, city, or dates. No claim about how much the repair cost.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
     }
   ],
   "screened_not_banked": [
