@@ -1,0 +1,245 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_4_1_0005",
+  "meta": {
+    "status": "published",
+    "title": "The Path Above the Slide",
+    "skill": "text_structure",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "topic_domain": "places and travel",
+    "skill_frame": "Text structure: notice when the telling does not follow the order of events.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.8, 6.0 and 6.2 on the three parts (106, 108 and 106 words), 5.9 together, mid-band. The load is a passage that starts at the end: the sign, the slide, then the building told from the top down. The reader has to hold two orders at once, the order of the telling and the order of the work, and the last part names the difference.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 4.1, Band 4.1, sequence 5. No external work.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A passage deliberately opening with its outcome and then going back, so the structure itself is the content of the items.",
+      "avoided": "No mountain, park, trail name, state, or date. No distance in miles and no injury claim."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Two orders held at once: the order of events and the order the passage tells them in."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The sign at the trailhead says the path is open, and the paint on it is still fresh. Two summers ago a slide took the path off the mountain. An entire slope of wet soil let go after a week of rain and carried forty yards of trail downhill with it. Now a crew of eight has finished a new route, cut higher across the slope, and hikers reach the summit again. The sign went up last of all, on the final morning, and that is the part of the story worth noticing. The crew painted it in a single coat and left it to dry.",
+    "part_2": "The new route was built from the top down. Workers first cut a shelf into the upper slope, because the top of the path was the only part a truck could reach. They carried timber on mules for the middle section, where the slope was too steep for any machine to climb. Then they built the switchbacks that link the shelf to the valley floor. Only at the end did they clear the old slide debris from the bottom, because a crew working below a loose slope is a crew in danger. Every load of timber went up the slope the same way, one mule at a time.",
+    "part_3": "The passage tells the story backwards. It begins with the sign and the finished path, then goes back to the slide and forward again through the building. That order is a choice by the writer, not a mistake. Starting at the end gives the reader the outcome, and the rest of the passage explains how the crew reached it. The building comes late in the telling, though it happened before the sign went up. A reader who wants the true order has to rebuild it from the way the passage opens. The last paragraph is the earlier event, and the first paragraph is the later one."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What took the path off the mountain?",
+      "tutor_only": {
+        "confirm": "Right. A slide of wet soil after a week of rain.",
+        "correct_reason": "The part says an entire slope of wet soil let go after a week of rain and carried forty yards of trail downhill.",
+        "tell": "Water loosened the slope until it gave way. The path went downhill with the soil.",
+        "help": [
+          "Read the sentence that begins 'An entire slope'.",
+          "It says what let go and when."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A slide of wet soil after a week of rain.",
+        "accept_ideas": [
+          "a landslide",
+          "a slide",
+          "the slope gave way after rain",
+          "wet soil slid down"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many hikers used the path"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says an earthquake",
+            "ask": "The passage gives weather as the cause. What happened after a week of rain?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The passage says the sign 'went up last of all.' Why does it point that out?",
+      "tutor_only": {
+        "confirm": "Yes. The passage opens with the sign, which was the last job. That is why it points that out.",
+        "correct_reason": "The part says the sign went up last of all, on the final morning, and calls that the part worth noticing, and the last part explains that the story is told backwards.",
+        "tell": "The opening is out of order. A reader who assumes the sign came first would have the story backwards. So the passage says plainly that it came last.",
+        "help": [
+          "Find the sentence about when the sign went up.",
+          "It says the sign came after everything else."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The passage starts at the end, so it says the sign was the last thing done.",
+        "accept_ideas": [
+          "the sign was the last thing to happen",
+          "the passage begins with the ending",
+          "the story is told backwards"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who painted the sign"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the sign was the oldest thing",
+            "ask": "The passage says the paint is still fresh. What does it say about when the sign went up?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did the workers start at the top of the slope?",
+      "tutor_only": {
+        "confirm": "Right. The top was the only part a truck could reach.",
+        "correct_reason": "The part says they cut the shelf first because the top of the path was the only part a truck could reach.",
+        "tell": "The truck decided the order. Materials had to come in at the top, so the work began there and moved down.",
+        "help": [
+          "Read the first two sentences of this part.",
+          "They give the reason the upper slope came first."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The top of the slope was the only part a truck could reach.",
+        "accept_ideas": [
+          "a truck could only reach the top",
+          "the truck had to unload at the top",
+          "materials came in at the top"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many trucks they used"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the top was easier to dig",
+            "ask": "Ease is not the reason given. What could a truck do at the top that it could not do lower down?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did the crew clear the old slide debris last?",
+      "tutor_only": {
+        "confirm": "Yes. Working below a loose slope is dangerous.",
+        "correct_reason": "The part says a crew working below a loose slope is a crew in danger, so the debris at the bottom was cleared only at the end.",
+        "tell": "The order was a safety decision. While the slope above could still move, nobody worked under it. The bottom was left until the upper route held.",
+        "help": [
+          "Read the last sentence of this part.",
+          "It names the reason the bottom waited."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because working below a loose slope is dangerous.",
+        "accept_ideas": [
+          "the slope above could still fall",
+          "it was not safe to work under it",
+          "the crew could be hit by falling soil"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the debris took to clear"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the debris was too heavy to move",
+            "ask": "Weight is not discussed. What does the passage say about working below the slope?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage opens with the sign. What does that show about the order of the events it describes?",
+      "tutor_only": {
+        "confirm": "Right. The passage starts with the last event and then goes back to the earlier ones.",
+        "correct_reason": "The part says the passage begins with the sign and the finished path, then goes back to the slide and forward through the building, and calls the order a choice by the writer.",
+        "tell": "The events run slide, build, sign. The passage runs sign, slide, build. Two orders, and only the second is a choice about how to tell it.",
+        "help": [
+          "Compare the opening about the sign with the order in which the work happened.",
+          "The sign was the final job, and it comes first in the reading."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The passage starts with the last event and then goes back to earlier ones.",
+        "accept_ideas": [
+          "it starts with the end",
+          "the telling is out of order",
+          "it goes back in time after the opening"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the path is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the passage is in order",
+            "ask": "The sign went up last, and it is the first thing described. What does that make the order?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The next text-structure stage is not authored yet, so the ladder holds here.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "text_structure_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_4_1_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

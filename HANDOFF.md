@@ -1,7 +1,7 @@
 # Handoff — readJson / readingHarness
 
-State as of 2026-10-31, written in the working tree through the `text_structure` 3.1 rung and
-committed with it. If `git status` shows the six text_structure 3.1 sources uncommitted, the commit
+State as of 2026-11-01, written in the working tree through the `text_structure` 4.1 rung and
+committed with it. If `git status` shows the six text_structure 4.1 sources uncommitted, the commit
 did not land and this file is ahead of the tree.
 
 Normative docs: `README.md` (naming, bands, routing), `DESIGN_RULES.md` (passage, items, ladder),
@@ -12,27 +12,36 @@ disagree, the rules win — and this file is wrong.
 
 ## Where the catalog stands
 
-88 compiled lessons. The inference ladder is complete from the floor through stage 4.3, `main_idea`
+94 compiled lessons. The inference ladder is complete from the floor through stage 4.3, `main_idea`
 is complete through stage 4.3, and `vocab` is complete from the floor through 4.3, so three verticals
-are open at grade 4. `text_structure` has begun at the floor with its 3.1 rung.
+are open at grade 4. `text_structure` is open at grade 4 with its 3.1 floor rung and its 4.1 rung.
 
 | Ladder | Rungs built | Notes |
 | --- | --- | --- |
 | `inference` | 3.1 ✓ (6) · 4.1 ✓ (8) · 4.2 ✓ (6) · 4.3 ✓ (6) · 5.1 2/6 · 6.1 1/6 | 5.1 and 6.1 are prototype files, incomplete |
 | `main_idea` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) · 7.1 2/6 | 4.2 is one cell from six federal works; 4.3 is six drafted passages; the 7.1 gap is why a clear on 4.3 holds |
 | `vocab` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) | four rungs, all drafted under 2.6; TB-021 to TB-044; ladder complete through 4.3 |
-| `text_structure` | 3.1 ✓ (6) | six drafted passages, one per structure move; 4.1 is next |
+| `text_structure` | 3.1 ✓ (6) · 4.1 ✓ (6) | twelve drafted passages, one structure move each; 4.2 is next |
 | `the other four` | none | see Phase 2 in the build plan; `process 3.1` follows text_structure 4.1 |
 
 `lessons/curriculum.json` matches reality: 4.1 inference keeps its eight files as road; 3.1, 4.2, 4.3,
-main_idea 3.1, 4.1, 4.2 and 4.3, vocab 3.1, 4.1, 4.2 and 4.3, and text_structure 3.1 declare six each
-and are `complete`.
+main_idea 3.1, 4.1, 4.2 and 4.3, vocab 3.1, 4.1, 4.2 and 4.3, and text_structure 3.1 and 4.1 declare
+six each and are `complete`.
 
 `text_structure` 3.1 is six structures, six domains, no neighbour repeat: sequence (food and
 farming), cause and effect (science and nature), comparison (places and travel), problem and
 solution (work and trade), sequence with a dependency (sport and play), and a two-cause chain (arts
 and language). Measured whole-passage FK climbs 2.7, 3.1, 3.2, 3.9, 3.7, 3.9 across the rung. Every
 passage is drafted under 2.6 and carries `drafted_by: "TC review pending"`.
+
+`text_structure` 4.1 is the step above that floor: three parts of 100-114 words per lesson, measured
+whole-passage FK 5.5 to 6.3, and one structure move per lesson — a seasonal sequence with a reason at
+each position (history and people), a cause whose effect arrives years late (science and nature), a
+three-dimension comparison that names no winner (work and trade), a fix that succeeds and hides the
+cause (sport and play), a telling that does not follow the order of events (places and travel), and a
+chain where each fix becomes the next cause (arts and language). Six domains, no neighbour repeat.
+TB-051 to TB-056, all drafted under 2.6 with `drafted_by: "TC review pending"`. The six 3.1 lessons
+now advance to `text_structure_band_4_1_0001` instead of pointing back at themselves.
 
 `main_idea` 4.3 (TB-015 to TB-020) is the rung the subject rule bit on: no two neighbours share a
 domain, and the six span six of the seven domains — food and farming, arts and language, work and
@@ -51,7 +60,8 @@ trade, sport and play, history and people, places and travel.
 - **The memory rides in the signed link**: `carry=<stage>.<n>.<history>.<downs>` is minted into the
   `/next` ticket and injected into the served lesson's token line. No database, no accounts, no
   student records. A lost link costs at most two lessons of evidence and never moves a reader up.
-- **Onboarding**: `4.1` now serves `inference_band_4_1_0001` and `main_idea_band_4_1_0001`. `3.1` stays empty on purpose — it is the
+- **Onboarding**: `4.1` now serves `inference_band_4_1_0001`, `main_idea_band_4_1_0001`,
+  `vocab_band_4_1_0001`, and `text_structure_band_4_1_0001`. `3.1` stays empty on purpose — it is the
   floor and is reachable only by a down-move. `on_floor` is `restart_set`.
 
 ## What is verified
@@ -59,12 +69,13 @@ trade, sport and play, history and people, places and travel.
 ```bash
 build_lessons.py --check          # exit 0
 pytest                            # 57 passed
-validate_lesson.py --strict       # 89 sources, 0 errors, 0 warnings
-audit_lessons.py                  # 57 findings, the known ordinal backlog, none in text_structure 3.1
-catalog load (88 lessons)         # ladders in order, onboarding rows valid, 5 rungs complete
+validate_lesson.py --strict       # 94 sources, 0 errors, 0 warnings
+audit_lessons.py                  # 58 findings, the known ordinal backlog, none in text_structure 4.1
+catalog load (94 lessons)         # ladders in order, 19 sets declared, 14 complete, onboarding valid
 cold-chat sweep, 18 vocab lessons # smooth 18/18 ($0.0311); hard 18/18 ($0.0312), tell and an=0 stop
 cold-chat sweep, vocab 4.3        # smooth 6/6 ($0.0245); hard 6/6 ($0.0115), tell and an=0 stop
 cold-chat sweep, text_structure 3.1 # smooth 6/6 ($0.0056); hard 6/6 ($0.0062), tell and an=0 stop
+cold-chat sweep, text_structure 4.1 # smooth 6/6 ($0.0415); hard 6/6 ($0.0191), tell and an=0 stop
 ```
 
 The sweep above was run after the ready-line change on 2026-10-28, so it covers the shared protocol
@@ -129,16 +140,17 @@ the authored route and the ladder agree.
    the student (85 lines), a single-help item making the tutor invent a second hint, and a ready gate
    that dropped `yes`. `anchor` is now defined as the lesson's first item in `DESIGN_RULES` 7.4,
    `README.md`, and the protocol at both the definition and the ticket step.
-2. **66 lessons are AI-drafted and unreviewed.** inference 3.1, main_idea 3.1, inference 4.2 and
-   4.3, main_idea 4.1, the six main_idea 4.3 lessons, the twenty-four vocab lessons, and the six
-   text_structure 3.1 lessons were drafted under `2.6`, and every one says
+2. **72 lessons are AI-drafted and unreviewed.** inference 3.1, main_idea 3.1, inference 4.2 and
+   4.3, main_idea 4.1, the six main_idea 4.3 lessons, the twenty-four vocab lessons, and the twelve
+   text_structure 3.1 and 4.1 lessons were drafted under `2.6`, and every one says
    `drafted_by: "TC review pending"`. Band 5+ cannot use that route.
 3. **No `text-bank` rows** for 30 of those drafted passages. Provenance lives only in each source
    block. The six adapted `main_idea` 4.2 passages are banked (TB-009 to TB-014), the six drafted
    4.3 passages are banked (TB-015 to TB-020), the eighteen earlier vocab passages are banked (TB-021
    to TB-038), the six vocab 4.3 passages are banked (TB-039 to TB-044), and the six text_structure
    3.1 passages are banked (TB-045 to TB-050), each with measured FK, complexity scores, central
-   idea, supports, and a caution line. 30 older drafted lessons still have no bank row.
+   idea, supports, and a caution line. The six text_structure 4.1 passages are banked as TB-051 to
+   TB-056. 30 older drafted lessons still have no bank row.
 4. **`validate_lesson.py` is in the skill, not in either repo.** It lives at
    `~/.hermes/skills/productivity/readjson-lessons/scripts/validate_lesson.py`, so the plan's paths
    point at nothing. Run it from the skill against this repo:
@@ -148,9 +160,9 @@ the authored route and the ladder agree.
      --strict --src-dir lessons/src --lessons-dir lessons lessons/src/*.source.json
    ```
 
-   It validated all 59 sources at 0 errors and 0 warnings on 2026-10-28. `build_lessons.py --check`
+   It validated all 94 sources at 0 errors and 0 warnings on 2026-11-01. `build_lessons.py --check`
    remains the second gate: sources and compiled files must agree.
-5. **57 `audit_lessons.py` style findings stand** (bare ordinal section references such as "What is
+5. **58 `audit_lessons.py` style findings stand** (bare ordinal section references such as "What is
    the second part mostly about?", mainly in main_idea 4.1). These are a known backlog, not errors,
    and they need a copy decision before any sweep: the section ordinals are how the passage parts are
    named to the reader. 4.3 was written without them; one slipped in and was fixed.
@@ -160,10 +172,10 @@ the authored route and the ladder agree.
 
 ## Next actions, in order
 
-1. `text_structure 4.1`, six lessons — the next rung in the vertical now that 3.1 is built, then
-   text_structure 4.2 and 4.3, then `process 3.1`. `argument_evidence` and `authors_craft` need the
+1. `text_structure 4.2`, six lessons — the next rung in the vertical now that 3.1 and 4.1 are built,
+   then text_structure 4.3, then `process 3.1`. `argument_evidence` and `authors_craft` need the
    grade-3 load decision before authoring.
-2. TC review of the six text_structure 3.1 passages, the six vocab 4.3 passages, the eighteen vocab
+2. TC review of the six text_structure 4.1 passages, the six text_structure 3.1 passages, the six vocab 4.3 passages, the eighteen vocab
    3.1-4.2 passages, and the 30 older drafted ones; replace `drafted_by` with the reviewer's name as
    each is read.
 3. Branch sessions on `main_idea` 4.3: misconception, injection, and stop on 0002-0006, plus the

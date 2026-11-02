@@ -1,0 +1,248 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_4_1_0003",
+  "meta": {
+    "status": "published",
+    "title": "Two Ways to Move a Load",
+    "skill": "text_structure",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "work and trade",
+    "skill_frame": "Text structure: compare two things and find the one difference that decides.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.7, 5.7 and 5.7 on the three parts (103, 100 and 108 words), 5.9 together, mid-band. The load is a comparison on three dimensions at once — load size, speed, and cost per ton — where no single dimension wins, and the closing part says which dimension decides depends on the week. The reader has to keep both sides of three comparisons apart.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 4.1, Band 4.1, sequence 3. No external work.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A comparison whose answer is a condition, not a winner: the two methods differ on three dimensions and the decisive one changes with the shipment.",
+      "avoided": "No river, company, city, rate per ton, or tonnage. No claim that either method is greener."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Three parallel comparisons, then a condition that decides between them."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A river town moves grain to the coast in two ways, and the two loads hardly look alike. The first is a barge, a long flat boat that pushes a line of loaded bins down the river behind a single tow. One tow carries as much grain as sixty trucks, and the whole crew is three people who keep a six-hour watch. A barge is slow, though, because it takes five days to reach the coast, it cannot leave the water, and it stops when the river freezes. The second way is a truck, which loads in an hour and drives all night.",
+    "part_2": "The two ways cost about the same per mile, but they do not cost the same per ton. Fuel and crew are spread across a huge load on the water, so a barge moves grain for a fraction of the truck's price. A truck earns back its cost through speed instead. Grain that must meet a ship on a certain day goes by road, because a barge that arrives two days late is worse than a truck that costs the shipper more money. The barge wins on price, the truck wins on time, and neither one wins both of them.",
+    "part_3": "So the town uses both, and the choice turns on one question about timing. Is the grain early or late? Grain sold well in advance can wait for the slow boat and save money. Grain that missed a sale, or that is needed to fill a ship already in port, goes by truck at the higher price. The comparison is not which way is better in general. It is which cost the shipper can afford in that particular week, when the fuel price and the loading date decide more than the distance does. A shipper who guesses wrong pays the difference out of the profit on the load."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "How much grain can one barge tow carry?",
+      "tutor_only": {
+        "confirm": "Right. As much as sixty trucks.",
+        "correct_reason": "The part says one tow carries as much grain as sixty trucks.",
+        "tell": "The number is the point of the comparison. One crew on the water moves what sixty drivers would move on the road.",
+        "help": [
+          "Look at the sentence with a number in it.",
+          "It compares the load on the water with trucks on the road."
+        ],
+        "say_back": "own_words",
+        "core_idea": "As much grain as sixty trucks.",
+        "accept_ideas": [
+          "sixty trucks",
+          "60 trucks",
+          "as much as sixty truckloads",
+          "the load of sixty trucks"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the tow is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says three trucks",
+            "ask": "Three is the size of the crew. How many trucks would it take to carry the same grain?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What can a truck do that a barge cannot?",
+      "tutor_only": {
+        "confirm": "Yes. It can leave the water: it loads in an hour and drives all night on the road.",
+        "correct_reason": "The part says a barge cannot leave the water and takes five days, while a truck loads in an hour and runs all night.",
+        "tell": "The truck's advantage is time and reach. It loads quickly, drives through the night, and is not tied to a river.",
+        "help": [
+          "Compare the last sentence about the barge with the last sentence about the truck.",
+          "One is tied to the water; the other runs all night."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A truck can load quickly and drive all night on the road.",
+        "accept_ideas": [
+          "it can drive on roads",
+          "it can leave the water",
+          "it can run all night",
+          "it loads in an hour"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much a truck carries"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says a truck carries more",
+            "ask": "The part says the opposite: the tow carries as much as sixty trucks. What else can a truck do?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The two ways cost about the same per mile. Why does a barge still cost less per ton?",
+      "tutor_only": {
+        "confirm": "Right. Fuel and crew are spread across a much larger load.",
+        "correct_reason": "The part says fuel and crew are spread across a huge load on the water, so a barge moves grain for a fraction of the truck's price.",
+        "tell": "Cost per ton divides the whole trip by the load. The same fuel and the same three people are spread over sixty trucks' worth of grain.",
+        "help": [
+          "Look for the sentence about fuel and crew.",
+          "It says what the cost is spread across."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The cost is spread across a much larger load.",
+        "accept_ideas": [
+          "it carries far more grain",
+          "the cost is spread over more tons",
+          "one crew moves sixty trucks' worth"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much fuel a barge uses"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says barges use less fuel per mile",
+            "ask": "The part says the cost per mile is about the same. Where does the saving come from?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why would a shipper pay more to send grain by truck?",
+      "tutor_only": {
+        "confirm": "Right. To meet a ship on a certain day.",
+        "correct_reason": "The part says grain that must meet a ship on a certain day goes by road, because a barge that arrives two days late is worse than a truck that costs more.",
+        "tell": "A late load can cost a shipper the sale. The truck's higher price buys a date that the barge cannot promise.",
+        "help": [
+          "Read the sentence that begins 'Grain that must meet a ship'.",
+          "It gives the reason a shipper chooses the more expensive way."
+        ],
+        "say_back": "own_words",
+        "core_idea": "To meet a ship on a certain day, because a late barge is worse than a costly truck.",
+        "accept_ideas": [
+          "the grain has to arrive on time",
+          "a late barge is worse",
+          "to hit the ship's date",
+          "speed matters more than price that week"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how far the coast is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says trucks are safer",
+            "ask": "Safety is not discussed. What does the passage say a late barge costs the shipper?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage says the choice turns on one question. What is that question?",
+      "tutor_only": {
+        "confirm": "Yes. Whether the grain is early or late.",
+        "correct_reason": "The last part says the choice turns on one question about timing: is the grain early or late?",
+        "tell": "Everything in the passage comes down to timing. Grain that can wait takes the cheap boat, and grain that cannot takes the costly truck.",
+        "help": [
+          "Read the first two sentences of the last part.",
+          "They name the one question the choice depends on."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Whether the grain is early or late.",
+        "accept_ideas": [
+          "is the grain early or late",
+          "whether the grain can wait",
+          "how soon the grain has to arrive",
+          "the timing of the shipment"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which way is cheaper in general"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says which way is faster",
+            "ask": "Speed is one of the differences, not the question the passage names. What does the last part say the choice depends on?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The next text-structure stage is not authored yet, so the ladder holds here.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "text_structure_band_4_1_0004",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_4_1_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

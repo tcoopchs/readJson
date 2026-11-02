@@ -1670,6 +1670,204 @@ as one case, not a measurement.
 
 ---
 
+## TB-051 — Ice for July
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | history and people |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 325 words (three passages, one per displayed part (114, 109, 102 words)) |
+| FK grade | 5.50 on the three passages together |
+| Complexity | L2, I2, S2, K1 |
+| Best lesson fit | `text_structure_band_4_1_0001` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** An ice harvest ran in a fixed order because each position had its own reason: snow was cleared so the ice could thicken, the surface was scored so the saw had a line, blocks were packed at once so they did not melt, and the crew cut in January because late ice is thin and soft.
+
+**Supporting details.**
+
+- Snow blankets the ice and keeps it from growing, so the crew cleared it first.
+- Scoring the surface came before cutting, because the shallow lines guided every later stroke.
+- Each block was floated to a ramp and hauled up by horses.
+- The blocks were packed in sawdust inside a windowless ice house, which slowed the melting.
+- Ice cut in March is thinner and softer than ice cut in January, so the month decided how much work paid.
+
+**Why it works.** A five-step seasonal chain in which four positions each carry a separate reason; the last item joins the month to the yield.
+
+**Cautions.** No town, company, price, or date. No claim about who bought the ice.
+
+---
+
+## TB-052 — The Dam the River Took Back
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 311 words (three passages, one per displayed part (104, 104, 103 words)) |
+| FK grade | 6.30 on the three passages together |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `text_structure_band_4_1_0002` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** A dam's removal led to a rush of silt and a slow river repair: the gravel was clean by the third year and the fish returned in the fourth, so the first summer looked like failure and the fifth like success.
+
+**Supporting details.**
+
+- The dam held silt, sand, and leaves behind it, and fish could not reach the gravel.
+- The first year after removal brought trapped silt downstream onto the gravel beds.
+- Neighbors saw brown water and bare banks and concluded the removal had failed.
+- Each spring flood moved some silt, and by the third year the stones were scoured and bright.
+- Fish arrived in the fourth spring, after the gravel was clean.
+
+**Why it works.** A delayed effect chain: one action, three effects that arrive on different clocks, and a reader who must keep their order apart.
+
+**Cautions.** No river, state, agency, or dam date. No fish species. No cost, acreage, or dissolved-oxygen figure.
+
+---
+
+## TB-053 — Two Ways to Move a Load
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 312 words (three passages, one per displayed part (103, 100, 108 words)) |
+| FK grade | 5.90 on the three passages together |
+| Complexity | L2, I2, S2, K2 |
+| Best lesson fit | `text_structure_band_4_1_0003` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** A barge and a truck differ on load, speed, and cost per ton, and neither wins outright: the choice depends on whether a shipment can wait for the cheap slow way or must arrive by a date.
+
+**Supporting details.**
+
+- One barge tow carries as much grain as sixty trucks, with a crew of three.
+- A barge takes five days, cannot leave the water, and stops when the river freezes.
+- A truck loads in an hour and drives all night.
+- A barge costs less per ton because fuel and crew are spread across a much larger load.
+- Grain that must meet a ship goes by truck, because a late barge is worse than a costly one.
+
+**Why it works.** A three-dimension comparison that refuses to name a winner; the decisive dimension is the shipment's timing.
+
+**Cautions.** No river, company, city, freight rate, or tonnage. No claim that either method is greener.
+
+---
+
+## TB-054 — The Corner That Held Water
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | sport and play |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 320 words (three passages, one per displayed part (107, 108, 105 words)) |
+| FK grade | 6.10 on the three passages together |
+| Complexity | L2, I2, S2, K1 |
+| Best lesson fit | `text_structure_band_4_1_0004` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** A track's puddle was first treated with sand, which worked for a month and moved the water; the real cause was a root-blocked drain pipe, so the successful first fix hid the fault it never touched.
+
+**Supporting details.**
+
+- After heavy rain a shallow lake stood on the far curve for two days.
+- The sand filled the small holes in the surface, so water ran off the curve.
+- The water pooled at the low end of the straight, which had never been wet.
+- Roots from a line of trees had closed the drain pipe to the width of a thumb.
+- The crew cut the roots, replaced the pipe, and dug a channel to the ditch.
+
+**Why it works.** A problem/solution where the first solution partly works, which is harder than a plain wrong guess: the early success hides the cause.
+
+**Cautions.** No school, town, team, or surface brand. No costs, dates, or meet results.
+
+---
+
+## TB-055 — The Path Above the Slide
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 320 words (three passages, one per displayed part (106, 108, 106 words)) |
+| FK grade | 5.90 on the three passages together |
+| Complexity | L2, I2, S3, K1 |
+| Best lesson fit | `text_structure_band_4_1_0005` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** The passage opens with the finished path and the new sign, then goes back to the slide and forward through the work, so the order of the telling is not the order of events.
+
+**Supporting details.**
+
+- An entire slope of wet soil let go after a week of rain.
+- The sign went up last of all, on the final morning.
+- Workers cut the upper shelf first, because a truck could reach only the top.
+- Timber went up the middle section on mules where no machine could climb.
+- The slide debris at the bottom was cleared last, because working below a loose slope is dangerous.
+
+**Why it works.** Two orders held at once, the telling and the doing, which is the band-4 structure move: the passage starts with its outcome.
+
+**Cautions.** No mountain, park, trail name, state, or date. No distance in miles and no injury claim.
+
+---
+
+## TB-056 — The Hall That Swallowed the Sound
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | arts and language |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 322 words (three passages, one per displayed part (105, 109, 108 words)) |
+| FK grade | 5.70 on the three passages together |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `text_structure_band_4_1_0006` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** The hall's echo was fixed with cloth panels, which made the room dead and became the next problem, so the room had to be tuned in steps rather than planned in one pass.
+
+**Supporting details.**
+
+- Sound bounced off bare walls and returned to the stage a moment late.
+- The engineer measured the room with a clap and timed the echo at almost two seconds.
+- The cloth panels absorbed the sound and the echo stopped at once.
+- The room went dead, and players could not hear each other across the stage.
+- Half the panels came down and a curved shell went in above the stage.
+
+**Why it works.** A chain in which the fix is the next cause: the same panels are a solution in one part and a fault in the next.
+
+**Cautions.** No hall, city, orchestra, or composer. No acoustic figures beyond the echo time the passage states.
+
+---
+
 ## Screened but not banked
 
 These were reviewed and set aside. Keep them visible for later; do not treat them as approved.

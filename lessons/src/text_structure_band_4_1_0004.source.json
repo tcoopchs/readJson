@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_4_1_0004",
+  "meta": {
+    "status": "published",
+    "title": "The Corner That Held Water",
+    "skill": "text_structure",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Text structure: find the problem, then see why the first fix failed.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.8, 7.1 and 5.7 on the three parts (107, 108 and 105 words), 6.1 together, mid-band. The load is a fix that worked and made things worse: the sand drained the puddle and moved the water, so the reader has to separate a symptom from a cause that was never visible. The last part states the general rule the story was built to show.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 4.1, Band 4.1, sequence 4. No external work.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A problem whose first solution succeeded for a month and then failed, so the structure is problem, partial fix, hidden cause, real fix.",
+      "avoided": "No school, town, team, or surface brand. No costs, dates, or meet results."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Stated problem, a fix that changed the symptom, then the hidden cause and the rule it teaches."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A high school running track had a problem that showed up after every heavy rain. A shallow lake stood on the far curve for two days, and runners had to slow down or swing wide around it. The far curve sat at the low corner of the field. A meet was cancelled twice in one season because of the water. The groundskeeper spread sand over the wet patch, and for a month the water drained away by morning. Then the puddle came back, larger than before. The sand had filled the small holes in the track surface, so rainwater ran off the curve instead of soaking in.",
+    "part_2": "The sand had treated the puddle and not the cause. Under the track lay a drain pipe that carried rainwater out to a ditch at the edge of the field, and the ditch had run clear for years before the roots arrived. Roots from a line of trees had grown into the pipe and closed it to the width of a thumb. Water could not leave the curve, so it sat there until the sun dried it. A crew cut out the roots, replaced the blocked section of pipe, and dug a shallow channel around the outside of the track so that water could reach the ditch again.",
+    "part_3": "The next spring the curve stayed dry through the heaviest storms of the season. The sand had made the first fix look successful, because it worked for a few weeks. A fix that treats the symptom can work for a while, and that early success is what makes it dangerous. The real test is what happens after the next rain, when the cause is still in place. On this track the cause was a blocked pipe that no one could see, so the groundskeeper now walks the ditch after every storm. The pipe had done its job for twenty years before the trees closed it."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What went wrong on the far curve after heavy rain?",
+      "tutor_only": {
+        "confirm": "Right. Water stood there for two days.",
+        "correct_reason": "The part says a shallow lake stood on the far curve for two days and runners had to slow or swing wide.",
+        "tell": "The curve held water. Two days of standing water made runners slow down or go around, and two meets were cancelled.",
+        "help": [
+          "Read the first two sentences of this part.",
+          "They say where the water stood and for how long."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A shallow lake of water stood on the curve for two days.",
+        "accept_ideas": [
+          "water stood on the curve",
+          "the curve flooded for two days",
+          "a puddle formed on the far curve"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how deep the water was"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the track was too old",
+            "ask": "Age is not mentioned. What happened to the curve after rain?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The sand worked for a month. Why did the water come back worse?",
+      "tutor_only": {
+        "confirm": "Yes. The sand filled the small holes, so water ran off the curve to the low end of the straight.",
+        "correct_reason": "The part says the sand filled the small holes in the surface, so rainwater ran off the curve and pooled at the low end of the straight.",
+        "tell": "The sand did not open a way out for the water. It closed the surface, so the water ran sideways and collected where the ground was lowest.",
+        "help": [
+          "Find the sentence about what the sand filled.",
+          "It says where the water went instead of soaking in."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The sand closed the surface, so water ran to the low end of the straight.",
+        "accept_ideas": [
+          "it filled the holes so water could not soak in",
+          "it sent the water to another part of the track",
+          "the water ran off the curve"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much sand was spread"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the sand washed away",
+            "ask": "Washing away would leave the curve as it was. What did the passage say the sand did to the surface?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What was blocking the drain pipe?",
+      "tutor_only": {
+        "confirm": "Right. Roots from a line of trees.",
+        "correct_reason": "The part says roots from a line of trees had grown into the pipe and closed it to the width of a thumb.",
+        "tell": "Tree roots had grown into the pipe. That is why water could not leave the curve, however the surface was treated.",
+        "help": [
+          "Read the sentence about the roots.",
+          "It says what the roots did to the pipe."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Roots from a line of trees had grown into the pipe.",
+        "accept_ideas": [
+          "roots",
+          "tree roots",
+          "roots from the trees"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the pipe was"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the pipe was too small",
+            "ask": "Size is not the reason given. What grew into the pipe?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did replacing the pipe stop the flooding when the sand did not?",
+      "tutor_only": {
+        "confirm": "Right. The pipe was the cause, so water could leave the curve once it was open.",
+        "correct_reason": "The part says water could not leave the curve while the pipe was blocked, and the crew cut out the roots and replaced the section.",
+        "tell": "The sand changed the surface and left the pipe blocked. Replacing the pipe gave the water a way out, which is the thing the curve actually lacked.",
+        "help": [
+          "Compare what the sand changed with what the crew changed.",
+          "One touched the surface, and the other opened the way out."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The pipe was the cause of the flooding, and opening it let the water leave.",
+        "accept_ideas": [
+          "water could drain again",
+          "it fixed the cause instead of the puddle",
+          "the water could reach the ditch"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how deep the pipe lay"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the new pipe was wider",
+            "ask": "Width is not the point. What could the water do once the blockage was gone?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage says a fix that treats the symptom can work for a while. It says that early success makes it dangerous. What does that mean for the sand?",
+      "tutor_only": {
+        "confirm": "Yes. The sand worked for a month, so people believed the problem was solved while the blocked pipe was still there.",
+        "correct_reason": "The passage says the sand had made the first fix look successful because it worked for a few weeks, and the real test came after the next rain.",
+        "tell": "The month of dry mornings hid the cause. Because the sand seemed to work, nobody looked under the track until the water returned.",
+        "help": [
+          "Compare the month of dry mornings with the sentence about the cause still being in place.",
+          "The early success made the real cause harder to find."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The sand looked like a fix because it worked for a few weeks, which hid the blocked pipe.",
+        "accept_ideas": [
+          "it worked at first, so people thought it was fixed",
+          "it hid the real cause",
+          "the early success stopped anyone looking for the pipe"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the repair cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the sand was the wrong material",
+            "ask": "The material is not the issue; the passage says the sand treated the puddle. What did that early success hide?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The next text-structure stage is not authored yet, so the ladder holds here.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "text_structure_band_4_1_0005",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_4_1_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

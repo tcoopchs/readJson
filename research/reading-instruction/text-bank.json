@@ -1,6 +1,6 @@
 {
   "bank_version": 1,
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "rubric": "L/I/S/K 0-3; band is highest demand, grade_target is the reader label",
   "texts": [
     {
@@ -1756,6 +1756,228 @@
         "The crew painted a thin new layer and let it dry slowly in a cool room."
       ],
       "cautions": "No play title, theater name, city, or dates. No claim about how much the repair cost.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-051",
+      "title": "Ice for July",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (114, 109, 102 words)",
+      "length_words": 325,
+      "fk_grade": 5.5,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_1_0001"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "An ice harvest ran in a fixed order because each position had its own reason: snow was cleared so the ice could thicken, the surface was scored so the saw had a line, blocks were packed at once so they did not melt, and the crew cut in January because late ice is thin and soft.",
+      "supporting_details": [
+        "Snow blankets the ice and keeps it from growing, so the crew cleared it first.",
+        "Scoring the surface came before cutting, because the shallow lines guided every later stroke.",
+        "Each block was floated to a ramp and hauled up by horses.",
+        "The blocks were packed in sawdust inside a windowless ice house, which slowed the melting.",
+        "Ice cut in March is thinner and softer than ice cut in January, so the month decided how much work paid."
+      ],
+      "why_it_works": "A five-step seasonal chain in which four positions each carry a separate reason; the last item joins the month to the yield.",
+      "cautions": "No town, company, price, or date. No claim about who bought the ice.",
+      "topic_domain": "history and people",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-052",
+      "title": "The Dam the River Took Back",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (104, 104, 103 words)",
+      "length_words": 311,
+      "fk_grade": 6.3,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_1_0002"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A dam's removal led to a rush of silt and a slow river repair: the gravel was clean by the third year and the fish returned in the fourth, so the first summer looked like failure and the fifth like success.",
+      "supporting_details": [
+        "The dam held silt, sand, and leaves behind it, and fish could not reach the gravel.",
+        "The first year after removal brought trapped silt downstream onto the gravel beds.",
+        "Neighbors saw brown water and bare banks and concluded the removal had failed.",
+        "Each spring flood moved some silt, and by the third year the stones were scoured and bright.",
+        "Fish arrived in the fourth spring, after the gravel was clean."
+      ],
+      "why_it_works": "A delayed effect chain: one action, three effects that arrive on different clocks, and a reader who must keep their order apart.",
+      "cautions": "No river, state, agency, or dam date. No fish species. No cost, acreage, or dissolved-oxygen figure.",
+      "topic_domain": "science and nature",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-053",
+      "title": "Two Ways to Move a Load",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (103, 100, 108 words)",
+      "length_words": 312,
+      "fk_grade": 5.9,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_1_0003"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A barge and a truck differ on load, speed, and cost per ton, and neither wins outright: the choice depends on whether a shipment can wait for the cheap slow way or must arrive by a date.",
+      "supporting_details": [
+        "One barge tow carries as much grain as sixty trucks, with a crew of three.",
+        "A barge takes five days, cannot leave the water, and stops when the river freezes.",
+        "A truck loads in an hour and drives all night.",
+        "A barge costs less per ton because fuel and crew are spread across a much larger load.",
+        "Grain that must meet a ship goes by truck, because a late barge is worse than a costly one."
+      ],
+      "why_it_works": "A three-dimension comparison that refuses to name a winner; the decisive dimension is the shipment's timing.",
+      "cautions": "No river, company, city, freight rate, or tonnage. No claim that either method is greener.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-054",
+      "title": "The Corner That Held Water",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (107, 108, 105 words)",
+      "length_words": 320,
+      "fk_grade": 6.1,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_1_0004"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A track's puddle was first treated with sand, which worked for a month and moved the water; the real cause was a root-blocked drain pipe, so the successful first fix hid the fault it never touched.",
+      "supporting_details": [
+        "After heavy rain a shallow lake stood on the far curve for two days.",
+        "The sand filled the small holes in the surface, so water ran off the curve.",
+        "The water pooled at the low end of the straight, which had never been wet.",
+        "Roots from a line of trees had closed the drain pipe to the width of a thumb.",
+        "The crew cut the roots, replaced the pipe, and dug a channel to the ditch."
+      ],
+      "why_it_works": "A problem/solution where the first solution partly works, which is harder than a plain wrong guess: the early success hides the cause.",
+      "cautions": "No school, town, team, or surface brand. No costs, dates, or meet results.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-055",
+      "title": "The Path Above the Slide",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (106, 108, 106 words)",
+      "length_words": 320,
+      "fk_grade": 5.9,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 3,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_1_0005"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The passage opens with the finished path and the new sign, then goes back to the slide and forward through the work, so the order of the telling is not the order of events.",
+      "supporting_details": [
+        "An entire slope of wet soil let go after a week of rain.",
+        "The sign went up last of all, on the final morning.",
+        "Workers cut the upper shelf first, because a truck could reach only the top.",
+        "Timber went up the middle section on mules where no machine could climb.",
+        "The slide debris at the bottom was cleared last, because working below a loose slope is dangerous."
+      ],
+      "why_it_works": "Two orders held at once, the telling and the doing, which is the band-4 structure move: the passage starts with its outcome.",
+      "cautions": "No mountain, park, trail name, state, or date. No distance in miles and no injury claim.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-056",
+      "title": "The Hall That Swallowed the Sound",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (105, 109, 108 words)",
+      "length_words": 322,
+      "fk_grade": 5.7,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_1_0006"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The hall's echo was fixed with cloth panels, which made the room dead and became the next problem, so the room had to be tuned in steps rather than planned in one pass.",
+      "supporting_details": [
+        "Sound bounced off bare walls and returned to the stage a moment late.",
+        "The engineer measured the room with a clap and timed the echo at almost two seconds.",
+        "The cloth panels absorbed the sound and the echo stopped at once.",
+        "The room went dead, and players could not hear each other across the stage.",
+        "Half the panels came down and a curved shell went in above the stage."
+      ],
+      "why_it_works": "A chain in which the fix is the next cause: the same panels are a solution in one part and a fault in the next.",
+      "cautions": "No hall, city, orchestra, or composer. No acoustic figures beyond the echo time the passage states.",
       "topic_domain": "arts and language",
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, review pending.",

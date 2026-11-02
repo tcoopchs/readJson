@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_4_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Hall That Swallowed the Sound",
+    "skill": "text_structure",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "arts and language",
+    "skill_frame": "Text structure: follow a chain where each fix becomes the next cause.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.2, 5.5 and 5.4 on the three parts (105, 109 and 108 words), 5.7 together, mid-band. The load is a chain of two problems where the first solution is the second cause. The reader has to see that the panels are both a fix and a fault, so the passage cannot be read as problem-then-solution.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 4.1, Band 4.1, sequence 6. No external work.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A chain in which a successful fix creates the next problem, so the structure is cause, fix, new cause, and the last part says why one pass was impossible.",
+      "avoided": "No hall, city, orchestra, or composer. No acoustic measurements beyond the echo time the passage states."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The same object is a solution in one paragraph and a cause in the next; the last item joins them."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A small concert hall opened with bare walls and a hard floor. The hall had been built cheaply and in a hurry. Sound bounced off every surface and came back to the stage a moment late. A violin sounded blurred, and a speaker's words ran together at the back of the room. The city hired an engineer, who measured the room with a hard clap from the stage. The echo took almost two seconds to return, which is the width of a spoken word. She covered the walls with heavy cloth panels, and the echo stopped at once, so for a season everyone was pleased.",
+    "part_2": "The panels had solved one problem and created another. Cloth absorbs sound, and this cloth absorbed so much that the room went dead. A player at one end of the stage could not hear the player at the other end of it. The engineer came back and removed half the panels, then added a curved wooden shell above the stage. The curve sends sound out into the room instead of letting it die at the ceiling. The hall has a little echo now, and the players want it that way. Too much absorption is as bad for a room as too little, and the engineer had gone too far.",
+    "part_3": "Each fix became the cause of the next problem. Hard walls made an echo, so the panels went up. The panels made a dead room, so half of them came down and the shell went in. The second problem was created by the first solution, which is why the engineer could not plan the room in one pass. A hall is tuned by listening, then changing one thing, then listening again. The final room was not designed on paper, and it could not have been. A hall is tuned the way an instrument is tuned, by ear and in steps, and the first version is never the last."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What was wrong with the hall when it opened?",
+      "tutor_only": {
+        "confirm": "Right. Sound bounced back late, so music and speech sounded blurred.",
+        "correct_reason": "The part says sound bounced off every surface and came back a moment late, so a violin sounded blurred and a speaker's words ran together.",
+        "tell": "The room was too live. Sound returned to the stage a moment after it left, and the delay smeared what people heard.",
+        "help": [
+          "Read the first three sentences of this part.",
+          "They describe what the sound did and how it sounded."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Sound came back late, so the music and speech sounded blurred.",
+        "accept_ideas": [
+          "there was an echo",
+          "the sound bounced back late",
+          "it sounded blurred"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many seats the hall had"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the hall was too small",
+            "ask": "Size is not the problem given. What did the sound do off the walls?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why did the engineer clap from the stage?",
+      "tutor_only": {
+        "confirm": "Yes. To measure how long the echo took to return.",
+        "correct_reason": "The part says she measured the room with a hard clap, and the echo took almost two seconds to return.",
+        "tell": "The clap was a test, not a performance. Hearing how long the sound took to come back told her how live the room was.",
+        "help": [
+          "Find the sentence about the clap.",
+          "It says what the engineer learned from it."
+        ],
+        "say_back": "own_words",
+        "core_idea": "To measure how long the echo took to return.",
+        "accept_ideas": [
+          "to measure the echo",
+          "to time how long the sound took to come back",
+          "to hear the delay"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "to test the seats"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she was checking the stage",
+            "ask": "What she measured was in the air. What did the clap let her time?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What did the cloth panels do to the echo?",
+      "tutor_only": {
+        "confirm": "Right. They absorbed the sound and stopped the echo.",
+        "correct_reason": "The part says cloth absorbs sound, and the echo stopped at once after the panels went up.",
+        "tell": "The panels took the returning sound away. That ended the echo, and it went further than the room could stand.",
+        "help": [
+          "Read the sentence about the panels going up.",
+          "It says what happened to the echo."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They absorbed the sound, and the echo stopped.",
+        "accept_ideas": [
+          "they absorbed the sound",
+          "they stopped the echo",
+          "they soaked up the sound"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who paid for the panels"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the panels blocked the stage",
+            "ask": "Blocking is not what the passage describes. What does cloth do to sound?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did the musicians complain after the panels went up?",
+      "tutor_only": {
+        "confirm": "Yes. The room went dead, so players could not hear each other.",
+        "correct_reason": "The part says the cloth absorbed so much that the room went dead, and a player at one end of the stage could not hear the player at the other.",
+        "tell": "A room can have too little sound as well as too much. With the echo gone, the players lost the sound they needed to play together.",
+        "help": [
+          "Read the sentences about the dead room and the two players.",
+          "They say what the players lost when the echo stopped."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The room went dead, so the players could not hear each other.",
+        "accept_ideas": [
+          "too much sound was absorbed",
+          "the room went dead",
+          "they could not hear each other play"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how loud the music was"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the panels fell down",
+            "ask": "Nothing fell. What did the absorption do to the room?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage says the engineer could not plan the room in one pass. Why not?",
+      "tutor_only": {
+        "confirm": "Right. Each fix created the next problem, so the room had to be changed and listened to again.",
+        "correct_reason": "The last part says each fix became the cause of the next problem, and that the second problem was created by the first solution.",
+        "tell": "One change could not settle the room. The panels answered the echo and made a new fault. Only by hearing that fault could the next change be chosen.",
+        "help": [
+          "Compare what the panels fixed with what they broke.",
+          "The same panels are a solution in one part and a cause in the next."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because each fix created the next problem, so the room had to be tuned in steps.",
+        "accept_ideas": [
+          "the first solution caused the second problem",
+          "each change made a new problem",
+          "it had to be tuned by ear, one change at a time"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the panels cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the engineer was wrong the first time",
+            "ask": "The passage says the panels stopped the echo. What did they do besides that?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The next text-structure stage is not authored yet, so the ladder holds here.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "text_structure_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
