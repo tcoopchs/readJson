@@ -1,0 +1,246 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_4_3_0002",
+  "meta": {
+    "status": "published",
+    "title": "The Page That Starts With the Last Question",
+    "skill": "text_structure",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 2,
+    "skill_frame": "Text structure: read the order the questions come in, and see why the page chose it.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.5, 5.7 and 6.3 on the three parts (114, 115 and 105 words), 5.8 together, inside the band's window. The load is not the science but the arrangement: three answers, and a last one that depends on the first two.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 4.3, Band 4.3, sequence 2. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A page organized by the questions a reader asks, with the most familiar question answered last and the order itself doing the work of an argument.",
+      "avoided": "No place names, no salinity figures, no mention of any named sea or lake, and no fourth question."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The first two items take a stated answer in order; the fourth and fifth read the page's arrangement itself as the argument."
+    },
+    "authoring_exceptions": [],
+    "genre": "nonfiction",
+    "topic_domain": "science and nature"
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A page on seawater answers three questions, and it takes them in an unusual order. The first question asks where the salt comes from before it reaches the sea. Rain falls on rock and wears a little of it away, and rivers carry that load down. The second question is why the sea does not grow saltier every year, or why it does. Water leaves the sea as vapor and leaves the salt behind. A sea with no outlet therefore keeps everything its rivers bring. There the salt has no way back up into the clouds. The order of the three questions is the point of the page, and the next part shows why.",
+    "part_2": "The third question is the one most readers ask first: why is the open ocean salty and a mountain lake fresh? The page answers that last, and it has to. A lake in a closed basin does collect salt from its streams, but it also loses water to the air and to the ground under it. With no river running out, the salt has nowhere to go. It gathers in the basin, and the water turns bitter and shallow over the years. Nothing carries the salt back out of the basin. The answer needs the first two answers before it will stand on its own, which is why the page will not give it early.",
+    "part_3": "The order of the page is therefore an argument and not a list. Each answer opens the next question, so the reader is carried forward. Salt arrives, water leaves, and a basin with no outlet keeps both facts in one place. A reader who began with the last question would find it a curiosity about lakes. A fact about a lake is easy to forget. A reader who begins with the first arrives at it as a conclusion. The arrangement of the page is what carried them there. A list of three facts would have given the same information and no reason to keep reading."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The page answers three questions. What is the first one it takes?",
+      "tutor_only": {
+        "confirm": "Yes. Where the salt comes from.",
+        "correct_reason": "The passage says the first question is where the salt comes from, and it answers it with rain on rock and rivers carrying the load down.",
+        "tell": "The page begins where the salt begins. Rain wears rock, and rivers carry the pieces down to the sea.",
+        "help": [
+          "Find the sentence that begins 'The first question'.",
+          "It asks about the salt's origin, before the sea has it."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Where the salt comes from.",
+        "accept_ideas": [
+          "where the salt comes from",
+          "how salt gets into the sea",
+          "where the salt in seawater comes from"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much salt is in a litre of seawater"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student answers with the question about the sea growing saltier",
+            "ask": "That is a later question on the page. Which one is answered first, before the others?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Water leaves the sea as vapor. What does that do to the salt?",
+      "tutor_only": {
+        "confirm": "Right. The salt is left behind, so a sea with no outlet keeps it.",
+        "correct_reason": "The passage says water leaves the sea as vapor and leaves the salt behind, so a sea with no outlet keeps everything its rivers bring.",
+        "tell": "Only the water goes up. The salt stays, and in a sea with no outlet it stays for good.",
+        "help": [
+          "Find the sentence that begins 'Water leaves the sea as vapor'.",
+          "It says which of the two is carried away and which is not."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The salt stays behind, so a sea with no outlet keeps it.",
+        "accept_ideas": [
+          "the salt stays behind",
+          "the water leaves and the salt stays",
+          "the sea keeps what its rivers bring"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how fast water evaporates"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the salt leaves with the vapor",
+            "ask": "Read the sentence about what leaves the sea. Which of the two, water or salt, is carried up?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why is a mountain lake fresh while a lake in a closed basin turns bitter?",
+      "tutor_only": {
+        "confirm": "Yes. The mountain lake has a river running out, and the closed basin does not.",
+        "correct_reason": "The passage says a lake in a closed basin collects salt from its streams, loses water to the air and the ground, and has no river running out, so the salt gathers.",
+        "tell": "Both lakes get salt from their streams. The difference is the exit. The mountain lake has one, and the closed basin does not, so the salt has nowhere to go.",
+        "help": [
+          "Find the sentence that begins 'With no river running out'.",
+          "It says what the closed basin has instead of an exit."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The mountain lake has a river running out; the closed basin has no outlet, so the salt gathers.",
+        "accept_ideas": [
+          "the mountain lake drains out and the basin does not",
+          "water leaves the closed basin only as vapor, so the salt stays",
+          "the basin has no river running out"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the lake water tastes like"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the mountain lake gets no salt",
+            "ask": "The passage says the closed basin collects salt from its streams. What does a mountain lake have that the basin lacks?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The writer answers the question most readers ask first at the end. What does the passage say the reader gains from that?",
+      "tutor_only": {
+        "confirm": "Right. The answer arrives as a conclusion that the first two answers set up.",
+        "correct_reason": "The passage says a reader who began with the last question would find it a curiosity about lakes, while a reader who begins with the first arrives at it as a conclusion, and the arrangement carried them there.",
+        "tell": "Answered last, the lake question is the end of a chain the reader has already built. Answered first, it would be a fact about lakes that a reader would forget.",
+        "help": [
+          "Find the sentence about a reader who began with the last question.",
+          "One gets a curiosity. The other gets a conclusion. What made the difference?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "The lake answer arrives as a conclusion that needs the first two answers.",
+        "accept_ideas": [
+          "it arrives as a conclusion",
+          "the first two answers set it up",
+          "it makes sense instead of being a curiosity",
+          "the reader has to have the first two"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the page is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the last answer is the most important",
+            "ask": "Importance is not the point the passage makes. What does it say about how that answer lands for a reader who began at the top?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "How is this page organized?",
+      "tutor_only": {
+        "confirm": "Yes. By questions, in an order where each answer opens the next.",
+        "correct_reason": "The passage says each answer opens the next question, and it names the arrangement as an argument rather than a list.",
+        "tell": "The page is built out of questions. The order makes each answer needed for the next question. That is an argument, not a list of facts.",
+        "help": [
+          "Find the sentence that begins 'Each answer opens'.",
+          "It names what one answer does to the question that follows it."
+        ],
+        "say_back": "own_words",
+        "core_idea": "By questions, in an order where each answer opens the next, not by time or by size.",
+        "accept_ideas": [
+          "by questions that build on each other",
+          "question by question, each needing the last",
+          "by three questions in a chosen order",
+          "an argument made of answers"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many questions a reader asks"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it is organized by steps in time",
+            "ask": "Nothing on the page happens in a sequence of dates. What does each section of the page begin with?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "No text-structure stage is authored above this rung yet, so the ladder holds at the first lesson of this band.",
+    "student_line": "You have the move. The next reading is another lesson on this skill in this band."
+  },
+  "retry": {
+    "next_file": "text_structure_band_4_3_0003",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_4_3_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

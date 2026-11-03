@@ -1,7 +1,7 @@
 # Handoff — readJson / readingHarness
 
-State as of 2026-11-02, written in the working tree through the `text_structure` 4.2 rung and
-committed with it. If `git status` shows the six text_structure 4.2 sources uncommitted, the commit
+State as of 2026-11-02, written in the working tree through the `text_structure` 4.3 rung and
+committed with it. If `git status` shows the six text_structure 4.3 sources uncommitted, the commit
 did not land and this file is ahead of the tree.
 
 Normative docs: `README.md` (naming, bands, routing), `DESIGN_RULES.md` (passage, items, ladder),
@@ -12,20 +12,21 @@ disagree, the rules win — and this file is wrong.
 
 ## Where the catalog stands
 
-100 compiled lessons. The inference ladder is complete from the floor through stage 4.3, `main_idea`
+106 compiled lessons. The inference ladder is complete from the floor through stage 4.3, `main_idea`
 is complete through stage 4.3, and `vocab` is complete from the floor through 4.3, so three verticals
-are open at grade 4. `text_structure` now has three rungs at grade 4: its 3.1 floor rung, 4.1 and 4.2.
+are open at grade 4. `text_structure` now has all four grade-4 rungs: its 3.1 floor rung, 4.1, 4.2 and 4.3, so that
+vertical is closed and `process` 3.1 is the next rung in the build order.
 
 | Ladder | Rungs built | Notes |
 | --- | --- | --- |
 | `inference` | 3.1 ✓ (6) · 4.1 ✓ (8) · 4.2 ✓ (6) · 4.3 ✓ (6) · 5.1 2/6 · 6.1 1/6 | 5.1 and 6.1 are prototype files, incomplete |
 | `main_idea` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) · 7.1 2/6 | 4.2 is one cell from six federal works; 4.3 is six drafted passages; the 7.1 gap is why a clear on 4.3 holds |
 | `vocab` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) | four rungs, all drafted under 2.6; TB-021 to TB-044; ladder complete through 4.3 |
-| `text_structure` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) | eighteen drafted passages, one structure move each; 4.3 is next |
+| `text_structure` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) | twenty-four drafted passages, one structure move each; vertical closed through 4.3 |
 | `the other four` | none | see Phase 2 in the build plan; `process 3.1` follows text_structure 4.3 |
 
 `lessons/curriculum.json` matches reality: 4.1 inference keeps its eight files as road; 3.1, 4.2, 4.3,
-main_idea 3.1, 4.1, 4.2 and 4.3, vocab 3.1, 4.1, 4.2 and 4.3, and text_structure 3.1, 4.1 and 4.2
+main_idea 3.1, 4.1, 4.2 and 4.3, vocab 3.1, 4.1, 4.2 and 4.3, and text_structure 3.1, 4.1, 4.2 and 4.3
 declare six each and are `complete`.
 
 `text_structure` 3.1 is six structures, six domains, no neighbour repeat: sequence (food and
@@ -53,6 +54,19 @@ obvious fix ruled out by a limit before anyone tries it (work and trade), a corr
 advice about sentence length (arts and language), a plan in space that is also a record in time
 (places and travel), and a general rule with one written exception (sport and play). TB-057 to
 TB-062, all drafted under 2.6 under the spot-check rule in 2.6.
+
+`text_structure` 4.3 (TB-063 to TB-068) closes the vertical. Three parts of 100-120 words per lesson,
+measured whole-passage FK 5.5 to 6.2, one structure move per lesson that is new against both lower
+rungs: two separate causes that meet in one result (history and people), a page ordered by the
+questions a reader asks, with the familiar one last (science and nature), a grouping inside a
+grouping where the second level cuts across the first (food and farming), a definition followed by a
+case that looks like an example and is not (work and trade), a description that moves from the
+smallest unit to the largest (places and travel), and a step that repeats until a test passes (arts
+and language). Six domains, no neighbour repeat, and history and people is placed here because both
+3.1 and 4.2 went without it. All six drafted under 2.6, `drafted_by: "TC"`, spot-check rotation still
+outstanding. The six 4.2 lessons now advance to `text_structure_band_4_3_0001`; the 4.3 lessons
+advance to `text_structure_band_4_3_0001` as well, because no rung above is authored and a clear must
+not jump to a lesson that does not exist.
 
 `main_idea` 4.3 (TB-015 to TB-020) is the rung the subject rule bit on: no two neighbours share a
 domain, and the six span six of the seven domains — food and farming, arts and language, work and

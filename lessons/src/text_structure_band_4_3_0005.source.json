@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_4_3_0005",
+  "meta": {
+    "status": "published",
+    "title": "Four Sizes of Water",
+    "skill": "text_structure",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 5,
+    "skill_frame": "Text structure: follow a description that moves from the smallest unit to the largest.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.3, 6.6 and 6.6 on the three parts (101, 100 and 100 words), 6.2 together, inside the band's window. The load is scale: each size contains the one before it, and the last item asks why the count means something only once the nesting is held.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 4.3, Band 4.3, sequence 5. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A description ordered by size, where each unit nests inside the next and the cost of one boat is read against the largest unit.",
+      "avoided": "No canal name, no town, no length in miles, no gallon figure, and no history of the canal's building."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The first two items establish the units and their order; the last two read one boat's cost against a unit it can empty."
+    },
+    "authoring_exceptions": [],
+    "genre": "nonfiction",
+    "topic_domain": "places and travel"
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A canal guide describes the water in four sizes, and it starts with the smallest. One chamber of a lock holds enough water to raise a boat about eight feet. Between two locks lies a pound, a flat stretch that keeps one level for a mile or so. Above the last lock on a hill sits the summit level. That is the highest pound, fed by a reservoir and by nothing else. Each size contains the one before it, and the guide moves outward in that order. The reader meets a chamber before a pound, and a pound before a summit.",
+    "part_2": "The sizes nest, and the nesting is the point of the arrangement. A pound holds water that would fill many chambers, and the summit level is a single pound with no higher water to draw on. Every boat that crosses the summit takes water out of it, one chamber at a time. The guide counts the cost in chamberfuls rather than in gallons, because gallons are too large to picture. A boat going up spends water from the pound below. A boat going down spends it from the pound above, so a flight of locks moves water downhill all day.",
+    "part_3": "Read in that order, from one chamber to the summit, the numbers begin to mean something. A single lock cycle looks cheap and harmless to a reader who stops there, and that reader would see no reason for a reservoir at all. Twelve boats a day through a flight of locks empties a summit long before noon. Only a reservoir can refill it, and the guide says so twice. That is why the reservoir comes last and is called the real limit on traffic. The largest size is the one that decides, and the smallest is the one that explains."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Name the sizes of water in the order the guide takes them.",
+      "tutor_only": {
+        "confirm": "Yes. A lock chamber, then a pound, then the summit level, then the reservoir.",
+        "correct_reason": "The passage starts with one chamber of a lock, then a pound between two locks, then the summit level, and the summit is fed by a reservoir that the guide puts last.",
+        "tell": "The guide moves outward from the smallest thing a boat meets. First a chamber, then the pound it sits in. Then the summit that holds the pounds, and the reservoir that fills it.",
+        "help": [
+          "Find the sentence that begins 'One chamber of a lock' and work outward from it.",
+          "Each sentence that follows names a size that holds the one before it."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A lock chamber, then a pound, then the summit level, then the reservoir.",
+        "accept_ideas": [
+          "chamber, pound, summit, reservoir",
+          "a chamber then a pound then the summit level and the reservoir",
+          "the lock chamber and the pound and the summit and its reservoir"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many locks the canal has"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student starts with the reservoir",
+            "ask": "The guide starts with the smallest size. Which one holds enough water to raise a boat about eight feet?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The guide starts with one lock chamber. What does that order let it do?",
+      "tutor_only": {
+        "confirm": "Right. Build outward, since each size contains the one before it.",
+        "correct_reason": "The passage says each size contains the one before it and the guide moves outward in that order, so the reader meets a chamber before a pound and a pound before a summit.",
+        "tell": "Starting small is what makes the large sizes readable. The summit is a pound, and a pound is many chambers. The reader already knows what the pieces are.",
+        "help": [
+          "Find the sentence that begins 'Each size contains'.",
+          "It says what the order does with the sizes, not which size is easiest to describe."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Build outward, since each size contains the one before it.",
+        "accept_ideas": [
+          "each size contains the last, so the smallest comes first",
+          "it builds from small to large",
+          "so the reader can see the larger sizes made of the smaller"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the canal is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it starts with the smallest because that is easiest",
+            "ask": "The passage gives a reason about how the sizes fit together. What does each size contain?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Every boat crossing the summit takes water out of it. Why does that matter most at the summit?",
+      "tutor_only": {
+        "confirm": "Yes. The summit is the highest pound and has no higher water to draw on.",
+        "correct_reason": "The passage says the summit level is the highest pound, fed by a reservoir and by nothing else, and that every boat crossing it takes water out one chamber at a time.",
+        "tell": "Lower pounds are refilled by water running down from above. The summit has nothing above it, so every boat takes water the canal cannot replace by itself.",
+        "help": [
+          "Find the sentence about the summit level being fed by a reservoir and by nothing else.",
+          "It says what the summit has above it, and what that means for what it can be refilled from."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The summit is the highest pound and has no higher water to draw on.",
+        "accept_ideas": [
+          "no water comes down to replace it",
+          "it is fed only by the reservoir",
+          "it is the top of the system, so nothing above refills it"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many boats cross in a day"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says boats use water everywhere",
+            "ask": "They do. What is different about the summit level that makes the same cost harder there?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The guide counts the cost in chamberfuls, not in gallons. What does that let the reader see?",
+      "tutor_only": {
+        "confirm": "Right. How much of the summit one boat takes, in units the canal itself uses.",
+        "correct_reason": "The passage says the guide counts the cost in chamberfuls rather than in gallons, because gallons are too large to picture.",
+        "tell": "A gallon figure is a number. A chamberful is a piece of the canal. A reader can see a boat take one piece out of the summit, and then another.",
+        "help": [
+          "Find the sentence that begins 'The guide counts the cost'.",
+          "It says why one unit was chosen over the other."
+        ],
+        "say_back": "own_words",
+        "core_idea": "How much of the summit one boat takes, in units the canal itself uses.",
+        "accept_ideas": [
+          "how many lockfuls a boat costs the summit",
+          "the water drawn from the summit in units of the lock",
+          "how each crossing takes one chamber out of the summit"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many gallons a chamber holds"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says gallons are harder to spell",
+            "ask": "The guide picks the unit that matches the thing being spent. What is being spent, and in what pieces?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Why does the guide call the reservoir the real limit on traffic?",
+      "tutor_only": {
+        "confirm": "Yes. Only the reservoir refills the summit, so the day's boats depend on it.",
+        "correct_reason": "The passage says twelve boats a day through a flight of locks empties a summit that only a reservoir can refill, and the guide calls the reservoir the real limit on traffic.",
+        "tell": "Traffic is not limited by how many chambers there are. It is limited by how fast the only thing above the summit can put the water back.",
+        "help": [
+          "Find the sentence about twelve boats a day and the summit.",
+          "It names the one thing that can refill what those boats took."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Only the reservoir refills the summit, so the number of boats a day depends on it.",
+        "accept_ideas": [
+          "it is the only thing that refills the summit",
+          "the summit empties and only the reservoir fills it",
+          "traffic is limited by how fast the summit refills"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "where the reservoir is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the reservoir is the largest size",
+            "ask": "Large is about size. The passage says something about refilling. What does only the reservoir do?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "No text-structure stage is authored above this rung yet, so the ladder holds at the first lesson of this band.",
+    "student_line": "You have the move. The next reading is another lesson on this skill in this band."
+  },
+  "retry": {
+    "next_file": "text_structure_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_4_3_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

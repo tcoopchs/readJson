@@ -29,16 +29,17 @@ inference: 3.1 -> 4.1 -> 4.2 -> 4.3 -> 5.1 -> 5.2 -> 5.3 -> ...
 
 ## 2. Where the catalog stands (verified 2026-10-28)
 
-One hundred compiled lessons. The inference ladder is complete from the floor through stage 4.3,
+One hundred and six compiled lessons. The inference ladder is complete from the floor through stage 4.3,
 `main_idea` is complete through stage 4.3, and `vocab` is complete from the floor through 4.3.
-`text_structure` is complete at its floor rung 3.1 and at 4.1 and 4.2.
+`text_structure` is complete at its floor rung 3.1 and at 4.1, 4.2 and 4.3, so its grade-4 vertical is
+closed.
 
 | Ladder | 3.1 | 4.1 | 4.2 | 4.3 | 5.1 | above |
 | --- | --- | --- | --- | --- | --- | --- |
 | `inference` | 6 ✓ | 8 ✓ | 6 ✓ | 6 ✓ | 2/6 | 6.1 at 1/6 |
 | `main_idea` | 6 ✓ | 6 ✓ | 6 ✓ | 6 ✓ | — | 7.1 at 2/6 |
 | `vocab` | 6 ✓ | 6 ✓ | 6 ✓ | 6 ✓ | — | — |
-| `text_structure` | 6 ✓ | 6 ✓ | 6 ✓ | — | — | — |
+| `text_structure` | 6 ✓ | 6 ✓ | 6 ✓ | 6 ✓ | — | — |
 | other four | — | — | — | — | — | — |
 
 Three facts that shape what comes next:
@@ -293,12 +294,12 @@ misconception, injection, and stop sessions per rung, which so far exist for mai
 | `text_structure` 3.1 | built; drafted under 2.6; strict clean; smooth and hard sweep clean | misconception and injection sessions; TC review of six passages |
 | `text_structure` 4.1 | built; drafted under 2.6; TB-051 to TB-056; strict clean; smooth 6/6 and hard 6/6 | misconception, injection, and stop sessions; TC review of six passages |
 | `text_structure` 4.2 | built; drafted under 2.6; TB-057 to TB-062; strict clean | cold-chat sweep; misconception, injection, and stop sessions; TC review of six passages |
-| `text_structure` 4.3 | absent | next in Phase 2 |
-| `process` 3.1 | absent | after text_structure 4.3 |
+| `text_structure` 4.3 | built; drafted under 2.6; TB-063 to TB-068; strict clean; smooth and hard sweep not run | cold-chat sweep; misconception, injection, and stop sessions; TC review of six passages |
+| `process` 3.1 | absent | next in Phase 2 (three moves chosen afresh, not the text_structure ones) |
 | `argument_evidence` 3.1 | absent, and may not fit grade-3 load | decide before authoring |
 | `literary_text` 3.1 | absent | needs a short story |
 | `authors_craft` 3.1 | absent, and may not fit grade-3 load | decide before authoring |
-| `text-bank` rows for the 30 older drafted lessons | not written; main_idea 4.3 is TB-015 to TB-020, vocab 3.1-4.2 is TB-021 to TB-038, vocab 4.3 is TB-039 to TB-044, text_structure 3.1 is TB-045 to TB-050, text_structure 4.1 is TB-051 to TB-056, text_structure 4.2 is TB-057 to TB-062 | backfill after the cold-chat pass |
+| `text-bank` rows for the 30 older drafted lessons | not written; main_idea 4.3 is TB-015 to TB-020, vocab 3.1-4.2 is TB-021 to TB-038, vocab 4.3 is TB-039 to TB-044, text_structure 3.1 is TB-045 to TB-050, text_structure 4.1 is TB-051 to TB-056, text_structure 4.2 is TB-057 to TB-062, text_structure 4.3 is TB-063 to TB-068 | backfill after the cold-chat pass |
 
 ### Handoff checklist
 

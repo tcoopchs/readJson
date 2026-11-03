@@ -2204,6 +2204,228 @@
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, accepted on spot check.",
       "drafted_by": "TC"
+    },
+    {
+      "id": "TB-063",
+      "title": "Two Causes, One Collapse",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (117, 115, 120 words)",
+      "length_words": 352,
+      "fk_grade": 5.53,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 3,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_3_0001"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The river port failed because two causes met: the railroad took the freight and silt closed the river, and each loss took away the money that would have answered the other.",
+      "supporting_details": [
+        "The railroad opened a line twelve miles inland in 1871, and freight that had come down the river stopped at a depot the town could not reach.",
+        "Each spring flood left more sand at the bend below the wharves, so the boats loaded less every year.",
+        "In 1874 a dry summer cut shipping by a third while the railroad was still new.",
+        "The next year the water was good, but a second train kept the wharves quiet.",
+        "The dredging and the town's own spur both arrived after the warehouse trade had moved to the depot town, so neither could restore the traffic."
+      ],
+      "why_it_works": "Two causes are followed separately and then shown to close off each other's repair, so the structure is the meeting, not the list.",
+      "cautions": "No dates beyond 1871-1880, no population figures, no other town named, and no single cause that would explain the decline by itself.",
+      "topic_domain": "history and people",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-064",
+      "title": "The Page That Starts With the Last Question",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (114, 115, 105 words)",
+      "length_words": 334,
+      "fk_grade": 5.76,
+      "complexity": {
+        "language": 3,
+        "idea": 3,
+        "structure": 3,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_3_0002"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The page answers three questions about seawater in an order that builds, so the last answer, why a closed lake turns bitter, arrives as a conclusion rather than a curiosity.",
+      "supporting_details": [
+        "Rain wears rock and rivers carry the load to the sea, which is where the salt comes from.",
+        "Water leaves the sea as vapor and leaves the salt behind, so a sea with no outlet keeps what its rivers bring.",
+        "A lake in a closed basin collects salt and has no river running out, so the salt gathers and the water turns bitter and shallow.",
+        "The page answers the lake question last because the answer needs the first two answers to stand.",
+        "A reader who began with the last question would find a curiosity; a reader who began with the first arrives at a conclusion."
+      ],
+      "why_it_works": "The order of the questions is the argument: each answer opens the next, and the most familiar question is saved for last.",
+      "cautions": "No place names, no salinity figures, no named sea or lake, and no fourth question.",
+      "topic_domain": "science and nature",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-065",
+      "title": "Two Levels in One Drawer",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (114, 100, 102 words)",
+      "length_words": 316,
+      "fk_grade": 5.91,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 3,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_3_0003"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "Seed is filed by plant group and then by the years left, two levels that cross, so the drawer finds the seed and the packet says whether it will still grow.",
+      "supporting_details": [
+        "The top level is what the plant is for: leaf, root, fruit, or pod, one drawer for each.",
+        "The second level is how long the seed will still sprout, written on the packet.",
+        "Parsnip seed dies in a year while beet seed keeps four, though both are roots.",
+        "Bean seed keeps three years and pea seed two, though both sit in the pod drawer.",
+        "In spring the saver opens one drawer and sows the oldest seed first, because that seed has to be tested while a season remains."
+      ],
+      "why_it_works": "The second level cuts across the first, so the passage's structure is the crossing, and each level alone is shown losing something the other carries.",
+      "cautions": "No garden catalogue, no seed company, no prices, no region, and no third level of sorting.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-066",
+      "title": "The Cost That Never Stops",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (115, 104, 104 words)",
+      "length_words": 323,
+      "fk_grade": 6.13,
+      "complexity": {
+        "language": 3,
+        "idea": 3,
+        "structure": 3,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_3_0004"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "Overhead is a cost that keeps being paid in a week with no sales, so one van's costs split: fuel follows the parcels, and the insurance does not.",
+      "supporting_details": [
+        "Overhead is defined as a cost a shop pays whether or not it sells anything that week.",
+        "Rent and building insurance are the plain cases, because they are paid in a slow week and a busy one.",
+        "The delivery van looks like overhead, but its fuel bill rises and falls with the sales.",
+        "Fuel and tires are filed as direct costs, while the van's insurance stays with overhead.",
+        "The test is a slow week rather than the size of the bill, because a large cost can stop and a small one can keep coming."
+      ],
+      "why_it_works": "A definition with a test is given first and then applied to a case that looks like an example, so the reader carries the test instead of the label.",
+      "cautions": "No country, currency, tax rule, business name, or figure for rent, fuel, or insurance.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-067",
+      "title": "Four Sizes of Water",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (101, 100, 100 words)",
+      "length_words": 301,
+      "fk_grade": 6.15,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 3,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_3_0005"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A canal is described from one lock chamber outward, and the nesting is what makes the traffic limit visible: every crossing draws a chamberful from a summit that only a reservoir can refill.",
+      "supporting_details": [
+        "One chamber of a lock holds enough water to raise a boat about eight feet.",
+        "A pound lies between two locks and keeps one level for a mile or so.",
+        "The summit level is the highest pound, fed by a reservoir and by nothing else.",
+        "Every boat crossing the summit takes water out one chamber at a time, so the guide counts in chamberfuls rather than gallons.",
+        "Twelve boats a day through a flight of locks empties a summit, which is why the reservoir is called the real limit on traffic."
+      ],
+      "why_it_works": "Each size contains the one before it, so a description ordered small to large is what turns a single lock cycle into a limit on the whole canal.",
+      "cautions": "No canal name, no town, no length in miles, no gallon figure, and no building history.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-068",
+      "title": "Turn Until the Pulse Stops",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (105, 111, 103 words)",
+      "length_words": 319,
+      "fk_grade": 5.53,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 3,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_3_0006"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A tuner repeats one step until the pulse stops, so the method is a loop with a heard ending rather than a counted one, and that is why a recipe and a tuning are different instructions.",
+      "supporting_details": [
+        "She strikes the note and the string above it, and close but unequal strings make the sound pulse.",
+        "The pulses come faster the further apart the two strings are.",
+        "She turns the pin a little, strikes again, and listens for the same pulse.",
+        "The tuning ends when the pulsing stops, and on a flat string a faster pulse means she turned the pin the wrong way.",
+        "A recipe can say turn three times, while a tuning cannot, because the third turn on one string is the first turn on the next."
+      ],
+      "why_it_works": "The step repeats until a condition is met, so the reader has to find the exit test instead of a count, and the comparison with a recipe makes the difference visible.",
+      "cautions": "No notation, no frequency in hertz, no instrument brand, no tuning system, and no ear-training advice.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
     }
   ],
   "screened_not_banked": [

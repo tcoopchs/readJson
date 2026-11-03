@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_4_3_0006",
+  "meta": {
+    "status": "published",
+    "title": "Turn Until the Pulse Stops",
+    "skill": "text_structure",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 6,
+    "skill_frame": "Text structure: read a step that repeats until a test passes, not until a count ends.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.3, 6.0 and 5.4 on the three parts (105, 111 and 103 words), 5.5 together, inside the band's window. The load is a loop with its exit condition inside it: the reader finds what ends the repeating and sees that no number in the method can.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 4.3, Band 4.3, sequence 6. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A procedure written as a repeated step with a listening test, set against a recipe whose steps can be counted.",
+      "avoided": "No notation, no frequency in hertz, no brand of instrument, no named tuning system, and no ear-training advice."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The first two items take the step and its test; the last two read the loop as a structure, where the exit condition replaces a count."
+    },
+    "authoring_exceptions": [],
+    "genre": "nonfiction",
+    "topic_domain": "arts and language"
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A piano tuner works by repeating one step until a test stops failing. She strikes the note and the string above it at the same moment. If the two are close but not equal, the sound begins to pulse. The pulses come faster the further apart the two strings are. She turns the pin a little, strikes again, and listens for the same pulse. Nothing in the method says how many turns a string needs, because that number does not exist yet. The string answers that question one turn at a time, and a tuner with a list of turns would still have to listen.",
+    "part_2": "The loop ends on a condition rather than on a count of turns. The tuning is finished when the pulsing stops and the strings sound as one, and the tuner decides that by ear rather than by a mark on the pin. On a badly flat string, the first turns can make the pulsing faster. That faster pulse is the sign that she turned the pin the wrong way, so the same step that corrects a string can also report a mistake. A step list would have told her to turn three times and stop. Three turns on a flat string leave it flat, and the next string inherits the error.",
+    "part_3": "That difference is what makes the trade hard to teach from a book. A recipe can tell a cook to turn the pin three times and stop, and the recipe will be right every time. A tuning cannot, because the third turn on one string is the first turn on the next. The same pin has to be set again every season. Wood and wire move with the weather, and the note drifts with them. The reader who watches for the pulse learns the work faster than the reader who counts turns, and the passage is written for the first of the two."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the tuner do right after she turns the pin?",
+      "tutor_only": {
+        "confirm": "Right. She strikes the note again and listens.",
+        "correct_reason": "The passage says she turns the pin a little, strikes again, and listens for the same pulse.",
+        "tell": "Her work is a loop: strike, listen, turn, and strike again, until the listening changes.",
+        "help": [
+          "Find the sentence that begins 'She turns the pin a little'.",
+          "It lists what she does with her hands and then with her ears."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She strikes the note again and listens for the pulse.",
+        "accept_ideas": [
+          "strikes again and listens",
+          "hits the note again to hear the pulse",
+          "plays the two strings again"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how far she turns the pin"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she checks a dial",
+            "ask": "The passage says how she judges the change. What does she do with her hands and her ears?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does a faster pulse tell her?",
+      "tutor_only": {
+        "confirm": "Yes. The two strings are further apart.",
+        "correct_reason": "The passage says the pulses come faster the further apart the two strings are.",
+        "tell": "The pulse speed measures the gap. A faster pulse means the strings have moved further apart, not closer.",
+        "help": [
+          "Find the sentence that begins 'The pulses come faster'.",
+          "It connects the speed of the pulse to a distance between two things."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The two strings are further apart in pitch.",
+        "accept_ideas": [
+          "the strings are further apart",
+          "they are out of tune by more",
+          "the gap between them is wider"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which string is flat"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the note is louder",
+            "ask": "Loudness is not what pulses. What does the speed of the pulse measure?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "On a badly flat string her first turns make the pulse faster. What does that tell her?",
+      "tutor_only": {
+        "confirm": "Right. She is turning the pin the wrong way.",
+        "correct_reason": "The passage says a faster pulse is the sign that she turned the pin the wrong way, so the same step that corrects a string can also report a mistake.",
+        "tell": "The pulse is a test, and a test can fail in either direction. If the gap widens, the turn went the wrong way, and she turns back.",
+        "help": [
+          "Find the sentence that begins 'That faster pulse is the sign'.",
+          "It says what the faster pulse means about the turn she has made."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She is turning the pin the wrong way.",
+        "accept_ideas": [
+          "she turned it the wrong direction",
+          "she is widening the gap instead of closing it",
+          "she should turn the other way"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how far off the string was"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the string is broken",
+            "ask": "The passage names one meaning for a faster pulse. What does it say that sign is?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why can the method not say how many turns a string needs?",
+      "tutor_only": {
+        "confirm": "Yes. The number is not known until she listens, so the step repeats until the pulse stops.",
+        "correct_reason": "The passage says nothing in the method says how many turns a string needs, because that number does not exist yet, and the loop ends on a condition rather than on a count.",
+        "tell": "A count has to be known before the work starts. Here the ending is heard, not known, so the instruction is to repeat the step until the test passes.",
+        "help": [
+          "Find the sentence that begins 'Nothing in the method says how many turns'.",
+          "It says why the number is not available before the string is heard."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The number depends on what she hears, so the step repeats until the pulse stops.",
+        "accept_ideas": [
+          "the number is not known until she listens",
+          "it ends when the pulse stops, not after a count",
+          "each string needs a different number of turns"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many strings a piano has"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the tuner is experienced",
+            "ask": "Experience is not the reason the passage gives. What ends the repeating?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage compares a recipe with a tuning. What is the difference it draws?",
+      "tutor_only": {
+        "confirm": "Right. A recipe can count its steps; a tuning repeats a step until a test passes.",
+        "correct_reason": "The passage says a recipe can tell a cook to turn the pin three times, while a tuning cannot, because the third turn on one string is the first turn on the next, and the passage ends with the reader who watches for the pulse.",
+        "tell": "One kind of instruction knows its length in advance. The other ends when the work sounds right, which is why the trade is hard to teach from a book.",
+        "help": [
+          "Find the sentences that begin 'A recipe can tell' and 'A tuning cannot'.",
+          "They put a counted instruction and a heard one side by side, and say what ends each."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A recipe can count its steps; a tuning repeats a step until a test passes.",
+        "accept_ideas": [
+          "a recipe has a fixed number of steps and a tuning ends on a test",
+          "one counts turns and the other listens for the pulse to stop",
+          "a recipe stops after three turns and a tuning stops when it sounds right"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who wrote the recipe"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says a recipe is easier",
+            "ask": "Easier is a judgement. What does the passage say each kind of instruction uses to decide when to stop?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "No text-structure stage is authored above this rung yet, so the ladder holds at the first lesson of this band.",
+    "student_line": "You have the move. The next reading is another lesson on this skill in this band."
+  },
+  "retry": {
+    "next_file": "text_structure_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

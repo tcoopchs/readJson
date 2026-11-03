@@ -73,6 +73,12 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-060 | The Verb in the Middle | Nonfiction | 4 | Band 4.2 | 311 words (three passages, 102-105 each) | 6.70 | `text_structure_band_4_2_0004` |
 | TB-061 | Rings Around the Square | Nonfiction | 4 | Band 4.2 | 313 words (three passages, 102-108 each) | 5.80 | `text_structure_band_4_2_0005` |
 | TB-062 | The Rule With One Exception | Nonfiction | 4 | Band 4.2 | 311 words (three passages, 100-108 each) | 6.60 | `text_structure_band_4_2_0006` |
+| TB-063 | Two Causes, One Collapse | Nonfiction | 4 | Band 4.3 | 352 words (three passages, 115-120 each) | 5.53 | `text_structure_band_4_3_0001` |
+| TB-064 | The Page That Starts With the Last Question | Nonfiction | 4 | Band 4.3 | 334 words (three passages, 105-115 each) | 5.76 | `text_structure_band_4_3_0002` |
+| TB-065 | Two Levels in One Drawer | Nonfiction | 4 | Band 4.3 | 316 words (three passages, 100-114 each) | 5.91 | `text_structure_band_4_3_0003` |
+| TB-066 | The Cost That Never Stops | Nonfiction | 4 | Band 4.3 | 323 words (three passages, 104-115 each) | 6.13 | `text_structure_band_4_3_0004` |
+| TB-067 | Four Sizes of Water | Nonfiction | 4 | Band 4.3 | 301 words (three passages, 100-101 each) | 6.15 | `text_structure_band_4_3_0005` |
+| TB-068 | Turn Until the Pulse Stops | Nonfiction | 4 | Band 4.3 | 319 words (three passages, 103-111 each) | 5.53 | `text_structure_band_4_3_0006` |
 
 ---
 
@@ -2096,6 +2102,203 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
 | Wolf Restoration in Yellowstone | NPS, https://www.nps.gov/articles/wolf-restoration-in-yellowstone-reintroduction-to-recovery.htm | Technical and research-report tone; not a clean grade-7 main-idea passage. |
 | How Bees Make Honey | Wisconsin CALS, https://news.cals.wisc.edu/2012/06/04/how-bees-make-honey-producing-honey-is-a-strenuous-team-effort-for-bees/ | Not a government work; license needs checking before use. |
 
+## TB-063 — Two Causes, One Collapse
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | history and people |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 352 words (three passages, one per displayed part (117, 115, 120 words)) |
+| FK grade | 5.53 on the three passages together |
+| Complexity | L2, I3, S3, K1 |
+| Best lesson fit | `text_structure_band_4_3_0001` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The river port failed because two causes met: the railroad took the freight and silt closed the river, and each loss took away the money that would have answered the other.
+
+**Supporting details.**
+
+- The railroad opened a line twelve miles inland in 1871, and freight that had come down the river stopped at a depot the town could not reach.
+- Each spring flood left more sand at the bend below the wharves, so the boats loaded less every year.
+- In 1874 a dry summer cut shipping by a third while the railroad was still new.
+- The next year the water was good, but a second train kept the wharves quiet.
+- The dredging and the town's own spur both arrived after the warehouse trade had moved to the depot town, so neither could restore the traffic.
+
+**Why it works.** Two causes are followed separately and then shown to close off each other's repair, so the structure is the meeting, not the list.
+
+**Cautions.** No dates beyond 1871-1880, no population figures, no other town named, and no single cause that would explain the decline by itself.
+
+---
+
+## TB-064 — The Page That Starts With the Last Question
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 334 words (three passages, one per displayed part (114, 115, 105 words)) |
+| FK grade | 5.76 on the three passages together |
+| Complexity | L3, I3, S3, K2 |
+| Best lesson fit | `text_structure_band_4_3_0002` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The page answers three questions about seawater in an order that builds, so the last answer, why a closed lake turns bitter, arrives as a conclusion rather than a curiosity.
+
+**Supporting details.**
+
+- Rain wears rock and rivers carry the load to the sea, which is where the salt comes from.
+- Water leaves the sea as vapor and leaves the salt behind, so a sea with no outlet keeps what its rivers bring.
+- A lake in a closed basin collects salt and has no river running out, so the salt gathers and the water turns bitter and shallow.
+- The page answers the lake question last because the answer needs the first two answers to stand.
+- A reader who began with the last question would find a curiosity; a reader who began with the first arrives at a conclusion.
+
+**Why it works.** The order of the questions is the argument: each answer opens the next, and the most familiar question is saved for last.
+
+**Cautions.** No place names, no salinity figures, no named sea or lake, and no fourth question.
+
+---
+
+## TB-065 — Two Levels in One Drawer
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | food and farming |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 316 words (three passages, one per displayed part (114, 100, 102 words)) |
+| FK grade | 5.91 on the three passages together |
+| Complexity | L2, I3, S3, K1 |
+| Best lesson fit | `text_structure_band_4_3_0003` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** Seed is filed by plant group and then by the years left, two levels that cross, so the drawer finds the seed and the packet says whether it will still grow.
+
+**Supporting details.**
+
+- The top level is what the plant is for: leaf, root, fruit, or pod, one drawer for each.
+- The second level is how long the seed will still sprout, written on the packet.
+- Parsnip seed dies in a year while beet seed keeps four, though both are roots.
+- Bean seed keeps three years and pea seed two, though both sit in the pod drawer.
+- In spring the saver opens one drawer and sows the oldest seed first, because that seed has to be tested while a season remains.
+
+**Why it works.** The second level cuts across the first, so the passage's structure is the crossing, and each level alone is shown losing something the other carries.
+
+**Cautions.** No garden catalogue, no seed company, no prices, no region, and no third level of sorting.
+
+---
+
+## TB-066 — The Cost That Never Stops
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 323 words (three passages, one per displayed part (115, 104, 104 words)) |
+| FK grade | 6.13 on the three passages together |
+| Complexity | L3, I3, S3, K2 |
+| Best lesson fit | `text_structure_band_4_3_0004` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** Overhead is a cost that keeps being paid in a week with no sales, so one van's costs split: fuel follows the parcels, and the insurance does not.
+
+**Supporting details.**
+
+- Overhead is defined as a cost a shop pays whether or not it sells anything that week.
+- Rent and building insurance are the plain cases, because they are paid in a slow week and a busy one.
+- The delivery van looks like overhead, but its fuel bill rises and falls with the sales.
+- Fuel and tires are filed as direct costs, while the van's insurance stays with overhead.
+- The test is a slow week rather than the size of the bill, because a large cost can stop and a small one can keep coming.
+
+**Why it works.** A definition with a test is given first and then applied to a case that looks like an example, so the reader carries the test instead of the label.
+
+**Cautions.** No country, currency, tax rule, business name, or figure for rent, fuel, or insurance.
+
+---
+
+## TB-067 — Four Sizes of Water
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 301 words (three passages, one per displayed part (101, 100, 100 words)) |
+| FK grade | 6.15 on the three passages together |
+| Complexity | L2, I3, S3, K1 |
+| Best lesson fit | `text_structure_band_4_3_0005` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A canal is described from one lock chamber outward, and the nesting is what makes the traffic limit visible: every crossing draws a chamberful from a summit that only a reservoir can refill.
+
+**Supporting details.**
+
+- One chamber of a lock holds enough water to raise a boat about eight feet.
+- A pound lies between two locks and keeps one level for a mile or so.
+- The summit level is the highest pound, fed by a reservoir and by nothing else.
+- Every boat crossing the summit takes water out one chamber at a time, so the guide counts in chamberfuls rather than gallons.
+- Twelve boats a day through a flight of locks empties a summit, which is why the reservoir is called the real limit on traffic.
+
+**Why it works.** Each size contains the one before it, so a description ordered small to large is what turns a single lock cycle into a limit on the whole canal.
+
+**Cautions.** No canal name, no town, no length in miles, no gallon figure, and no building history.
+
+---
+
+## TB-068 — Turn Until the Pulse Stops
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | arts and language |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 319 words (three passages, one per displayed part (105, 111, 103 words)) |
+| FK grade | 5.53 on the three passages together |
+| Complexity | L2, I3, S3, K1 |
+| Best lesson fit | `text_structure_band_4_3_0006` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A tuner repeats one step until the pulse stops, so the method is a loop with a heard ending rather than a counted one, and that is why a recipe and a tuning are different instructions.
+
+**Supporting details.**
+
+- She strikes the note and the string above it, and close but unequal strings make the sound pulse.
+- The pulses come faster the further apart the two strings are.
+- She turns the pin a little, strikes again, and listens for the same pulse.
+- The tuning ends when the pulsing stops, and on a flat string a faster pulse means she turned the pin the wrong way.
+- A recipe can say turn three times, while a tuning cannot, because the third turn on one string is the first turn on the next.
+
+**Why it works.** The step repeats until a condition is met, so the reader has to find the exit test instead of a count, and the comparison with a recipe makes the difference visible.
+
+**Cautions.** No notation, no frequency in hertz, no instrument brand, no tuning system, and no ear-training advice.
+
+---
 ## Rules for adding a text
 
 1. Verify the license before adding it.

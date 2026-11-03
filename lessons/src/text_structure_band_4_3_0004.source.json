@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_4_3_0004",
+  "meta": {
+    "status": "published",
+    "title": "The Cost That Never Stops",
+    "skill": "text_structure",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 4,
+    "skill_frame": "Text structure: take a definition, then a case that looks like an example and is not.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.2, 6.6 and 5.6 on the three parts (115, 104 and 104 words), 6.1 together, inside the band's window. The load is a definition with a test, applied to one object that splits into two costs, so the reader carries the test rather than the labels.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 4.3, Band 4.3, sequence 4. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A definition followed by examples, then a case that looks like an example and fails the test, and finally the test stated as the reason for the whole arrangement.",
+      "avoided": "No country, currency, tax rule, business name, or figure for rent, fuel or insurance."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The first two items take the definition and a plain example; the last two apply the test to a non-example and then to the test itself."
+    },
+    "authoring_exceptions": [],
+    "genre": "nonfiction",
+    "topic_domain": "work and trade"
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A bookkeeping class defines overhead as a cost a shop pays whether or not it sells anything that week. Rent is the plain case, since the landlord is paid in a slow week and in a busy one. Insurance on the building is the second case, for the same reason. The definition carries its own test, and the test is the word whether. The class asks one question of every bill a shop receives, and a cost that fails the question is filed somewhere else. Nothing in the test is about the size of the bill. A small bill that never stops is overhead, and a large one that stops with the shop is not.",
+    "part_2": "Two more costs go on the list and one does not. The delivery van is the interesting case, because it looks like overhead and the owner calls it that. The van only runs when there are parcels, and its fuel bill rises and falls with the sales. The class puts fuel and tires on the direct side, beside the stock itself and the wages paid for packing. The van's insurance stays on the overhead side, because the policy is paid in a quiet month whether the wheels turn or not. One object, two lines, and the test decides which line each cost lands on.",
+    "part_3": "The test explains why the class splits one object in two, and why it asks about a slow week rather than about the size of the bill. A cost belongs to overhead when a week with no customers still bills it. A large cost that stops when the shop stops is not overhead, and a small one that never stops is. That is why a shop can cut its overhead and still spend more. It is also why a cheap policy is worth reading twice. The class calls this the slow-week test, and it applies the name to every bill that comes in."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What test does the class use to decide whether a cost is overhead?",
+      "tutor_only": {
+        "confirm": "Yes. Whether the shop still pays it in a week with no sales.",
+        "correct_reason": "The passage defines overhead as a cost a shop pays whether or not it sells anything that week, and says the test is the word whether.",
+        "tell": "The test is not the size of the bill. It is whether the bill arrives in a week when nothing was sold.",
+        "help": [
+          "Find the sentence that begins 'The definition carries its own test'.",
+          "It says which word in the definition the class turns into a question."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Whether the shop still pays it in a week with no sales.",
+        "accept_ideas": [
+          "whether it is paid in a slow week",
+          "whether it stops when the shop stops",
+          "whether it is billed whether or not the shop sells"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the rent is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the test is the size of the bill",
+            "ask": "The passage rules out size in so many words. Which word in the definition does the class turn into its question?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why is rent overhead?",
+      "tutor_only": {
+        "confirm": "Right. It is paid in slow weeks and busy ones alike.",
+        "correct_reason": "The passage calls rent the plain case, since the landlord is paid in a slow week and in a busy one.",
+        "tell": "Rent keeps coming whether the shop sells anything or not, which is exactly what the test asks about.",
+        "help": [
+          "Find the sentence that begins 'Rent is the plain case'.",
+          "It names two kinds of week and says the landlord is paid in both."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It is paid in slow weeks and busy ones alike.",
+        "accept_ideas": [
+          "the landlord is paid every week",
+          "it does not stop when sales stop",
+          "it is billed whether the shop sells or not"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who the landlord is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says rent is a large bill",
+            "ask": "Size is not the test. What happens to the rent in a week with no customers?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The van's fuel and the van's insurance go on different sides. Why?",
+      "tutor_only": {
+        "confirm": "Yes. Fuel stops with the parcels, and the policy is paid anyway.",
+        "correct_reason": "The passage says fuel and tires go on the direct side because the fuel bill rises and falls with the sales, while the van's insurance stays on the overhead side because the policy is paid in a quiet month.",
+        "tell": "One cost follows the work and the other does not. Fuel is spent when parcels move, and the policy is paid whether the wheels turn or not.",
+        "help": [
+          "Find the sentence about the policy being paid in a quiet month.",
+          "It says what the insurance does in a month with no parcels, and that is the test again."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Fuel stops with the parcels; the insurance is paid in a quiet month.",
+        "accept_ideas": [
+          "fuel rises and falls with sales and the policy does not",
+          "the fuel bill stops when the van stops and insurance does not",
+          "one cost follows the sales and the other does not"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the van is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says insurance is a kind of fuel cost",
+            "ask": "Look at the two sentences about the van. Which cost keeps being paid when the wheels do not turn?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The class gives the definition before the van case. What does that order let the reader do?",
+      "tutor_only": {
+        "confirm": "Right. Apply the test to a case that looks like overhead but is not.",
+        "correct_reason": "The passage calls the van the interesting case because it looks like overhead and the owner calls it that, and the class then splits its costs by the test.",
+        "tell": "The van is the case a reader would get wrong. Given the definition first, the reader has something to test the van against instead of a label to trust.",
+        "help": [
+          "Find the sentence that begins 'It looks like overhead'.",
+          "It says what the owner calls the van's costs, and the class then does something else with them."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Apply the test to a case that looks like overhead but is not.",
+        "accept_ideas": [
+          "test a case that looks like the answer",
+          "the definition tested on a case the owner gets wrong",
+          "see the definition work on a hard case"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which case is easier"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the order shows the van is expensive",
+            "ask": "The van is not there to show a big number. What is it there to be tested against?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Why does the class ask about a slow week rather than about the size of the bill?",
+      "tutor_only": {
+        "confirm": "Yes. Whether a cost stops is what decides, and its size does not.",
+        "correct_reason": "The passage says a large cost that stops when the shop stops is not overhead and a small one that never stops is, and it asks about a slow week rather than about the size of the bill.",
+        "tell": "A big bill can be a direct cost and a small one can be overhead. The slow week asks the only question that separates them.",
+        "help": [
+          "Find the two sentences about a large cost that stops and a small one that never stops.",
+          "They put size against stopping, and the passage says which one decides."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Whether a cost stops is what decides, and its size does not.",
+        "accept_ideas": [
+          "size does not decide, stopping does",
+          "a large cost can stop and a small one can keep going",
+          "the week shows which costs keep coming"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what a big bill looks like"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says a slow week is cheaper",
+            "ask": "Cheap is about money. The test is about what keeps being billed."
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "No text-structure stage is authored above this rung yet, so the ladder holds at the first lesson of this band.",
+    "student_line": "You have the move. The next reading is another lesson on this skill in this band."
+  },
+  "retry": {
+    "next_file": "text_structure_band_4_3_0005",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_4_3_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

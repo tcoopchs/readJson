@@ -1,0 +1,248 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_4_3_0001",
+  "meta": {
+    "status": "published",
+    "title": "Two Causes, One Collapse",
+    "skill": "text_structure",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 1,
+    "skill_frame": "Text structure: follow two separate causes that meet in one result.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.6, 5.3 and 5.7 on the three parts (117, 115 and 120 words), 5.5 together, inside the band's window. The load is two causes held at once: each is followed alone in the record, and the reader has to say why neither one finishes the story.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 4.3, Band 4.3, sequence 1. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A decline told as two causes that are followed separately and then closed off from each other's repair. The last item asks what the arrangement of the telling shows.",
+      "avoided": "No dates beyond 1871-1880, no population figures, no other town named, and no single cause that would let the decline be explained by one event."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Two items locate and join one cause at a time; the last two require holding both causes at once and saying why neither explains the decline alone."
+    },
+    "authoring_exceptions": [],
+    "genre": "nonfiction",
+    "topic_domain": "history and people"
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "By 1880 the river port of Newhall was losing business, and the town's records name two causes rather than one. The first cause was the railroad, which opened a line twelve miles inland in 1871. Freight that had come down the river now stopped at a depot the town could not reach by road. The second cause was silt, left by each spring flood at the bend below the wharves. Every year the boats could load a little less, and the wharf owners could do nothing about the sand. The clerk who kept the shipping book wrote the two causes side by side. He gave them the same column and the same ink, and he did not rank them.",
+    "part_2": "Each cause would have hurt the port on its own, and the ledger shows them one at a time. In 1874 a dry summer kept the river low, and shipping fell by a third. The next year the water was good, but the line had added a second train, so the wharves stayed quiet. The merchants dredged in 1876, and two floods put the sand back within a season. They then built a spur of their own to the railroad, and the traffic did not return. By then the depot town had the warehouses, and the buyers had moved there with the freight. The record separates the two causes, and it shows what each one did alone.",
+    "part_3": "The town's history calls the decade a decline, and the record explains the word. Neither cause was enough by itself, and the reasons are visible in the ledger. A port with a railroad and a clear river could still float deep boats, and a port with a deep river and no railroad could still fill them. Newhall lost both within ten years, and each loss made the other harder to answer. The money for a dredge had gone off with the freight, so the sand stayed where the floods left it. The two causes did not add up to a sum. They closed off each other's repair, and that closing is the part the reader has to build for them."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The port lost business for two reasons. What were they?",
+      "tutor_only": {
+        "confirm": "Right. The railroad and the sand in the river.",
+        "correct_reason": "The passage names the railroad that opened a line twelve miles inland in 1871, and the silt that each spring flood left at the bend below the wharves.",
+        "tell": "Two causes, written side by side. A railroad took the freight, and spring floods left sand that kept the boats from loading deep.",
+        "help": [
+          "Find the sentence that begins 'The first cause' and the one that begins 'The second cause'.",
+          "One names a line of track and the other names what the floods left at the bend."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The railroad and the silt in the river.",
+        "accept_ideas": [
+          "the railroad and silt",
+          "a new rail line and sand from the floods",
+          "freight went by rail and the river filled with sand",
+          "the railroad and the sand at the bend"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the year each cause began",
+          "which cause the clerk blamed"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student gives one cause and stops",
+            "ask": "One cause is named. The passage says the records name a second one, and it comes right after the railroad. What is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The year after the dry summer the water was good, but the wharves stayed quiet. Why?",
+      "tutor_only": {
+        "confirm": "Yes. The railroad had added a second train and taken the freight.",
+        "correct_reason": "The passage says the next year the water was good, but the line had added a second train, so the wharves stayed quiet.",
+        "tell": "The river was in good shape that year, so the sand was not the problem. The railroad was carrying more of the freight than before.",
+        "help": [
+          "Find the sentence that begins 'The next year the water was good'.",
+          "It says what the railroad had done since the dry summer."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The railroad had added a second train, so the freight went by rail.",
+        "accept_ideas": [
+          "the railroad added a second train",
+          "the line was carrying more of the freight",
+          "a second train took the river traffic"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many cars a train pulled"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the sand came back that year",
+            "ask": "The passage says the water was good that year. What had the railroad done in the meantime?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The merchants dredged and then built a spur to the railroad. Why did the traffic still not come back?",
+      "tutor_only": {
+        "confirm": "Right. The warehouses and the buyers had already moved to the depot town.",
+        "correct_reason": "The passage says the spur was built and the traffic did not return, because by then the depot town had the warehouses and the buyers had moved there.",
+        "tell": "Both fixes arrived after the trade had gone. The depot town held the warehouses and the buyers. A new spur led to traffic that was no longer in Newhall.",
+        "help": [
+          "Find the sentence that begins 'By then the depot town'.",
+          "It names what had moved, and where the trade now started from."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The warehouses and the buyers had moved to the depot town.",
+        "accept_ideas": [
+          "the depot town had the warehouses and the buyers",
+          "the buyers had moved to the depot town",
+          "the trade had already moved inland"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the spur cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the dredging failed",
+            "ask": "The dredging was for the sand. What does the passage say the depot town already had by then?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage gives each cause its own section before it brings them together. What does that order let you see?",
+      "tutor_only": {
+        "confirm": "Yes. What each cause did on its own, and that neither one alone ended the port.",
+        "correct_reason": "The first part follows the railroad and then the silt, and the second part shows one cause acting while the other was quiet.",
+        "tell": "Separated, each cause can be watched doing its own damage. That is also how the passage shows that neither one would have been enough by itself.",
+        "help": [
+          "Find the part that shows one cause acting while the other was quiet.",
+          "It gives a year when only the sand mattered and a year when only the train mattered."
+        ],
+        "say_back": "own_words",
+        "core_idea": "How each cause worked by itself, and that neither one alone brought the port down.",
+        "accept_ideas": [
+          "what each cause did alone",
+          "that each cause hurt the port separately",
+          "that one cause at a time would not have finished the port",
+          "how the two worked before they met"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which section is longer"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it shows which cause came first",
+            "ask": "The two causes are written side by side and the clerk did not rank them. What does the separate telling let you compare?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage says the two causes 'did not add up to a sum.' What does that mean here?",
+      "tutor_only": {
+        "confirm": "Right. Each loss made the repair of the other harder, so together they finished the port.",
+        "correct_reason": "The passage says the money for a dredge had gone off with the freight, and that the two causes closed off each other's repair.",
+        "tell": "A sum is what makes a loss bigger. These two did something else. The freight money was the money that would have paid for the dredge. Each loss took away the answer to the other.",
+        "help": [
+          "Find the sentence about the money for a dredge.",
+          "It says where that money had gone, and what that left the sand free to do."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Each loss made the other's repair harder, so together they finished what one alone would not.",
+        "accept_ideas": [
+          "each one blocked the fix for the other",
+          "they worked against the town together",
+          "the money to dredge had gone with the freight",
+          "neither could be fixed once the other had happened"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the exact year the town recovered"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the two causes made the loss bigger",
+            "ask": "Bigger is a sum, and the passage says this was not a sum. What was the freight money needed for?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "No text-structure stage is authored above this rung yet, so the ladder holds at the first lesson of this band.",
+    "student_line": "You have the move. The next reading is another lesson on this skill in this band."
+  },
+  "retry": {
+    "next_file": "text_structure_band_4_3_0002",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

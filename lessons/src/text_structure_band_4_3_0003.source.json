@@ -1,0 +1,247 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_4_3_0003",
+  "meta": {
+    "status": "published",
+    "title": "Two Levels in One Drawer",
+    "skill": "text_structure",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 3,
+    "skill_frame": "Text structure: read a grouping inside a grouping, and keep both levels.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.0, 5.7 and 6.1 on the three parts (114, 100 and 102 words), 5.9 together, inside the band's window. The load is a hierarchy: the second level cuts across the first, so the reader holds two arrangements at once and sees what each one alone would lose.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 4.3, Band 4.3, sequence 3. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A two-level sorting system where the levels cross, with cases that only make sense when both are read together.",
+      "avoided": "No garden catalogue, no seed company, no prices, no climate or region, and no third level of sorting."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The first two items take one level each; the last two require the crossing of the levels, where either one alone hides something the other shows."
+    },
+    "authoring_exceptions": [],
+    "genre": "nonfiction",
+    "topic_domain": "food and farming"
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A seed saver keeps her stock in two levels of order, and the labels on the drawers show both levels at once. The top level is what the plant is for: leaf, root, fruit, or pod. Each of those four groups has its own drawer, and the drawer is labelled with the group. Seed from a root crop and seed from a leaf crop follow the same storage rules. A saver who separated them by colour would double the work of sowing. Within a drawer the packets are filed by a second level. That second level is how long the seed will still sprout, and the number is written on the packet in pencil.",
+    "part_2": "The second level cuts across the first, and that is the part a new grower misses. Parsnip seed, a root, dies in a year, while beet seed, also a root, keeps four. Bean seed keeps three years and pea seed two, though both sit in the pod drawer. So the drawer tells the saver where to look, and the packet tells her whether to bother. A drawer sorted only by plant would hide the date. A shelf sorted only by date would split a family across the room, and the saver would walk between two shelves to sow one bed.",
+    "part_3": "In spring the two levels pay for themselves in one motion. The saver opens the root drawer, reads the years written on the packets, and sows the oldest seed first. The seed nearest its end is the seed that has to be tested while there is still a season to replace it. She does not search the whole room, and she does not sow a four-year-old parsnip. The order written on the packets is not tidiness. It is the part of the record that decides what happens in the field, and the drawers only get her to it in time."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What are the two levels of order in the seed drawers?",
+      "tutor_only": {
+        "confirm": "Yes. What the plant is for, and how long the seed will sprout.",
+        "correct_reason": "The passage names the top level as what the plant is for, leaf, root, fruit or pod, and the second level as how long the seed will still sprout.",
+        "tell": "One level says what kind of plant the seed belongs to. The other says how many years are left in it.",
+        "help": [
+          "Find the sentence that begins 'The top level' and the one that begins 'Within a drawer'.",
+          "One names the plant groups and the other names the years on the packet."
+        ],
+        "say_back": "own_words",
+        "core_idea": "What the plant is for, and how long the seed will sprout.",
+        "accept_ideas": [
+          "the kind of plant and how long the seed keeps",
+          "plant group and the years left",
+          "what the plant is for and the date",
+          "leaf, root, fruit or pod, then how long it sprouts"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many drawers she owns"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student names only the plant groups",
+            "ask": "The drawers hold one level. What does the packet add inside the drawer?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Beet seed sits in the root drawer. What else does its packet have to tell the saver?",
+      "tutor_only": {
+        "confirm": "Right. How many years it will still sprout.",
+        "correct_reason": "The passage says the second level is how long the seed will still sprout, and it gives beet seed four years.",
+        "tell": "The drawer already says beet is a root. What the drawer cannot say is how many years of sprouting are left in that packet.",
+        "help": [
+          "Find the sentence about beet seed keeping four years.",
+          "It gives a number the drawer has no room for."
+        ],
+        "say_back": "own_words",
+        "core_idea": "How many years it will still sprout.",
+        "accept_ideas": [
+          "how long it keeps",
+          "the years left before it dies",
+          "that it keeps four years"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what colour the packet is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says where beets grow",
+            "ask": "The drawer already covers the plant. What does the packet record that the drawer cannot?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Bean seed and pea seed both sit in the pod drawer. Why does the saver still read both packets?",
+      "tutor_only": {
+        "confirm": "Yes. They keep for different numbers of years.",
+        "correct_reason": "The passage says bean seed keeps three years and pea seed two, and that the packet tells the saver whether to bother.",
+        "tell": "Same drawer, different clocks. Bean seed lasts three years and pea seed two, so the packet decides which one goes into the ground first.",
+        "help": [
+          "Find the sentence that begins 'Bean seed keeps three years'.",
+          "It gives two different numbers for two seeds in the same drawer."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They keep for different numbers of years, so the packet decides which to sow.",
+        "accept_ideas": [
+          "they last different lengths of time",
+          "bean keeps three years and pea two",
+          "the years differ, so the packet decides",
+          "one is nearer its end than the other"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which one tastes better"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says they need different soil",
+            "ask": "The passage gives only one difference between them. Find the sentence that gives it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage says a shelf sorted only by date would split a family across the room. What does that show about the two levels?",
+      "tutor_only": {
+        "confirm": "Right. Each level loses something the other carries.",
+        "correct_reason": "The passage says a drawer sorted only by plant would hide the date, and a shelf sorted only by date would split a family across the room.",
+        "tell": "Take away either level and the saver loses something. The drawer keeps plant families together. The packet keeps the years visible.",
+        "help": [
+          "Find the two sentences about a drawer sorted one way and a shelf sorted the other way.",
+          "One hides the date. The other splits a family. What is left when either level is removed?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "Each level alone loses something the other carries: one holds the plant, the other the years.",
+        "accept_ideas": [
+          "each level keeps something the other cannot",
+          "you need both to find the seed and to know if it grows",
+          "the plant order and the date order each lose something",
+          "neither level is enough alone"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how wide the room is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the date shelf is worse",
+            "ask": "Worse is a ranking. What does the passage say each arrangement would lose?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Why does the saver sow the oldest seed first?",
+      "tutor_only": {
+        "confirm": "Yes. The seed nearest its end is the one that has to be tested.",
+        "correct_reason": "The passage says the seed nearest its end is the seed that has to be tested while there is still a season to replace it.",
+        "tell": "Old seed may not come up. Sowing it first finds that out while there is still time to buy more or to sow something else.",
+        "help": [
+          "Find the sentence that begins 'The seed nearest its end'.",
+          "It names the season, and what the season is still good for."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The seed nearest its end has to be tested while there is still a season to replace it.",
+        "accept_ideas": [
+          "it may not sprout, so she tests it while she can still replant",
+          "old seed is the one at risk, so it goes in first",
+          "to find out whether it still grows before the season is gone"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many packets she opens"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says old seed grows faster",
+            "ask": "Faster is not the reason given. What might happen to a four-year-old parsnip?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "No text-structure stage is authored above this rung yet, so the ladder holds at the first lesson of this band.",
+    "student_line": "You have the move. The next reading is another lesson on this skill in this band."
+  },
+  "retry": {
+    "next_file": "text_structure_band_4_3_0004",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_4_3_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
