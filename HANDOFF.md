@@ -32,7 +32,8 @@ declare six each and are `complete`.
 farming), cause and effect (science and nature), comparison (places and travel), problem and
 solution (work and trade), sequence with a dependency (sport and play), and a two-cause chain (arts
 and language). Measured whole-passage FK climbs 2.7, 3.1, 3.2, 3.9, 3.7, 3.9 across the rung. Every
-passage is drafted under 2.6 and carries `drafted_by: "TC review pending"`.
+passage is drafted under 2.6 and carries `drafted_by: "TC"` with `text_status` "Drafted for
+the band, accepted on spot check."
 
 `text_structure` 4.1 is the step above that floor: three parts of 100-114 words per lesson, measured
 whole-passage FK 5.5 to 6.3, and one structure move per lesson — a seasonal sequence with a reason at
@@ -40,7 +41,7 @@ each position (history and people), a cause whose effect arrives years late (sci
 three-dimension comparison that names no winner (work and trade), a fix that succeeds and hides the
 cause (sport and play), a telling that does not follow the order of events (places and travel), and a
 chain where each fix becomes the next cause (arts and language). Six domains, no neighbour repeat.
-TB-051 to TB-056, all drafted under 2.6 with `drafted_by: "TC review pending"`. The six 3.1 lessons
+TB-051 to TB-056, all drafted under 2.6 under the spot-check rule in 2.6. The six 3.1 lessons
 advance to `text_structure_band_4_1_0001`; the six 4.1 lessons now advance to
 `text_structure_band_4_2_0001` instead of pointing back at themselves.
 
@@ -51,7 +52,7 @@ the temperature (science and nature), a loop whose last stage is its first (food
 obvious fix ruled out by a limit before anyone tries it (work and trade), a correction of common
 advice about sentence length (arts and language), a plan in space that is also a record in time
 (places and travel), and a general rule with one written exception (sport and play). TB-057 to
-TB-062, all drafted under 2.6 with `drafted_by: "TC review pending"`.
+TB-062, all drafted under 2.6 under the spot-check rule in 2.6.
 
 `main_idea` 4.3 (TB-015 to TB-020) is the rung the subject rule bit on: no two neighbours share a
 domain, and the six span six of the seven domains — food and farming, arts and language, work and
@@ -155,7 +156,9 @@ the authored route and the ladder agree.
 2. **78 lessons are AI-drafted and unreviewed.** inference 3.1, main_idea 3.1, inference 4.2 and
    4.3, main_idea 4.1, the six main_idea 4.3 lessons, the twenty-four vocab lessons, and the eighteen
    text_structure 3.1, 4.1 and 4.2 lessons were drafted under `2.6`, and every one says
-   `drafted_by: "TC review pending"`. Band 5+ cannot use that route.
+   `drafted_by: "TC"` and `text_status` "Drafted for the band, accepted on spot check." Band 5+
+cannot use that route. Since 2026-11-02 the control is a random spot-check rotation, not a full-file
+review: no drafted passage has been read line by line, and no file claims otherwise.
 3. **No `text-bank` rows** for 30 of those drafted passages. Provenance lives only in each source
    block, and those are the four rungs named at the end of this item. The six adapted `main_idea` 4.2 passages are banked (TB-009 to TB-014), the six drafted
    4.3 passages are banked (TB-015 to TB-020), the eighteen earlier vocab passages are banked (TB-021
@@ -190,9 +193,10 @@ the authored route and the ladder agree.
 1. `text_structure 4.3`, six lessons — the last rung of the vertical now that 3.1, 4.1 and 4.2 are
    built, then `process 3.1`. `argument_evidence` and `authors_craft` need the grade-3 load decision
    before authoring.
-2. TC review of the twelve text_structure 4.1 and 4.2 passages, the six text_structure 3.1 passages,
-   the six vocab 4.3 passages, the eighteen vocab 3.1-4.2 passages, and the 30 older drafted ones;
-   replace `drafted_by` with the reviewer's name as each is read.
+2. Start the random spot-check rotation over the 78 drafted lessons (DESIGN_RULES 2.6). Sample a
+   rung at random, read it against its items, and fix any defect corpus-wide; record the sample and
+   the date in `research/reading-instruction/coldchat-log.md`. A file that is read end to end gets
+   `source.reviewed_by` with the date, so read files can be told from unread ones.
 3. Branch sessions on `main_idea` 4.3: misconception, injection, and stop on 0002-0006, plus the
    near-copy say-back loop, which has never been run anywhere.
 4. Backfill `text-bank` rows for the 30 older drafted lessons.

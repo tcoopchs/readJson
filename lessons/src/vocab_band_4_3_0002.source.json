@@ -1,235 +1,235 @@
 {
- "schema_version": 3,
- "document_type": "lesson_source",
- "lesson_id": "vocab_band_4_3_0002",
- "meta": {
-  "status": "published",
-  "title": "Seeds That Wait",
-  "skill": "vocab",
-  "irl_grade": 4,
-  "stage": 3,
-  "sequence": 2,
-  "genre": "nonfiction",
-  "topic_domain": "science and nature",
-  "skill_frame": "Work out a word's meaning from the passage. The explanation follows the word.",
-  "reader": {
-   "who": "Students who read at about a fourth-grade level.",
-   "reading_level": 4,
-   "why_this_level": "Measured FK 6.3, 6.2, 5.8 (6.1 together) on the 3 parts, 105, 118, 102 words. The load is a distinction between two things that look alike, cold as food and cold as a signal, and a second distinction between the cold and the change after it. Something the reader cannot watch is being counted.",
-   "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_4_3_0002",
+  "meta": {
+    "status": "published",
+    "title": "Seeds That Wait",
+    "skill": "vocab",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Work out a word's meaning from the passage. The explanation follows the word.",
+    "reader": {
+      "who": "Students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.3, 6.2, 5.8 (6.1 together) on the 3 parts, 105, 118, 102 words. The load is a distinction between two things that look alike, cold as food and cold as a signal, and a second distinction between the cold and the change after it. Something the reader cannot watch is being counted.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "Seed dormancy and the cold treatment growers use, built to separate a signal from food or water.",
+      "avoided": "No species names, temperatures, or week counts. No claim about a particular climate."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: each word is explained where it is used, and the last item joins the whole passage."
+    },
+    "authoring_exceptions": []
   },
-  "source": {
-   "basis": "Written for this lesson.",
-   "text_status": "Drafted for the band, review pending.",
-   "drafted_by": "TC review pending",
-   "survey": "Seed dormancy and the cold treatment growers use, built to separate a signal from food or water.",
-   "avoided": "No species names, temperatures, or week counts. No claim about a particular climate."
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
   },
-  "session": {
-   "scope": "build-band",
-   "item_target": 5,
-   "time_target_minutes": 12,
-   "difficulty_basis": "Clue distance: each word is explained where it is used, and the last item joins the whole passage."
+  "passage": {
+    "part_1": "A seed can sit in dry ground for years and do nothing that a gardener can see. It is alive, but it is dormant, which means its growth is paused rather than finished. Many seeds from cold climates will not start at all until they have been through a winter. The cold is not food and it is not water. It is a signal, and a seed that measures the cold is measuring the season. The season tells the seed whether the ground ahead will stay warm long enough to finish the work of growing, and a seed that starts too early loses that race.",
+    "part_2": "Growers use this habit when they plant trees and wild flowers. They mix the seed with damp sand and keep it in a cold place for weeks, then sow it in spring, when the ground has warmed and the frost has gone. The practice copies a winter that the seed would have had outdoors, and the seed answers it the same way. A seed treated this way comes up in a crowd instead of a scatter. Every seed in the batch has met the same signal. Seed that skipped the cold does not die; it waits, and a grower who does not know the habit reads the empty bed as bad seed and buys more from another supplier.",
+    "part_3": "The trigger is not the cold itself but the change that follows it. A seed held at one low temperature for months still waits, and it waits through the dark weeks without any sign of change. What it seems to count is the return of warmth, and the count is slow enough that a warm week in the middle of winter does not break it. This is why a mild spell in January rarely starts a spring. The seed is not being careful in any human sense. Its chemistry needs a long cold to unlock a process that warmth alone cannot start."
   },
-  "authoring_exceptions": []
- },
- "script_overrides": {
-  "near_copy_2": "Say it in your own words. One sentence is enough."
- },
- "passage": {
-  "part_1": "A seed can sit in dry ground for years and do nothing that a gardener can see. It is alive, but it is dormant, which means its growth is paused rather than finished. Many seeds from cold climates will not start at all until they have been through a winter. The cold is not food and it is not water. It is a signal, and a seed that measures the cold is measuring the season. The season tells the seed whether the ground ahead will stay warm long enough to finish the work of growing, and a seed that starts too early loses that race.",
-  "part_2": "Growers use this habit when they plant trees and wild flowers. They mix the seed with damp sand and keep it in a cold place for weeks, then sow it in spring, when the ground has warmed and the frost has gone. The practice copies a winter that the seed would have had outdoors, and the seed answers it the same way. A seed treated this way comes up in a crowd instead of a scatter. Every seed in the batch has met the same signal. Seed that skipped the cold does not die; it waits, and a grower who does not know the habit reads the empty bed as bad seed and buys more from another supplier.",
-  "part_3": "The trigger is not the cold itself but the change that follows it. A seed held at one low temperature for months still waits, and it waits through the dark weeks without any sign of change. What it seems to count is the return of warmth, and the count is slow enough that a warm week in the middle of winter does not break it. This is why a mild spell in January rarely starts a spring. The seed is not being careful in any human sense. Its chemistry needs a long cold to unlock a process that warmth alone cannot start."
- },
- "items": [
-  {
-   "id": "1",
-   "type": "cloze",
-   "skill": "vocab",
-   "difficulty": 1,
-   "show_part": "part_1",
-   "prompt": "It is alive, but it is ____, which means its growth is paused rather than finished.\n\nWrite the missing word.",
-   "tutor_only": {
-    "confirm": "Right. The seed is dormant.",
-    "correct_reason": "The first part says the seed is dormant, and the clause after it explains that growth is paused rather than finished.",
-    "tell": "The word is dormant. A dormant seed is alive but not growing.",
-    "help": [
-     "The clause after the blank explains what the word means.",
-     "Growth is paused, not finished."
-    ],
-    "say_back": "use_word",
-    "if_they_say": [
-     {
-      "when": "the student answers dead",
-      "ask": "The sentence says it is alive. What word describes a seed that is alive but not growing?"
-     }
-    ],
-    "accept_words": [
-     "dormant"
-    ],
-    "normalize": "Ignore case and punctuation.",
-    "word": "dormant"
-   }
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "It is alive, but it is ____, which means its growth is paused rather than finished.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The seed is dormant.",
+        "correct_reason": "The first part says the seed is dormant, and the clause after it explains that growth is paused rather than finished.",
+        "tell": "The word is dormant. A dormant seed is alive but not growing.",
+        "help": [
+          "The clause after the blank explains what the word means.",
+          "Growth is paused, not finished."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers dead",
+            "ask": "The sentence says it is alive. What word describes a seed that is alive but not growing?"
+          }
+        ],
+        "accept_words": [
+          "dormant"
+        ],
+        "normalize": "Ignore case and punctuation.",
+        "word": "dormant"
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "What does the cold tell a seed?",
+      "tutor_only": {
+        "confirm": "Yes. It tells the seed whether the warm season will last.",
+        "correct_reason": "The first part says the cold is a signal, and a seed that measures the cold is measuring the season, which tells it whether the ground will stay warm long enough.",
+        "tell": "The cold tells the seed what season it is. That tells it whether there is enough warm weather ahead to finish growing.",
+        "help": [
+          "Read the sentence that says the cold is not food and not water.",
+          "The next sentence says what the seed is measuring."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the cold feeds the seed",
+            "ask": "The passage says the cold is not food. What else can a signal do?"
+          },
+          {
+            "when": "the student says the cold kills the seed",
+            "ask": "The passage says the seed is alive. What does the cold tell it?"
+          }
+        ],
+        "core_idea": "Whether the season ahead will stay warm long enough for the seed to grow.",
+        "accept_ideas": [
+          "whether spring is coming",
+          "how long the warm weather will last",
+          "what season it is"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how deep the seed is",
+          "how long the winter lasts"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "A seed treated this way comes up in a crowd instead of a ____.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. It comes up in a crowd instead of a scatter.",
+        "correct_reason": "The second part contrasts a crowd with a scatter, because every seed in the batch has met the same signal.",
+        "tell": "The word is scatter. A scatter is seeds coming up here and there, at different times.",
+        "help": [
+          "The sentence contrasts a crowd with the word you need.",
+          "The missing word describes seeds coming up unevenly."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers line",
+            "ask": "A line is orderly. The contrast is with seeds coming up unevenly, here and there."
+          }
+        ],
+        "accept_words": [
+          "scatter"
+        ],
+        "normalize": "Ignore case and punctuation.",
+        "word": "scatter"
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "prompt": "What is the trigger that starts a seed growing?",
+      "tutor_only": {
+        "confirm": "Yes. The return of warmth after a long cold.",
+        "correct_reason": "The third part says the trigger is not the cold itself but the change that follows it: the return of warmth, counted slowly.",
+        "tell": "The trigger is the return of warmth after a long cold. Cold alone does not start the seed, and one warm week does not either.",
+        "help": [
+          "Read the opening sentence of the part above about the trigger.",
+          "The passage says what the seed counts."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says cold starts the seed",
+            "ask": "The passage says the trigger is not the cold itself. What follows the cold?"
+          },
+          {
+            "when": "the student says any warm day starts it",
+            "ask": "The passage says one warm week does not break the wait. What has to come first?"
+          }
+        ],
+        "core_idea": "The return of warmth after a long cold, not the cold itself.",
+        "accept_ideas": [
+          "the change from cold to warmth",
+          "warmth coming back after winter",
+          "a long cold followed by warmth"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the temperature on a single day",
+          "how many weeks the cold lasts"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "What does it mean that the seed is not being careful in any human sense?",
+      "tutor_only": {
+        "confirm": "Right. Nothing in the seed is deciding or planning.",
+        "correct_reason": "The passage says the seed's chemistry needs a long cold to unlock a process that warmth alone cannot start, so care is not the explanation.",
+        "tell": "It means the seed has no plan and no judgement. Its chemistry needs a long cold before warmth can start it.",
+        "help": [
+          "Read the last two sentences of the passage above.",
+          "The passage names chemistry rather than choice."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the seed is smart or knows what to do",
+            "ask": "The passage says the seed is not careful in any human sense. What does it name instead of knowing?"
+          }
+        ],
+        "core_idea": "The seed has no intent or judgement; its chemistry needs a long cold, so it is not choosing to be cautious.",
+        "accept_ideas": [
+          "it has no plan or intent",
+          "the seed is not choosing anything",
+          "its chemistry does it, not the seed"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the cold lasts",
+          "what the seedling looks like"
+        ]
+      },
+      "show_part_again": true
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson in this rung; no higher word rung is authored yet.",
+    "student_line": "You worked the meanings out from the passage. The next reading is another word lesson."
   },
-  {
-   "id": "2",
-   "type": "short_answer",
-   "skill": "vocab",
-   "difficulty": 2,
-   "show_part": "part_1",
-   "prompt": "What does the cold tell a seed?",
-   "tutor_only": {
-    "confirm": "Yes. It tells the seed whether the warm season will last.",
-    "correct_reason": "The first part says the cold is a signal, and a seed that measures the cold is measuring the season, which tells it whether the ground will stay warm long enough.",
-    "tell": "The cold tells the seed what season it is. That tells it whether there is enough warm weather ahead to finish growing.",
-    "help": [
-     "Read the sentence that says the cold is not food and not water.",
-     "The next sentence says what the seed is measuring."
-    ],
-    "say_back": "own_words",
-    "if_they_say": [
-     {
-      "when": "the student says the cold feeds the seed",
-      "ask": "The passage says the cold is not food. What else can a signal do?"
-     },
-     {
-      "when": "the student says the cold kills the seed",
-      "ask": "The passage says the seed is alive. What does the cold tell it?"
-     }
-    ],
-    "core_idea": "Whether the season ahead will stay warm long enough for the seed to grow.",
-    "accept_ideas": [
-     "whether spring is coming",
-     "how long the warm weather will last",
-     "what season it is"
-    ],
-    "one_idea_is_enough": true,
-    "not_required": [
-     "how deep the seed is",
-     "how long the winter lasts"
-    ]
-   }
+  "retry": {
+    "next_file": "vocab_band_4_3_0003",
+    "next_irl": 4,
+    "next_means": "Another word lesson in this rung.",
+    "student_line": "The next reading is another word lesson in this set."
   },
-  {
-   "id": "3",
-   "type": "cloze",
-   "skill": "vocab",
-   "difficulty": 3,
-   "show_part": "part_2",
-   "prompt": "A seed treated this way comes up in a crowd instead of a ____.\n\nWrite the missing word.",
-   "tutor_only": {
-    "confirm": "Right. It comes up in a crowd instead of a scatter.",
-    "correct_reason": "The second part contrasts a crowd with a scatter, because every seed in the batch has met the same signal.",
-    "tell": "The word is scatter. A scatter is seeds coming up here and there, at different times.",
-    "help": [
-     "The sentence contrasts a crowd with the word you need.",
-     "The missing word describes seeds coming up unevenly."
-    ],
-    "say_back": "use_word",
-    "if_they_say": [
-     {
-      "when": "the student answers line",
-      "ask": "A line is orderly. The contrast is with seeds coming up unevenly, here and there."
-     }
-    ],
-    "accept_words": [
-     "scatter"
-    ],
-    "normalize": "Ignore case and punctuation.",
-    "word": "scatter"
-   }
-  },
-  {
-   "id": "4",
-   "type": "short_answer",
-   "skill": "vocab",
-   "difficulty": 3,
-   "show_part": "part_3",
-   "prompt": "What is the trigger that starts a seed growing?",
-   "tutor_only": {
-    "confirm": "Yes. The return of warmth after a long cold.",
-    "correct_reason": "The third part says the trigger is not the cold itself but the change that follows it: the return of warmth, counted slowly.",
-    "tell": "The trigger is the return of warmth after a long cold. Cold alone does not start the seed, and one warm week does not either.",
-    "help": [
-     "Read the opening sentence of the part above about the trigger.",
-     "The passage says what the seed counts."
-    ],
-    "say_back": "own_words",
-    "if_they_say": [
-     {
-      "when": "the student says cold starts the seed",
-      "ask": "The passage says the trigger is not the cold itself. What follows the cold?"
-     },
-     {
-      "when": "the student says any warm day starts it",
-      "ask": "The passage says one warm week does not break the wait. What has to come first?"
-     }
-    ],
-    "core_idea": "The return of warmth after a long cold, not the cold itself.",
-    "accept_ideas": [
-     "the change from cold to warmth",
-     "warmth coming back after winter",
-     "a long cold followed by warmth"
-    ],
-    "one_idea_is_enough": true,
-    "not_required": [
-     "the temperature on a single day",
-     "how many weeks the cold lasts"
-    ]
-   }
-  },
-  {
-   "id": "5",
-   "type": "short_answer",
-   "skill": "vocab",
-   "difficulty": 4,
-   "show_part": "all",
-   "prompt": "What does it mean that the seed is not being careful in any human sense?",
-   "tutor_only": {
-    "confirm": "Right. Nothing in the seed is deciding or planning.",
-    "correct_reason": "The passage says the seed's chemistry needs a long cold to unlock a process that warmth alone cannot start, so care is not the explanation.",
-    "tell": "It means the seed has no plan and no judgement. Its chemistry needs a long cold before warmth can start it.",
-    "help": [
-     "Read the last two sentences of the passage above.",
-     "The passage names chemistry rather than choice."
-    ],
-    "say_back": "own_words",
-    "if_they_say": [
-     {
-      "when": "the student says the seed is smart or knows what to do",
-      "ask": "The passage says the seed is not careful in any human sense. What does it name instead of knowing?"
-     }
-    ],
-    "core_idea": "The seed has no intent or judgement; its chemistry needs a long cold, so it is not choosing to be cautious.",
-    "accept_ideas": [
-     "it has no plan or intent",
-     "the seed is not choosing anything",
-     "its chemistry does it, not the seed"
-    ],
-    "one_idea_is_enough": true,
-    "not_required": [
-     "how long the cold lasts",
-     "what the seedling looks like"
-    ]
-   },
-   "show_part_again": true
+  "stopped": {
+    "next_file": "vocab_band_4_3_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
   }
- ],
- "advance": {
-  "next_file": "vocab_band_4_3_0001",
-  "next_irl": 4,
-  "next_means": "The first word lesson in this rung; no higher word rung is authored yet.",
-  "student_line": "You worked the meanings out from the passage. The next reading is another word lesson."
- },
- "retry": {
-  "next_file": "vocab_band_4_3_0003",
-  "next_irl": 4,
-  "next_means": "Another word lesson in this rung.",
-  "student_line": "The next reading is another word lesson in this set."
- },
- "stopped": {
-  "next_file": "vocab_band_4_3_0002",
-  "next_irl": 4,
-  "next_means": "This same lesson, so it can be finished."
- }
 }

@@ -179,11 +179,19 @@ passage and no AI-drafted answer key at any band 5 or above. Below band 5 (bands
 passage and the item set keyed to it may be drafted by an AI when the catalog needs volume, on three
 conditions:
 
-- a human reads and approves the whole file before it is banked;
-- `source.drafted_by` names the reviewer and `source.text_status` says "drafted for the band,
-  reviewed";
-- every item is re-checked against the text as published, because a drafted passage carries no audit
-  trail and no source to re-read.
+- the author re-checks every item against the text as published, because a drafted passage carries no
+  audit trail and no source to re-read;
+- `source.drafted_by` names the person accountable for the file, and `source.text_status` says
+  "drafted for the band, accepted on spot check";
+- quality control is a random spot-check rotation rather than a line-by-line review. A sample of
+  drafted lessons is read on a rotation and any defect found is fixed across the corpus, not only in
+  the sample, so the measured defect rate is the evidence and the sample size is the coverage.
+
+A full read-and-approve of every drafted file was the earlier rule and was dropped on 2026-11-02: at
+the volume this route was created to reach, the review never happened, and a recorded review that did
+not take place is worse than a declared sample. Never write "reviewed" into a file a person has not
+read. A passage that *was* read carries `source.reviewed_by` with the date, so spot-checked files can
+be told from unread ones.
 
 Two habits carry over from the old 4.1-only exception:
 
@@ -539,7 +547,7 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 
 - [ ] Source uses `schema_version: 3` and `document_type: "lesson_source"`.
 - [ ] Source filename and `lesson_id` match and use one of the eight categories, grades 1-12, an authored stage from 1-3, and sequences 1-8.
-- [ ] The passage and items are human-written at band 5 and above; below band 5, 2.6's review and provenance are recorded.
+- [ ] The passage and items are human-written at band 5 and above; below band 5, `source.drafted_by` and 2.6's spot-check `source.text_status` are recorded.
 - [ ] `_0001` remains the onboarding entry lesson. Later sequences are served by the server from the files that exist, not by the stored `advance` or `retry` fields, while the set is incomplete.
 - [ ] `script_overrides.near_copy_2` is a lesson-specific say-back line. The shared instructions require it.
 - [ ] `reader.reading_level` equals the whole-number IRL grade in the filename.

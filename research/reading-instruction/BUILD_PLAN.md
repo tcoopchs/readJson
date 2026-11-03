@@ -56,8 +56,9 @@ Three facts that shape what comes next:
 written by a person for the lesson. No AI-drafted passage, no AI-drafted answer key. Screening stays
 the bottleneck up here, and the daily cap below is not expected to hold.
 
-**Below band 5 (3.x and 4.x): drafting is allowed** to reach volume, with a human review, recorded
-provenance (`source.drafted_by`, `source.text_status: "drafted for the band, reviewed"`), and every
+**Below band 5 (3.x and 4.x): drafting is allowed** to reach volume, with a random spot-check
+rotation instead of a full-file review, recorded provenance (`source.drafted_by`,
+`source.text_status: "drafted for the band, accepted on spot check"`), and every
 item re-checked against the text as published.
 
 Three consequences worth stating up front:
@@ -106,7 +107,7 @@ still bores the reader out of it.
   travel; `meta.topic_domain` on every lesson, TB-015 to TB-020 in the bank). The four thin source
   families above were therefore not exercised: the USDA/extension, OSHA/BLS, Smithsonian recreation,
   and public-domain manual route still has no rung that tests it, and all six passages carry
-  `drafted_by: "TC review pending"` until a person reads them.
+  `drafted_by: "TC"` under the spot-check rule, until the rotation reads them.
 
 ## 4. Rate
 
@@ -254,6 +255,10 @@ group. The current corpus passes: 8 sources, 8 distinct works, zero shingle over
 - **Band 3.1 is the floor and is built first.** It stays empty in onboarding by design.
 - **Sourcing splits at band 5.** Human-written at 5 and above; drafting allowed below 5 with recorded
   review.
+- **Below band 5 the control is a random spot-check rotation, not a full read of every file.** A
+  volume route that needs a review nobody performs records a review that did not happen; the sample
+  is declared, a defect found in the sample is fixed corpus-wide, and a file that is read end to end
+  gets `source.reviewed_by` with the date.
 - **Six lessons a day, one rung a day, stop at the boundary.**
 - **A down-move never restarts the rung the student just failed.** It lands on the previous rung's
   middle sequence.
@@ -280,10 +285,10 @@ misconception, injection, and stop sessions per rung, which so far exist for mai
 | `main_idea` 3.1 | built; swept | misconception sessions |
 | `main_idea` 4.1 | built; 0001 and 0006 through every branch, all six swept | misconception sessions for 0002-0005 |
 | `main_idea` 4.2 | built; smooth and hard sweep clean | misconception, injection, and stop sessions |
-| `main_idea` 4.3 | built; drafted under 2.6; smooth and hard sweep clean on all six | misconception, injection, and stop sessions; TC review of the six passages |
+| `main_idea` 4.3 | built; drafted under 2.6; smooth and hard sweep clean on all six | misconception, injection, and stop sessions; spot-check rotation covers them |
 | `vocab` 3.1 | built; drafted under 2.6; strict clean | misconception and injection sessions |
 | `vocab` 4.1 | built; drafted under 2.6; strict clean | misconception and injection sessions |
-| `vocab` 4.2 | built; drafted under 2.6; strict clean | misconception, injection, and stop sessions; TC review of eighteen passages |
+| `vocab` 4.2 | built; drafted under 2.6; strict clean | misconception, injection, and stop sessions; spot-check rotation covers them |
 | `vocab` 4.3 | built; drafted under 2.6; strict clean; smooth 6/6 and hard 6/6 | misconception, injection, and stop sessions; TC review of six passages |
 | `text_structure` 3.1 | built; drafted under 2.6; strict clean; smooth and hard sweep clean | misconception and injection sessions; TC review of six passages |
 | `text_structure` 4.1 | built; drafted under 2.6; TB-051 to TB-056; strict clean; smooth 6/6 and hard 6/6 | misconception, injection, and stop sessions; TC review of six passages |

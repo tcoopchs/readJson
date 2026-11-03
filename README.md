@@ -374,7 +374,7 @@ Do not edit generated runtime files by hand. The compiler removes the authoring 
 - [ ] The stage is from 1 through 3, unless a reserved stage is being appended above an existing one.
 - [ ] The sequence is from 0001 through 0008, and the rung targets six.
 - [ ] The rung's four required sequences and two retry sequences are both present.
-- [ ] At band 5 and above the passage and items are human-written; below band 5, `source.drafted_by` and the reviewed `source.text_status` are recorded.
+- [ ] At band 5 and above the passage and items are human-written; below band 5, `source.drafted_by` and the spot-check `source.text_status` from DESIGN_RULES 2.6 are recorded.
 - [ ] `lesson_id` equals the filename without `.json`.
 - [ ] `meta.reader.reading_level` equals the filename grade in the source.
 - [ ] Student-facing text uses a Band label or no label, never a grade or IRL phrase.

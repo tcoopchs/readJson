@@ -1,227 +1,227 @@
 {
- "schema_version": 3,
- "document_type": "lesson_source",
- "lesson_id": "vocab_band_4_3_0003",
- "meta": {
-  "status": "published",
-  "title": "What a Chair Costs",
-  "skill": "vocab",
-  "irl_grade": 4,
-  "stage": 3,
-  "sequence": 3,
-  "genre": "nonfiction",
-  "topic_domain": "work and trade",
-  "skill_frame": "Work out a word's meaning from the passage. Compare what each money word does.",
-  "reader": {
-   "who": "Students who read at about a fourth-grade level.",
-   "reading_level": 4,
-   "why_this_level": "Measured FK 5.9, 5.8, 5.8 (5.8 together) on the 3 parts, 139, 121, 102 words. The load is three linked ideas about money: a price is a promise, a margin is a reserve rather than greed, and two honest numbers can come from different costs. Nothing here has a visible object to check.",
-   "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "vocab_band_4_3_0003",
+  "meta": {
+    "status": "published",
+    "title": "What a Chair Costs",
+    "skill": "vocab",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "work and trade",
+    "skill_frame": "Work out a word's meaning from the passage. Compare what each money word does.",
+    "reader": {
+      "who": "Students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.9, 5.8, 5.8 (5.8 together) on the 3 parts, 139, 121, 102 words. The load is three linked ideas about money: a price is a promise, a margin is a reserve rather than greed, and two honest numbers can come from different costs. Nothing here has a visible object to check.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A hand workshop pricing a chair, built so 'quote' and 'margin' mean different things about a promise and a reserve.",
+      "avoided": "No currency, town, or trade name. No invented prices."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Clue distance: each word is explained where it is used, and the last item joins the whole passage."
+    },
+    "authoring_exceptions": []
   },
-  "source": {
-   "basis": "Written for this lesson.",
-   "text_status": "Drafted for the band, review pending.",
-   "drafted_by": "TC review pending",
-   "survey": "A hand workshop pricing a chair, built so 'quote' and 'margin' mean different things about a promise and a reserve.",
-   "avoided": "No currency, town, or trade name. No invented prices."
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
   },
-  "session": {
-   "scope": "build-band",
-   "item_target": 5,
-   "time_target_minutes": 12,
-   "difficulty_basis": "Clue distance: each word is explained where it is used, and the last item joins the whole passage."
+  "passage": {
+    "part_1": "A small workshop that builds chairs by hand cannot set its price by looking at the price in a shop. The maker starts with what the chair costs to build, not with what a shop charges for a similar one. That means the wood, the glue, the finish, and the hours. Hours are the part buyers forget, because a chair looks finished long before the work is done and the hours never show. A plain chair may take four hours of cutting, joining, and sanding, and the maker's time is the largest cost in it. When a customer asks for a price, the maker answers with a quote that covers the whole job. A quote is a promise about a number and a date. It is not a guess offered in conversation, and the maker is held to it.",
+    "part_2": "The quote has to carry more than the cost of the work itself. If the maker charges only for wood and hours, the workshop ends the year with nothing to replace a worn blade. It also has nothing to pay for the rent and the light in the weeks when no one orders a chair. That extra is the margin, and it is not greed. A workshop without a margin cannot buy a new saw when the old one fails. A maker who cannot buy a saw takes longer over every chair, and the longer work costs more in wages and in time lost. The margin is what keeps the price of the next chair from rising faster than the work.",
+    "part_3": "This is why two quotes for the same chair can differ and both be honest. One workshop may own its machines and quote a lower price. Another may rent space in a town where rent is high, and the rent has to be paid from the same four hours. A customer who compares only the numbers is comparing two different sets of costs. The useful question is not which number is smaller but what the smaller number leaves out. A quote that hides the hours will be beaten by a quote that names them. It is beaten only until the work begins."
   },
-  "authoring_exceptions": []
- },
- "script_overrides": {
-  "near_copy_2": "Say it in your own words. One sentence is enough."
- },
- "passage": {
-  "part_1": "A small workshop that builds chairs by hand cannot set its price by looking at the price in a shop. The maker starts with what the chair costs to build, not with what a shop charges for a similar one. That means the wood, the glue, the finish, and the hours. Hours are the part buyers forget, because a chair looks finished long before the work is done and the hours never show. A plain chair may take four hours of cutting, joining, and sanding, and the maker's time is the largest cost in it. When a customer asks for a price, the maker answers with a quote that covers the whole job. A quote is a promise about a number and a date. It is not a guess offered in conversation, and the maker is held to it.",
-  "part_2": "The quote has to carry more than the cost of the work itself. If the maker charges only for wood and hours, the workshop ends the year with nothing to replace a worn blade. It also has nothing to pay for the rent and the light in the weeks when no one orders a chair. That extra is the margin, and it is not greed. A workshop without a margin cannot buy a new saw when the old one fails. A maker who cannot buy a saw takes longer over every chair, and the longer work costs more in wages and in time lost. The margin is what keeps the price of the next chair from rising faster than the work.",
-  "part_3": "This is why two quotes for the same chair can differ and both be honest. One workshop may own its machines and quote a lower price. Another may rent space in a town where rent is high, and the rent has to be paid from the same four hours. A customer who compares only the numbers is comparing two different sets of costs. The useful question is not which number is smaller but what the smaller number leaves out. A quote that hides the hours will be beaten by a quote that names them. It is beaten only until the work begins."
- },
- "items": [
-  {
-   "id": "1",
-   "type": "cloze",
-   "skill": "vocab",
-   "difficulty": 1,
-   "show_part": "part_1",
-   "prompt": "A ____ is a promise about a number and a date.\n\nWrite the missing word.",
-   "tutor_only": {
-    "confirm": "Right. That promise is a quote.",
-    "correct_reason": "The first part says a quote is a promise about a number and a date, and the maker is held to it.",
-    "tell": "The word is quote. A quote fixes a price and a date, and the maker has to stand behind both.",
-    "help": [
-     "The sentence says what the promise covers: a number and a date.",
-     "The word names the answer a maker gives a customer who asks for a price."
-    ],
-    "say_back": "use_word",
-    "if_they_say": [
-     {
-      "when": "the student answers price",
-      "ask": "A price is the number alone. The sentence also promises a date. What is the whole answer called?"
-     }
-    ],
-    "accept_words": [
-     "quote"
-    ],
-    "normalize": "Ignore case and punctuation.",
-    "word": "quote"
-   }
+  "items": [
+    {
+      "id": "1",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "A ____ is a promise about a number and a date.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. That promise is a quote.",
+        "correct_reason": "The first part says a quote is a promise about a number and a date, and the maker is held to it.",
+        "tell": "The word is quote. A quote fixes a price and a date, and the maker has to stand behind both.",
+        "help": [
+          "The sentence says what the promise covers: a number and a date.",
+          "The word names the answer a maker gives a customer who asks for a price."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers price",
+            "ask": "A price is the number alone. The sentence also promises a date. What is the whole answer called?"
+          }
+        ],
+        "accept_words": [
+          "quote"
+        ],
+        "normalize": "Ignore case and punctuation.",
+        "word": "quote"
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "Why does a workshop need a margin?",
+      "tutor_only": {
+        "confirm": "Yes. The margin pays for tools and for quiet weeks.",
+        "correct_reason": "The second part says a workshop without a margin cannot replace a worn blade or buy a saw, and cannot pay for weeks with no orders.",
+        "tell": "The margin pays for new tools and for weeks when no one orders. Without it, every chair takes longer and costs more.",
+        "help": [
+          "Read what the passage says a workshop without a margin cannot do.",
+          "The passage names a worn blade and a new saw."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the margin is profit for the owner",
+            "ask": "The passage says it is not greed. What does it buy for the workshop?"
+          }
+        ],
+        "core_idea": "To replace worn tools and cover weeks with no orders, so the work can keep going.",
+        "accept_ideas": [
+          "to buy new tools when the old ones fail",
+          "to get through weeks with no orders",
+          "so the workshop can keep working"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how big the margin is",
+          "who sets the price"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "cloze",
+      "skill": "vocab",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "That extra is the ____, and it is not greed.\n\nWrite the missing word.",
+      "tutor_only": {
+        "confirm": "Right. The extra is the margin.",
+        "correct_reason": "The second part names the extra the quote has to carry as the margin, then explains what it pays for.",
+        "tell": "The word is margin. It is the part of the price above the cost of wood and hours.",
+        "help": [
+          "The sentence names the extra that the quote has to carry.",
+          "The sentences after it explain what the extra pays for."
+        ],
+        "say_back": "use_word",
+        "if_they_say": [
+          {
+            "when": "the student answers profit",
+            "ask": "Profit is close. The passage uses a word for the part above cost that keeps the workshop running."
+          }
+        ],
+        "accept_words": [
+          "margin"
+        ],
+        "normalize": "Ignore case and punctuation.",
+        "word": "margin"
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "prompt": "Why can two quotes for the same chair both be honest?",
+      "tutor_only": {
+        "confirm": "Yes. The two workshops carry different costs.",
+        "correct_reason": "The third part says one workshop may own its machines and another may rent high-priced space, so the numbers come from different sets of costs.",
+        "tell": "The workshops pay different costs. One owns its machines and another pays rent, so two honest quotes can be different numbers.",
+        "help": [
+          "Read the sentences about the two workshops in the part above.",
+          "One owns machines and one rents space."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says one maker is cheating",
+            "ask": "The passage says both can be honest. What differs between the workshops?"
+          }
+        ],
+        "core_idea": "Their costs differ, so different numbers can both be fair.",
+        "accept_ideas": [
+          "they have different costs",
+          "one owns its machines and one pays rent",
+          "the quotes cover different costs"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which quote is lower",
+          "how long the chair takes"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "vocab",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "What does it mean that a quote hides the hours?",
+      "tutor_only": {
+        "confirm": "Right. The price leaves out the maker's time.",
+        "correct_reason": "The last sentences say a quote that hides the hours will be beaten by one that names them, until the work begins.",
+        "tell": "It means the price does not include the maker's time. The quote looks cheaper, and the missing hours show up once the work starts.",
+        "help": [
+          "Read the last two sentences of the passage above.",
+          "The passage contrasts hiding the hours with naming them."
+        ],
+        "say_back": "own_words",
+        "if_they_say": [
+          {
+            "when": "the student says the maker is lying about the price",
+            "ask": "Hiding is not lying here. What is left out of the number?"
+          }
+        ],
+        "core_idea": "The price leaves out the maker's time, so it looks cheaper than the work really is.",
+        "accept_ideas": [
+          "the price does not count the time",
+          "the hours are not in the number",
+          "it looks cheaper because the work is not counted"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many hours the chair takes",
+          "who wins the order"
+        ]
+      },
+      "show_part_again": true
+    }
+  ],
+  "advance": {
+    "next_file": "vocab_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first word lesson in this rung; no higher word rung is authored yet.",
+    "student_line": "You worked the meanings out from the passage. The next reading is another word lesson."
   },
-  {
-   "id": "2",
-   "type": "short_answer",
-   "skill": "vocab",
-   "difficulty": 2,
-   "show_part": "part_2",
-   "prompt": "Why does a workshop need a margin?",
-   "tutor_only": {
-    "confirm": "Yes. The margin pays for tools and for quiet weeks.",
-    "correct_reason": "The second part says a workshop without a margin cannot replace a worn blade or buy a saw, and cannot pay for weeks with no orders.",
-    "tell": "The margin pays for new tools and for weeks when no one orders. Without it, every chair takes longer and costs more.",
-    "help": [
-     "Read what the passage says a workshop without a margin cannot do.",
-     "The passage names a worn blade and a new saw."
-    ],
-    "say_back": "own_words",
-    "if_they_say": [
-     {
-      "when": "the student says the margin is profit for the owner",
-      "ask": "The passage says it is not greed. What does it buy for the workshop?"
-     }
-    ],
-    "core_idea": "To replace worn tools and cover weeks with no orders, so the work can keep going.",
-    "accept_ideas": [
-     "to buy new tools when the old ones fail",
-     "to get through weeks with no orders",
-     "so the workshop can keep working"
-    ],
-    "one_idea_is_enough": true,
-    "not_required": [
-     "how big the margin is",
-     "who sets the price"
-    ]
-   }
+  "retry": {
+    "next_file": "vocab_band_4_3_0004",
+    "next_irl": 4,
+    "next_means": "Another word lesson in this rung.",
+    "student_line": "The next reading is another word lesson in this set."
   },
-  {
-   "id": "3",
-   "type": "cloze",
-   "skill": "vocab",
-   "difficulty": 2,
-   "show_part": "part_2",
-   "prompt": "That extra is the ____, and it is not greed.\n\nWrite the missing word.",
-   "tutor_only": {
-    "confirm": "Right. The extra is the margin.",
-    "correct_reason": "The second part names the extra the quote has to carry as the margin, then explains what it pays for.",
-    "tell": "The word is margin. It is the part of the price above the cost of wood and hours.",
-    "help": [
-     "The sentence names the extra that the quote has to carry.",
-     "The sentences after it explain what the extra pays for."
-    ],
-    "say_back": "use_word",
-    "if_they_say": [
-     {
-      "when": "the student answers profit",
-      "ask": "Profit is close. The passage uses a word for the part above cost that keeps the workshop running."
-     }
-    ],
-    "accept_words": [
-     "margin"
-    ],
-    "normalize": "Ignore case and punctuation.",
-    "word": "margin"
-   }
-  },
-  {
-   "id": "4",
-   "type": "short_answer",
-   "skill": "vocab",
-   "difficulty": 3,
-   "show_part": "part_3",
-   "prompt": "Why can two quotes for the same chair both be honest?",
-   "tutor_only": {
-    "confirm": "Yes. The two workshops carry different costs.",
-    "correct_reason": "The third part says one workshop may own its machines and another may rent high-priced space, so the numbers come from different sets of costs.",
-    "tell": "The workshops pay different costs. One owns its machines and another pays rent, so two honest quotes can be different numbers.",
-    "help": [
-     "Read the sentences about the two workshops in the part above.",
-     "One owns machines and one rents space."
-    ],
-    "say_back": "own_words",
-    "if_they_say": [
-     {
-      "when": "the student says one maker is cheating",
-      "ask": "The passage says both can be honest. What differs between the workshops?"
-     }
-    ],
-    "core_idea": "Their costs differ, so different numbers can both be fair.",
-    "accept_ideas": [
-     "they have different costs",
-     "one owns its machines and one pays rent",
-     "the quotes cover different costs"
-    ],
-    "one_idea_is_enough": true,
-    "not_required": [
-     "which quote is lower",
-     "how long the chair takes"
-    ]
-   }
-  },
-  {
-   "id": "5",
-   "type": "short_answer",
-   "skill": "vocab",
-   "difficulty": 4,
-   "show_part": "all",
-   "prompt": "What does it mean that a quote hides the hours?",
-   "tutor_only": {
-    "confirm": "Right. The price leaves out the maker's time.",
-    "correct_reason": "The last sentences say a quote that hides the hours will be beaten by one that names them, until the work begins.",
-    "tell": "It means the price does not include the maker's time. The quote looks cheaper, and the missing hours show up once the work starts.",
-    "help": [
-     "Read the last two sentences of the passage above.",
-     "The passage contrasts hiding the hours with naming them."
-    ],
-    "say_back": "own_words",
-    "if_they_say": [
-     {
-      "when": "the student says the maker is lying about the price",
-      "ask": "Hiding is not lying here. What is left out of the number?"
-     }
-    ],
-    "core_idea": "The price leaves out the maker's time, so it looks cheaper than the work really is.",
-    "accept_ideas": [
-     "the price does not count the time",
-     "the hours are not in the number",
-     "it looks cheaper because the work is not counted"
-    ],
-    "one_idea_is_enough": true,
-    "not_required": [
-     "how many hours the chair takes",
-     "who wins the order"
-    ]
-   },
-   "show_part_again": true
+  "stopped": {
+    "next_file": "vocab_band_4_3_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
   }
- ],
- "advance": {
-  "next_file": "vocab_band_4_3_0001",
-  "next_irl": 4,
-  "next_means": "The first word lesson in this rung; no higher word rung is authored yet.",
-  "student_line": "You worked the meanings out from the passage. The next reading is another word lesson."
- },
- "retry": {
-  "next_file": "vocab_band_4_3_0004",
-  "next_irl": 4,
-  "next_means": "Another word lesson in this rung.",
-  "student_line": "The next reading is another word lesson in this set."
- },
- "stopped": {
-  "next_file": "vocab_band_4_3_0003",
-  "next_irl": 4,
-  "next_means": "This same lesson, so it can be finished."
- }
 }

@@ -1308,7 +1308,7 @@ as one case, not a measurement.
 | FK grade | 6.09 on the three passages together |
 | Complexity | L2, I3, S2, K2 |
 | Best lesson fit | `vocab_band_4_3_0001` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** A group of riders rides faster when the front rider breaks the air and the others take turns in the pocket behind.
 
@@ -1341,7 +1341,7 @@ as one case, not a measurement.
 | FK grade | 6.10 on the three passages together |
 | Complexity | L2, I3, S2, K2 |
 | Best lesson fit | `vocab_band_4_3_0002` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** Some seeds need a long cold before warmth can start them, because the cold is a signal about the season rather than food or water.
 
@@ -1374,7 +1374,7 @@ as one case, not a measurement.
 | FK grade | 5.83 on the three passages together |
 | Complexity | L2, I3, S2, K2 |
 | Best lesson fit | `vocab_band_4_3_0003` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** A hand workshop prices a chair from materials and hours, plus a margin that pays for tools and quiet weeks, so two honest quotes can differ.
 
@@ -1407,7 +1407,7 @@ as one case, not a measurement.
 | FK grade | 5.99 on the three passages together |
 | Complexity | L2, I3, S2, K2 |
 | Best lesson fit | `vocab_band_4_3_0004` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** A town paid for its night watch in shares, so money and a night of walking counted equally, until the town outgrew the arrangement.
 
@@ -1440,7 +1440,7 @@ as one case, not a measurement.
 | FK grade | 6.20 on the three passages together |
 | Complexity | L2, I3, S2, K2 |
 | Best lesson fit | `vocab_band_4_3_0005` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** Backstage words in a theater name agreed moments: a cue starts something after a line, and a strike takes the set apart after the last show.
 
@@ -1473,7 +1473,7 @@ as one case, not a measurement.
 | FK grade | 6.13 on the three passages together |
 | Complexity | L2, I3, S2, K2 |
 | Best lesson fit | `vocab_band_4_3_0006` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** A shallow-harbor ferry keeps a timetable set by the tide, because depth at the bar and at the berth decides when a crossing is possible.
 
@@ -1505,7 +1505,7 @@ as one case, not a measurement.
 | FK grade | 2.70 on the two passages together |
 | Complexity | L1, I1, S1, K1 |
 | Best lesson fit | `text_structure_band_3_1_0001` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** A farm stand opens in a fixed order: pick, wash, price, then open the gate, because each step needs the one before it.
 
@@ -1538,7 +1538,7 @@ as one case, not a measurement.
 | FK grade | 3.10 on the two passages together |
 | Complexity | L1, I2, S1, K1 |
 | Best lesson fit | `text_structure_band_3_1_0002` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** Water in a sidewalk crack freezes, expands, and pushes the crack wider, and tar stops it by keeping water out.
 
@@ -1571,7 +1571,7 @@ as one case, not a measurement.
 | FK grade | 3.20 on the two passages together |
 | Complexity | L1, I2, S2, K1 |
 | Best lesson fit | `text_structure_band_3_1_0003` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** Two bridges over one river are built for different travelers: one carries wheels quickly, the other gives walkers a slow place to stop.
 
@@ -1604,7 +1604,7 @@ as one case, not a measurement.
 | FK grade | 3.90 on the two passages together |
 | Complexity | L2, I2, S2, K1 |
 | Best lesson fit | `text_structure_band_3_1_0004` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** A print shop's jams came from damp paper against a cold wall, not from the printer, and moving the paper to a dry shelf fixed them.
 
@@ -1637,7 +1637,7 @@ as one case, not a measurement.
 | FK grade | 3.70 on the two passages together |
 | Complexity | L2, I2, S2, K1 |
 | Best lesson fit | `text_structure_band_3_1_0005` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** A field is prepared in a fixed order because each step depends on the one before it, from short grass before paint to dry paint before water.
 
@@ -1670,7 +1670,7 @@ as one case, not a measurement.
 | FK grade | 3.90 on the two passages together |
 | Complexity | L2, I3, S2, K1 |
 | Best lesson fit | `text_structure_band_3_1_0006` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** A painted cloth backdrop cracked because the paint shrank as it dried fast while the cloth did not, and the crew fixed it by slowing the drying.
 
@@ -1703,7 +1703,7 @@ as one case, not a measurement.
 | FK grade | 5.50 on the three passages together |
 | Complexity | L2, I2, S2, K1 |
 | Best lesson fit | `text_structure_band_4_1_0001` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** An ice harvest ran in a fixed order because each position had its own reason: snow was cleared so the ice could thicken, the surface was scored so the saw had a line, blocks were packed at once so they did not melt, and the crew cut in January because late ice is thin and soft.
 
@@ -1736,7 +1736,7 @@ as one case, not a measurement.
 | FK grade | 6.30 on the three passages together |
 | Complexity | L2, I3, S2, K1 |
 | Best lesson fit | `text_structure_band_4_1_0002` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** A dam's removal led to a rush of silt and a slow river repair: the gravel was clean by the third year and the fish returned in the fourth, so the first summer looked like failure and the fifth like success.
 
@@ -1769,7 +1769,7 @@ as one case, not a measurement.
 | FK grade | 5.90 on the three passages together |
 | Complexity | L2, I2, S2, K2 |
 | Best lesson fit | `text_structure_band_4_1_0003` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** A barge and a truck differ on load, speed, and cost per ton, and neither wins outright: the choice depends on whether a shipment can wait for the cheap slow way or must arrive by a date.
 
@@ -1802,7 +1802,7 @@ as one case, not a measurement.
 | FK grade | 6.10 on the three passages together |
 | Complexity | L2, I2, S2, K1 |
 | Best lesson fit | `text_structure_band_4_1_0004` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** A track's puddle was first treated with sand, which worked for a month and moved the water; the real cause was a root-blocked drain pipe, so the successful first fix hid the fault it never touched.
 
@@ -1835,7 +1835,7 @@ as one case, not a measurement.
 | FK grade | 5.90 on the three passages together |
 | Complexity | L2, I2, S3, K1 |
 | Best lesson fit | `text_structure_band_4_1_0005` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** The passage opens with the finished path and the new sign, then goes back to the slide and forward through the work, so the order of the telling is not the order of events.
 
@@ -1868,7 +1868,7 @@ as one case, not a measurement.
 | FK grade | 5.70 on the three passages together |
 | Complexity | L2, I3, S2, K1 |
 | Best lesson fit | `text_structure_band_4_1_0006` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** The hall's echo was fixed with cloth panels, which made the room dead and became the next problem, so the room had to be tuned in steps rather than planned in one pass.
 
@@ -1901,7 +1901,7 @@ as one case, not a measurement.
 | FK grade | 5.80 on the three passages together |
 | Complexity | L2, I3, S2, K1 |
 | Best lesson fit | `text_structure_band_4_2_0001` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** Fog forms in two ways, and a two-question test, clear sky and still air, sorts a case into the kind and says what the fog will do next.
 
@@ -1934,7 +1934,7 @@ as one case, not a measurement.
 | FK grade | 6.00 on the three passages together |
 | Complexity | L2, I2, S3, K1 |
 | Best lesson fit | `text_structure_band_4_2_0002` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** Kitchen scraps break down in a pile, become humus, feed a crop, and return to the kitchen as scraps, so the bin is one stage of a loop rather than an ending.
 
@@ -1967,7 +1967,7 @@ as one case, not a measurement.
 | FK grade | 5.70 on the three passages together |
 | Complexity | L2, I3, S2, K1 |
 | Best lesson fit | `text_structure_band_4_2_0003` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** A second packing table was ruled out before it was bought, because a narrow doorway fed the tables and the check station held the line.
 
@@ -2000,7 +2000,7 @@ as one case, not a measurement.
 | FK grade | 6.70 on the three passages together |
 | Complexity | L3, I3, S3, K2 |
 | Best lesson fit | `text_structure_band_4_2_0004` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** The advice to keep sentences short survives only in part: where the verb sits and where the news arrives decide how hard a sentence is, and length is only a signal.
 
@@ -2033,7 +2033,7 @@ as one case, not a measurement.
 | FK grade | 5.80 on the three passages together |
 | Complexity | L2, I2, S3, K2 |
 | Best lesson fit | `text_structure_band_4_2_0005` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** A market town described in rings outward from its square is also described in centuries, so the plan of the place records the order in which it grew.
 
@@ -2066,7 +2066,7 @@ as one case, not a measurement.
 | FK grade | 6.60 on the three passages together |
 | Complexity | L3, I3, S3, K1 |
 | Best lesson fit | `text_structure_band_4_2_0006` |
-| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
 
 **Central idea.** The higher team hosts the final unless the grounds are more than four hundred miles apart, and the league keeps that line narrow because a rule with many exceptions settles nothing.
 
