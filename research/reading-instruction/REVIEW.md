@@ -13,12 +13,21 @@ word-level gap blocks comprehension; in that case the lesson supplies the suppor
 **Text types.** Fiction and nonfiction both in scope. Narrative and expository passages get
 separate question templates because they demand different inference work.
 
-**Material rule (user decision, revised 2026-10-26).** Passages are human-written at source and free
-to use, by one of three routes: verbatim, written for the lesson by a person, or an adaptation of a
-public-domain / CC0 / CC BY work under `DESIGN_RULES` 2.5. **Adaptation is permitted in Band 4.1
-only**; every other band uses verbatim or original text. An AI may reduce reading load; it may not
-draft an original passage or an answer key, and it may not adapt NoDerivatives or ShareAlike text.
-Modern text by default. Canonical old text only at the top grade (11-12).
+**Material rule (user decision, revised 2026-10-26; superseded 2026-11-02).** Passages are
+human-written at source and free to use, by one of three routes: verbatim, written for the lesson by
+a person, or an adaptation of a public-domain / CC0 / CC BY work under `DESIGN_RULES` 2.5.
+
+> Superseded. The two claims this paragraph originally made about AI work — that adaptation was
+> permitted in Band 4.1 only, and that an AI could not draft a passage or an answer key — no longer
+> hold. `DESIGN_RULES` 2.6 is the rule and is the only statement of it: below band 5 (3.x and 4.x) a
+> passage and its item set may be drafted, with `source.drafted_by`, the spot-check `text_status`,
+> and a random spot-check rotation as the control; at band 5 and above text is human-written only and
+> the answer key is authored. Adaptation still needs a derivative-permitting license and still may
+> not invent facts. NoDerivatives and ShareAlike text is still never adapted. Modern text by default;
+> canonical old text only at the top grade (11-12).
+
+What survives from the original paragraph: the three routes, the licence requirement, the ban on
+adapting NoDerivatives or ShareAlike text, and the modern-text default.
 
 **Placement rule (user decision).** Reading level is not Lexile alone. Score language load and
 idea load separately. A simple-sentence passage with stages, dependencies, or abstraction can sit
@@ -52,8 +61,10 @@ misconception branch, help line, tell, or say-back. Moves that cannot be stored 
 
 ## Conflicts and cautions
 
-- `README.md` and `DESIGN_RULES.md` both require human-written passages. AI drafting is not
-  allowed.
+- ~~`README.md` and `DESIGN_RULES.md` both require human-written passages. AI drafting is not
+  allowed.~~ Superseded 2026-11-02. `DESIGN_RULES` 2.6 allows a drafted passage and key below band 5
+  under recorded accountability and a spot-check rotation, and the `README.md` publishing checklist
+  states the same. At band 5 and above the original caution stands unchanged.
 - Most adolescent evidence is about classroom instruction with a teacher. The app removes the
   teacher, so effect sizes do not transfer directly.
 - QtA depends on open discussion. Only its question moves transfer; its discussion mechanics do

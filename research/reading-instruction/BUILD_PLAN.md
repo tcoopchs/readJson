@@ -53,14 +53,10 @@ Three facts that shape what comes next:
 
 ## 3. Sourcing rule by band
 
-**Band 5 and above: human-written text only.** Verbatim, adapted from a named work under 2.5, or
-written by a person for the lesson. No AI-drafted passage, no AI-drafted answer key. Screening stays
-the bottleneck up here, and the daily cap below is not expected to hold.
-
-**Below band 5 (3.x and 4.x): drafting is allowed** to reach volume, with a random spot-check
-rotation instead of a full-file review, recorded provenance (`source.drafted_by`,
-`source.text_status: "drafted for the band, accepted on spot check"`), and every
-item re-checked against the text as published.
+**The rule is `DESIGN_RULES` 2.6; this plan does not restate it.** In one line: band 5 and above is
+human-written only, and below band 5 a passage and its key may be drafted under recorded
+accountability and a spot-check rotation. Restating the conditions here is how the corpus ended up
+with three versions of them in November; a plan that needs a detail points at 2.6.
 
 Three consequences worth stating up front:
 

@@ -173,7 +173,11 @@ simplify, paraphrase, or regenerate it during a session.
 At band 5 and above, items are never AI-drafted: the answer key is authored. Below band 5, 2.6
 applies. Never invent a citation.
 
-**2.6 Sourcing depends on the band.** Band 5 and above: every passage is based on human-written text —
+**2.6 Sourcing depends on the band.** This section is the only statement of the sourcing rule.
+Plans, handoffs, checklists, and authoring guides point here instead of restating it; a restatement
+that differs from this paragraph is stale, and this paragraph wins.
+
+Band 5 and above: every passage is based on human-written text —
 verbatim, adapted from a named work under 2.5, or written by a person for the lesson. No AI-drafted
 passage and no AI-drafted answer key at any band 5 or above. Below band 5 (bands 3.x and 4.x): a
 passage and the item set keyed to it may be drafted by an AI when the catalog needs volume, on three

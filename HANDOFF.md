@@ -167,9 +167,9 @@ the authored route and the ladder agree.
    the student (85 lines), a single-help item making the tutor invent a second hint, and a ready gate
    that dropped `yes`. `anchor` is now defined as the lesson's first item in `DESIGN_RULES` 7.4,
    `README.md`, and the protocol at both the definition and the ticket step.
-2. **78 lessons are AI-drafted and unreviewed.** inference 3.1, main_idea 3.1, inference 4.2 and
-   4.3, main_idea 4.1, the six main_idea 4.3 lessons, the twenty-four vocab lessons, and the eighteen
-   text_structure 3.1, 4.1 and 4.2 lessons were drafted under `2.6`, and every one says
+2. **84 lessons are AI-drafted and unreviewed.** inference 3.1, main_idea 3.1, inference 4.2 and
+   4.3, main_idea 4.1, the six main_idea 4.3 lessons, the twenty-four vocab lessons, and the twenty-four
+   text_structure 3.1, 4.1, 4.2 and 4.3 lessons were drafted under `2.6`, and every one says
    `drafted_by: "TC"` and `text_status` "Drafted for the band, accepted on spot check." Band 5+
 cannot use that route. Since 2026-11-02 the control is a random spot-check rotation, not a full-file
 review: no drafted passage has been read line by line, and no file claims otherwise.
@@ -179,8 +179,9 @@ review: no drafted passage has been read line by line, and no file claims otherw
    to TB-038), the six vocab 4.3 passages are banked (TB-039 to TB-044), and the six text_structure
    3.1 passages are banked (TB-045 to TB-050), each with measured FK, complexity scores, central
    idea, supports, and a caution line. The six text_structure 4.1 passages are banked as TB-051 to
-   TB-056 and the six text_structure 4.2 passages as TB-057 to TB-062. The bank's Markdown table had
-   drifted: TB-045 to TB-056 had entries but no table rows, and all eighteen rows (TB-045 to TB-062)
+   TB-056, the six text_structure 4.2 passages as TB-057 to TB-062, and the six text_structure 4.3
+   passages as TB-063 to TB-068. The bank's Markdown table had
+   drifted: TB-045 to TB-056 had entries but no table rows, and all twenty-four rows (TB-045 to TB-068)
    were backfilled on 2026-11-02, so the table and `text-bank.json` now list every entry. 30 older
    drafted lessons still have no bank row.
 4. **`validate_lesson.py` is in the skill, not in either repo.** It lives at
@@ -192,7 +193,7 @@ review: no drafted passage has been read line by line, and no file claims otherw
      --strict --src-dir lessons/src --lessons-dir lessons lessons/src/*.source.json
    ```
 
-   It validated all 94 sources at 0 errors and 0 warnings on 2026-11-01. `build_lessons.py --check`
+   It validated all 106 sources at 0 errors and 0 warnings on 2026-11-02. `build_lessons.py --check`
    remains the second gate: sources and compiled files must agree.
 5. **58 `audit_lessons.py` style findings stand** (bare ordinal section references such as "What is
    the second part mostly about?", mainly in main_idea 4.1). These are a known backlog, not errors,
@@ -204,10 +205,9 @@ review: no drafted passage has been read line by line, and no file claims otherw
 
 ## Next actions, in order
 
-1. `text_structure 4.3`, six lessons — the last rung of the vertical now that 3.1, 4.1 and 4.2 are
-   built, then `process 3.1`. `argument_evidence` and `authors_craft` need the grade-3 load decision
+1. `process 3.1`, six lessons — the next vertical now that text_structure is closed through 4.3. `argument_evidence` and `authors_craft` need the grade-3 load decision
    before authoring.
-2. Start the random spot-check rotation over the 78 drafted lessons (DESIGN_RULES 2.6). Sample a
+2. Start the random spot-check rotation over the 84 drafted lessons (DESIGN_RULES 2.6). Sample a
    rung at random, read it against its items, and fix any defect corpus-wide; record the sample and
    the date in `research/reading-instruction/coldchat-log.md`. A file that is read end to end gets
    `source.reviewed_by` with the date, so read files can be told from unread ones.
