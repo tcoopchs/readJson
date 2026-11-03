@@ -55,6 +55,24 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-042 | The Town's Night Watch | Nonfiction | 4 | Band 4.3 | 332 words (three passages, 104-117 each) | 5.99 | `vocab_band_4_3_0004` |
 | TB-043 | The Cue Nobody Writes Down | Nonfiction | 4 | Band 4.3 | 323 words (three passages, 104-110 each) | 6.20 | `vocab_band_4_3_0005` |
 | TB-044 | The Ferry That Waits for the Water | Nonfiction | 4 | Band 4.3 | 308 words (three passages, 100-106 each) | 6.13 | `vocab_band_4_3_0006` |
+| TB-045 | The Farm Stand's Morning | Nonfiction | 3 | Band 3.1 | 104 words (two passages, one per displayed part) | 2.70 | `text_structure_band_3_1_0001` |
+| TB-046 | Why the Sidewalk Cracks | Nonfiction | 3 | Band 3.1 | 102 words (two passages, one per displayed part) | 3.10 | `text_structure_band_3_1_0002` |
+| TB-047 | Two Bridges | Nonfiction | 3 | Band 3.1 | 116 words (two passages, one per displayed part) | 3.20 | `text_structure_band_3_1_0003` |
+| TB-048 | The Damp Paper | Nonfiction | 3 | Band 3.1 | 105 words (two passages, one per displayed part) | 3.90 | `text_structure_band_3_1_0004` |
+| TB-049 | Marking the Field | Nonfiction | 3 | Band 3.1 | 116 words (two passages, one per displayed part) | 3.70 | `text_structure_band_3_1_0005` |
+| TB-050 | Why the Backdrop Cracked | Nonfiction | 3 | Band 3.1 | 117 words (two passages, one per displayed part) | 3.90 | `text_structure_band_3_1_0006` |
+| TB-051 | Ice for July | Nonfiction | 4 | Band 4.1 | 325 words (three passages, 102-114 each) | 5.50 | `text_structure_band_4_1_0001` |
+| TB-052 | The Dam the River Took Back | Nonfiction | 4 | Band 4.1 | 311 words (three passages, 103-104 each) | 6.30 | `text_structure_band_4_1_0002` |
+| TB-053 | Two Ways to Move a Load | Nonfiction | 4 | Band 4.1 | 312 words (three passages, 100-108 each) | 5.90 | `text_structure_band_4_1_0003` |
+| TB-054 | The Corner That Held Water | Nonfiction | 4 | Band 4.1 | 320 words (three passages, 105-108 each) | 6.10 | `text_structure_band_4_1_0004` |
+| TB-055 | The Path Above the Slide | Nonfiction | 4 | Band 4.1 | 320 words (three passages, 106-108 each) | 5.90 | `text_structure_band_4_1_0005` |
+| TB-056 | The Hall That Swallowed the Sound | Nonfiction | 4 | Band 4.1 | 322 words (three passages, 105-109 each) | 5.70 | `text_structure_band_4_1_0006` |
+| TB-057 | Two Kinds of White Air | Nonfiction | 4 | Band 4.2 | 338 words (three passages, 111-115 each) | 5.80 | `text_structure_band_4_2_0001` |
+| TB-058 | The Bin That Comes Back | Nonfiction | 4 | Band 4.2 | 328 words (three passages, 105-115 each) | 6.00 | `text_structure_band_4_2_0002` |
+| TB-059 | The Table They Did Not Buy | Nonfiction | 4 | Band 4.2 | 320 words (three passages, 102-110 each) | 5.70 | `text_structure_band_4_2_0003` |
+| TB-060 | The Verb in the Middle | Nonfiction | 4 | Band 4.2 | 311 words (three passages, 102-105 each) | 6.70 | `text_structure_band_4_2_0004` |
+| TB-061 | Rings Around the Square | Nonfiction | 4 | Band 4.2 | 313 words (three passages, 102-108 each) | 5.80 | `text_structure_band_4_2_0005` |
+| TB-062 | The Rule With One Exception | Nonfiction | 4 | Band 4.2 | 311 words (three passages, 100-108 each) | 6.60 | `text_structure_band_4_2_0006` |
 
 ---
 
@@ -1865,6 +1883,204 @@ as one case, not a measurement.
 **Why it works.** A chain in which the fix is the next cause: the same panels are a solution in one part and a fault in the next.
 
 **Cautions.** No hall, city, orchestra, or composer. No acoustic figures beyond the echo time the passage states.
+
+---
+
+## TB-057 — Two Kinds of White Air
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 338 words (three passages, one per displayed part (112, 115, 111 words)) |
+| FK grade | 5.80 on the three passages together |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `text_structure_band_4_2_0001` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** Fog forms in two ways, and a two-question test, clear sky and still air, sorts a case into the kind and says what the fog will do next.
+
+**Supporting details.**
+
+- The first kind forms on a clear, calm night, when the ground loses its heat and the air above it cannot hold its water.
+- The second kind forms when warm, wet air slides over a cold surface, so the air is moving and the ground need not cool.
+- Fog of the first kind burns off within hours of sunrise, while fog of the second kind thickens through the morning.
+- The test the weather service uses asks whether the sky is clear and whether the air is still, not what the temperature is.
+- Two places with the same temperature at six in the morning were sorted into different kinds by the sky and the wind.
+
+**Why it works.** Both kinds look alike, so the shared look cannot count as evidence; the reader sorts by the two questions and then uses the sort to predict the morning.
+
+**Cautions.** No weather office, town, date, or forecast figure. No third kind of fog and no measured visibility.
+
+---
+
+## TB-058 — The Bin That Comes Back
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | food and farming |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 328 words (three passages, one per displayed part (115, 105, 108 words)) |
+| FK grade | 6.00 on the three passages together |
+| Complexity | L2, I2, S3, K1 |
+| Best lesson fit | `text_structure_band_4_2_0002` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** Kitchen scraps break down in a pile, become humus, feed a crop, and return to the kitchen as scraps, so the bin is one stage of a loop rather than an ending.
+
+**Supporting details.**
+
+- Bacteria breaking the scraps down give off heat, which is why the middle of the pile is warm.
+- A cold pile is too dry or too wet, and it needs a turn with a fork.
+- Turning puts the outside in, so air reaches material that had none and the pile heats a second time.
+- Humus holds water in sandy ground and loosens clay, and the worms carry it down into the bed.
+- The grower spreads the humus, the harvest comes back through the door, and the next scraps are the same material a year later.
+
+**Why it works.** A cycle told in stage order, where the last stage names the first; the reader has to close the loop instead of stopping at the harvest.
+
+**Cautions.** No town, farm, price, or weight. No claim about how long a batch takes beyond the season the passage states.
+
+---
+
+## TB-059 — The Table They Did Not Buy
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 320 words (three passages, one per displayed part (110, 102, 108 words)) |
+| FK grade | 5.70 on the three passages together |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `text_structure_band_4_2_0003` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** A second packing table was ruled out before it was bought, because a narrow doorway fed the tables and the check station held the line.
+
+**Supporting details.**
+
+- The room had one door in and one door out, about thirty inches wide.
+- Boxes reached the tables slower than two tables could take them, so a second table would have waited.
+- The stopwatch showed the longest stop at the check station, where one person checked each order against each box.
+- Splitting the check into two short steps stopped any box waiting for both at once, and the line cleared in nine days.
+- Money spent on the table would have looked like progress on the books.
+
+**Why it works.** The obvious fix is ruled out by a limit rather than tried and found wanting, which is a different structure from a first-fix-fails text.
+
+**Cautions.** No company, town, wage, or month beyond November. No numbers about order volume.
+
+---
+
+## TB-060 — The Verb in the Middle
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | arts and language |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 311 words (three passages, one per displayed part (104, 105, 102 words)) |
+| FK grade | 6.70 on the three passages together |
+| Complexity | L3, I3, S3, K2 |
+| Best lesson fit | `text_structure_band_4_2_0004` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** The advice to keep sentences short survives only in part: where the verb sits and where the news arrives decide how hard a sentence is, and length is only a signal.
+
+**Supporting details.**
+
+- Writing guides say short sentences are easier, so cut a sentence in two.
+- A reader holds a subject in mind and waits for the verb that says what the subject did.
+- The long example gives the news after three words, and the shorter one saves it for the last moment.
+- A counter that rates the shorter sentence easier is counting length, which is a signal of difficulty and not the difficulty.
+- The advice that survives is to cut a sentence that is doing two jobs, not one that is long.
+
+**Why it works.** A correction: the belief, the counter-example, then the narrower rule that survives; the reader has to see which part of the advice is kept.
+
+**Cautions.** No study, journal, author, or date. No claim that length never matters.
+
+---
+
+## TB-061 — Rings Around the Square
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 313 words (three passages, one per displayed part (102, 108, 103 words)) |
+| FK grade | 5.80 on the three passages together |
+| Complexity | L2, I2, S3, K2 |
+| Best lesson fit | `text_structure_band_4_2_0005` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** A market town described in rings outward from its square is also described in centuries, so the plan of the place records the order in which it grew.
+
+**Supporting details.**
+
+- The first ring is shopfronts close to the square, with no room for gardens.
+- Beyond them the streets widen, then come small houses with long gardens, and last a road of garages and sheds.
+- Each ring was built in a different century, and the oldest is nearest the square.
+- The shopfronts came while carts used the square, the walled houses when the market moved to a covered hall, the gardens with the railway, the sheds with the vans.
+- A street directory lists streets alphabetically and cannot show how the town grew.
+
+**Why it works.** A spatial order that carries chronology, so the reader reads distance as date; the closing comparison with a directory shows what the order is for.
+
+**Cautions.** No town name, county, road name, or population. No street count beyond the four the passage states.
+
+---
+
+## TB-062 — The Rule With One Exception
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | sport and play |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 311 words (three passages, one per displayed part (100, 103, 108 words)) |
+| FK grade | 6.60 on the three passages together |
+| Complexity | L3, I3, S3, K1 |
+| Best lesson fit | `text_structure_band_4_2_0006` |
+| Provenance | `drafted_by: "TC review pending"`; TC review owed |
+
+**Central idea.** The higher team hosts the final unless the grounds are more than four hundred miles apart, and the league keeps that line narrow because a rule with many exceptions settles nothing.
+
+**Supporting details.**
+
+- The team that finished higher in the table hosts, and the host is named before the season ends.
+- The travel and the strange changing room give the home side an edge.
+- Above four hundred miles the final is played at a neutral site between the grounds.
+- The exception was added after a visiting side left at five in the morning and lost to a team it had beaten twice.
+- Below the line the rule stands, because a rule with a hundred exceptions is no rule.
+
+**Why it works.** A general rule with one written exception and a case that justifies its width, so the structure is the boundary between them.
+
+**Cautions.** No club, league name, city, or score beyond the four goals the passage states. No player or coach named.
 
 ---
 

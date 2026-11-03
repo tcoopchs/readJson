@@ -215,3 +215,25 @@ were rewritten as questions the reader can act on. The first hard pass was kille
 lessons because it ran on the pre-fix compiled files; the figures above are from the rerun on the
 final lesson files. No misconception, injection, or stop-by-request session has run on this rung yet,
 and no near-copy say-back loop has been run anywhere.
+
+## 2026-11-02 — text_structure 4.2, six lessons
+
+Second grade-4 rung of the vertical, built under Phase 2 of `BUILD_PLAN.md`. Six drafted lessons,
+three parts of 100-115 words each, five items each, six topic domains with no neighbour repeat.
+Structure moves are new to the vertical rather than relabels of the 4.1 set: a two-way sorting rule
+(science and nature), a loop (food and farming), an obvious fix ruled out by a limit (work and
+trade), a correction of common advice (arts and language), a plan in space that records time
+(places and travel), and a rule with one written exception (sport and play).
+
+| Pass | Result | Spend |
+| --- | --- | --- |
+| smooth | 6/6, opened on the first reply, five items in order, `done=5 u=5 an=1`, no leak, no early ticket | $0.0441 |
+| hard | 6/6, authored help only, `tell` reached, stopped ticket `an=0\|stop=1`, no private-field leak | $0.0124 |
+
+No copy defect needed a pre-sweep fix this time: the eight student-copy sentences over twenty words
+that `validate_lesson.py` flagged were split before compiling, and `--strict` came back 0/0 across
+100 sources. Routed against the live code: a clear with 2 of the last 3 on 4.1 now moves up into
+`text_structure_band_4_2_0001`, and a hard fail on 4.2_0001 steps down to
+`text_structure_band_4_1_0003`, the middle of the previous rung. A clear at the end of 4.2 holds at
+the ceiling because 4.3 is not authored. Misconception, injection, and stop-by-request sessions have
+not run on this rung, and no near-copy say-back loop has been run anywhere.

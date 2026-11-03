@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_4_2_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Rule With One Exception",
+    "skill": "text_structure",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Text structure: read a general rule with an exception carved into it, and see what the exception is for.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.3, 7.1 and 6.5 on the three parts (100, 103 and 108 words), 6.6 together, high in the band's window to keep the last sequence at the band's upper load. The load is a rule, a stated exception, and a reason for the exception's width, plus a case that shows what the exception answers.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 4.2, Band 4.2, sequence 6. No external work.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A general rule, one written exception, and the case that justified it, so the structure is the boundary between them.",
+      "avoided": "No club, league name, city, or score beyond the four goals the passage states. No player or coach named."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The first three items state the rule and its exception; the last two explain what the exception is for and why the league keeps it narrow."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The league's rule for the final is simple. The team that finished higher in the table hosts, and the game is played on its own ground. The rule has held for thirty years and it stops arguments, because a host is named before the season ends and nobody has to negotiate in the week of the game. It also gives the better team a real edge. A visiting side travels, sleeps in a strange room, and warms up in a changing room built for the home side. The rule suits the teams that finish near the top of the table.",
+    "part_2": "One exception is written into the rule. If the two grounds are more than four hundred miles apart, the final is played at a neutral site between them. The exception was added after a final was decided by a bus, and the league wrote it into the rules the following winter. The visiting side left at five in the morning, arrived with two hours to spare, and lost by four goals to a team it had beaten twice that season. The coaches did not argue that the better side lost. They argued that the trip had decided the result, and the league agreed.",
+    "part_3": "The exception is narrow on purpose, and the league has refused to widen it. Below four hundred miles a trip is still hard, and the rule stands, because a rule with a hundred exceptions is no rule. Above the line the travel is long enough to change a result in ways the table cannot predict. A neutral ground is then the only answer both teams accept. The whole rule fits in a single line, and a coach can say it in one breath. The home ground decides, unless the travel decides first. A team can read that line in January and know where it will play in May."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Under the league's rule, which team hosts the final?",
+      "tutor_only": {
+        "confirm": "Right. The team that finished higher in the table.",
+        "correct_reason": "The passage says the team that finished higher in the table hosts, and the game is played on its own ground.",
+        "tell": "The table decides the venue. Finish higher and you play the final at home, and the rule names that team before the season ends.",
+        "help": [
+          "Find the second sentence, which gives the rule.",
+          "It names the position in the table that earns the ground."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The team that finished higher in the table.",
+        "accept_ideas": [
+          "the higher team in the table",
+          "the team that finished higher",
+          "whichever side finished further up"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many teams are in the league"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the team that scored more goals",
+            "ask": "The rule is about the table, not about a score in this game. Which team in the table hosts?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why has the rule held for thirty years without arguments?",
+      "tutor_only": {
+        "confirm": "Yes. A host is named before the season ends, so nobody has to negotiate.",
+        "correct_reason": "The passage says the rule stops arguments, because a host is named before the season ends and nobody has to negotiate in the week of the game.",
+        "tell": "The rule settles the venue while the season is still running. Two clubs that never have to agree cannot disagree about it.",
+        "help": [
+          "Find the sentence that begins 'The rule has held'.",
+          "It says when the host is named."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The host is named before the season ends, so nobody negotiates.",
+        "accept_ideas": [
+          "the host is set early",
+          "nobody has to agree on it later",
+          "the table decides it in advance"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who wrote the rule"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says both teams agree it is fair",
+            "ask": "The passage gives timing, not fairness. When is the host named?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What does the rule allow when the grounds are very far apart?",
+      "tutor_only": {
+        "confirm": "Right. A neutral site between them.",
+        "correct_reason": "The passage says if the two grounds are more than four hundred miles apart, the final is played at a neutral site between them.",
+        "tell": "Above four hundred miles the home ground is given up. The final is played at a neutral site, which neither side calls home.",
+        "help": [
+          "Find the sentence that begins 'If the two grounds'.",
+          "It names the place the final is played instead."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A neutral site between the two grounds.",
+        "accept_ideas": [
+          "a neutral ground",
+          "a site between the two towns",
+          "neither team's own ground"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the site is chosen"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the visiting team hosts",
+            "ask": "The exception does not swap the host. What place does the passage name instead of a home ground?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did the coaches argue that the trip decided that final?",
+      "tutor_only": {
+        "confirm": "Yes. The visiting side lost to a team it had beaten twice, after a very early start.",
+        "correct_reason": "The passage says the visiting side left at five in the morning, arrived with two hours to spare, and lost by four goals to a team it had beaten twice that season.",
+        "tell": "The bus did work that the table says the better team should have done. A side that beats a team twice should not lose by four, and the coaches blamed the travel.",
+        "help": [
+          "Find the sentence about leaving at five in the morning.",
+          "It compares the result with what the two teams had done before."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The visiting side lost badly to a team it had beaten twice, after a long trip.",
+        "accept_ideas": [
+          "the travel wore them down",
+          "they lost to a team they had already beaten twice",
+          "the early start cost them the game"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who the coaches told"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the referee made mistakes",
+            "ask": "The passage gives travel, not officiating. What had the visiting side already done to that team twice that season?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The league refused to widen the exception. What reason does the passage give?",
+      "tutor_only": {
+        "confirm": "Right. A rule with many exceptions stops being a rule.",
+        "correct_reason": "The passage says the exception is narrow on purpose, that below four hundred miles the rule stands because a rule with a hundred exceptions is no rule, and that above the line travel can change a result the table cannot predict.",
+        "tell": "The exception exists for one thing only: travel long enough to change the result. Widen it and every club has a case, so the rule stops settling anything.",
+        "help": [
+          "Find the sentence about a hundred exceptions.",
+          "It says what happens to a rule with too many of them."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A rule with many exceptions stops being a rule, so the line stays where travel can change the result.",
+        "accept_ideas": [
+          "too many exceptions would end the rule",
+          "the exception only covers travel that changes results",
+          "a rule that is widened for everyone decides nothing"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who voted on it"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the league wanted to keep the home teams happy",
+            "ask": "The passage gives a reason about rules, not about votes. What happens to a rule with a hundred exceptions?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The next text-structure stage is not authored yet, so the ladder holds here.",
+    "student_line": "You have the move. The next reading is another lesson on this skill in this band."
+  },
+  "retry": {
+    "next_file": "text_structure_band_4_2_0006",
+    "next_irl": 4,
+    "next_means": "The same lesson again, so it can be finished.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_4_2_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

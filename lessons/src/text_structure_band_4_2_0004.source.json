@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_4_2_0004",
+  "meta": {
+    "status": "published",
+    "title": "The Verb in the Middle",
+    "skill": "text_structure",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "topic_domain": "arts and language",
+    "skill_frame": "Text structure: spot a rule of thumb, then the record that corrects it.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.5, 7.3 and 6.4 on the three parts (104, 105 and 102 words), 6.7 together, at the top of the band's window. The load is a correction: the reader has to hold the common advice, the counter-example, and the narrower rule that survives, and know which of the three the passage keeps.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 4.2, Band 4.2, sequence 4. No external work.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A correction text: the belief, the record that contradicts it, then the narrower rule the record supports.",
+      "avoided": "No study, journal, author, or date. No claim that length never matters."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The last two items separate the count from the difficulty and keep the part of the advice that holds; the middle compares two sentences by where the verb sits."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Writing guides often say the same thing: short sentences are easier, so cut a sentence in two. The advice is easy to follow and easy to check, which may be why it survives in guides that were never tried out on readers. A reader does not measure a sentence with a ruler, though. A reader is holding a subject in mind and waiting for the verb that says what the subject did. A long sentence that puts the verb early is easy to follow. A short one that holds the verb to the end makes the reader wait, and the wait is what costs.",
+    "part_2": "Take two sentences of different lengths that say the same thing. 'The council approved the plan after a long debate and a second vote on the budget' is fifteen words, and the reader learns what happened after three of them. 'After a long debate and a second vote on the budget, the plan was approved' is shorter, and the reader learns it at the last possible moment. The second is harder to hold, though a counter rates it easier. Read both out loud and the second sounds as though it is about a debate rather than a plan. The counter is counting the wrong thing.",
+    "part_3": "A guide that names only length is describing what is easy to count. What can be counted is a signal of difficulty, not the difficulty itself. The questions that hold up are where the verb sits, how far it is from its subject, and whether the new information arrives at the end, where a reader expects it. A long sentence can pass all three of those tests, and a short one can fail all three. Cut a sentence when it is doing two jobs, not because a number says to. The number is a check on the work, never the work itself."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What do writing guides often say makes a sentence easier to read?",
+      "tutor_only": {
+        "confirm": "Right. Short sentences, cut in two.",
+        "correct_reason": "The passage says writing guides often say short sentences are easier, so cut a sentence in two.",
+        "tell": "That is the advice the passage is testing. Cut long sentences in two, and the reading gets easier, or so the guides say.",
+        "help": [
+          "Find the first sentence, which names what the guides say.",
+          "It gives a rule about length."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Short sentences.",
+        "accept_ideas": [
+          "keep sentences short",
+          "cut long sentences into two",
+          "shorter sentences are easier"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which guide says it"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says put the verb first",
+            "ask": "Verb position is what the passage tests the advice with. What do the guides say about length?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is a reader holding while a sentence is unfinished?",
+      "tutor_only": {
+        "confirm": "Yes. A subject, waiting for the verb.",
+        "correct_reason": "The passage says a reader is holding a subject in mind and waiting for the verb that says what the subject did.",
+        "tell": "The verb is the news. Until it arrives, the reader is carrying the subject and guessing, and carrying takes effort.",
+        "help": [
+          "Find the sentence that begins 'A reader is holding'.",
+          "It names two things: what is held and what is waited for."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A subject, while waiting for the verb.",
+        "accept_ideas": [
+          "the subject, until the verb comes",
+          "the thing the sentence is about",
+          "the subject and the verb it is waiting for"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long a reader can hold it"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the reader counts the words",
+            "ask": "The passage says a reader does not measure with a ruler. What is the reader holding instead?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why is the shorter example harder to hold than the longer one?",
+      "tutor_only": {
+        "confirm": "Right. The reader learns what happened only at the last moment.",
+        "correct_reason": "The passage says the short example keeps the news until the end, while the longer one gives it after three words.",
+        "tell": "The long example says who did what before it explains. The short one explains first and saves the news, so the reader waits through every word.",
+        "help": [
+          "Find the sentence about the long example learning what happened after three words.",
+          "It says where each example puts the news."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The shorter sentence puts the news at the end, so the reader waits longer for it.",
+        "accept_ideas": [
+          "the verb comes last in the short one",
+          "it keeps the news until the end",
+          "the reader has to wait for what happened"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the exact word counts"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the short one uses harder words",
+            "ask": "Both examples use the same words, in a different order. What moves to the end in the short one?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "The passage says a counter rates the harder sentence easier. Why?",
+      "tutor_only": {
+        "confirm": "Yes. The counter counts length, which is only a signal of difficulty.",
+        "correct_reason": "The passage says a guide that names only length is describing what is easy to count, and what can be counted is a signal of difficulty, not the difficulty itself.",
+        "tell": "A counter can only count what has a number: words and syllables. Where the verb sits has no number, so the count misses the thing that made the sentence hard.",
+        "help": [
+          "Find the sentence that begins 'What can be counted'.",
+          "It separates a signal of difficulty from the difficulty itself."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It counts length, which is a signal of difficulty and not the difficulty itself.",
+        "accept_ideas": [
+          "it counts words instead of verb position",
+          "length is only a sign, not the cause",
+          "the counter cannot see where the verb sits"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which counter it was"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the counter was wrong about the length",
+            "ask": "The passage accepts the word count. What did the counter fail to look at?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage keeps part of the guides' advice. What part does it keep?",
+      "tutor_only": {
+        "confirm": "Right. Cut a sentence when it is doing two jobs.",
+        "correct_reason": "The passage closes by saying to cut a sentence when it is doing two jobs, not because a number says to.",
+        "tell": "The advice survives in a narrower form. Split a sentence that carries two jobs, whatever its length. A long sentence with one job can stay.",
+        "help": [
+          "Find the last sentence of the passage.",
+          "It gives the reason to cut a sentence, and it is not length."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Cut a sentence when it is doing two jobs.",
+        "accept_ideas": [
+          "split a sentence that does two jobs",
+          "cut when the sentence carries more than one job",
+          "keep long sentences that do one job"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who wrote the guides"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says cut every long sentence",
+            "ask": "The passage says a long sentence can pass all three tests. What reason does it leave for cutting one?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The next text-structure stage is not authored yet, so the ladder holds here.",
+    "student_line": "You have the move. The next reading is another lesson on this skill in this band."
+  },
+  "retry": {
+    "next_file": "text_structure_band_4_2_0005",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_4_2_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

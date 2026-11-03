@@ -1,6 +1,6 @@
 {
   "bank_version": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "rubric": "L/I/S/K 0-3; band is highest demand, grade_target is the reader label",
   "texts": [
     {
@@ -1979,6 +1979,228 @@
       "why_it_works": "A chain in which the fix is the next cause: the same panels are a solution in one part and a fault in the next.",
       "cautions": "No hall, city, orchestra, or composer. No acoustic figures beyond the echo time the passage states.",
       "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-057",
+      "title": "Two Kinds of White Air",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (112, 115, 111 words)",
+      "length_words": 338,
+      "fk_grade": 5.8,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_2_0001"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "Fog forms in two ways, and a two-question test, clear sky and still air, sorts a case into the kind and says what the fog will do next.",
+      "supporting_details": [
+        "The first kind forms on a clear, calm night, when the ground loses its heat and the air above it cannot hold its water.",
+        "The second kind forms when warm, wet air slides over a cold surface, so the air is moving and the ground need not cool.",
+        "Fog of the first kind burns off within hours of sunrise, while fog of the second kind thickens through the morning.",
+        "The test the weather service uses asks whether the sky is clear and whether the air is still, not what the temperature is.",
+        "Two places with the same temperature at six in the morning were sorted into different kinds by the sky and the wind."
+      ],
+      "why_it_works": "Both kinds look alike, so the shared look cannot count as evidence; the reader sorts by the two questions and then uses the sort to predict the morning.",
+      "cautions": "No weather office, town, date, or forecast figure. No third kind of fog and no measured visibility.",
+      "topic_domain": "science and nature",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-058",
+      "title": "The Bin That Comes Back",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (115, 105, 108 words)",
+      "length_words": 328,
+      "fk_grade": 6.0,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 3,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_2_0002"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "Kitchen scraps break down in a pile, become humus, feed a crop, and return to the kitchen as scraps, so the bin is one stage of a loop rather than an ending.",
+      "supporting_details": [
+        "Bacteria breaking the scraps down give off heat, which is why the middle of the pile is warm.",
+        "A cold pile is too dry or too wet, and it needs a turn with a fork.",
+        "Turning puts the outside in, so air reaches material that had none and the pile heats a second time.",
+        "Humus holds water in sandy ground and loosens clay, and the worms carry it down into the bed.",
+        "The grower spreads the humus, the harvest comes back through the door, and the next scraps are the same material a year later."
+      ],
+      "why_it_works": "A cycle told in stage order, where the last stage names the first; the reader has to close the loop instead of stopping at the harvest.",
+      "cautions": "No town, farm, price, or weight. No claim about how long a batch takes beyond the season the passage states.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-059",
+      "title": "The Table They Did Not Buy",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (110, 102, 108 words)",
+      "length_words": 320,
+      "fk_grade": 5.7,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_2_0003"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A second packing table was ruled out before it was bought, because a narrow doorway fed the tables and the check station held the line.",
+      "supporting_details": [
+        "The room had one door in and one door out, about thirty inches wide.",
+        "Boxes reached the tables slower than two tables could take them, so a second table would have waited.",
+        "The stopwatch showed the longest stop at the check station, where one person checked each order against each box.",
+        "Splitting the check into two short steps stopped any box waiting for both at once, and the line cleared in nine days.",
+        "Money spent on the table would have looked like progress on the books."
+      ],
+      "why_it_works": "The obvious fix is ruled out by a limit rather than tried and found wanting, which is a different structure from a first-fix-fails text.",
+      "cautions": "No company, town, wage, or month beyond November. No numbers about order volume.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-060",
+      "title": "The Verb in the Middle",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (104, 105, 102 words)",
+      "length_words": 311,
+      "fk_grade": 6.7,
+      "complexity": {
+        "language": 3,
+        "idea": 3,
+        "structure": 3,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_2_0004"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The advice to keep sentences short survives only in part: where the verb sits and where the news arrives decide how hard a sentence is, and length is only a signal.",
+      "supporting_details": [
+        "Writing guides say short sentences are easier, so cut a sentence in two.",
+        "A reader holds a subject in mind and waits for the verb that says what the subject did.",
+        "The long example gives the news after three words, and the shorter one saves it for the last moment.",
+        "A counter that rates the shorter sentence easier is counting length, which is a signal of difficulty and not the difficulty.",
+        "The advice that survives is to cut a sentence that is doing two jobs, not one that is long."
+      ],
+      "why_it_works": "A correction: the belief, the counter-example, then the narrower rule that survives; the reader has to see which part of the advice is kept.",
+      "cautions": "No study, journal, author, or date. No claim that length never matters.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-061",
+      "title": "Rings Around the Square",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (102, 108, 103 words)",
+      "length_words": 313,
+      "fk_grade": 5.8,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 3,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_2_0005"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A market town described in rings outward from its square is also described in centuries, so the plan of the place records the order in which it grew.",
+      "supporting_details": [
+        "The first ring is shopfronts close to the square, with no room for gardens.",
+        "Beyond them the streets widen, then come small houses with long gardens, and last a road of garages and sheds.",
+        "Each ring was built in a different century, and the oldest is nearest the square.",
+        "The shopfronts came while carts used the square, the walled houses when the market moved to a covered hall, the gardens with the railway, the sheds with the vans.",
+        "A street directory lists streets alphabetically and cannot show how the town grew."
+      ],
+      "why_it_works": "A spatial order that carries chronology, so the reader reads distance as date; the closing comparison with a directory shows what the order is for.",
+      "cautions": "No town name, county, road name, or population. No street count beyond the four the passage states.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending"
+    },
+    {
+      "id": "TB-062",
+      "title": "The Rule With One Exception",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (100, 103, 108 words)",
+      "length_words": 311,
+      "fk_grade": 6.6,
+      "complexity": {
+        "language": 3,
+        "idea": 3,
+        "structure": 3,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "text_structure_band_4_2_0006"
+      ],
+      "cell_use": "Owns its own lesson in text_structure Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The higher team hosts the final unless the grounds are more than four hundred miles apart, and the league keeps that line narrow because a rule with many exceptions settles nothing.",
+      "supporting_details": [
+        "The team that finished higher in the table hosts, and the host is named before the season ends.",
+        "The travel and the strange changing room give the home side an edge.",
+        "Above four hundred miles the final is played at a neutral site between the grounds.",
+        "The exception was added after a visiting side left at five in the morning and lost to a team it had beaten twice.",
+        "Below the line the rule stands, because a rule with a hundred exceptions is no rule."
+      ],
+      "why_it_works": "A general rule with one written exception and a case that justifies its width, so the structure is the boundary between them.",
+      "cautions": "No club, league name, city, or score beyond the four goals the passage states. No player or coach named.",
+      "topic_domain": "sport and play",
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, review pending.",
       "drafted_by": "TC review pending"

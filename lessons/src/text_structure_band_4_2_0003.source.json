@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_4_2_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Table They Did Not Buy",
+    "skill": "text_structure",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "work and trade",
+    "skill_frame": "Text structure: notice when the obvious fix is ruled out before anyone tries it.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.2, 5.6 and 5.3 on the three parts (110, 102 and 108 words), 5.7 together. The load is a rule the passage never states in one place: the busiest job is not the job holding the line, and the doorway rules out the fix that looks obvious.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 4.2, Band 4.2, sequence 3. No external work.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A problem with a fix that was never tried, because a limit ruled it out first, which separates this from a first-fix-failed text.",
+      "avoided": "No company, town, wage, or month beyond November. No numbers about order volume."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The first three items locate a fact and join a limit to a decision; the last two explain why the fix was ruled out and what replaced the list of equipment."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A mail-order room packs boxes on one long table, and by November the orders back up at the door. The obvious fix is a second table and two more packers. The owner priced it and did not buy it. The room had one door in and one door out, both about thirty inches wide, and the boxes reached the tables slower than two tables could take them. Two packers on the door side would have stood idle half the morning. A second table would have added hands to a job that was already waiting on a doorway. The owner walked the room with a stopwatch instead of a catalog.",
+    "part_2": "The stopwatch showed where the work stopped, and it was not the packing. It was the check station, where one person read each order against each box and taped on the label. Every box waited there, and the wait grew longer as the day went on. A second packer moved to that station would have cost a wage and changed nothing else. The owner split the check into two short steps, one before packing and one after, so no box waited for both at once. Each step took a different person less than half a minute. The line cleared within nine days.",
+    "part_3": "The lesson in the room was not about extra hands. A fix aimed at the busiest job can miss, because the busiest job is not always the one holding the line. The owner's test was simple. He followed one box from the door to the truck and wrote down every time the box stopped. He wrote the times on the back of an order form and kept the form on the wall for a year. The longest stop was the check station, and the answer was sitting there. Money spent on the table would have looked like progress on the books and cost him a season to refute."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What was the obvious fix for the backups at the door?",
+      "tutor_only": {
+        "confirm": "Right. A second table and two more packers.",
+        "correct_reason": "The passage says the obvious fix is a second table and two more packers, and the owner priced it.",
+        "tell": "The orders were backing up at the door, so more hands at more tables looked like the answer. That is the fix the owner priced first.",
+        "help": [
+          "Find the sentence that begins 'The obvious fix'.",
+          "It names the equipment and the people."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A second table and two more packers.",
+        "accept_ideas": [
+          "buy a second table and hire two packers",
+          "another table with more people on it",
+          "add a table and two packers"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the table cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the owner hired a second packer",
+            "ask": "The passage says he priced the fix and did not buy it. What was the fix he priced?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why would a second table not have helped?",
+      "tutor_only": {
+        "confirm": "Yes. The boxes reached the tables slower than two tables could take them.",
+        "correct_reason": "The passage says the room had one door in and one door out, and the boxes reached the tables slower than two tables could take them.",
+        "tell": "The doorway was the limit, not the tables. Two tables can pack faster than one door can feed them, so the second table would have stood waiting.",
+        "help": [
+          "Find the sentence about how wide the doors were.",
+          "It compares the speed of the boxes with the speed of two tables."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The boxes reached the tables slower than two tables could take them.",
+        "accept_ideas": [
+          "the door let boxes in too slowly",
+          "the table would have waited on the doorway",
+          "one narrow door could not feed two tables"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who measured the doors"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the room was too small",
+            "ask": "The passage gives a limit with a number in it. What was thirty inches wide?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Where did the boxes wait longest?",
+      "tutor_only": {
+        "confirm": "Right. At the check station.",
+        "correct_reason": "The passage says the stopwatch showed the work stopping at the check station, where one person read each order against each box.",
+        "tell": "Every box stopped at the check station, and the wait there grew during the day. That is where the line was being held.",
+        "help": [
+          "Find the sentence that begins 'It was the check station'.",
+          "It names the person and the two things being compared."
+        ],
+        "say_back": "own_words",
+        "core_idea": "At the check station.",
+        "accept_ideas": [
+          "the check station",
+          "where one person checked the order against the box",
+          "the station where the labels were taped on"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the longest wait was"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says at the packing table",
+            "ask": "The passage says the stopwatch showed the packing was not the stop. What was?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Splitting the check into two steps cleared the line. Why did that work when a second packer would not?",
+      "tutor_only": {
+        "confirm": "Yes. No box then waited for both steps at the same station.",
+        "correct_reason": "The passage says the owner split the check into two short steps so no box waited for both at once, and the line cleared within nine days.",
+        "tell": "One station was doing two jobs, and every box queued for both of them. Split the jobs and the queue divides, so no box carries the whole wait.",
+        "help": [
+          "Find the sentence about the two short steps.",
+          "It says what a box no longer had to do at one place."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No box waited for both steps at the same station.",
+        "accept_ideas": [
+          "the wait was split across two steps",
+          "each box stopped twice for less time",
+          "the two jobs no longer queued at one person"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many seconds each step took"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the second packer was faster at checking",
+            "ask": "Speed was not the problem at the station. What did splitting the check stop a box from doing at once?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The owner used a stopwatch instead of a catalog. What did the stopwatch show that a catalog could not?",
+      "tutor_only": {
+        "confirm": "Right. Where the work actually stopped.",
+        "correct_reason": "The passage says the stopwatch showed where the work stopped, and the owner followed one box from the door to the truck and wrote down every time it stopped.",
+        "tell": "A catalog lists what you can buy. A stopwatch shows where one box loses time, and the longest stop is the job that holds the line.",
+        "help": [
+          "Find the sentence about following one box from the door to the truck.",
+          "It says what he wrote down each time."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It showed where the work actually stopped.",
+        "accept_ideas": [
+          "where the boxes stopped",
+          "which job was holding the line",
+          "the longest wait on the way to the truck"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the catalog listed"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the stopwatch showed who worked fastest",
+            "ask": "The passage follows one box, not one person. What did the owner write down every time the box stopped?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The next text-structure stage is not authored yet, so the ladder holds here.",
+    "student_line": "You have the move. The next reading is another lesson on this skill in this band."
+  },
+  "retry": {
+    "next_file": "text_structure_band_4_2_0004",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_4_2_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

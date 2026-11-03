@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_4_2_0002",
+  "meta": {
+    "status": "published",
+    "title": "The Bin That Comes Back",
+    "skill": "text_structure",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Text structure: follow a loop, and see why the last stage is also the first.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.5, 5.3 and 6.5 on the three parts (115, 105 and 108 words), 6.0 together. The load is a cycle rather than a line: the reader must carry the bin, the bed, and the kitchen as three places in one loop and see that the harvest returns as the next batch of scraps.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 4.2, Band 4.2, sequence 2. No external work.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "A closed loop described in stage order, ending where it began, so the structure is the lesson rather than the facts.",
+      "avoided": "No town, farm, price, or weight. No claim about how long a batch takes beyond the season the passage states."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The first two items stay inside one stage; the fourth reads a second heating as unfinished work; the last turns the line into a loop."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Nothing in a garden truly ends. A kitchen sends out potato skins, coffee grounds, and eggshells, and those scraps begin a trip that brings food back to the same kitchen a year later. The scraps go into a bin with dry leaves and a little soil, and the mix of wet and dry matters as much as the scraps. Within a week the pile is warm in the middle, because bacteria are breaking the scraps down and giving off heat. That warmth is a sign the pile is working, not a sign that it has spoiled. A pile that stays cold is too dry or too wet, and it needs a turn with a fork.",
+    "part_2": "The pile is turned when the middle cools, which puts the outside in and the inside out. Air reaches the parts that had none before, and the pile heats a second time. After a season the scraps have no shape left at all. What stays is a dark, crumbly material that smells of wet earth, and growers call it humus. Humus holds water in sandy ground and loosens clay, so it helps both kinds of soil. It also feeds the worms, and the worms carry it down into the bed. The bin is never emptied in one morning, only when the last batch is finished.",
+    "part_3": "The loop closes at the kitchen table. A grower spreads the humus on the beds in spring, the plants take it up, and the harvest comes back through the door to be peeled and eaten. The next pile of scraps is the same material a year later, in a different form, and the trip begins again with the first peel of the season. That return is why the pile cannot be treated as a bin for waste alone. A grower who throws the scraps away buys the same material in bags at a price, and loses the trip in between. The bin is a stage, not an ending."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why does the middle of the pile get warm within a week?",
+      "tutor_only": {
+        "confirm": "Right. Bacteria break the scraps down and give off heat.",
+        "correct_reason": "The passage says the pile is warm in the middle because bacteria are breaking the scraps down and giving off heat.",
+        "tell": "The scraps are food for bacteria. They break the scraps down and let heat out. That heat is what you feel in the middle.",
+        "help": [
+          "Find the sentence that begins 'Within a week'.",
+          "It names what is breaking the scraps down."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Bacteria breaking the scraps down give off heat.",
+        "accept_ideas": [
+          "bacteria are breaking down the scraps",
+          "the scraps are rotting and giving off heat",
+          "the bacteria working in the pile make it warm"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how hot the pile gets"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the sun warms the pile",
+            "ask": "The passage gives a cause inside the pile. What is breaking the scraps down?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "A pile stays cold all week. What does the passage say that tells the grower?",
+      "tutor_only": {
+        "confirm": "Yes. The pile is too dry or too wet, and it needs a turn.",
+        "correct_reason": "The passage says a pile that stays cold is too dry or too wet, and it needs a turn with a fork.",
+        "tell": "Cold means the bacteria have stopped working. That happens when the pile has too much water or too little, and turning it brings air back in.",
+        "help": [
+          "Find the last sentence of the part, about a pile that stays cold.",
+          "It names two conditions and one action."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The pile is too dry or too wet and needs a turn.",
+        "accept_ideas": [
+          "it is too wet or too dry",
+          "the grower has to turn it with a fork",
+          "something is wrong with the mix and it needs turning"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which of the two conditions it is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the pile is finished",
+            "ask": "A finished pile is dark and crumbly, not cold and full of scraps. What does the passage say a cold pile needs?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why is the pile turned as soon as the middle cools?",
+      "tutor_only": {
+        "confirm": "Right. Turning lets air reach the parts that had none, so the pile heats again.",
+        "correct_reason": "The passage says turning puts the outside in and the inside out, so air reaches the parts that had none, and the pile heats a second time.",
+        "tell": "The outside of the pile never got hot, because it had no air. Turning moves that material into the middle, and the heat starts again.",
+        "help": [
+          "Find the sentence that begins 'Air reaches the parts'.",
+          "It says what happens to the pile after the air gets in."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Turning lets air reach the parts that had none, so the pile heats again.",
+        "accept_ideas": [
+          "it lets air reach the parts that had none",
+          "the outside material gets air and heats up",
+          "turning restarts the heat in the pile"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how often a pile is turned"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says turning cools the pile down",
+            "ask": "The passage says the pile heats a second time after turning. What does the air do to the material that had none?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The pile heats a second time after it is turned. What does that show about the scraps on the outside?",
+      "tutor_only": {
+        "confirm": "Yes. They had not been broken down yet, because they had no air.",
+        "correct_reason": "The passage says air reaches the parts that had none before, and the pile heats a second time, which means work was still going on in that material.",
+        "tell": "Heat means the bacteria are working. The pile heats again after turning, so the outer scraps had not finished. They start once the air reaches them.",
+        "help": [
+          "Find what the second heating follows.",
+          "Heat only comes when the bacteria have something left to break down."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The outside scraps had not been broken down yet, so they were still waiting for air.",
+        "accept_ideas": [
+          "the outside had not broken down yet",
+          "there was still work left in the material",
+          "those scraps had no air before, so they were unfinished"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the second heating lasts"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the pile was turned too soon",
+            "ask": "The passage ties the second heating to the air. What had the outside scraps been missing?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage ends by calling the bin a stage and not an ending. What makes the trip a loop?",
+      "tutor_only": {
+        "confirm": "Right. The humus feeds the crop, and the crop comes back through the door as scraps.",
+        "correct_reason": "The passage says the grower spreads the humus, the plants take it up, the harvest returns to the kitchen, and the next pile of scraps is the same material a year later in a different form.",
+        "tell": "The bin is one stop on a circle. Humus goes into the bed. The plant turns it into food. The kitchen turns the food back into scraps.",
+        "help": [
+          "Find what happens to the harvest after the humus goes on the beds.",
+          "The same material comes back to the same place in a different form."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The humus feeds the crop, and the crop comes back to the kitchen as scraps.",
+        "accept_ideas": [
+          "the harvest becomes the next pile of scraps",
+          "the material comes back to the kitchen in a new form",
+          "the food goes round from bin to bed to table and back"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much humus a bed needs"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the bin is emptied and refilled",
+            "ask": "That is a line, not a loop. What does the passage say the harvest does after it leaves the bed?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The next text-structure stage is not authored yet, so the ladder holds here.",
+    "student_line": "You have the move. The next reading is another lesson on this skill in this band."
+  },
+  "retry": {
+    "next_file": "text_structure_band_4_2_0003",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_4_2_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

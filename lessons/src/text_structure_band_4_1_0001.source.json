@@ -230,10 +230,10 @@
     }
   ],
   "advance": {
-    "next_file": "text_structure_band_4_1_0001",
+    "next_file": "text_structure_band_4_2_0001",
     "next_irl": 4,
-    "next_means": "The next text-structure stage is not authored yet, so the ladder holds here.",
-    "student_line": "You have the move. The next reading is another lesson on this skill."
+    "next_means": "The next stage of this skill, text-structure Band 4.2.",
+    "student_line": "You have the move. The next reading is the first lesson in the next stage of this skill."
   },
   "retry": {
     "next_file": "text_structure_band_4_1_0002",

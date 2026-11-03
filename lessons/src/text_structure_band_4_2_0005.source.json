@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "text_structure_band_4_2_0005",
+  "meta": {
+    "status": "published",
+    "title": "Rings Around the Square",
+    "skill": "text_structure",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "topic_domain": "places and travel",
+    "skill_frame": "Text structure: follow a plan laid out in space, and see that it also records time.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.6, 5.6 and 6.3 on the three parts (102, 108 and 103 words), 5.8 together. The load is a description ordered by distance from a centre, where the order of the description is also the order of building, so the reader has to read a map as a date.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for text_structure 4.2, Band 4.2, sequence 5. No external work.",
+      "text_status": "Drafted for the band, review pending.",
+      "drafted_by": "TC review pending",
+      "survey": "Spatial order that carries chronology: four rings, four centuries, one walk.",
+      "avoided": "No town name, county, road name, or population. No street count beyond the four the passage states."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The first item locates the start; the next two join a ring to the reason it was built; the last two read the rings as a record and compare that with a directory."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A small market town can be read in rings. Stand in the square at the centre, where the stalls go up on Saturday morning, and walk out from it in any direction. The first ring is four streets of shopfronts built close to the square, with no room for gardens at all. Past them the streets widen and the houses sit back behind walls. Beyond that ring the town turns into rows of small houses with long gardens, and the last ring is a road of garages and sheds. The walk takes twenty minutes and passes through four hundred years of building.",
+    "part_2": "Each ring was built in a different century, so the map and the history describe the same thing. The shopfronts came when the square held a market and a cart could not be left far off. The houses behind walls came when the market moved to a covered hall and traders wanted quiet at the door. The gardens came with a railway that carried goods in and took the trades out to a wider market. The covered hall is the hinge between those first two rings. The sheds came last, with the vans that replaced the railway. Walk outward from the square and you walk backward in time.",
+    "part_3": "That is why a planner reads the rings before a street directory. A directory lists streets in alphabetical order, which is useful for finding one address and useless for seeing how the town grew. The rings are not tidy and the edges blur, and a street can hold two centuries in one block. But the plan of a place is also its record. A town that grew along a road shows a line, and a ring that is missing tells you which trade never came. A town that grew around a market shows a set of rings, and each ring is a date."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Where does the walk in the passage begin?",
+      "tutor_only": {
+        "confirm": "Right. In the square at the centre of the town.",
+        "correct_reason": "The passage says to stand in the square at the centre, where the stalls go up on Saturday, and walk out from it.",
+        "tell": "The walk starts where the town started: the market square. Everything else is measured by how far it is from there.",
+        "help": [
+          "Find the sentence that begins 'Stand in the square'.",
+          "It names the place the stalls go up on Saturday."
+        ],
+        "say_back": "own_words",
+        "core_idea": "In the square at the centre.",
+        "accept_ideas": [
+          "the market square",
+          "the square in the middle of the town",
+          "where the Saturday stalls are"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what day it is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the first ring of shopfronts",
+            "ask": "The shopfronts are the first ring, not the start. Where does the passage say to stand?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The shopfronts were built while carts came to the square. What changed for the houses behind walls?",
+      "tutor_only": {
+        "confirm": "Yes. The market moved to a covered hall and traders wanted quiet.",
+        "correct_reason": "The passage says the houses behind walls came when the market moved to a covered hall and traders wanted quiet at the door.",
+        "tell": "The town changed its market, and the quieter trade moved out with it. A ring of houses behind walls is the record of that move.",
+        "help": [
+          "Find the sentence that begins 'The houses behind walls came'.",
+          "It names the building the market moved into."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The market moved to a covered hall and traders wanted quiet.",
+        "accept_ideas": [
+          "the market moved indoors",
+          "the market moved to a covered hall",
+          "traders wanted quiet, so the market changed"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "when the hall was built"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the carts could not fit in the streets",
+            "ask": "The passage gives a new building and a new wish. What did the market move into?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the passage say the sheds came last?",
+      "tutor_only": {
+        "confirm": "Right. They came with the vans that replaced the railway.",
+        "correct_reason": "The passage says the sheds came last, with the vans that replaced the railway.",
+        "tell": "Each ring is tied to a way of moving goods. The sheds belong to the vans, so they arrive after the railway that carried the goods before them.",
+        "help": [
+          "Find the last sentence of that part before the walk is summed up.",
+          "It names what replaced the railway."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The vans replaced the railway.",
+        "accept_ideas": [
+          "vans replaced the railway",
+          "they came with the vans",
+          "road transport replaced the trains"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many sheds there are"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says sheds are the cheapest to build",
+            "ask": "The passage links each ring to a way of moving goods. What replaced the railway?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The passage says walking outward is walking backward in time. Why is that true here?",
+      "tutor_only": {
+        "confirm": "Yes. Each ring was built in a later century than the one inside it.",
+        "correct_reason": "The passage says each ring was built in a different century, and the walk starts at the old centre and moves outward through the shopfronts, the walled houses, the gardens and the sheds.",
+        "tell": "The oldest building is at the centre, and each ring outward is newer. So the walk from the square goes forward through space and backward through the town's history.",
+        "help": [
+          "Find the first sentence of the part, about the centuries.",
+          "It says where in the walk the older rings sit."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Each ring outward was built in a later century than the one inside it.",
+        "accept_ideas": [
+          "the oldest ring is nearest the square",
+          "the rings get newer as you walk out",
+          "each ring was built in a different century"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which century the square is from"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the streets were rebuilt",
+            "ask": "The passage says each ring was built in a different century. Which ring is oldest?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "text_structure",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What does the ring plan show a planner that a street directory cannot?",
+      "tutor_only": {
+        "confirm": "Right. The order in which the town grew.",
+        "correct_reason": "The passage says a directory lists streets in alphabetical order, which is useless for seeing how the town grew, and the plan of a place is also its record.",
+        "tell": "A directory answers where a street is. The rings answer when the town reached that ground, which is the question a planner is asking.",
+        "help": [
+          "Find the sentence about the alphabetical order.",
+          "It names what the directory is useless for."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The order in which the town grew.",
+        "accept_ideas": [
+          "how the town grew",
+          "which parts of the town are oldest",
+          "the order the rings were built in"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many streets the directory lists"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the directory lists names and the rings do not",
+            "ask": "Names are not the difference the passage cares about. What is the directory useless for seeing?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "text_structure_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The next text-structure stage is not authored yet, so the ladder holds here.",
+    "student_line": "You have the move. The next reading is another lesson on this skill in this band."
+  },
+  "retry": {
+    "next_file": "text_structure_band_4_2_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "text_structure_band_4_2_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
