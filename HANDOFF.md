@@ -172,7 +172,10 @@ the authored route and the ladder agree.
    text_structure 3.1, 4.1, 4.2 and 4.3 lessons were drafted under `2.6`, and every one says
    `drafted_by: "TC"` and `text_status` "Drafted for the band, accepted on spot check." Band 5+
 cannot use that route. Since 2026-11-02 the control is a random spot-check rotation, not a full-file
-review: no drafted passage has been read line by line, and no file claims otherwise.
+review: no drafted passage has been read line by line, and no file claims otherwise. Twelve adapted
+lessons (inference 4.1, main_idea 4.2) are unreviewed in the same way and join the same rotation,
+under 2.5 as amended on 2026-11-02: below band 5, adaptation follows the 2.6 regime instead of
+requiring a separate named approval.
 3. **No `text-bank` rows** for 30 of those drafted passages. Provenance lives only in each source
    block, and those are the four rungs named at the end of this item. The six adapted `main_idea` 4.2 passages are banked (TB-009 to TB-014), the six drafted
    4.3 passages are banked (TB-015 to TB-020), the eighteen earlier vocab passages are banked (TB-021
@@ -207,7 +210,7 @@ review: no drafted passage has been read line by line, and no file claims otherw
 
 1. `process 3.1`, six lessons — the next vertical now that text_structure is closed through 4.3. `argument_evidence` and `authors_craft` need the grade-3 load decision
    before authoring.
-2. Start the random spot-check rotation over the 84 drafted lessons (DESIGN_RULES 2.6). Sample a
+2. Start the random spot-check rotation over the 84 drafted and 12 adapted lessons (96 files, DESIGN_RULES 2.6 and 2.5). Sample a
    rung at random, read it against its items, and fix any defect corpus-wide; record the sample and
    the date in `research/reading-instruction/coldchat-log.md`. A file that is read end to end gets
    `source.reviewed_by` with the date, so read files can be told from unread ones.

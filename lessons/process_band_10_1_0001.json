@@ -9,6 +9,7 @@
     "skill_frame": "Follow a multi-stage process: track the stage order and what a failure changes.",
     "source": {
       "basis": "The stages follow the standard municipal wastewater treatment sequence taught in public-domain engineering texts and described by current utility agencies. Written fresh for this lesson.",
+      "attribution": "Original text written for process 10.1, Band 10.1, sequence 1. No external work.",
       "text_status": "Written for this lesson at a controlled reading length. Not a verbatim excerpt.",
       "avoided": "No chemistry formulas, no bacteria species names, no local regulations. No claim that treated water is drinkable."
     },

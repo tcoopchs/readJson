@@ -159,8 +159,11 @@ simplify, paraphrase, or regenerate it during a session.
    - **The license must permit derivative works**: public domain, CC0, or CC BY. Never adapt
      NoDerivatives material, and never adapt ShareAlike material into a lesson file. Adaptation of a
      CC BY work must say that changes were made, as that license requires.
-   - **A human reviews and approves the final text** before it is banked. Unreviewed output is a
-     draft, whatever produced it.
+   - **Approval depends on the band.** At band 5 and above, a person reviews and approves the final
+     text before it is banked. Below band 5, an adapted passage follows the 2.6 regime instead: the
+     file carries `source.drafted_by` for accountability and `source.text_status` "adapted, reading
+     load reduced," and it joins the same random spot-check rotation as drafted text. Unreviewed
+     output is a draft, whatever produced it.
    - **Adaptation may simplify, never invent.** Shorter sentences, common words, split clauses,
      removed asides. It may not add facts, examples, or explanations the source does not contain,
      and it may not change the argument or the sequence of events.
@@ -170,12 +173,18 @@ simplify, paraphrase, or regenerate it during a session.
    - **Re-map the evidence afterwards.** A simplified sentence can delete the clue an item depended
      on. Write or rewrite every item against the adapted text, never against the original.
 
+`source.attribution` is present on every source. For an external work it is the full citation with
+the exact URL and access date; for original text it is one line saying the text was written for this
+lesson and naming no external work. The reuse gate keys work identity on it, so a missing attribution
+hides the lesson from the uniqueness check rather than exempting it.
+
 At band 5 and above, items are never AI-drafted: the answer key is authored. Below band 5, 2.6
 applies. Never invent a citation.
 
-**2.6 Sourcing depends on the band.** This section is the only statement of the sourcing rule.
-Plans, handoffs, checklists, and authoring guides point here instead of restating it; a restatement
-that differs from this paragraph is stale, and this paragraph wins.
+**2.6 Sourcing depends on the band.** This section is the only statement of the band rule; the three
+routes themselves, and how an adaptation is made, are 2.5. Plans, handoffs, checklists, and authoring
+guides point here instead of restating it; a restatement that differs from this paragraph is stale,
+and this paragraph wins.
 
 Band 5 and above: every passage is based on human-written text —
 verbatim, adapted from a named work under 2.5, or written by a person for the lesson. No AI-drafted
