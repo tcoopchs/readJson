@@ -1,0 +1,246 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_3_1_0005",
+  "meta": {
+    "status": "published",
+    "title": "Taking Down the Rink",
+    "skill": "process",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Process: run the same steps backward and see why the order reverses.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 2.54 and 3.06 on the two parts (64 and 75 words), 2.8 together. The load is one chain run forward in the first part and backward in the second, so the reader has to reverse the order instead of reading it off the time words.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 3.1, band 3.1, sequence 5. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A town rink built in fall and taken down in spring, built so the fall order is stated once and the spring work reverses it, with the liner and boards as the reason.",
+      "avoided": "No town, league, size, cost, or machine brand. No claim about how thick the ice gets."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The same chain is given forward and then backward; the time words mark the backward run, so the reader must reverse the order."
+    },
+    "authoring_exceptions": [
+      "Parts run 57-80 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the structure stays visible on one screen. Recorded under 2.1.",
+      "Advance routes to process_band_3_1_0001. No process rung above 3.1 is authored yet, so a clear holds at the top of this rung rather than pointing at a band that does not exist; repoint it when process 4.1 lands."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "In October the rink goes up in one order. The boards go down first and are pinned together at the corners. Then the liner is spread inside the boards. Then the water goes in and freezes. When the ice is thick, the season starts. In March the same work runs backward. The last step of the fall becomes the first step of the spring.",
+    "part_2": "First the ice is broken and pushed out through a door in the boards. Then the chiller is shut off, and the pipes are drained. Water left in a pipe can freeze and split it. The liner is pulled up and folded once the ice is gone. Only then do the boards come down, section by section. A board pulled before the ice is out tears the liner. A torn liner leaks all next season."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "In October, what goes down first?",
+      "tutor_only": {
+        "confirm": "Right. The boards.",
+        "correct_reason": "The second sentence says the boards go down first and are pinned together at the corners.",
+        "tell": "The boards go down first in October. Then the liner, and then the water.",
+        "help": [
+          "The second sentence names what goes down first.",
+          "It is the thing the liner sits inside."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The boards.",
+        "accept_ideas": [
+          "the boards",
+          "the boards go down first",
+          "the rink boards"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the boards are"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the water",
+            "ask": "Water is the last thing in the fall. What goes down first?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The passage says the last step of the fall becomes the first step of the spring. What is that step?",
+      "tutor_only": {
+        "confirm": "Yes. The water going in and freezing, so the ice comes out first in March.",
+        "correct_reason": "The fall order runs boards, liner, water. Water is the last step of the fall, so the ice is the first thing taken out in March.",
+        "tell": "Water goes in last in the fall and freezes. In March that ice is the first thing taken out.",
+        "help": [
+          "The fall order runs boards, liner, water.",
+          "The last of those is what March takes out first."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The water going in and freezing, so the ice is the first thing taken out.",
+        "accept_ideas": [
+          "the water going in",
+          "the freezing of the water",
+          "the ice"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how cold the water is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the boards",
+            "ask": "The boards are the first step of the fall. Which step comes last in the fall?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why do the boards come down last in March?",
+      "tutor_only": {
+        "confirm": "Right. A board pulled before the ice is out tears the liner.",
+        "correct_reason": "The second part says a board pulled before the ice is out tears the liner, and a torn liner leaks all next season.",
+        "tell": "A board pulled before the ice is out tears the liner. So the ice goes first and the boards come down last.",
+        "help": [
+          "The last two sentences of the passage are about pulling a board early.",
+          "They name what gets torn."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A board pulled before the ice is out tears the liner.",
+        "accept_ideas": [
+          "it would tear the liner",
+          "the liner would tear",
+          "a board pulled early tears the liner"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who pulls the boards"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the boards are heavy",
+            "ask": "The passage names what a board does to the liner. What is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why are the pipes drained in March?",
+      "tutor_only": {
+        "confirm": "Yes. So water left in them cannot freeze and split them.",
+        "correct_reason": "The second part says water left in a pipe can freeze and split it.",
+        "tell": "Water left in a pipe can freeze and split it. Draining the pipes is how the crew keeps them whole until fall.",
+        "help": [
+          "One sentence about a pipe says what freezing water does to it.",
+          "It names what happens to the pipe."
+        ],
+        "say_back": "own_words",
+        "core_idea": "So water left in them cannot freeze and split them.",
+        "accept_ideas": [
+          "so water in them does not freeze and split them",
+          "water left in a pipe can freeze and split it",
+          "so the pipes do not split"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "where the water goes"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says to clean the pipes",
+            "ask": "The passage gives a reason about water and cold. What can water do to a pipe?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The rink goes up in one order and comes down in the other. Why does the work have to run backward in March?",
+      "tutor_only": {
+        "confirm": "Right. What went in last has to come out first.",
+        "correct_reason": "The water sits on the liner and the boards hold the liner in, so the ice has to come out before the liner and the liner before the boards. That is the fall order reversed.",
+        "tell": "The water sits on the liner, and the boards hold the liner in. So the ice comes out before the liner, and the liner before the boards.",
+        "help": [
+          "Think about what the water sits on and what holds the liner.",
+          "The thing put in last is the thing on top."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Each thing sits inside the one before it, so what went in last comes out first.",
+        "accept_ideas": [
+          "the ice sits on the liner and the liner inside the boards",
+          "what went in last comes out first",
+          "the ice has to come out before the liner and boards"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many sections of board"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says because the season is over",
+            "ask": "The season ending is why the work happens. What makes the order reverse?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "The top of this band, because no higher process band is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_3_1_0005",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

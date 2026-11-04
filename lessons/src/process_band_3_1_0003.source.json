@@ -1,0 +1,246 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_3_1_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Beaver's Pond",
+    "skill": "process",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Process: see what fails when one step is left out.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 3.29 and 3.54 on the two parts (62 and 73 words), 3.4 together. The load is one chain of five steps, and the second part says which step cannot be skipped and what happens without it.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 3.1, band 3.1, sequence 3. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A beaver building a pond wall, built so the mud step carries the whole result and its absence is shown as a failure rather than described as a mistake.",
+      "avoided": "No species name, river name, measurement, or season beyond winter. No claim about beaver numbers."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One chain of five steps; the failure of a missing step is stated, and the reader must connect the failure to that step."
+    },
+    "authoring_exceptions": [
+      "Parts run 57-80 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the structure stays visible on one screen. Recorded under 2.1.",
+      "Advance routes to process_band_3_1_0001. No process rung above 3.1 is authored yet, so a clear holds at the top of this rung rather than pointing at a band that does not exist; repoint it when process 4.1 lands."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A beaver starts where a stream runs narrow and fast. It cuts small trees and drags them into the water. The branches catch on the bottom and on each other. Then the beaver packs mud and stones against the branches with its front feet. Water slows against the mud wall. The pond behind the wall rises and spreads over the flat ground.",
+    "part_2": "The mud is not a finish. Sticks alone leave gaps, and water runs straight through the gaps. With the gaps open, the stream keeps its old speed and the pond never rises. The beaver keeps packing until the water stops running through. A wall of sticks with no mud holds nothing. Once the pond is deep, the beaver builds its lodge in the water, where the door stays under the ice in winter."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Where does a beaver start its work?",
+      "tutor_only": {
+        "confirm": "Right. Where the stream runs narrow and fast.",
+        "correct_reason": "The first sentence names the place: a spot where the stream runs narrow and fast.",
+        "tell": "The beaver starts where the stream runs narrow and fast. A narrow, fast place is where a wall can hold.",
+        "help": [
+          "The first sentence names the place.",
+          "It describes how the stream runs there."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Where the stream runs narrow and fast.",
+        "accept_ideas": [
+          "where the stream is narrow and fast",
+          "at a narrow, fast part of the stream",
+          "in a narrow place in the stream"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how wide the stream is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says in a pond",
+            "ask": "The pond comes later. Where does the beaver start?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the beaver pack against the branches?",
+      "tutor_only": {
+        "confirm": "Yes. Mud and stones.",
+        "correct_reason": "The fourth sentence says the beaver packs mud and stones against the branches with its front feet.",
+        "tell": "The beaver packs mud and stones against the branches with its front feet. That packed wall is what slows the water.",
+        "help": [
+          "One sentence names what the beaver packs with its front feet.",
+          "It is two things taken from the bank."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Mud and stones.",
+        "accept_ideas": [
+          "mud and stones",
+          "mud",
+          "stones and mud"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many stones"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says more branches",
+            "ask": "Branches go in first. What does the beaver press against them with its front feet?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Sticks alone leave gaps. What happens to the stream when the gaps stay open?",
+      "tutor_only": {
+        "confirm": "Right. The water runs straight through, so the stream keeps its old speed.",
+        "correct_reason": "The second part says water runs straight through the gaps, and with the gaps open the stream keeps its old speed and the pond never rises.",
+        "tell": "Water runs straight through the gaps. The stream keeps its old speed, so no pond forms behind the sticks.",
+        "help": [
+          "The sentence 'Sticks alone leave gaps' says what water does next.",
+          "It then says what the stream keeps."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The water runs straight through and the stream keeps its old speed.",
+        "accept_ideas": [
+          "the water runs through the gaps",
+          "the stream keeps its speed",
+          "the pond never rises"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how deep the water is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the sticks wash away",
+            "ask": "The passage says the sticks stay and the water goes through. What does the stream keep?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the beaver keep packing until the water stops running through?",
+      "tutor_only": {
+        "confirm": "Yes. Until the gaps are closed the wall holds nothing and the pond cannot rise.",
+        "correct_reason": "The second part says a wall of sticks with no mud holds nothing, and the pond never rises while the gaps are open. The packing stops only when the water stops running through.",
+        "tell": "A wall of sticks with open gaps holds nothing. The beaver packs until the water stops running through, because that is when the pond starts to rise.",
+        "help": [
+          "The passage says the beaver keeps packing until something stops.",
+          "It is the water going through the gaps."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Until the gaps are closed the wall holds nothing and the pond cannot rise.",
+        "accept_ideas": [
+          "the wall holds nothing with gaps",
+          "the pond will not rise until the gaps close",
+          "the water must stop before the pond fills"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the beaver works"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the beaver is building its house",
+            "ask": "The lodge comes later. What is the beaver waiting for at the wall?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Why must the pond be deep before the beaver builds its lodge?",
+      "tutor_only": {
+        "confirm": "Right. So the lodge door stays under the ice in winter.",
+        "correct_reason": "The last sentence says the lodge is built in the water, where the door stays under the ice in winter.",
+        "tell": "A deep pond keeps the lodge door under the water. Ice forms on top, and the door stays under it in winter.",
+        "help": [
+          "The last sentence of the passage gives the reason.",
+          "It is about the door and the ice."
+        ],
+        "say_back": "own_words",
+        "core_idea": "So the lodge door stays under the ice in winter.",
+        "accept_ideas": [
+          "so the door stays under the ice",
+          "so the door is under water in winter",
+          "the ice would close the door otherwise"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the lodge is made of"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says so the lodge floats",
+            "ask": "The last sentence gives one reason about the door. What covers the door in winter?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "The top of this band, because no higher process band is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_3_1_0004",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_3_1_0003",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

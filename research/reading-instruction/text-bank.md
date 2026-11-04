@@ -79,6 +79,12 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-066 | The Cost That Never Stops | Nonfiction | 4 | Band 4.3 | 323 words (three passages, 104-115 each) | 6.13 | `text_structure_band_4_3_0004` |
 | TB-067 | Four Sizes of Water | Nonfiction | 4 | Band 4.3 | 301 words (three passages, 100-101 each) | 6.15 | `text_structure_band_4_3_0005` |
 | TB-068 | Turn Until the Pulse Stops | Nonfiction | 4 | Band 4.3 | 319 words (three passages, 103-111 each) | 5.53 | `text_structure_band_4_3_0006` |
+| TB-069 | The Key That Would Not Turn | Nonfiction | 3 | Band 3.1 | 135 words (two passages, 66 and 69) | 3.18 | `process_band_3_1_0001` |
+| TB-070 | Jars That Seal | Nonfiction | 3 | Band 3.1 | 128 words (two passages, 57 and 71) | 2.41 | `process_band_3_1_0002` |
+| TB-071 | The Beaver's Pond | Nonfiction | 3 | Band 3.1 | 135 words (two passages, 62 and 73) | 3.39 | `process_band_3_1_0003` |
+| TB-072 | Firing a Kiln | Nonfiction | 3 | Band 3.1 | 143 words (two passages, 65 and 78) | 3.09 | `process_band_3_1_0004` |
+| TB-073 | Taking Down the Rink | Nonfiction | 3 | Band 3.1 | 139 words (two passages, 64 and 75) | 2.80 | `process_band_3_1_0005` |
+| TB-074 | Plowing the Pass | Nonfiction | 3 | Band 3.1 | 135 words (two passages, 66 and 69) | 3.01 | `process_band_3_1_0006` |
 
 ---
 
@@ -2297,6 +2303,203 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
 **Why it works.** The step repeats until a condition is met, so the reader has to find the exit test instead of a count, and the comparison with a recipe makes the difference visible.
 
 **Cautions.** No notation, no frequency in hertz, no instrument brand, no tuning system, and no ear-training advice.
+
+
+## TB-069 — The Key That Would Not Turn
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 135 words (two passages, 66 and 69 words) |
+| FK grade | 3.18 on the two passages together |
+| Complexity | L1, I1, S1, K1 |
+| Best lesson fit | `process_band_3_1_0001` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A key is cut in a fixed order because each step needs the one before it: the blank must match the old key, be clamped, be cut, and only then be filed.
+
+**Supporting details.**
+
+- The clerk lays the old key on a card and marks its shape first.
+- She picks a blank of the same size before she can clamp it.
+- The blank is clamped in the machine so it cannot move.
+- A loose blank jumps, and the cut teeth come out crooked.
+- The filing comes last because a file on a smooth blank has nothing to take off.
+
+**Why it works.** Four steps with the time words printed, then the same chain justified; the reader follows one step at a time and sees each step wait on the one before it.
+
+**Cautions.** No shop name, town, price, or key brand. No claim about how long the cutting takes.
+
+---
+
+## TB-070 — Jars That Seal
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | food and farming |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 128 words (two passages, 57 and 71 words) |
+| FK grade | 2.41 on the two passages together |
+| Complexity | L1, I1, S1, K1 |
+| Best lesson fit | `process_band_3_1_0002` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** Jam is sealed by filling hot jars while the jam is hot, because the shrinking jam pulls the lid tight, and a jar moved while it cools can lose that seal.
+
+**Supporting details.**
+
+- The jars and lids go into hot water before the jam is cooked.
+- The jam goes into a hot jar while it is still hot, and the lid goes on at once.
+- A hot jar does not crack when hot jam goes in.
+- The jam shrinks as it cools, and that pull makes the lid tight.
+- A jar moved while it cools can break its seal, and cool jam gives a loose lid.
+
+**Why it works.** Every position in the chain carries one stated reason, so the reader has to attach the reason to the step rather than remember the order alone.
+
+**Cautions.** No fruit, recipe, quantity, temperature, or brand. No claim about how long jam keeps.
+
+---
+
+## TB-071 — The Beaver's Pond
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 135 words (two passages, 62 and 73 words) |
+| FK grade | 3.39 on the two passages together |
+| Complexity | L1, I2, S1, K1 |
+| Best lesson fit | `process_band_3_1_0003` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A beaver's wall works only because mud closes the gaps between the sticks; without the mud the water runs straight through and no pond forms.
+
+**Supporting details.**
+
+- The beaver starts where the stream runs narrow and fast.
+- It cuts small trees and drags the branches into the water.
+- It packs mud and stones against the branches with its front feet.
+- Sticks alone leave gaps, the water runs through, and the stream keeps its old speed.
+- A wall of sticks with no mud holds nothing, so the beaver packs until the water stops.
+
+**Why it works.** The step that carries the whole result is named, and its absence is shown as a failure rather than described as a mistake, so the reader connects the missing step to the missing pond.
+
+**Cautions.** No species name, river name, measurement, or season beyond winter. No claim about beaver numbers.
+
+---
+
+## TB-072 — Firing a Kiln
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | arts and language |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 143 words (two passages, 65 and 78 words) |
+| FK grade | 3.09 on the two passages together |
+| Complexity | L1, I2, S1, K1 |
+| Best lesson fit | `process_band_3_1_0004` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** Two steps in firing end on a condition the potter watches rather than on a clock: the fire stays low until the kiln is warm all through, and the door stays shut while the kiln cools.
+
+**Supporting details.**
+
+- A pot is dry before it goes near the kiln.
+- The potter leaves a hand's width between the pots on the shelf.
+- The fire stays low until the kiln is warm all through, and she watches a cone through a spy hole.
+- The kiln must cool slowly with the door shut for most of a day.
+- Cold air shrinks the outside of a pot while the inside stays warm, and the pot cracks.
+
+**Why it works.** The reader has to hold a watched condition instead of a time, and the failure of opening the door early is stated as a result rather than as a rule.
+
+**Cautions.** No glaze, temperature, clay body, cone number, or kiln brand. No claim about how many pots fit.
+
+---
+
+## TB-073 — Taking Down the Rink
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | sport and play |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 139 words (two passages, 64 and 75 words) |
+| FK grade | 2.80 on the two passages together |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `process_band_3_1_0005` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The rink comes down in the reverse of the order it went up, because the water sits on the liner and the boards hold the liner in.
+
+**Supporting details.**
+
+- In October the boards go down first, then the liner, then the water.
+- The last step of the fall becomes the first step of the spring.
+- In March the ice is broken and pushed out through a door in the boards.
+- The pipes are drained because water left in a pipe can freeze and split it.
+- A board pulled before the ice is out tears the liner, and a torn liner leaks all next season.
+
+**Why it works.** The same chain is given forward and then backward, so the reader has to reverse the order instead of reading it off the time words.
+
+**Cautions.** No town, league, size, cost, or machine brand. No claim about how thick the ice gets.
+
+---
+
+## TB-074 — Plowing the Pass
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 135 words (two passages, 66 and 69 words) |
+| FK grade | 3.01 on the two passages together |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `process_band_3_1_0006` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A pass stays open only if the plow keeps making rounds while the snow falls, and the work ends on a condition, not on a count of trips.
+
+**Supporting details.**
+
+- The truck starts at the bottom gate with its blade down and works upward.
+- At the top it turns around and comes back down, then starts again.
+- New snow covers the lane the truck has cleared, so one trip does not clear the road.
+- Sand goes down after the plowing, because sand under new snow does nothing.
+- The work ends when the snow stops and the road stays black from gate to summit.
+
+**Why it works.** A round of steps that repeats, with the end stated as a condition, so the reader has to find the test for finishing instead of counting steps.
+
+**Cautions.** No pass name, state, altitude, or plow brand. No claim about how many trucks the crew runs.
 
 ---
 ## Rules for adding a text

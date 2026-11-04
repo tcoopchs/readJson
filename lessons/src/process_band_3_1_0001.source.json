@@ -1,0 +1,246 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_3_1_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Key That Would Not Turn",
+    "skill": "process",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "topic_domain": "work and trade",
+    "skill_frame": "Process: follow the order of steps and see why each step comes when it does.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 2.97 and 3.43 on the two parts (66 and 69 words), 3.2 together. The load is one chain of four steps in one place, with the time words printed in the text and the reason for the order stated in the second part. This sits below the grade-4 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 3.1, band 3.1, sequence 1. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A hardware store cutting a key from an old one, built so each step has one clear time word and the second part gives the reason each step sits where it does.",
+      "avoided": "No shop name, town, price, or key brand. No claim about how long the cutting takes."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One chain of four steps in one place; the order words are explicit and the reason for the order is stated."
+    },
+    "authoring_exceptions": [
+      "Parts run 57-80 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the structure stays visible on one screen. Recorded under 2.1.",
+      "Advance routes to process_band_3_1_0001. No process rung above 3.1 is authored yet, so a clear holds at the top of this rung rather than pointing at a band that does not exist; repoint it when process 4.1 lands."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "First, the clerk lays the old key on a card and marks its shape. Next, she picks a blank key of the same size. Then she clamps the blank in the cutting machine so it cannot move. The machine follows the old key and cuts the same teeth into the blank. Last, she runs a file along the new cuts to take off the sharp edges.",
+    "part_2": "The order is fixed. The blank cannot be clamped until the clerk knows which size to use. A blank held loosely will jump, and the cut teeth come out crooked. The filing comes last, after the cutting, because a file on a smooth blank has nothing to take off. When the key is done, the clerk tries it in the shop door. If it turns, she hands it over."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "In the section that begins 'First, the clerk lays the old key,' what does she do first?",
+      "tutor_only": {
+        "confirm": "Right. She lays the old key on a card and marks its shape.",
+        "correct_reason": "The first sentence names the first step: she lays the old key on a card and marks its shape.",
+        "tell": "The first step is laying the old key on a card and marking its shape. First marks the step before all the others.",
+        "help": [
+          "The sentence that starts with First names the first step.",
+          "That sentence is about the old key and a card."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She lays the old key on a card and marks its shape.",
+        "accept_ideas": [
+          "she lays the old key on a card",
+          "she marks the shape of the old key",
+          "she puts the old key on a card"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the card is made of"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she cuts the teeth",
+            "ask": "The teeth are cut later. What is the first thing she does with the old key?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What must happen to the blank before the machine cuts the teeth?",
+      "tutor_only": {
+        "confirm": "Yes. It is clamped so it cannot move.",
+        "correct_reason": "The third sentence says she clamps the blank in the cutting machine so it cannot move, and the cut comes after that.",
+        "tell": "The blank is clamped in the machine before the cut. A loose blank jumps, so the teeth would come out crooked.",
+        "help": [
+          "The sentence after the blank is chosen says what she does with it.",
+          "The word in that sentence is clamp."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It is clamped so it cannot move.",
+        "accept_ideas": [
+          "the clerk clamps it in the machine",
+          "it is clamped",
+          "she clamps the blank"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the clamp holds the blank"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the clerk files the blank",
+            "ask": "Filing comes after the cutting. What happens to the blank before the cutting?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the blank have to be held tightly?",
+      "tutor_only": {
+        "confirm": "Right. A loose blank jumps and the teeth come out crooked.",
+        "correct_reason": "The second part says a blank held loosely will jump, and the cut teeth come out crooked.",
+        "tell": "A blank held loosely jumps while the machine cuts. The jump makes the teeth crooked, so the key will not turn.",
+        "help": [
+          "The sentence that begins 'A blank held loosely will jump' says what happens.",
+          "The next sentence names what happens to the cut teeth."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A loose blank jumps and the cut teeth come out crooked.",
+        "accept_ideas": [
+          "a loose blank will jump",
+          "the teeth come out crooked",
+          "so the cut is straight"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how loud the machine is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says so the machine does not break",
+            "ask": "The passage names what a loose blank does. What happens to the teeth?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the filing come last, after the cutting?",
+      "tutor_only": {
+        "confirm": "Yes. A file on a smooth blank has nothing to take off.",
+        "correct_reason": "The second part says the filing comes last because a file on a smooth blank has nothing to take off; the sharp edges only exist after the cut.",
+        "tell": "The cutting leaves sharp edges. Before the cut there is nothing for the file to take off, so filing comes last.",
+        "help": [
+          "The sentence that begins 'The filing comes last' gives the reason.",
+          "It is about what a file would find on a blank that has not been cut."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A file on a smooth blank has nothing to take off.",
+        "accept_ideas": [
+          "the cuts leave sharp edges to file",
+          "a smooth blank has nothing to file",
+          "the edges are sharp only after the cutting"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the file is made of"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the filing makes the whole key smooth",
+            "ask": "The passage gives a reason about the blank before the cut. What is there to file then?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage says 'The order is fixed.' What makes the order fixed?",
+      "tutor_only": {
+        "confirm": "Right. Each step needs the step before it.",
+        "correct_reason": "The clerk cannot clamp a blank until she knows the size, and the file needs cut edges. Each step waits on the one before it, which is what fixes the order.",
+        "tell": "The clerk must know the size before she can clamp a blank. The file needs cut edges before it can smooth them. Each step waits on the one before.",
+        "help": [
+          "Think about what the clerk needs before she can clamp a blank.",
+          "Then think about what the file needs before it can smooth anything."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Each step needs the step before it.",
+        "accept_ideas": [
+          "each step needs the one before it",
+          "she cannot clamp the blank until she knows the size",
+          "the steps depend on each other"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many steps there are"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the shop has a rule about the order",
+            "ask": "The passage gives a reason from the work itself. Which step needs the one before it?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "The top of this band, because no higher process band is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_3_1_0002",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -1,6 +1,6 @@
 {
   "bank_version": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "rubric": "L/I/S/K 0-3; band is highest demand, grade_target is the reader label",
   "texts": [
     {
@@ -2423,6 +2423,228 @@
       "why_it_works": "The step repeats until a condition is met, so the reader has to find the exit test instead of a count, and the comparison with a recipe makes the difference visible.",
       "cautions": "No notation, no frequency in hertz, no instrument brand, no tuning system, and no ear-training advice.",
       "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-069",
+      "title": "The Key That Would Not Turn",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (66, 69 words)",
+      "length_words": 135,
+      "fk_grade": 3.18,
+      "complexity": {
+        "language": 1,
+        "idea": 1,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_3_1_0001"
+      ],
+      "cell_use": "Owns its own lesson in process Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "A key is cut in a fixed order because each step needs the one before it: the blank must match the old key, be clamped, be cut, and only then be filed.",
+      "supporting_details": [
+        "The clerk lays the old key on a card and marks its shape first.",
+        "She picks a blank of the same size before she can clamp it.",
+        "The blank is clamped in the machine so it cannot move.",
+        "A loose blank jumps, and the cut teeth come out crooked.",
+        "The filing comes last because a file on a smooth blank has nothing to take off."
+      ],
+      "why_it_works": "Four steps with the time words printed, then the same chain justified; the reader follows one step at a time and sees each step wait on the one before it.",
+      "cautions": "No shop name, town, price, or key brand. No claim about how long the cutting takes.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-070",
+      "title": "Jars That Seal",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (57, 71 words)",
+      "length_words": 128,
+      "fk_grade": 2.41,
+      "complexity": {
+        "language": 1,
+        "idea": 1,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_3_1_0002"
+      ],
+      "cell_use": "Owns its own lesson in process Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "Jam is sealed by filling hot jars while the jam is hot, because the shrinking jam pulls the lid tight, and a jar moved while it cools can lose that seal.",
+      "supporting_details": [
+        "The jars and lids go into hot water before the jam is cooked.",
+        "The jam goes into a hot jar while it is still hot, and the lid goes on at once.",
+        "A hot jar does not crack when hot jam goes in.",
+        "The jam shrinks as it cools, and that pull makes the lid tight.",
+        "A jar moved while it cools can break its seal, and cool jam gives a loose lid."
+      ],
+      "why_it_works": "Every position in the chain carries one stated reason, so the reader has to attach the reason to the step rather than remember the order alone.",
+      "cautions": "No fruit, recipe, quantity, temperature, or brand. No claim about how long jam keeps.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-071",
+      "title": "The Beaver's Pond",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (62, 73 words)",
+      "length_words": 135,
+      "fk_grade": 3.39,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_3_1_0003"
+      ],
+      "cell_use": "Owns its own lesson in process Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "A beaver's wall works only because mud closes the gaps between the sticks; without the mud the water runs straight through and no pond forms.",
+      "supporting_details": [
+        "The beaver starts where the stream runs narrow and fast.",
+        "It cuts small trees and drags the branches into the water.",
+        "It packs mud and stones against the branches with its front feet.",
+        "Sticks alone leave gaps, the water runs through, and the stream keeps its old speed.",
+        "A wall of sticks with no mud holds nothing, so the beaver packs until the water stops."
+      ],
+      "why_it_works": "The step that carries the whole result is named, and its absence is shown as a failure rather than described as a mistake, so the reader connects the missing step to the missing pond.",
+      "cautions": "No species name, river name, measurement, or season beyond winter. No claim about beaver numbers.",
+      "topic_domain": "science and nature",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-072",
+      "title": "Firing a Kiln",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (65, 78 words)",
+      "length_words": 143,
+      "fk_grade": 3.09,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_3_1_0004"
+      ],
+      "cell_use": "Owns its own lesson in process Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "Two steps in firing end on a condition the potter watches rather than on a clock: the fire stays low until the kiln is warm all through, and the door stays shut while the kiln cools.",
+      "supporting_details": [
+        "A pot is dry before it goes near the kiln.",
+        "The potter leaves a hand's width between the pots on the shelf.",
+        "The fire stays low until the kiln is warm all through, and she watches a cone through a spy hole.",
+        "The kiln must cool slowly with the door shut for most of a day.",
+        "Cold air shrinks the outside of a pot while the inside stays warm, and the pot cracks."
+      ],
+      "why_it_works": "The reader has to hold a watched condition instead of a time, and the failure of opening the door early is stated as a result rather than as a rule.",
+      "cautions": "No glaze, temperature, clay body, cone number, or kiln brand. No claim about how many pots fit.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-073",
+      "title": "Taking Down the Rink",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (64, 75 words)",
+      "length_words": 139,
+      "fk_grade": 2.8,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_3_1_0005"
+      ],
+      "cell_use": "Owns its own lesson in process Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "The rink comes down in the reverse of the order it went up, because the water sits on the liner and the boards hold the liner in.",
+      "supporting_details": [
+        "In October the boards go down first, then the liner, then the water.",
+        "The last step of the fall becomes the first step of the spring.",
+        "In March the ice is broken and pushed out through a door in the boards.",
+        "The pipes are drained because water left in a pipe can freeze and split it.",
+        "A board pulled before the ice is out tears the liner, and a torn liner leaks all next season."
+      ],
+      "why_it_works": "The same chain is given forward and then backward, so the reader has to reverse the order instead of reading it off the time words.",
+      "cautions": "No town, league, size, cost, or machine brand. No claim about how thick the ice gets.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-074",
+      "title": "Plowing the Pass",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (66, 69 words)",
+      "length_words": 135,
+      "fk_grade": 3.01,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_3_1_0006"
+      ],
+      "cell_use": "Owns its own lesson in process Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "A pass stays open only if the plow keeps making rounds while the snow falls, and the work ends on a condition, not on a count of trips.",
+      "supporting_details": [
+        "The truck starts at the bottom gate with its blade down and works upward.",
+        "At the top it turns around and comes back down, then starts again.",
+        "New snow covers the lane the truck has cleared, so one trip does not clear the road.",
+        "Sand goes down after the plowing, because sand under new snow does nothing.",
+        "The work ends when the snow stops and the road stays black from gate to summit."
+      ],
+      "why_it_works": "A round of steps that repeats, with the end stated as a condition, so the reader has to find the test for finishing instead of counting steps.",
+      "cautions": "No pass name, state, altitude, or plow brand. No claim about how many trucks the crew runs.",
+      "topic_domain": "places and travel",
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, accepted on spot check.",
       "drafted_by": "TC"

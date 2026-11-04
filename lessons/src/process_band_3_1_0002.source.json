@@ -1,0 +1,246 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_3_1_0002",
+  "meta": {
+    "status": "published",
+    "title": "Jars That Seal",
+    "skill": "process",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Process: see why each step comes before the next one.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 2.73 and 2.15 on the two parts (57 and 71 words), 2.4 together. The load is one chain of four steps, then the same chain with a reason attached to each step. Each reason is stated in one plain sentence.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 3.1, band 3.1, sequence 2. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "Jars filled with hot jam and sealed as they cool, built so every position in the chain has one stated reason and the failure of a wrong order is shown at the end.",
+      "avoided": "No fruit, recipe, quantity, temperature, or brand. No claim about how long jam keeps."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One chain of four steps with a stated reason for each position; the reader must attach each reason to its step."
+    },
+    "authoring_exceptions": [
+      "Parts run 57-80 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the structure stays visible on one screen. Recorded under 2.1.",
+      "Advance routes to process_band_3_1_0001. No process rung above 3.1 is authored yet, so a clear holds at the top of this rung rather than pointing at a band that does not exist; repoint it when process 4.1 lands."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Making jam ends with the jars, not the fruit. First the jars and lids go into hot water. Then the jam is cooked until it thickens. While the jam is still hot, it goes into a hot jar, and the lid goes on at once. Then the jars stand on a board and cool without being moved.",
+    "part_2": "Each step has a reason. A hot jar does not crack when hot jam goes in. The lid goes on while the jam is hot because the jam shrinks as it cools. That pull makes the lid tight and holds the seal. A jar moved while it cools can break its seal. A cook who waits for the jam to cool before filling gets a loose lid and jam that spoils."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "In the section that begins 'Making jam ends with the jars,' what goes into hot water first?",
+      "tutor_only": {
+        "confirm": "Right. The jars and their lids.",
+        "correct_reason": "The second sentence names the first step: the jars and lids go into hot water.",
+        "tell": "The jars and their lids go into hot water first. The jam is cooked after that.",
+        "help": [
+          "The second sentence of the part names what goes into hot water.",
+          "It is the two things that hold the jam."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The jars and their lids.",
+        "accept_ideas": [
+          "the jars and the lids",
+          "the jars",
+          "the jars and lids"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how big the jars are"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the jam",
+            "ask": "The jam is cooked after the jars are hot. What goes into the hot water?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "When does the lid go on the jar?",
+      "tutor_only": {
+        "confirm": "Yes. At once, while the jam is still hot.",
+        "correct_reason": "The fourth sentence says the lid goes on at once, while the jam is still hot.",
+        "tell": "The lid goes on at once, while the jam is still hot. The next part says why.",
+        "help": [
+          "The fourth sentence says when the lid goes on.",
+          "It uses the word hot."
+        ],
+        "say_back": "own_words",
+        "core_idea": "At once, while the jam is still hot.",
+        "accept_ideas": [
+          "while the jam is hot",
+          "at once, while the jam is still hot",
+          "as soon as the hot jam goes in"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which way the lid turns"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says after the jar cools",
+            "ask": "The passage says the lid goes on at once. When is that?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the lid go on while the jam is hot?",
+      "tutor_only": {
+        "confirm": "Right. The jam shrinks as it cools, and that pull makes the lid tight.",
+        "correct_reason": "The second part says the lid goes on while the jam is hot because the jam shrinks as it cools, and that pull makes the lid tight and holds the seal.",
+        "tell": "Jam shrinks as it cools. The shrinking pulls the lid tight against the jar and holds the seal.",
+        "help": [
+          "The sentence that begins 'The lid goes on while the jam is hot' says what the jam does.",
+          "That pull is what makes the lid tight."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The jam shrinks as it cools, and that pull makes the lid tight.",
+        "accept_ideas": [
+          "the jam shrinks as it cools",
+          "the cooling pulls the lid tight",
+          "so the lid seals tight"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the jam shrinks"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says so the jar does not crack",
+            "ask": "The hot jar is what keeps it from cracking. What does the cooling jam do to the lid?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why must the jars stand still while they cool?",
+      "tutor_only": {
+        "confirm": "Yes. A jar moved while it cools can break its seal.",
+        "correct_reason": "The second part says a jar moved while it cools can break its seal.",
+        "tell": "A jar that is moved while it cools can break its seal. A broken seal lets air in, and the jam spoils.",
+        "help": [
+          "The passage says a jar moved while it cools can break one thing.",
+          "It is the seal."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A jar moved while it cools can break its seal.",
+        "accept_ideas": [
+          "moving can break the seal",
+          "the seal can break if the jar is moved",
+          "so the seal holds"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "where the board sits"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says so the jars do not fall over",
+            "ask": "The passage gives a reason about the seal. What can a moved jar lose?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "A cook lets the jam cool in the pot and then fills the jars. What goes wrong, and why?",
+      "tutor_only": {
+        "confirm": "Right. The lid stays loose because there is no shrinking pull, and the jam spoils.",
+        "correct_reason": "The lid is held tight by the pull of jam shrinking in the jar. Cool jam does not shrink after filling, so the last sentence's loose lid follows.",
+        "tell": "Cool jam does not shrink inside the jar. The lid stays loose, air gets in, and the jam spoils.",
+        "help": [
+          "The last sentence of the passage names the result of filling cool jam.",
+          "It says what happens to the jam."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The lid stays loose because the jam does not shrink in the jar, so the jam spoils.",
+        "accept_ideas": [
+          "the lid will not seal",
+          "the lid stays loose and the jam spoils",
+          "no tight seal, so the jam spoils"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the cook notices"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the jars will crack",
+            "ask": "The jars are still hot in this case. The passage names the result of a loose lid. What is it?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "The top of this band, because no higher process band is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_3_1_0003",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_3_1_0002",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

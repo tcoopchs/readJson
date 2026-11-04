@@ -1,0 +1,246 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_3_1_0004",
+  "meta": {
+    "status": "published",
+    "title": "Firing a Kiln",
+    "skill": "process",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "topic_domain": "arts and language",
+    "skill_frame": "Process: see that some steps wait for a condition, not for a clock.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 2.43 and 3.70 on the two parts (65 and 78 words), 3.1 together. The load is one chain of four steps where two steps end on something the potter watches rather than on a set time. The condition is named in the text each time.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 3.1, band 3.1, sequence 4. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A potter firing and then cooling a kiln, built so the fire's length and the cooling are both conditions the potter watches, and opening the door early is shown as the failure.",
+      "avoided": "No glaze, temperature, clay body, cone number, or kiln brand. No claim about how many pots fit."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One chain where two steps end on a watched condition rather than a time; the reader must hold the condition and the failure it prevents."
+    },
+    "authoring_exceptions": [
+      "Parts run 57-80 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the structure stays visible on one screen. Recorded under 2.1.",
+      "Advance routes to process_band_3_1_0001. No process rung above 3.1 is authored yet, so a clear holds at the top of this rung rather than pointing at a band that does not exist; repoint it when process 4.1 lands."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A pot is dry before it goes near the kiln. The potter sets the pots on a shelf and leaves a hand's width between them. Then the kiln is closed and the fire is lit low. The heat must rise slowly. The potter watches a small cone inside the kiln through a spy hole. The fire stays low until the kiln is warm all through.",
+    "part_2": "After that the fire goes higher, and the clay hardens into a pot that holds water. Then comes the part that cannot be rushed. The kiln must cool slowly, with the door shut, for most of a day. A door opened while the kiln is hot lets cold air hit the pots. The outside shrinks and the inside does not, and the pot cracks. A cracked pot is thrown out, so the cooling is part of the work."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What must be true of a pot before it goes near the kiln?",
+      "tutor_only": {
+        "confirm": "Right. The pot must be dry.",
+        "correct_reason": "The first sentence says a pot is dry before it goes near the kiln.",
+        "tell": "A pot is dry before it goes near the kiln. Drying is the first step, and the fire comes later.",
+        "help": [
+          "The first sentence says what the pot is before it goes near the kiln.",
+          "It is one word about water."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It must be dry.",
+        "accept_ideas": [
+          "it must be dry",
+          "the pot is dry",
+          "dry"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how heavy the pot is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it must be glazed",
+            "ask": "The passage does not mention glaze. What is the first sentence about the pot?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "How long does the fire stay low?",
+      "tutor_only": {
+        "confirm": "Yes. Until the kiln is warm all through.",
+        "correct_reason": "The last sentence of the part says the fire stays low until the kiln is warm all through.",
+        "tell": "The fire stays low until the kiln is warm all through. The potter watches a cone through a spy hole while she waits.",
+        "help": [
+          "The last sentence of the part says when the fire goes higher.",
+          "It is a condition, not a time."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Until the kiln is warm all through.",
+        "accept_ideas": [
+          "until the kiln is warm all through",
+          "until the whole kiln is warm",
+          "until it is warm all through"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how big the kiln is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says for one hour",
+            "ask": "The passage gives no clock. What does it say the potter waits for?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why must the kiln door stay shut while the pots cool?",
+      "tutor_only": {
+        "confirm": "Right. Cold air would hit the pots, and they would crack.",
+        "correct_reason": "The second part says an open door lets cold air hit the pots, the outside shrinks and the inside does not, and the pot cracks.",
+        "tell": "An open door lets cold air reach the pots. The outside shrinks and the inside does not, so the pot cracks.",
+        "help": [
+          "Two sentences beginning 'A door opened while the kiln is hot' describe the door.",
+          "They name what happens to the outside and the inside of a pot."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Cold air would hit the pots, the outside would shrink, and the pots would crack.",
+        "accept_ideas": [
+          "cold air would hit the pots and crack them",
+          "the outside shrinks and the inside does not",
+          "the pots would crack"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the door is made of"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says to keep the heat in",
+            "ask": "The passage gives the result of opening the door. What happens to a pot?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The passage says 'the cooling is part of the work.' What does that mean?",
+      "tutor_only": {
+        "confirm": "Right. Cooling has to be done slowly, or the pot cracks.",
+        "correct_reason": "A pot cracks when the door is opened early, and a cracked pot is thrown out. So cooling is a step that has to be done right, not a wait after the work is over.",
+        "tell": "A pot can crack while it cools. The cooling has to be slow, and the door stays shut. That makes cooling a step to get right.",
+        "help": [
+          "The passage says a pot can crack during cooling.",
+          "A step that can ruin the pot has to be done right."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Cooling is a step that must be done right, not a wait after the work is over.",
+        "accept_ideas": [
+          "cooling has to be done slowly and carefully",
+          "the cooling is a step of the work",
+          "it is not a wait; it must be done right"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the potter passes the time"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the potter rests while the kiln cools",
+            "ask": "The passage says a pot can crack during cooling. Why would a wait count as work?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "A potter opens the kiln door early to save time. What happens, and why?",
+      "tutor_only": {
+        "confirm": "Right. The pots crack, because the outside shrinks before the inside.",
+        "correct_reason": "The second part says cold air hits the pots, the outside shrinks and the inside does not, and the pot cracks.",
+        "tell": "Cold air hits the pots and the outside shrinks first. The inside does not shrink with it, so the pots crack.",
+        "help": [
+          "The passage says cold air hits the pots after an open door.",
+          "The next sentence gives the reason."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The pots crack, because cold air shrinks the outside while the inside stays warm.",
+        "accept_ideas": [
+          "the pots crack because the outside shrinks first",
+          "the pots crack from cold air",
+          "cold air hits them and they crack"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much time is saved"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the pots stay soft",
+            "ask": "The passage names one result of an open door. What is it?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "The top of this band, because no higher process band is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_3_1_0005",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_3_1_0004",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

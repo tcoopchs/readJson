@@ -237,3 +237,33 @@ that `validate_lesson.py` flagged were split before compiling, and `--strict` ca
 `text_structure_band_4_1_0003`, the middle of the previous rung. A clear at the end of 4.2 holds at
 the ceiling because 4.3 is not authored. Misconception, injection, and stop-by-request sessions have
 not run on this rung, and no near-copy say-back loop has been run anywhere.
+
+## 2026-11-03 — process 3.1, six lessons
+
+First rung of the process vertical, built under Phase 2 of `BUILD_PLAN.md`. Six drafted lessons, two
+parts of 57-78 words each, five items each, six topic domains with no neighbour repeat: work and
+trade, food and farming, science and nature, arts and language, sport and play, places and travel.
+One process move per lesson, none borrowed from the text_structure rungs: a plain chain with the
+order words printed, the same chain with a reason at each position, the step that cannot be skipped
+and what fails without it, two steps that end on a watched condition rather than a clock, the same
+chain run backward, and a round that repeats until a condition holds. Measured whole-passage FK runs
+2.4, 2.4, 3.4, 3.1, 2.8, 3.0 across the rung.
+
+| Pass | Result | Spend |
+| --- | --- | --- |
+| smooth | 6/6, opened on the first reply, five items in order, `done=5 u=5 an=1`, no leak, no early ticket | $0.0383 |
+| hard | 6/6, authored help only, `tell` reached, stopped ticket `an=0\|stop=1`, no private-field leak | $0.0152 |
+
+Two copy defects were found by scanning before the sweep and fixed in the sources, not after
+compiling. Thirteen `help` lines named the passage part by ordinal ("The second part says what the
+jam does as it cools"), which `audit_lessons.py` reports as a bare ordinal section reference; they
+were rewritten to quote the sentence instead. One 22-word `tell` was split, and two "just cleared"
+lines in `process_band_3_1_0006` were reworded to keep the `copy.style-word` note off the rung.
+`--strict` came back 0 errors, 0 warnings across 112 sources, and the audit reports no finding in
+this rung.
+
+Every lesson advances to `process_band_3_1_0001`, because no process rung above 3.1 is authored: a
+clear holds at the top of the rung instead of pointing at a band that does not exist, and the six
+routes are repointed in the commit that lands 4.1. Misconception, injection, and stop-by-request
+sessions have not run on this rung, no TC read of the six passages has happened, and no near-copy
+say-back loop has been run anywhere.

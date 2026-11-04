@@ -1,0 +1,246 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_3_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "Plowing the Pass",
+    "skill": "process",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "places and travel",
+    "skill_frame": "Process: follow a step that repeats until the work is finished.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 2.29 and 3.82 on the two parts (66 and 69 words), 3.0 together. The load is one round of steps that repeats, with the end stated as a condition the crew watches rather than a number of trips.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 3.1, band 3.1, sequence 6. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A plow crew on a mountain pass, built so one round is stated and the repeating is shown as the only way the road stays open.",
+      "avoided": "No pass name, state, altitude, or plow brand. No claim about how many trucks the crew runs."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One round of steps that repeats; the end is a condition, so the reader must find the test for finishing instead of a count."
+    },
+    "authoring_exceptions": [
+      "Parts run 57-80 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the structure stays visible on one screen. Recorded under 2.1.",
+      "Advance routes to process_band_3_1_0001. No process rung above 3.1 is authored yet, so a clear holds at the top of this rung rather than pointing at a band that does not exist; repoint it when process 4.1 lands."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "On a mountain pass, snow is cleared in rounds, not in one pass. A plow truck starts at the bottom gate with its blade down. It pushes snow to the wide places at the side of the road and keeps climbing. At the top it turns around and comes back down. Then it starts again at the bottom gate. One trip does not clear the road.",
+    "part_2": "The road stays open only if the truck keeps going while the snow falls. New snow covers the lane the truck has just cleared. Sand goes down after the plowing, because sand under new snow does nothing. The crew works in rounds until the snow stops and the road stays black from gate to summit. A crew that plows once and goes home finds the pass shut by morning."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Where does the plow truck start?",
+      "tutor_only": {
+        "confirm": "Right. At the bottom gate, with its blade down.",
+        "correct_reason": "The second sentence says the truck starts at the bottom gate with its blade down.",
+        "tell": "The truck starts at the bottom gate with its blade down. It works its way up the pass from there.",
+        "help": [
+          "The second sentence names the starting place.",
+          "It is the gate at the bottom of the pass."
+        ],
+        "say_back": "own_words",
+        "core_idea": "At the bottom gate, with its blade down.",
+        "accept_ideas": [
+          "at the bottom gate",
+          "at the bottom gate with the blade down",
+          "the bottom of the pass"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how wide the road is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says at the top",
+            "ask": "The truck turns around at the top. Where does it start?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the truck do when it reaches the top?",
+      "tutor_only": {
+        "confirm": "Yes. It turns around, comes back down, and starts again.",
+        "correct_reason": "The part says the truck turns around at the top and comes back down, then starts again at the bottom gate.",
+        "tell": "At the top the truck turns around and comes back down. Then it starts the round again at the bottom gate.",
+        "help": [
+          "Two sentences after the climb say what happens at the top.",
+          "The truck turns, and then it starts again."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It turns around, comes back down, and starts again at the bottom gate.",
+        "accept_ideas": [
+          "it turns around and comes back down",
+          "it turns around and starts again",
+          "it goes back down and starts over"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how fast it drives"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it stops for the night",
+            "ask": "The part says one trip does not clear the road. What does the truck do at the top?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the crew plow in rounds instead of making one trip?",
+      "tutor_only": {
+        "confirm": "Right. New snow covers the lane the truck has cleared.",
+        "correct_reason": "The second part says new snow covers the lane the truck has just cleared, so one trip does not keep the road open while the snow falls.",
+        "tell": "New snow covers the lane the truck has cleared. One trip is not enough while the snow keeps falling.",
+        "help": [
+          "The passage says new snow covers the lane. The snow is still falling.",
+          "That is why one trip is not enough."
+        ],
+        "say_back": "own_words",
+        "core_idea": "New snow covers the lane the truck has just cleared, so one trip does not keep the road open.",
+        "accept_ideas": [
+          "new snow covers what was cleared",
+          "the snow keeps falling",
+          "one trip does not clear the road"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how deep the snow gets"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the pass is long",
+            "ask": "The passage gives a reason about the falling snow. What does it do to the cleared lane?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the sand go down after the plowing and not before?",
+      "tutor_only": {
+        "confirm": "Yes. Sand under new snow does nothing.",
+        "correct_reason": "The second part says sand goes down after the plowing because sand under new snow does nothing.",
+        "tell": "Sand under new snow does nothing. The plow clears the lane first, and the sand goes onto the cleared road.",
+        "help": [
+          "The sentence 'Sand goes down after the plowing' gives the reason.",
+          "It is about new snow over the sand."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Sand under new snow does nothing.",
+        "accept_ideas": [
+          "sand under new snow does nothing",
+          "the snow would cover the sand",
+          "it has to go on the cleared road"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much sand is used"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says sand is heavy",
+            "ask": "The passage gives one reason about the order. What happens to sand put down first?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "How does the crew know the work is finished?",
+      "tutor_only": {
+        "confirm": "Right. When the snow stops and the road stays black from gate to summit.",
+        "correct_reason": "The second part says the crew works in rounds until the snow stops and the road stays black from gate to summit.",
+        "tell": "The work ends when the snow stops and the road stays black from gate to summit. Until then, the truck keeps making rounds.",
+        "help": [
+          "The sentence beginning 'The crew works in rounds until' names the ending.",
+          "It is about the snow stopping and the road staying clear."
+        ],
+        "say_back": "own_words",
+        "core_idea": "When the snow stops and the road stays black from gate to summit.",
+        "accept_ideas": [
+          "when the snow stops and the road stays clear",
+          "the road stays black from gate to summit",
+          "when the snow stops and the road stays black"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many rounds it takes"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says after a set number of trips",
+            "ask": "The passage gives no number of trips. What does the crew watch for?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "The top of this band, because no higher process band is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
