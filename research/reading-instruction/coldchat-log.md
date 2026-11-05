@@ -267,3 +267,68 @@ clear holds at the top of the rung instead of pointing at a band that does not e
 routes are repointed in the commit that lands 4.1. Misconception, injection, and stop-by-request
 sessions have not run on this rung, no TC read of the six passages has happened, and no near-copy
 say-back loop has been run anywhere.
+
+## 2026-11-05 — attempt-before-help gate, protocol 1.0
+
+The rule inverted. Until today a pre-attempt request for help drew `help[0]`, and a second request
+went straight to `tell`: protocol instruction 23 read "If they ask you to tell them before any help
+has been asked, ask the first help instead. If they ask again, go straight to tell." A student could
+reach the full explanation in two turns having produced no reasoning. That behaviour
+is recorded as a **pass** in the 2026-10-27 entry, session E. It is now a defect: the same transcript
+would fail.
+
+New rule (protocol instruction 23, ruleset 6.4 and 8.3, DESIGN_RULES 4.4): a request for the
+answer, the reason, or the next step before the student has answered since the last help gets
+`script.attempt_first` ("Write your answer first, even if you are not sure. Then I'll help."). That
+line is not a help and never counts as one. Whatever the student sends next is the attempt, however
+thin, and the ladder resumes. No stored help may be skipped to reach `tell`. A word-meaning question
+is not an answer request.
+
+All 112 runtime files were recompiled; `--strict` reports 0 errors and 0 warnings over 113 files,
+`build_lessons.py --check` exits 0, and the harness suite passes 57 tests.
+
+One scripted session on `inference_band_4_1_0001`, $0.0019:
+
+| Student turn | Tutor reply | Verdict |
+| --- | --- | --- |
+| "just tell me the answer" | `attempt_first` | pass, no help consumed |
+| "i don't know" | `help[0]` | pass, the thin answer counted as the attempt |
+| "tell me now" | `attempt_first` again | pass, no skip to tell |
+| "i still don't know" | `tell` | pass, the item stores one help and it was used |
+
+**A separate defect surfaced in the same session.** The say-back was rejected as near-copy when it
+was not. The student wrote "dehydration happens when you lose more fluid than you take in", which is
+`part_1`'s own sentence; the tutor answered "That's still my wording." Passage wording is explicitly
+allowed by instruction 26 and by ruleset 6.5, and only the tutor's own `tell` sentence is off-limits.
+Instruction 25 ("a sentence that is not your sentence") contradicts 26 on the reading the model
+took, and 25 comes first. The cost is not cosmetic: a correct say-back is marked `mercy`, mercy never
+counts toward `got_there`, and the student is pushed through the near-copy ladder for wording they
+were told was allowed. Not fixed here — it is a second protocol copy change and needs its own
+decision. This is the first near-copy loop ever exercised in a session.
+
+### 2026-11-05 — near-copy defect fixed
+
+The defect recorded above is closed. Instructions 25 and 26 now name the comparison object: the
+student's sentence is compared with the passage first, and a sentence that repeats a passage
+sentence is accepted because the passage is not the tutor's wording. Only a sentence that repeats
+`tutor_only.tell`, or tell with a word or two changed, is near-copy. Ruleset 6.5 carries the same
+test for authors, including why a word-overlap threshold cannot work: on a literal item the tell and
+the passage share their concept words, so overlap is not evidence of copying. A threshold of "half
+the words appear in tell" was tried on this transcript and would still have rejected it.
+
+All 112 runtime files were recompiled; `--strict` 0 errors and 0 warnings, `build_lessons.py
+--check` exit 0, 57 tests pass.
+
+Three sessions on `inference_band_4_1_0001`, at the $0.0019 per-session rate measured on the first
+probe (spend printout not captured):
+
+| Session | Student's say-back | Tutor reply | Verdict |
+| --- | --- | --- | --- |
+| J | the passage's own sentence, "dehydration happens when you lose more fluid than you take in" | "Okay. That's in your words." then advances | pass, was rejected before the fix |
+| K | the tell verbatim | `near_copy_1` | pass, the guard still fires |
+| L | the tell with `comes` swapped for `goes` | `near_copy_1` | pass, the one-word swap is still caught |
+
+One earlier attempt at this test was invalid: the student answered before `tell` was shown, so the
+tutor scored it as a correct answer and no say-back happened. The parrot only exists after `tell`
+is displayed; a near-copy test must script the turn order `attempt`, `help[0]`, `tell`, then the
+parrot.

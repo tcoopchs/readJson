@@ -295,11 +295,14 @@ tell line must obey that tone.
 short sentences. "The food is not cold anymore. The milk is warm. The lettuce and ice cream are
 soft." Do not write textbook abstractions when concrete wording will do.
 
-**4.4 The help ladder is a gradient.** `help[0]` is a nudge toward the evidence. `help[1]` is a
-stronger but still non-answer-bearing nudge. Neither may name the answer or present a closed list
-that gives it away. Then use `tell` as the final authored explanation. A miss stays on the current
-item through this ladder, `tell`, and say-back. It never moves the student to another item or
-lesson mid-session.
+**4.4 The help ladder is an attempt-gated gradient.** No help before an attempt. A request for the
+answer, the reason, or the next step is answered with the shared attempt line — "Write your answer
+first, even if you are not sure. Then I'll help." — which is protocol copy, never lesson copy, and
+never counts as a help. `help[0]` is a nudge toward the evidence. `help[1]` is a stronger but still
+non-answer-bearing nudge. Neither may name the answer or present a closed list that gives it away.
+No stored help may be skipped, and `tell` requires an answer given after the last help. Then use
+`tell` as the final authored explanation. A miss stays on the current item through this ladder,
+`tell`, and say-back. It never moves the student to another item or lesson mid-session.
 
 **4.5 The AI's voice is the teacher's voice.** The tutor sounds like a straightforward high-school
 teacher: short sentences, plain words, no baby talk, no cheerleading, no invented encouragement.
@@ -576,6 +579,8 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 - [ ] Every item has one defensible answer, a reasoning chain, and specific misreadings.
 - [ ] Every evidence-dependent item has the correct `show_part`.
 - [ ] The help ladder does not reveal the answer.
+- [ ] No help line can be reached without a student attempt, and `tell` needs an answer after the
+      last help.
 - [ ] Student-facing language is plain, direct, and non-condescending.
 - [ ] There is one primary skill and no more than one secondary skill.
 - [ ] `advance`, `retry`, and `stopped` destinations are explicit.
