@@ -91,6 +91,12 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-078 | The Green That Gets Punctured | Nonfiction | 4 | Band 4.1 | 312 words (three passages, 104, 104 and 104 each) | 5.56 | `process_band_4_1_0004` |
 | TB-079 | Two Crews, One Green Light | Nonfiction | 4 | Band 4.1 | 327 words (three passages, 110, 105 and 112 each) | 5.60 | `process_band_4_1_0005` |
 | TB-080 | The Mix That Waited for Winter | Nonfiction | 4 | Band 4.1 | 327 words (three passages, 116, 104 and 107 each) | 5.58 | `process_band_4_1_0006` |
+| TB-081 | The Load That Waits for Its Turn | Nonfiction | 4 | Band 4.2 | 330 words (three passages, 111, 112 and 107 each) | 5.63 | `process_band_4_2_0001` |
+| TB-082 | The Pile That Moves Down the Line | Nonfiction | 4 | Band 4.2 | 328 words (three passages, 102, 116 and 110 each) | 5.52 | `process_band_4_2_0002` |
+| TB-083 | The Water That Comes Back | Nonfiction | 4 | Band 4.2 | 331 words (three passages, 111, 108 and 112 each) | 5.82 | `process_band_4_2_0003` |
+| TB-084 | Two Readers, One Page | Nonfiction | 4 | Band 4.2 | 325 words (three passages, 110, 112 and 103 each) | 5.73 | `process_band_4_2_0004` |
+| TB-085 | The Route That Opens on a Test | Nonfiction | 4 | Band 4.2 | 317 words (three passages, 110, 106 and 101 each) | 6.04 | `process_band_4_2_0005` |
+| TB-086 | The Sailing That Cannot Wait | Nonfiction | 4 | Band 4.2 | 319 words (three passages, 106, 111 and 102 each) | 5.68 | `process_band_4_2_0006` |
 
 ---
 
@@ -2703,6 +2709,204 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
 **Why it works.** A quality gate set early and hidden by a finished face: the fault shows only after a winter, so the reader has to locate the decision at the board, not at the wall.
 
 **Cautions.** No mill name, place, mortar recipe, or date. No claim about wall length or cost.
+
+## TB-081 — The Load That Waits for Its Turn
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 330 words (three passages, 111, 112, 107) |
+| FK grade | 5.63 on the three passages together |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `process_band_4_2_0001` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The washer runs on a count, not a clock, and that count has a deadline on the other side; a half load spends a full load's water, soap and hour and returns half the linen.
+
+**Supporting details.**
+
+- The crew checks each cart against a mark painted on the machine before starting a load.
+- A full drum of sheets and a half drum of scrubs both count as one load to the machine.
+- The machine uses the same water, soap, and hour whatever the cart holds.
+- A full load takes about an hour, and the linen has to reach the floors by six.
+- When carts fill slowly, the crew runs a short load rather than miss the delivery.
+
+**Why it works.** One gate with an opposite failure on each side: starting early spends a full load's cost, starting late misses a deadline.
+
+**Cautions.** No hospital, city, machine brand, or cost figure. No claim about how many loads run in a day.
+
+---
+
+## TB-082 — The Pile That Moves Down the Line
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | food and farming |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 328 words (three passages, 102, 116, 110) |
+| FK grade | 5.52 on the three passages together |
+| Complexity | L2, I2, S2, K1 |
+| Best lesson fit | `process_band_4_2_0002` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The line runs at the speed of its slowest step, so widening the wash moved the waiting to the sizer and left output the same.
+
+**Supporting details.**
+
+- Fruit runs from the dump tank to a spray belt, up a ramp, through the sizer's lanes, and past a boxer at each lane.
+- The crew doubled the wash belt, and the pile moved down the line instead of shrinking.
+- The wash now moves fruit faster than the sizer can grade it.
+- Output stayed the same, and the fruit waited longer in water at the sizer.
+- The sizer cannot be widened, because each size needs a lane and each lane needs a boxer.
+
+**Why it works.** The fix is visible and the result is flat, so the reader has to move the limit rather than the station that was changed.
+
+**Cautions.** No shed, orchard, or company name. No figure for fruit volume, price, or line speed.
+
+---
+
+## TB-083 — The Water That Comes Back
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 331 words (three passages, 111, 108, 112) |
+| FK grade | 5.82 on the three passages together |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `process_band_4_2_0003` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The tank water loops, so the dust the filter misses returns on every pass and builds up; a new filter cannot remove what already circulates, and only a drain lowers the count.
+
+**Supporting details.**
+
+- Water crosses a gravel bed, drops into a sump, and a pump sends it back to the tank.
+- Only the water that evaporates is replaced, so the loop closes.
+- Most waste is caught, but fine dust passes through and never settles.
+- The amount of dust climbs over a week while the filter works as it was built to.
+- Draining lowers the count, and the amount to drain is known only after the loop has run.
+
+**Why it works.** A closed loop makes a working part produce a failing result, so the reader must see the count as cumulative.
+
+**Cautions.** No species, hatchery, or place name. No water chemistry, filter spec, or fish count.
+
+---
+
+## TB-084 — Two Readers, One Page
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | arts and language |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 325 words (three passages, 110, 112, 103) |
+| FK grade | 5.73 on the three passages together |
+| Complexity | L2, I2, S2, K2 |
+| Best lesson fit | `process_band_4_2_0004` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The page is read twice because the two reads look for different defects, so a clean pass for words says nothing about the columns.
+
+**Supporting details.**
+
+- The copy editor reads for a wrong name, a missing word, or a sentence that reverses the meaning.
+- She never measures the columns or the edges of the advertisements.
+- The compositor measures each column against the frame and checks the ad borders.
+- He reads very little of the text, because a wrong name means nothing to his ruler.
+- The page is set, read for words, read for space, and only then printed.
+
+**Why it works.** Two checks, each blind to the other's defect, so the reader has to see why one pass cannot stand for both.
+
+**Cautions.** No paper, town, or staff name. No claim about print volume, wages, or page size.
+
+---
+
+## TB-085 — The Route That Opens on a Test
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | sport and play |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 317 words (three passages, 110, 106, 101) |
+| FK grade | 6.04 on the three passages together |
+| Complexity | L2, I2, S2, K1 |
+| Best lesson fit | `process_band_4_2_0005` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The route opens only after a second setter climbs it at the posted grade, because the setter cannot feel the difference his own reach makes.
+
+**Supporting details.**
+
+- The wall is stripped, washed, and taped along a traced line before the new holds go on.
+- Each hold is marked with tape showing its exact position.
+- The tester climbs at the posted grade in the shoes a customer would wear.
+- A move that is too far sends the hold back, changes the tape, and repeats the climb.
+- The card is signed after the climb, and the tester is never the setter.
+
+**Why it works.** A repeat is built into the order, and the release depends on evidence from someone other than the maker.
+
+**Cautions.** No gym, city, or grade number. No claim about injury rates or customer numbers.
+
+---
+
+## TB-086 — The Sailing That Cannot Wait
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 319 words (three passages, 106, 111, 102) |
+| FK grade | 5.68 on the three passages together |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `process_band_4_2_0006` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The loading plan is counted backward from a fixed sailing time, so the ramp cannot give and the only step with spare minutes is the one that goes.
+
+**Supporting details.**
+
+- The boat leaves at a fixed time whether the lane is full or not.
+- The ramp comes up shortly before the sailing, and the last car must already be aboard.
+- The booth closes before that, and trucks are weighed before they reach it.
+- Each step has its own number of minutes on the sheet, added up from the sailing time.
+- A late boat sends the crew to the meeting for minutes, because nothing else has any.
+
+**Why it works.** The finish is fixed and the plan is computed from it, so the reader must find the step that can give.
+
+**Cautions.** No port, route, company name, fares, or crossing time.
+
+---
 
 ---
 

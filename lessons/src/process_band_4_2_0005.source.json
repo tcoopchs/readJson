@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_4_2_0005",
+  "meta": {
+    "status": "published",
+    "title": "The Route That Opens on a Test",
+    "skill": "process",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Process: see why a test comes before a release, and why the tester is not the maker.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.88, 5.79 and 6.51 on the three parts (110, 106 and 101 words), 6.04 together. A repeat is built into the order: a failed climb sends the route back a step, and the reader must see why the tester cannot be the setter.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 4.2, band 4.2, sequence 5. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A climbing wall reset where the route opens only after a second setter climbs it at its posted grade.",
+      "avoided": "No gym, city, or grade number. No claim about injury rates or customer numbers."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "A release waits on a climb by a second person, and the climb repeats when it fails, so the reader must see the test as evidence rather than a formality."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A climbing wall is stripped completely before a new route goes up. A setter climbs a ladder and unscrews the old holds, and the wall is left with holes, paint chips, and chalk marks. He washes the wall so the new tape will stick. Then he drills the new holds along a line he has already traced on the wall. Each hold gets a small square of tape showing its exact position, so the setter can read the plan from the floor. He works alone and studies the route step by step as he places it. He knows every movement he intended to build, and he trusts that picture completely.",
+    "part_2": "A second setter climbs the route before any customer touches it. She climbs it at the grade the route will be posted as. She wears the same shoes a customer would wear on that wall. A route that reads easily from the floor can feel remarkably long in the middle, where the wall leans out. If a single move is too far for that grade, the hold moves, the tape changes, and the climb begins again from the floor. The test is always an actual climb, never a careful look from below. Nothing about the route is decided until she reaches the top and signs off.",
+    "part_3": "The route opens after the test, and the tester is never the setter. A setter climbs his own route with his own reach in mind, so a movement built for his arm is a movement the next person may not find. The test uncovers that difference before a customer encounters it on the wall. The card at the desk is signed after the climb and dated that same day. The route goes up when the card is signed, and not before, because the card is the proof. A route without a signed card stays off the wall, however finished it looks."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why does the setter wash the wall?",
+      "tutor_only": {
+        "confirm": "Right. So the new tape will stick.",
+        "correct_reason": "The first part says he washes the wall so the new tape will stick.",
+        "tell": "He washes the wall so the new tape will stick to it.",
+        "help": [
+          "The sentence about the wash gives the reason he washes the wall.",
+          "The tape has to hold on the wall."
+        ],
+        "say_back": "own_words",
+        "core_idea": "So the new tape will stick.",
+        "accept_ideas": [
+          "so the tape sticks",
+          "to make the tape hold",
+          "the tape will not stick otherwise"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what soap he uses"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says to clean off the chalk",
+            "ask": "Chalk is not the reason given. What has to stick to the wall?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the tape on each hold show?",
+      "tutor_only": {
+        "confirm": "Right. Its exact position.",
+        "correct_reason": "The first part says each hold gets a square of tape showing its exact position, so the setter can read the plan from the floor.",
+        "tell": "The tape marks the exact position of each hold. It lets the setter read the plan from the floor.",
+        "help": [
+          "The sentence about the tape says what it marks.",
+          "It is a mark for the place, not for the climb."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Its exact position, so the setter can read the plan from the floor.",
+        "accept_ideas": [
+          "where the hold sits",
+          "the position of each hold",
+          "the spot the hold goes in"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what color the tape is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the grade of the route",
+            "ask": "The grade is decided later. What does the tape mark on the wall?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "How does the second setter test the route?",
+      "tutor_only": {
+        "confirm": "Right. She climbs it at its posted grade.",
+        "correct_reason": "The second part says she climbs the route at the grade it will be posted as, in the shoes a customer would wear.",
+        "tell": "She climbs the route at the grade it will be posted as. She wears a customer's shoes and climbs it.",
+        "help": [
+          "The sentence about the posted grade says what she climbs it at.",
+          "The test is a climb, not a look from the floor."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She climbs it at the grade it will be posted as, in a customer's shoes.",
+        "accept_ideas": [
+          "she climbs it at the posted grade",
+          "a climb in customer shoes",
+          "she climbs the whole route"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the climb takes"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she watches from the floor",
+            "ask": "The passage says the test is a climb, never a look. What does she do?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "If one move is too far for the grade, what has to happen before the route opens?",
+      "tutor_only": {
+        "confirm": "Right. The hold moves and the climb starts again.",
+        "correct_reason": "The second part says the hold moves, the tape changes, and the climb begins again from the floor.",
+        "tell": "The hold moves and the tape changes. Then the climb starts again from the floor.",
+        "help": [
+          "The sentence about the hold that moves says what follows it.",
+          "The route is not opened with a note. The work changes and the climb repeats."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The hold moves, the tape changes, and the climb starts again from the floor.",
+        "accept_ideas": [
+          "the move is changed and the climb repeats",
+          "the hold is moved and she climbs again",
+          "the route goes back for another climb"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many holds are on the wall"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the grade is posted higher",
+            "ask": "The grade stays as posted. What changes on the wall?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "Why is the tester never the setter?",
+      "tutor_only": {
+        "confirm": "Right. A setter climbs with his own reach in mind.",
+        "correct_reason": "The third part says a setter climbs his own route with his own reach in mind, so a move built for his arm may not suit the next person.",
+        "tell": "A setter climbs with his own reach in mind. A move built for his arm may not suit anyone else.",
+        "help": [
+          "The sentence about reach says what a setter climbs with in mind.",
+          "The person who built the move is the least likely to find it hard."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A setter climbs with his own reach in mind, so a move built for his arm may not suit the next person.",
+        "accept_ideas": [
+          "the setter knows his own reach and cannot feel the difficulty",
+          "someone else has to find the moves the setter finds easy",
+          "the setter is blind to his own reach"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many setters the gym employs"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the setter is too busy",
+            "ask": "Time is not the reason. What does the setter know too well?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher process rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_4_2_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_4_2_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

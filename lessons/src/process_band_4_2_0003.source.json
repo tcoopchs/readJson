@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_4_2_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Water That Comes Back",
+    "skill": "process",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Process: follow water that returns, and see why a fault builds with each pass.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.01, 6.18 and 5.46 on the three parts (111, 108 and 112 words), 5.82 together. One closed loop: the last step returns to the first, so the reader must see that the filter does its job on every pass and the tank still gets dirtier.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 4.2, band 4.2, sequence 3. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A fish tank whose water loops through a filter bed and returns, so the waste the filter misses comes back on every pass.",
+      "avoided": "No species, hatchery, or place name. No water chemistry, filter spec, or fish count."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The same water returns to the start, so one pass looks clean and many passes do not; the reader must see that the count is cumulative."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Water leaves a fish tank at one end and runs across a shallow bed of gravel and sand. Small particles of waste catch in the gravel and remain there. The water then drops into a sump, where a pump picks it up and sends it back to the tank. The same water makes the trip many times a day. The filter bed catches most of the waste, but some of it passes through as fine dust that never settles. The crew adds fresh water only to replace what evaporates, so the loop closes and almost nothing leaves it. The tank looks clean at a glance, and that appearance is the problem.",
+    "part_2": "Each pass brings the dust back to the tank, where the fish stir it up again and the pump sends it around again. The filter catches most of it on each pass, but the part that slips through returns and joins the next one. Over a week the amount of dust in the tank increases steadily, even though the filter works exactly as it was built to work. The crew sees cloudy water and thinks the filter has failed. A new filter does not clear it for long, because the dust comes back with the water. The crew tests the water leaving the filter and finds it clean.",
+    "part_3": "A faster pump makes the problem worse, because it carries the dust around faster. The answer is a drain, not a bigger motor. The crew drains part of the old water and adds the same amount of fresh water, which lowers the count in one step. The filter then has less to miss on each pass. The order matters here. Filtering comes before the return, and the return comes before the fresh water, because the crew cannot tell how much to drain until the loop has run. The crew counts the dust again after each drain and writes both numbers on a board. A drain without a measure is only a guess."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Where does the water go after it leaves the tank?",
+      "tutor_only": {
+        "confirm": "Right. Across a gravel bed, into a sump, and back to the tank.",
+        "correct_reason": "The first part follows the water from the tank across the filter bed, into the sump, and back through the pump.",
+        "tell": "The water runs across a bed of gravel and sand into a sump. A pump sends it back to the tank.",
+        "help": [
+          "The sentences about the tank and the sump follow the water.",
+          "It crosses the gravel bed, drops into a sump, and is pumped back."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Across a bed of gravel and sand, into a sump, and back to the tank by pump.",
+        "accept_ideas": [
+          "over the filter bed and back through the pump",
+          "across the gravel into a sump and back",
+          "through the filter and then back to the tank"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how fast the pump runs"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it drains away",
+            "ask": "The passage says the loop closes. Where does the water go instead?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What happens to the waste the gravel bed does not catch?",
+      "tutor_only": {
+        "confirm": "Right. It passes through as fine dust and returns.",
+        "correct_reason": "The first part says some waste passes through as fine dust that never settles, and the loop sends it back.",
+        "tell": "The fine dust slips through the gravel and goes back to the tank with the water.",
+        "help": [
+          "The sentence about the gravel bed says it catches most of the waste.",
+          "The rest passes through as fine dust that never settles."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It passes through as fine dust that never settles and returns to the tank.",
+        "accept_ideas": [
+          "it goes through as fine dust",
+          "it stays in the water and comes back",
+          "the smallest bits pass the gravel"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the dust is made of"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it stays in the gravel",
+            "ask": "The gravel catches most of it. What happens to the rest?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The filter works as it was built to work. Why is the tank cloudy anyway?",
+      "tutor_only": {
+        "confirm": "Right. The dust comes back on every pass and builds up.",
+        "correct_reason": "The second part says the part that slips through returns and joins the next pass, so the amount climbs over a week.",
+        "tell": "The dust that slips through comes back on every pass. The amount builds up over a week.",
+        "help": [
+          "The sentence about the fragment says it returns and joins the next trip.",
+          "Each pass adds a little to the tank, and the passes do not stop."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The dust that slips through returns on every pass, so the amount builds up over a week.",
+        "accept_ideas": [
+          "the dust comes back every time and adds up",
+          "each pass leaves a little more dust",
+          "the water keeps circulating the dust"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the filter has run"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the filter is broken",
+            "ask": "The passage says the filter works as designed. What does the dust do?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The crew fits a new filter. Why does that not clear the tank for long?",
+      "tutor_only": {
+        "confirm": "Right. The dust already in the water keeps circulating.",
+        "correct_reason": "The second part says a new filter does not clear the tank long, because the dust comes back with the water.",
+        "tell": "A new filter only catches what passes through it. The dust already in the loop keeps returning.",
+        "help": [
+          "The sentence about the new filter names what comes back with the water.",
+          "A new filter does not remove what is already in the tank."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The dust already in the loop keeps returning, so a new filter only catches what passes through it.",
+        "accept_ideas": [
+          "the dust in the tank keeps coming back through the new filter",
+          "the filter cannot remove what is already in the water",
+          "the loop keeps bringing the dust back"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much a new filter costs"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the new filter is smaller",
+            "ask": "Size is not the point here. What does the returning water carry?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "Why do the crew drain water instead of fitting a bigger pump?",
+      "tutor_only": {
+        "confirm": "Right. A drain lowers the count; a faster pump only moves the dust faster.",
+        "correct_reason": "The third part says a faster pump carries the dust around faster, while draining lowers the count, and the amount to drain is known only after the loop has run.",
+        "tell": "A faster pump carries the dust around faster. Draining lowers the count instead of moving it.",
+        "help": [
+          "The sentence about the faster pump says what it does to the dust.",
+          "The count in the tank falls only when some water leaves."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A faster pump moves the dust around faster, while a drain lowers the count; the amount to drain is known only after the loop has run.",
+        "accept_ideas": [
+          "a bigger pump makes the dust move faster",
+          "only draining takes dust out of the loop",
+          "the drain lowers the count and the pump does not"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how often the crew drains"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the pump is too weak",
+            "ask": "The tank is not short of flow. What does more flow do to the dust?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher process rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_4_2_0004",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_4_2_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -350,3 +350,26 @@ Six new lessons, `process_band_4_1_0001` to `_0006`, swept on the compiled files
 
 Still owed on this rung: misconception, injection, and stop-by-request sessions, and the TC review
 of the six drafted passages.
+
+
+### 2026-11-06 — process 4.2 sweep
+
+Six new lessons, `process_band_4_2_0001` to `_0006`, swept on the compiled files, indices 68-74 of
+the sorted lesson list.
+
+- Smooth: 6 of 6, opened on the first reply, five items in order, `done=5 u=5 an=1`, no leak, no
+  early ticket ($0.0166).
+- Hard: 6 of 6, authored help only, `tell` reached, stopped ticket `an=0|stop=1`, no private-field
+  leak ($0.0168).
+- Routing against the live catalog: a second clear on `process_band_4_1_0003` moves up to
+  `process_band_4_2_0001`; a first clear inside 4.2 stays on the next sequence; a second hard fail on
+  `process_band_4_2_0003` steps down to `process_band_4_1_0003`, the middle of the previous rung; a
+  clear after two clears on 4.2 holds with `next_set_incomplete`, because the only process sets above
+  it are the incomplete 9.1 and 10.1 prototypes.
+- Two copy defects were caught before the sweep, both by the gates rather than by the model: three
+  `reader.why_this_level` strings did not name the cognitive load (`--strict` warning), and 22
+  `help[0]` lines said "the first part" / "the second part" (`audit_lessons.py`), which the UI does
+  not label. All 22 were rewritten to name the sentence that carries the evidence.
+
+Still owed on this rung: misconception, injection, and stop-by-request sessions, and the TC review
+of the six drafted passages.

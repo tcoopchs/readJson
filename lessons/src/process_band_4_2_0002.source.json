@@ -1,0 +1,245 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_4_2_0002",
+  "meta": {
+    "status": "published",
+    "title": "The Pile That Moves Down the Line",
+    "skill": "process",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Process: see what happens when the slow step is not the step you fixed.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.85, 5.42 and 5.34 on the three parts (102, 116 and 110 words), 5.52 together. One limit on a moving line: the reader must follow the step that sets the pace, and watch where the waiting collects after a change, not only what changed.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 4.2, band 4.2, sequence 2. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "An apple packing line where widening the slow step moves the pile to the next station instead of raising output.",
+      "avoided": "No orchard, shed, or company name. No figure for fruit volume, price, or line speed."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "A limit moves when one station is widened; output stays flat, so the reader must find the new slow step instead of the changed one."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Crates of apples arrive at the packing shed and are tipped into a tank of water. The water floats the fruit onto a belt and carries it under a first spray. From there the apples climb a ramp to the sizer, which drops each one into a lane by size. The smallest apples fall first, and the largest ride to the far end of the sizer. A boxer at each lane packs the fruit and stacks the box on a pallet. The line runs from the dump tank to the pallet without stopping, and every step waits for the step before it.",
+    "part_2": "The wash belt was the slow step, so the crew added a second belt and doubled the spray. The wash now moves fruit faster than the sizer can grade it. The pile did not go away. It moved down the line and collected in front of the sizer, where the apples roll against each other and bruise. The crew had spent a week and a good deal of money on a step that was not holding the line back. Output stayed the same, and the fruit that waited at the sizer sat longer in the water. The shed manager walked the line at noon and found the pile in the same place it had always been.",
+    "part_3": "The line moves at the speed of its slowest step, so speeding up another step adds waiting room, not boxes. The sizer cannot be widened, because each size needs its own lane and each lane needs its own boxer. So the crew added a second boxer to the lane that filled fastest and moved the staff from the wash. The pile shifted again, this time to the boxers. The wash had been fine all along. A crew that fixes the wrong station pays twice, once for the change and once for the fruit that waits. The only way to find the slow step is to watch where the fruit collects."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the sizer do with each apple?",
+      "tutor_only": {
+        "confirm": "Right. It drops it into a lane by size.",
+        "correct_reason": "The passage says the sizer drops each apple into a lane by size, smallest first.",
+        "tell": "The sizer drops each apple into a lane by its size. The smallest apples fall first.",
+        "help": [
+          "The sentence about the sizer names what it does with each apple.",
+          "It sends the apple down one of several lanes."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It drops each apple into a lane by size.",
+        "accept_ideas": [
+          "sorts them into lanes by size",
+          "drops them into size lanes",
+          "sends each apple down a lane by size"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many lanes the sizer has"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the sizer washes the apples",
+            "ask": "The spray does the washing. What does the sizer do after the ramp?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The crew doubled the wash. Where did the pile go?",
+      "tutor_only": {
+        "confirm": "Right. Down the line, in front of the sizer.",
+        "correct_reason": "The second part says the pile did not go away; it moved down the line and collected in front of the sizer.",
+        "tell": "The pile stayed on the line. It moved forward and collected in front of the sizer.",
+        "help": [
+          "The sentence about the pile says it did not go away.",
+          "It moved one station further along the line."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It moved down the line and collected in front of the sizer.",
+        "accept_ideas": [
+          "to the sizer",
+          "in front of the sizer",
+          "one station further along",
+          "down the line to the sizer"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how large the pile was"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the pile disappeared",
+            "ask": "The passage says the pile did not go away. Where did it end up?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did doubling the wash not raise output?",
+      "tutor_only": {
+        "confirm": "Right. The sizer was the limit, not the wash.",
+        "correct_reason": "The passage says the wash now moves fruit faster than the sizer can grade it, so output stayed the same.",
+        "tell": "The sizer was the slow step. A faster wash only gave the fruit somewhere else to wait.",
+        "help": [
+          "Output stayed the same. Which step could not keep up with the faster wash?",
+          "The sizer grades every apple, one at a time, after the wash."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The sizer was the slow step, so a faster wash only moved the waiting.",
+        "accept_ideas": [
+          "the sizer could not keep up",
+          "the wash was not the limit",
+          "the fruit now waited at the sizer"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the second belt cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the crew needed a third belt",
+            "ask": "The line waits at one station, and it is not the wash. Which one?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "The crew says the wash had been fine all along. What does that mean?",
+      "tutor_only": {
+        "confirm": "Right. The wash never set the speed of the line.",
+        "correct_reason": "The third part says the line moves at the speed of its slowest step, so the extra belt added waiting room rather than boxes.",
+        "tell": "The wash was never the slow step. The extra belt added waiting room, not boxes.",
+        "help": [
+          "The sentence about the speed of the line names what sets it.",
+          "The wash was never the step that held the fruit back."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The wash never limited the line; the sizer did, so the extra belt only added waiting room.",
+        "accept_ideas": [
+          "the wash was never the limit",
+          "the sizer set the speed all along",
+          "the extra belt added nothing"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who ordered the second belt"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the wash broke",
+            "ask": "Nothing in the passage says the wash broke. What does the line's speed depend on?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The crew adds a boxer to the lane that fills fastest. What should they expect next, and why?",
+      "tutor_only": {
+        "confirm": "Right. The pile moves again, to whatever is now slowest.",
+        "correct_reason": "The passage says the line moves at the speed of its slowest step, so adding help at one station moves the waiting to the next.",
+        "tell": "The pile will move again, to the next slow step. A line runs at the speed of its slowest station.",
+        "help": [
+          "The passage says what sets the speed of the whole line.",
+          "When one station speeds up, where does the fruit wait next?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "The pile moves again, to whatever station is now slowest, because the line runs at the speed of its slowest step.",
+        "accept_ideas": [
+          "the waiting moves to the next slow station",
+          "the pile shifts again to another lane",
+          "output stays the same until the new slow step is fixed"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many boxers the shed employs"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says output rises for good",
+            "ask": "One station got faster. The passage says the line still has one slow step."
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher process rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_4_2_0003",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_4_2_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

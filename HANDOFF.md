@@ -1,7 +1,7 @@
 # Handoff — readJson / readingHarness
 
-State as of 2026-11-05, written in the working tree through the `process` 4.1 rung and committed with
-it. If `git status` shows the six process 4.1 sources uncommitted, the commit did not land and this
+State as of 2026-11-06, written in the working tree through the `process` 4.2 rung and committed with
+it. If `git status` shows the six process 4.2 sources uncommitted, the commit did not land and this
 file is ahead of the tree.
 
 Normative docs: `README.md` (naming, bands, routing), `DESIGN_RULES.md` (passage, items, ladder),
@@ -12,11 +12,11 @@ disagree, the rules win — and this file is wrong.
 
 ## Where the catalog stands
 
-118 compiled lessons. The inference ladder is complete from the floor through stage 4.3, `main_idea`
+124 compiled lessons. The inference ladder is complete from the floor through stage 4.3, `main_idea`
 is complete through stage 4.3, and `vocab` is complete from the floor through 4.3, so three verticals
 are open at grade 4. `text_structure` has all four grade-4 rungs: its 3.1 floor rung, 4.1, 4.2 and 4.3,
-so that vertical is closed. `process` now has its 3.1 floor rung and its 4.1 rung, and `process` 4.2 is
-the next rung in the build order.
+so that vertical is closed. `process` now has its 3.1 floor rung and its grade-4 rungs 4.1 and 4.2, so
+`process` 4.3 is the next rung in the build order and the last one before that vertical closes.
 
 | Ladder | Rungs built | Notes |
 | --- | --- | --- |
@@ -24,12 +24,12 @@ the next rung in the build order.
 | `main_idea` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) · 7.1 2/6 | 4.2 is one cell from six federal works; 4.3 is six drafted passages; the 7.1 gap is why a clear on 4.3 holds |
 | `vocab` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) | four rungs, all drafted under 2.6; TB-021 to TB-044; ladder complete through 4.3 |
 | `text_structure` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) | twenty-four drafted passages, one structure move each; vertical closed through 4.3 |
-| `process` | 3.1 ✓ (6) · 4.1 ✓ (6) · 9.1 2/6 · 10.1 1/6 | the 9.1 and 10.1 files are legacy prototypes, incomplete; 4.2 is next |
-| `the other three` | none | see Phase 2 in the build plan; `process 4.2` follows process 4.1 |
+| `process` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 9.1 2/6 · 10.1 1/6 | the 9.1 and 10.1 files are legacy prototypes, incomplete; 4.3 is next |
+| `the other three` | none | see Phase 2 in the build plan; `process 4.3` follows process 4.2 |
 
-`lessons/curriculum.json` matches reality: 4.1 inference keeps its eight files as road; 3.1, 4.2, 4.3,
-main_idea 3.1, 4.1, 4.2 and 4.3, vocab 3.1, 4.1, 4.2 and 4.3, text_structure 3.1, 4.1, 4.2 and 4.3, and
-process 3.1 and 4.1 declare six each and are `complete`.
+`lessons/curriculum.json` matches reality: 24 sets declared, 19 `complete`; 4.1 inference keeps its
+eight files as road; 3.1, 4.2, 4.3, main_idea 3.1, 4.1, 4.2 and 4.3, vocab 3.1, 4.1, 4.2 and 4.3,
+text_structure 3.1, 4.1, 4.2 and 4.3, and process 3.1, 4.1 and 4.2 declare six each and are `complete`.
 
 `text_structure` 3.1 is six structures, six domains, no neighbour repeat: sequence (food and
 farming), cause and effect (science and nature), comparison (places and travel), problem and
@@ -87,11 +87,25 @@ farming), the step that sets the pace for every other step (science and nature),
 follow the damage and repeat (sport and play), two chains that run in parallel and meet at one
 release (places and travel), and a quality set at the mixing board that later steps cannot repair
 (history and people). Six domains, no neighbour repeat. TB-075 to TB-080, all drafted under 2.6 with
-`drafted_by: "TC"` and the spot-check `text_status`. All six advance to `process_band_4_1_0001`,
-because no rung above 4.1 is authored: a clear holds at the top of the rung. Routed against the live
-code: a second clear on 3.1 moves up to 4.1_0001; a second hard fail on 4.1_0003 steps down to
-3.1_0003, the middle of the previous rung; a second clear on 4.1 holds with `next_set_incomplete`
-because the only process sets above it are the incomplete 9.1 and 10.1 prototypes.
+`drafted_by: "TC"` and the spot-check `text_status`. All six now advance to
+`process_band_4_2_0001`, repointed when 4.2 landed. Routed against the live code: a second clear on
+3.1 moves up to 4.1_0001; a second clear on 4.1 moves up to 4.2_0001; a second hard fail on 4.1_0003
+steps down to 3.1_0003, the middle of the previous rung.
+
+`process` 4.2 is the rung above that: three parts of 101-116 words per lesson, measured part FK 5.34
+to 6.51 and whole-passage FK 5.52 to 6.04, and one process move per lesson, none of them a 3.1 or 4.1
+move — a step that waits for a count and is bounded by a deadline on the other side (work and trade),
+a limit that moves to the next station when one station is widened (food and farming), a loop whose
+dust builds with every pass while the filter works as designed (science and nature), a page read twice
+because the two reads hunt different defects (arts and language), a release that waits on a second
+person's climb and repeats when the climb fails (sport and play), and a plan counted backward from a
+fixed finish, with one step that can never give (places and travel). Six domains, no neighbour repeat.
+TB-081 to TB-086, all drafted under 2.6 with `drafted_by: "TC"` and the spot-check `text_status`. All
+six advance to `process_band_4_2_0001`, because no rung above 4.2 is authored: a clear holds at the
+top of the rung. Routed against the live code: a second clear on 4.1 moves up to 4.2_0001; a first
+clear inside 4.2 stays on the next sequence; a second hard fail on 4.2_0003 steps down to 4.1_0003,
+the middle of the previous rung; a clear after two clears holds with `next_set_incomplete`, because the
+only process sets above 4.2 are the incomplete 9.1 and 10.1 prototypes.
 
 `main_idea` 4.3 (TB-015 to TB-020) is the rung the subject rule bit on: no two neighbours share a
 domain, and the six span six of the seven domains — food and farming, arts and language, work and
@@ -119,9 +133,9 @@ trade, sport and play, history and people, places and travel.
 ```bash
 build_lessons.py --check          # exit 0
 pytest                            # 57 passed
-validate_lesson.py --strict       # 118 sources, 0 errors, 0 warnings
-audit_lessons.py                  # 58 findings, the known ordinal backlog, none in process 4.1
-catalog load (118 lessons)        # ladders in order, 23 sets declared, 18 complete, onboarding valid
+validate_lesson.py --strict       # 124 sources, 0 errors, 0 warnings
+audit_lessons.py                  # 58 findings, the known ordinal backlog, none in process 4.1 or 4.2
+catalog load (124 lessons)        # ladders in order, 24 sets declared, 19 complete, onboarding valid
 cold-chat sweep, 18 vocab lessons # smooth 18/18 ($0.0311); hard 18/18 ($0.0312), tell and an=0 stop
 cold-chat sweep, vocab 4.3        # smooth 6/6 ($0.0245); hard 6/6 ($0.0115), tell and an=0 stop
 cold-chat sweep, text_structure 3.1 # smooth 6/6 ($0.0056); hard 6/6 ($0.0062), tell and an=0 stop
@@ -129,6 +143,8 @@ cold-chat sweep, text_structure 4.1 # smooth 6/6 ($0.0415); hard 6/6 ($0.0191), 
 cold-chat sweep, text_structure 4.2 # smooth 6/6 ($0.0441); hard 6/6 ($0.0124), tell and an=0 stop
 cold-chat sweep, process 3.1      # smooth 6/6 ($0.0383); hard 6/6 ($0.0152), tell and an=0 stop
 cold-chat sweep, process 4.1      # smooth 6/6 ($0.0368 + $0.0049 retry); hard 6/6 ($0.0213), tell and an=0 stop
+cold-chat sweep, process 4.2      # smooth 6/6 ($0.0166); hard 6/6 ($0.0168), tell and an=0 stop
+routing, process 4.2              # 4.1 clear -> 4.2_0001; first clear in 4.2 -> next sequence; second hard fail -> 4.1_0003; clear at ceiling holds next_set_incomplete
 catalog + routing, text_structure 4.2 # 100 lessons load; clear on 4.1 -> 4.2_0001; hard fail on 4.2_0001 -> 4.1_0003; clear on 4.2 holds at ceiling
 ```
 
@@ -203,9 +219,9 @@ the authored route and the ladder agree.
    the student (85 lines), a single-help item making the tutor invent a second hint, and a ready gate
    that dropped `yes`. `anchor` is now defined as the lesson's first item in `DESIGN_RULES` 7.4,
    `README.md`, and the protocol at both the definition and the ticket step.
-2. **96 lessons are AI-drafted and unreviewed.** inference 3.1, main_idea 3.1, inference 4.2 and
+2. **102 lessons are AI-drafted and unreviewed.** inference 3.1, main_idea 3.1, inference 4.2 and
    4.3, main_idea 4.1, the six main_idea 4.3 lessons, the twenty-four vocab lessons, the twenty-four
-   text_structure 3.1, 4.1, 4.2 and 4.3 lessons, and the twelve process 3.1 and 4.1 lessons were drafted under `2.6`, and every one says
+   text_structure 3.1, 4.1, 4.2 and 4.3 lessons, and the eighteen process 3.1, 4.1 and 4.2 lessons were drafted under `2.6`, and every one says
    `drafted_by: "TC"` and `text_status` "Drafted for the band, accepted on spot check." Band 5+
 cannot use that route. Since 2026-11-02 the control is a random spot-check rotation, not a full-file
 review: no drafted passage has been read line by line, and no file claims otherwise. Twelve adapted
@@ -219,8 +235,9 @@ requiring a separate named approval.
    3.1 passages are banked (TB-045 to TB-050), each with measured FK, complexity scores, central
    idea, supports, and a caution line. The six text_structure 4.1 passages are banked as TB-051 to
    TB-056, the six text_structure 4.2 passages as TB-057 to TB-062, and the six text_structure 4.3
-   passages as TB-063 to TB-068, the six process 3.1 passages as TB-069 to TB-074, and the six
-   process 4.1 passages as TB-075 to TB-080. The bank's Markdown table had
+   passages as TB-063 to TB-068, the six process 3.1 passages as TB-069 to TB-074, the six
+   process 4.1 passages as TB-075 to TB-080, and the six process 4.2 passages as TB-081 to TB-086.
+   The bank's Markdown table had
    drifted: TB-045 to TB-056 had entries but no table rows, and all twenty-four rows (TB-045 to TB-068)
    were backfilled on 2026-11-02, so the table and `text-bank.json` now list every entry. 30 older
    drafted lessons still have no bank row.
@@ -245,9 +262,9 @@ requiring a separate named approval.
 
 ## Next actions, in order
 
-1. `process 4.2`, six lessons — the next rung now that process 4.1 is built, with six process moves
-   chosen afresh rather than reused from 3.1 or 4.1. `argument_evidence` and `authors_craft` need the
-   grade-3 load decision before authoring.
+1. `process 4.3`, six lessons — the next rung now that process 4.2 is built, and the one that closes
+   the process grade-4 vertical, with six process moves chosen afresh rather than reused from 3.1, 4.1
+   or 4.2. `argument_evidence` and `authors_craft` need the grade-3 load decision before authoring.
 2. Start the random spot-check rotation over the 96 drafted and 12 adapted lessons (108 files, DESIGN_RULES 2.6 and 2.5). Sample a
    rung at random, read it against its items, and fix any defect corpus-wide; record the sample and
    the date in `research/reading-instruction/coldchat-log.md`. A file that is read end to end gets

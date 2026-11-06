@@ -2870,6 +2870,228 @@
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, accepted on spot check.",
       "drafted_by": "TC"
+    },
+    {
+      "id": "TB-081",
+      "title": "The Load That Waits for Its Turn",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (111, 112, 107 words)",
+      "length_words": 330,
+      "fk_grade": 5.63,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_4_2_0001"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The washer runs on a count, not a clock, and that count has a deadline on the other side; a half load spends a full load's water, soap and hour and returns half the linen.",
+      "supporting_details": [
+        "The crew checks each cart against a mark painted on the machine before starting a load.",
+        "A full drum of sheets and a half drum of scrubs both count as one load to the machine.",
+        "The machine uses the same water, soap, and hour whatever the cart holds.",
+        "A full load takes about an hour, and the linen has to reach the floors by six.",
+        "When carts fill slowly, the crew runs a short load rather than miss the delivery."
+      ],
+      "why_it_works": "One gate with an opposite failure on each side: starting early spends a full load's cost, starting late misses a deadline.",
+      "cautions": "No hospital, city, machine brand, or cost figure. No claim about how many loads run in a day.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-082",
+      "title": "The Pile That Moves Down the Line",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (102, 116, 110 words)",
+      "length_words": 328,
+      "fk_grade": 5.52,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_4_2_0002"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The line runs at the speed of its slowest step, so widening the wash moved the waiting to the sizer and left output the same.",
+      "supporting_details": [
+        "Fruit runs from the dump tank to a spray belt, up a ramp, through the sizer's lanes, and past a boxer at each lane.",
+        "The crew doubled the wash belt, and the pile moved down the line instead of shrinking.",
+        "The wash now moves fruit faster than the sizer can grade it.",
+        "Output stayed the same, and the fruit waited longer in water at the sizer.",
+        "The sizer cannot be widened, because each size needs a lane and each lane needs a boxer."
+      ],
+      "why_it_works": "The fix is visible and the result is flat, so the reader has to move the limit rather than the station that was changed.",
+      "cautions": "No shed, orchard, or company name. No figure for fruit volume, price, or line speed.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-083",
+      "title": "The Water That Comes Back",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (111, 108, 112 words)",
+      "length_words": 331,
+      "fk_grade": 5.82,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_4_2_0003"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The tank water loops, so the dust the filter misses returns on every pass and builds up; a new filter cannot remove what already circulates, and only a drain lowers the count.",
+      "supporting_details": [
+        "Water crosses a gravel bed, drops into a sump, and a pump sends it back to the tank.",
+        "Only the water that evaporates is replaced, so the loop closes.",
+        "Most waste is caught, but fine dust passes through and never settles.",
+        "The amount of dust climbs over a week while the filter works as it was built to.",
+        "Draining lowers the count, and the amount to drain is known only after the loop has run."
+      ],
+      "why_it_works": "A closed loop makes a working part produce a failing result, so the reader must see the count as cumulative.",
+      "cautions": "No species, hatchery, or place name. No water chemistry, filter spec, or fish count.",
+      "topic_domain": "science and nature",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-084",
+      "title": "Two Readers, One Page",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (110, 112, 103 words)",
+      "length_words": 325,
+      "fk_grade": 5.73,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "process_band_4_2_0004"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The page is read twice because the two reads look for different defects, so a clean pass for words says nothing about the columns.",
+      "supporting_details": [
+        "The copy editor reads for a wrong name, a missing word, or a sentence that reverses the meaning.",
+        "She never measures the columns or the edges of the advertisements.",
+        "The compositor measures each column against the frame and checks the ad borders.",
+        "He reads very little of the text, because a wrong name means nothing to his ruler.",
+        "The page is set, read for words, read for space, and only then printed."
+      ],
+      "why_it_works": "Two checks, each blind to the other's defect, so the reader has to see why one pass cannot stand for both.",
+      "cautions": "No paper, town, or staff name. No claim about print volume, wages, or page size.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-085",
+      "title": "The Route That Opens on a Test",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (110, 106, 101 words)",
+      "length_words": 317,
+      "fk_grade": 6.04,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_4_2_0005"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The route opens only after a second setter climbs it at the posted grade, because the setter cannot feel the difference his own reach makes.",
+      "supporting_details": [
+        "The wall is stripped, washed, and taped along a traced line before the new holds go on.",
+        "Each hold is marked with tape showing its exact position.",
+        "The tester climbs at the posted grade in the shoes a customer would wear.",
+        "A move that is too far sends the hold back, changes the tape, and repeats the climb.",
+        "The card is signed after the climb, and the tester is never the setter."
+      ],
+      "why_it_works": "A repeat is built into the order, and the release depends on evidence from someone other than the maker.",
+      "cautions": "No gym, city, or grade number. No claim about injury rates or customer numbers.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-086",
+      "title": "The Sailing That Cannot Wait",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (106, 111, 102 words)",
+      "length_words": 319,
+      "fk_grade": 5.68,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_4_2_0006"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The loading plan is counted backward from a fixed sailing time, so the ramp cannot give and the only step with spare minutes is the one that goes.",
+      "supporting_details": [
+        "The boat leaves at a fixed time whether the lane is full or not.",
+        "The ramp comes up shortly before the sailing, and the last car must already be aboard.",
+        "The booth closes before that, and trucks are weighed before they reach it.",
+        "Each step has its own number of minutes on the sheet, added up from the sailing time.",
+        "A late boat sends the crew to the meeting for minutes, because nothing else has any."
+      ],
+      "why_it_works": "The finish is fixed and the plan is computed from it, so the reader must find the step that can give.",
+      "cautions": "No port, route, company name, fares, or crossing time.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
     }
   ],
   "screened_not_banked": [

@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_4_2_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Sailing That Cannot Wait",
+    "skill": "process",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "places and travel",
+    "skill_frame": "Process: build a schedule backward from a fixed finish.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.90, 5.77 and 5.36 on the three parts (106, 111 and 102 words), 5.68 together. The plan starts at the finish and runs backward, so the reader has to hold the fixed minute and the step that must never be cut.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 4.2, band 4.2, sequence 6. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A small ferry whose loading steps are timed backward from a fixed sailing time, with one step that can give.",
+      "avoided": "No port, route, or company name. No claim about crossing time, fares, or boat size."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The finish is fixed and the plan is computed backward from it, so the reader must see which step can give way and which cannot."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A small ferry leaves the dock at a fixed time, whether the lane is full or not. The crew works backward from that minute on a printed sheet. The ramp comes up shortly before, so the last car has to be aboard and secured first. The ticket booth closes a few minutes before that, and every truck has to be weighed before the booth sees it. The crew meeting comes before all of it. Each step is written on the sheet with its own number of minutes, and the numbers are added up from the sailing time. The sheet is the whole plan for the crossing.",
+    "part_2": "When the boat arrives late from the other side, the sheet no longer fits the evening. The minutes have to come from somewhere, and the sailing time cannot move for a late boat. The ramp cannot be shortened. A car half up the ramp cannot stop, and the boat has to stay balanced. The weighing cannot be skipped, because a heavy truck changes that balance at sea. The crew meeting is the only step with spare minutes, so the crew cuts the meeting and keeps everything else. The crew writes the new times on the sheet and signs it before the ramp goes down. Nothing on the sheet is simply dropped.",
+    "part_3": "The order is built from the finish, not from the start. A crew that begins at the first step and works forward runs out of time at the ramp. A crew that begins at the sailing time knows how many minutes it has for each step. The fixed point is the ramp, because the boat is in the water and the cars are already moving toward it. Everything before the ramp is a choice. Everything after it is not, and no step downstream can recover a late start. The sheet is built backward so that nobody has to guess at the end."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What time is the whole sheet built from?",
+      "tutor_only": {
+        "confirm": "Right. The sailing time.",
+        "correct_reason": "The first part says the ferry leaves at a fixed time and the crew works backward from that minute.",
+        "tell": "The sheet is built backward from the sailing time. That minute does not move.",
+        "help": [
+          "The first sentence names the fixed minute.",
+          "Every other number is counted back from it."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The fixed sailing time.",
+        "accept_ideas": [
+          "the sailing time",
+          "the fixed departure time",
+          "the time the boat leaves"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many minutes the crossing takes"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the ticket booth",
+            "ask": "The booth time is counted back from something else. What is the fixed minute?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Of the crew meeting, the weighing, the ticket booth, and the ramp, which comes closest to the sailing time?",
+      "tutor_only": {
+        "confirm": "Right. The ramp.",
+        "correct_reason": "The first part says the ramp comes up shortly before the sailing, and the booth and the meeting come earlier still.",
+        "tell": "The ramp comes up shortly before the boat leaves. The booth and the meeting come earlier.",
+        "help": [
+          "The sentence about the sheet says the minutes are added up from the sailing.",
+          "The step with the smallest number of minutes is the closest one."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The ramp.",
+        "accept_ideas": [
+          "the ramp",
+          "the ramp going up",
+          "loading the last car"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many cars the lane holds"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the crew meeting",
+            "ask": "The meeting is the farthest step back. Which one is nearest to the boat leaving?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The boat arrives late. Which step does the crew cut, and why that one?",
+      "tutor_only": {
+        "confirm": "Right. The crew meeting, because it has spare minutes.",
+        "correct_reason": "The second part says the crew meeting is the only step with spare minutes, so the crew cuts it and keeps everything else.",
+        "tell": "The crew meeting is the only step with spare minutes. The crew cuts it and keeps the rest.",
+        "help": [
+          "The sentence about spare minutes names the one step that has them.",
+          "The minutes have to come from somewhere, and only one step has them."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The crew meeting, because it is the only step with spare minutes.",
+        "accept_ideas": [
+          "the meeting, because it is the only step with extra time",
+          "it cuts the meeting and keeps the rest",
+          "the meeting has minutes to give"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the meeting usually runs"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the crew skips the weighing",
+            "ask": "The passage says the weighing cannot be skipped. Which step can give time?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why can the crew not shorten the ramp step?",
+      "tutor_only": {
+        "confirm": "Right. A car half up the ramp cannot stop.",
+        "correct_reason": "The second part says a car half up the ramp cannot stop, and the boat has to stay balanced.",
+        "tell": "A car halfway up the ramp cannot stop, and the boat has to stay balanced.",
+        "help": [
+          "The sentence about the ramp says what is happening while it is up.",
+          "The step is not a wait. A car is already moving on it."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A car halfway up the ramp cannot stop, and the boat has to stay balanced.",
+        "accept_ideas": [
+          "a car cannot stop halfway up",
+          "the boat has to stay balanced while loading",
+          "cars are already on the ramp"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how steep the ramp is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the ramp is not needed",
+            "ask": "The cars have to get aboard somehow. What is happening while the ramp is up?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "Why does the crew build the sheet backward from the sailing time, not forward from the first step?",
+      "tutor_only": {
+        "confirm": "Right. Forward from the first step runs out of time at the ramp.",
+        "correct_reason": "The third part says a crew working forward runs out of time at the ramp, while working from the sailing time shows how many minutes each step may take.",
+        "tell": "Working forward runs out of time at the ramp. From the sailing time, each step gets its minutes.",
+        "help": [
+          "The sentence about working forward says what runs out at the ramp.",
+          "One way finds the shortage at the end. The other knows it from the start."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Working forward runs out of time at the ramp; from the sailing time each step gets its own minutes.",
+        "accept_ideas": [
+          "forward working runs out of time at the end",
+          "the fixed finish tells each step how long it has",
+          "backward shows the shortage before the work starts"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who prints the sheet"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it is easier to count backward",
+            "ask": "The passage gives a reason about time, not about ease. What runs out?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher process rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_4_2_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, at the end of the band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_4_2_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
