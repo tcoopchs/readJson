@@ -1,0 +1,233 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_4_3_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Window That Closes on Its Own",
+    "skill": "process",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Process: find a step that must fall inside a window that opens and closes on its own.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.22, 5.75 and 5.56 on the three parts (109, 123 and 100 words), 5.78 together. The load is a two-sided gate: the band fails if it goes on too early and fails again if it goes on too late, so the reader must place the step between two different costs.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 4.3, band 4.3, sequence 3. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A wildlife crew banding nestling birds, where the leg must be nearly full grown but not set.",
+      "avoided": "No species, marsh name, agency, or band number. No claim about survival rates."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The step has two opposite failures on either side of a short window, and neither side is set by the crew."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A wildlife crew checks nesting boxes on a marsh through the spring. The boxes sit on poles above the water, and the crew reaches them by boat at low tide. They count eggs, note the date, and estimate when each clutch will hatch, and the estimate is rough because the eggs in one clutch hatch over two or three days. The crew returns to each box several times to catch the right moment. A metal band goes on one leg of each chick, and the number on the band goes into a notebook. That number follows the bird for years and tells later crews where it went and when.",
+    "part_2": "The band has to go on at one narrow age. Too early, and the leg is thin enough that the band slides over the foot and is lost in the reeds. Too late, and the leg has grown so the band will not pass over it at all. The right moment sits between those two failures and lasts about four days. Inside that window the crew also needs dry weather, because a wet chick must not be held long enough to chill. The crew carries a small gauge for measuring the leg, so the decision is made on the boat and not in the office. Rain can close the window for a box entirely, and that box is then skipped for the year.",
+    "part_3": "Every other step in the season can drift. The count can wait a week, and the notes can wait for evening, and neither one is lost by waiting. The banding cannot wait. The window is not set by the crew, and it does not reopen. It opens when the leg is nearly full and closes when the bird is too old to handle. A missed window is missed for that chick, not put off until Monday. The order of the season is therefore built around the youngest clutches, and the crew visits those boxes before the rest of the marsh."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why does the crew return to each box several times?",
+      "tutor_only": {
+        "confirm": "Right. The hatch estimate is rough.",
+        "correct_reason": "The passage says the estimate is rough, because eggs in one clutch hatch over two or three days, so the crew returns to catch the right moment.",
+        "tell": "The hatch date is only an estimate. The crew returns to catch the right day.",
+        "help": [
+          "The sentence about the estimate says why it is rough.",
+          "One clutch does not hatch on a single day."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the hatch estimate is rough, so they must catch the right moment.",
+        "accept_ideas": [
+          "the hatch date is only an estimate",
+          "the eggs hatch over several days",
+          "to find the day the chicks are the right age"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says they return to count the eggs again",
+            "ask": "The count happens once. What does the estimate make them come back for?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What goes wrong if a band goes on too early, and what goes wrong if it goes on too late?",
+      "tutor_only": {
+        "confirm": "Right. Too early and it slips off; too late and it will not pass over the leg.",
+        "correct_reason": "The passage gives both failures: a thin leg lets the band slide over the foot, and a grown leg will not take the band.",
+        "tell": "Too early and the band slides off the foot. Too late and the leg is too thick for it.",
+        "help": [
+          "The sentences about too early and too late each name one failure.",
+          "One failure loses the band, and the other keeps it off the bird."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Too early the band slips over the foot and is lost, and too late the leg is too thick for it.",
+        "accept_ideas": [
+          "too early it slides off and is lost, too late the leg is too big",
+          "the band falls off early, and it will not fit late"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says too early the chick is too small to hold",
+            "ask": "The passage says the band slides somewhere. Where does it go?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "Why is banding the one step that cannot drift, when the count and the notes can?",
+      "tutor_only": {
+        "confirm": "Right. The window is set by the bird, not the crew, and it does not reopen.",
+        "correct_reason": "The passage says the window is not set by the crew and does not reopen, so a missed window is missed for that chick.",
+        "tell": "The window belongs to the bird. It closes on its own and does not come back.",
+        "help": [
+          "The sentence about the window says who sets it.",
+          "The count can wait a week. The leg cannot."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the window is set by the chick's growth and does not reopen.",
+        "accept_ideas": [
+          "the window is set by the bird, not the crew",
+          "it closes and does not come back",
+          "waiting loses the chance for that chick"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says banding takes longer than counting",
+            "ask": "Length is not the point. What happens to a window that is missed?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Rain can close the window for a box. What does the crew lose?",
+      "tutor_only": {
+        "confirm": "Right. The chance to band that chick this year.",
+        "correct_reason": "The passage says rain can close the window for a box entirely, and the box is then skipped.",
+        "tell": "The box is skipped. That chick is not banded this year.",
+        "help": [
+          "The sentence about rain says what happens to the box.",
+          "The window does not reopen later in the season."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The chance to band that chick, because the box is skipped.",
+        "accept_ideas": [
+          "that chick goes unbanded",
+          "the box is skipped for the year",
+          "they lose the banding for those chicks"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says they come back the next day",
+            "ask": "The passage says the window does not reopen. What happens to that box?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The crew finds a box where the chicks are older than expected. What should they do, and why?",
+      "tutor_only": {
+        "confirm": "Right. Band now, because the window may already be closing.",
+        "correct_reason": "The passage says the window closes when the leg is too old to handle and does not reopen, so a late box has to be visited first.",
+        "tell": "Band that box first. The window may be near its end, and it will not reopen.",
+        "help": [
+          "The passage ties the order of the season to the youngest clutches.",
+          "An older clutch has less window left, not more."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Band that box now, because the window may be closing and it does not reopen.",
+        "accept_ideas": [
+          "band them at once, before the legs grow",
+          "visit that box first",
+          "band them now, since the window is nearly closed"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says wait for the next scheduled visit",
+            "ask": "What does the passage say a missed window does?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher process rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_4_3_0004",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_4_3_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

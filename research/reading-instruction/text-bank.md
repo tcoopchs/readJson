@@ -97,6 +97,12 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-084 | Two Readers, One Page | Nonfiction | 4 | Band 4.2 | 325 words (three passages, 110, 112 and 103 each) | 5.73 | `process_band_4_2_0004` |
 | TB-085 | The Route That Opens on a Test | Nonfiction | 4 | Band 4.2 | 317 words (three passages, 110, 106 and 101 each) | 6.04 | `process_band_4_2_0005` |
 | TB-086 | The Sailing That Cannot Wait | Nonfiction | 4 | Band 4.2 | 319 words (three passages, 106, 111 and 102 each) | 5.68 | `process_band_4_2_0006` |
+| TB-087 | The Color That Sets the Order | Nonfiction | 4 | Band 4.3 | 355 words (three passages, 131, 118 and 106 each) | 6.16 | `process_band_4_3_0001` |
+| TB-088 | Twice the Fruit, One Pan | Nonfiction | 4 | Band 4.3 | 316 words (three passages, 105, 102 and 109 each) | 5.75 | `process_band_4_3_0002` |
+| TB-089 | The Window That Closes on Its Own | Nonfiction | 4 | Band 4.3 | 332 words (three passages, 109, 123 and 100 each) | 5.78 | `process_band_4_3_0003` |
+| TB-090 | The Cue That Waits for a Voice | Nonfiction | 4 | Band 4.3 | 314 words (three passages, 110, 100 and 104 each) | 5.92 | `process_band_4_3_0004` |
+| TB-091 | What the First Five Hundred Costs | Nonfiction | 4 | Band 4.3 | 340 words (three passages, 120, 109 and 111 each) | 5.62 | `process_band_4_3_0005` |
+| TB-092 | The Boat That Must Sit Level | Nonfiction | 4 | Band 4.3 | 320 words (three passages, 115, 105 and 100 each) | 6.02 | `process_band_4_3_0006` |
 
 ---
 
@@ -2908,6 +2914,203 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
 
 ---
 
+## TB-087 — The Color That Sets the Order
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 355 words (three passages, 131, 118, 106) |
+| FK grade | 6.16 on the three passages together |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `process_band_4_3_0001` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The board groups jobs by shared ink because every change of color costs a wash-up, and only an earlier due time can break the grouping.
+
+**Supporting details.**
+
+- Four jobs in two inks need two wash-ups grouped by color, and three in arrival order.
+- A wash-up costs about twenty minutes of press time and a few sheets of paper.
+- The noon delivery decides which color group runs first, so the greens run and the blues wait.
+- A late delivery costs the shop more than a wash-up costs.
+- Only the shared ink and the earliest due time set the board; everything else can move.
+
+**Why it works.** The order follows a cost, and that cost is not the order the work arrived in.
+
+**Cautions.** No shop name, city, press brand, wage, or price. No claim about how many jobs a day the shop takes.
+
+---
+
+## TB-088 — Twice the Fruit, One Pan
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | food and farming |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 316 words (three passages, 105, 102, 109) |
+| FK grade | 5.75 on the three passages together |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `process_band_4_3_0002` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** Doubling every amount doubles the water to remove but not the pan's top, so the boil runs much longer than twice and the color pays.
+
+**Supporting details.**
+
+- The cook weighs fruit, sugar, and lemon and works from a sheet above the stove.
+- The set point is tested by dropping a spoonful onto a cold plate and tipping it.
+- Water leaves through the top of the mixture, so a shallow pan sets faster than a deep one.
+- Doubling the batch in one pan leaves the top the same width with twice the water under it.
+- The fix is a second pan or a wider one, because the surface has to grow with the fruit.
+
+**Why it works.** One quantity on the list does not scale with the others, so the reader must find which one decides the step.
+
+**Cautions.** No kitchen name, county, fruit variety, price, or jar count. No claim about how long a batch keeps.
+
+---
+
+## TB-089 — The Window That Closes on Its Own
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 332 words (three passages, 109, 123, 100) |
+| FK grade | 5.78 on the three passages together |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `process_band_4_3_0003` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The band fits only while the leg is nearly full grown and the bird still young, and that window is set by the bird rather than the crew.
+
+**Supporting details.**
+
+- The crew counts eggs and estimates a hatch date that is rough by two or three days.
+- A band fitted too early slides over the foot and is lost in the reeds.
+- A band fitted too late will not pass over a leg that has grown.
+- The usable window lasts about four days and also needs dry weather.
+- Rain can close a window for a box, and that box is skipped for the year.
+
+**Why it works.** Two opposite failures bound one short step, and neither side is set by the crew.
+
+**Cautions.** No species, marsh name, agency, or band number. No claim about survival rates.
+
+---
+
+## TB-090 — The Cue That Waits for a Voice
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | arts and language |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 314 words (three passages, 110, 100, 104) |
+| FK grade | 5.92 on the three passages together |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `process_band_4_3_0004` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The prompt book records the change but not the moment, so the cue is completed only when the manager calls it and the operator answers.
+
+**Supporting details.**
+
+- Each cue records a number, a change, and the line of the play where it belongs.
+- The book also records how long the change should take, counted from one to ten.
+- The manager says the cue number and standby, the operator answers ready, and go comes on the word that follows.
+- The line moves by a few seconds each night, so a timer set the night before would be wrong.
+- The operator holds the fader and the manager holds the timing, so neither can run the cue alone.
+
+**Why it works.** The plan holds the change and the night holds the moment, so one written step needs two people.
+
+**Cautions.** No theatre, city, play, or designer name. No claim about ticket sales or running time.
+
+---
+
+## TB-091 — What the First Five Hundred Costs
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | sport and play |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 340 words (three passages, 120, 109, 111) |
+| FK grade | 5.62 on the three passages together |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `process_band_4_3_0005` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The race is a budget of one fixed store across four fixed pieces, so what the start spends is taken from the third piece.
+
+**Supporting details.**
+
+- The course is four pieces of five hundred meters, and each piece is timed from the bank.
+- The body has a fixed store of fuel and spends it faster at a high rate.
+- The store does not refill during the race.
+- A crew up two seconds at the first mark often loses four in the third.
+- The four rates have to add up to the store, and the choice is made before the start.
+
+**Why it works.** One quantity travels through four steps in a fixed order, so an early spend changes what a later step can do.
+
+**Cautions.** No club, regatta, athlete, or record time. No claim about a specific crew's rate.
+
+---
+
+## TB-092 — The Boat That Must Sit Level
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 320 words (three passages, 115, 105, 100) |
+| FK grade | 6.02 on the three passages together |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `process_band_4_3_0006` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The deck has to stay level at every step, so the ballast answers each lane before the next car boards and the order follows what is already aboard.
+
+**Supporting details.**
+
+- Cars load up a ramp into four lanes and add weight high above the water.
+- The boat carries water in tanks below the car deck and pumps it from one tank to another.
+- A lean of a few degrees lifts the far side and lowers the near side, and the ramp is bolted to that side.
+- The pumping cannot wait until the end, because the ramp angle would change before the next car.
+- The order is forced by the balance after each car, so a list of cars does not describe a boat.
+
+**Why it works.** One condition has to hold between every step, not at the end, so each step's order is set by the state the last one left.
+
+**Cautions.** No port, route, vessel, or operator name. No crossing time, fares, or capacity figure.
+
+---
 ---
 
 ## Rules for adding a text

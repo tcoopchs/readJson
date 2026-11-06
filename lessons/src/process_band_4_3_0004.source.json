@@ -1,0 +1,234 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_4_3_0004",
+  "meta": {
+    "status": "published",
+    "title": "The Cue That Waits for a Voice",
+    "skill": "process",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "topic_domain": "arts and language",
+    "skill_frame": "Process: follow a step that two people carry out together, on a signal rather than a schedule.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.26, 6.03 and 5.69 on the three parts (110, 100 and 104 words), 5.92 together. The load is where the timing lives: the book records the cue, the stage manager holds the moment, and the operator holds the hands, so the reader must see that the plan cannot run itself.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 4.3, band 4.3, sequence 4. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A theatre's light cues, written to a line of dialogue and called from the wings by one person to another.",
+      "avoided": "No theatre, city, play, or designer name. No claim about ticket sales or running time."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The written plan holds the change but not the moment, so the step is completed only when a second person answers a call."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A theatre keeps its lighting cues in a prompt book, and the stage manager carries that book in the wings. Each cue lists a number, a change, and the line of the play where the change belongs. Cue twelve lowers the kitchen lamps and raises the window light, and it sits beside the line where the youngest sister says she is leaving. The book also records how long the change should take, counted steadily from one to ten. Sixty cues are written this way, and each one keeps the same shape. The count is there so that two evenings sound alike to an auditorium that has paid for its seats.",
+    "part_2": "The change itself is not run on a clock. The stage manager watches the stage and the script, and the operator keeps a hand on the fader. Before the line arrives, the manager says the cue number and then the word standby. The operator answers ready. The manager says go on the word that follows, and the fader moves on that word. Both people hold the same moment, and neither can run it alone. The line moves by a few seconds each night, because the actor is not a machine, so a timer set the night before would be wrong.",
+    "part_3": "The cue is written as a step in a list, but it is carried out by two people at once. The plan holds the number and the change and the length of the fade. The timing holds in the manager's ear, on the night, against the actor's voice. The operator cannot take the timing from the sheet, and the manager cannot take the hands from the board. That is why a cue survives a slow line and a clock on the wall would go dark in the middle of a sentence. The book can be read alone, but the cue cannot be run alone."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does each cue in the book record?",
+      "tutor_only": {
+        "confirm": "Right. A number, a change, and a line of the play.",
+        "correct_reason": "The passage says each cue has a number, a change, and a line of the play, and the book also records how long the change should take.",
+        "tell": "Each cue records a number, a change, and the line it belongs to.",
+        "help": [
+          "The sentence about a cue lists three things.",
+          "One of them is the line where the change happens."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A number, a change, and the line of the play where it belongs.",
+        "accept_ideas": [
+          "a number, a change and a line",
+          "the cue number, the change and the line",
+          "what changes, which line, and how long it takes"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the time of night",
+            "ask": "The cue is tied to a line, not a time. What three things does it record?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the manager say the cue number and standby before the word go?",
+      "tutor_only": {
+        "confirm": "Right. So the operator knows which cue and is ready for it.",
+        "correct_reason": "The passage says the manager says the cue number and then standby, the operator answers ready, and the manager says go on the word that follows.",
+        "tell": "Standby tells the operator which cue is coming and gets a hand on the fader.",
+        "help": [
+          "The sentence about standby says what the operator answers.",
+          "It puts the operator on the right cue before the moment arrives."
+        ],
+        "say_back": "own_words",
+        "core_idea": "So the operator knows which cue is next and is ready with a hand on the fader.",
+        "accept_ideas": [
+          "so the operator is ready for the right cue",
+          "to get the hand on the fader before the word",
+          "it tells the operator which cue is coming"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it is a warning that the scene is ending",
+            "ask": "Whose hand moves when the word comes?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why can the cue not be run from a timer set the night before?",
+      "tutor_only": {
+        "confirm": "Right. The line moves by seconds each night.",
+        "correct_reason": "The passage says the line moves by a few seconds each night because the actor is not a machine.",
+        "tell": "The actor moves the line. A timer set the night before would be early or late.",
+        "help": [
+          "The sentence about the line moving says what is not a machine.",
+          "The moment is set by a voice, and a voice is never twice the same."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the line moves by seconds each night, since the actor is not a machine.",
+        "accept_ideas": [
+          "the line moves each night",
+          "the actor is not a machine, so the timing drifts",
+          "a timer would be early or late"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the operator would forget the cue",
+            "ask": "The operator is already on standby. What keeps moving each night?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why does the book record how long the change should take, counted from one to ten?",
+      "tutor_only": {
+        "confirm": "Right. So the change is the same length on both nights.",
+        "correct_reason": "The passage says the count is there so that two evenings sound alike to an audience that has paid for its seats.",
+        "tell": "The count keeps the fade the same length. Two evenings sound alike.",
+        "help": [
+          "The sentence about the count says what it is for.",
+          "It is about the audience hearing the same thing twice."
+        ],
+        "say_back": "own_words",
+        "core_idea": "So two evenings sound alike to the audience.",
+        "accept_ideas": [
+          "so both nights look the same",
+          "to keep the fade the same length",
+          "so the audience sees the same change twice"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says so the operator knows when to stop",
+            "ask": "Stopping is part of it. What does the audience get from the count?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The actor pauses for four seconds before the line. What does the manager do, and why?",
+      "tutor_only": {
+        "confirm": "Right. Holds the call until the line comes.",
+        "correct_reason": "The passage says the manager says go on the word that follows, so a pause delays the call rather than the cue.",
+        "tell": "The manager waits. The call goes on the word, not on a count of seconds.",
+        "help": [
+          "The passage says where the word go belongs.",
+          "The book holds the change. The night holds the moment."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Holds standby and calls go when the line finally comes, because the word sets the moment.",
+        "accept_ideas": [
+          "waits and calls go on the line",
+          "holds the call until the actor speaks",
+          "nothing, until the word arrives"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the manager calls go at the planned second",
+            "ask": "The passage puts the call on a word. Which word?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher process rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_4_3_0005",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_4_3_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

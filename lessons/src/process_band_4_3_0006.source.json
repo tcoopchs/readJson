@@ -1,0 +1,234 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_4_3_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Boat That Must Sit Level",
+    "skill": "process",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "places and travel",
+    "skill_frame": "Process: keep one condition true at every step, so the order follows what is already aboard.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.74, 5.96 and 6.49 on the three parts (115, 105 and 100 words), 6.02 together. The load is an invariant: the boat has to stay level at every step, and the reader must see why the check cannot be moved to the end.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 4.3, band 4.3, sequence 6. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A small ferry loading cars lane by lane, trimming water between tanks so the ramp keeps meeting the shore.",
+      "avoided": "No port, route, vessel, or operator name. No crossing time, fares, or capacity figure."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "A level deck has to hold at every step, not at the end, so each step's order is forced by the state the last one left."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A small ferry loads cars up a ramp into four lanes. Each lane runs from the ramp to the bow, and each car adds weight high above the water. The boat carries water in tanks below the car deck, and the crew can pump that water from one tank to another. The tanks keep the boat level as the lanes fill, and the crew reads marks on the hull to know how much water to move. A level boat floats to a known depth, and that depth is what decides whether the ramp still reaches the shore. A boat that sits too low leaves a step at the ramp for the next car to climb.",
+    "part_2": "Loading is done lane by lane, and every lane changes the balance. Fill the near lane first and the boat leans toward the ramp. A lean of a few degrees lifts the far side and lowers the near side into the water, and the ramp is bolted to that side. The crew pumps water to the opposite tank as each lane fills, so the deck stays level at every step. The tanks are large enough to answer for one lane at a time, so the pumping cannot wait until the end. If it waits, the ramp angle changes, and the next car cannot drive aboard.",
+    "part_3": "The order is not chosen for speed. It is forced by what is already aboard, and it changes with every car. Each car shifts the balance, and the tanks answer before the next car comes up. The check runs between every step, because a list of cars does not describe a boat. A ferry that loads in one sweep and trims afterward has already tilted, and by the time anyone notices, the ramp is out of reach. The quay holds a single line of cars, and a stopped ramp stops every one of them, back to the road behind it."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What decides whether the ramp still reaches the shore?",
+      "tutor_only": {
+        "confirm": "Right. The depth the boat floats at.",
+        "correct_reason": "The passage says a level boat floats to a known depth, and that depth decides whether the ramp still reaches the shore.",
+        "tell": "The boat floats at a depth. That depth sets the ramp's angle.",
+        "help": [
+          "The sentence about the depth says what it decides.",
+          "A boat that sits too low leaves a step at the ramp."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The depth the boat floats at, which depends on staying level.",
+        "accept_ideas": [
+          "how deep the boat sits",
+          "the depth of the boat in the water",
+          "the height of the deck above the water"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the length of the ramp",
+            "ask": "The ramp is bolted to the boat. What moves when the boat sits low?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the crew pump water while the lanes fill, instead of after loading?",
+      "tutor_only": {
+        "confirm": "Right. A lean changes the ramp angle before the next car.",
+        "correct_reason": "The passage says that if the pumping waits, the ramp angle changes and the next car cannot drive aboard.",
+        "tell": "The tank has to answer each car. If it waits, the ramp rises or falls out of reach.",
+        "help": [
+          "The sentence about waiting says what happens to the ramp.",
+          "One lane of cars is enough to tilt the deck."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the pumping has to answer each lane before the next car can board.",
+        "accept_ideas": [
+          "a lean would change the ramp before the next car",
+          "the ramp angle would move and stop the line",
+          "the boat has to stay level at every step"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says pumping afterward is faster",
+            "ask": "Speed is not the limit. What happens to the next car if the pumping waits?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Fill the near lane first and the boat leans toward the ramp. Why is that a problem?",
+      "tutor_only": {
+        "confirm": "Right. The lean lifts the far side and lowers the near side into the water.",
+        "correct_reason": "The passage says a lean of a few degrees lifts the far side and lowers the near side into the water, and the ramp is bolted to that side.",
+        "tell": "The near side goes down and takes the ramp with it. The angle changes.",
+        "help": [
+          "The sentence about the lean names both sides.",
+          "The ramp is fixed to the side that is being pushed under."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the near side drops and the ramp angle changes with it.",
+        "accept_ideas": [
+          "the ramp side sinks, so the angle changes",
+          "the deck tilts and the ramp follows it down",
+          "the near side is pushed into the water"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the boat might sink",
+            "ask": "The passage says a few degrees. What does that do to the ramp?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "The passage says a list of cars does not describe a boat. What does that mean?",
+      "tutor_only": {
+        "confirm": "Right. The order depends on the balance at each step, not the list.",
+        "correct_reason": "The passage says the order is forced by what is already aboard and changes with every car, so the list alone cannot set it.",
+        "tell": "A list says what to load. It does not say how the boat sits after each car.",
+        "help": [
+          "The sentence about the order says what forces it.",
+          "The state after each car is part of the plan."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It means the order depends on the balance after each car, not on the list of what to load.",
+        "accept_ideas": [
+          "the balance after each car decides the order",
+          "the list says nothing about the boat's tilt",
+          "each car changes what the next step can be"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the list is too long to remember",
+            "ask": "The complaint is not about length. What does the list leave out?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The crew loads two full lanes on one side before pumping at all. What happens, and why?",
+      "tutor_only": {
+        "confirm": "Right. The boat tilts, the ramp angle changes, and the line stops.",
+        "correct_reason": "The passage says the check runs between every step, and a ferry that loads in one sweep and trims afterward has already tilted.",
+        "tell": "Two lanes on one side is a lean the tanks never answered. The ramp goes out of reach and the line stops.",
+        "help": [
+          "The passage says where the check has to run.",
+          "The balance is not a thing to fix at the end."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The boat tilts, the ramp stops reaching the shore, and the line of cars stops with it.",
+        "accept_ideas": [
+          "it tilts and the ramp no longer reaches",
+          "the deck leans and the line stops",
+          "the boat sits low on one side and unloading breaks"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the tanks can fix it at the end",
+            "ask": "The tanks can pump afterward. What has already happened to the ramp?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher process rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, to run it again.",
+    "student_line": "This reading again, to try the same move once more."
+  },
+  "stopped": {
+    "next_file": "process_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -3092,6 +3092,228 @@
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, accepted on spot check.",
       "drafted_by": "TC"
+    },
+    {
+      "id": "TB-087",
+      "title": "The Color That Sets the Order",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (131, 118, 106 words)",
+      "length_words": 355,
+      "fk_grade": 6.16,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "process_band_4_3_0001"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The board groups jobs by shared ink because every change of color costs a wash-up, and only an earlier due time can break the grouping.",
+      "supporting_details": [
+        "Four jobs in two inks need two wash-ups grouped by color, and three in arrival order.",
+        "A wash-up costs about twenty minutes of press time and a few sheets of paper.",
+        "The noon delivery decides which color group runs first, so the greens run and the blues wait.",
+        "A late delivery costs the shop more than a wash-up costs.",
+        "Only the shared ink and the earliest due time set the board; everything else can move."
+      ],
+      "why_it_works": "The order follows a cost, and that cost is not the order the work arrived in.",
+      "cautions": "No shop name, city, press brand, wage, or price. No claim about how many jobs a day the shop takes.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-088",
+      "title": "Twice the Fruit, One Pan",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (105, 102, 109 words)",
+      "length_words": 316,
+      "fk_grade": 5.75,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "process_band_4_3_0002"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "Doubling every amount doubles the water to remove but not the pan's top, so the boil runs much longer than twice and the color pays.",
+      "supporting_details": [
+        "The cook weighs fruit, sugar, and lemon and works from a sheet above the stove.",
+        "The set point is tested by dropping a spoonful onto a cold plate and tipping it.",
+        "Water leaves through the top of the mixture, so a shallow pan sets faster than a deep one.",
+        "Doubling the batch in one pan leaves the top the same width with twice the water under it.",
+        "The fix is a second pan or a wider one, because the surface has to grow with the fruit."
+      ],
+      "why_it_works": "One quantity on the list does not scale with the others, so the reader must find which one decides the step.",
+      "cautions": "No kitchen name, county, fruit variety, price, or jar count. No claim about how long a batch keeps.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-089",
+      "title": "The Window That Closes on Its Own",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (109, 123, 100 words)",
+      "length_words": 332,
+      "fk_grade": 5.78,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "process_band_4_3_0003"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The band fits only while the leg is nearly full grown and the bird still young, and that window is set by the bird rather than the crew.",
+      "supporting_details": [
+        "The crew counts eggs and estimates a hatch date that is rough by two or three days.",
+        "A band fitted too early slides over the foot and is lost in the reeds.",
+        "A band fitted too late will not pass over a leg that has grown.",
+        "The usable window lasts about four days and also needs dry weather.",
+        "Rain can close a window for a box, and that box is skipped for the year."
+      ],
+      "why_it_works": "Two opposite failures bound one short step, and neither side is set by the crew.",
+      "cautions": "No species, marsh name, agency, or band number. No claim about survival rates.",
+      "topic_domain": "science and nature",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-090",
+      "title": "The Cue That Waits for a Voice",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (110, 100, 104 words)",
+      "length_words": 314,
+      "fk_grade": 5.92,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_4_3_0004"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The prompt book records the change but not the moment, so the cue is completed only when the manager calls it and the operator answers.",
+      "supporting_details": [
+        "Each cue records a number, a change, and the line of the play where it belongs.",
+        "The book also records how long the change should take, counted from one to ten.",
+        "The manager says the cue number and standby, the operator answers ready, and go comes on the word that follows.",
+        "The line moves by a few seconds each night, so a timer set the night before would be wrong.",
+        "The operator holds the fader and the manager holds the timing, so neither can run the cue alone."
+      ],
+      "why_it_works": "The plan holds the change and the night holds the moment, so one written step needs two people.",
+      "cautions": "No theatre, city, play, or designer name. No claim about ticket sales or running time.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-091",
+      "title": "What the First Five Hundred Costs",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (120, 109, 111 words)",
+      "length_words": 340,
+      "fk_grade": 5.62,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_4_3_0005"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The race is a budget of one fixed store across four fixed pieces, so what the start spends is taken from the third piece.",
+      "supporting_details": [
+        "The course is four pieces of five hundred meters, and each piece is timed from the bank.",
+        "The body has a fixed store of fuel and spends it faster at a high rate.",
+        "The store does not refill during the race.",
+        "A crew up two seconds at the first mark often loses four in the third.",
+        "The four rates have to add up to the store, and the choice is made before the start."
+      ],
+      "why_it_works": "One quantity travels through four steps in a fixed order, so an early spend changes what a later step can do.",
+      "cautions": "No club, regatta, athlete, or record time. No claim about a specific crew's rate.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-092",
+      "title": "The Boat That Must Sit Level",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (115, 105, 100 words)",
+      "length_words": 320,
+      "fk_grade": 6.02,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "process_band_4_3_0006"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The deck has to stay level at every step, so the ballast answers each lane before the next car boards and the order follows what is already aboard.",
+      "supporting_details": [
+        "Cars load up a ramp into four lanes and add weight high above the water.",
+        "The boat carries water in tanks below the car deck and pumps it from one tank to another.",
+        "A lean of a few degrees lifts the far side and lowers the near side, and the ramp is bolted to that side.",
+        "The pumping cannot wait until the end, because the ramp angle would change before the next car.",
+        "The order is forced by the balance after each car, so a list of cars does not describe a boat."
+      ],
+      "why_it_works": "One condition has to hold between every step, not at the end, so each step's order is set by the state the last one left.",
+      "cautions": "No port, route, vessel, or operator name. No crossing time, fares, or capacity figure.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
     }
   ],
   "screened_not_banked": [

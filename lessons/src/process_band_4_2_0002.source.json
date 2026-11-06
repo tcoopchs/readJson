@@ -226,9 +226,9 @@
     }
   ],
   "advance": {
-    "next_file": "process_band_4_2_0001",
+    "next_file": "process_band_4_3_0001",
     "next_irl": 4,
-    "next_means": "The first lesson of this band, because no higher process rung is authored yet.",
+    "next_means": "The first lesson of the next rung, grade 4 stage 3.",
     "student_line": "You have the move. The next reading is another lesson on this skill."
   },
   "retry": {

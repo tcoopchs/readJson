@@ -1,0 +1,234 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_4_3_0005",
+  "meta": {
+    "status": "published",
+    "title": "What the First Five Hundred Costs",
+    "skill": "process",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Process: spend one fixed store across the steps, so what one step spends is taken from the next.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.75, 5.68 and 5.48 on the three parts (120, 109 and 111 words), 5.62 together. The load is a budget: the order cannot change, and what each piece spends is taken from the same store, so the reader must track one quantity through four steps.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 4.3, band 4.3, sequence 5. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A rowing crew planning a two-thousand-meter race as four timed pieces sharing one store of fuel.",
+      "avoided": "No club, regatta, athlete, or record time. No claim about a specific crew's rate."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The steps are fixed in order and share one store, so an early spend changes what a later step can do."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A two-thousand-meter race is four pieces of five hundred meters, and each piece is timed from the bank. A crew sets a stroke rate, which is roughly the number of strokes in a minute. The crew tries to hold that rate through the whole piece. The course is marked every five hundred meters, and the marks are what a coach reads against a watch. Coaches read the four numbers out afterward. The numbers show where a crew gained time and where it paid time back, and a good coach reads the second half of the race first. The first piece is a start, the last is a finish, and the middle is where a race is usually settled.",
+    "part_2": "A crew that opens two seconds ahead at the first mark often loses four in the third. The body has a fixed store of fuel for a race, and it spends that store faster at a high rate than at a low one. The store does not refill during the race, and no drink on the bank puts it back. Spending it in the first piece leaves less for the third. The third is the piece where most crews fade and lose their shape. The two seconds gained early are paid back with interest before the finish, and no amount of shouting in the third piece returns the fuel.",
+    "part_3": "The plan is a budget, not a list. Every piece gets a rate, and the four rates have to add up to the crew's store, which is smaller than most crews believe. The order of the pieces cannot change, because the start is at one end of the course and the finish is at the other. What the crew chooses is how much each piece may spend. That choice is made on the bank, before the first stroke is taken. The water on the day decides how much of the plan survives contact with the race. A crew that spends early has already decided the third piece, and it decided badly."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What do the coaches read out after the race?",
+      "tutor_only": {
+        "confirm": "Right. The time of each of the four pieces.",
+        "correct_reason": "The passage says coaches read the four numbers out afterward, and the numbers show where a crew gained and where it paid.",
+        "tell": "They read four numbers, one for each piece of the race.",
+        "help": [
+          "The sentence about the coaches says how many numbers they read.",
+          "One number for every five hundred meters."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The time of each of the four pieces.",
+        "accept_ideas": [
+          "the four piece times",
+          "the time for each five hundred",
+          "four numbers, one per piece"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the total race time",
+            "ask": "The passage says four numbers, not one. What is each one?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "A crew opens two seconds ahead at the first mark and then loses four in the third. Why?",
+      "tutor_only": {
+        "confirm": "Right. It spent its store early.",
+        "correct_reason": "The passage says the body has a fixed store of fuel, spent faster at a high rate, so spending it in the first piece leaves less for the third.",
+        "tell": "The fuel is a fixed store. Spending it early leaves less for the third piece.",
+        "help": [
+          "The sentence about the fixed store says how it is spent.",
+          "What the first piece spends is taken from the third."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It spent the fixed store early, so less was left for the third piece.",
+        "accept_ideas": [
+          "it used its fuel early",
+          "the store is fixed and the start took too much",
+          "spending at a high rate early leaves less for later"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the crew was saving fuel for the finish",
+            "ask": "The passage says a crew that opens two seconds ahead does what to the third piece?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "Why does the crew have to choose its rates before the race?",
+      "tutor_only": {
+        "confirm": "Right. The four rates must add up to one fixed store.",
+        "correct_reason": "The passage says every piece gets a rate, the four rates have to add up to the crew's store, and the choice is made on the bank.",
+        "tell": "The store is fixed and shared. What one piece spends, another cannot.",
+        "help": [
+          "The sentence about the budget says what the four rates have to do.",
+          "The plan is written before anyone knows how the water will feel."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because the four rates have to add up to one fixed store, and the choice is made before the start.",
+        "accept_ideas": [
+          "the rates have to add up to one store",
+          "the fuel is fixed, so the split is set in advance",
+          "deciding late means deciding badly"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says so the crew can change the order of the pieces",
+            "ask": "The passage says the order cannot change. What is left to choose?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "What can the crew change during the race, and what can it not change?",
+      "tutor_only": {
+        "confirm": "Right. It can change its rate, but not the order or the store.",
+        "correct_reason": "The passage says the order of the pieces cannot change and the store does not refill, so only the spending can move.",
+        "tell": "The order and the store are fixed. The crew can still change how it spends what is left.",
+        "help": [
+          "The sentence about the order says what cannot change.",
+          "Two things are fixed, and one thing is still in the crew's hands."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It can change how hard it rows, but not the order of the pieces or the size of the store.",
+        "accept_ideas": [
+          "the rate can change, the order cannot",
+          "it can spend differently but not get fuel back",
+          "it can adjust the effort, not the order or the fuel"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the crew can save fuel for the finish",
+            "ask": "Saving is a choice made before the start. What does the passage say does not refill?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "A crew plans to spend most of its store in the last piece. What must it accept in the first three?",
+      "tutor_only": {
+        "confirm": "Right. Lower rates early, giving up seconds before the finish.",
+        "correct_reason": "The four rates add up to one store, so saving for the last piece means spending less in the first three.",
+        "tell": "The rates must add up. A big spend at the end means smaller spends before it.",
+        "help": [
+          "The passage treats the plan as a budget of four rates.",
+          "One store, four pieces, and no refill. Something has to give."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Lower rates in the first three pieces, giving up early seconds to keep fuel for the finish.",
+        "accept_ideas": [
+          "lower rates early",
+          "it gives up time before the last piece",
+          "less spend in the first three pieces"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says nothing is given up, because the finish is fastest",
+            "ask": "The four rates have to add up to one store. Where does the finish rate come from?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher process rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_4_3_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

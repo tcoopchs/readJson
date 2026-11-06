@@ -1,7 +1,7 @@
 # Handoff — readJson / readingHarness
 
-State as of 2026-11-06, written in the working tree through the `process` 4.2 rung and committed with
-it. If `git status` shows the six process 4.2 sources uncommitted, the commit did not land and this
+State as of 2026-11-06, written in the working tree through the `process` 4.3 rung and committed with
+it. If `git status` shows the six process 4.3 sources uncommitted, the commit did not land and this
 file is ahead of the tree.
 
 Normative docs: `README.md` (naming, bands, routing), `DESIGN_RULES.md` (passage, items, ladder),
@@ -12,11 +12,11 @@ disagree, the rules win — and this file is wrong.
 
 ## Where the catalog stands
 
-124 compiled lessons. The inference ladder is complete from the floor through stage 4.3, `main_idea`
-is complete through stage 4.3, and `vocab` is complete from the floor through 4.3, so three verticals
-are open at grade 4. `text_structure` has all four grade-4 rungs: its 3.1 floor rung, 4.1, 4.2 and 4.3,
-so that vertical is closed. `process` now has its 3.1 floor rung and its grade-4 rungs 4.1 and 4.2, so
-`process` 4.3 is the next rung in the build order and the last one before that vertical closes.
+130 compiled lessons. The inference ladder is complete from the floor through stage 4.3, `main_idea`
+is complete through stage 4.3, `vocab` is complete from the floor through 4.3, and `text_structure`
+has all four grade-4 rungs. `process` 4.3 landed last, so every grade-4 vertical is now closed and
+Phase 2 of the build plan is finished. The next cell in the plan's order is `argument_evidence` 3.1,
+which the plan still marks "decide before authoring".
 
 | Ladder | Rungs built | Notes |
 | --- | --- | --- |
@@ -24,12 +24,13 @@ so that vertical is closed. `process` now has its 3.1 floor rung and its grade-4
 | `main_idea` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) · 7.1 2/6 | 4.2 is one cell from six federal works; 4.3 is six drafted passages; the 7.1 gap is why a clear on 4.3 holds |
 | `vocab` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) | four rungs, all drafted under 2.6; TB-021 to TB-044; ladder complete through 4.3 |
 | `text_structure` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) | twenty-four drafted passages, one structure move each; vertical closed through 4.3 |
-| `process` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 9.1 2/6 · 10.1 1/6 | the 9.1 and 10.1 files are legacy prototypes, incomplete; 4.3 is next |
-| `the other three` | none | see Phase 2 in the build plan; `process 4.3` follows process 4.2 |
+| `process` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) · 9.1 2/6 · 10.1 1/6 | vertical closed through 4.3; the 9.1 and 10.1 files are legacy prototypes, incomplete |
+| `the other three` | none | Phase 2 closed with process 4.3; `argument_evidence` 3.1 is next, pending a placement decision |
 
-`lessons/curriculum.json` matches reality: 24 sets declared, 19 `complete`; 4.1 inference keeps its
+`lessons/curriculum.json` matches reality: 25 sets declared, 20 `complete`; 4.1 inference keeps its
 eight files as road; 3.1, 4.2, 4.3, main_idea 3.1, 4.1, 4.2 and 4.3, vocab 3.1, 4.1, 4.2 and 4.3,
-text_structure 3.1, 4.1, 4.2 and 4.3, and process 3.1, 4.1 and 4.2 declare six each and are `complete`.
+text_structure 3.1, 4.1, 4.2 and 4.3, and process 3.1, 4.1, 4.2 and 4.3 declare six each and are
+`complete`.
 
 `text_structure` 3.1 is six structures, six domains, no neighbour repeat: sequence (food and
 farming), cause and effect (science and nature), comparison (places and travel), problem and
@@ -101,11 +102,25 @@ because the two reads hunt different defects (arts and language), a release that
 person's climb and repeats when the climb fails (sport and play), and a plan counted backward from a
 fixed finish, with one step that can never give (places and travel). Six domains, no neighbour repeat.
 TB-081 to TB-086, all drafted under 2.6 with `drafted_by: "TC"` and the spot-check `text_status`. All
-six advance to `process_band_4_2_0001`, because no rung above 4.2 is authored: a clear holds at the
-top of the rung. Routed against the live code: a second clear on 4.1 moves up to 4.2_0001; a first
+six now advance to `process_band_4_3_0001`, repointed when 4.3 landed; before that they advanced to
+their own `_0001`, because no rung above 4.2 was authored. Routed against the live code: a second clear on 4.1 moves up to 4.2_0001; a first
 clear inside 4.2 stays on the next sequence; a second hard fail on 4.2_0003 steps down to 4.1_0003,
 the middle of the previous rung; a clear after two clears holds with `next_set_incomplete`, because the
-only process sets above 4.2 are the incomplete 9.1 and 10.1 prototypes.
+
+`process` 4.3 (TB-087 to TB-092) closes that vertical and with it Phase 2. Three parts of 100-123 words
+per lesson, measured part FK 5.46 to 6.49 and whole-passage FK 5.52 to 6.16, and one process move per
+lesson, none of them used in 3.1, 4.1 or 4.2 — an order chosen by shared setup rather than by arrival,
+with a due time able to break the grouping (work and trade); a batch where every amount doubles but
+the pan's top does not (food and farming); a step that has two opposite failures on either side of a
+window the crew does not set (science and nature); a step whose timing lives with one person and whose
+hands live with another (arts and language); one fixed store spent across four fixed pieces (sport and
+play); and a condition that has to hold between every step, so the order follows what is already
+aboard (places and travel). Six domains, no neighbour repeat. All six drafted under 2.6 with
+`drafted_by: "TC"` and the spot-check `text_status`. All six advance to `process_band_4_3_0001`,
+because nothing above 4.3 is authored. Routed against the live code: a clear on 4.2_0006 moves up to
+`process_band_4_3_0001`; two hard fails in the window on 4.3_0003 step down to `process_band_4_2_0003`,
+the middle of the previous rung; a clear at the top of 4.3 holds with `next_set_incomplete`, because
+the only process sets above it are the incomplete 9.1 and 10.1 prototypes.
 
 `main_idea` 4.3 (TB-015 to TB-020) is the rung the subject rule bit on: no two neighbours share a
 domain, and the six span six of the seven domains — food and farming, arts and language, work and
@@ -133,9 +148,9 @@ trade, sport and play, history and people, places and travel.
 ```bash
 build_lessons.py --check          # exit 0
 pytest                            # 57 passed
-validate_lesson.py --strict       # 124 sources, 0 errors, 0 warnings
-audit_lessons.py                  # 58 findings, the known ordinal backlog, none in process 4.1 or 4.2
-catalog load (124 lessons)        # ladders in order, 24 sets declared, 19 complete, onboarding valid
+validate_lesson.py --strict       # 130 sources, 0 errors, 0 warnings
+audit_lessons.py                  # 59 findings, the known ordinal backlog, none in process 4.3
+catalog load (130 lessons)        # ladders in order, 25 sets declared, 20 complete, onboarding valid
 cold-chat sweep, 18 vocab lessons # smooth 18/18 ($0.0311); hard 18/18 ($0.0312), tell and an=0 stop
 cold-chat sweep, vocab 4.3        # smooth 6/6 ($0.0245); hard 6/6 ($0.0115), tell and an=0 stop
 cold-chat sweep, text_structure 3.1 # smooth 6/6 ($0.0056); hard 6/6 ($0.0062), tell and an=0 stop
@@ -144,7 +159,9 @@ cold-chat sweep, text_structure 4.2 # smooth 6/6 ($0.0441); hard 6/6 ($0.0124), 
 cold-chat sweep, process 3.1      # smooth 6/6 ($0.0383); hard 6/6 ($0.0152), tell and an=0 stop
 cold-chat sweep, process 4.1      # smooth 6/6 ($0.0368 + $0.0049 retry); hard 6/6 ($0.0213), tell and an=0 stop
 cold-chat sweep, process 4.2      # smooth 6/6 ($0.0166); hard 6/6 ($0.0168), tell and an=0 stop
+cold-chat sweep, process 4.3      # smooth 6/6 ($0.0235); hard 6/6 ($0.0189 + $0.0027 re-run), tell and an=0 stop
 routing, process 4.2              # 4.1 clear -> 4.2_0001; first clear in 4.2 -> next sequence; second hard fail -> 4.1_0003; clear at ceiling holds next_set_incomplete
+routing, process 4.3              # 4.2_0006 clear -> 4.3_0001; two hard fails on 4.3_0003 -> 4.2_0003; clear at ceiling holds next_set_incomplete
 catalog + routing, text_structure 4.2 # 100 lessons load; clear on 4.1 -> 4.2_0001; hard fail on 4.2_0001 -> 4.1_0003; clear on 4.2 holds at ceiling
 ```
 
