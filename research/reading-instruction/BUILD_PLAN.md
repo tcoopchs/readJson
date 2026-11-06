@@ -27,12 +27,12 @@ inference: 3.1 -> 4.1 -> 4.2 -> 4.3 -> 5.1 -> 5.2 -> 5.3 -> ...
   per day; two down-moves in a row holds and alerts.
 - A student is never told their band. Band labels are internal and teacher-facing.
 
-## 2. Where the catalog stands (verified 2026-11-03)
+## 2. Where the catalog stands (verified 2026-11-05)
 
-One hundred and twelve compiled lessons. The inference ladder is complete from the floor through stage 4.3,
+One hundred and eighteen compiled lessons. The inference ladder is complete from the floor through stage 4.3,
 `main_idea` is complete through stage 4.3, and `vocab` is complete from the floor through 4.3.
 `text_structure` is complete at its floor rung 3.1 and at 4.1, 4.2 and 4.3, so its grade-4 vertical is
-closed. `process` has its floor rung 3.1 and no grade-4 rung yet.
+closed. `process` has its floor rung 3.1 and its grade-4 rung 4.1, so its grade-4 vertical is open.
 
 | Ladder | 3.1 | 4.1 | 4.2 | 4.3 | 5.1 | above |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -40,7 +40,7 @@ closed. `process` has its floor rung 3.1 and no grade-4 rung yet.
 | `main_idea` | 6 ✓ | 6 ✓ | 6 ✓ | 6 ✓ | — | 7.1 at 2/6 |
 | `vocab` | 6 ✓ | 6 ✓ | 6 ✓ | 6 ✓ | — | — |
 | `text_structure` | 6 ✓ | 6 ✓ | 6 ✓ | 6 ✓ | — | — |
-| `process` | 6 ✓ | — | — | — | — | — |
+| `process` | 6 ✓ | 6 ✓ | — | — | — | — |
 | other three | — | — | — | — | — | — |
 
 Three facts that shape what comes next:
@@ -293,7 +293,7 @@ misconception, injection, and stop sessions per rung, which so far exist for mai
 | `text_structure` 4.2 | built; drafted under 2.6; TB-057 to TB-062; strict clean | cold-chat sweep; misconception, injection, and stop sessions; TC review of six passages |
 | `text_structure` 4.3 | built; drafted under 2.6; TB-063 to TB-068; strict clean; smooth and hard sweep not run | cold-chat sweep; misconception, injection, and stop sessions; TC review of six passages |
 | `process` 3.1 | built; drafted under 2.6; TB-069 to TB-074; strict clean; smooth 6/6 and hard 6/6 | misconception, injection, and stop sessions; TC review of six passages |
-| `process` 4.1 | absent | next in Phase 2 (three moves chosen afresh, not the 3.1 ones) |
+| `process` 4.1 | built; drafted under 2.6; TB-075 to TB-080; strict clean; smooth 6/6 and hard 6/6 | misconception, injection, and stop sessions; TC review of six passages |
 | `argument_evidence` 3.1 | absent, and may not fit grade-3 load | decide before authoring |
 | `literary_text` 3.1 | absent | needs a short story |
 | `authors_craft` 3.1 | absent, and may not fit grade-3 load | decide before authoring |

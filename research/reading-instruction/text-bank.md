@@ -85,6 +85,12 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-072 | Firing a Kiln | Nonfiction | 3 | Band 3.1 | 143 words (two passages, 65 and 78) | 3.09 | `process_band_3_1_0004` |
 | TB-073 | Taking Down the Rink | Nonfiction | 3 | Band 3.1 | 139 words (two passages, 64 and 75) | 2.80 | `process_band_3_1_0005` |
 | TB-074 | Plowing the Pass | Nonfiction | 3 | Band 3.1 | 135 words (two passages, 66 and 69) | 3.01 | `process_band_3_1_0006` |
+| TB-075 | The Gate That Sends Boxes Two Ways | Nonfiction | 4 | Band 4.1 | 323 words (three passages, 105, 111 and 107 each) | 5.58 | `process_band_4_1_0001` |
+| TB-076 | Salt That Works in the Dark | Nonfiction | 4 | Band 4.1 | 311 words (three passages, 104, 106 and 101 each) | 5.87 | `process_band_4_1_0002` |
+| TB-077 | The Spring Sets the Pace | Nonfiction | 4 | Band 4.1 | 317 words (three passages, 106, 106 and 105 each) | 5.94 | `process_band_4_1_0003` |
+| TB-078 | The Green That Gets Punctured | Nonfiction | 4 | Band 4.1 | 312 words (three passages, 104, 104 and 104 each) | 5.56 | `process_band_4_1_0004` |
+| TB-079 | Two Crews, One Green Light | Nonfiction | 4 | Band 4.1 | 327 words (three passages, 110, 105 and 112 each) | 5.60 | `process_band_4_1_0005` |
+| TB-080 | The Mix That Waited for Winter | Nonfiction | 4 | Band 4.1 | 327 words (three passages, 116, 104 and 107 each) | 5.58 | `process_band_4_1_0006` |
 
 ---
 
@@ -2502,6 +2508,204 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
 **Cautions.** No pass name, state, altitude, or plow brand. No claim about how many trucks the crew runs.
 
 ---
+## TB-075 — The Gate That Sends Boxes Two Ways
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 323 words (three passages, 105, 111, 107) |
+| FK grade | 5.58 on the three passages together |
+| Complexity | L2, I2, S3, K1 |
+| Best lesson fit | `process_band_4_1_0001` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** One scan at the gate sends each box to a town chute or an airport container, and the branch cannot be corrected after the container is sealed.
+
+**Supporting details.**
+
+- The scanner reads the label and compares its code with the day's route list.
+- A box with the local code turns onto the near belt; every other box takes the far belt.
+- The near belt feeds a chute where a worker stacks boxes by street for the town vans.
+- The far belt loads a steel container that is sealed and driven to the airport.
+- Nothing on the far route reads the label again, so a wrong box is discovered in another town.
+
+**Why it works.** One test early in the chain decides between two routes, and every later step trusts that decision, so the reader has to see the branch rather than a sequence.
+
+**Cautions.** No company, city, code format, or volume figure. No claim about how many boxes a container holds.
+
+---
+
+## TB-076 — Salt That Works in the Dark
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | food and farming |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 311 words (three passages, 104, 106, 101) |
+| FK grade | 5.87 on the three passages together |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `process_band_4_1_0002` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** Salt and cave air act slowly, so whether the step was done well shows only weeks later, after the hands have left the work.
+
+**Supporting details.**
+
+- Rennet thickens the warmed milk into a soft solid, which is cut into cubes.
+- The cubes give up whey, and the curds are pressed into one block.
+- On the second day the rind looks smooth whether the salt was enough or not.
+- Salt keeps moving inward for weeks, so too little shows late as a sour inside or a soft coat.
+- The cave is damp and feeds mold, which is why salting comes before the cave and never after it.
+
+**Why it works.** A step with delayed evidence: nothing visible at the time confirms it, so the reader has to hold a result that arrives weeks after the work.
+
+**Cautions.** No milk quantity, temperature, cheese name, or cave name. No claim about how long a wheel keeps.
+
+---
+
+## TB-077 — The Spring Sets the Pace
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 317 words (three passages, 106, 106, 105) |
+| FK grade | 5.94 on the three passages together |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `process_band_4_1_0003` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The spring's fixed flow sets the pace for every later step, so a wider pipe changes nothing and only more flow raises the daily total.
+
+**Supporting details.**
+
+- The spring delivers water at a steady rate, winter and summer.
+- The pipe is already wider than the flow, so water runs through without backing up.
+- A wider pipe did not change the fill rate, because the spring sent the same water each minute.
+- Flow measured at both ends matched, which showed the pipe was never the limit.
+- A second tank moved night water to the day, and the daily total still waited on the spring.
+
+**Why it works.** A limit upstream of every other step: the reader must reject the obvious local fix and read storage as a change in timing, not in rate.
+
+**Cautions.** No town, flow figure, pipe size, or cost. No claim about water quality.
+
+---
+
+## TB-078 — The Green That Gets Punctured
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | sport and play |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 312 words (three passages, 104, 104, 104) |
+| FK grade | 5.56 on the three passages together |
+| Complexity | L2, I2, S2, K1 |
+| Best lesson fit | `process_band_4_1_0004` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The mower seals the surface every week, so the repair has to follow the damage and be repeated, and watering cannot stand in for opening the ground.
+
+**Supporting details.**
+
+- The mower's wheels and roller press the soil and close the spaces that carried air and water.
+- Water then runs off the surface, and watering longer does not help.
+- Hollow tines pull plugs of soil and open the surface again.
+- Sand in the holes keeps them open, and the roots follow the water down.
+- Holes opened before mowing would be pressed shut by the same wheels.
+
+**Why it works.** A repair that follows the harm and repeats: the order follows the damage rather than the task list, so the reader has to place the cure after its cause.
+
+**Cautions.** No course name, grass species, hole depth, or tournament. No claim about how often a green is opened beyond the passage.
+
+---
+
+## TB-079 — Two Crews, One Green Light
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 327 words (three passages, 110, 105, 112) |
+| FK grade | 5.60 on the three passages together |
+| Complexity | L2, I2, S3, K1 |
+| Best lesson fit | `process_band_4_1_0005` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** Two crews work in parallel and one release waits for both, so the slower crew sets the departure and neither finish alone is enough.
+
+**Supporting details.**
+
+- A fuel crew works under the wing while a cleaning crew works inside.
+- Both start at the same moment on opposite sides, and neither waits for the other.
+- Boarding cannot begin until both crews finish, so a fast fuel job buys nothing while the cabin is half done.
+- A dispatcher releases the flight only when both lights on the board are green.
+- A connected hose is unsafe and an unfinished cabin is not ready, so the release follows both jobs.
+
+**Why it works.** Two chains in parallel with a single join: the reader must not read the jobs as a sequence, and must see that the release waits on the slower one.
+
+**Cautions.** No airline, airport, aircraft type, or schedule. No claim about fuel quantity or cleaning time.
+
+---
+
+## TB-080 — The Mix That Waited for Winter
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | history and people |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 327 words (three passages, 116, 104, 107) |
+| FK grade | 5.58 on the three passages together |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `process_band_4_1_0006` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The sand-to-lime ratio set at the mixing board decides whether the joints survive the frost, and no later step can put the missing lime back.
+
+**Supporting details.**
+
+- The crew rakes out old mortar, cleans the joints, and wets the stone before repointing.
+- New mortar is lime, sand, and water mixed at a board beside the wall.
+- A sandy mix feels gritty and goes on smoothly, so it is tempting to use.
+- Water passes through sandy mortar, freezes inside the joint, and crumbles it by the second spring.
+- Once the mortar sets, the lime cannot be added, so the board is the only place to check the work.
+
+**Why it works.** A quality gate set early and hidden by a finished face: the fault shows only after a winter, so the reader has to locate the decision at the board, not at the wall.
+
+**Cautions.** No mill name, place, mortar recipe, or date. No claim about wall length or cost.
+
+---
+
 ## Rules for adding a text
 
 1. Verify the license before adding it.

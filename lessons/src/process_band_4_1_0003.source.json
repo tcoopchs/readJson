@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_4_1_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Spring Sets the Pace",
+    "skill": "process",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Process: find the step that sets the pace for all the others.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.99, 5.55 and 6.29 on the three parts (106, 106 and 105 words), 5.94 together, mid-band. The load is a limit upstream of every other step. The reader must reject the obvious local fix, then read storage as a change in timing rather than a change in rate.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 4.1, band 4.1, sequence 3. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A hillside spring filling a tank through a wide pipe; the spring's fixed flow is the limit, and widening the pipe changes nothing.",
+      "avoided": "No town, flow figure, pipe size, or cost. No claim about water quality."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "A fixed rate upstream limits every later step, and the obvious local fix changes nothing."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A spring breaks out on a hillside and feeds a stone tank below the road. Water leaves the spring at a steady rate, winter and summer, and never in a rush. A pipe carries it down the slope into the tank. The pipe is wide, wider than the flow needs, and the water runs through it without backing up. Above the tank a float hangs on a wire and marks the level against a scale, and in a dry month the level drops, but the spring keeps the same pace. The tank fills slowly because the spring delivers slowly, and no amount of pipe changes that.",
+    "part_2": "The crew wanted the tank to fill faster before the morning rush, so they dug up the old pipe and laid a wider one. The tank still filled at the same rate. The spring put the same amount of water into the pipe each minute, and the wider pipe had no more to carry. They checked the joints for leaks and found none, then measured the flow at both ends. The two numbers matched, which told them the pipe was never the limit, and the narrow point was the ground where the water came out. The old pipe was the first thing anyone thought to blame.",
+    "part_3": "A second tank, added below the first, did change the mornings. Water ran into it all night and was drawn off during the day. That helped because it moved water from one part of the day to another, not because it made more of it. Every other step in the system waits on the spring. The tank, the pipe, and the tap can all be improved, and the total per day stays the same until the spring itself gives more. The crew wrote the spring's rate on a board in the pump house, next to the tank's capacity, and planned each year from that number."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Where does the water in the tank come from?",
+      "tutor_only": {
+        "confirm": "Right. A spring on the hillside.",
+        "correct_reason": "The first sentence says a spring breaks out on a hillside and feeds the tank.",
+        "tell": "The water comes from a spring on the hillside and runs down a pipe to the tank.",
+        "help": [
+          "The first sentence names the source.",
+          "It is water coming out of the ground."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A spring on the hillside.",
+        "accept_ideas": [
+          "a spring",
+          "the spring on the hillside",
+          "from the spring"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the tank is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says rain",
+            "ask": "The first sentence names the source. What breaks out of the hillside?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What did the crew change to make the tank fill faster?",
+      "tutor_only": {
+        "confirm": "Right. They laid a wider pipe.",
+        "correct_reason": "The second part says they dug up the old pipe and laid a wider one.",
+        "tell": "The crew dug up the old pipe and laid a wider one, expecting a faster fill.",
+        "help": [
+          "One sentence above says what they dug up.",
+          "They replaced it with something wider."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They laid a wider pipe.",
+        "accept_ideas": [
+          "they replaced the pipe with a wider one",
+          "they laid a wider pipe",
+          "they dug up the old pipe"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the pipe is made of"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says they built a second tank",
+            "ask": "The second tank comes later. What did the crew change first?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did the wider pipe not fill the tank faster?",
+      "tutor_only": {
+        "confirm": "Right. The spring sends the same water each minute.",
+        "correct_reason": "The second part says the spring put the same amount of water into the pipe each minute, so the wider pipe had no more to carry.",
+        "tell": "The spring sends the same water each minute. A wider pipe had nothing extra to carry.",
+        "help": [
+          "The passage above says what the spring did each minute.",
+          "The limit was upstream of the pipe."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The spring sends the same amount of water each minute, so the wider pipe had nothing more to carry.",
+        "accept_ideas": [
+          "the spring's flow did not change",
+          "the spring puts in the same water each minute",
+          "the pipe was already wide enough"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the new pipe is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the new pipe leaked",
+            "ask": "The crew checked the joints and found no leaks. What did the spring send each minute?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The crew measured the flow at both ends and the numbers matched. What did that show?",
+      "tutor_only": {
+        "confirm": "Right. The pipe was never the limit.",
+        "correct_reason": "The second part says the two numbers matched, which told them the pipe was never the limit and the narrow point was the ground.",
+        "tell": "Matching numbers meant nothing was lost in the pipe. The limit was the spring.",
+        "help": [
+          "Find the sentence that starts with the two numbers.",
+          "It names the real narrow point."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The pipe was never the limit; the spring's flow was.",
+        "accept_ideas": [
+          "the pipe was not the limit",
+          "the limit was the spring",
+          "nothing was lost in the pipe, so the spring sets the rate"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the flow was measured"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the pipe was too short",
+            "ask": "The numbers matched at both ends. Where does the passage put the narrow point?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "If the town wants more water each day, what has to change, and why?",
+      "tutor_only": {
+        "confirm": "Right. The spring itself must give more.",
+        "correct_reason": "The last part says every other step waits on the spring, and the total per day stays the same until the spring gives more.",
+        "tell": "Every step waits on the spring. More water per day means the spring must give more.",
+        "help": [
+          "The passage above says what every other step waits on.",
+          "Improving the tank or the pipe does not change the daily total."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The spring itself must give more, because every other step waits on it.",
+        "accept_ideas": [
+          "the spring has to give more",
+          "they need a second source, because the spring limits everything",
+          "only more flow from the spring would help"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "where a second spring might be found"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says a bigger tank",
+            "ask": "A tank stores water. What does the passage say the daily total depends on?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The top of this band, because no higher process band is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_4_1_0004",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_4_1_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

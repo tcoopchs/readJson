@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_4_1_0002",
+  "meta": {
+    "status": "published",
+    "title": "Salt That Works in the Dark",
+    "skill": "process",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Process: follow a step whose result arrives weeks later.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.03, 5.44 and 6.16 on the three parts (104, 106 and 101 words), 5.87 together, mid-band. The load is delayed evidence: salt and cave air act slowly, and nothing visible at the time tells the maker whether the step was enough. The reader has to hold a result that arrives weeks after the hands leave the work.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 4.1, band 4.1, sequence 2. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "Cheese made from warmed milk, cut curds, salt, and a cave, built so the salt's effect appears weeks after the work is done.",
+      "avoided": "No milk quantity, temperature, cheese name, or cave name. No claim about how long a wheel keeps."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The effect of one step arrives weeks later, and nothing visible at the time confirms it."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Milk is warmed in a wide vat and stirred until it reaches the same heat throughout. Rennet goes in, and the milk thickens into a soft solid. The maker cuts that solid into small cubes with a wire harp. The cubes shrink as they give up their liquid, and the liquid, called whey, is drained away. The curds are pressed under a weight until most of the whey is gone and the pieces knit into one block. The harp is pulled through the vat once each way, so the cubes come out the same size, and the curd holds its shape on the wires.",
+    "part_2": "The block is rubbed with salt and left on a board, and the salt pulls water out of the cheese slowly. On the second day the rind looks smooth whether the salt was enough or not, so the board tells the maker nothing. Salt keeps moving inward for weeks. Too little salt shows up late, when the inside turns sour or the rind grows a soft coat. A wheel that is salted twice gets a firmer rind than one salted once. The salt is a step whose result arrives long after the hands have left the work, and the slanted board lets the water run off.",
+    "part_3": "The cheese then goes into a cave, where the air is cool and damp and the temperature barely moves. The cave finishes the rind, but it also feeds mold on any surface left bare. That is why salting comes before the cave and never after it. A cheese that enters unsalted goes into damp air with nothing to hold the mold back. The wheels sit on wooden shelves and are turned once a week, so both faces meet the air. The maker weighs and smells them weeks later, because that is when the salt and the cave show what they did."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does rennet do to the warmed milk?",
+      "tutor_only": {
+        "confirm": "Right. It thickens the milk into a soft solid.",
+        "correct_reason": "The second sentence says the rennet goes in and the milk thickens into a soft solid.",
+        "tell": "Rennet thickens the warmed milk into a soft solid. The maker then cuts that solid.",
+        "help": [
+          "The second sentence says what rennet does.",
+          "The milk does not stay liquid."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It thickens the milk into a soft solid.",
+        "accept_ideas": [
+          "thickens it",
+          "turns it into a soft solid",
+          "makes it set"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much rennet goes in"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it drains the whey",
+            "ask": "Draining comes after cutting. What does rennet do to the milk itself?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is drained away after the curds are cut?",
+      "tutor_only": {
+        "confirm": "Right. The whey.",
+        "correct_reason": "The third sentence says the liquid, called whey, is drained away.",
+        "tell": "The liquid is called whey, and it is drained away after the curds are cut.",
+        "help": [
+          "The third sentence names the liquid.",
+          "The passage gives it a one-word name."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The whey.",
+        "accept_ideas": [
+          "whey",
+          "the liquid called whey",
+          "the liquid from the cubes"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the whey is used for"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the curds",
+            "ask": "The curds stay and are pressed. What liquid leaves?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "On the second day, what does the rind tell the maker about the salt?",
+      "tutor_only": {
+        "confirm": "Right. Nothing, because the rind looks smooth either way.",
+        "correct_reason": "The second part says the rind looks smooth on the second day whether the salt was enough or not.",
+        "tell": "On the second day the rind looks smooth either way, so it shows nothing about the salt.",
+        "help": [
+          "The second sentence is about the second day.",
+          "It says the rind looks the same in both cases."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Nothing, because the rind looks smooth whether the salt was enough or not.",
+        "accept_ideas": [
+          "nothing",
+          "it cannot show whether there was enough salt",
+          "the rind looks the same either way"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the rind is made of"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it shows the salt was enough",
+            "ask": "The passage says the rind looks smooth either way. What does that tell the maker?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does too little salt not show up until weeks later?",
+      "tutor_only": {
+        "confirm": "Right. Salt moves inward slowly, and the shortage shows late.",
+        "correct_reason": "The second part says salt keeps moving inward for weeks, and too little shows up late when the inside sours or the rind grows a soft coat.",
+        "tell": "Salt moves inward a little each day. Too little shows weeks later, when the inside sours.",
+        "help": [
+          "Find the sentence about how fast salt moves.",
+          "It says the salt keeps moving for weeks."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Salt moves inward slowly, and the shortage shows only when the inside sours or the rind grows a soft coat.",
+        "accept_ideas": [
+          "salt moves inward slowly",
+          "the effect takes weeks to appear",
+          "the inside or the rind only fails later"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much salt was used"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the cheese dries out",
+            "ask": "The passage names a sour inside and a soft coat. When do they appear?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Why must the cheese be salted before it goes into the cave?",
+      "tutor_only": {
+        "confirm": "Right. Damp cave air would feed mold on an unsalted rind.",
+        "correct_reason": "The third part says the cave feeds mold on any bare surface, so salting comes before the cave and never after it.",
+        "tell": "The cave air is damp and feeds mold. Salt on the rind is what holds the mold back.",
+        "help": [
+          "The passage above says why salt comes before the cave.",
+          "It is about mold and damp air."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The damp cave air would feed mold on a rind with no salt to hold it back.",
+        "accept_ideas": [
+          "the damp air would grow mold on it",
+          "the cave feeds mold, and salt holds it back",
+          "an unsalted rind molds in the damp"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the cheese stays in the cave"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the cave dries the rind",
+            "ask": "The passage says the cave is damp. What does damp air do to a bare rind?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The top of this band, because no higher process band is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_4_1_0003",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_4_1_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

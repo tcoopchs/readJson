@@ -286,6 +286,20 @@
     },
     {
       "skill": "process",
+      "grade": 4,
+      "stage": 1,
+      "expected_sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "complete"
+    },
+    {
+      "skill": "process",
       "grade": 9,
       "stage": 1,
       "expected_sequences": [

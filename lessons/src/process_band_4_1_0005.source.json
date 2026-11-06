@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_4_1_0005",
+  "meta": {
+    "status": "published",
+    "title": "Two Crews, One Green Light",
+    "skill": "process",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "topic_domain": "places and travel",
+    "skill_frame": "Process: follow two chains that must finish before one release.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.45, 6.07 and 5.46 on the three parts (110, 105 and 112 words), 5.60 together, near the band's floor. The load is parallel work with a single join: two chains run at once, neither finish is enough alone, and the release waits for the slower one. The reader must not read the two jobs as a sequence.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 4.1, band 4.1, sequence 5. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "Two airfield crews fueling and cleaning the same plane in parallel, released by one dispatcher when both lights turn green.",
+      "avoided": "No airline, airport, aircraft type, or schedule. No claim about fuel quantity or cleaning time."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Two chains run in parallel and meet at one release; neither finish alone is enough."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The plane parks at the gate and two crews begin at the same moment on opposite sides of it. A fuel truck runs a hose up under the wing and pumps while the driver watches the meter. Inside, a cleaning crew works from the back rows toward the front, collecting cups and folding trays. The cleaners start at the last row so they can work downhill toward the door. The fuel driver wears gloves and keeps the hose off the painted wing. The cleaners carry two bags, one for trash and one for lost items. Neither crew can see the other, and neither one waits for the other to start.",
+    "part_2": "The jobs share a plane but not a space, so they run side by side. Finishing fuel early buys nothing if the cabin is still half done, and a clean cabin waits if the hose is still connected. Boarding cannot begin until both crews are finished, so the slower one decides when that is. A dispatcher watches two lights on a board and releases the flight only when both are green. Neither crew sees that board, and the fuel light turns green only when the hose is off and the cap is closed. A late cleaning crew can hold a full plane at the gate.",
+    "part_3": "The two lights are not a convenience. A passenger who walks out while a fuel hose is connected stands near an open fuel line. A cabin that is not finished is not ready for people. The release is one step for two chains of work, and it comes after both of them, never between. That is what makes the schedule hard to protect. Speeding up one crew only helps when the other is already done. Each crew can be fast on its own and still hold the plane on the ground. The dispatcher cannot release the flight on the strength of one green light, because the two jobs finish at different times."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What are the two crews doing?",
+      "tutor_only": {
+        "confirm": "Right. One fuels the plane and one cleans the cabin.",
+        "correct_reason": "The first part says a fuel crew runs a hose under the wing and a cleaning crew works inside.",
+        "tell": "One crew runs the fuel hose under the wing. The other cleans the cabin inside.",
+        "help": [
+          "The second and third sentences name the two jobs.",
+          "One is outside under the wing."
+        ],
+        "say_back": "own_words",
+        "core_idea": "One fuels the plane and one cleans the cabin.",
+        "accept_ideas": [
+          "fueling and cleaning",
+          "one crew fuels and one cleans inside",
+          "the fuel crew and the cleaning crew work on the plane"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many cleaners there are"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says loading bags",
+            "ask": "The passage names fuel and cleaning. Which crew works inside?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Do the crews work one after the other?",
+      "tutor_only": {
+        "confirm": "Right. They start at the same time on opposite sides.",
+        "correct_reason": "The first part says the two crews begin at the same moment, and neither waits for the other to start.",
+        "tell": "Both crews start at the same moment. They work on opposite sides, not in turn.",
+        "help": [
+          "The first sentence says when each crew begins.",
+          "It is the same moment for both."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No; they start at the same time on opposite sides of the plane.",
+        "accept_ideas": [
+          "no, they work at the same time",
+          "they start together",
+          "they work side by side"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which crew starts first"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the cleaners wait for fuel",
+            "ask": "The first sentence gives the start time for both. Are they the same?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Fuel is finished early but the cabin is half done. When does boarding begin?",
+      "tutor_only": {
+        "confirm": "Right. Only when both crews finish.",
+        "correct_reason": "The second part says boarding cannot begin until both crews are finished, so the slower one decides when that is.",
+        "tell": "Boarding starts only when both crews are done. The slower crew decides the time.",
+        "help": [
+          "The passage above says what boarding waits for.",
+          "It is not one crew but both."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Only when both crews finish, so boarding waits for the cleaning crew.",
+        "accept_ideas": [
+          "when the cleaning is finished too",
+          "after both are done",
+          "boarding waits for the slower crew"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long boarding takes"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says as soon as fuel is done",
+            "ask": "The passage says boarding waits for both. Which crew is still working?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What do the two lights on the board tell the dispatcher?",
+      "tutor_only": {
+        "confirm": "Right. When each crew has finished.",
+        "correct_reason": "The second part says a dispatcher watches two lights and releases the flight only when both are green.",
+        "tell": "Each light shows one crew's finish. The flight is released when both are green.",
+        "help": [
+          "Find the sentence about the dispatcher and the board.",
+          "There is one light for each crew."
+        ],
+        "say_back": "own_words",
+        "core_idea": "When each crew has finished; the flight is released only when both lights are green.",
+        "accept_ideas": [
+          "whether each crew is done",
+          "when both jobs are finished",
+          "that both crews have finished"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which gate the plane uses"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says which gate to use",
+            "ask": "The board has two lights, one for each crew. What does each light show?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Why is the release one step that comes after both jobs?",
+      "tutor_only": {
+        "confirm": "Right. A connected hose is unsafe, and a half-cleaned cabin is not ready.",
+        "correct_reason": "The third part says a passenger near a connected fuel hose is unsafe, and a cabin that is not finished is not ready for people.",
+        "tell": "A connected hose is unsafe, and a half-cleaned cabin is not ready. Both jobs gate boarding.",
+        "help": [
+          "The passage above gives two reasons, one for each crew.",
+          "One is about the hose, and one is about the cabin."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A connected fuel hose or an unfinished cabin makes boarding unsafe or unready, so one crew's finish is not enough.",
+        "accept_ideas": [
+          "boarding is unsafe with the hose connected",
+          "the cabin must be clean and the hose off",
+          "both jobs have to be done before people walk out"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who checks the cabin"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says to save time",
+            "ask": "The passage gives safety and readiness as reasons. What makes boarding unsafe?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The top of this band, because no higher process band is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_4_1_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

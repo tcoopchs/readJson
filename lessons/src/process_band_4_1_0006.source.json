@@ -1,0 +1,243 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_4_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Mix That Waited for Winter",
+    "skill": "process",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "history and people",
+    "skill_frame": "Process: see a quality set early that later steps cannot repair.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.99, 5.29 and 5.70 on the three parts (116, 104 and 107 words), 5.58 together, near the band's floor. The load is a hidden quality gate: the ratio set at the mixing board decides whether the wall survives the frost, the finished face hides the cause, and no later step can put the lime back.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 4.1, band 4.1, sequence 6. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A crew repointing a stone wall at an old mill, built so the sand-to-lime ratio set at the mixing board decides whether the joints survive the frost.",
+      "avoided": "No mill name, place, mortar recipe, or date. No claim about wall length or cost."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Quality is decided at an early step and shows only after a season, so no later step can repair it."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A stone wall at an old mill has lost its mortar, and a crew is putting new mortar in the joints. First they rake out the loose old mortar with a thin bar. Then they brush the joints clean and wet the stone, so the new mortar will grip. At a board beside the wall they mix lime, sand, and water into a soft paste and carry it over in a bucket. The bar has a hooked end that reaches around the corner of a stone, and the work goes slowly, one joint at a time. The old mortar is brittle and comes away in short pieces, which is why the bar has a hooked end.",
+    "part_2": "A mix with too much sand feels gritty and spreads easily along the joint, which is why it is tempting. The wall looks finished by the end of the day, with every joint full and the surface smooth. Water, however, can pass through the sandy mortar. In winter it freezes inside the joint and pushes the stone outward. By the second spring the joints have crumbled, and the wall looks worse than it did before the work began. The frost does not care how neat the surface looked in June. The mason who mixed it had judged the sand by eye, not by weight.",
+    "part_3": "The cause was set at the mixing board, hours before anything showed. Once the mortar has set in the wall, no later step can put the missing lime back into it. The finished face hides the ratio, and the frost finds it months later. The one place to check the work is the board, where the sand and lime are measured, not the wall where the result appears. A foreman who checks only finished joints will pass a wall that fails within two years. The wall keeps the record out of sight. The recipe on the board is measured in shovels, and the foreman counts them aloud."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What do the workers rake out of the joints first?",
+      "tutor_only": {
+        "confirm": "Right. The loose old mortar.",
+        "correct_reason": "The second sentence says they rake the loose old mortar out with a thin bar.",
+        "tell": "The crew rakes out the loose old mortar before any new mortar goes in.",
+        "help": [
+          "The second sentence says what the thin bar pulls out.",
+          "It is the material between the stones."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The loose old mortar.",
+        "accept_ideas": [
+          "old mortar",
+          "the loose mortar",
+          "the broken mortar in the joints"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how wide the joints are"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the stones",
+            "ask": "The stones stay in the wall. What comes out from between them?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What three materials go into the new mortar?",
+      "tutor_only": {
+        "confirm": "Right. Lime, sand, and water.",
+        "correct_reason": "The third sentence says they mix lime, sand, and water into a soft paste.",
+        "tell": "The new mortar is lime, sand, and water mixed into a soft paste.",
+        "help": [
+          "One sentence at the board names three materials.",
+          "Two are dry and one is liquid."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Lime, sand, and water.",
+        "accept_ideas": [
+          "lime, sand, and water",
+          "sand, lime and water"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much of each goes in"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says cement",
+            "ask": "The passage names three materials at the board. Cement is not one of them."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why is a mix with too much sand tempting to use?",
+      "tutor_only": {
+        "confirm": "Right. It feels gritty and goes on smoothly.",
+        "correct_reason": "The second part says a mix with too much sand feels gritty and spreads easily along the joint.",
+        "tell": "A sandy mix goes on smoothly along the joint, which makes the work feel quick.",
+        "help": [
+          "One sentence above says how the mix feels and spreads.",
+          "Both details make it pleasant to use."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It feels gritty and spreads easily along the joint.",
+        "accept_ideas": [
+          "it spreads easily",
+          "it is easier to push into the joint",
+          "it feels gritty and goes on smoothly"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the sand is measured"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it sets faster",
+            "ask": "The passage says it goes on smoothly. What else does it feel like?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The wall looks finished at the end of the day. Why does that not show the mix was right?",
+      "tutor_only": {
+        "confirm": "Right. The fault is inside, and frost shows it later.",
+        "correct_reason": "The second part says water passes through the sandy mortar, freezes inside the joint, and crumbles it by the second spring.",
+        "tell": "The face can look neat while the joint is weak. Frost inside the joint shows the fault.",
+        "help": [
+          "Find what water does inside the sandy mortar.",
+          "It happens in winter, not on the day of the work."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The fault is inside the joints, and only the frost reveals it months later.",
+        "accept_ideas": [
+          "the fault is inside and shows in winter",
+          "the surface can look fine while the joint is weak",
+          "only freezing shows the problem"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the wall looked like before the work"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the wall was not finished",
+            "ask": "The passage says every joint was full. Where does the fault sit?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Why can no later step repair a bad mix?",
+      "tutor_only": {
+        "confirm": "Right. Once the mortar sets, the lime cannot be added back.",
+        "correct_reason": "The third part says that once the mortar has set in the wall, no later step can put the missing lime back into it.",
+        "tell": "Once the mortar sets, the lime cannot be added later. The ratio is fixed at the board.",
+        "help": [
+          "The passage above says what cannot be done.",
+          "It is about the missing lime."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Once the mortar sets, the missing lime cannot be put back; the ratio is fixed at the mixing board.",
+        "accept_ideas": [
+          "the mortar is already set in the wall",
+          "you cannot add lime after it sets",
+          "the mix is decided before the wall shows anything"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who mixed the mortar"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the frost can be cleaned off",
+            "ask": "Cleaning the joint does not add anything. What is missing inside the mortar?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The top of this band, because no higher process band is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

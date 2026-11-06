@@ -1,6 +1,6 @@
 {
   "bank_version": 1,
-  "updated": "2026-11-03",
+  "updated": "2026-11-05",
   "rubric": "L/I/S/K 0-3; band is highest demand, grade_target is the reader label",
   "texts": [
     {
@@ -2645,6 +2645,228 @@
       "why_it_works": "A round of steps that repeats, with the end stated as a condition, so the reader has to find the test for finishing instead of counting steps.",
       "cautions": "No pass name, state, altitude, or plow brand. No claim about how many trucks the crew runs.",
       "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-075",
+      "title": "The Gate That Sends Boxes Two Ways",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (105, 111, 107 words)",
+      "length_words": 323,
+      "fk_grade": 5.58,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 3,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_4_1_0001"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "One scan at the gate sends each box to a town chute or an airport container, and the branch cannot be corrected after the container is sealed.",
+      "supporting_details": [
+        "The scanner reads the label and compares its code with the day's route list.",
+        "A box with the local code turns onto the near belt; every other box takes the far belt.",
+        "The near belt feeds a chute where a worker stacks boxes by street for the town vans.",
+        "The far belt loads a steel container that is sealed and driven to the airport.",
+        "Nothing on the far route reads the label again, so a wrong box is discovered in another town."
+      ],
+      "why_it_works": "One test early in the chain decides between two routes, and every later step trusts that decision, so the reader has to see the branch rather than a sequence.",
+      "cautions": "No company, city, code format, or volume figure. No claim about how many boxes a container holds.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-076",
+      "title": "Salt That Works in the Dark",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (104, 106, 101 words)",
+      "length_words": 311,
+      "fk_grade": 5.87,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_4_1_0002"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "Salt and cave air act slowly, so whether the step was done well shows only weeks later, after the hands have left the work.",
+      "supporting_details": [
+        "Rennet thickens the warmed milk into a soft solid, which is cut into cubes.",
+        "The cubes give up whey, and the curds are pressed into one block.",
+        "On the second day the rind looks smooth whether the salt was enough or not.",
+        "Salt keeps moving inward for weeks, so too little shows late as a sour inside or a soft coat.",
+        "The cave is damp and feeds mold, which is why salting comes before the cave and never after it."
+      ],
+      "why_it_works": "A step with delayed evidence: nothing visible at the time confirms it, so the reader has to hold a result that arrives weeks after the work.",
+      "cautions": "No milk quantity, temperature, cheese name, or cave name. No claim about how long a wheel keeps.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-077",
+      "title": "The Spring Sets the Pace",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (106, 106, 105 words)",
+      "length_words": 317,
+      "fk_grade": 5.94,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_4_1_0003"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The spring's fixed flow sets the pace for every later step, so a wider pipe changes nothing and only more flow raises the daily total.",
+      "supporting_details": [
+        "The spring delivers water at a steady rate, winter and summer.",
+        "The pipe is already wider than the flow, so water runs through without backing up.",
+        "A wider pipe did not change the fill rate, because the spring sent the same water each minute.",
+        "Flow measured at both ends matched, which showed the pipe was never the limit.",
+        "A second tank moved night water to the day, and the daily total still waited on the spring."
+      ],
+      "why_it_works": "A limit upstream of every other step: the reader must reject the obvious local fix and read storage as a change in timing, not in rate.",
+      "cautions": "No town, flow figure, pipe size, or cost. No claim about water quality.",
+      "topic_domain": "science and nature",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-078",
+      "title": "The Green That Gets Punctured",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (104, 104, 104 words)",
+      "length_words": 312,
+      "fk_grade": 5.56,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_4_1_0004"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The mower seals the surface every week, so the repair has to follow the damage and be repeated, and watering cannot stand in for opening the ground.",
+      "supporting_details": [
+        "The mower's wheels and roller press the soil and close the spaces that carried air and water.",
+        "Water then runs off the surface, and watering longer does not help.",
+        "Hollow tines pull plugs of soil and open the surface again.",
+        "Sand in the holes keeps them open, and the roots follow the water down.",
+        "Holes opened before mowing would be pressed shut by the same wheels."
+      ],
+      "why_it_works": "A repair that follows the harm and repeats: the order follows the damage rather than the task list, so the reader has to place the cure after its cause.",
+      "cautions": "No course name, grass species, hole depth, or tournament. No claim about how often a green is opened beyond the passage.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-079",
+      "title": "Two Crews, One Green Light",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (110, 105, 112 words)",
+      "length_words": 327,
+      "fk_grade": 5.6,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 3,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_4_1_0005"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "Two crews work in parallel and one release waits for both, so the slower crew sets the departure and neither finish alone is enough.",
+      "supporting_details": [
+        "A fuel crew works under the wing while a cleaning crew works inside.",
+        "Both start at the same moment on opposite sides, and neither waits for the other.",
+        "Boarding cannot begin until both crews finish, so a fast fuel job buys nothing while the cabin is half done.",
+        "A dispatcher releases the flight only when both lights on the board are green.",
+        "A connected hose is unsafe and an unfinished cabin is not ready, so the release follows both jobs."
+      ],
+      "why_it_works": "Two chains in parallel with a single join: the reader must not read the jobs as a sequence, and must see that the release waits on the slower one.",
+      "cautions": "No airline, airport, aircraft type, or schedule. No claim about fuel quantity or cleaning time.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-080",
+      "title": "The Mix That Waited for Winter",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (116, 104, 107 words)",
+      "length_words": 327,
+      "fk_grade": 5.58,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "process_band_4_1_0006"
+      ],
+      "cell_use": "Owns its own lesson in process Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The sand-to-lime ratio set at the mixing board decides whether the joints survive the frost, and no later step can put the missing lime back.",
+      "supporting_details": [
+        "The crew rakes out old mortar, cleans the joints, and wets the stone before repointing.",
+        "New mortar is lime, sand, and water mixed at a board beside the wall.",
+        "A sandy mix feels gritty and goes on smoothly, so it is tempting to use.",
+        "Water passes through sandy mortar, freezes inside the joint, and crumbles it by the second spring.",
+        "Once the mortar sets, the lime cannot be added, so the board is the only place to check the work."
+      ],
+      "why_it_works": "A quality gate set early and hidden by a finished face: the fault shows only after a winter, so the reader has to locate the decision at the board, not at the wall.",
+      "cautions": "No mill name, place, mortar recipe, or date. No claim about wall length or cost.",
+      "topic_domain": "history and people",
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, accepted on spot check.",
       "drafted_by": "TC"

@@ -24,8 +24,7 @@
       "difficulty_basis": "The same chain is given forward and then backward; the time words mark the backward run, so the reader must reverse the order."
     },
     "authoring_exceptions": [
-      "Parts run 57-80 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the structure stays visible on one screen. Recorded under 2.1.",
-      "Advance routes to process_band_3_1_0001. No process rung above 3.1 is authored yet, so a clear holds at the top of this rung rather than pointing at a band that does not exist; repoint it when process 4.1 lands."
+      "Parts run 57-80 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the structure stays visible on one screen. Recorded under 2.1."
     ],
     "protocol_version": "1.0"
   },
@@ -279,9 +278,9 @@
     },
     "server_routes": {
       "advance": {
-        "next_file": "process_band_3_1_0001",
-        "next_irl": 3,
-        "next_means": "The top of this band, because no higher process band is authored yet.",
+        "next_file": "process_band_4_1_0001",
+        "next_irl": 4,
+        "next_means": "The first lesson of process 4.1, the next rung.",
         "student_line": "You have the move. The next reading is another lesson on this skill."
       },
       "retry": {

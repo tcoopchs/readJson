@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "process_band_4_1_0004",
+  "meta": {
+    "status": "published",
+    "title": "The Green That Gets Punctured",
+    "skill": "process",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Process: see why a repair must come after the damage.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.35, 5.59 and 5.98 on the three parts (104, 104 and 104 words), 5.56 together, near the band's floor. The load is a repair that follows the harm and must repeat: the mower seals the surface every week, and the holes only make sense after that damage is present.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for process 4.1, band 4.1, sequence 4. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A golf green pressed by its mower, then opened with hollow tines and sand, built so the repair comes after the damage and must repeat.",
+      "avoided": "No course name, grass species, hole depth, or tournament. No claim about how often a green is opened beyond the passage."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The repair must follow the damage and repeats, so the order follows the harm rather than the task list."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "At dawn the mower crosses the green, cutting the grass to the same height in straight passes. The mower is heavy, and its wheels and roller press the soil under the blades. The mower deck is wide, so fewer passes cross the same ground. By the end of the week the surface is firm and smooth, which is what the players want. The same pressure closes the small spaces in the soil where air and water used to travel down to the roots. The green sits on a layer of sand and gravel, built to drain, and it drained well when it was new.",
+    "part_2": "Water now sits on the surface and runs toward the edge instead of sinking in. The crew tried watering longer, but the extra water ran off the same way, and the grass stayed shallow-rooted. Then they changed the work. A machine pushed hollow tines into the green and pulled out thin plugs of soil. Sand was swept into the open holes. Water entered the holes, and the roots followed it down. Within a week the surface felt softer underfoot and the ball stopped running so far. The plugs were carried off in a barrow and spread on the rough ground behind the shed.",
+    "part_3": "The puncturing comes after the mowing and after the watering, because it reopens what the mower pressed shut. Run it first, and the same wheels would close the holes within a day. The work is a repair, not a guard against harm. The mower keeps pressing the surface each week, so the holes are opened again every few weeks. The crew marks each pass on a chart and watches the calendar. A green that is opened on time stays soft underfoot all season. A chart on the shed wall lists the dates, and the crew checks it before the first mow of the month."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What presses the soil under the blades?",
+      "tutor_only": {
+        "confirm": "Right. The mower's wheels and roller.",
+        "correct_reason": "The second sentence says the mower is heavy and its wheels and roller press the soil under the blades.",
+        "tell": "The mower is heavy. Its wheels and roller press the soil under the blades.",
+        "help": [
+          "The second sentence names what presses the soil.",
+          "There are two parts to it."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The mower's wheels and roller.",
+        "accept_ideas": [
+          "the mower",
+          "the wheels and roller",
+          "the weight of the mower"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who drives the mower"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the players' feet",
+            "ask": "Players matter later in the week. What presses the soil during mowing?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What happens to the small spaces in the soil under that pressure?",
+      "tutor_only": {
+        "confirm": "Right. They close, so air and water cannot get down.",
+        "correct_reason": "The fourth sentence says the pressure closes the small spaces where air and water used to travel down to the roots.",
+        "tell": "The pressure closes the small spaces. Air and water can no longer travel down to the roots.",
+        "help": [
+          "The fourth sentence says what the pressure does.",
+          "It is about the small spaces and what used to move through them."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They close, so air and water cannot travel down to the roots.",
+        "accept_ideas": [
+          "they close up",
+          "they are pressed shut",
+          "air and water can no longer get down"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how deep the roots are"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the grass stops growing",
+            "ask": "The passage says the spaces close. What used to travel through them?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did watering longer not help?",
+      "tutor_only": {
+        "confirm": "Right. The water ran off instead of sinking in.",
+        "correct_reason": "The second part says the extra water ran off the same way, and the grass stayed shallow-rooted.",
+        "tell": "The surface was sealed, so the extra water ran off instead of sinking in.",
+        "help": [
+          "The passage above says what the extra water did.",
+          "It did not go down."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The extra water ran off the surface instead of sinking in.",
+        "accept_ideas": [
+          "the water ran off",
+          "it could not sink in",
+          "the surface shed the extra water"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much water they used"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the grass was too short",
+            "ask": "The passage names what the water did. Which way did it go?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What did the sand in the holes do?",
+      "tutor_only": {
+        "confirm": "Right. It kept the holes open for water and roots.",
+        "correct_reason": "The second part says sand was swept into the holes, water entered them, and the roots followed it down.",
+        "tell": "Sand filled the holes and kept them open. Water entered, and the roots followed it down.",
+        "help": [
+          "Find the sentences after the plugs are pulled.",
+          "One is about water, and one is about roots."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It held the holes open so water could enter and roots could follow it down.",
+        "accept_ideas": [
+          "it kept the holes open",
+          "it let water into the soil",
+          "it gave water and roots a way down"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what kind of sand was used"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it fed the grass",
+            "ask": "The passage says the sand kept the holes open. What went into them?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "process",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Why must the puncturing come after the mowing?",
+      "tutor_only": {
+        "confirm": "Right. Mowing seals the surface, so holes opened first would close again.",
+        "correct_reason": "The third part says the puncturing reopens what the mower pressed shut, and holes opened first would be closed within a day.",
+        "tell": "Mowing presses the surface shut. Holes opened first would be closed by the next pass.",
+        "help": [
+          "The passage above says what the mower does each week.",
+          "It also says what would happen to holes opened first."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The mower presses the surface shut, so holes opened first would be closed again by the same wheels.",
+        "accept_ideas": [
+          "the mower would close the holes again",
+          "mowing seals the surface, so the holes must come after",
+          "opening the ground first would be undone by mowing"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which machine is used to open the holes"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the holes must dry out",
+            "ask": "The passage gives the mower as the reason. What does the mower do to the surface?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "process_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The top of this band, because no higher process band is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "process_band_4_1_0005",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "process_band_4_1_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

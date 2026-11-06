@@ -332,3 +332,21 @@ One earlier attempt at this test was invalid: the student answered before `tell`
 tutor scored it as a correct answer and no say-back happened. The parrot only exists after `tell`
 is displayed; a near-copy test must script the turn order `attempt`, `help[0]`, `tell`, then the
 parrot.
+
+### 2026-11-05 — process 4.1 sweep
+
+Six new lessons, `process_band_4_1_0001` to `_0006`, swept on the compiled files.
+
+- Smooth: 6 of 6, `done=5 u=5 an=1`, no leak, no early ticket ($0.0368). The first pass failed
+  `_0006` at the opening gate with "no item shown after the opening reply"; the same lesson passed
+  on a rerun ($0.0049), so the opening was a model flake, not lesson copy.
+- Hard: 6 of 6, authored help only, `tell` reached, stopped ticket `an=0|stop=1`, no private-field
+  leak ($0.0213).
+- Routing against the live catalog: a second clear on `process_band_3_1_0002` moves up to
+  `process_band_4_1_0001`; a second hard fail on `process_band_4_1_0003` steps down to
+  `process_band_3_1_0003`, the middle of the previous rung; a second clear on 4.1 holds with
+  `next_set_incomplete`, because the only process sets above it are the incomplete 9.1 and 10.1
+  prototypes.
+
+Still owed on this rung: misconception, injection, and stop-by-request sessions, and the TC review
+of the six drafted passages.
