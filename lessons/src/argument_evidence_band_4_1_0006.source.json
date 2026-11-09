@@ -1,0 +1,249 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_4_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "Two Records That Agree",
+    "skill": "argument_evidence",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "history and people",
+    "skill_frame": "Argument and evidence: two independent records, and what would weaken them.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.64, 5.93 and 5.94 on the three parts (104, 104 and 102 words), 5.84 together. The load is two records written by different offices, so the reader has to track which one was made by whom and see that agreement matters only if neither copied the other.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 4.1, band 4.1, sequence 6. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A historical society note that dates the end of a mill to 1911 with a tax list and a sale notice written by two different offices.",
+      "avoided": "No society name, mill owner, or county. No claim about what the mill produced after it closed."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Two records support one date, and their strength depends on being written by different offices, which the reader has to track before judging the case."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The historical society wants a plaque on the old mill by the river. The society says the mill stopped grinding grain in 1911, and the plaque would print that year in large letters. One record supports the date. The list is a page of buildings, and each line gives the state of a building that year. A tax list from that year shows the building listed as empty and the mill wheel gone. The list was made by the county for its own accounts, not to prove anything about the mill. Nobody at the society wrote it, and nobody at the society could change it.",
+    "part_2": "A second record points the same way. A notice in the county paper, printed the same autumn, offers the mill for sale with no machines included. The paper and the tax list were written in different offices for different reasons. Neither one copied the other. Neither office knew what the other had printed. The notice names the mill, the road, and the asking price, and it lists no tools. The two records agree on what a reader needs, which is that the mill was not working that year. A record that stands alone can be checked against one that did not know about it.",
+    "part_3": "Two records that do not come from the same source are stronger than two copies of one record. Together they support the 1911 date. The case would be weaker if both records came from the society itself, because one office can repeat its own mistake. It would also weaken if a later record showed grain being ground after 1911. A sale notice from 1915 would undo both records at once. A second record is only worth something when it was made on its own, and these two were. A reader can say which part of the case is strong and which part is only likely."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the society say happened in 1911?",
+      "tutor_only": {
+        "confirm": "Right. The mill stopped grinding grain.",
+        "correct_reason": "The society says the mill stopped grinding grain in 1911.",
+        "tell": "The society claims the mill stopped grinding grain that year.",
+        "help": [
+          "The sentence that starts with 'The society says' carries the answer.",
+          "It names what the mill stopped doing."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The mill stopped grinding grain.",
+        "accept_ideas": [
+          "the mill stopped grinding grain",
+          "it stopped working",
+          "the mill closed",
+          "grinding stopped at the mill"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who owned the mill"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the mill was built in 1911",
+            "ask": "The note is about the end of the work. What stopped?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the tax list show about the mill?",
+      "tutor_only": {
+        "confirm": "Right. The building was listed as empty and the wheel was gone.",
+        "correct_reason": "The passage says a tax list from that year shows the building listed as empty and the mill wheel gone.",
+        "tell": "The tax list shows an empty building with no wheel.",
+        "help": [
+          "The sentence about the tax list carries the answer.",
+          "It names the state of the building and the wheel."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The building was empty and the mill wheel was gone.",
+        "accept_ideas": [
+          "the building was empty and the wheel was gone",
+          "it lists the mill as empty",
+          "the wheel was gone",
+          "an empty building with no wheel"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the building was worth"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the list shows grain being ground",
+            "ask": "The list is a record of the mill's state. What state does it give?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What does the notice in the county paper add?",
+      "tutor_only": {
+        "confirm": "Right. The mill was for sale with no machines included.",
+        "correct_reason": "The passage says the notice offers the mill for sale with no machines included, in the same autumn.",
+        "tell": "The paper adds a sale notice in the same autumn that lists no machines with the mill.",
+        "help": [
+          "The sentence about the county paper carries the answer.",
+          "It names what came with the mill when it was sold."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The mill was offered for sale with no machines included.",
+        "accept_ideas": [
+          "the mill was for sale with no machines",
+          "a sale notice with no machines",
+          "the paper offered the mill for sale",
+          "no machines came with the mill"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who bought the mill"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the paper reports the date of the fire",
+            "ask": "The notice is about a sale. What did the sale leave out?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "Why are the two records stronger together than either one alone?",
+      "tutor_only": {
+        "confirm": "Right. Different offices wrote them, and neither copied the other.",
+        "correct_reason": "The passage says the tax list and the paper were written in different offices, neither knew what the other had printed, so one office's mistake would not repeat.",
+        "tell": "Two offices wrote them without knowing about each other, so a mistake in one would not appear in both.",
+        "help": [
+          "The sentence about different offices carries the answer.",
+          "It names who wrote them and what they knew."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They came from different offices that did not copy each other, so one mistake would not repeat.",
+        "accept_ideas": [
+          "different offices wrote them",
+          "neither copied the other",
+          "they did not know about each other",
+          "two separate offices made them"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the mill is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says two records are always better than one",
+            "ask": "Two copies of one record would not help. What makes these two different?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What would weaken the society's case?",
+      "tutor_only": {
+        "confirm": "Right. Records from the society itself, or a later record showing grain ground after 1911.",
+        "correct_reason": "The passage says the case would weaken if both records came from the society, or if a later record showed grain being ground after 1911.",
+        "tell": "The case weakens if the society wrote both records, or if a later record shows the mill working after 1911.",
+        "help": [
+          "The sentence about what would weaken the case carries the answer.",
+          "It names two things that would count against the date."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Both records coming from the society, or a later record of grain being ground after 1911.",
+        "accept_ideas": [
+          "if the society wrote both records",
+          "a later record of grain ground after 1911",
+          "a sale notice from 1915",
+          "if both records came from one office"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the plaque will say"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says a second record always helps the case",
+            "ask": "A record can count against a case. What would one show?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher argument-and-evidence rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, to run it again.",
+    "student_line": "The next reading is this lesson again."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

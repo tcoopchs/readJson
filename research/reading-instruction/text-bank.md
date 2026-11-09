@@ -109,6 +109,12 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-096 | The Depot With Two Dates | Nonfiction | 3 | Band 3.1 | 93 words (two passages, 48 and 45) | 3.79 | `argument_evidence_band_3_1_0004` |
 | TB-097 | The Line That Cracked | Nonfiction | 3 | Band 3.1 | 104 words (two passages, 57 and 47) | 3.67 | `argument_evidence_band_3_1_0005` |
 | TB-098 | The Letter That Got an Answer | Nonfiction | 3 | Band 3.1 | 104 words (two passages, 50 and 54) | 3.87 | `argument_evidence_band_3_1_0006` |
+| TB-099 | The Ferry Notice With Two Claims | Nonfiction | 4 | Band 4.1 | 315 words (three passages, 108, 107, 100) | 6.23 | `argument_evidence_band_4_1_0001` |
+| TB-100 | The Reason That Repeats Itself | Nonfiction | 4 | Band 4.1 | 307 words (three passages, 102, 100, 105) | 5.96 | `argument_evidence_band_4_1_0002` |
+| TB-101 | Eleven Bunches and No Second Count | Nonfiction | 4 | Band 4.1 | 316 words (three passages, 103, 109, 104) | 5.70 | `argument_evidence_band_4_1_0003` |
+| TB-102 | The Request on the Last Line | Nonfiction | 4 | Band 4.1 | 305 words (three passages, 102, 103, 100) | 5.60 | `argument_evidence_band_4_1_0004` |
+| TB-103 | The Objection the Letter Raised | Nonfiction | 4 | Band 4.1 | 312 words (three passages, 100, 101, 111) | 5.70 | `argument_evidence_band_4_1_0005` |
+| TB-104 | Two Records That Agree | Nonfiction | 4 | Band 4.1 | 310 words (three passages, 104, 104, 102) | 5.84 | `argument_evidence_band_4_1_0006` |
 
 ---
 
@@ -3312,6 +3318,198 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
 
 ---
 
+## TB-099 — The Ferry Notice With Two Claims
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 315 words (three passages, one per displayed part (108, 107, 100 words)) |
+| FK grade | 6.23 on the three passages together (6.38, 5.81, 6.50) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_1_0001` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** Two claims sit in one notice, but only the daily winter crossing has a record behind it, because the same boat crossed through the same ice a year ago.
+
+**Supporting details.**
+
+- The notice makes two claims: a daily crossing all winter and a shorter trip.
+- Last winter the ferry crossed every day when the same ice formed.
+- The engine is new, but no crossing time is given for either year.
+- The schedule still lists the same sailing minutes for the trip.
+- The notice gives no record behind the shorter trip.
+
+**Why it works.** One text carries two claims and a record behind only one of them, so the reader has to track which claim the winter report supports.
+
+**Cautions.** No town name, ticket price, or boat name. No claim about how the engine was paid for.
+
+---
+## TB-100 — The Reason That Repeats Itself
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 307 words (three passages, one per displayed part (102, 100, 105 words)) |
+| FK grade | 5.96 on the three passages together (5.96, 6.37, 5.54) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_1_0002` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A reason earns its place when it names a cause and a repair; the note's first reason only restates the claim, and the reason about roots can be checked.
+
+**Supporting details.**
+
+- The first reason says the bank is not stable, which restates the claim.
+- The second reason says no roots hold the soil, so hard rain carries it into the pond.
+- The pond lost ten centimeters of depth in three summers.
+- The plan is to plant reeds, because reed roots hold the soil in place.
+- The second reason lets a reader predict what the reeds will do.
+
+**Why it works.** Two reasons sit in one note and only one names a cause, so the reader has to see which reason can be checked against the pond.
+
+**Cautions.** No park name, species, or cost figure. No claim about how quickly the reeds will grow.
+
+---
+## TB-101 — Eleven Bunches and No Second Count
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | food and farming |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 316 words (three passages, one per displayed part (103, 109, 104 words)) |
+| FK grade | 5.70 on the three passages together (5.84, 5.75, 5.52) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_1_0003` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A single count of eleven spoiled bunches cannot show the cooler helped, because no count from before the cooler exists and the weather changed in the same week.
+
+**Supporting details.**
+
+- The sign claims greens stay fresh much longer than they used to.
+- The sign gives one number: eleven bunches composted in the first week.
+- The stand kept no count from the weeks before the cooler.
+- Cool nights followed June and would help any greens, cooled or not.
+- A count becomes evidence about a change when the same thing was counted before it.
+
+**Why it works.** The number is real but stands alone, so the reader has to notice that a comparison is missing before the sign's claim can be judged.
+
+**Cautions.** No farm name, price, or cooler brand. No claim about how the weather will run next year.
+
+---
+## TB-102 — The Request on the Last Line
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 305 words (three passages, one per displayed part (102, 103, 100 words)) |
+| FK grade | 5.60 on the three passages together (5.39, 5.50, 5.91) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_1_0004` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The memo's claim is its last sentence, a request to order the ten most common parts once a month; the earlier pages are the problem and the room the change would use.
+
+**Supporting details.**
+
+- A storm week left twelve bikes on the rack with nothing to fix them.
+- The memo describes the storm week, the parts counter, and the free shelf space.
+- The claim is the last sentence, which asks for monthly ordering of common parts.
+- The earlier pages give the problem the change would solve.
+- A reader who stops early has the setup and not the request.
+
+**Why it works.** The claim arrives after two pages of situation, so a reader has to hold the problem and find the sentence that asks for anything.
+
+**Cautions.** No shop name, street, or price. No claim about how many parts the shop sells.
+
+---
+## TB-103 — The Objection the Letter Raised
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | sport and play |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 312 words (three passages, one per displayed part (100, 101, 111 words)) |
+| FK grade | 5.70 on the three passages together (5.32, 5.70, 6.09) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_1_0005` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The letter raises the objection that new ropes will not clear cloudy water, then answers it with the pool log, so the objection no longer blocks the request.
+
+**Supporting details.**
+
+- The club asks the town to replace the lane ropes at the outdoor pool.
+- The letter raises the objection that the water is cloudy in August.
+- The pool was cloudy on nine days last August, and each followed a failed pump.
+- The club does not claim the ropes will clear the water.
+- An objection a letter answers does more for the case than one it ignores.
+
+**Why it works.** A letter states its own objection and answers it from a separate record, so the reader has to keep the rope problem and the cloud problem apart.
+
+**Cautions.** No club name, pool name, or cost figure. No claim about who repairs the pumps.
+
+---
+## TB-104 — Two Records That Agree
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | history and people |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 310 words (three passages, one per displayed part (104, 104, 102 words)) |
+| FK grade | 5.84 on the three passages together (5.64, 5.93, 5.94) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_1_0006` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A tax list and a sale notice, written by different offices for different reasons, both support a 1911 date for the end of the mill, and the case would weaken if one office had made both.
+
+**Supporting details.**
+
+- The society dates the end of the mill's grinding to 1911.
+- A tax list from that year lists the building as empty and the wheel gone.
+- A sale notice the same autumn offers the mill with no machines included.
+- The two offices did not know what the other had printed.
+- The case weakens if one office made both records, or a later record shows grain ground after 1911.
+
+**Why it works.** Two records support one date, and their strength depends on being written by different offices, which the reader has to track.
+
+**Cautions.** No society name, mill owner, or county. No claim about what the mill produced after it closed.
+
+---
 ## Rules for adding a text
 
 1. Verify the license before adding it.

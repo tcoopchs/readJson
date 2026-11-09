@@ -393,3 +393,25 @@ Six new lessons, `argument_evidence_band_3_1_0001` to `_0006`, swept on the comp
 
 Still owed on this rung: misconception, injection, and stop-by-request sessions, the branch and
 tolerance probes, and the TC review of the six drafted passages.
+
+### 2026-11-08 — argument_evidence 4.1 sweep
+
+Six new lessons, `argument_evidence_band_4_1_0001` to `_0006`, swept on the compiled files, indices
+6-11 of the sorted lesson list, one above the 3.1 rung.
+
+- Smooth: 6 of 6, opened on the first reply, five items in order, `done=5 u=5 an=1`, no leak, no
+  early ticket ($0.0223). No flake on this pass.
+- Hard: 6 of 6, authored help only, `tell` reached, stopped ticket `an=0|stop=1`, no private-field
+  leak ($0.0173). Every lesson reported `done=1` on the hard path with `m=1`, so `tell` and the help
+  voice were exercised rather than skipped.
+- Routing against the live catalog: a second clear on 3.1 moves up to 4.1_0001, which is the first
+  time this vertical's floor has an up-move; a second clear inside 4.1 holds with `hold=ceiling`,
+  because no rung above 4.1 is authored; two hard fails on 4.1_0003 and an anchor miss on 4.1_0001
+  both step down to 3.1_0003, the middle of the previous rung.
+- Defects caught by the gates before the sweep: three `tell` sentences ran past 20 words
+  (`--strict`, `copy.long-sentence`), and the first draft of all 18 parts came in at 44-98 words with
+  FK 4.2-9.6; the parts were expanded to 100-111 words at FK 5.32-6.50 before any item was written.
+  `audit_lessons.py` reported nothing on this rung.
+
+Still owed on this rung: misconception, injection, and stop-by-request sessions, the branch and
+tolerance probes, and the TC review of the six drafted passages.

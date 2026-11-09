@@ -1,0 +1,249 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_4_1_0003",
+  "meta": {
+    "status": "published",
+    "title": "Eleven Bunches and No Second Count",
+    "skill": "argument_evidence",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Argument and evidence: what a single count can show, and what it cannot.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.84, 5.75 and 5.52 on the three parts (103, 109 and 104 words), 5.70 together. The load is one number with no earlier count to compare it with, and weather that changed in the same week.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 4.1, band 4.1, sequence 3. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A farm stand whose sign uses one week's compost count to claim a new cooler keeps greens fresh, with no earlier count kept.",
+      "avoided": "No farm name, price, or cooler brand. No claim about how the weather will run next year."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One count stands behind the sign and no earlier count exists, so the reader has to see that a number without a comparison proves only what happened once."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The farm stand behind the barn changed how it stores greens in June, when the summer heat began. A new cooler now holds the bunches picked each morning. A sign above the cooler says the greens stay fresh much longer than they used to. Under that sentence the sign gives one number, and the number is eleven bunches. Eleven bunches went to the compost in the first week, and that is the only number on the sign. The sign does not say how many bunches the stand sold that week. It also does not say what the count was before the cooler arrived.",
+    "part_2": "The number is real, and a worker did count the bunches that week, so nobody made it up. But the stand kept no count from the weeks before the cooler arrived. Nobody wrote down how many bunches spoiled in May, when the stand used the old box. The weather also changed in the same week the cooler came, and the cool nights that followed June would help any greens, cooled or not. A test of the cooler needs a week when the cooler was not there. A count from one week can only say what happened once. Nobody has that week's count now, and the sign never mentions it.",
+    "part_3": "So the sign proves that eleven bunches spoiled in one week, and nothing more. It does not prove that the cooler caused fewer losses, because there is nothing to compare that number with. A count becomes evidence about a change when the same thing was counted before the change. The two counts also have to come from weather that can be compared. Without a second count, the cooler may be the reason, or the cool nights may be. The sign cannot tell a buyer which one it was, and it does not try. A buyer reading the sign has no way to check it."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the sign claim about the cooler?",
+      "tutor_only": {
+        "confirm": "Right. Greens stay fresh much longer than they used to.",
+        "correct_reason": "The sign above the cooler says the greens stay fresh much longer than they used to.",
+        "tell": "The sign claims the greens stay fresh much longer than before the cooler.",
+        "help": [
+          "The sentence that starts with 'A sign above the cooler' carries the claim.",
+          "It compares this year with the years before."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The greens stay fresh much longer than they used to.",
+        "accept_ideas": [
+          "the greens stay fresh longer",
+          "the greens last much longer now",
+          "the cooler keeps greens fresh longer",
+          "the greens stay fresh much longer"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the cooler was paid for"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the sign gives no claim",
+            "ask": "The sign makes one. What does it say about how long the greens last?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What number does the sign give, and what is it a count of?",
+      "tutor_only": {
+        "confirm": "Right. Eleven bunches that went to the compost in one week.",
+        "correct_reason": "The sign says eleven bunches went to the compost in the first week.",
+        "tell": "The sign gives eleven, and it counts bunches that spoiled in the first week.",
+        "help": [
+          "The sentence with the number names what was counted.",
+          "It is a count of bunches that spoiled."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Eleven bunches that went to the compost in the first week.",
+        "accept_ideas": [
+          "eleven bunches that spoiled",
+          "eleven bunches in the compost",
+          "eleven spoiled in the first week",
+          "eleven bunches thrown out"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many bunches were sold"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it counts the bunches sold",
+            "ask": "The number sits under the claim about freshness. What happened to those eleven bunches?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why can the eleven bunches not show that the cooler helped?",
+      "tutor_only": {
+        "confirm": "Right. No count was kept before the cooler arrived.",
+        "correct_reason": "The passage says the stand kept no count from the weeks before the cooler arrived, so there is nothing to compare the eleven with.",
+        "tell": "There is no count from before the cooler, so the eleven has nothing to be measured against.",
+        "help": [
+          "The sentence about the weeks before the cooler carries the answer.",
+          "Look for a count the stand did not keep."
+        ],
+        "say_back": "own_words",
+        "core_idea": "There is no count from before the cooler to compare with.",
+        "accept_ideas": [
+          "no count was kept before the cooler",
+          "there is nothing to compare it with",
+          "nobody counted in May",
+          "there is no earlier count"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the cooler cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the cooler is new",
+            "ask": "A comparison needs two counts. Which one is missing?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "A buyer says the cooler saved eleven bunches. What is wrong with that reading?",
+      "tutor_only": {
+        "confirm": "Right. The eleven are the bunches that spoiled, and there is no earlier count.",
+        "correct_reason": "The sign says eleven bunches went to the compost, and with no count from before the cooler there is nothing to show the number fell.",
+        "tell": "Eleven is what spoiled, not what was saved. Without a count from before, nobody can say the number is lower.",
+        "help": [
+          "The sentence about what the sign proves carries the answer.",
+          "Read the number for what it counts."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The eleven are the bunches that spoiled, and there is no earlier count.",
+        "accept_ideas": [
+          "eleven is what spoiled, not what was saved",
+          "the number counts spoiled bunches",
+          "there is no earlier count to compare",
+          "nothing shows the number fell"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what a bunch sells for"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says eleven were saved",
+            "ask": "The sign counts bunches in the compost. Were they saved?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What would the sign need before its claim could rest on a count?",
+      "tutor_only": {
+        "confirm": "Right. A count from before the cooler, in weather that can be compared.",
+        "correct_reason": "The passage says a count becomes evidence about a change when the same thing was counted before the change, in weather that can be compared.",
+        "tell": "The sign would need a count from before the cooler. That count would have to come in weather like June's.",
+        "help": [
+          "The sentence about a count becoming evidence carries the answer.",
+          "It asks for the same thing to be counted twice."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A count from before the cooler, in weather that can be compared.",
+        "accept_ideas": [
+          "a count from before the cooler",
+          "an earlier count from May",
+          "two counts taken in similar weather",
+          "a count from the weeks before, in like weather"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who counted the bunches"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the sign needs a bigger number",
+            "ask": "The sign needs something to compare with. Which count is missing?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher argument-and-evidence rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_4_1_0004",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_4_1_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

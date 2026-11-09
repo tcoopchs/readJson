@@ -1,0 +1,249 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_4_1_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Ferry Notice With Two Claims",
+    "skill": "argument_evidence",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "topic_domain": "places and travel",
+    "skill_frame": "Argument and evidence: two claims in one text, and which one the evidence supports.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.38, 5.81 and 6.50 on the three parts (108, 107 and 100 words), 6.23 together. The load is two claims in one notice and a record behind only one of them, so the reader has to track which claim the winter report supports.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 4.1, band 4.1, sequence 1. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A ferry office notice that promises daily winter crossings and shorter trips, where last winter's report supports only the first promise.",
+      "avoided": "No town name, ticket price, or boat name. No claim about how the engine was paid for."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Two claims sit in one notice; one rests on last winter's record and one rests on a replaced engine, and only the record is evidence."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The ferry office posted a notice about the winter schedule, and the notice makes two claims at once. The first claim says the ferry will cross the bay every day this winter, even in the weeks when ice forms near the dock side. The second claim says each trip will be shorter than last year, because the boat has a new engine. The office asks residents to plan their travel around a daily crossing. The notice is printed on one page and hangs inside the waiting room. Nothing on the page says where either claim came from. The office simply asks people to trust the schedule as printed.",
+    "part_2": "Only one of those claims has support in the notice. The notice reports that the ferry crossed every day last winter, when ice formed in the same weeks. It says the boat reached the far dock each time, though a crossing took hours on the coldest days. But the notice gives no time for last year's crossings and no time for this year's. The engine was replaced, and the notice says so twice. It never says the boat now moves faster or that a trip ends sooner. The schedule still lists the same sailing minutes for the trip, and the ticket price is printed at the bottom.",
+    "part_3": "A reader who takes both claims from the notice would expect a shorter trip and daily service. The notice supports the daily crossing, because the same boat made the run through the same ice a year ago. The faster crossing has no support, because no time changed and the listed sailing minutes stayed the same. The difference is easy to see. One claim has a record behind it, and the other has a new part. A reader can check the record by asking what happened last winter. There is nothing to check behind the new engine except the office's word."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The notice makes two claims. What does the first claim say the ferry will do?",
+      "tutor_only": {
+        "confirm": "Right. It will cross the bay every day this winter.",
+        "correct_reason": "The first claim says the ferry will cross the bay every day this winter, even when ice forms near the dock side.",
+        "tell": "The first claim promises a crossing every day of the winter, ice or no ice.",
+        "help": [
+          "The sentence about the first claim names a season and a number of days.",
+          "It names the days the ferry will run."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The ferry will cross the bay every day this winter.",
+        "accept_ideas": [
+          "the ferry will cross every day this winter",
+          "it runs every day this winter",
+          "a daily crossing all winter",
+          "it will cross the bay daily this winter"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "why the office wrote the notice"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the trip will be shorter",
+            "ask": "That is the second claim. What does the first claim promise about the days of the winter?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The notice points to last winter to support one claim. What happened last winter?",
+      "tutor_only": {
+        "confirm": "Right. The ferry crossed every day, through the same ice.",
+        "correct_reason": "The notice reports that the ferry crossed every day last winter, when ice formed in the same weeks, and reached the far dock each time.",
+        "tell": "Last winter the ferry ran every day through the same ice and still reached the far dock.",
+        "help": [
+          "The sentence about last winter reports what the boat did in the ice.",
+          "It names a boat that kept to the schedule."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The ferry crossed every day last winter, even with ice near the dock.",
+        "accept_ideas": [
+          "the ferry ran every day last winter",
+          "it crossed every day in the ice",
+          "the boat reached the far dock each time",
+          "it kept to the schedule through the ice"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many hours a crossing took"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the ferry stopped for the ice",
+            "ask": "The notice says the boat crossed. Which days did it miss, if any?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The engine is new. Why does the notice not show that the trip will be shorter?",
+      "tutor_only": {
+        "confirm": "Right. No time changed, and the schedule still lists the same sailing minutes.",
+        "correct_reason": "The notice gives no time for either year's crossings, and the schedule still lists the same sailing minutes for the trip.",
+        "tell": "The notice gives no time from either year, and the schedule lists the same minutes as before.",
+        "help": [
+          "The sentences about time and the schedule carry the answer.",
+          "Look for a number that did not change."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The notice gives no time for the crossings, and the sailing minutes did not change.",
+        "accept_ideas": [
+          "no time is given for either year",
+          "the sailing minutes are the same",
+          "the schedule lists the same sailing minutes",
+          "no crossing time changed"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the new engine works"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says a new engine is proof of speed",
+            "ask": "A new part is not a measurement. What do the sailing minutes show?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "A resident says the trip will take an hour less. Does the notice support that?",
+      "tutor_only": {
+        "confirm": "No. The notice gives no time, and the listed minutes did not change.",
+        "correct_reason": "The notice gives no crossing time for either year, and the schedule still lists the same sailing minutes for the trip.",
+        "tell": "Nothing in the notice gives an hour less. The listed sailing minutes are the same, so the faster trip is not shown.",
+        "help": [
+          "The sentence about the sailing minutes decides this one.",
+          "It gives a number that has not moved."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No. No time changed, and the sailing minutes are the same.",
+        "accept_ideas": [
+          "no, the times are the same",
+          "no, no time changed",
+          "no, the sailing minutes did not change",
+          "no, the notice gives no time at all"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much an hour is worth to a resident"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says yes because the engine is new",
+            "ask": "The engine is new, but what does the notice say about minutes?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Which of the two claims does the notice support, and what supports it?",
+      "tutor_only": {
+        "confirm": "Right. The daily crossing, backed by last winter's report.",
+        "correct_reason": "The winter report supports the daily crossing, because the same boat made the run through the same ice a year ago, and nothing supports the shorter trip.",
+        "tell": "The daily crossing has a record behind it: the same boat crossed through the same ice last winter. The shorter trip has only a new engine.",
+        "help": [
+          "The sentence about the winter record shows what the daily claim rests on.",
+          "One claim has a year behind it and the other has a part."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The daily crossing, because the same boat made the run through the same ice last winter.",
+        "accept_ideas": [
+          "the daily crossing, because it ran all last winter",
+          "the daily one, since the boat crossed in the ice before",
+          "the daily crossing, because last winter supports it",
+          "the daily crossing, because the record shows the run in ice"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the ticket price"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the shorter trip is supported",
+            "ask": "The trip time did not change on the schedule. Which claim has a report behind it?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher argument-and-evidence rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_4_1_0002",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

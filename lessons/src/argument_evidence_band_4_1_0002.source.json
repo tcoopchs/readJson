@@ -1,0 +1,249 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_4_1_0002",
+  "meta": {
+    "status": "published",
+    "title": "The Reason That Repeats Itself",
+    "skill": "argument_evidence",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Argument and evidence: tell a reason that explains from a reason that repeats the claim.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.96, 6.37 and 5.54 on the three parts (102, 100 and 105 words), 5.96 together. The load is two reasons for one request, where the first repeats the claim and the second names a cause and a repair.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 4.1, band 4.1, sequence 2. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A park note asking to rebuild a pond bank, where the first stated reason restates the claim and the rest of the note gives the cause and the repair.",
+      "avoided": "No park name, species, or cost figure. No claim about how quickly the reeds will grow."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Two reasons sit in one note; one only restates the claim and one names a cause, so the reader has to see which reason can be checked."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The park office wants to rebuild the bank of the pond, and its note gives one reason for the work. The note is two pages long, and its first line carries the reason. The note says the bank keeps falling in because the bank is not stable. That sentence repeats the claim instead of explaining it, since an unstable bank is the same problem in other words. A reason earns its place when it names what causes the problem and what the fix would change. The note's first reason does neither, so the reader has to read on for one that does.",
+    "part_2": "The rest of the note does that work, and it does it in three sentences. It says the bank has no roots holding the soil, so every hard rain carries soil into the pond. It reports that the pond lost ten centimeters of depth in three summers, which leaves less room for fish in the warm months. The plan is to plant reeds along the water, because reed roots hold the soil in place and take the force of the rain, and the reeds cost little after the first year. The note gives a cause, a cost, and a repair.",
+    "part_3": "Now the reason has a cause and a repair, and both can be checked against the pond. Soil without roots washes away, so the bank shrinks a little each season. Reeds bring roots, so the soil stays where it is instead of sliding into the water. A reader can check each step against the note and against the pond itself. The first reason could not be checked, because it only said the bank was not stable. The second can be checked, and it also says what the reeds will do. That is the difference between a real reason and a sentence that repeats a claim."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The note gives a reason in its first line. What does that reason say?",
+      "tutor_only": {
+        "confirm": "Right. The bank is not stable.",
+        "correct_reason": "The note says the bank keeps falling in because the bank is not stable.",
+        "tell": "The first reason says the bank keeps falling in because it is not stable.",
+        "help": [
+          "The sentence that starts with 'The note says the bank' carries the reason.",
+          "It names the state of the bank."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The bank keeps falling in because it is not stable.",
+        "accept_ideas": [
+          "the bank is not stable",
+          "the bank keeps falling in",
+          "the bank falls because it is unstable",
+          "the bank is not steady"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who wrote the note"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the note gives no reason at all",
+            "ask": "The first line does give one. What state does it name for the bank?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The note gives a second reason. What does it say carries the soil into the pond?",
+      "tutor_only": {
+        "confirm": "Right. Rain, because no roots hold the soil.",
+        "correct_reason": "The note says the bank has no roots holding the soil, so every hard rain carries soil into the pond.",
+        "tell": "The bank has no roots, so hard rain washes the soil into the pond.",
+        "help": [
+          "The sentence about roots and rain carries the answer.",
+          "It names what is missing from the bank."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Hard rain, because no roots hold the soil in place.",
+        "accept_ideas": [
+          "rain, since no roots hold the soil",
+          "hard rain washes it in",
+          "the soil has no roots to hold it",
+          "rain carries the soil away"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much rain fell last year"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the pond pulls the soil in",
+            "ask": "The note names what the bank lacks. What happens to soil without roots in a hard rain?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why can a reader check the second reason but not the first?",
+      "tutor_only": {
+        "confirm": "Right. The second names a cause and a repair the reader can look for.",
+        "correct_reason": "The second reason says soil without roots washes away and reed roots will hold it, while the first reason only says the bank is not stable.",
+        "tell": "The second reason names a cause and a repair. The first only says the bank is not stable, which is the claim again.",
+        "help": [
+          "The sentence about soil, roots and reeds carries the answer.",
+          "One reason names a cause the reader can look for."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The second names a cause and what the reeds will do, and the first only repeats the claim.",
+        "accept_ideas": [
+          "the second says what causes the falling and what the reeds do",
+          "the first only repeats the claim",
+          "the second can be checked against the pond",
+          "the second names roots and rain"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the reeds cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says both reasons are equally good",
+            "ask": "Compare the two sentences. Which one names something a reader can go and look at?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "A reader says the first reason is fine, because it says the bank is not stable. What is wrong with it?",
+      "tutor_only": {
+        "confirm": "Right. It repeats the claim in other words, so it adds nothing.",
+        "correct_reason": "The note says the bank keeps falling in because it is not stable, and an unstable bank is the same problem in other words, so nothing new is offered.",
+        "tell": "Saying the bank is not stable is the claim again. A reason has to name a cause the reader did not already have.",
+        "help": [
+          "The sentence about an unstable bank says why the first reason adds nothing.",
+          "Ask whether the reason gives a new fact."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It repeats the claim instead of explaining it.",
+        "accept_ideas": [
+          "it just repeats the claim",
+          "it says the same thing twice",
+          "it gives no cause",
+          "it adds nothing new"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the work will cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it is fine because the bank is old",
+            "ask": "Is 'not stable' a cause or another way of saying the bank falls in?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Two sentences in the note give reasons. Which one lets a reader predict what the reeds will do, and why?",
+      "tutor_only": {
+        "confirm": "Right. The one about roots, because it names the cause and the repair.",
+        "correct_reason": "The second reason ties the falling bank to missing roots and says reed roots will hold the soil, so a reader can predict the effect of planting.",
+        "tell": "The reason about roots can predict the reeds. It says why the soil leaves and what roots do to it.",
+        "help": [
+          "The sentence about soil, roots and reeds carries the answer.",
+          "Find the reason that names a cause and an effect."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The reason about roots, because it names the cause and what the roots will do.",
+        "accept_ideas": [
+          "the one about roots, because it says what they hold",
+          "the root reason, since it names the cause",
+          "the second one, because it predicts the soil staying",
+          "the one that says roots hold the soil"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the reeds take to spread"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student picks the first reason",
+            "ask": "The first reason says nothing about reeds. Which reason names what they will do?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher argument-and-evidence rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_4_1_0003",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_4_1_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

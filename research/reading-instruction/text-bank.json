@@ -3536,6 +3536,228 @@
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, accepted on spot check.",
       "drafted_by": "TC"
+    },
+    {
+      "id": "TB-099",
+      "title": "The Ferry Notice With Two Claims",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (108, 107, 100 words)",
+      "length_words": 315,
+      "fk_grade": 6.23,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_1_0001"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "Two claims sit in one notice, but only the daily winter crossing has a record behind it, because the same boat crossed through the same ice a year ago.",
+      "supporting_details": [
+        "The notice makes two claims: a daily crossing all winter and a shorter trip.",
+        "Last winter the ferry crossed every day when the same ice formed.",
+        "The engine is new, but no crossing time is given for either year.",
+        "The schedule still lists the same sailing minutes for the trip.",
+        "The notice gives no record behind the shorter trip."
+      ],
+      "why_it_works": "One text carries two claims and a record behind only one of them, so the reader has to track which claim the winter report supports.",
+      "cautions": "No town name, ticket price, or boat name. No claim about how the engine was paid for.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-100",
+      "title": "The Reason That Repeats Itself",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (102, 100, 105 words)",
+      "length_words": 307,
+      "fk_grade": 5.96,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_1_0002"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A reason earns its place when it names a cause and a repair; the note's first reason only restates the claim, and the reason about roots can be checked.",
+      "supporting_details": [
+        "The first reason says the bank is not stable, which restates the claim.",
+        "The second reason says no roots hold the soil, so hard rain carries it into the pond.",
+        "The pond lost ten centimeters of depth in three summers.",
+        "The plan is to plant reeds, because reed roots hold the soil in place.",
+        "The second reason lets a reader predict what the reeds will do."
+      ],
+      "why_it_works": "Two reasons sit in one note and only one names a cause, so the reader has to see which reason can be checked against the pond.",
+      "cautions": "No park name, species, or cost figure. No claim about how quickly the reeds will grow.",
+      "topic_domain": "science and nature",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-101",
+      "title": "Eleven Bunches and No Second Count",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (103, 109, 104 words)",
+      "length_words": 316,
+      "fk_grade": 5.7,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_1_0003"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A single count of eleven spoiled bunches cannot show the cooler helped, because no count from before the cooler exists and the weather changed in the same week.",
+      "supporting_details": [
+        "The sign claims greens stay fresh much longer than they used to.",
+        "The sign gives one number: eleven bunches composted in the first week.",
+        "The stand kept no count from the weeks before the cooler.",
+        "Cool nights followed June and would help any greens, cooled or not.",
+        "A count becomes evidence about a change when the same thing was counted before it."
+      ],
+      "why_it_works": "The number is real but stands alone, so the reader has to notice that a comparison is missing before the sign's claim can be judged.",
+      "cautions": "No farm name, price, or cooler brand. No claim about how the weather will run next year.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-102",
+      "title": "The Request on the Last Line",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (102, 103, 100 words)",
+      "length_words": 305,
+      "fk_grade": 5.6,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_1_0004"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The memo's claim is its last sentence, a request to order the ten most common parts once a month; the earlier pages are the problem and the room the change would use.",
+      "supporting_details": [
+        "A storm week left twelve bikes on the rack with nothing to fix them.",
+        "The memo describes the storm week, the parts counter, and the free shelf space.",
+        "The claim is the last sentence, which asks for monthly ordering of common parts.",
+        "The earlier pages give the problem the change would solve.",
+        "A reader who stops early has the setup and not the request."
+      ],
+      "why_it_works": "The claim arrives after two pages of situation, so a reader has to hold the problem and find the sentence that asks for anything.",
+      "cautions": "No shop name, street, or price. No claim about how many parts the shop sells.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-103",
+      "title": "The Objection the Letter Raised",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (100, 101, 111 words)",
+      "length_words": 312,
+      "fk_grade": 5.7,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_1_0005"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The letter raises the objection that new ropes will not clear cloudy water, then answers it with the pool log, so the objection no longer blocks the request.",
+      "supporting_details": [
+        "The club asks the town to replace the lane ropes at the outdoor pool.",
+        "The letter raises the objection that the water is cloudy in August.",
+        "The pool was cloudy on nine days last August, and each followed a failed pump.",
+        "The club does not claim the ropes will clear the water.",
+        "An objection a letter answers does more for the case than one it ignores."
+      ],
+      "why_it_works": "A letter states its own objection and answers it from a separate record, so the reader has to keep the rope problem and the cloud problem apart.",
+      "cautions": "No club name, pool name, or cost figure. No claim about who repairs the pumps.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-104",
+      "title": "Two Records That Agree",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (104, 104, 102 words)",
+      "length_words": 310,
+      "fk_grade": 5.84,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_1_0006"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A tax list and a sale notice, written by different offices for different reasons, both support a 1911 date for the end of the mill, and the case would weaken if one office had made both.",
+      "supporting_details": [
+        "The society dates the end of the mill's grinding to 1911.",
+        "A tax list from that year lists the building as empty and the wheel gone.",
+        "A sale notice the same autumn offers the mill with no machines included.",
+        "The two offices did not know what the other had printed.",
+        "The case weakens if one office made both records, or a later record shows grain ground after 1911."
+      ],
+      "why_it_works": "Two records support one date, and their strength depends on being written by different offices, which the reader has to track.",
+      "cautions": "No society name, mill owner, or county. No claim about what the mill produced after it closed.",
+      "topic_domain": "history and people",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
     }
   ],
   "screened_not_banked": [

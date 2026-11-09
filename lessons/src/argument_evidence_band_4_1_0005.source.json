@@ -1,0 +1,249 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_4_1_0005",
+  "meta": {
+    "status": "published",
+    "title": "The Objection the Letter Raised",
+    "skill": "argument_evidence",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Argument and evidence: an objection the text raises and answers.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.32, 5.70 and 6.09 on the three parts (100, 101 and 111 words), 5.71 together. The load is a letter that states its own objection and answers it with a separate record, so the reader has to hold two problems apart.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 4.1, band 4.1, sequence 5. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A swim club letter asking for new lane ropes that raises and answers the objection that cloudy water is the real problem.",
+      "avoided": "No club name, pool name, or cost figure. No claim about who repairs the pumps."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The letter raises the objection itself and answers it with the pool log, so the reader must keep the rope problem and the cloud problem separate."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The swim club asked the town to replace the lane ropes at the outdoor pool. The ropes are old, and paint comes off them into the water when swimmers brush against them. The club's letter makes its case in three parts. It describes the state of the ropes and the cost of new ones. Then it does something a weaker letter would leave out, which is to raise an objection against its own request. The letter spends a full page on that objection before it answers it. The club could have left the page out and sent a shorter case.",
+    "part_2": "The objection is that new ropes will not fix the pool, because the water is cloudy in August. The letter answers it with a record from the pool's own log. The pool was cloudy on nine days last August, and on every one of those days a pump had failed. The log was kept by the pool staff for their own repairs, and each cloudy day is tied to a repair. Nine cloudy days out of thirty-one is a lot of cloudy water for one month. The ropes are not named as the cause of the cloud on any page.",
+    "part_3": "That answer matters, because it keeps the objection from blocking the request. The club does not claim the ropes will clear the water. It shows that the water problem has a different cause, and the log names that cause. A reader can check the nine days against the log. An objection a letter answers well does more for the case than an objection the letter ignores. The club raised the question a reader would raise and closed it with a record, and the two problems stay apart. The town can price the ropes without worrying about the water. The log answers the question the club raised, and it answers with dates."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the club ask the town to do?",
+      "tutor_only": {
+        "confirm": "Right. Replace the lane ropes at the outdoor pool.",
+        "correct_reason": "The first sentence says the swim club asked the town to replace the lane ropes at the outdoor pool.",
+        "tell": "The club asks for new lane ropes at the pool.",
+        "help": [
+          "The first sentence names the request.",
+          "It names an object and a place."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Replace the lane ropes at the outdoor pool.",
+        "accept_ideas": [
+          "replace the lane ropes",
+          "put in new ropes at the pool",
+          "new lane ropes",
+          "change the ropes"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much new ropes cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the club asks for new pumps",
+            "ask": "The pumps appear later. What does the club ask the town for first?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What objection does the letter raise against its own request?",
+      "tutor_only": {
+        "confirm": "Right. That new ropes will not fix the cloudy water.",
+        "correct_reason": "The passage says the objection is that new ropes will not fix the pool, because the water is cloudy in August.",
+        "tell": "The letter raises the objection that the water is cloudy in August, so new ropes would not fix the pool.",
+        "help": [
+          "The sentence that starts with 'The objection is' carries the answer.",
+          "It names a month and a kind of water."
+        ],
+        "say_back": "own_words",
+        "core_idea": "That new ropes will not fix the pool, because the water is cloudy in August.",
+        "accept_ideas": [
+          "new ropes will not clear the cloudy water",
+          "the water is cloudy in August",
+          "the ropes will not fix the pool",
+          "cloudy water is the real problem"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many swimmers use the pool"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the objection is the cost",
+            "ask": "The cost is one part of the case. What objection does the letter raise against itself?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "How does the letter answer that objection?",
+      "tutor_only": {
+        "confirm": "Right. The log shows nine cloudy days, each tied to a failed pump.",
+        "correct_reason": "The passage says the pool was cloudy on nine days last August, and on every one of them a pump had failed, which the log records.",
+        "tell": "The letter uses the pool log: nine cloudy days, and every one of them followed a pump failure.",
+        "help": [
+          "The sentence about the nine days carries the answer.",
+          "It ties each cloudy day to something else."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The log shows nine cloudy days, and each one is tied to a failed pump.",
+        "accept_ideas": [
+          "the log shows nine days after pump failures",
+          "each cloudy day had a failed pump",
+          "the log ties the cloud to repairs",
+          "nine days tied to pumps"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who pays for the pumps"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the letter agrees the ropes will not help",
+            "ask": "The letter uses a record. What does the log tie each cloudy day to?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "The letter does not claim the ropes will clear the water. Why does that help its case?",
+      "tutor_only": {
+        "confirm": "Right. It shows the cloud has another cause, so the objection cannot block the request.",
+        "correct_reason": "The passage says the letter shows the water problem has a different cause, which keeps the objection from blocking the request.",
+        "tell": "By giving the cloud a different cause, the letter keeps the objection from standing in the way of new ropes.",
+        "help": [
+          "The sentence about a different cause carries the answer.",
+          "The objection is answered and not fought."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It shows the cloud has a different cause, so the objection does not block the request.",
+        "accept_ideas": [
+          "it shows another cause for the cloud",
+          "the objection does not block the request",
+          "it proves the pumps cause the cloud",
+          "the cloud has its own cause"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which problem costs more"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the letter ignores the cloud",
+            "ask": "The letter answers the cloud question. What does that answer do for the request?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What would the letter have lost if it had left the objection out?",
+      "tutor_only": {
+        "confirm": "Right. A question a reader would ask would go unanswered.",
+        "correct_reason": "The passage says an objection a letter answers well does more for the case than an objection the letter ignores.",
+        "tell": "Leaving it out would leave a reader's own question open, and an answered objection does more for the case.",
+        "help": [
+          "The sentence about an answered objection carries the answer.",
+          "It is about what a letter gets from answering a question."
+        ],
+        "say_back": "own_words",
+        "core_idea": "An answer to a question a reader would ask anyway.",
+        "accept_ideas": [
+          "the answer to a question readers would ask",
+          "it would leave the cloud unanswered",
+          "a reader would still wonder about the water",
+          "it would lose the answer to the cloud question"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the ropes last"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the letter would be stronger without it",
+            "ask": "Which does more for a case, answering a question or leaving it open?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher argument-and-evidence rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_4_1_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
