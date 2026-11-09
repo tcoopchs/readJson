@@ -1,0 +1,247 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_3_1_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Sign in the Window",
+    "skill": "argument_evidence",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "topic_domain": "work and trade",
+    "skill_frame": "Argument and evidence: find the claim, the reason, and the fact behind the reason.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The load is one claim, one reason, and one fact behind the reason, all printed in the text. Measured FK 3.65 and 3.58 on the two parts (60 and 58 words), 3.59 together. The reading sits inside the grade 2-3 band and below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 3.1, band 3.1, sequence 1. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A shop that moves its Monday start time because of a delivery, built so the claim, the reason, and the fact behind the reason all sit in plain sight.",
+      "avoided": "No shop name, price, or town. No claim about how long the change will last."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One claim and one reason, with the reason stated before the claim in reading order."
+    },
+    "authoring_exceptions": [
+      "Parts run 45-60 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the claim, reason, and evidence stay visible on one screen. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The hardware shop on Mill Street put a new sign in its window. The sign says the shop will open at nine on Mondays from now on. It used to open at eight. The owner says the delivery truck comes at eight. Nobody can unload the truck until the shop is open. So the shop opens after the truck now.",
+    "part_2": "Some customers came at eight and found the door locked. The owner put a note on the door and a message on the phone line. The shop still closes at six, and the prices have not changed. Only the Monday start moved. The owner says the change will stay until the truck can come later in the day."
+  },
+  "items": [
+    {
+      "id": "a1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The sign is new. What does the sign tell people about Mondays?",
+      "tutor_only": {
+        "confirm": "Right. The shop opens at nine on Mondays now.",
+        "correct_reason": "The first sentence of the sign's message says the shop will open at nine on Mondays from now on.",
+        "tell": "The sign says the shop opens at nine on Mondays from now on. That is the claim it wants people to accept.",
+        "help": [
+          "The sentence that starts with 'The sign says' carries the new time.",
+          "That sentence names a day and a time."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The shop opens at nine on Mondays from now on.",
+        "accept_ideas": [
+          "the shop opens at nine on Mondays",
+          "it opens at nine now",
+          "the Monday start is nine",
+          "the shop will open at nine on Monday"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the shop opens at eight",
+            "ask": "The passage says it used to open at eight. What time does the sign give now?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The passage gives one reason for the new time. What is the reason?",
+      "tutor_only": {
+        "confirm": "Yes. The delivery truck needs someone to unload it.",
+        "correct_reason": "The passage says the truck comes at eight and nobody can unload it until the shop is open.",
+        "tell": "The truck comes at eight, and nothing can be unloaded until the shop is open. So the shop opens after the truck.",
+        "help": [
+          "Look at the sentences about the delivery truck.",
+          "The word until marks what has to happen first."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The delivery truck comes at eight and must be unloaded while the shop is open.",
+        "accept_ideas": [
+          "the delivery truck comes at eight",
+          "nobody can unload the truck before the shop opens",
+          "the truck has to be unloaded and someone must be there"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the shop opens early to sell more",
+            "ask": "The passage gives one reason, and it involves a truck. What happens at eight?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Which sentence shows that the shop's start time really changed?",
+      "tutor_only": {
+        "confirm": "Right. It used to open at eight.",
+        "correct_reason": "The sentence 'It used to open at eight' gives the old time, so the new nine o'clock start is a change.",
+        "tell": "The passage says the shop used to open at eight. The new sign says nine, so the start time changed.",
+        "help": [
+          "Find the sentence that gives the old time.",
+          "It has the words 'used to' in it."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The sentence 'It used to open at eight.'",
+        "accept_ideas": [
+          "it used to open at eight",
+          "the old time was eight",
+          "the passage says it used to open at eight"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the sign is new",
+            "ask": "A new sign alone does not prove a new time. Which sentence gives the old time?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "A customer says the shop is closing for good. Does the passage support that?",
+      "tutor_only": {
+        "confirm": "No. The passage is about the Monday start, not closing.",
+        "correct_reason": "The passage says the shop still closes at six and only the Monday start moved.",
+        "tell": "The passage does not say the shop is closing. It says the shop still closes at six, so only the start moved.",
+        "help": [
+          "Find the sentence that gives the closing time.",
+          "It says what did not change."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No. Only the Monday start moved; the shop closes at six.",
+        "accept_ideas": [
+          "no it says the shop still closes at six",
+          "no, only the start moved",
+          "no, it is not closing",
+          "no, it still closes at six"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says yes because the door was locked",
+            "ask": "A locked door at eight is not a closing shop. What time does the passage say it closes?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The passage says the prices have not changed. Why does the owner include that?",
+      "tutor_only": {
+        "confirm": "Right. It shows the new time is the only change.",
+        "correct_reason": "The passage lists what stayed the same so the reader can see the start time is the only change.",
+        "tell": "The prices and the closing time are named to show what stayed the same. That leaves the Monday start as the only change.",
+        "help": [
+          "Look at what the passage names right before it says only the start moved.",
+          "The list of unchanged things comes before the sentence about the start."
+        ],
+        "say_back": "own_words",
+        "core_idea": "To show that the new start time is the only change.",
+        "accept_ideas": [
+          "to show nothing else changed",
+          "to show the shop is not charging more",
+          "to show only the time changed"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says to show the shop is cheap",
+            "ask": "The passage is about time, not money. What stayed the same besides the price?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "The next argument-and-evidence stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_3_1_0002",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

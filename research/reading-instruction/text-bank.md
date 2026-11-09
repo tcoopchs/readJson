@@ -103,6 +103,12 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-090 | The Cue That Waits for a Voice | Nonfiction | 4 | Band 4.3 | 314 words (three passages, 110, 100 and 104 each) | 5.92 | `process_band_4_3_0004` |
 | TB-091 | What the First Five Hundred Costs | Nonfiction | 4 | Band 4.3 | 340 words (three passages, 120, 109 and 111 each) | 5.62 | `process_band_4_3_0005` |
 | TB-092 | The Boat That Must Sit Level | Nonfiction | 4 | Band 4.3 | 320 words (three passages, 115, 105 and 100 each) | 6.02 | `process_band_4_3_0006` |
+| TB-093 | The Sign in the Window | Nonfiction | 3 | Band 3.1 | 118 words (two passages, 60 and 58) | 3.59 | `argument_evidence_band_3_1_0001` |
+| TB-094 | The Ice That Was Thinner | Nonfiction | 3 | Band 3.1 | 109 words (two passages, 60 and 49) | 3.43 | `argument_evidence_band_3_1_0002` |
+| TB-095 | The Shade Over the Greens | Nonfiction | 3 | Band 3.1 | 111 words (two passages, 57 and 54) | 4.05 | `argument_evidence_band_3_1_0003` |
+| TB-096 | The Depot With Two Dates | Nonfiction | 3 | Band 3.1 | 93 words (two passages, 48 and 45) | 3.79 | `argument_evidence_band_3_1_0004` |
+| TB-097 | The Line That Cracked | Nonfiction | 3 | Band 3.1 | 104 words (two passages, 57 and 47) | 3.67 | `argument_evidence_band_3_1_0005` |
+| TB-098 | The Letter That Got an Answer | Nonfiction | 3 | Band 3.1 | 104 words (two passages, 50 and 54) | 3.87 | `argument_evidence_band_3_1_0006` |
 
 ---
 
@@ -3111,6 +3117,199 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
 **Cautions.** No port, route, vessel, or operator name. No crossing time, fares, or capacity figure.
 
 ---
+---
+
+## TB-093 — The Sign in the Window
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 118 words (two passages, 60 and 58) |
+| FK grade | 3.59 on the two passages together |
+| Complexity | L1, I2, S1, K1 |
+| Best lesson fit | `argument_evidence_band_3_1_0001` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The shop opens at nine on Mondays because the delivery truck arrives at eight and nobody can unload it until the shop is open.
+
+**Supporting details.**
+
+- The new sign gives the Monday opening time as nine, and the shop used to open at eight.
+- The owner gives the truck's eight o'clock arrival as the reason for the new time.
+- Nobody can unload the truck until the shop is open, so the start moved to after the delivery.
+- The note on the door and the phone message tell customers about the new time.
+- The closing time and the prices did not change, so the start time is the only change.
+
+**Why it works.** The claim, the reason, and the fact behind the reason sit in three different sentences, so the reader has to connect them rather than copy one line.
+
+**Cautions.** No shop name or price. The street name is generic and the change carries a stated end condition.
+
+---
+## TB-094 — The Ice That Was Thinner
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 109 words (two passages, 60 and 49) |
+| FK grade | 3.43 on the two passages together |
+| Complexity | L1, I2, S2, K2 |
+| Best lesson fit | `argument_evidence_band_3_1_0002` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The pond is not ready for skating because the ice measured four inches and the club rule needs six inches before a crowd may stand on it.
+
+**Supporting details.**
+
+- The group cuts a hole and measures the ice with a ruler every winter.
+- Past Januaries measured seven inches; this January measured four.
+- The club rule sets six inches of ice for a crowd.
+- Four inches holds one person, not thirty, which is why the rule and the measurement conflict.
+- The gate stays closed until a new measurement reaches six inches.
+
+**Why it works.** A number in a rule and a number in a measurement settle the claim, so the reader must compare two figures rather than weigh an opinion.
+
+**Cautions.** No pond name, town, or date. The passage makes no claim about air temperature or future weather.
+
+---
+## TB-095 — The Shade Over the Greens
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | food and farming |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 111 words (two passages, 57 and 54) |
+| FK grade | 4.05 on the two passages together |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `argument_evidence_band_3_1_0003` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** Greens last longer under the awning because leaves wilt in the open sun, and a two-week count lost nine bunches in the open row against two under the awning.
+
+**Supporting details.**
+
+- The stall moved to the shaded end of the row in June.
+- The seller says the leaves in the open row wilt before noon on hot days.
+- The two-week count gives nine wilted bunches in the open row and two under the awning.
+- Both counts cover the same two weeks, so they can be compared.
+- The price did not change, which answers the idea that the move is about money.
+
+**Why it works.** The claim rests on two comparable counts, and a second explanation is ruled out by the line about the price.
+
+**Cautions.** No market, farm, or price figure. The passage makes no claim about taste or weight.
+
+---
+## TB-096 — The Depot With Two Dates
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | history and people |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 93 words (two passages, 48 and 45) |
+| FK grade | 3.79 on the two passages together |
+| Complexity | L2, I3, S2, K2 |
+| Best lesson fit | `argument_evidence_band_3_1_0004` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The plaque's 1898 date is wrong, because the contract is dated 1904 and a photo shows a 1905 sign, though the records do not date the railway.
+
+**Supporting details.**
+
+- The plaque names 1898 for the building.
+- The contract is dated 1904 and a photo shows a train with a 1905 sign.
+- The records prove the building was finished after 1904.
+- The records do not show when the railway first came to town.
+- The historian's note claims only the plaque date and calls the railway date unknown.
+
+**Why it works.** The claim is narrow on purpose, and the reader has to hold what the records prove apart from what they leave open.
+
+**Cautions.** No real town, railway, or archive. No date is supplied for the railway.
+
+---
+## TB-097 — The Line That Cracked
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | sport and play |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 104 words (two passages, 57 and 47) |
+| FK grade | 3.67 on the two passages together |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `argument_evidence_band_3_1_0005` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The court needs a new surface because fourteen deep cracks let water in and lift it in winter, and three players slipped in one month.
+
+**Supporting details.**
+
+- Members counted fourteen cracks across the painted lines this spring.
+- Three players slipped in one month and one twisted an ankle.
+- Deep cracks let water in, and water lifts the surface in winter.
+- A coat of paint covers the crack but does not keep the water out.
+- The club has saved part of the cost, so the request is not for the whole amount.
+
+**Why it works.** Two reasons run in parallel, and the saved money line is evidence that answers a cost objection the reader would otherwise supply.
+
+**Cautions.** No club name, town, or price. No claim about who is responsible for the wear.
+
+---
+## TB-098 — The Letter That Got an Answer
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | arts and language |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 104 words (two passages, 50 and 54) |
+| FK grade | 3.87 on the two passages together |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_3_1_0006` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** Short letters with one clear question get answered more often, because a reader can act on one question right away; fifteen of twenty short letters were answered against six of twenty long ones.
+
+**Supporting details.**
+
+- The group sent forty letters, twenty long and twenty short.
+- The long letters asked three questions and the short ones asked one.
+- Fifteen short letters got a reply and six long ones did.
+- The note's reason is that a reader can act on one question right away.
+- Both groups held twenty letters, so the two counts compare directly.
+
+**Why it works.** The claim rests on two equal groups, so the reader has to notice that the comparison is fair before the numbers mean anything.
+
+**Cautions.** No group name, place, or quoted letter. No claim about why any office replied.
+
 ---
 
 ## Rules for adding a text

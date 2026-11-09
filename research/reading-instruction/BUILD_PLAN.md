@@ -29,11 +29,12 @@ inference: 3.1 -> 4.1 -> 4.2 -> 4.3 -> 5.1 -> 5.2 -> 5.3 -> ...
 
 ## 2. Where the catalog stands (verified 2026-11-06)
 
-One hundred and thirty compiled lessons. The inference ladder is complete from the floor through stage 4.3,
+One hundred and thirty-six compiled lessons. The inference ladder is complete from the floor through stage 4.3,
 `main_idea` is complete through stage 4.3, and `vocab` is complete from the floor through 4.3.
 `text_structure` is complete at its floor rung 3.1 and at 4.1, 4.2 and 4.3, so its grade-4 vertical is
-closed. `process` now holds 3.1, 4.1, 4.2 and 4.3, so its grade-4 vertical is closed too, and it was
-the last vertical open at grade 4. Phase 2 is finished; the next cell is `argument_evidence` 3.1.
+closed. `process` holds 3.1, 4.1, 4.2 and 4.3, so its grade-4 vertical is closed too, and it was the
+last vertical open at grade 4. `argument_evidence` 3.1 landed on 2026-11-08 as that vertical's floor,
+so Phase 2 is finished and the next cell is `argument_evidence` 4.1.
 
 | Ladder | 3.1 | 4.1 | 4.2 | 4.3 | 5.1 | above |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -42,13 +43,19 @@ the last vertical open at grade 4. Phase 2 is finished; the next cell is `argume
 | `vocab` | 6 ✓ | 6 ✓ | 6 ✓ | 6 ✓ | — | — |
 | `text_structure` | 6 ✓ | 6 ✓ | 6 ✓ | 6 ✓ | — | — |
 | `process` | 6 ✓ | 6 ✓ | 6 ✓ | 6 ✓ | — | — |
-| `other three` | — | — | — | — | — | — |
+| `argument_evidence` | 6 ✓ | — | — | — | — | — |
+| `other two` | — | — | — | — | — | — |
 
 Three facts that shape what comes next:
 
 - **The floor exists and is wired.** 3.1 is built for inference and main_idea, empty in onboarding by
   design, and reachable by a down-move. `on_floor` is `restart_set`, so push-back serves unused text.
 - **4.1 inference is selectable**, and a hard fail there now steps down to 3.1 instead of looping.
+- **The grade-3 gate on `argument_evidence` was answered on 2026-11-08 by building it.** The floor
+  rung uses one claim, one reason, and one fact behind the reason, with both parts at 45-60 words and
+  FK 3.0-4.8, so the load sits below the 4.1 floor's easiest passage (FK 5.3). That makes 3.1 the
+  ladder's down-move target for `argument_evidence` and the model for `authors_craft` 3.1, which
+  still needs the same call.
 - **The engine matches the rules**: ticket v2, the three-lesson window, and the guard that refuses to
   move a reader into a set that is not `complete`. That guard is why a clear on main_idea 3.1 holds
   rather than jumping four grades to 7.1.
@@ -299,10 +306,10 @@ misconception, injection, and stop sessions per rung, which so far exist for mai
 | `process` 4.1 | built; drafted under 2.6; TB-075 to TB-080; strict clean; smooth 6/6 and hard 6/6 | misconception, injection, and stop sessions; TC review of six passages |
 | `process` 4.2 | built; drafted under 2.6; TB-081 to TB-086; strict clean; smooth 6/6 and hard 6/6 | misconception, injection, and stop sessions; TC review of six passages; advance now repointed to 4.3_0001 |
 | `process` 4.3 | built; drafted under 2.6; TB-087 to TB-092; strict clean; smooth 6/6 and hard 6/6 | misconception, injection, and stop sessions; TC review of six passages; branch and tolerance probes owed |
-| `argument_evidence` 3.1 | absent, and may not fit grade-3 load | decide before authoring |
+| `argument_evidence` 3.1 | built; drafted under 2.6; TB-093 to TB-098; strict clean; smooth 6/6 and hard 6/6 | misconception, injection, and stop sessions; branch and tolerance probes owed; TC review of six passages |
 | `literary_text` 3.1 | absent | needs a short story |
 | `authors_craft` 3.1 | absent, and may not fit grade-3 load | decide before authoring |
-| `text-bank` rows for the 30 older drafted lessons | not written; main_idea 4.3 is TB-015 to TB-020, vocab 3.1-4.2 is TB-021 to TB-038, vocab 4.3 is TB-039 to TB-044, text_structure 3.1 is TB-045 to TB-050, text_structure 4.1 is TB-051 to TB-056, text_structure 4.2 is TB-057 to TB-062, text_structure 4.3 is TB-063 to TB-068, process 3.1 is TB-069 to TB-074, process 4.1 is TB-075 to TB-080, process 4.2 is TB-081 to TB-086 | backfill after the cold-chat pass |
+| `text-bank` rows for the 30 older drafted lessons | not written; main_idea 4.3 is TB-015 to TB-020, vocab 3.1-4.2 is TB-021 to TB-038, vocab 4.3 is TB-039 to TB-044, text_structure 3.1 is TB-045 to TB-050, text_structure 4.1 is TB-051 to TB-056, text_structure 4.2 is TB-057 to TB-062, text_structure 4.3 is TB-063 to TB-068, process 3.1 is TB-069 to TB-074, process 4.1 is TB-075 to TB-080, process 4.2 is TB-081 to TB-086, and argument_evidence 3.1 is TB-093 to TB-098 | backfill after the cold-chat pass |
 
 ### Handoff checklist
 

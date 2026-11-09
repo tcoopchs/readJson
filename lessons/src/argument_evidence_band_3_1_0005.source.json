@@ -1,0 +1,247 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_3_1_0005",
+  "meta": {
+    "status": "published",
+    "title": "The Line That Cracked",
+    "skill": "argument_evidence",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Argument and evidence: find the claim, the reason, and the fact behind the reason.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The load is one claim with a count as evidence, plus a short chain from crack to water to a lifted surface. Measured FK 4.18 and 3.05 on the two parts (57 and 47 words), 3.67 together. The reading sits below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 3.1, band 3.1, sequence 5. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A club asking a town for money, built so the claim rests on a count of cracks and slips, and the saved money answers a cost objection.",
+      "avoided": "No club name, town, or prices. No claim about who is at fault."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One claim with a count as evidence and a stated path from crack to injury; two reasons run in parallel."
+    },
+    "authoring_exceptions": [
+      "Parts run 45-60 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the claim, reason, and evidence stay visible on one screen. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The tennis club asked the town for money to resurface its court. The club says the court is no longer safe to play on. Members counted fourteen cracks across the painted lines this spring. Three players slipped in one month, and one twisted an ankle. The club sent the count to the town office with the request.",
+    "part_2": "The club says a coat of paint will not fix the problem. Cracks that deep let water in, and water lifts the surface in winter. A new surface costs more than paint, and the club has saved part of the money. The town will decide in May."
+  },
+  "items": [
+    {
+      "id": "a1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the club want the town to accept?",
+      "tutor_only": {
+        "confirm": "Right. The court is not safe and needs a new surface.",
+        "correct_reason": "The club says the court is no longer safe and asks for money to resurface it.",
+        "tell": "The claim is that the court is not safe. The request for money follows from it.",
+        "help": [
+          "Find the sentence that starts with 'The club says the court'.",
+          "It names what the court is no longer."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The court is not safe to play on.",
+        "accept_ideas": [
+          "the court is not safe",
+          "it is not safe to play there",
+          "the court needs a new surface",
+          "the court is too cracked to play on"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the town should pay",
+            "ask": "Money is the request. What does the club say about the court itself?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What evidence does the club send with its request?",
+      "tutor_only": {
+        "confirm": "Yes. A count of cracks, slips, and one twisted ankle.",
+        "correct_reason": "The passage says members counted fourteen cracks, three slipped in a month, and one twisted an ankle.",
+        "tell": "The club sends numbers: fourteen cracks, three slips in one month, one twisted ankle.",
+        "help": [
+          "Look at the sentences after the claim.",
+          "They give numbers of cracks and players."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A count of fourteen cracks, three slips, and one twisted ankle.",
+        "accept_ideas": [
+          "fourteen cracks",
+          "the number of cracks and slips",
+          "fourteen cracks and three falls",
+          "the count of cracks, slips, and the ankle"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the court looks old",
+            "ask": "Looking old is not evidence here. What did the members count?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the club say paint will not fix the court?",
+      "tutor_only": {
+        "confirm": "Right. Water gets into deep cracks and lifts the surface.",
+        "correct_reason": "The passage says deep cracks let water in, and water lifts the surface in winter.",
+        "tell": "Deep cracks let water in, and the water lifts the surface when it freezes. Paint would cover the crack, not the water.",
+        "help": [
+          "Find the sentence about water.",
+          "It names the season when the surface lifts."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Water gets into the deep cracks and lifts the surface in winter.",
+        "accept_ideas": [
+          "water gets in and lifts the surface",
+          "the cracks let water in",
+          "water freezes in the cracks"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says paint costs less",
+            "ask": "Cost is a second point. What does the passage say paint cannot stop?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "A reader says the club wants the town to pay the whole cost. Does the passage support that?",
+      "tutor_only": {
+        "confirm": "No. The club has saved part of the money.",
+        "correct_reason": "The passage says the club has saved part of the money, so it does not ask for everything.",
+        "tell": "The passage says the club has saved part of the money. So the request is not for the whole cost.",
+        "help": [
+          "Find the sentence about savings.",
+          "It comes right before the town's decision."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No. The club has saved part of the money.",
+        "accept_ideas": [
+          "no it saved some money",
+          "no, the club has part of the cost",
+          "no, it has saved money already"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says yes because tennis courts cost a lot",
+            "ask": "The passage answers that point directly. What has the club already done?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The club counted cracks instead of saying the court looks worn. Why does the count help the request?",
+      "tutor_only": {
+        "confirm": "Right. A count is evidence the town can check.",
+        "correct_reason": "A count of cracks and slips gives the town facts it can check, and a claim of wear gives it nothing.",
+        "tell": "A count is evidence the town can check for itself. Saying the court looks worn is an opinion the town can set aside.",
+        "help": [
+          "Compare a count with an opinion.",
+          "One can be checked and one cannot."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A count is evidence the town can check.",
+        "accept_ideas": [
+          "a number can be checked",
+          "counting gives proof",
+          "an opinion is weaker than a count"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the number is big",
+            "ask": "Fourteen is big only next to something. What does a count give the town that an opinion does not?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_3_1_0005",
+    "next_irl": 3,
+    "next_means": "The next argument-and-evidence stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_3_1_0005",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

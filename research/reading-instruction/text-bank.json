@@ -1,6 +1,6 @@
 {
   "bank_version": 1,
-  "updated": "2026-11-05",
+  "updated": "2026-11-08",
   "rubric": "L/I/S/K 0-3; band is highest demand, grade_target is the reader label",
   "texts": [
     {
@@ -3311,6 +3311,228 @@
       "why_it_works": "One condition has to hold between every step, not at the end, so each step's order is set by the state the last one left.",
       "cautions": "No port, route, vessel, or operator name. No crossing time, fares, or capacity figure.",
       "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-093",
+      "title": "The Sign in the Window",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (60, 58 words)",
+      "length_words": 118,
+      "fk_grade": 3.59,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_3_1_0001"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "The shop opens at nine on Mondays because the delivery truck arrives at eight and nobody can unload it until the shop is open.",
+      "supporting_details": [
+        "The new sign gives the Monday opening time as nine, and the shop used to open at eight.",
+        "The owner gives the truck's eight o'clock arrival as the reason for the new time.",
+        "Nobody can unload the truck until the shop is open, so the start moved to after the delivery.",
+        "The note on the door and the phone message tell customers about the new time.",
+        "The closing time and the prices did not change, so the start time is the only change."
+      ],
+      "why_it_works": "The claim, the reason, and the fact behind the reason sit in three different sentences, so the reader has to connect them rather than copy one line.",
+      "cautions": "No shop name or price. The street name is generic and the change carries a stated end condition.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-094",
+      "title": "The Ice That Was Thinner",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (60, 49 words)",
+      "length_words": 109,
+      "fk_grade": 3.43,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_3_1_0002"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "The pond is not ready for skating because the ice measured four inches and the club rule needs six inches before a crowd may stand on it.",
+      "supporting_details": [
+        "The group cuts a hole and measures the ice with a ruler every winter.",
+        "Past Januaries measured seven inches; this January measured four.",
+        "The club rule sets six inches of ice for a crowd.",
+        "Four inches holds one person, not thirty, which is why the rule and the measurement conflict.",
+        "The gate stays closed until a new measurement reaches six inches."
+      ],
+      "why_it_works": "A number in a rule and a number in a measurement settle the claim, so the reader must compare two figures rather than weigh an opinion.",
+      "cautions": "No pond name, town, or date. The passage makes no claim about air temperature or future weather.",
+      "topic_domain": "science and nature",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-095",
+      "title": "The Shade Over the Greens",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (57, 54 words)",
+      "length_words": 111,
+      "fk_grade": 4.05,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_3_1_0003"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "Greens last longer under the awning because leaves wilt in the open sun, and a two-week count lost nine bunches in the open row against two under the awning.",
+      "supporting_details": [
+        "The stall moved to the shaded end of the row in June.",
+        "The seller says the leaves in the open row wilt before noon on hot days.",
+        "The two-week count gives nine wilted bunches in the open row and two under the awning.",
+        "Both counts cover the same two weeks, so they can be compared.",
+        "The price did not change, which answers the idea that the move is about money."
+      ],
+      "why_it_works": "The claim rests on two comparable counts, and a second explanation is ruled out by the line about the price.",
+      "cautions": "No market, farm, or price figure. The passage makes no claim about taste or weight.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-096",
+      "title": "The Depot With Two Dates",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (48, 45 words)",
+      "length_words": 93,
+      "fk_grade": 3.79,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_3_1_0004"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "The plaque's 1898 date is wrong, because the contract is dated 1904 and a photo shows a 1905 sign, though the records do not date the railway.",
+      "supporting_details": [
+        "The plaque names 1898 for the building.",
+        "The contract is dated 1904 and a photo shows a train with a 1905 sign.",
+        "The records prove the building was finished after 1904.",
+        "The records do not show when the railway first came to town.",
+        "The historian's note claims only the plaque date and calls the railway date unknown."
+      ],
+      "why_it_works": "The claim is narrow on purpose, and the reader has to hold what the records prove apart from what they leave open.",
+      "cautions": "No real town, railway, or archive. No date is supplied for the railway.",
+      "topic_domain": "history and people",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-097",
+      "title": "The Line That Cracked",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (57, 47 words)",
+      "length_words": 104,
+      "fk_grade": 3.67,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_3_1_0005"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "The court needs a new surface because fourteen deep cracks let water in and lift it in winter, and three players slipped in one month.",
+      "supporting_details": [
+        "Members counted fourteen cracks across the painted lines this spring.",
+        "Three players slipped in one month and one twisted an ankle.",
+        "Deep cracks let water in, and water lifts the surface in winter.",
+        "A coat of paint covers the crack but does not keep the water out.",
+        "The club has saved part of the cost, so the request is not for the whole amount."
+      ],
+      "why_it_works": "Two reasons run in parallel, and the saved money line is evidence that answers a cost objection the reader would otherwise supply.",
+      "cautions": "No club name, town, or price. No claim about who is responsible for the wear.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-098",
+      "title": "The Letter That Got an Answer",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (50, 54 words)",
+      "length_words": 104,
+      "fk_grade": 3.87,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_3_1_0006"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "Short letters with one clear question get answered more often, because a reader can act on one question right away; fifteen of twenty short letters were answered against six of twenty long ones.",
+      "supporting_details": [
+        "The group sent forty letters, twenty long and twenty short.",
+        "The long letters asked three questions and the short ones asked one.",
+        "Fifteen short letters got a reply and six long ones did.",
+        "The note's reason is that a reader can act on one question right away.",
+        "Both groups held twenty letters, so the two counts compare directly."
+      ],
+      "why_it_works": "The claim rests on two equal groups, so the reader has to notice that the comparison is fair before the numbers mean anything.",
+      "cautions": "No group name, place, or quoted letter. No claim about why any office replied.",
+      "topic_domain": "arts and language",
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, accepted on spot check.",
       "drafted_by": "TC"

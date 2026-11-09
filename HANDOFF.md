@@ -1,7 +1,7 @@
 # Handoff — readJson / readingHarness
 
-State as of 2026-11-06, written in the working tree through the `process` 4.3 rung and committed with
-it. If `git status` shows the six process 4.3 sources uncommitted, the commit did not land and this
+State as of 2026-11-08, written in the working tree through the `argument_evidence` 3.1 rung. If
+`git status` shows the six argument_evidence sources uncommitted, the commit did not land and this
 file is ahead of the tree.
 
 Normative docs: `README.md` (naming, bands, routing), `DESIGN_RULES.md` (passage, items, ladder),
@@ -12,11 +12,13 @@ disagree, the rules win — and this file is wrong.
 
 ## Where the catalog stands
 
-130 compiled lessons. The inference ladder is complete from the floor through stage 4.3, `main_idea`
-is complete through stage 4.3, `vocab` is complete from the floor through 4.3, and `text_structure`
-has all four grade-4 rungs. `process` 4.3 landed last, so every grade-4 vertical is now closed and
-Phase 2 of the build plan is finished. The next cell in the plan's order is `argument_evidence` 3.1,
-which the plan still marks "decide before authoring".
+136 compiled lessons. The inference ladder is complete from the floor through stage 4.3, `main_idea`
+is complete through stage 4.3, `vocab` is complete from the floor through 4.3, `text_structure` has
+all four grade-4 rungs, and `process` holds all four. `argument_evidence` 3.1 landed on 2026-11-08,
+so Phase 2 of the build plan is finished and the next cell in the plan's order is
+`argument_evidence` 4.1. The grade-3 placement question the plan left open for that vertical was
+answered by building the floor: one claim, one reason, one fact behind the reason, at 45-60 words a
+part and FK 3.0-4.8.
 
 | Ladder | Rungs built | Notes |
 | --- | --- | --- |
@@ -25,12 +27,13 @@ which the plan still marks "decide before authoring".
 | `vocab` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) | four rungs, all drafted under 2.6; TB-021 to TB-044; ladder complete through 4.3 |
 | `text_structure` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) | twenty-four drafted passages, one structure move each; vertical closed through 4.3 |
 | `process` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) · 9.1 2/6 · 10.1 1/6 | vertical closed through 4.3; the 9.1 and 10.1 files are legacy prototypes, incomplete |
-| `the other three` | none | Phase 2 closed with process 4.3; `argument_evidence` 3.1 is next, pending a placement decision |
+| `argument_evidence` | 3.1 ✓ (6) | the vertical's floor, built 2026-11-08; one claim and one reason per lesson; TB-093 to TB-098 |
+| `the other two` | none | `argument_evidence` 4.1 is next; `literary_text` 3.1 and `authors_craft` 3.1 still need the grade-3 placement call |
 
-`lessons/curriculum.json` matches reality: 25 sets declared, 20 `complete`; 4.1 inference keeps its
+`lessons/curriculum.json` matches reality: 26 sets declared, 21 `complete`; 4.1 inference keeps its
 eight files as road; 3.1, 4.2, 4.3, main_idea 3.1, 4.1, 4.2 and 4.3, vocab 3.1, 4.1, 4.2 and 4.3,
-text_structure 3.1, 4.1, 4.2 and 4.3, and process 3.1, 4.1, 4.2 and 4.3 declare six each and are
-`complete`.
+text_structure 3.1, 4.1, 4.2 and 4.3, process 3.1, 4.1, 4.2 and 4.3, and argument_evidence 3.1
+declare six each and are `complete`.
 
 `text_structure` 3.1 is six structures, six domains, no neighbour repeat: sequence (food and
 farming), cause and effect (science and nature), comparison (places and travel), problem and
@@ -122,6 +125,15 @@ because nothing above 4.3 is authored. Routed against the live code: a clear on 
 the middle of the previous rung; a clear at the top of 4.3 holds with `next_set_incomplete`, because
 the only process sets above it are the incomplete 9.1 and 10.1 prototypes.
 
+`argument_evidence` 3.1 is that vertical's floor and the first rung of the third of the seven Phase 2
+verticals. Two parts of 45-60 words per lesson, measured part FK 3.0-4.8 and whole-passage FK
+3.4-4.1, and one argument move per lesson: name the claim, find the reason, find the fact behind the
+reason, reject a claim the text does not make, and say what a detail is doing in the argument. Six
+domains, no neighbour repeat (work and trade, science and nature, food and farming, history and
+people, sport and play, arts and language). TB-093 to TB-098, all drafted under 2.6 with
+`drafted_by: "TC"` and the spot-check `text_status`. Every lesson advances to its own `_0001`
+because nothing above 3.1 is authored, and the live router holds a clear with `hold=ceiling`.
+
 `main_idea` 4.3 (TB-015 to TB-020) is the rung the subject rule bit on: no two neighbours share a
 domain, and the six span six of the seven domains — food and farming, arts and language, work and
 trade, sport and play, history and people, places and travel.
@@ -148,9 +160,9 @@ trade, sport and play, history and people, places and travel.
 ```bash
 build_lessons.py --check          # exit 0
 pytest                            # 57 passed
-validate_lesson.py --strict       # 130 sources, 0 errors, 0 warnings
-audit_lessons.py                  # 59 findings, the known ordinal backlog, none in process 4.3
-catalog load (130 lessons)        # ladders in order, 25 sets declared, 20 complete, onboarding valid
+validate_lesson.py --strict       # 137 sources, 0 errors, 0 warnings
+audit_lessons.py                  # 59 findings, the known ordinal backlog, none in argument_evidence 3.1
+catalog load (136 lessons)        # ladders in order, 26 sets declared, 21 complete, onboarding valid
 cold-chat sweep, 18 vocab lessons # smooth 18/18 ($0.0311); hard 18/18 ($0.0312), tell and an=0 stop
 cold-chat sweep, vocab 4.3        # smooth 6/6 ($0.0245); hard 6/6 ($0.0115), tell and an=0 stop
 cold-chat sweep, text_structure 3.1 # smooth 6/6 ($0.0056); hard 6/6 ($0.0062), tell and an=0 stop
@@ -160,8 +172,10 @@ cold-chat sweep, process 3.1      # smooth 6/6 ($0.0383); hard 6/6 ($0.0152), te
 cold-chat sweep, process 4.1      # smooth 6/6 ($0.0368 + $0.0049 retry); hard 6/6 ($0.0213), tell and an=0 stop
 cold-chat sweep, process 4.2      # smooth 6/6 ($0.0166); hard 6/6 ($0.0168), tell and an=0 stop
 cold-chat sweep, process 4.3      # smooth 6/6 ($0.0235); hard 6/6 ($0.0189 + $0.0027 re-run), tell and an=0 stop
+cold-chat sweep, argument_evidence 3.1 # smooth 6/6 ($0.0247 + $0.0030 re-run); hard 6/6 ($0.0221 + $0.0034 + $0.0024 re-runs), tell and an=0 stop
 routing, process 4.2              # 4.1 clear -> 4.2_0001; first clear in 4.2 -> next sequence; second hard fail -> 4.1_0003; clear at ceiling holds next_set_incomplete
 routing, process 4.3              # 4.2_0006 clear -> 4.3_0001; two hard fails on 4.3_0003 -> 4.2_0003; clear at ceiling holds next_set_incomplete
+routing, argument_evidence 3.1    # a clear on any 3.1 sequence holds with hold=ceiling; no rung above is authored
 catalog + routing, text_structure 4.2 # 100 lessons load; clear on 4.1 -> 4.2_0001; hard fail on 4.2_0001 -> 4.1_0003; clear on 4.2 holds at ceiling
 ```
 
@@ -236,9 +250,9 @@ the authored route and the ladder agree.
    the student (85 lines), a single-help item making the tutor invent a second hint, and a ready gate
    that dropped `yes`. `anchor` is now defined as the lesson's first item in `DESIGN_RULES` 7.4,
    `README.md`, and the protocol at both the definition and the ticket step.
-2. **102 lessons are AI-drafted and unreviewed.** inference 3.1, main_idea 3.1, inference 4.2 and
+2. **108 lessons are AI-drafted and unreviewed.** inference 3.1, main_idea 3.1, inference 4.2 and
    4.3, main_idea 4.1, the six main_idea 4.3 lessons, the twenty-four vocab lessons, the twenty-four
-   text_structure 3.1, 4.1, 4.2 and 4.3 lessons, and the eighteen process 3.1, 4.1 and 4.2 lessons were drafted under `2.6`, and every one says
+   text_structure 3.1, 4.1, 4.2 and 4.3 lessons, and the eighteen process 3.1, 4.1 and 4.2 lessons, and the six argument_evidence 3.1 lessons were drafted under `2.6`, and every one says
    `drafted_by: "TC"` and `text_status` "Drafted for the band, accepted on spot check." Band 5+
 cannot use that route. Since 2026-11-02 the control is a random spot-check rotation, not a full-file
 review: no drafted passage has been read line by line, and no file claims otherwise. Twelve adapted
@@ -269,7 +283,7 @@ requiring a separate named approval.
 
    It validated all 106 sources at 0 errors and 0 warnings on 2026-11-02. `build_lessons.py --check`
    remains the second gate: sources and compiled files must agree.
-5. **58 `audit_lessons.py` style findings stand** (bare ordinal section references such as "What is
+5. **59 `audit_lessons.py` style findings stand** (bare ordinal section references such as "What is
    the second part mostly about?", mainly in main_idea 4.1). These are a known backlog, not errors,
    and they need a copy decision before any sweep: the section ordinals are how the passage parts are
    named to the reader. 4.3 was written without them; one slipped in and was fixed.
@@ -279,9 +293,10 @@ requiring a separate named approval.
 
 ## Next actions, in order
 
-1. `process 4.3`, six lessons — the next rung now that process 4.2 is built, and the one that closes
-   the process grade-4 vertical, with six process moves chosen afresh rather than reused from 3.1, 4.1
-   or 4.2. `argument_evidence` and `authors_craft` need the grade-3 load decision before authoring.
+1. `argument_evidence` 4.1, six lessons — the next rung now that 3.1 is built, with six argument moves
+   chosen afresh rather than reused from 3.1. It also gives the floor its up-move, so repoint every
+   3.1 `advance` at `argument_evidence_band_4_1_0001` in the same commit. `authors_craft` 3.1 still
+   needs the grade-3 load decision; `literary_text` 3.1 still needs a short story.
 2. Start the random spot-check rotation over the 96 drafted and 12 adapted lessons (108 files, DESIGN_RULES 2.6 and 2.5). Sample a
    rung at random, read it against its items, and fix any defect corpus-wide; record the sample and
    the date in `research/reading-instruction/coldchat-log.md`. A file that is read end to end gets

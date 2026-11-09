@@ -1,0 +1,246 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_3_1_0004",
+  "meta": {
+    "status": "published",
+    "title": "The Depot With Two Dates",
+    "skill": "argument_evidence",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "topic_domain": "history and people",
+    "skill_frame": "Argument and evidence: find the claim, the reason, and the fact behind the reason.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The load is one narrow claim, and the reader must keep what the records prove apart from what they leave open. Measured FK 3.64 and 4.01 on the two parts (48 and 45 words), 3.79 together. The reading sits below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 3.1, band 3.1, sequence 4. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A historian correcting a plaque, built so the claim is narrow, the records are the evidence, and the writer names what the records do not prove.",
+      "avoided": "No real town, railway, or archive. No date for the railway."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One claim with a stated limit; the reader must hold what the records prove apart from what they leave open."
+    },
+    "authoring_exceptions": [
+      "Parts run 45-60 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the claim, reason, and evidence stay visible on one screen. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A stone plaque at the old train depot says the building went up in 1898. The town records say something else. The contract is dated 1904. A photo of the depot shows a train with a 1905 sign on it. The town historian wants the plaque corrected before the summer fair.",
+    "part_2": "The historian is careful about what the records show. They prove the building was finished after 1904. They do not show when the railway first came to town. Her note says the date on the plaque is wrong and that the railway date is still unknown."
+  },
+  "items": [
+    {
+      "id": "a1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What does the historian's note ask the town to accept?",
+      "tutor_only": {
+        "confirm": "Right. The date on the plaque is wrong.",
+        "correct_reason": "Her note says the date on the plaque is wrong and that the railway date is still unknown.",
+        "tell": "The claim is narrow. The plaque's date is wrong; nothing else is settled.",
+        "help": [
+          "Find the sentence that starts with 'Her note says'.",
+          "It names the thing that is wrong."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The date on the plaque is wrong.",
+        "accept_ideas": [
+          "the plaque date is wrong",
+          "the plaque says the wrong year",
+          "the building date on the plaque is wrong"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the building is old",
+            "ask": "The building is old either way. What does her note say is wrong?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Which records does the passage give for the building date?",
+      "tutor_only": {
+        "confirm": "Right. The 1904 contract and the photo with a 1905 sign.",
+        "correct_reason": "The passage names a contract dated 1904 and a photo showing a train with a 1905 sign.",
+        "tell": "Two records carry the date. One is the contract dated 1904. The other is the photo with a 1905 sign.",
+        "help": [
+          "Look at the two sentences that give years after the plaque date.",
+          "One is a contract and one is a photo."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The contract dated 1904 and the photo with a 1905 sign.",
+        "accept_ideas": [
+          "the 1904 contract and the 1905 photo",
+          "a contract from 1904",
+          "the contract and the photo",
+          "1904 contract, 1905 sign in a photo"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the stone plaque",
+            "ask": "The plaque is what she is correcting. Which records does the passage give as proof?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What do the records not show, according to the note?",
+      "tutor_only": {
+        "confirm": "Yes. They do not show when the railway came.",
+        "correct_reason": "The passage says the records do not show when the railway first came to town.",
+        "tell": "The records leave one thing open: when the railway first came to town.",
+        "help": [
+          "Find the sentence that starts with 'They do not show'.",
+          "It names a thing the records cannot settle."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They do not show when the railway first came to town.",
+        "accept_ideas": [
+          "when the railway came",
+          "the railway date",
+          "when the railway arrived"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says they do not show the contract",
+            "ask": "The contract is one of the records. What is left open about the railway?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "A reader says she proved when the railway reached the town. Is that right?",
+      "tutor_only": {
+        "confirm": "No. She says that date is still unknown.",
+        "correct_reason": "Her note says the railway date is still unknown, so she makes no claim about it.",
+        "tell": "Her note says the railway date is still unknown. She proves the building date only.",
+        "help": [
+          "Find the last sentence of the passage.",
+          "It calls one date unknown."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No. She says the railway date is still unknown.",
+        "accept_ideas": [
+          "no it is still unknown",
+          "no, she does not know that",
+          "no, the railway date is unknown"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says yes because she has the contract",
+            "ask": "The contract dates the building. Does the passage say she found a railway date?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "Why does her note say which date is still unknown?",
+      "tutor_only": {
+        "confirm": "Right. It keeps her claim inside what the records prove.",
+        "correct_reason": "Naming the open question stops a reader from reading the whole plaque as settled by her records.",
+        "tell": "Naming what is still unknown keeps the claim to what the records prove. A wider claim would go past the evidence.",
+        "help": [
+          "Look at what the records prove and what they leave open.",
+          "One date is proven and one is not."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It keeps the claim to what the records prove.",
+        "accept_ideas": [
+          "so she only claims what she can prove",
+          "to show what the records cannot settle",
+          "so her claim does not go too far"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says to be fair to the town",
+            "ask": "Fairness is not the reason given. What does naming an unknown date do to her claim?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_3_1_0004",
+    "next_irl": 3,
+    "next_means": "The next argument-and-evidence stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_3_1_0005",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_3_1_0004",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

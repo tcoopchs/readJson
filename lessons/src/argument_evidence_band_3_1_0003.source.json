@@ -1,0 +1,245 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_3_1_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Shade Over the Greens",
+    "skill": "argument_evidence",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Argument and evidence: find the claim, the reason, and the fact behind the reason.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The load is one claim backed by two counts over the same two weeks. Measured FK 3.97 and 4.14 on the two parts (57 and 54 words), 4.05 together. The reading sits below the 4.1 floor, which measures 5.3 at its easiest, and the count steps are printed in order.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 3.1, band 3.1, sequence 3. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A market seller who moves a stall into shade, built so a claim rests on a kept count and the price line rules out a money motive.",
+      "avoided": "No market name, town, or season prices. No claim about how the greens taste."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One claim with a count as the evidence; the reader must notice the price line answering a second explanation."
+    },
+    "authoring_exceptions": [
+      "Parts run 45-60 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the claim, reason, and evidence stay visible on one screen. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A market stall sells greens from a farm nearby. In June the stall moved under the awning at the end of the row. The seller says the greens last longer out of the direct sun. On hot days the leaves in the open row wilt before noon. The leaves under the awning stay firm until closing time.",
+    "part_2": "The seller kept a count for two weeks. In the open row, nine bunches wilted before the market closed. Under the awning, two did. The seller now asks for the shaded spot every summer. The price of a bunch has not changed at all, and the seller has not lost money on the move."
+  },
+  "items": [
+    {
+      "id": "a1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the seller want buyers to accept?",
+      "tutor_only": {
+        "confirm": "Right. Greens last longer out of the sun.",
+        "correct_reason": "The seller says the greens last longer out of the direct sun.",
+        "tell": "The claim is that greens last longer out of the direct sun. The rest of the passage backs it up.",
+        "help": [
+          "Find the sentence that starts with 'The seller says'.",
+          "It compares two places for the greens."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Greens last longer out of the direct sun.",
+        "accept_ideas": [
+          "greens last longer in the shade",
+          "the shade keeps greens fresh longer",
+          "greens last better away from the sun"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the stall moved in June",
+            "ask": "The move is one fact. What does the seller say it does for the greens?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What happens to the greens in the open row on hot days?",
+      "tutor_only": {
+        "confirm": "Yes. The leaves wilt before noon.",
+        "correct_reason": "The passage says the leaves in the open row wilt before noon on hot days.",
+        "tell": "In the open row the leaves wilt before noon. Under the awning they stay firm until closing.",
+        "help": [
+          "Find the sentence about hot days.",
+          "It names a time before noon."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The leaves wilt before noon.",
+        "accept_ideas": [
+          "they wilt before noon",
+          "the leaves wilt",
+          "they go soft in the sun"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says they sell out",
+            "ask": "The passage is about what happens to the leaves. What does it say they do at noon?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The passage gives two counts. What do the counts show?",
+      "tutor_only": {
+        "confirm": "Right. Nine wilted in the open and two under the awning.",
+        "correct_reason": "The counts are nine bunches in the open row and two under the awning, over the same two weeks.",
+        "tell": "Nine bunches wilted in the open row and two under the awning. Fewer wilted in the shade, which supports the claim.",
+        "help": [
+          "Find the two numbers in the part about the count.",
+          "One number is for the open row and one is for the awning."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Fewer bunches wilted under the awning than in the open row.",
+        "accept_ideas": [
+          "nine wilted in the open row and two in the shade",
+          "fewer wilted in the shade",
+          "the shade lost fewer bunches"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says nine bunches sold",
+            "ask": "The count is about bunches that wilted, not sold. Which number belongs to the open row?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "A buyer says the seller moved to charge more for shaded greens. Does the passage support that?",
+      "tutor_only": {
+        "confirm": "No. The price has not changed.",
+        "correct_reason": "The passage says the price of a bunch has not changed and the seller has not lost money.",
+        "tell": "The passage says the price has not changed at all. So the move is not about charging more.",
+        "help": [
+          "Find the sentence about the price.",
+          "It comes near the end of the passage."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No. The price of a bunch has not changed.",
+        "accept_ideas": [
+          "no the price is the same",
+          "no, it says the price has not changed",
+          "no, nothing costs more"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says yes because the shade is better",
+            "ask": "Better greens could cost more, but this passage says one thing about the price. What is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The seller could have said the awning looks nicer. Why give the count instead?",
+      "tutor_only": {
+        "confirm": "Right. A count can be checked, and it shows fewer bunches lost.",
+        "correct_reason": "The count gives two numbers over the same two weeks, so the reader can compare the two spots.",
+        "tell": "A count is evidence the reader can compare. Nine against two shows the shade kept more bunches firm.",
+        "help": [
+          "Compare the two numbers in the count.",
+          "Both counts cover the same two weeks."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A count is evidence that can be compared, and it favors the shade.",
+        "accept_ideas": [
+          "a count can be checked",
+          "numbers are stronger than an opinion",
+          "the count shows fewer lost in the shade"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says counts are always right",
+            "ask": "The passage is about what the count shows here. Which spot lost fewer bunches?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_3_1_0003",
+    "next_irl": 3,
+    "next_means": "The next argument-and-evidence stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_3_1_0004",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_3_1_0003",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

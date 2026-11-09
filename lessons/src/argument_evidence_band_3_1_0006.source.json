@@ -1,0 +1,245 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_3_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Letter That Got an Answer",
+    "skill": "argument_evidence",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "arts and language",
+    "skill_frame": "Argument and evidence: find the claim, the reason, and the fact behind the reason.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "The load is one claim that rests on two equal groups, so the reader must see why twenty of each makes the counts comparable. Measured FK 4.83 and 3.00 on the two parts (50 and 54 words), 3.87 together. The reading sits below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 3.1, band 3.1, sequence 6. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A writing group comparing two sets of letters, built so the claim rests on equal groups and the reason explains the count.",
+      "avoided": "No group name, place, or quote from a letter. No claim about why any shop answered."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One claim with a comparison of two equal groups, and a reason that explains the difference."
+    },
+    "authoring_exceptions": [
+      "Parts run 45-60 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the claim, reason, and evidence stay visible on one screen. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A writing group wanted to know which letters get answered. They sent forty letters to shops and offices. Twenty were long and asked three questions. Twenty were short and asked one clear question. The group wrote down every reply that came back, and they kept the letters in two piles.",
+    "part_2": "Fifteen of the short letters got an answer. Six of the long ones did. The group's note says this: a short letter is more likely to get a reply. The note gives a reason too. A reader can act on one question right away. A long letter with three questions waits on a desk."
+  },
+  "items": [
+    {
+      "id": "a1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What does the group's note claim?",
+      "tutor_only": {
+        "confirm": "Right. A short letter is more likely to get a reply.",
+        "correct_reason": "The note says a short letter with one question is more likely to get a reply.",
+        "tell": "The claim is about which letter gets a reply. A short one is more likely.",
+        "help": [
+          "Find the sentence that starts with 'The group's note says'.",
+          "It compares short letters with long ones."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A short letter is more likely to get an answer.",
+        "accept_ideas": [
+          "short letters get answered more",
+          "shorter letters are better for getting a reply",
+          "a short letter gets a reply more often"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the group sent forty letters",
+            "ask": "Forty is what they did. What do they claim about short letters?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What numbers support the claim?",
+      "tutor_only": {
+        "confirm": "Yes. Fifteen short letters were answered and six long ones were.",
+        "correct_reason": "The passage gives fifteen answers to short letters and six to long ones, out of twenty each.",
+        "tell": "Fifteen short letters got an answer and six long ones did. Both groups held twenty.",
+        "help": [
+          "Find the two numbers at the start of the part about the replies.",
+          "One is fifteen and one is six."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Fifteen short letters got answers and six long ones did.",
+        "accept_ideas": [
+          "fifteen and six",
+          "fifteen short, six long",
+          "fifteen of twenty short and six of twenty long"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says forty letters",
+            "ask": "Forty is the total sent. How many of each got an answer?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What reason does the note give for the difference?",
+      "tutor_only": {
+        "confirm": "Right. A reader can act on one clear question right away.",
+        "correct_reason": "The note says a reader can act on one question right away, and a long letter waits on a desk.",
+        "tell": "One question can be acted on right away. Three questions make the reader put the letter aside.",
+        "help": [
+          "Find the sentences that start with 'A reader' and 'A long letter'.",
+          "One says right away and one says waits."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A reader can act on one question right away.",
+        "accept_ideas": [
+          "one question is easier to answer",
+          "a reader can act on it right away",
+          "the short letter does not wait on a desk"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the shops were lazy",
+            "ask": "The note blames the number of questions, not the shops. What does it say a reader can do?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "A reader says the long letters were rude. Does the passage say that?",
+      "tutor_only": {
+        "confirm": "No. The passage compares length and questions only.",
+        "correct_reason": "The passage never describes how the letters were worded, only their length and the number of questions.",
+        "tell": "The passage says nothing about the tone of either letter. It compares length and the number of questions.",
+        "help": [
+          "Check whether the passage describes how the letters sounded.",
+          "It gives lengths and a number of questions."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No. The passage says nothing about how the letters were written.",
+        "accept_ideas": [
+          "no there is nothing about that",
+          "no, it only counts questions",
+          "no, manners are not mentioned"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says yes because three questions is a lot",
+            "ask": "Three questions are a lot to ask. Still, the passage never says the letter was rude. What does it compare?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The group sent twenty of each letter. Why does that make the two counts fair to compare?",
+      "tutor_only": {
+        "confirm": "Right. Both groups held the same number, so the counts compare directly.",
+        "correct_reason": "With twenty letters in each group, fifteen and six are shares of the same total.",
+        "tell": "Both piles held twenty letters. So fifteen out of twenty and six out of twenty measure the same thing.",
+        "help": [
+          "Look at how many letters went into each pile.",
+          "Each pile held the same number."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Both groups held twenty letters, so the counts compare directly.",
+        "accept_ideas": [
+          "both piles have twenty",
+          "the groups are the same size",
+          "twenty of each makes it a fair comparison"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says twenty is a big number",
+            "ask": "Size is not the point here. What is the same about the two piles?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "The next argument-and-evidence stage is not authored yet, so this lesson holds.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

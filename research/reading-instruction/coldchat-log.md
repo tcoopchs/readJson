@@ -373,3 +373,23 @@ the sorted lesson list.
 
 Still owed on this rung: misconception, injection, and stop-by-request sessions, and the TC review
 of the six drafted passages.
+
+### 2026-11-08 — argument_evidence 3.1 sweep
+
+Six new lessons, `argument_evidence_band_3_1_0001` to `_0006`, swept on the compiled files, indices
+0-5 of the sorted lesson list (the new category sorts first).
+
+- Smooth: 6 of 6, opened on the first reply, five items in order, `done=5 u=5 an=1`, no leak, no
+  early ticket ($0.0247). `_0006` returned an empty reply on the first pass and passed on a re-run
+  ($0.0030), which is the model opening flake seen before, not lesson copy.
+- Hard: 6 of 6, authored help only, `tell` reached, stopped ticket `an=0|stop=1`, no private-field
+  leak ($0.0221). `_0004` and `_0006` returned empty replies on the first pass and passed on re-runs
+  ($0.0034 and $0.0024).
+- Routing against the live catalog: a clear on any 3.1 sequence holds with `hold=ceiling`, because no
+  rung above 3.1 is authored. The rung is the vertical's floor, so it has no down-move yet.
+- Two defects were caught by the gates before the sweep: `argument_evidence` had no
+  `curriculum.json` row (`validate_lesson.py`), and one `tell` plus one `if_they_say.ask` carried a
+  bare ordinal section reference (`audit_lessons.py`), rewritten to name the sentence instead.
+
+Still owed on this rung: misconception, injection, and stop-by-request sessions, the branch and
+tolerance probes, and the TC review of the six drafted passages.
