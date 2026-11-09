@@ -281,9 +281,9 @@
     },
     "server_routes": {
       "advance": {
-        "next_file": "argument_evidence_band_4_1_0001",
+        "next_file": "argument_evidence_band_4_2_0001",
         "next_irl": 4,
-        "next_means": "The first lesson of this band, because no higher argument-and-evidence rung is authored yet.",
+        "next_means": "The first lesson of the next band on this skill.",
         "student_line": "You have the move. The next reading is another lesson on this skill."
       },
       "retry": {

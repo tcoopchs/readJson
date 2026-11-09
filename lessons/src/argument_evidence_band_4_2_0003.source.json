@@ -1,0 +1,249 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_4_2_0003",
+  "meta": {
+    "status": "published",
+    "title": "One Well, Every Field",
+    "skill": "argument_evidence",
+    "irl_grade": 4,
+    "stage": 2,
+    "genre": "nonfiction",
+    "sequence": 3,
+    "topic_domain": "food and farming",
+    "skill_frame": "Argument and evidence: one test stretched to cover every well and every season.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.07, 5.65 and 6.25 on the three parts (105, 103 and 100 words), 5.99 together. The load is a narrow test asked to cover four wells and a season, so the reader has to track the scope of the result.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 4.2, band 4.2, sequence 3. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A farm sheet that reports one well's March lab result and turns it into a claim that all the farm's water is clean for every crop.",
+      "avoided": "No farm name, road, lab name, or crop price."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "A single well tested once in March is printed as a promise about all four wells, every field, and the whole year."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A farm sells vegetables at a stand by the road and prints a short sheet for customers. The sheet says the farm's water is clean and safe for every crop. It reports that a lab tested one well in March and found no nitrates above the limit. The farm took that one result and put it on the sheet for the whole season. The sheet does not say which well was tested, what the lab looked for, or whether the farm uses other wells. The test itself was a real test, run by a real lab, and the farm printed the result without changing it.",
+    "part_2": "The farm draws water from four wells, and the tested well serves one field near the barn. The other three wells serve the rest of the fields, and the sheet does not report a test for any of them. March is also one month in a year, and a well can change after heavy rain, so one test cannot speak for the season. The one result covers one well, one month, and one substance. The sheet turns that narrow result into a promise about all the farm's water and all its crops. A customer reading the sheet would not know any of this.",
+    "part_3": "The test supports a small claim: the tested well held no nitrates above the limit in March. The sheet's claim is much larger, because it says every crop is watered by clean water. That would need a test of each well and more than one date, and the sheet gives neither. A reader can accept the lab result and still reject the promise. The gap is not in the test but in the distance between one well and the words the sheet prints. A careful reader sees a true result stretched to cover a whole farm and a whole year."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the farm's sheet say about its water?",
+      "tutor_only": {
+        "confirm": "Right. That it is clean and safe for every crop.",
+        "correct_reason": "The sheet says the farm's water is clean and safe for every crop.",
+        "tell": "The sheet says the water is clean and safe for every crop.",
+        "help": [
+          "The sentence about the water names the promise.",
+          "It names the crops the promise covers."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The water is clean and safe for every crop.",
+        "accept_ideas": [
+          "clean and safe for every crop",
+          "the water is safe for all crops",
+          "all its water is clean",
+          "the farm's water is clean for every crop"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the water costs"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the sheet promises more vegetables",
+            "ask": "The sheet is about water. What does it say the water is safe for?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What did the lab test, and what did it find?",
+      "tutor_only": {
+        "confirm": "Right. One well in March, with no nitrates above the limit.",
+        "correct_reason": "The lab tested one well in March and found no nitrates above the limit.",
+        "tell": "The lab tested one well in March and found no nitrates above the limit.",
+        "help": [
+          "The sentence about the lab names one well and one month.",
+          "It names the substance the lab looked for."
+        ],
+        "say_back": "own_words",
+        "core_idea": "One well in March, with no nitrates above the limit.",
+        "accept_ideas": [
+          "one well in March",
+          "one well, no nitrates over the limit",
+          "a single well tested in March",
+          "one well with safe nitrate levels"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which field the well serves"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the lab tested every well",
+            "ask": "The sheet reports one test. How many wells does it name?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the March test not cover all the farm's water?",
+      "tutor_only": {
+        "confirm": "Right. It covers one of four wells, one month, and one substance.",
+        "correct_reason": "The farm has four wells, only one was tested, and March is one month in a year.",
+        "tell": "One of four wells was tested, in one month, for one substance.",
+        "help": [
+          "The sentences about the four wells and the month carry the answer.",
+          "They name the wells and the season left out."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because one of four wells was tested, in one month, for one substance.",
+        "accept_ideas": [
+          "only one of four wells was tested",
+          "the other wells were not tested",
+          "it covers one month",
+          "it covers one substance"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how deep the wells are"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says one well speaks for the farm",
+            "ask": "One well is one well. How many wells does the farm draw from?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "A customer says the sheet proves every field has clean water. Is that supported?",
+      "tutor_only": {
+        "confirm": "No. Only one well was tested, so the other fields have no result.",
+        "correct_reason": "The sheet reports a test of one well, and the other three wells serve the rest of the fields with no reported test.",
+        "tell": "No. The other three wells were never tested, so the other fields have no result.",
+        "help": [
+          "The sentence about the other three wells decides this one.",
+          "It says what was not reported."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No, because only one of the farm's four wells was tested.",
+        "accept_ideas": [
+          "no, the other wells were not tested",
+          "no, one well cannot cover every field",
+          "no, only one well has a result",
+          "no, the sheet leaves out three wells"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "whether the tested well is near the barn"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says yes because the lab is reliable",
+            "ask": "A reliable lab result is still one result. How many wells did it cover?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What would the farm need to support the claim on its sheet?",
+      "tutor_only": {
+        "confirm": "Right. A test of each well, on more than one date, for the substances it promises.",
+        "correct_reason": "The farm would need a test of each of its four wells, on more than one date, covering the substances the sheet promises.",
+        "tell": "It would need each well tested, more than once, for the substances it claims are safe.",
+        "help": [
+          "The sentences about four wells and a second test show the missing work.",
+          "They name the wells and the repeat test."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A test of each well, on more than one date, covering what the sheet promises.",
+        "accept_ideas": [
+          "test all four wells",
+          "test each well more than once",
+          "test every well in more than one month",
+          "cover every well and every season"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who would pay for the tests"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says one more test of the same well",
+            "ask": "Another test of the same well leaves three wells untested. Which wells need a result?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher argument-and-evidence rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_4_2_0004",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_4_2_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_4_2_0004",
+  "meta": {
+    "status": "published",
+    "title": "Five Kilometers and No Traffic",
+    "skill": "argument_evidence",
+    "irl_grade": 4,
+    "stage": 2,
+    "genre": "nonfiction",
+    "sequence": 4,
+    "topic_domain": "sport and play",
+    "skill_frame": "Argument and evidence: a measured fact that says nothing about the claim beside it.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.86, 5.48 and 5.69 on the three parts (110, 102 and 101 words), 5.68 together. The load is a true measurement placed beside an unrelated claim, so the reader has to track what the surveyor actually checked.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 4.2, band 4.2, sequence 4. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A running club flyer that uses an official distance measurement to support a claim that the route is the safest in town.",
+      "avoided": "No club name, town, race date, or entry fee."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "A certified five-kilometer measurement is printed beside a safety claim, and distance says nothing about the cars that cross the route."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A running club printed a flyer for its summer route and made two statements about it. The first says the route is officially measured at five kilometers. The second says it is the safest route in town. The flyer gives the name of the surveyor who measured the course and the date of the measurement. It gives no traffic count, no record of crashes, and no note about where cars cross the path. The measurement is precise and easy to check. The safety claim sits beside it as if the same surveyor had checked both. The club prints the flyer every spring and hands it out at the start line.",
+    "part_2": "The surveyor measures distance with a wheel and a fixed line. That work says nothing about cars, driveways, or blind corners. The route does cross three streets where drivers turn without a stop sign, and the flyer does not mention them. A measured course can still be a dangerous course, and an unmeasured course can be safe. The two statements are printed in the same size and color, which makes them look like one finding. They come from different kinds of work, and only one of them was done. A reader who wants to judge the route should ask for those records.",
+    "part_3": "The distance claim is backed, because a surveyor walked the line and signed the date. The safety claim has no support, because a measured line says nothing about cars. The flyer would need crash records or traffic counts to back the second claim. A true fact placed next to a claim with no support can make the second one look stronger than it is. The reader has to ask what the surveyor really checked. A signed distance says nothing about a driver who turns without looking. The flyer's two claims ask the reader to trust one piece of work for both."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The flyer makes two statements. What is the first?",
+      "tutor_only": {
+        "confirm": "Right. The route is officially measured at five kilometers.",
+        "correct_reason": "The first statement says the route is officially measured at five kilometers.",
+        "tell": "The first statement says the route is officially measured at five kilometers.",
+        "help": [
+          "The sentence about the first statement names a distance.",
+          "It names the length and the official measurement."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The route is officially measured at five kilometers.",
+        "accept_ideas": [
+          "it is five kilometers",
+          "the route is officially measured",
+          "it is a measured five-kilometer route",
+          "the course is five kilometers long"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who runs the club"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the first statement is about safety",
+            "ask": "The first statement is about distance. What length does it name?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the flyer give to back the distance statement?",
+      "tutor_only": {
+        "confirm": "Right. The surveyor's name and the date of the measurement.",
+        "correct_reason": "The flyer gives the name of the surveyor who measured the course and the date of the measurement.",
+        "tell": "It gives the surveyor's name and the date the course was measured.",
+        "help": [
+          "The sentence about the surveyor names both details.",
+          "It names a person and a date."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The surveyor's name and the measurement date.",
+        "accept_ideas": [
+          "the surveyor's name and date",
+          "who measured it and when",
+          "a named surveyor and a date",
+          "the measurement date and the surveyor"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the route takes to run"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the flyer gives crash records",
+            "ask": "The flyer gives no crash record. What two details about the survey does it give?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the measurement not support the safety statement?",
+      "tutor_only": {
+        "confirm": "Right. Distance says nothing about cars, driveways, or blind corners.",
+        "correct_reason": "The surveyor measures distance, which says nothing about cars, driveways, or blind corners.",
+        "tell": "Distance says nothing about traffic, so it cannot show the route is safe.",
+        "help": [
+          "The sentence about the surveyor's work limits what it shows.",
+          "It names the things distance does not cover."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because distance says nothing about cars or blind corners.",
+        "accept_ideas": [
+          "distance says nothing about traffic",
+          "it does not count cars",
+          "it says nothing about crossings",
+          "measuring distance is not checking safety"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how wide the path is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says a measured route must be safe",
+            "ask": "A measured route can still have traffic. What does the wheel measure?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "A runner says the flyer proves the route is safe. What is wrong with that?",
+      "tutor_only": {
+        "confirm": "Right. The flyer gives no traffic count or crash record, and the route crosses three streets without stop signs.",
+        "correct_reason": "The flyer gives no traffic count or crash record, and the route crosses three streets where drivers turn without a stop sign.",
+        "tell": "The flyer has no traffic record, and the route crosses streets where cars turn without stopping.",
+        "help": [
+          "The sentences about the missing records and the three streets carry the answer.",
+          "They name the records left out and the crossings."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The flyer has no traffic record, and the route crosses streets without stop signs.",
+        "accept_ideas": [
+          "there is no traffic count",
+          "no crash record is given",
+          "the route crosses streets without stop signs",
+          "distance does not show traffic"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who measured the route"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the surveyor is not qualified",
+            "ask": "The surveyor measured distance correctly. What did the surveyor not measure?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "What would the club need to support its safety claim?",
+      "tutor_only": {
+        "confirm": "Right. Crash records or traffic counts for the route.",
+        "correct_reason": "The flyer would need crash records or traffic counts to back the safety claim.",
+        "tell": "It would need crash records or traffic counts for the route.",
+        "help": [
+          "The sentence about crash records names what the claim lacks.",
+          "It names the records the flyer would need."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Crash records or traffic counts for the route.",
+        "accept_ideas": [
+          "crash records",
+          "traffic counts",
+          "a record of crashes on the route",
+          "counts of cars at the crossings"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many runners joined last year"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says another surveyor should measure it again",
+            "ask": "A second distance measurement repeats the same fact. What record is missing?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher argument-and-evidence rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_4_2_0005",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_4_2_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

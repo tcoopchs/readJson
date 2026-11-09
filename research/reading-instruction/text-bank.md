@@ -115,6 +115,12 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-102 | The Request on the Last Line | Nonfiction | 4 | Band 4.1 | 305 words (three passages, 102, 103, 100) | 5.60 | `argument_evidence_band_4_1_0004` |
 | TB-103 | The Objection the Letter Raised | Nonfiction | 4 | Band 4.1 | 312 words (three passages, 100, 101, 111) | 5.70 | `argument_evidence_band_4_1_0005` |
 | TB-104 | Two Records That Agree | Nonfiction | 4 | Band 4.1 | 310 words (three passages, 104, 104, 102) | 5.84 | `argument_evidence_band_4_1_0006` |
+| TB-105 | The Survey at the Bus Stop | Nonfiction | 4 | Band 4.2 | 321 words (three passages, 107, 111, 103) | 5.81 | `argument_evidence_band_4_2_0001` |
+| TB-106 | One Swimmer's Comment | Nonfiction | 4 | Band 4.2 | 313 words (three passages, 107, 101, 105) | 6.09 | `argument_evidence_band_4_2_0002` |
+| TB-107 | One Well, Every Field | Nonfiction | 4 | Band 4.2 | 308 words (three passages, 105, 103, 100) | 5.99 | `argument_evidence_band_4_2_0003` |
+| TB-108 | Five Kilometers and No Traffic | Nonfiction | 4 | Band 4.2 | 313 words (three passages, 110, 102, 101) | 5.68 | `argument_evidence_band_4_2_0004` |
+| TB-109 | The Note From the Seller | Nonfiction | 4 | Band 4.2 | 323 words (three passages, 109, 109, 105) | 6.06 | `argument_evidence_band_4_2_0005` |
+| TB-110 | A Leak Is Not a Roof | Nonfiction | 4 | Band 4.2 | 316 words (three passages, 104, 109, 103) | 5.86 | `argument_evidence_band_4_2_0006` |
 
 ---
 
@@ -3510,6 +3516,204 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
 **Cautions.** No society name, mill owner, or county. No claim about what the mill produced after it closed.
 
 ---
+## TB-105 — The Survey at the Bus Stop
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 321 words (three passages, one per displayed part (107, 111, 103 words)) |
+| FK grade | 5.81 on the three passages together (5.48, 6.54, 5.39) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_2_0001` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** Three hundred yes answers came only from bus passengers, so the count shows what riders want, not what most people in town want.
+
+**Supporting details.**
+
+- The notice says most people in town want the last bus to leave at ten.
+- Three hundred people answered, and every one asked for a later bus.
+- The cards went only to passengers as they got on the bus.
+- People who drive, walk, or stay home never received a card.
+- The notice would need a group chosen without regard to riding, or proof that riders are most of the town.
+
+**Why it works.** One count is asked to speak for a town, and its reach is limited by who received the card.
+
+**Cautions.** No town name, route number, fare, or date.
+
+---
+
+## TB-106 — One Swimmer's Comment
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 313 words (three passages, one per displayed part (107, 101, 105 words)) |
+| FK grade | 6.09 on the three passages together (6.03, 6.39, 5.88) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_2_0002` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** One member's comment about clearer water after a filter change describes one swim on one day, not the pool's water over time, and the daily test log goes unused.
+
+**Supporting details.**
+
+- The note says the filter made the water clearer for swimmers.
+- Its evidence is one member's comment about the first day after the change.
+- Pool staff test the water every morning and keep a log.
+- The note prints no test result and no count of complaints.
+- A daily log compared before and after would show whether the water changed.
+
+**Why it works.** A single impression is set against a daily record the note never uses.
+
+**Cautions.** No pool name, town, filter brand, or test result.
+
+---
+
+## TB-107 — One Well, Every Field
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | food and farming |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 308 words (three passages, one per displayed part (105, 103, 100 words)) |
+| FK grade | 5.99 on the three passages together (6.07, 5.65, 6.25) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_2_0003` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A March test of one well supports a narrow claim, not the sheet's promise that all the farm's water is clean for every crop.
+
+**Supporting details.**
+
+- The sheet says the farm's water is clean and safe for every crop.
+- A lab tested one well in March and found no nitrates above the limit.
+- The farm draws from four wells, and the other three have no reported test.
+- March is one month in a year, and a well can change after rain.
+- The sheet would need each well tested on more than one date.
+
+**Why it works.** The result is true and narrow, and the claim is wide, so the reader has to measure the distance between them.
+
+**Cautions.** No farm name, road, lab name, or crop price.
+
+---
+
+## TB-108 — Five Kilometers and No Traffic
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | sport and play |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 313 words (three passages, one per displayed part (110, 102, 101 words)) |
+| FK grade | 5.68 on the three passages together (5.86, 5.48, 5.69) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_2_0004` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The five-kilometer measurement is real, but distance says nothing about traffic, so it cannot support the flyer's safety claim.
+
+**Supporting details.**
+
+- The flyer says the route is measured at five kilometers and is the safest in town.
+- The surveyor's name and the measurement date back the distance claim.
+- The flyer gives no traffic count, crash record, or crossing note.
+- The route crosses three streets where drivers turn without a stop sign.
+- The safety claim would need crash records or traffic counts.
+
+**Why it works.** A true measurement sits beside an unrelated claim, and the reader has to see what the surveyor did not check.
+
+**Cautions.** No club name, town, race date, or entry fee.
+
+---
+
+## TB-109 — The Note From the Seller
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | arts and language |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 323 words (three passages, one per displayed part (109, 109, 105 words)) |
+| FK grade | 6.06 on the three passages together (6.00, 6.00, 6.18) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_2_0005` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The only support for the sound claim is a note written by the shop that sold the gear after one empty-hall trial, so it is a seller's pitch rather than independent evidence.
+
+**Supporting details.**
+
+- The note calls the gear the clearest in the region.
+- The shop that sold and installed the gear wrote the note.
+- The director added one sentence of thanks but no test.
+- The one trial took place in an empty hall.
+- An outside sound reading or audience reports would be independent evidence.
+
+**Why it works.** The source of the claim gains from it, and the one trial does not match a full hall.
+
+**Cautions.** No theater name, shop name, brand, price, or season.
+
+---
+
+## TB-110 — A Leak Is Not a Roof
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 316 words (three passages, one per displayed part (104, 109, 103 words)) |
+| FK grade | 5.86 on the three passages together (6.27, 5.53, 5.84) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_2_0006` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** Nine dated leaks and photos prove water enters the shop, but with no inspection tracing it, the evidence supports the problem, not the full roof replacement.
+
+**Supporting details.**
+
+- The memo asks the landlord to replace the whole roof before winter.
+- It reports water on nine days this spring and includes photos of three buckets.
+- It gives no inspection of the roof, flashing, or drain.
+- A vent seal or a blocked drain could produce the same stain.
+- A full replacement would need an inspection tracing the water and a comparison of repairs.
+
+**Why it works.** The evidence establishes a problem and is then asked to choose a fix it cannot choose.
+
+**Cautions.** No shop name, street, landlord name, or repair cost.
+
+---
+
 ## Rules for adding a text
 
 1. Verify the license before adding it.

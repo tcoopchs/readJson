@@ -3758,6 +3758,228 @@
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, accepted on spot check.",
       "drafted_by": "TC"
+    },
+    {
+      "id": "TB-105",
+      "title": "The Survey at the Bus Stop",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (107, 111, 103 words)",
+      "length_words": 321,
+      "fk_grade": 5.81,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_2_0001"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "Three hundred yes answers came only from bus passengers, so the count shows what riders want, not what most people in town want.",
+      "supporting_details": [
+        "The notice says most people in town want the last bus to leave at ten.",
+        "Three hundred people answered, and every one asked for a later bus.",
+        "The cards went only to passengers as they got on the bus.",
+        "People who drive, walk, or stay home never received a card.",
+        "The notice would need a group chosen without regard to riding, or proof that riders are most of the town."
+      ],
+      "why_it_works": "One count is asked to speak for a town, and its reach is limited by who received the card.",
+      "cautions": "No town name, route number, fare, or date.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-106",
+      "title": "One Swimmer's Comment",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (107, 101, 105 words)",
+      "length_words": 313,
+      "fk_grade": 6.09,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_2_0002"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "One member's comment about clearer water after a filter change describes one swim on one day, not the pool's water over time, and the daily test log goes unused.",
+      "supporting_details": [
+        "The note says the filter made the water clearer for swimmers.",
+        "Its evidence is one member's comment about the first day after the change.",
+        "Pool staff test the water every morning and keep a log.",
+        "The note prints no test result and no count of complaints.",
+        "A daily log compared before and after would show whether the water changed."
+      ],
+      "why_it_works": "A single impression is set against a daily record the note never uses.",
+      "cautions": "No pool name, town, filter brand, or test result.",
+      "topic_domain": "science and nature",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-107",
+      "title": "One Well, Every Field",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (105, 103, 100 words)",
+      "length_words": 308,
+      "fk_grade": 5.99,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_2_0003"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A March test of one well supports a narrow claim, not the sheet's promise that all the farm's water is clean for every crop.",
+      "supporting_details": [
+        "The sheet says the farm's water is clean and safe for every crop.",
+        "A lab tested one well in March and found no nitrates above the limit.",
+        "The farm draws from four wells, and the other three have no reported test.",
+        "March is one month in a year, and a well can change after rain.",
+        "The sheet would need each well tested on more than one date."
+      ],
+      "why_it_works": "The result is true and narrow, and the claim is wide, so the reader has to measure the distance between them.",
+      "cautions": "No farm name, road, lab name, or crop price.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-108",
+      "title": "Five Kilometers and No Traffic",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (110, 102, 101 words)",
+      "length_words": 313,
+      "fk_grade": 5.68,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_2_0004"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The five-kilometer measurement is real, but distance says nothing about traffic, so it cannot support the flyer's safety claim.",
+      "supporting_details": [
+        "The flyer says the route is measured at five kilometers and is the safest in town.",
+        "The surveyor's name and the measurement date back the distance claim.",
+        "The flyer gives no traffic count, crash record, or crossing note.",
+        "The route crosses three streets where drivers turn without a stop sign.",
+        "The safety claim would need crash records or traffic counts."
+      ],
+      "why_it_works": "A true measurement sits beside an unrelated claim, and the reader has to see what the surveyor did not check.",
+      "cautions": "No club name, town, race date, or entry fee.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-109",
+      "title": "The Note From the Seller",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (109, 109, 105 words)",
+      "length_words": 323,
+      "fk_grade": 6.06,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_2_0005"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The only support for the sound claim is a note written by the shop that sold the gear after one empty-hall trial, so it is a seller's pitch rather than independent evidence.",
+      "supporting_details": [
+        "The note calls the gear the clearest in the region.",
+        "The shop that sold and installed the gear wrote the note.",
+        "The director added one sentence of thanks but no test.",
+        "The one trial took place in an empty hall.",
+        "An outside sound reading or audience reports would be independent evidence."
+      ],
+      "why_it_works": "The source of the claim gains from it, and the one trial does not match a full hall.",
+      "cautions": "No theater name, shop name, brand, price, or season.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-110",
+      "title": "A Leak Is Not a Roof",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (104, 109, 103 words)",
+      "length_words": 316,
+      "fk_grade": 5.86,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_2_0006"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "Nine dated leaks and photos prove water enters the shop, but with no inspection tracing it, the evidence supports the problem, not the full roof replacement.",
+      "supporting_details": [
+        "The memo asks the landlord to replace the whole roof before winter.",
+        "It reports water on nine days this spring and includes photos of three buckets.",
+        "It gives no inspection of the roof, flashing, or drain.",
+        "A vent seal or a blocked drain could produce the same stain.",
+        "A full replacement would need an inspection tracing the water and a comparison of repairs."
+      ],
+      "why_it_works": "The evidence establishes a problem and is then asked to choose a fix it cannot choose.",
+      "cautions": "No shop name, street, landlord name, or repair cost.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
     }
   ],
   "screened_not_banked": [

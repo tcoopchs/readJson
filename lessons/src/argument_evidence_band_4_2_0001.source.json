@@ -1,0 +1,249 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_4_2_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Survey at the Bus Stop",
+    "skill": "argument_evidence",
+    "irl_grade": 4,
+    "stage": 2,
+    "genre": "nonfiction",
+    "sequence": 1,
+    "topic_domain": "places and travel",
+    "skill_frame": "Argument and evidence: a survey answered by one group, and the claim it cannot support.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.48, 6.54 and 5.39 on the three parts (107, 111 and 103 words), 5.81 together. The load is a count gathered from one group, so the reader has to track who answered before judging what the number can support.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 4.2, band 4.2, sequence 1. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A bus office notice that calls three hundred passenger answers the view of the town, when cards reached only people already on the bus.",
+      "avoided": "No town name, route number, fare, or date."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Three hundred answers came only from bus passengers, so the count describes riders while the notice speaks for the whole town."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The town bus office put up a notice about its bus service on weeknights. The notice says most people in town want the last bus to leave at ten instead of eight. It reports that three hundred people answered a question, and every one of them asked for a later bus. The office calls this a clear sign of what the town wants. The notice does not say where the question was asked, who was left out, or what words people were given. A copy hangs by the ticket window, where riders wait for the bus. The office says a later bus would cost more to run.",
+    "part_2": "All three hundred answers came from cards the office handed to passengers as they got on the bus. Only people who were already riding the bus received a card. People who drive, walk, or stay home in the evening never saw the question. The notice counts those three hundred answers as the view of the whole town, though the cards reached one group and one group only. A rider who already depends on the bus has a reason to want a later trip. A person who never rides has no reason to answer, and no card in hand. The office never says how many people ride the bus in a week.",
+    "part_3": "The count is real, but it describes bus riders, not the town. Three hundred riders asking for a later bus shows that riders want one. It cannot show what most people in town want, because the people who were not on the bus were never asked. The notice would need answers from a group chosen without regard to whether they ride. It would also need a count showing that riders are most of the town. A reader can see the number and still ask who was counted, and who was not. Until then, the claim is wider than the group that answered it."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The notice says most people in town want what?",
+      "tutor_only": {
+        "confirm": "Right. A later last bus on weeknights.",
+        "correct_reason": "The notice says most people in town want the last bus to leave at ten instead of eight.",
+        "tell": "The notice says most people want the last bus to leave at ten instead of eight.",
+        "help": [
+          "The sentence about what the town wants names a time.",
+          "It names the hour the last bus would leave."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Most people in town want the last bus to leave at ten instead of eight.",
+        "accept_ideas": [
+          "the last bus to leave at ten",
+          "a later last bus",
+          "the bus to run until ten",
+          "a ten o'clock last bus"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the change would cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says people want a cheaper fare",
+            "ask": "The notice asks for a later time. What hour does it name?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The office reports three hundred answers. Where did those answers come from?",
+      "tutor_only": {
+        "confirm": "Right. From passengers who got a card while boarding the bus.",
+        "correct_reason": "All three hundred answers came from cards the office handed to passengers as they got on the bus.",
+        "tell": "The cards went only to people who were already getting on the bus.",
+        "help": [
+          "The sentence about the cards says who received them.",
+          "It names the people who were boarding."
+        ],
+        "say_back": "own_words",
+        "core_idea": "From cards handed to passengers as they got on the bus.",
+        "accept_ideas": [
+          "from passengers getting on the bus",
+          "from people riding the bus",
+          "from cards given to bus riders",
+          "from riders who were handed cards"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many people ride the bus in a week"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the office mailed cards to every home",
+            "ask": "The notice says the cards were handed out. Where were they handed out?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why can the three hundred answers not show what most people in town want?",
+      "tutor_only": {
+        "confirm": "Right. People who do not ride the bus never got a card.",
+        "correct_reason": "Only people already riding the bus received a card, so people who drive, walk, or stay home were never asked.",
+        "tell": "The cards reached bus riders only, so the count leaves out everyone who was not on the bus.",
+        "help": [
+          "The sentence about who never saw the question carries the answer.",
+          "It names the people who were not asked."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because only bus riders were asked, and everyone else was left out.",
+        "accept_ideas": [
+          "only bus riders were asked",
+          "people who do not ride never got a card",
+          "the cards reached one group only",
+          "people not on the bus were left out"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "why a rider wants a later bus"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says three hundred is too small a number",
+            "ask": "The problem is not the size of the count. Who was never asked?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "A reader says every person in town was asked. Does the notice support that?",
+      "tutor_only": {
+        "confirm": "No. The cards went only to passengers boarding the bus.",
+        "correct_reason": "The notice says cards were handed to passengers as they got on the bus, so people who were not riding were not asked.",
+        "tell": "No. The notice shows the cards reached passengers, not the whole town.",
+        "help": [
+          "The sentence about the cards limits who was asked.",
+          "It names the group that received them."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No, because only people boarding the bus received a card.",
+        "accept_ideas": [
+          "no, only bus riders were asked",
+          "no, the cards went to passengers only",
+          "no, people not on the bus were not asked",
+          "no, it says nothing about everyone in town"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the office counted the answers"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says yes because three hundred is a large number",
+            "ask": "A large number from one group is still one group. Who received the cards?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What would the office need before it could say most people in town want a later bus?",
+      "tutor_only": {
+        "confirm": "Right. Answers from a group chosen without regard to riding, or a count showing riders are most of the town.",
+        "correct_reason": "The notice would need answers from a group chosen without regard to whether they ride, or a count showing that riders are most of the town.",
+        "tell": "It would need a group that includes people who do not ride. It would also need proof that riders are most of the town.",
+        "help": [
+          "The sentence about a group chosen without regard to riding shows the missing step.",
+          "One sentence names the group the survey would need."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Answers from people chosen without regard to riding, or proof that riders are most of the town.",
+        "accept_ideas": [
+          "a group that includes non-riders",
+          "answers from people who ride and people who do not",
+          "proof that riders are most of the town",
+          "a count of the whole town, not just riders"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the office would pay for a later bus"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it needs more answers from bus riders",
+            "ask": "More answers from the same group repeat the problem. Who else has to be asked?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher argument-and-evidence rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_4_2_0002",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
