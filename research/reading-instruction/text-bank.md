@@ -121,6 +121,12 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-108 | Five Kilometers and No Traffic | Nonfiction | 4 | Band 4.2 | 313 words (three passages, 110, 102, 101) | 5.68 | `argument_evidence_band_4_2_0004` |
 | TB-109 | The Note From the Seller | Nonfiction | 4 | Band 4.2 | 323 words (three passages, 109, 109, 105) | 6.06 | `argument_evidence_band_4_2_0005` |
 | TB-110 | A Leak Is Not a Roof | Nonfiction | 4 | Band 4.2 | 316 words (three passages, 104, 109, 103) | 5.86 | `argument_evidence_band_4_2_0006` |
+| TB-111 | The Mill With Fewer Hands | Nonfiction | 4 | Band 4.3 | 311 words (three passages, 102, 107, 102) | 5.88 | `argument_evidence_band_4_3_0001` |
+| TB-112 | Forty Against Twenty-Eight | Nonfiction | 4 | Band 4.3 | 311 words (three passages, 102, 106, 103) | 5.91 | `argument_evidence_band_4_3_0002` |
+| TB-113 | Three of Our Graduates | Nonfiction | 4 | Band 4.3 | 304 words (three passages, 102, 102, 100) | 5.98 | `argument_evidence_band_4_3_0003` |
+| TB-114 | Half the Injuries | Nonfiction | 4 | Band 4.3 | 309 words (three passages, 102, 107, 100) | 5.92 | `argument_evidence_band_4_3_0004` |
+| TB-115 | Doubled Participation | Nonfiction | 4 | Band 4.3 | 308 words (three passages, 104, 103, 101) | 5.94 | `argument_evidence_band_4_3_0005` |
+| TB-116 | No One Has Reported a Fall | Nonfiction | 4 | Band 4.3 | 307 words (three passages, 102, 104, 101) | 5.82 | `argument_evidence_band_4_3_0006` |
 
 ---
 
@@ -3711,6 +3717,204 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
 **Why it works.** The evidence establishes a problem and is then asked to choose a fix it cannot choose.
 
 **Cautions.** No shop name, street, landlord name, or repair cost.
+
+---
+
+## TB-111 — The Mill With Fewer Hands
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | history and people |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 311 words (three passages, one per displayed part (102, 107, 102 words)) |
+| FK grade | 5.88 on the three passages together (6.17, 5.51, 6.04) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_3_0001` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** The historical society's page reports eleven accidents in the mill's sixty years and nineteen in the plant's twelve, and asks why the town closed the safer mill.
+
+**Supporting details.**
+
+- The page reports eleven accidents at the mill across sixty years.
+- It reports nineteen accidents at the plant across twelve years.
+- It never says the mill ran with about thirty workers while the plant employs two hundred and forty.
+- A count of accidents grows with the number of people who can have one.
+- A fair comparison would need accidents per worker over the same years at both places.
+
+**Why it works.** Two totals are compared as if the same number of hands stood behind each, so the missing base is the whole argument.
+
+**Cautions.** No town name, mill company, union, or wage figure.
+
+---
+
+## TB-112 — Forty Against Twenty-Eight
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | food and farming |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 311 words (three passages, one per displayed part (102, 106, 103 words)) |
+| FK grade | 5.91 on the three passages together (6.19, 5.22, 6.34) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_3_0002` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A seed card compares forty bushels from its trial field with twenty-eight from a neighbour's field, without saying the trial field also had manure and an earlier planting.
+
+**Supporting details.**
+
+- The card reports forty bushels an acre from the company's trial field.
+- It reports twenty-eight from a neighbour's field planted with the old seed.
+- The trial field also had manure and was planted two weeks earlier.
+- The two fields differ in seed, plant food, and planting date.
+- A fair test would hold soil, plant food, and planting date the same and change only the seed.
+
+**Why it works.** The sold thing is one of three changes between the plots, so a twelve-bushel gap cannot be credited to the seed.
+
+**Cautions.** No company name, farm name, seed brand, or price.
+
+---
+
+## TB-113 — Three of Our Graduates
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 304 words (three passages, one per displayed part (102, 102, 100 words)) |
+| FK grade | 5.98 on the three passages together (5.73, 5.85, 6.37) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_3_0003` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A welding course ad names three graduates who run repair shops as proof the course leads to steady work, from a class of thirty-one.
+
+**Supporting details.**
+
+- The ad claims the course leads to steady work.
+- It names three graduates who now run their own repair shops.
+- The enrollment sheet listed thirty-one students for that class.
+- The ad never says how many finished or what work the rest found.
+- A testable claim needs each student's outcome, not the three best.
+
+**Why it works.** A list of winners is offered as a rate, so the missing twenty-eight decide whether the ad proves anything.
+
+**Cautions.** No school name, town, newspaper name, or fee.
+
+---
+
+## TB-114 — Half the Injuries
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | sport and play |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 309 words (three passages, one per displayed part (102, 107, 100 words)) |
+| FK grade | 5.92 on the three passages together (5.83, 6.14, 5.79) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_3_0004` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A club note reports that a new warm-up cut injuries by half, from two injuries last season to one this season among sixty runners.
+
+**Supporting details.**
+
+- The note claims the warm-up cut injuries by half.
+- It reports two injuries last season and one this season.
+- About sixty members ran in both seasons.
+- Injuries among sixty runners are rare, so one runner moves the total.
+- Showing the warm-up works needs more seasons or a larger group.
+
+**Why it works.** A percentage built on three injuries in two seasons makes a change of one person look like a measured result.
+
+**Cautions.** No club name, town, coach name, or runner name.
+
+---
+
+## TB-115 — Doubled Participation
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | arts and language |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 308 words (three passages, one per displayed part (104, 103, 101 words)) |
+| FK grade | 5.94 on the three passages together (5.86, 6.00, 6.05) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_3_0005` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A library page says participation doubled, comparing forty children who finished the reading list last summer with eighty who signed a card this summer.
+
+**Supporting details.**
+
+- The page claims participation doubled.
+- Last summer's forty children finished a list of ten books.
+- This summer's eighty signed a card at the front desk.
+- Signing a card commits a child to nothing.
+- The same count, finishers, taken in both summers would test the claim.
+
+**Why it works.** Two counts of different acts are set side by side, so the doubling measures a wider net rather than more reading.
+
+**Cautions.** No library name, town, program name, or budget figure.
+
+---
+
+## TB-116 — No One Has Reported a Fall
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 4 |
+| Band | Band 4.3 |
+| Length | 307 words (three passages, one per displayed part (102, 104, 101 words)) |
+| FK grade | 5.82 on the three passages together (6.19, 5.69, 5.58) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `argument_evidence_band_4_3_0006` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A trail guide calls a cliff path safe because no visitor has reported a fall, while the only report form sits three miles away and closes at four.
+
+**Supporting details.**
+
+- The guide claims the cliff path is safe.
+- Its reason is that no fall has been reported in two years.
+- A report needs a paper form at the visitor centre, three miles from the path.
+- The centre closes at four, and a ranger empties the box monthly.
+- The log would be evidence only if a fall could reach it from the path.
+
+**Why it works.** An empty log is read as proof that nothing happened, when it records only what someone walked three miles to write.
+
+**Cautions.** No park name, trail name, or state.
 
 ---
 

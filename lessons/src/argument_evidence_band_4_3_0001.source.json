@@ -1,0 +1,249 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_4_3_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Mill With Fewer Hands",
+    "skill": "argument_evidence",
+    "irl_grade": 4,
+    "stage": 3,
+    "genre": "nonfiction",
+    "sequence": 1,
+    "topic_domain": "history and people",
+    "skill_frame": "Argument and evidence: two totals compared when the number of people behind them differs.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.17, 5.51 and 6.04 on the three parts (102, 107 and 102 words), 5.88 together. The page sets two accident totals side by side, so the reader has to track how many people stood behind each one before judging the comparison.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 4.3, band 4.3, sequence 1. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A historical society page that turns two accident totals into a safety verdict without the size of either workforce.",
+      "avoided": "No town name, mill company, or union name."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Eleven accidents in sixty years against nineteen in twelve look like a win for the old mill, but the mill had thirty workers and the plant has two hundred and forty."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The historical society's page about the old wool mill makes a simple case. It says the mill was safer than the plant that replaced it, and it counts the accidents at each place. The page reports eleven accidents in the mill's sixty years and nineteen in the plant's first twelve. Those numbers are real, and the page prints them without a single change. Eleven against nineteen sounds like a clear win at first. The old mill made heavy wool blankets beside the river until the town closed it. The page ends by asking why the town ever let such a place go.",
+    "part_2": "What the page leaves out is how many people worked in each place. The old mill ran with about thirty workers on the floor. Most of them had done the same job for years. The plant that replaced it employs two hundred and forty people across three shifts. A count of accidents grows with the number of people who can have one. It also grows with the hours they spend near the machines. Thirty people over sixty years and two hundred and forty over twelve are very different amounts of work. The page compares two totals as if the same number of hands stood behind each one.",
+    "part_3": "A count of accidents tells you how many happened. It does not tell you how likely one was for a person at work. To compare two workplaces, a reader needs the number of people and the time they spent. The page gives neither. Its comparison rests on two numbers that measure very different amounts of work. A reader can accept both counts and still refuse the conclusion the page draws from them. Eleven is smaller than nineteen, and that is the whole of the evidence on the page. The sentence that sounds strongest is the one with the missing base under it."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the historical society's page say about the old mill?",
+      "tutor_only": {
+        "confirm": "Right. That it was safer than the plant that replaced it.",
+        "correct_reason": "The page says the old mill was safer than the plant that replaced it.",
+        "tell": "The page says the old mill was safer than the plant that replaced it.",
+        "help": [
+          "The sentence about the mill's safety carries the claim.",
+          "It compares the mill with the plant that replaced it."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The old mill was safer than the plant that replaced it.",
+        "accept_ideas": [
+          "the mill was safer than the plant",
+          "the old mill was safer",
+          "the old mill had fewer accidents and was safer",
+          "safer than the plant that replaced it"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many blankets the mill made"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the page says the mill made blankets",
+            "ask": "The page is about safety. What does it say about the mill against the plant?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What two numbers does the page give as proof?",
+      "tutor_only": {
+        "confirm": "Right. Eleven accidents in sixty years, and nineteen in twelve.",
+        "correct_reason": "The page reports eleven accidents in the mill's sixty years and nineteen in the plant's first twelve.",
+        "tell": "Eleven in the mill's sixty years, and nineteen in the plant's twelve.",
+        "help": [
+          "The sentence with the two counts holds both numbers.",
+          "It pairs each count with the years it covers."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Eleven accidents in the mill's sixty years and nineteen in the plant's twelve.",
+        "accept_ideas": [
+          "eleven and nineteen",
+          "eleven in sixty years, nineteen in twelve",
+          "eleven accidents against nineteen",
+          "eleven and nineteen accidents"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the mill made"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student gives only one number",
+            "ask": "The page prints two counts. What are the years beside each one?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What does the page leave out that a reader needs to compare the two places?",
+      "tutor_only": {
+        "confirm": "Right. How many people worked in each place.",
+        "correct_reason": "The page never says how many people worked at the mill or at the plant.",
+        "tell": "It never says how many people worked in each place.",
+        "help": [
+          "The sentence about the workers names what is missing.",
+          "It counts the hands at the mill and at the plant."
+        ],
+        "say_back": "own_words",
+        "core_idea": "How many people worked in each place.",
+        "accept_ideas": [
+          "how many workers each place had",
+          "the number of workers",
+          "how many people worked there",
+          "the size of each workforce"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the buildings were made of"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the page leaves out the plant's age",
+            "ask": "The page gives years. What else about each workplace would the count depend on?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "A reader says the page proves the old mill was safer. What is wrong with that?",
+      "tutor_only": {
+        "confirm": "Right. The mill had far fewer workers, so its total covers much less work.",
+        "correct_reason": "The mill ran with about thirty workers and the plant employs two hundred and forty, so the two totals cover very different amounts of work.",
+        "tell": "The mill had about thirty workers. The plant has two hundred and forty, so its total covers far more work.",
+        "help": [
+          "The sentences about the workers show why the totals differ.",
+          "They give a number for each workplace."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The mill had about thirty workers and the plant has two hundred and forty, so the totals cover very different amounts of work.",
+        "accept_ideas": [
+          "the mill had far fewer workers",
+          "the plant has many more people who can be hurt",
+          "the two totals cover different amounts of work",
+          "thirty workers against two hundred and forty"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the mill ran"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says eleven is smaller than nineteen, so the page is right",
+            "ask": "Fewer than nineteen, yes. How many hands stood behind each total?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What would the page need in order to show the mill was safer?",
+      "tutor_only": {
+        "confirm": "Right. Accidents for the same number of workers over the same time.",
+        "correct_reason": "The page would need a rate: accidents for a fixed number of workers over a fixed span of years at each place.",
+        "tell": "It would need accidents per worker, over the same years at both places.",
+        "help": [
+          "The sentences about workers and years name what a fair comparison needs.",
+          "They give the two things the totals lack."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Accidents for the same number of workers over the same number of years at each place.",
+        "accept_ideas": [
+          "accidents per worker",
+          "the rate of accidents at each place",
+          "a count for the same number of workers",
+          "accidents per worker over the same years"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the cost of the mill's repairs"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the page needs more years of the plant's record",
+            "ask": "More years alone still leaves two different workforces. What has to match?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher argument-and-evidence rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_4_3_0002",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

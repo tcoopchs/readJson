@@ -1,0 +1,250 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_4_3_0006",
+  "meta": {
+    "status": "published",
+    "title": "No One Has Reported a Fall",
+    "skill": "argument_evidence",
+    "irl_grade": 4,
+    "stage": 3,
+    "genre": "nonfiction",
+    "sequence": 6,
+    "topic_domain": "places and travel",
+    "skill_frame": "Argument and evidence: an empty record read as proof that nothing happened.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.19, 5.69 and 5.58 on the three parts (102, 104 and 101 words), 5.82 together. The claim rests on an empty log, so the reader has to track whether a fall could reach the record at all.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 4.3, band 4.3, sequence 6. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A trail guide that turns the absence of reports into a safety claim.",
+      "avoided": "No park name, trail name, or state."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "An empty report log is offered as proof of a safe path, but the only form sits three miles away and closes at four."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A park's trail guide describes a path along a cliff above the river. The guide says the path is safe, and it offers a reason for saying so. No visitor has ever reported a fall, it says, in the two years the path has been open beside the river. The guide repeats the point in a short summary box at the back. The office that prints the guide keeps a log of visitor reports in a drawer, and the log holds nothing about the cliff path. The writer read the log, found no entry, and wrote the sentence from that empty page.",
+    "part_2": "The only way to report an injury in this park is a paper form at the visitor centre. The centre sits three miles from the cliff path and closes at four in the afternoon. The form goes into a wooden box, and a ranger empties the box once a month. A walker who twists an ankle on the cliff path is far from the centre and late in the day. That walker has a long way back and little reason to return for a form. Most people who fall on a trail tell the people they came with, not a ranger at a desk.",
+    "part_3": "An empty log can mean nothing happened, or that nothing was written down. The guide's sentence treats the two as the same, and the whole safety claim rests on that mistake. To read the log as evidence, a reader needs to know that a fall would have reached it. Here the road from a fall to the box is long and uphill. The park may have a safe path, and it may be the safest path in the county. The log cannot say so, because it holds only what someone chose to walk three miles and write down at the desk."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the trail guide say about the cliff path?",
+      "tutor_only": {
+        "confirm": "Right. That the path is safe.",
+        "correct_reason": "The guide says the cliff path is safe.",
+        "tell": "The guide says the path is safe.",
+        "help": [
+          "The sentence about safety carries the claim.",
+          "It names the path along the cliff."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The path is safe.",
+        "accept_ideas": [
+          "the path is safe",
+          "the cliff path is safe",
+          "it is a safe path",
+          "the path along the cliff is safe"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the path is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the guide says the path is new",
+            "ask": "The guide makes one claim about the path. What is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What reason does the guide give for saying the path is safe?",
+      "tutor_only": {
+        "confirm": "Right. That no visitor has reported a fall in two years.",
+        "correct_reason": "The guide says no visitor has reported a fall in the two years the path has been open.",
+        "tell": "No one has reported a fall in two years.",
+        "help": [
+          "The sentence about reports gives the reason.",
+          "It counts the years the path has been open."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No visitor has reported a fall in two years.",
+        "accept_ideas": [
+          "no falls have been reported",
+          "no one has reported a fall",
+          "the log holds no report",
+          "no reports in two years"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many visitors walked the path"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the guide gives the path's width",
+            "ask": "The guide gives one reason. What does it say has never happened?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "How would a visitor report a fall in this park?",
+      "tutor_only": {
+        "confirm": "Right. With a paper form at the visitor centre, three miles away, open until four.",
+        "correct_reason": "The only way is a paper form at the visitor centre, three miles from the path and open until four.",
+        "tell": "With a form at the visitor centre, three miles away, open until four.",
+        "help": [
+          "The sentences about the form and the centre give the answer.",
+          "They name the distance and the closing time."
+        ],
+        "say_back": "own_words",
+        "core_idea": "With a paper form at the visitor centre, three miles from the path and closed after four.",
+        "accept_ideas": [
+          "a paper form at the visitor centre",
+          "a form three miles away",
+          "walk to the centre and fill in a form",
+          "a form that closes at four"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "which ranger empties the box"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says a visitor would tell a ranger on the path",
+            "ask": "The park takes reports one way. Where does a visitor have to go?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "A reader says the empty log shows the path is safe. Is that supported?",
+      "tutor_only": {
+        "confirm": "No. A fall on the path would rarely reach the form, so the log cannot show safety.",
+        "correct_reason": "An empty log only shows nothing was written down, and the form is far from the path, so the log cannot speak for the path.",
+        "tell": "No. The form is far from the path, so a fall would not reach the log.",
+        "help": [
+          "The sentences about the form and the walk carry the answer.",
+          "They show how far a fall is from the box."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No, because the form is three miles from the path, so a fall would not reach the log.",
+        "accept_ideas": [
+          "no, the form is too far away",
+          "no, a fall would not reach the log",
+          "no, nothing was written down, not nothing happened",
+          "no, people tell their friends, not a ranger"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how steep the path is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says no reports means no falls",
+            "ask": "A report needs a form and a long walk. Where is the form kept?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What would make the log good evidence about the path?",
+      "tutor_only": {
+        "confirm": "Right. A way to report from the path itself, so a fall would be recorded.",
+        "correct_reason": "The log would work as evidence if a fall could be reported on the path, so that a fall would reach the record.",
+        "tell": "A way to report from the path, so every fall could be recorded.",
+        "help": [
+          "The sentences about the form and the walk name the gap.",
+          "They show what a report would need."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A way to report a fall at the path, so a fall would reach the record.",
+        "accept_ideas": [
+          "a way to report a fall at the path",
+          "reports of falls from the path",
+          "if falls were reported from the path",
+          "if walkers could report a fall where it happened",
+          "a form on the path"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "a larger summary box"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the log needs more years",
+            "ask": "More years of the same long walk still miss the falls. What has to change?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher argument-and-evidence rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_4_3_0003",
+  "meta": {
+    "status": "published",
+    "title": "Three of Our Graduates",
+    "skill": "argument_evidence",
+    "irl_grade": 4,
+    "stage": 3,
+    "genre": "nonfiction",
+    "sequence": 3,
+    "topic_domain": "work and trade",
+    "skill_frame": "Argument and evidence: a list of successes offered as a rate.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.73, 5.85 and 6.37 on the three parts (102, 102 and 100 words), 5.98 together. The ad lists three winners from a class of thirty-one, so the reader has to track who is missing from the list before reading it as a rate.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 4.3, band 4.3, sequence 3. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A course advertisement that names its three most successful graduates and leaves out the size of the class.",
+      "avoided": "No school name, town, or newspaper name."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Three shop owners are named from a class of thirty-one, and the ad never says what happened to the other twenty-eight."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A welding course runs an advertisement in the local paper. The ad says the course leads to steady work, and it names its proof in the second line. Three graduates now run their own repair shops, the ad says, and it gives the town and the year each one finished. All three stories are true, and the shops are open six days a week. Three shop owners from one course sounds like a strong result for a class that meets twice a week in a rented room. The ad repeats the number three in its headline and again in the last line.",
+    "part_2": "The ad does not say how many people started the course. The program's own enrollment sheet, printed in the same paper a year earlier, listed thirty-one students for that class. The sheet does not say how many finished, or how many of those found work in a shop. A list of the ones who did well is easy to write, and it says nothing about the rest, who paid the same fee. The three owners may be the best of thirty-one, or the best of three. The ad leaves the reader to guess, and the guess runs toward the headline.",
+    "part_3": "A list of successes answers a different question from the one the ad asks. The ad claims the course leads to steady work, and the list shows that steady work is possible after the course. Possible and usual are not the same thing, and an ad may sell the first while claiming the second. The missing number is the one that would make the claim testable: how many started, and what happened to each of them. The ad has that enrollment sheet, or knows where to find it. Until the number appears, three shops are three stories, not a rate."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What claim does the welding course ad make?",
+      "tutor_only": {
+        "confirm": "Right. That the course leads to steady work.",
+        "correct_reason": "The ad says the course leads to steady work.",
+        "tell": "The ad says the course leads to steady work.",
+        "help": [
+          "The sentence about steady work carries the claim.",
+          "It ties the work to the course."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The course leads to steady work.",
+        "accept_ideas": [
+          "the course leads to steady work",
+          "the course gets people jobs",
+          "you will find steady work after the course",
+          "the course leads to work that lasts"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the course costs"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the ad claims the shops make money",
+            "ask": "The ad is about the course and work. What does it say follows the course?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What proof does the ad offer?",
+      "tutor_only": {
+        "confirm": "Right. Three graduates who now run their own repair shops.",
+        "correct_reason": "The ad names three graduates who now run their own repair shops.",
+        "tell": "Three graduates who now run their own repair shops.",
+        "help": [
+          "The sentence about the three graduates gives the proof.",
+          "It names their shops."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Three graduates who now run their own repair shops.",
+        "accept_ideas": [
+          "three graduates with shops",
+          "three shop owners",
+          "three former students who run repair shops",
+          "three graduates who own shops"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the course runs"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the ad offers the teacher's opinion",
+            "ask": "The ad names people. Who are they, and what do they run?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The ad names three winners. How large was the class they came from?",
+      "tutor_only": {
+        "confirm": "Right. Thirty-one students started that class.",
+        "correct_reason": "The enrollment sheet printed a year earlier listed thirty-one students for that class.",
+        "tell": "The enrollment sheet listed thirty-one students for the class.",
+        "help": [
+          "The sentence about the enrollment sheet gives the class size.",
+          "It names the students who signed up, not the ones who finished."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Thirty-one students started the class.",
+        "accept_ideas": [
+          "thirty-one",
+          "thirty-one students",
+          "a class of thirty-one",
+          "thirty-one started",
+          "31",
+          "thirty one"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many finished"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the ad gives no number at all",
+            "ask": "The same paper printed the enrollment sheet. How many students were on it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "A reader says the ad shows the course works for most students. Is that supported?",
+      "tutor_only": {
+        "confirm": "No. The ad names three successes and says nothing about the other twenty-eight.",
+        "correct_reason": "The ad lists three successes from a class of thirty-one and says nothing about the rest, so it cannot show what is usual.",
+        "tell": "No. Three names from a class of thirty-one say nothing about the other twenty-eight.",
+        "help": [
+          "The sentences about the enrollment sheet and the rest give the class size.",
+          "They name the students the ad leaves out."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No, because three successes from a class of thirty-one say nothing about the other twenty-eight.",
+        "accept_ideas": [
+          "no, the other twenty-eight are missing",
+          "no, three names are not most of the class",
+          "no, it shows what is possible, not what is usual",
+          "no, the ad only lists winners"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "whether the shops are busy"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the three stories are true, so the claim is proven",
+            "ask": "True stories can still be chosen. How many students started the class?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What numbers would make the ad's claim testable?",
+      "tutor_only": {
+        "confirm": "Right. How many enrolled, how many finished, and where each one works now.",
+        "correct_reason": "The ad would need the number who enrolled, the number who finished, and what work each graduate found.",
+        "tell": "How many started, how many finished, and what work each one has now.",
+        "help": [
+          "The sentences about the class and the rest name the missing counts.",
+          "They show a rate needs every student, not three."
+        ],
+        "say_back": "own_words",
+        "core_idea": "How many started, how many finished, and what work each one found.",
+        "accept_ideas": [
+          "how many started and where they ended up",
+          "a count of the whole class",
+          "how many finished and found work",
+          "the outcome for every student"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the shops earn"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the ad needs more success stories",
+            "ask": "More winners from a big class still hide the rest. What has to be counted?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher argument-and-evidence rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_4_3_0004",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_4_3_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

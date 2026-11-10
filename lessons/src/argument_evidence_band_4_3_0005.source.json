@@ -1,0 +1,249 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_4_3_0005",
+  "meta": {
+    "status": "published",
+    "title": "Doubled Participation",
+    "skill": "argument_evidence",
+    "irl_grade": 4,
+    "stage": 3,
+    "genre": "nonfiction",
+    "sequence": 5,
+    "topic_domain": "arts and language",
+    "skill_frame": "Argument and evidence: two counts of different acts set side by side as growth.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.86, 6.00 and 6.05 on the three parts (104, 103 and 101 words), 5.94 together. The chart puts finishers beside signers, so the reader has to track which act each count measured before the difference can mean growth.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 4.3, band 4.3, sequence 5. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A library page that compares children who finished a reading list with children who signed a card.",
+      "avoided": "No library name, town, or program name."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Forty finishers are compared with eighty signers, so the doubling measures a wider net rather than more reading."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A library prints a page about its summer reading program, and the page says participation doubled. It shows the change in a small chart with two bars and a line of text above them. Last summer, it reports, forty children finished the reading list of ten books. This summer eighty children took part. The chart draws a bar for each year in the same size box. Forty to eighty is a doubling, and the page says so twice in its first paragraph. The library asks the town for more money for next summer, and the chart is the reason it gives for the request.",
+    "part_2": "The two numbers do not count the same thing, and the page never says they do. Last summer's forty are children who finished a list of ten books and brought the list back to the desk. This summer's eighty are children who signed a card at the front desk. A card takes a moment at the desk and commits them to nothing. A child who signed a card and read nothing counts in the second number, and that child could never have counted in the first. The page puts a count of finishers beside a count of signers and calls the difference growth.",
+    "part_3": "Two numbers can be compared only when they measure the same act, and these two do not. Here one measures books read and the other measures a name on a card, and the chart sets them side by side without a note. The program may well have grown, and the library may deserve the money it asks for. But the chart compares a wide net with a narrow one. The clause that would explain the difference is missing from the page. A reader who wants to know whether more children read this summer needs the same count taken in both years."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the library's page claim?",
+      "tutor_only": {
+        "confirm": "Right. That participation in the summer program doubled.",
+        "correct_reason": "The page says participation doubled.",
+        "tell": "The page says participation doubled.",
+        "help": [
+          "The sentence about participation carries the claim.",
+          "It names the size of the change."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Participation doubled.",
+        "accept_ideas": [
+          "participation doubled",
+          "twice as many children took part",
+          "the program doubled",
+          "twice the participation"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many books the library owns"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the page claims the library needs money",
+            "ask": "The page asks for money later. What does it claim about the program first?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What two numbers does the page compare?",
+      "tutor_only": {
+        "confirm": "Right. Forty children last summer and eighty this summer.",
+        "correct_reason": "The page compares forty children last summer with eighty this summer.",
+        "tell": "Forty last summer and eighty this summer.",
+        "help": [
+          "The sentences with the two counts hold both numbers.",
+          "They put one beside each summer."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Forty children last summer and eighty this summer.",
+        "accept_ideas": [
+          "forty and eighty",
+          "forty last summer, eighty this summer",
+          "forty then eighty",
+          "forty children and then eighty"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how old the children were"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student gives only this summer's number",
+            "ask": "The chart has two bars. What number sits over each one?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "How was a child counted in each summer?",
+      "tutor_only": {
+        "confirm": "Right. Last summer by finishing the list, this summer by signing a card.",
+        "correct_reason": "Last summer a child counted by finishing a list of ten books; this summer by signing a card at the desk.",
+        "tell": "Last summer by finishing the list, this summer by signing a card.",
+        "help": [
+          "The sentences about the forty and the eighty carry the answer.",
+          "They name the act that counted each year."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Last summer by finishing the list, this summer by signing a card at the desk.",
+        "accept_ideas": [
+          "finishing the list last year, signing a card this year",
+          "the list then a card",
+          "finishing ten books against signing a card",
+          "one year finishing, the other signing"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many children the library serves"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says both years counted books read",
+            "ask": "One year took a finished list. What did the other year take?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "A reader says the page shows twice as many children read this summer. Is that supported?",
+      "tutor_only": {
+        "confirm": "No. The two summers counted different acts, and a card is not the list.",
+        "correct_reason": "The forty finished a list of ten books and the eighty signed a card, so the chart compares reading with signing.",
+        "tell": "No. Signing a card is not finishing the list, so the chart compares two different acts.",
+        "help": [
+          "The sentences about the forty and the eighty show the two acts.",
+          "They say what each count required."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No, because the two summers counted different acts: finishing the list against signing a card.",
+        "accept_ideas": [
+          "no, a card is not the reading list",
+          "no, the page compares reading with signing",
+          "no, the two counts measure different things",
+          "no, signing up is not reading"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the books were about"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says forty to eighty is a doubling, so the page is right",
+            "ask": "A doubling of what? What did a child have to do to be counted each year?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What would the page need to show more children read this summer?",
+      "tutor_only": {
+        "confirm": "Right. The same count, finishers, taken in both summers.",
+        "correct_reason": "The page would need the number of children who finished the list in each summer, counted the same way both years.",
+        "tell": "The number of finishers for both summers, counted the same way.",
+        "help": [
+          "The sentences about the two acts name what has to match.",
+          "They show the count to repeat in both years."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The number of children who finished the list in each summer, counted the same way.",
+        "accept_ideas": [
+          "finishers in both years",
+          "the same count both summers",
+          "how many finished the list each year",
+          "one count used in both years"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the name of the program"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the page needs a bigger chart",
+            "ask": "A bigger chart of two different acts still compares them. Which count has to be repeated?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher argument-and-evidence rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_4_3_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

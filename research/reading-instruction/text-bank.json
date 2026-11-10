@@ -1,6 +1,6 @@
 {
   "bank_version": 1,
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "rubric": "L/I/S/K 0-3; band is highest demand, grade_target is the reader label",
   "texts": [
     {
@@ -3977,6 +3977,228 @@
       "why_it_works": "The evidence establishes a problem and is then asked to choose a fix it cannot choose.",
       "cautions": "No shop name, street, landlord name, or repair cost.",
       "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-111",
+      "title": "The Mill With Fewer Hands",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (102, 107, 102 words)",
+      "length_words": 311,
+      "fk_grade": 5.88,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_3_0001"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "The historical society's page reports eleven accidents in the mill's sixty years and nineteen in the plant's twelve, and asks why the town closed the safer mill.",
+      "supporting_details": [
+        "The page reports eleven accidents at the mill across sixty years.",
+        "It reports nineteen accidents at the plant across twelve years.",
+        "It never says the mill ran with about thirty workers while the plant employs two hundred and forty.",
+        "A count of accidents grows with the number of people who can have one.",
+        "A fair comparison would need accidents per worker over the same years at both places."
+      ],
+      "why_it_works": "Two totals are compared as if the same number of hands stood behind each, so the missing base is the whole argument.",
+      "cautions": "No town name, mill company, union, or wage figure.",
+      "topic_domain": "history and people",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-112",
+      "title": "Forty Against Twenty-Eight",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (102, 106, 103 words)",
+      "length_words": 311,
+      "fk_grade": 5.91,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_3_0002"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A seed card compares forty bushels from its trial field with twenty-eight from a neighbour's field, without saying the trial field also had manure and an earlier planting.",
+      "supporting_details": [
+        "The card reports forty bushels an acre from the company's trial field.",
+        "It reports twenty-eight from a neighbour's field planted with the old seed.",
+        "The trial field also had manure and was planted two weeks earlier.",
+        "The two fields differ in seed, plant food, and planting date.",
+        "A fair test would hold soil, plant food, and planting date the same and change only the seed."
+      ],
+      "why_it_works": "The sold thing is one of three changes between the plots, so a twelve-bushel gap cannot be credited to the seed.",
+      "cautions": "No company name, farm name, seed brand, or price.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-113",
+      "title": "Three of Our Graduates",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (102, 102, 100 words)",
+      "length_words": 304,
+      "fk_grade": 5.98,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_3_0003"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A welding course ad names three graduates who run repair shops as proof the course leads to steady work, from a class of thirty-one.",
+      "supporting_details": [
+        "The ad claims the course leads to steady work.",
+        "It names three graduates who now run their own repair shops.",
+        "The enrollment sheet listed thirty-one students for that class.",
+        "The ad never says how many finished or what work the rest found.",
+        "A testable claim needs each student's outcome, not the three best."
+      ],
+      "why_it_works": "A list of winners is offered as a rate, so the missing twenty-eight decide whether the ad proves anything.",
+      "cautions": "No school name, town, newspaper name, or fee.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-114",
+      "title": "Half the Injuries",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (102, 107, 100 words)",
+      "length_words": 309,
+      "fk_grade": 5.92,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_3_0004"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A club note reports that a new warm-up cut injuries by half, from two injuries last season to one this season among sixty runners.",
+      "supporting_details": [
+        "The note claims the warm-up cut injuries by half.",
+        "It reports two injuries last season and one this season.",
+        "About sixty members ran in both seasons.",
+        "Injuries among sixty runners are rare, so one runner moves the total.",
+        "Showing the warm-up works needs more seasons or a larger group."
+      ],
+      "why_it_works": "A percentage built on three injuries in two seasons makes a change of one person look like a measured result.",
+      "cautions": "No club name, town, coach name, or runner name.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-115",
+      "title": "Doubled Participation",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (104, 103, 101 words)",
+      "length_words": 308,
+      "fk_grade": 5.94,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_3_0005"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A library page says participation doubled, comparing forty children who finished the reading list last summer with eighty who signed a card this summer.",
+      "supporting_details": [
+        "The page claims participation doubled.",
+        "Last summer's forty children finished a list of ten books.",
+        "This summer's eighty signed a card at the front desk.",
+        "Signing a card commits a child to nothing.",
+        "The same count, finishers, taken in both summers would test the claim."
+      ],
+      "why_it_works": "Two counts of different acts are set side by side, so the doubling measures a wider net rather than more reading.",
+      "cautions": "No library name, town, program name, or budget figure.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-116",
+      "title": "No One Has Reported a Fall",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.3",
+      "length_note": "three passages, one per displayed part (102, 104, 101 words)",
+      "length_words": 307,
+      "fk_grade": 5.82,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "argument_evidence_band_4_3_0006"
+      ],
+      "cell_use": "Owns its own lesson in argument_evidence Band 4.3 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A trail guide calls a cliff path safe because no visitor has reported a fall, while the only report form sits three miles away and closes at four.",
+      "supporting_details": [
+        "The guide claims the cliff path is safe.",
+        "Its reason is that no fall has been reported in two years.",
+        "A report needs a paper form at the visitor centre, three miles from the path.",
+        "The centre closes at four, and a ranger empties the box monthly.",
+        "The log would be evidence only if a fall could reach it from the path."
+      ],
+      "why_it_works": "An empty log is read as proof that nothing happened, when it records only what someone walked three miles to write.",
+      "cautions": "No park name, trail name, or state.",
+      "topic_domain": "places and travel",
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, accepted on spot check.",
       "drafted_by": "TC"

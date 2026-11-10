@@ -1,0 +1,249 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "argument_evidence_band_4_3_0002",
+  "meta": {
+    "status": "published",
+    "title": "Forty Against Twenty-Eight",
+    "skill": "argument_evidence",
+    "irl_grade": 4,
+    "stage": 3,
+    "genre": "nonfiction",
+    "sequence": 2,
+    "topic_domain": "food and farming",
+    "skill_frame": "Argument and evidence: two fields that differ in more than the one thing being sold.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.19, 5.22 and 6.34 on the three parts (102, 106 and 103 words), 5.91 together. The card compares two fields that differ in three ways, so the reader has to track which of the changes the harvest can be credited to.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for argument_evidence 4.3, band 4.3, sequence 2. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A seed card that compares its trial field with a neighbour's field without saying how differently the two were farmed.",
+      "avoided": "No company name, farm name, or seed brand."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "The trial field had manure and an early planting as well as the new seed, so a twelve-bushel gap could come from any of the three."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A seed company prints a small card beside its oat seed. The card says the new variety outyields the old one, and it offers two harvests as proof. It reports forty bushels an acre from the company's trial field and twenty-eight from a neighbour's field planted with the old seed. Both numbers come from real harvests, weighed on the same scale in the same month. Forty against twenty-eight is a wide gap, and the card prints it in large type above the price. The card says nothing else about the two fields or about the weather they had that season.",
+    "part_2": "The trial field had more than new seed in it. The company spread manure on that field in spring, and it planted two weeks before the neighbour planted his. The neighbour's field had no manure that year, and it went in late after a wet spell that kept his tractor off the ground. So the two fields differ in seed, in plant food, and in planting date. A gap of twelve bushels could come from any one of the three, and the card credits the whole gap to the seed. The two plots were never run the same way apart from the one thing being sold.",
+    "part_3": "One number against another settles a question only when the two plots differ in one thing. Here the seed is the thing being sold, and it is also one of three changes between the fields. To show that the seed did the work, the company would need two fields treated the same way, with only the seed different. The harvests are real and the weights are right. The comparison is what fails, because the field that won had help the other field never got. A fair trial would cost the company a season and might return a smaller number than the card prints."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the seed company's card claim?",
+      "tutor_only": {
+        "confirm": "Right. That the new oat variety yields more than the old one.",
+        "correct_reason": "The card says the new variety outyields the old one.",
+        "tell": "The card says the new variety yields more than the old one.",
+        "help": [
+          "The sentence about the two varieties carries the claim.",
+          "It compares the new seed with the old seed."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The new oat variety yields more than the old one.",
+        "accept_ideas": [
+          "the new seed yields more",
+          "the new variety outyields the old one",
+          "the new oats give a bigger harvest",
+          "the new seed beats the old seed"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the seed costs"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the card claims the oats taste better",
+            "ask": "The card is about yield. What does it say the new seed does to the harvest?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What harvest numbers does the card report?",
+      "tutor_only": {
+        "confirm": "Right. Forty bushels from the trial field and twenty-eight from the neighbour's.",
+        "correct_reason": "The card reports forty bushels an acre from the trial field and twenty-eight from the neighbour's field.",
+        "tell": "Forty bushels an acre at the trial field, twenty-eight at the neighbour's.",
+        "help": [
+          "The sentence with the bushel counts holds both numbers.",
+          "It names the field each count came from."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Forty bushels an acre from the trial field and twenty-eight from the neighbour's field.",
+        "accept_ideas": [
+          "forty and twenty-eight",
+          "forty bushels against twenty-eight",
+          "forty from the trial field, twenty-eight from the neighbour",
+          "forty bushels an acre and twenty-eight"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much rain fell"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student gives only the trial field's number",
+            "ask": "The card prints two harvests. Which field gave the smaller one?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "How were the two fields treated differently besides the seed?",
+      "tutor_only": {
+        "confirm": "Right. The trial field got manure and was planted two weeks earlier.",
+        "correct_reason": "The company put manure on the trial field in spring and planted it two weeks before the neighbour planted his.",
+        "tell": "The trial field had manure and went in two weeks earlier.",
+        "help": [
+          "The sentences about manure and planting date name the differences.",
+          "They give the spring work on the trial field."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The trial field had manure and was planted two weeks earlier than the neighbour's.",
+        "accept_ideas": [
+          "the trial field had manure",
+          "the trial field was planted earlier",
+          "manure and an earlier planting",
+          "one field got plant food and went in early"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who owns the neighbour's field"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the fields had different seed",
+            "ask": "The seed is the thing being sold. What else did the winning field get?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "A reader says the card proves the new seed yields more. Is that shown?",
+      "tutor_only": {
+        "confirm": "No. The trial field also had manure and an earlier planting.",
+        "correct_reason": "The two fields differ in seed, manure, and planting date, so the twelve-bushel gap could come from any of the three.",
+        "tell": "No. The field that won also had manure and an earlier planting, so the gap could come from those.",
+        "help": [
+          "The sentences about manure and planting date give the other causes.",
+          "They show three differences, not one."
+        ],
+        "say_back": "own_words",
+        "core_idea": "No, because the trial field also had manure and an earlier planting, so the gap could come from those.",
+        "accept_ideas": [
+          "no, the trial field also had manure",
+          "no, the fields differ in more than seed",
+          "no, the earlier planting could explain it",
+          "no, three things changed at once"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "whether the seed is expensive"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the harvests were weighed, so the card is right",
+            "ask": "Weighing fixes the harvest, not the cause. What else differed between the fields?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "argument_evidence",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What would a fair test of the two seeds look like?",
+      "tutor_only": {
+        "confirm": "Right. Two fields treated the same way, with only the seed different.",
+        "correct_reason": "A fair test would treat two fields the same way in soil, plant food, and planting date, and change only the seed.",
+        "tell": "Two fields farmed the same way, with only the seed different.",
+        "help": [
+          "The sentences about the three differences name what has to match.",
+          "They show the one thing that should change."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Two fields treated the same way, with only the seed different.",
+        "accept_ideas": [
+          "same soil and planting, different seed",
+          "two fields run alike, one seed each",
+          "hold everything the same except the seed",
+          "plant both seeds in the same conditions"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who would pay for a second trial"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the same field planted twice in one year",
+            "ask": "One field in one season still carries one set of conditions. What has to be held equal?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "argument_evidence_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because no higher argument-and-evidence rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "argument_evidence_band_4_3_0003",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "argument_evidence_band_4_3_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
