@@ -1,0 +1,260 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "authors_craft_band_4_1_0004",
+  "meta": {
+    "status": "published",
+    "title": "Telling Bread Flour by Hand",
+    "skill": "authors_craft",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Author's craft: read how the writer uses imperative mood.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured part_1 112w at FK 7.1, part_2 141w at FK 7.7, part_3 133w at FK 6.5. The load is imperative mood, precise comparison, and the order of steps in instructions.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from Fannie Merritt Farmer, The Boston Cooking-School Cook Book (1910), under DESIGN_RULES 2.5.",
+      "attribution": "Farmer, Fannie Merritt. The Boston Cooking-School Cook Book. 1910. Project Gutenberg eBook #65061, https://www.gutenberg.org/ebooks/65061, accessed 2026-11-11. Public domain in the United States.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Split long sentences, replaced rare words, dropped brand names; no facts added.",
+      "survey": "A cooking teacher tells a reader how to tell bread flour from pastry flour by hand.",
+      "avoided": "No invented measurements, brands, or baking results."
+    },
+    "session": {
+      "scope": "bank",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "imperative mood, precise comparison, and the order of steps in instructions"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "In buying flour, whether bread or pastry, select the best kept by your grocer. Bread flour should be used in all cases where yeast is called for, with few exceptions; in other cases, pastry flour. The difference between bread and pastry flour may be readily determined. Take bread flour in the hand, close hand tightly, then open. Flour will not keep in shape; if allowed to pass through fingers it will feel slightly granular. Take pastry flour in the hand, close hand tightly, open, and flour will be in shape, having impression of the lines of the hand, and feeling soft and velvety to touch. Flour should always be sifted before measuring.",
+    "part_2": "Yeast is a tiny plant. It is a fungus. It is the lowest form of plant life; these spores grow by budding and division; they multiply fast in good conditions. They make fermentation. Fermentation is how sugar turns into alcohol and carbon dioxide. Air, warmth, moisture, and a ferment cause this; when bread dough ferments with yeast, the fermentation is alcoholic; if alcoholic fermentation goes on too long, acetic fermentation starts; acetic fermentation follows alcoholic. Lactic fermentation happens when milk sours. Compressed yeast cakes in tinfoil have long worked well. They are now almost always used. They have replaced home-made liquid yeast; never use a yeast cake unless it is perfectly fresh; you can tell by its light color and lack of dark streaks. The yeast plant is killed at 212° F; at 32° F, life is paused but not fully destroyed.",
+    "part_3": "The best temperature for its growth is 65° to 68° F. Fermented bread is made by mixing flour into a dough with a definite quantity of water, milk, or water and milk, salt, and a ferment. Sugar is usually added to hasten fermentation. Knead the dough so the ingredients are thoroughly incorporated. Cover it and let it rise at 68° F. until it has doubled its bulk. Knead the dough a second time to break bubbles and distribute the carbon dioxide evenly. Shape it into loaves and put them in greased bread pans, half filled. Cover them and let them rise at the same temperature as the first rising, until they double their bulk. If risen too long, it will be full of large holes; if not risen long enough, it will be heavy and soggy."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What should always be done to flour before it is measured?",
+      "tutor_only": {
+        "confirm": "Flour should be sifted before measuring.",
+        "correct_reason": "The last sentence says, \"Flour should always be sifted before measuring.\"",
+        "tell": "The passage says to sift flour before measuring it. That order is stated in the last sentence.",
+        "help": [
+          "Look at the final sentence in part 1.",
+          "Find the action that comes before measuring."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Flour must be sifted before measuring.",
+        "accept_ideas": [
+          "sift the flour before measuring",
+          "flour should be sifted first",
+          "sifting comes before measuring"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "mentioning bread versus pastry flour",
+          "explaining why sifting helps"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say flour is measured before it is sifted.",
+            "ask": "Which sentence gives the order of sifting and measuring?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "According to the passage, when should bread flour be used, and when should pastry flour be used?",
+      "tutor_only": {
+        "confirm": "Use bread flour when yeast is called for, with few exceptions; use pastry flour in other cases.",
+        "correct_reason": "The answer is in this sentence: 'Bread flour should be used in all cases where yeast is called for, with few exceptions; in other cases, pastry flour.'",
+        "tell": "Bread flour goes with yeast recipes. Pastry flour is for the other cases.",
+        "help": [
+          "Look at the sentence that names both bread flour and pastry flour.",
+          "Find the phrase 'where yeast is called for' and what follows 'in other cases'."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Bread flour is for yeast recipes; pastry flour is for other recipes.",
+        "accept_ideas": [
+          "Bread flour for yeast recipes and pastry flour for other recipes.",
+          "Bread flour when yeast is used; pastry flour otherwise.",
+          "Bread flour for yeast; pastry flour in other cases."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Exact wording from the passage.",
+          "The exceptions to the bread-flour rule.",
+          "A description of how to test flour by hand."
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say pastry flour should be used whenever yeast is called for.",
+            "ask": "Which flour does the sentence connect with 'where yeast is called for'?"
+          },
+          {
+            "when": "They say bread flour is for all recipes without exceptions.",
+            "ask": "What phrase after 'with few exceptions' names the other flour?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The passage says yeast life at 32°F is paused but not fully destroyed. What does 'paused' suggest?",
+      "tutor_only": {
+        "confirm": "It may become active again when it warms.",
+        "correct_reason": "The sentence 'at 32° F., life is paused but not fully destroyed' supports that warming may let the yeast become active again, though the passage does not state that directly.",
+        "tell": "The passage says freezing pauses yeast life but does not destroy it. Paused life can start again when conditions improve.",
+        "help": [
+          "Find the sentence about yeast at 32°F.",
+          "Notice the words 'paused but not fully destroyed.'"
+        ],
+        "say_back": "own_words",
+        "core_idea": "Paused suggests yeast life has stopped for now but is not destroyed.",
+        "accept_ideas": [
+          "life has stopped for now but is not destroyed",
+          "the yeast is not dead, only stopped for now"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "It dies at 32°F.",
+          "It turns into alcohol.",
+          "It becomes a spore."
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say freezing kills the yeast completely.",
+            "ask": "What does the passage say happens to yeast life at 32°F?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the author repeat the word 'fermentation' throughout this paragraph?",
+      "tutor_only": {
+        "confirm": "Repeating 'fermentation' keeps the reader focused on the process and links alcoholic, acetic, and lactic kinds.",
+        "correct_reason": "The sentence 'if alcoholic fermentation goes on too long, acetic fermentation starts; acetic fermentation follows alcoholic' shows the repeated word connects one fermentation stage to the next.",
+        "tell": "The word 'fermentation' appears again and again. It names the process that changes dough.",
+        "help": [
+          "Find the sentence that says what fermentation is.",
+          "Notice how the paragraph names alcoholic, acetic, and lactic fermentation."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Repeating 'fermentation' keeps attention on the process and shows how one stage can lead to another.",
+        "accept_ideas": [
+          "The repetition keeps the reader focused on fermentation as a process.",
+          "It links alcoholic, acetic, and lactic fermentation together.",
+          "It shows fermentation can change from one kind to another."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Naming all three fermentation types",
+          "Explaining yeast as a fungus",
+          "Mentioning temperature"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say the author repeats it because it is a hard word.",
+            "ask": "What does the repeated word help you follow in the paragraph?"
+          },
+          {
+            "when": "They say repetition fills space.",
+            "ask": "Which sentence links one fermentation to the next?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What change in approach does the part_3 sentence about shaping loaves and filling pans show?",
+      "tutor_only": {
+        "confirm": "The author shifts from judging flour to giving ordered bread-making steps.",
+        "correct_reason": "The sentence 'Shape it into loaves and put them in greased bread pans, half filled' is an ordered bread-making step, showing part_3’s shift to process instructions.",
+        "tell": "Part_1 tells how to judge flour. Part_3 gives ordered steps for making bread.",
+        "help": [
+          "Look at the part_3 command about shaping loaves and filling pans.",
+          "Compare part_1’s flour tests with part_3’s bread-making commands."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Part_1 helps readers judge flour; part_3 gives ordered steps for making bread.",
+        "accept_ideas": [
+          "The author moves from judging flour to giving ordered bread-making steps.",
+          "Part_3 gives a sequence of actions for making bread.",
+          "Part_1 tests flour; part_3 tells how to make dough rise."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Naming every ingredient",
+          "Mentioning yeast types",
+          "Using the term imperative mood"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say part_1 already gives the steps for shaping loaves.",
+            "ask": "Part_1 tells you how to judge flour. Which part gives the steps for shaping loaves?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "authors_craft_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "This band has no higher rung yet.",
+    "student_line": "You have the move. The next reading is another craft lesson."
+  },
+  "retry": {
+    "next_file": "authors_craft_band_4_1_0005",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another craft lesson in this band."
+  },
+  "stopped": {
+    "next_file": "authors_craft_band_4_1_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

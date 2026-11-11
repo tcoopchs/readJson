@@ -1,0 +1,258 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "authors_craft_band_4_1_0001",
+  "meta": {
+    "status": "published",
+    "title": "How a Poem Gets Its Echo",
+    "skill": "authors_craft",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "topic_domain": "arts and language",
+    "skill_frame": "Author's craft: read how the writer uses repetition and variation.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured part_1 146w at FK 5.2, part_2 136w at FK 7.2, part_3 145w at FK 6.3. The load is repetition and variation, first person, why the writer repeats a line without repeating its meaning.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from Edgar Allan Poe, \"The Philosophy of Composition\" (1846), under DESIGN_RULES 2.5.",
+      "attribution": "Poe, Edgar Allan. \"The Philosophy of Composition.\" 1846. Project Gutenberg eBook #55749, https://www.gutenberg.org/ebooks/55749, accessed 2026-11-11. Public domain in the United States.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Split long sentences, replaced rare words, dropped classical asides; no facts added.",
+      "survey": "A writer explains why he repeats a refrain and varies its meaning each time.",
+      "avoided": "No invented details about the poem, the writer's life, or the reception of the work."
+    },
+    "session": {
+      "scope": "bank",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "repetition and variation, first person, why the writer repeats a line without repeating its meaning"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Length, scope, and tone were set. I used plain thought to find a sharp artistic point—a keynote, a pivot, for the poem to turn on; I thought over the usual effects—or points, in the theater sense. I saw that none was so widely used as the refrain. Its wide use showed its value. It saved me from analysis. I asked if it could be improved. I soon saw it was crude. As usually used, the refrain is only for lyric verse. It gets its effect from monotone—in sound and thought. The pleasure comes only from the sense of identity—of repetition. I chose to vary the effect and make it stronger. I would keep the monotone of sound, but keep changing the thought; I would keep making new effects by varying how the refrain is used; the refrain itself stayed mostly the same.",
+    "part_2": "With those points settled, I next considered the nature of my refrain. Since I would vary its use repeatedly, the refrain itself had to be brief. Frequent variations in a long sentence would be too difficult. This led me at once to a single word as the best refrain. Then I asked what character the word should have. Such a close had to be sonorous and able to bear long emphasis; this led me to the long “o” as the most sonorous vowel and “r” as the most producible consonant. With the sound fixed, I had to choose a word with that sound and with the fullest keeping with the melancholy I had set as the poem’s tone. In that search I could not overlook “Nevermore”; it was the very first word that presented itself.",
+    "part_3": "Next I needed a reason to keep using the word “Nevermore.” I saw the problem. It came from assuming a human would say the word over and over. The hard part was joining that sameness with reason in the one who says it. Then I thought of a creature that could speak but could not reason. A parrot came to mind first, but I replaced it at once with a Raven. A Raven can speak as well, and it fits the tone far better. I had now gone so far as to imagine a Raven—the bird of ill omen—repeating “Nevermore” over and over at the end of each stanza. The poem would be melancholy and about one hundred lines long. I never lost sight of perfection. I asked myself: “Of all melancholy topics, what is the most melancholy?” Death was the obvious reply."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What did the writer keep the same and what did he keep changing in the refrain?",
+      "tutor_only": {
+        "confirm": "The writer kept the sound's monotone and kept changing the thought.",
+        "correct_reason": "The sentence says he would keep the monotone of sound but keep changing the thought.",
+        "tell": "The writer wanted a stronger effect. He kept the sound steady and varied the thought.",
+        "help": [
+          "Look at the sentence about keeping the monotone of sound.",
+          "Notice what the writer says he kept changing."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The refrain keeps a steady sound while its thought changes.",
+        "accept_ideas": [
+          "Keep the sound's monotone and change the thought.",
+          "Vary the thought while the refrain's sound stays steady.",
+          "The same sound with a new meaning each time."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Naming the Raven",
+          "Explaining the poem's length",
+          "Listing every effect"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say the writer kept the whole refrain exactly the same.",
+            "ask": "Which sentence says the thought kept changing?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why does the writer keep the refrain’s sound the same but change its thought?",
+      "tutor_only": {
+        "confirm": "To keep the repeated sound while making new effects by changing the thought.",
+        "correct_reason": "The sentence “I would keep the monotone of sound, but keep changing the thought” states both choices.",
+        "tell": "The writer wants the same sound to repeat. Changing the thought makes new effects.",
+        "help": [
+          "Look at the sentence that begins “I would keep the monotone of sound.”",
+          "What does the writer say he keeps changing?"
+        ],
+        "say_back": "own_words",
+        "core_idea": "The writer repeats the refrain’s sound but varies its thought to create new effects.",
+        "accept_ideas": [
+          "Keeping the sound the same while changing the thought creates new effects.",
+          "The repeated sound stays, but the meaning changes.",
+          "Varying the thought makes the refrain stronger."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "The word “Nevermore”",
+          "The Raven",
+          "The poem’s length"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say the writer changes both the sound and the thought.",
+            "ask": "What does the sentence say stays the same?"
+          },
+          {
+            "when": "They say the writer repeats the same thought.",
+            "ask": "What does the writer say he keeps changing?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did the writer decide that one word was the best refrain?",
+      "tutor_only": {
+        "confirm": "The writer picked a one-word refrain because he planned to vary it often.",
+        "correct_reason": "The sentence 'Frequent variations in a long sentence would be too difficult' supports this.",
+        "tell": "Point to the sentence about frequent variations. Link it to the choice of a single word.",
+        "help": [
+          "Find the sentence that says frequent variations in a long sentence would be difficult.",
+          "Ask what that difficulty means for the length of the refrain."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A brief refrain fits frequent variation; a long one would be too hard to vary.",
+        "accept_ideas": [
+          "A long refrain would be too hard to vary often.",
+          "The writer wanted a short refrain so he could change how it was used."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "That a raven was chosen",
+          "The sound of the vowel",
+          "The poem's length"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "The student says the writer chose one word because it was sonorous.",
+            "ask": "Which sentence in part 2 links refrain length to frequent variation?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The writer chooses the word “Nevermore”—what does that choice do for the reader?",
+      "tutor_only": {
+        "confirm": "It has a sonorous sound and fits the poem’s melancholy tone.",
+        "correct_reason": "The sentence “With the sound fixed, I had to choose a word with that sound and with the fullest keeping with the melancholy I had set as the poem’s tone.” says the word must have the fixed sound and keep the melancholy tone.",
+        "tell": "The word “Nevermore” has a long o and r sound. It also matches the poem’s melancholy tone.",
+        "help": [
+          "Look at the sentence that begins “With the sound fixed.”",
+          "Ask what that sentence says the word must keep."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The writer chose “Nevermore” because its sound is sonorous and it keeps the melancholy tone.",
+        "accept_ideas": [
+          "It has the long o and r sound.",
+          "It fits the melancholy tone.",
+          "It is sonorous and sad.",
+          "It keeps the poem’s tone."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Naming the Raven",
+          "Explaining the whole poem",
+          "Saying it was the first word"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "Says the word was chosen only because it came first.",
+            "ask": "Which sentence says the word had to keep the poem’s melancholy tone?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "After planning the refrain in part 1, what new problem does the writer work on in part 3?",
+      "tutor_only": {
+        "confirm": "He needs a reason to keep using the word 'Nevermore.'",
+        "correct_reason": "The sentence 'Next I needed a reason to keep using the word “Nevermore.”' shows the new problem in part 3.",
+        "tell": "Part 1 plans how the refrain will vary. Part 3 asks why the speaker repeats one word.",
+        "help": [
+          "Look at the first sentence of part 3.",
+          "Notice what the writer says he needed next."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The writer shifts from planning how the refrain varies to finding a reason for its repeated word.",
+        "accept_ideas": [
+          "He needs a reason for repeating 'Nevermore.'",
+          "He moves from planning the refrain to justifying the repeated word.",
+          "The plan changes to making the repetition believable."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Naming the Raven",
+          "The poem's length",
+          "The vowel and consonant sounds"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say the writer changes the refrain to a parrot.",
+            "ask": "Which sentence says he replaced the parrot with a Raven?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "authors_craft_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "This band has no higher rung yet.",
+    "student_line": "You have the move. The next reading is another craft lesson."
+  },
+  "retry": {
+    "next_file": "authors_craft_band_4_1_0002",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another craft lesson in this band."
+  },
+  "stopped": {
+    "next_file": "authors_craft_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
