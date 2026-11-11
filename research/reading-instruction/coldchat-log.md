@@ -415,3 +415,25 @@ Six new lessons, `argument_evidence_band_4_1_0001` to `_0006`, swept on the comp
 
 Still owed on this rung: misconception, injection, and stop-by-request sessions, the branch and
 tolerance probes, and the TC review of the six drafted passages.
+
+### 2026-11-10 — literary_text 3.1 sweep
+
+Six new lessons, `literary_text_band_3_1_0001` to `_0006`, swept on the compiled files, indices 53-58
+of the sorted lesson list, the first fiction cell below band 5.
+
+- Smooth: 6 of 6, opened on the first reply, five items in order, `done=5 u=5 an=1`, no leak, no early
+  ticket ($0.0165).
+- Hard: 6 of 6, authored help only (`invented_help` empty on every lesson), `tell` reached, stopped
+  ticket `an=0|stop=1` with `done=1` on every lesson, so the help ladder and `tell` were exercised
+  rather than skipped, no private-field leak ($0.0171).
+- Routing against the live catalog: a clear on any 3.1 sequence holds with `hold=ceiling`, because no
+  rung above 3.1 is authored; two down-moves hold with `hold=two_down_moves`, because the floor has no
+  rung below it.
+- Defects caught by the gates before the sweep: `audit_lessons.py` flagged three help lines that named
+  "the first part" or "the second part" (rewritten to name the sentence); `--strict` flagged one
+  `accept_ideas` entry phrased as an instruction. The whole rung's first draft measured 70-85 words a
+  lesson at FK 1.2-2.6; every part was expanded to 46-57 words at FK 2.73-4.35 and re-measured before
+  any item was written.
+
+Still owed on this rung: misconception, injection, and stop-by-request sessions, the branch and
+tolerance probes, and the TC review of the six drafted passages.

@@ -127,6 +127,12 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-114 | Half the Injuries | Nonfiction | 4 | Band 4.3 | 309 words (three passages, 102, 107, 100) | 5.92 | `argument_evidence_band_4_3_0004` |
 | TB-115 | Doubled Participation | Nonfiction | 4 | Band 4.3 | 308 words (three passages, 104, 103, 101) | 5.94 | `argument_evidence_band_4_3_0005` |
 | TB-116 | No One Has Reported a Fall | Nonfiction | 4 | Band 4.3 | 307 words (three passages, 102, 104, 101) | 5.82 | `argument_evidence_band_4_3_0006` |
+| TB-117 | The Night Key | Fiction | 3 | Band 3.1 | 105 words (two passages, 48 and 57) | 3.69 | `literary_text_band_3_1_0001` |
+| TB-118 | The Stop on the Hill | Fiction | 3 | Band 3.1 | 99 words (two passages, 53 and 46) | 3.96 | `literary_text_band_3_1_0002` |
+| TB-119 | The Last Boxes | Fiction | 3 | Band 3.1 | 104 words (two passages, 55 and 49) | 3.55 | `literary_text_band_3_1_0003` |
+| TB-120 | The Word on the Board | Fiction | 3 | Band 3.1 | 100 words (two passages, 53 and 47) | 3.92 | `literary_text_band_3_1_0004` |
+| TB-121 | Read It Out Loud | Fiction | 3 | Band 3.1 | 99 words (two passages, 52 and 47) | 3.42 | `literary_text_band_3_1_0005` |
+| TB-122 | Sheets Over the Plants | Fiction | 3 | Band 3.1 | 106 words (two passages, 55 and 51) | 2.90 | `literary_text_band_3_1_0006` |
 
 ---
 
@@ -3915,6 +3921,202 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
 **Why it works.** An empty log is read as proof that nothing happened, when it records only what someone walked three miles to write.
 
 **Cautions.** No park name, trail name, or state.
+
+## TB-117 — The Night Key
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | work and trade |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 105 words (two passages, 48 and 57) |
+| FK grade | 3.69 on the two passages together (3.10, 4.25) |
+| Complexity | L1, I2, S1, K1 |
+| Best lesson fit | `literary_text_band_3_1_0001` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A night porter keeps a cleaner's lost key quiet, pays for a new one himself, and lets her in at four without asking for anything back.
+
+**Supporting details.**
+
+- The porter locks the front door at eleven and checks the ground-floor rooms.
+- He keeps one spare key in his coat, and it fits the side door by the bins.
+- The cleaner lost her own key last month and told nobody.
+- The porter did not report the loss; he paid for a new key and gave it to her before her shift.
+- The side door opens at four in the morning and the front door stays locked until six.
+
+**Why it works.** The motive is never stated. The reader joins the missing report to the key he paid for and sees that he chose to help her quietly.
+
+**Cautions.** No hotel name, street, town, or wage. No claim about what the manager would have done.
+
+---
+
+## TB-118 — The Stop on the Hill
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | places and travel |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 99 words (two passages, 53 and 46) |
+| FK grade | 3.96 on the two passages together (4.35, 3.52) |
+| Complexity | L1, I2, S1, K1 |
+| Best lesson fit | `literary_text_band_3_1_0002` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A bus driver stops at an unlisted hill for one old man, keeps stopping for a week after he disappears, and picks him up again in spring without being asked.
+
+**Supporting details.**
+
+- The bus leaves the depot at seven every morning and the driver knows the road, including the long hill outside town.
+- For years he stopped at the top of the hill for one passenger, an old man with a walking stick.
+- The stop is not on the timetable.
+- Last winter the old man stopped coming, and the driver waited at the hill for one more week.
+- In spring the old man was back, and the driver pulled over without being asked.
+
+**Why it works.** The story turns on a change and a return. Neither the week of waiting nor the pull-over is explained, so the reader has to read the habit as care.
+
+**Cautions.** No bus company, town, or fare. No claim about the old man's health or family.
+
+---
+
+## TB-119 — The Last Boxes
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | food and farming |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 104 words (two passages, 55 and 49) |
+| FK grade | 3.55 on the two passages together (3.93, 3.15) |
+| Complexity | L1, I2, S1, K1 |
+| Best lesson fit | `literary_text_band_3_1_0003` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A grower wants the last boxes sold cheap, her helper wants them for the food bank, and the helper's plan wins when the grower loads the van herself.
+
+**Supporting details.**
+
+- At four in the afternoon the market thins out and the stalls start to pack.
+- The grower wants the last boxes of tomatoes sold cheap so she can go home.
+- The helper wants the boxes kept for the food bank, whose van comes at five.
+- The grower's reason is that the ripe boxes will not last until five.
+- The helper stacks the boxes in the shade by the gate, and at five the grower loads them herself.
+
+**Why it works.** Two wants are set side by side in plain words, and the settlement is shown by an action rather than stated.
+
+**Cautions.** No market name, town, price, or weight. No claim about how much the food bank takes.
+
+---
+
+## TB-120 — The Word on the Board
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | sport and play |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 100 words (two passages, 53 and 47) |
+| FK grade | 3.92 on the two passages together (4.27, 3.55) |
+| Complexity | L1, I2, S1, K1 |
+| Best lesson fit | `literary_text_band_3_1_0004` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A coach writes the same word, look, before and after a game, and the fastest player scores only when she looks up and passes.
+
+**Supporting details.**
+
+- The coach writes one word on the board before each game: look.
+- The players laugh about it, but the word stays up.
+- The youngest player is the fastest on the team and never passes the ball.
+- In the last minute she looks up, sees a teammate alone in front of the goal, and passes.
+- After the win the coach writes the same word on the board again.
+
+**Why it works.** The repeated word is the clue. Its second appearance after the win is what tells the reader the word was the lesson.
+
+**Cautions.** No team name, league, or score. No claim about the other team.
+
+---
+
+## TB-121 — Read It Out Loud
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | arts and language |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 99 words (two passages, 52 and 47) |
+| FK grade | 3.42 on the two passages together (3.55, 3.30) |
+| Complexity | L1, I2, S1, K1 |
+| Best lesson fit | `literary_text_band_3_1_0005` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A printer's one rule, read the line out loud, catches a line the apprentice passed in silence, and a shorter line goes to press.
+
+**Supporting details.**
+
+- The printer sets type by hand and gives the new apprentice one rule on her first morning.
+- The rule: set the line, then read it out loud, because a line that is hard to say is hard to read.
+- The apprentice reads the poster in her head and tells the printer it is fine.
+- The printer reads it out loud and stops at one line.
+- She sets that line again, shorter, and the poster goes to press before six.
+
+**Why it works.** The rule is stated before the mistake, so the reader holds it while the second part tests it. The fix is shown, not explained.
+
+**Cautions.** No shop name, town, or client. No claim about what the poster said.
+
+---
+
+## TB-122 — Sheets Over the Plants
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | science and nature |
+| Grade target | 3 |
+| Band | Band 3.1 |
+| Length | 106 words (two passages, 55 and 51) |
+| FK grade | 2.90 on the two passages together (3.07, 2.73) |
+| Complexity | L1, I2, S1, K1 |
+| Best lesson fit | `literary_text_band_3_1_0006` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A gardener covers her plants against frost over her neighbour's objection, and folds the sheets by the door for the next cold night.
+
+**Supporting details.**
+
+- The forecast gives frost before morning and a clear sky.
+- The gardener covers the young plants with old sheets and pins the corners down.
+- Her neighbour says the sheets do no good at all, and she covers the plants anyway.
+- In the morning the ice is on the sheets, her plants are green, and his are black.
+- He looks over the fence and says nothing, and she folds the sheets on the shelf by the door.
+
+**Why it works.** The result is shown before the prediction is confirmed, and the last action carries a prediction the text never states.
+
+**Cautions.** No place, garden size, or crop name beyond young plants. No claim about the weather after this night.
 
 ---
 

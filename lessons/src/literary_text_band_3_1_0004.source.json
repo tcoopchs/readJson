@@ -1,0 +1,247 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_3_1_0004",
+  "meta": {
+    "status": "published",
+    "title": "The Word on the Board",
+    "skill": "literary_text",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 4,
+    "genre": "fiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Literary text: notice a detail the story repeats and what the repeat means.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 4.27 and 3.55 on the two parts (53 and 47 words), 3.92 together. The load is one repeated word and one pass, so the reader tracks a single clue twice. That sits inside the grade 2-3 band and below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for literary_text 3.1, band 3.1, sequence 4. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A coach who writes the same word before and after a game, built so the repeated word carries the change in the youngest player.",
+      "avoided": "No team name, league, or score. No claim about the other team."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One word repeated before and after the game, and the second use carries the meaning."
+    },
+    "authoring_exceptions": [
+      "Parts run 45-60 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the whole story stays visible on one screen. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The team trains on the same field every week, whatever the weather. Before each game the coach writes one word on the board in the changing room: look. The players laugh about it, but the word stays up. The youngest player is the fastest on the team, and she never passes the ball.",
+    "part_2": "In the last minute she takes the ball down the wing with two players closing on her. She looks up, sees a teammate alone in front of the goal, and passes. The teammate scores. After the game the coach writes the same word on the board again."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What word does the coach write on the board?",
+      "tutor_only": {
+        "confirm": "Right. The word is look.",
+        "correct_reason": "The passage says the coach writes one word on the board: look.",
+        "tell": "The coach writes the word look on the board before each game.",
+        "help": [
+          "The sentence about the board names the word.",
+          "It is a short word about where the eyes go."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Look.",
+        "accept_ideas": [
+          "look",
+          "the word look"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says pass",
+            "ask": "Passing is what the player does at the end. What word does the coach write?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The youngest player is the fastest on the team. What does she never do?",
+      "tutor_only": {
+        "confirm": "Yes. She never passes the ball.",
+        "correct_reason": "The passage says she is the fastest and she never passes the ball.",
+        "tell": "She is the fastest player, and she never passes the ball.",
+        "help": [
+          "The sentence about the youngest player gives both facts.",
+          "One fact is about speed, and the other is about the ball."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She never passes the ball.",
+        "accept_ideas": [
+          "she never passes",
+          "she does not pass",
+          "she never passes the ball"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she never scores",
+            "ask": "The passage does not mention her scoring. What does it say she never does with the ball?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "She looks up before she passes. Why does that matter?",
+      "tutor_only": {
+        "confirm": "Right. Looking up lets her see the teammate alone in front of the goal.",
+        "correct_reason": "She looks up, sees a teammate alone in front of the goal, and passes.",
+        "tell": "Looking up is what shows her the teammate alone in front of the goal.",
+        "help": [
+          "Look at what she sees after she looks up.",
+          "The sentence names a teammate and the goal."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She sees the teammate alone in front of the goal.",
+        "accept_ideas": [
+          "she sees her teammate",
+          "she finds the open player",
+          "she sees who is free",
+          "she spots the teammate in front of the goal"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she looks at the crowd",
+            "ask": "The passage says she sees a teammate. What is that teammate doing?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The coach writes the same word after the team wins. Why write it again?",
+      "tutor_only": {
+        "confirm": "Yes. The word worked, and he wants it to stay.",
+        "correct_reason": "The pass that won the game came after she looked up, so the coach writes the word again.",
+        "tell": "The word won the game. The coach writes it again so the players keep looking up.",
+        "help": [
+          "Compare the board before the game with the board after it.",
+          "The word did its work in the last minute."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Because looking up won the game, and he wants them to keep doing it.",
+        "accept_ideas": [
+          "the word worked",
+          "to remind them to keep looking",
+          "because looking up helped",
+          "so they keep doing it"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the players forgot the word",
+            "ask": "The word was on the board before the game. Why write it after a win?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The story shows a fast player and one word on a board. What does it show about being fast?",
+      "tutor_only": {
+        "confirm": "Right. Being fast is not enough on its own.",
+        "correct_reason": "She is the fastest player and never passes, and the goal comes only after she looks up and passes.",
+        "tell": "Speed alone did not score the goal. She scored it after she looked up and passed.",
+        "help": [
+          "Look at what she does before the pass.",
+          "She is fast all game, and the goal comes after she looks up."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Being fast is not enough without looking up.",
+        "accept_ideas": [
+          "you have to look up",
+          "speed alone does not score",
+          "she needed to pass",
+          "fast players still need to pass"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says fast players always score",
+            "ask": "The passage says she is the fastest and she never passes. What happens when she looks up?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "The first lesson of this skill, because no higher rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "literary_text_band_3_1_0005",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_3_1_0004",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

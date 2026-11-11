@@ -1,0 +1,249 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_3_1_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Last Boxes",
+    "skill": "literary_text",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 3,
+    "genre": "fiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Literary text: read what two characters want when they want different things.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 3.93 and 3.15 on the two parts (55 and 49 words), 3.55 together. The load is two people who want different things, and the reader must keep both wants apart. That sits inside the grade 2-3 band and below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for literary_text 3.1, band 3.1, sequence 3. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A market grower and her helper who want different things for the last boxes, built so the disagreement and the settlement both sit in plain words.",
+      "avoided": "No market name, town, price, or weight. No claim about how much the food bank takes."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Two people who want different things, and the settlement shown by what each does at the end."
+    },
+    "authoring_exceptions": [
+      "Parts run 45-60 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the whole story stays visible on one screen. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "At four in the afternoon the market thins out and the stalls start to pack. The grower wants to sell the last boxes of tomatoes cheap and go home. Her helper wants to keep the boxes for the food bank. The van from the food bank comes at five, and the boxes hold ripe fruit.",
+    "part_2": "\"They will not last until five,\" the grower says, and she reaches for the first box. \"Then we carry them to the gate,\" the helper says. She stacks the boxes in the shade by the gate. At five the van pulls in, and the grower loads the boxes herself."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the grower want to do with the last boxes?",
+      "tutor_only": {
+        "confirm": "Right. She wants to sell them cheap and go home.",
+        "correct_reason": "The passage says the grower wants to sell the last boxes cheap and go home.",
+        "tell": "The grower wants the boxes sold cheap so she can go home.",
+        "help": [
+          "The sentence about the grower gives her plan.",
+          "It is about selling, not keeping."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Sell them cheap and go home.",
+        "accept_ideas": [
+          "sell them cheap",
+          "sell the boxes and go home",
+          "sell them at a low price"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she wants to keep them",
+            "ask": "Keeping the boxes is the helper's plan. What does the grower want to do?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the helper want to do with the boxes?",
+      "tutor_only": {
+        "confirm": "Yes. She wants to keep them for the food bank.",
+        "correct_reason": "The passage says the helper wants to keep the boxes for the food bank.",
+        "tell": "The helper wants the boxes kept for the food bank van.",
+        "help": [
+          "The sentence after the grower's plan gives the helper's plan.",
+          "It involves the van that comes at five."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Keep them for the food bank.",
+        "accept_ideas": [
+          "keep them for the food bank",
+          "give them to the food bank",
+          "hold them for the van",
+          "keep them for the van"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she wants to sell them",
+            "ask": "Selling is the grower's plan. What does the helper want to do with the boxes?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The grower gives one reason she cannot keep the boxes. What is it?",
+      "tutor_only": {
+        "confirm": "Right. She says the boxes will not last until five.",
+        "correct_reason": "The grower says the boxes will not last until five, and she reaches for the first one.",
+        "tell": "The grower's reason is that the ripe tomatoes will not last until five.",
+        "help": [
+          "The sentence where the grower speaks gives her reason.",
+          "It is about how long the fruit lasts."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The tomatoes will not last until five.",
+        "accept_ideas": [
+          "they will not last until five",
+          "the boxes will not last",
+          "the tomatoes will spoil before five",
+          "they will not last until the van comes"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the boxes are too heavy",
+            "ask": "Nothing in the passage mentions weight. What does the grower say about the fruit and the time?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The grower says the boxes will not last. What does the helper do instead of arguing?",
+      "tutor_only": {
+        "confirm": "Yes. She carries the boxes into the shade by the gate.",
+        "correct_reason": "The helper says they will carry the boxes to the gate, and she stacks them in the shade.",
+        "tell": "The helper does not argue. She stacks the boxes in the shade by the gate and waits.",
+        "help": [
+          "Look at what the helper does after she speaks.",
+          "She moves the boxes somewhere cooler."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She carries the boxes into the shade by the gate.",
+        "accept_ideas": [
+          "she moves them to the shade",
+          "she stacks them by the gate",
+          "she carries them to the gate",
+          "she puts them in the shade"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she sells the boxes cheap",
+            "ask": "Selling cheap is the grower's plan. What does the helper do with the boxes?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "At five the grower loads the boxes into the van herself. What does that show?",
+      "tutor_only": {
+        "confirm": "Right. She accepted the helper's plan.",
+        "correct_reason": "The grower first wanted the boxes sold cheap. At five she loads them for the food bank herself.",
+        "tell": "The grower argued for selling the boxes. At five she loads them into the van herself, so she changed her mind.",
+        "help": [
+          "Compare what she wants at four with what she does at five.",
+          "Her first plan was to sell the boxes and go home."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She accepted the helper's plan.",
+        "accept_ideas": [
+          "she changed her mind",
+          "she agreed with the helper",
+          "she saw the boxes could be kept",
+          "she let the boxes go to the food bank"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she was angry",
+            "ask": "Nothing in the passage says she was angry. What does her action at five show about her plan?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "The first lesson of this skill, because no higher rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "literary_text_band_3_1_0004",
+    "next_irl": 3,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_3_1_0003",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

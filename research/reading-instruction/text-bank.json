@@ -1,6 +1,6 @@
 {
   "bank_version": 1,
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "rubric": "L/I/S/K 0-3; band is highest demand, grade_target is the reader label",
   "texts": [
     {
@@ -4199,6 +4199,228 @@
       "why_it_works": "An empty log is read as proof that nothing happened, when it records only what someone walked three miles to write.",
       "cautions": "No park name, trail name, or state.",
       "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-117",
+      "title": "The Night Key",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (48, 57 words)",
+      "length_words": 105,
+      "fk_grade": 3.69,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_3_1_0001"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "A night porter keeps a cleaner's lost key quiet, pays for a new one himself, and lets her in at four without asking for anything back.",
+      "supporting_details": [
+        "The porter locks the front door at eleven and checks the ground-floor rooms.",
+        "He keeps one spare key in his coat, and it fits the side door by the bins.",
+        "The cleaner lost her own key last month and told nobody.",
+        "The porter did not report the loss; he paid for a new key and gave it to her before her shift.",
+        "The side door opens at four in the morning and the front door stays locked until six."
+      ],
+      "why_it_works": "The motive is never stated. The reader joins the missing report to the key he paid for and sees that he chose to help her quietly.",
+      "cautions": "No hotel name, street, town, or wage. No claim about what the manager would have done.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-118",
+      "title": "The Stop on the Hill",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (53, 46 words)",
+      "length_words": 99,
+      "fk_grade": 3.96,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_3_1_0002"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "A bus driver stops at an unlisted hill for one old man, keeps stopping for a week after he disappears, and picks him up again in spring without being asked.",
+      "supporting_details": [
+        "The bus leaves the depot at seven every morning and the driver knows the road, including the long hill outside town.",
+        "For years he stopped at the top of the hill for one passenger, an old man with a walking stick.",
+        "The stop is not on the timetable.",
+        "Last winter the old man stopped coming, and the driver waited at the hill for one more week.",
+        "In spring the old man was back, and the driver pulled over without being asked."
+      ],
+      "why_it_works": "The story turns on a change and a return. Neither the week of waiting nor the pull-over is explained, so the reader has to read the habit as care.",
+      "cautions": "No bus company, town, or fare. No claim about the old man's health or family.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-119",
+      "title": "The Last Boxes",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (55, 49 words)",
+      "length_words": 104,
+      "fk_grade": 3.55,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_3_1_0003"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "A grower wants the last boxes sold cheap, her helper wants them for the food bank, and the helper's plan wins when the grower loads the van herself.",
+      "supporting_details": [
+        "At four in the afternoon the market thins out and the stalls start to pack.",
+        "The grower wants the last boxes of tomatoes sold cheap so she can go home.",
+        "The helper wants the boxes kept for the food bank, whose van comes at five.",
+        "The grower's reason is that the ripe boxes will not last until five.",
+        "The helper stacks the boxes in the shade by the gate, and at five the grower loads them herself."
+      ],
+      "why_it_works": "Two wants are set side by side in plain words, and the settlement is shown by an action rather than stated.",
+      "cautions": "No market name, town, price, or weight. No claim about how much the food bank takes.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-120",
+      "title": "The Word on the Board",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (53, 47 words)",
+      "length_words": 100,
+      "fk_grade": 3.92,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_3_1_0004"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "A coach writes the same word, look, before and after a game, and the fastest player scores only when she looks up and passes.",
+      "supporting_details": [
+        "The coach writes one word on the board before each game: look.",
+        "The players laugh about it, but the word stays up.",
+        "The youngest player is the fastest on the team and never passes the ball.",
+        "In the last minute she looks up, sees a teammate alone in front of the goal, and passes.",
+        "After the win the coach writes the same word on the board again."
+      ],
+      "why_it_works": "The repeated word is the clue. Its second appearance after the win is what tells the reader the word was the lesson.",
+      "cautions": "No team name, league, or score. No claim about the other team.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-121",
+      "title": "Read It Out Loud",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (52, 47 words)",
+      "length_words": 99,
+      "fk_grade": 3.42,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_3_1_0005"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "A printer's one rule, read the line out loud, catches a line the apprentice passed in silence, and a shorter line goes to press.",
+      "supporting_details": [
+        "The printer sets type by hand and gives the new apprentice one rule on her first morning.",
+        "The rule: set the line, then read it out loud, because a line that is hard to say is hard to read.",
+        "The apprentice reads the poster in her head and tells the printer it is fine.",
+        "The printer reads it out loud and stops at one line.",
+        "She sets that line again, shorter, and the poster goes to press before six."
+      ],
+      "why_it_works": "The rule is stated before the mistake, so the reader holds it while the second part tests it. The fix is shown, not explained.",
+      "cautions": "No shop name, town, or client. No claim about what the poster said.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-122",
+      "title": "Sheets Over the Plants",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 3,
+      "band": "Band 3.1",
+      "length_note": "two passages, one per displayed part (55, 51 words)",
+      "length_words": 106,
+      "fk_grade": 2.9,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_3_1_0006"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 3.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its two parts.",
+      "central_idea": "A gardener covers her plants against frost over her neighbour's objection, and folds the sheets by the door for the next cold night.",
+      "supporting_details": [
+        "The forecast gives frost before morning and a clear sky.",
+        "The gardener covers the young plants with old sheets and pins the corners down.",
+        "Her neighbour says the sheets do no good at all, and she covers the plants anyway.",
+        "In the morning the ice is on the sheets, her plants are green, and his are black.",
+        "He looks over the fence and says nothing, and she folds the sheets on the shelf by the door."
+      ],
+      "why_it_works": "The result is shown before the prediction is confirmed, and the last action carries a prediction the text never states.",
+      "cautions": "No place, garden size, or crop name beyond young plants. No claim about the weather after this night.",
+      "topic_domain": "science and nature",
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, accepted on spot check.",
       "drafted_by": "TC"

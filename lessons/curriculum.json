@@ -145,6 +145,20 @@
       "status": "incomplete"
     },
     {
+      "skill": "literary_text",
+      "grade": 3,
+      "stage": 1,
+      "expected_sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "complete"
+    },
+    {
       "skill": "main_idea",
       "grade": 3,
       "stage": 1,
@@ -213,118 +227,6 @@
         6
       ],
       "status": "incomplete"
-    },
-    {
-      "skill": "vocab",
-      "grade": 3,
-      "stage": 1,
-      "expected_sequences": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "status": "complete"
-    },
-    {
-      "skill": "vocab",
-      "grade": 4,
-      "stage": 1,
-      "expected_sequences": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "status": "complete"
-    },
-    {
-      "skill": "vocab",
-      "grade": 4,
-      "stage": 2,
-      "expected_sequences": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "status": "complete"
-    },
-    {
-      "skill": "vocab",
-      "grade": 4,
-      "stage": 3,
-      "expected_sequences": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "status": "complete"
-    },
-    {
-      "skill": "text_structure",
-      "grade": 3,
-      "stage": 1,
-      "expected_sequences": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "status": "complete"
-    },
-    {
-      "skill": "text_structure",
-      "grade": 4,
-      "stage": 1,
-      "expected_sequences": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "status": "complete"
-    },
-    {
-      "skill": "text_structure",
-      "grade": 4,
-      "stage": 2,
-      "expected_sequences": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "status": "complete"
-    },
-    {
-      "skill": "text_structure",
-      "grade": 4,
-      "stage": 3,
-      "expected_sequences": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "status": "complete"
     },
     {
       "skill": "process",
@@ -409,6 +311,118 @@
         6
       ],
       "status": "incomplete"
+    },
+    {
+      "skill": "text_structure",
+      "grade": 3,
+      "stage": 1,
+      "expected_sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "complete"
+    },
+    {
+      "skill": "text_structure",
+      "grade": 4,
+      "stage": 1,
+      "expected_sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "complete"
+    },
+    {
+      "skill": "text_structure",
+      "grade": 4,
+      "stage": 2,
+      "expected_sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "complete"
+    },
+    {
+      "skill": "text_structure",
+      "grade": 4,
+      "stage": 3,
+      "expected_sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "complete"
+    },
+    {
+      "skill": "vocab",
+      "grade": 3,
+      "stage": 1,
+      "expected_sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "complete"
+    },
+    {
+      "skill": "vocab",
+      "grade": 4,
+      "stage": 1,
+      "expected_sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "complete"
+    },
+    {
+      "skill": "vocab",
+      "grade": 4,
+      "stage": 2,
+      "expected_sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "complete"
+    },
+    {
+      "skill": "vocab",
+      "grade": 4,
+      "stage": 3,
+      "expected_sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "complete"
     }
   ]
 }

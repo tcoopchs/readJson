@@ -1,0 +1,250 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_3_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "Sheets Over the Plants",
+    "skill": "literary_text",
+    "irl_grade": 3,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "fiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Literary text: read a character's last action for what it says about what comes next.",
+    "reader": {
+      "who": "Older students who read at about a third-grade level.",
+      "reading_level": 3,
+      "why_this_level": "Measured FK 3.07 and 2.73 on the two parts (55 and 51 words), 2.90 together. The load is one prediction and one result, with the last action pointing at a night still to come. That sits inside the grade 2-3 band and below the 4.1 floor, which measures 5.3 at its easiest.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for literary_text 3.1, band 3.1, sequence 6. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A gardener and a neighbour on a frosty night, built so one result and one last action carry the prediction.",
+      "avoided": "No place, garden size, or crop name beyond young plants. No claim about the weather after this night."
+    },
+    "session": {
+      "scope": "build-floor",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "One prediction that comes true, and a last action that points past the end of the story."
+    },
+    "authoring_exceptions": [
+      "Parts run 45-60 words instead of 100-200. At band 3.1 the text is short by design: two parts keep the session inside 12 minutes and the whole story stays visible on one screen. Recorded under 2.1."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The forecast says frost will come before morning, and the sky is clear. The gardener covers the young plants with old sheets and pins the corners down. Her neighbour says the sheets do no good at all. She covers the plants anyway, and she does not argue with him. The plants are new this year.",
+    "part_2": "In the morning the sheets are stiff with ice. Under them the plants are green and standing. The neighbour's plants are black and flat. Her neighbour looks over the fence and says nothing. The gardener takes the sheets off, shakes them out, and folds them on the shelf by the door."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the forecast say?",
+      "tutor_only": {
+        "confirm": "Right. It says frost will come before morning.",
+        "correct_reason": "The first sentence says the forecast gives frost before morning and a clear sky.",
+        "tell": "The forecast says frost will come before morning.",
+        "help": [
+          "The first sentence gives the forecast.",
+          "It is about cold, not rain."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Frost will come before morning.",
+        "accept_ideas": [
+          "frost",
+          "frost will come",
+          "it will freeze",
+          "frost before morning"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says rain is coming",
+            "ask": "The passage says the sky is clear. What does the forecast warn about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the neighbour say about the sheets?",
+      "tutor_only": {
+        "confirm": "Yes. He says they do no good at all.",
+        "correct_reason": "The passage says the neighbour tells her the sheets do no good.",
+        "tell": "The neighbour says the sheets do no good at all.",
+        "help": [
+          "The sentence about the neighbour gives his view of the sheets.",
+          "He does not think they will help."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They do no good.",
+        "accept_ideas": [
+          "they do no good",
+          "the sheets will not help",
+          "they are no use",
+          "they will not work"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he lends her the sheets",
+            "ask": "The passage says she covers the plants with her own old sheets. What does he say about them?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "In the morning her plants are green and his are black. Why?",
+      "tutor_only": {
+        "confirm": "Right. The sheets kept the frost off her plants.",
+        "correct_reason": "The sheets are stiff with ice, and the plants under them are green while the uncovered plants are black.",
+        "tell": "The ice froze on the sheets, not on the plants. Her plants stayed green under the cover.",
+        "help": [
+          "Look at where the ice ended up in the morning.",
+          "The ice is on the sheets, and the plants under them are green."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The sheets kept the frost off her plants.",
+        "accept_ideas": [
+          "the sheets protected them",
+          "her plants were covered",
+          "the sheets kept them warm",
+          "the frost froze on the sheets"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says her plants were a better kind",
+            "ask": "The passage names no kinds of plants. Where did the ice freeze in the morning?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The neighbour looks over the fence and says nothing. What does that show?",
+      "tutor_only": {
+        "confirm": "Yes. He was wrong, and he knows it.",
+        "correct_reason": "He said the sheets would do no good, and in the morning her plants are green and his are black.",
+        "tell": "He said the sheets would do no good. In the morning he looks at the green plants and has nothing to say.",
+        "help": [
+          "Compare what he said at night with what he sees in the morning.",
+          "His plants are the black ones."
+        ],
+        "say_back": "own_words",
+        "core_idea": "He was wrong, and he knows it.",
+        "accept_ideas": [
+          "he was wrong",
+          "he saw she was right",
+          "he has no answer",
+          "he was mistaken"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he did not see the plants",
+            "ask": "He looks over the fence. What does he see that leaves him with nothing to say?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The gardener folds the sheets on the shelf by the door. What does she expect?",
+      "tutor_only": {
+        "confirm": "Right. She expects another cold night.",
+        "correct_reason": "She folds the sheets and keeps them by the door after a night that froze the ice on them.",
+        "tell": "She keeps the sheets by the door instead of putting them away. She expects more frost.",
+        "help": [
+          "Look at where she puts the sheets.",
+          "By the door is where they stay ready."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Another cold night.",
+        "accept_ideas": [
+          "more frost",
+          "another cold night",
+          "she will need them again",
+          "more cold weather"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "nothing else in the passage"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she is finished with the sheets",
+            "ask": "Folding them by the door keeps them ready. What kind of night does she expect?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_3_1_0001",
+    "next_irl": 3,
+    "next_means": "The first lesson of this skill, because no higher rung is authored yet.",
+    "student_line": "You have the move. The next reading is another lesson on this skill."
+  },
+  "retry": {
+    "next_file": "literary_text_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "This same lesson, since it is the last in the band.",
+    "student_line": "This is the last reading in this band. Read it again to finish."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_3_1_0006",
+    "next_irl": 3,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
