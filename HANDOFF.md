@@ -246,7 +246,7 @@ cold-chat sweep, argument_evidence 3.1 # smooth 6/6 ($0.0247 + $0.0030 re-run); 
 cold-chat sweep, argument_evidence 4.1 # smooth 6/6 ($0.0223); hard 6/6 ($0.0173), tell and an=0 stop
 cold-chat sweep, literary_text 4.1 # smooth 6/6 ($0.0315); hard 6/6 ($0.0177), tell and an=0 stop
 branch probe, literary_text 4.1     # 35/36 then 36/36 after widening one branch ($0.0434)
-tolerance probe, literary_text 4.1  # 21/30, then 23/30 after widening two keys ($0.0307); seven misses student-side
+tolerance probe, literary_text 4.1  # 21/30, then 23/30 after widening two keys ($0.0482 + $0.0074 replay); seven misses student-side
 routing, literary_text 4.1          # clear holds ceiling (4.2 unbuilt); hard fail steps down to 3.1_0003; a 3.1 clear moves up to 4.1_0001
 cold-chat sweep, argument_evidence 4.2 # smooth 6/6 ($0.0213); hard 6/6 ($0.0081), tell and an=0 stop
 cold-chat sweep, argument_evidence 4.3 # smooth 6/6 ($0.0212); hard 6/6 ($0.0082 + $0.0011 re-run on 0005), tell and an=0 stop

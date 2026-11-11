@@ -453,7 +453,7 @@ lesson list, the rung above the first fiction floor.
   so the owner-trusts reading was not covered. The `when` was widened to the trust reading and a
   second branch added for speed, and the replay passed ($0.0021). 36 of 36.
 - Tolerance probe, five items per lesson, student answering in its own words: 21 of 30 accepted
-  ($0.0307). Reading every miss, two were key defects — 0002 item 3 refused "he wants to be there when
+  ($0.0482). Reading every miss, two were key defects — 0002 item 3 refused "he wants to be there when
   the depot is open", and 0004 item 5 refused "the scale reads less, so she was underpaid" — and both
   keys were widened and replayed accepted ($0.0074). The other seven were the student model answering
   wrongly or too thinly, checked one by one: 0003 item 3 said the frame "needed more work", 0004 item 3
