@@ -464,6 +464,15 @@
         5,
         6
       ],
+      "status": "incomplete"
+    },
+    {
+      "skill": "authors_craft",
+      "grade": 12,
+      "stage": 1,
+      "expected_sequences": [
+        1
+      ],
       "status": "complete"
     }
   ]

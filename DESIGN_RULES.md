@@ -159,11 +159,12 @@ simplify, paraphrase, or regenerate it during a session.
    - **The license must permit derivative works**: public domain, CC0, or CC BY. Never adapt
      NoDerivatives material, and never adapt ShareAlike material into a lesson file. Adaptation of a
      CC BY work must say that changes were made, as that license requires.
-   - **Approval depends on the band.** At band 5 and above, a person reviews and approves the final
-     text before it is banked. Below band 5, an adapted passage follows the 2.6 regime instead: the
-     file carries `source.drafted_by` for accountability and `source.text_status` "adapted, reading
-     load reduced," and it joins the same random spot-check rotation as drafted text. Unreviewed
-     output is a draft, whatever produced it.
+   - **Record and sample, at every band.** Every adapted passage is recorded the same way at every
+     band: `source.drafted_by` names the person accountable, `source.text_status` says what was done
+     ("adapted, reading load reduced" or "drafted for the band, accepted on spot check"), and the file
+     joins the random spot-check rotation. There is no line-by-line pre-approval before banking. A
+     passage a person actually read carries `source.reviewed_by` with the date; never write "reviewed"
+     into a file nobody read.
    - **Adaptation may simplify, never invent.** Shorter sentences, common words, split clauses,
      removed asides. It may not add facts, examples, or explanations the source does not contain,
      and it may not change the argument or the sequence of events.
@@ -178,19 +179,19 @@ the exact URL and access date; for original text it is one line saying the text 
 lesson and naming no external work. The reuse gate keys work identity on it, so a missing attribution
 hides the lesson from the uniqueness check rather than exempting it.
 
-At band 5 and above, items are never AI-drafted: the answer key is authored. Below band 5, 2.6
-applies. Never invent a citation.
+An item set may be drafted by an AI at any band; a drafted key is recorded and sampled, never
+pre-approved line by line. The passage itself is never invented by an AI: it traces to human-written
+text under 2.5. Never invent a citation.
 
 **2.6 Sourcing depends on the band.** This section is the only statement of the band rule; the three
 routes themselves, and how an adaptation is made, are 2.5. Plans, handoffs, checklists, and authoring
 guides point here instead of restating it; a restatement that differs from this paragraph is stale,
 and this paragraph wins.
 
-Band 5 and above: every passage is based on human-written text —
-verbatim, adapted from a named work under 2.5, or written by a person for the lesson. No AI-drafted
-passage and no AI-drafted answer key at any band 5 or above. Below band 5 (bands 3.x and 4.x): a
-passage and the item set keyed to it may be drafted by an AI when the catalog needs volume, on three
-conditions:
+Band 5 and above: every passage is based on human-written text — verbatim, adapted from a named
+work under 2.5, or written by a person for the lesson. The passage itself is never invented by an
+AI. At every band, a passage and the item set keyed to it may be drafted or adapted by an AI when
+the catalog needs volume, on three conditions:
 
 - the author re-checks every item against the text as published, because a drafted passage carries no
   audit trail and no source to re-read;
@@ -202,9 +203,10 @@ conditions:
 
 A full read-and-approve of every drafted file was the earlier rule and was dropped on 2026-11-02: at
 the volume this route was created to reach, the review never happened, and a recorded review that did
-not take place is worse than a declared sample. Never write "reviewed" into a file a person has not
-read. A passage that *was* read carries `source.reviewed_by` with the date, so spot-checked files can
-be told from unread ones.
+not take place is worse than a declared sample. The band-5 pre-approval gate was dropped on
+2026-11-11 for the same reason. Never write "reviewed" into a file a person has not read. A passage
+that *was* read carries `source.reviewed_by` with the date, so spot-checked files can be told from
+unread ones.
 
 Two habits carry over from the old 4.1-only exception:
 
@@ -563,7 +565,7 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 
 - [ ] Source uses `schema_version: 3` and `document_type: "lesson_source"`.
 - [ ] Source filename and `lesson_id` match and use one of the eight categories, grades 1-12, an authored stage from 1-3, and sequences 1-8.
-- [ ] The passage and items are human-written at band 5 and above; below band 5, `source.drafted_by` and 2.6's spot-check `source.text_status` are recorded.
+- [ ] The passage traces to human-written text at every band; a drafted or adapted text and key carry `source.drafted_by` and 2.6's `source.text_status`, and join the random spot-check rotation.
 - [ ] `_0001` remains the onboarding entry lesson. Later sequences are served by the server from the files that exist, not by the stored `advance` or `retry` fields, while the set is incomplete.
 - [ ] `script_overrides.near_copy_2` is a lesson-specific say-back line. The shared instructions require it.
 - [ ] `reader.reading_level` equals the whole-number IRL grade in the filename.
