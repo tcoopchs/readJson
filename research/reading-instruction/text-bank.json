@@ -4646,6 +4646,228 @@
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, accepted on spot check.",
       "drafted_by": "TC"
+    },
+    {
+      "id": "TB-129",
+      "title": "The Open Corner",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (123, 124, 109 words)",
+      "length_words": 356,
+      "fk_grade": 6.0,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_4_2_0001"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A daughter who has bought a faster branding tool keeps the old iron for the oldest line on the place, because the mark in it carries the family's start.",
+      "supporting_details": [
+        "The father cut the sign from a length of rod and left one corner of the letter open, so every calf shows the same gap.",
+        "The new tool heats by current, saves time, and makes the same shape.",
+        "The mother heats the old iron for one heifer and holds it the way the father did.",
+        "The heifer's line goes back to the cow the father bought with his first wages.",
+        "The daughter uses the old iron once a spring and does not paint the handle again."
+      ],
+      "why_it_works": "The tool passes to a second owner, so the same object has to be read twice, once as the father's practice and once as the daughter's choice.",
+      "cautions": "No ranch, county, price, or registered brand. No claim about breed or the age of the cow.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-130",
+      "title": "Ask Aldous",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (107, 103, 101 words)",
+      "length_words": 311,
+      "fk_grade": 5.76,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_4_2_0002"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A woman's standing on a wartime junction board changes with the crews after the night she holds a troop train for a coal train, though the report never names her.",
+      "supporting_details": [
+        "She works the board, and her answer to the dispatcher is clear or not clear plus the number of the held train.",
+        "The platform crews call her the girl on the board, and the dispatcher calls her Miss Aldous.",
+        "The coal train stands on the single track above the tunnel, so she holds the troop train at the signal.",
+        "Nothing is written about the night and she is not named in the report.",
+        "In March the crews use her surname alone, and the dispatcher tells a new man to ask Aldous."
+      ],
+      "why_it_works": "The two names for one woman sit at the front and the back of the story, and the change of address is the whole measure of what the night did.",
+      "cautions": "No real junction, railway company, regiment, or date. No claim about what the report said.",
+      "topic_domain": "history and people",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-131",
+      "title": "Twenty-Five Pounds",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (112, 104, 106 words)",
+      "length_words": 322,
+      "fk_grade": 6.08,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 3,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_4_2_0003"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A man on an ice conveyor keeps cutting the block size the boats need against a foreman's cheaper size, and the skipper at the end supplies the reason he never spoke.",
+      "supporting_details": [
+        "The plant cut twenty-five pound blocks and packed them into the holds with the catch.",
+        "He could tell how long a boat had been out from its hatch cover.",
+        "Two winters later four boats came, fuel had gone up, and the buyers had gone south.",
+        "The foreman wanted thinner blocks because they froze faster and cost less to make.",
+        "The skipper explains that longer trips need ice that lasts to the fourth day, and the foreman leaves the cutting frame."
+      ],
+      "why_it_works": "The story jumps two winters and gives a fleet-wide cause rather than a boat-by-boat account, and the block size turns out to be a judgement about the sea.",
+      "cautions": "No harbour, port, company, or species named. No claim about what the boats were paid.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-132",
+      "title": "The Beech on the Bend",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (116, 107, 103 words)",
+      "length_words": 326,
+      "fk_grade": 5.88,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_4_2_0004"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A mail driver facing the closure of her pass stops naming its pieces on the first run after the notice, and writes the one piece she kept into the log.",
+      "supporting_details": [
+        "She knew the road by its pieces and named them as she came to them.",
+        "The notice says the pass closes in the spring and the mail goes round by the valley road.",
+        "After the notice she counts posts and the water below the road is only water.",
+        "She takes the long way back past the new bridge and the lay-by.",
+        "She enters one line in the log, about the beech, not about the water or the bridge."
+      ],
+      "why_it_works": "The change in her is carried by what the description stops naming, so the mood has to be read from the telling rather than from anything she says.",
+      "cautions": "No real pass, depot, or route number. No claim about what the new road costs.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-133",
+      "title": "The Second Question",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (113, 106, 101 words)",
+      "length_words": 320,
+      "fk_grade": 5.61,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_4_2_0005"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A guide answers a hunter's question about a shot with wind and ground, and by the second day the hunter asks about the wind instead.",
+      "supporting_details": [
+        "The guide checks the wind before light with a pinch of flour over the hood.",
+        "The hunter asks twice whether he will get a shot, and the guide answers about wind and frost.",
+        "A doe with a fawn stands in the open and the hunter does not lift the rifle.",
+        "He says he came for a head on a wall and got a morning instead.",
+        "On the second day he asks about the wind, and the guide answers him."
+      ],
+      "why_it_works": "One conversation carries two questions, and the two men end the day satisfied without either having answered the other.",
+      "cautions": "No state, licence, ranch, or price. No shot is fired and no animal is wounded.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-134",
+      "title": "His Own",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (103, 113, 105 words)",
+      "length_words": 321,
+      "fk_grade": 6.03,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_4_2_0006"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 4.2 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A front-office letter of four hundred words fails where the farmer's own account of two buckets and a calf in water gets the owner out in nine days.",
+      "supporting_details": [
+        "The man writes letters for people who cannot write them well.",
+        "The first letter is four hundred words about weather and neglect.",
+        "The farmer says the letter does not sound like him, and the man says it was not meant to.",
+        "He describes the two buckets, the stain, and the calf that stood in six inches of water.",
+        "The shorter letter brings a man out in nine days, and the carbon copy is marked his own."
+      ],
+      "why_it_works": "The same complaint is written twice by two hands, and the version that works is the one whose words belong to the person making it.",
+      "cautions": "No county, town, owner, or rent named. No claim about the law on repairs.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
     }
   ],
   "screened_not_banked": [

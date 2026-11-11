@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_4_2_0005",
+  "meta": {
+    "status": "published",
+    "title": "The Second Question",
+    "skill": "literary_text",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 5,
+    "genre": "fiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Literary text: hear two people answering different questions, and sort out what each one wanted.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.6 over the three parts (113 words at FK 5.43, 106 words at FK 5.66, 101 words at FK 5.81). The load is one conversation carrying two questions, and a hunter who changes the question he asks.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for literary_text 4.2, Band 4.2, sequence 5. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A paid hunt on a ridge, a guide who reads wind and ground, and a doe with a fawn that the hunter does not shoot.",
+      "avoided": "No state, licence, ranch, or price. No shot is fired, and no animal is wounded."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "two men answering different questions in one conversation, and a hunter who changes what he asks for"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The guide checked the wind before first light. He let a pinch of flour go over the hood of the truck and watched it drift left. He had hunted the same ridge for twenty years, and he read the ground the way other men read a printed page. The hunter had paid for three days and a buck, and on the first morning he asked whether he would get a shot at one. The guide said the wind was out of the west and would turn by nine. An hour later the hunter asked the same question again, and the guide said the frost had come early and the deer would feed late.",
+    "part_2": "They sat above a cut where the ridge fell away into second growth, and the cold came up through the pad they sat on. At seven a doe came out with a fawn behind her, and she stood in the open for a long minute. The hunter had the rifle across his knee and did not lift it. The guide watched the fawn and said nothing at all, which was answer enough. After the two deer went back into the trees, the hunter let out a breath and laughed once, quietly. Then he asked the guide whether that had been the chance he was waiting for.",
+    "part_3": "At the truck the guide said the ground had frozen early and the deer would move again at dusk. The hunter said he had come for a head to hang on a wall and had got a morning instead. Neither of them had answered the other's question, and both of them were satisfied with the day. The guide wrote nothing in his book, and he did not need to. On the second day the hunter did not ask about a shot. He asked about the wind, and the guide answered him, and that was the whole of their conversation that morning."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the guide check before light?",
+      "tutor_only": {
+        "confirm": "Right. He checks the wind with a pinch of flour over the hood.",
+        "correct_reason": "The sentence has him let a pinch of flour go over the hood and watch it go left.",
+        "tell": "He checks which way the wind is going before the day starts.",
+        "help": [
+          "The sentence about the flour says what he does with it and where it went.",
+          "Wind carries a person's scent, so a guide checks it first."
+        ],
+        "say_back": "own_words",
+        "core_idea": "He checks the wind with a pinch of flour let go over the hood of the truck.",
+        "accept_ideas": [
+          "the wind",
+          "which way the wind blows",
+          "the wind, with flour"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what rifle the hunter brought"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he checks the truck",
+            "ask": "The flour is not for the truck. What does flour in the air show him?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The hunter asks twice about a shot, and both times the guide answers about wind or frost. What is the guide doing?",
+      "tutor_only": {
+        "confirm": "Yes. He answers with the conditions, and never promises a deer.",
+        "correct_reason": "Both answers are about wind and frost, and neither names an animal.",
+        "tell": "The guide can read wind and frost and cannot promise a deer. So he answers with the part he can read.",
+        "help": [
+          "The sentence with each answer has wind or frost in it. Neither answer has a deer in it.",
+          "Wind and frost are what decide whether deer move at all."
+        ],
+        "say_back": "own_words",
+        "core_idea": "He answers with what he can read, the wind and the frost, and does not promise a shot.",
+        "accept_ideas": [
+          "he answers with the conditions",
+          "he will not promise a deer",
+          "he tells him what the weather will do"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much the hunter paid"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the guide did not hear the question",
+            "ask": "He hears it twice and answers both times. What are his answers about?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The doe stood in the open and the hunter did not lift the rifle. What had he decided?",
+      "tutor_only": {
+        "confirm": "Right. He decided not to take the shot, with a fawn behind her.",
+        "correct_reason": "The part places the fawn behind the doe with the rifle left across his knee.",
+        "tell": "A fawn was following the doe. He left the rifle where it was and let them both go back into the trees.",
+        "help": [
+          "Read the sentence about the fawn, then the sentence about the rifle.",
+          "The doe was not alone, and he did not raise the rifle."
+        ],
+        "say_back": "own_words",
+        "core_idea": "He decided not to shoot the doe while her fawn stood behind her.",
+        "accept_ideas": [
+          "he decided not to shoot",
+          "he let the doe and fawn go",
+          "he would not shoot a doe with a fawn"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "whether he had a licence"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he had no ammunition",
+            "ask": "Nothing says that. What was standing behind the doe?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "The hunter says he came for a head on a wall and got a morning instead. What changed for him?",
+      "tutor_only": {
+        "confirm": "Yes. The deer stopped being the point of the day.",
+        "correct_reason": "The sentence sets the head he came for against the morning he got.",
+        "tell": "He came for something to hang on a wall, and the morning without a deer was enough for him.",
+        "help": [
+          "The sentence about the head says what he came for and what he got.",
+          "The morning is what he has, and the wall is what he did not get."
+        ],
+        "say_back": "own_words",
+        "core_idea": "What he wanted from the day changed. A morning on the ridge was enough without a deer.",
+        "accept_ideas": [
+          "he was satisfied without a deer",
+          "the day itself became the point",
+          "he stopped needing the head on the wall"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the guide thought of the hunter"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he was sorry he missed",
+            "ask": "Read the second half of his sentence, the morning he got instead."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "On the second day the hunter asks about the wind instead of a shot. What does that show?",
+      "tutor_only": {
+        "confirm": "Right. He had learned what the guide could give him, and he asked for that.",
+        "correct_reason": "The last sentences have him drop the question about a shot and ask about the wind.",
+        "tell": "He stopped asking for a promise and asked about the one thing the guide could read.",
+        "help": [
+          "Read the last two sentences for the question he asks on the second day.",
+          "The guide answered the wind question, and that was the whole conversation."
+        ],
+        "say_back": "own_words",
+        "core_idea": "He had learned what the guide could give him, the wind and the ground, and he asked for that.",
+        "accept_ideas": [
+          "he learned what the guide could give",
+          "he stopped asking for a promise",
+          "he took the day on the guide's terms"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "whether they got a deer on the third day"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he had given up hunting",
+            "ask": "He is back out on the second day. What does he ask instead of a shot?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because the next stage of this skill is not authored yet.",
+    "student_line": "You have the move. The next reading is another lesson in this band."
+  },
+  "retry": {
+    "next_file": "literary_text_band_4_2_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_4_2_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

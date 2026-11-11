@@ -1,0 +1,245 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_4_2_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Open Corner",
+    "skill": "literary_text",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 1,
+    "genre": "fiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Literary text: follow one tool through two owners and read what it means to each of them.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.0 over the three parts (123 words at FK 5.75, 124 words at FK 6.46, 109 words at FK 5.89). The load is one tool carried across two owners, and a reason the mother gives only at the end.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for literary_text 4.2, Band 4.2, sequence 1. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A ranch branding iron with an open corner in the letter, a daughter who has bought a faster tool, and a mother who asks for the old one.",
+      "avoided": "No ranch name, county, price, or brand registered anywhere. No claim about breed or age."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "one tool carried across two owners, and what the mark in it means to each of them"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The branding iron hung by the barn door for thirty years, and the daughter had painted the handle twice. Her father cut the sign from a length of rod, and he left one corner of the letter open. Every calf that carried the mark carried the same small gap in it. In the spring works the iron went into the fire until it turned grey. The daughter now uses a tool that heats by current, which costs less in time than the fire does. It makes the same shape, sharper at the edges, and it never goes into the fire at all. The old iron stays on its nail by the door, and the handle is smooth where three hands have held it.",
+    "part_2": "The mother picked one calf out of the pen and asked for the iron. The daughter said the new tool was faster and already hot on the bench. The mother said nothing and set the rod in the fire herself, then waited for the grey with her weight on one hip. She held the handle with two fingers clear of the hot part, which is how the father had held it. The calf in the chute was a heifer, small, with a white strip down its face and one ear notched. The daughter stood by the gate and watched the mother work, and when the iron came up she saw the gap in the letter and the puff of smoke at the same moment.",
+    "part_3": "Over the bench the mother said the line went back further than the barn or the fence. The heifer's mother, and her mother before that, came from a cow the father bought with his first wages. She said the number in the record was one, and that the line from that cow had never been sold out of the county. The daughter put the new tool back in its case that afternoon, and she did not open the case again all spring. In the spring she heated the old iron once, for that same line. She did not paint the handle a third time, and nobody asked her to."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is the branding iron used for?",
+      "tutor_only": {
+        "confirm": "Right. It puts the family's mark on each calf.",
+        "correct_reason": "The sentence about the mark says every calf that carried it carried the same small gap.",
+        "tell": "The iron puts the family's mark on every calf, and the mark has a small gap in it.",
+        "help": [
+          "The sentence about the mark says what the iron puts on a calf.",
+          "It goes on the animal's side, not on the barn."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It puts the family's mark on each calf.",
+        "accept_ideas": [
+          "it marks the calves",
+          "it puts the sign on the calf",
+          "it brands the calves with the family sign"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many calves are in the pen"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it heats the barn or the fence",
+            "ask": "The iron touches the animal in the chute. What does it leave behind?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "A calf that carries the mark shows the same small gap. Where does the gap come from?",
+      "tutor_only": {
+        "confirm": "Yes. The father left one corner of the letter open when he cut the sign.",
+        "correct_reason": "The sentence about the sign says he left one corner of the letter open.",
+        "tell": "The gap is the open corner the father cut into the sign. Every calf shows it.",
+        "help": [
+          "The sentence about the sign says what her father did with one corner.",
+          "He cut the rod himself, and one corner was left open."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The father left one corner of the letter open, so every calf shows the same gap.",
+        "accept_ideas": [
+          "the father left a corner of the letter open",
+          "the sign has an open corner in it",
+          "it is how the sign was cut"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the new tool is made of"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the gap is a mistake in the paint",
+            "ask": "Nothing is painted here. The sentence about the sign says how it was cut."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The mother holds the handle with two fingers clear of the hot part. What does that show?",
+      "tutor_only": {
+        "confirm": "Right. She has done this work before, in the way the father did it.",
+        "correct_reason": "The sentence says two fingers clear is how the father had held it.",
+        "tell": "She holds the iron the way the father did, so she has done this work before.",
+        "help": [
+          "The sentence about her hand says whose way of holding it she uses.",
+          "It is the grip a person learns by doing the job, not by watching once."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She has done the work before and uses the father's grip.",
+        "accept_ideas": [
+          "she has used the iron before",
+          "she learned the grip from the father",
+          "she knows the work herself"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "why the daughter said the new tool was faster"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she is afraid of the hot rod",
+            "ask": "Careful hands are one reading. Whose way of holding it is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "Why does the mother want the old iron for that one heifer?",
+      "tutor_only": {
+        "confirm": "Yes. Her line goes back to the cow the father bought with his first wages.",
+        "correct_reason": "The sentence about the line says the heifer's line comes from the father's first cow.",
+        "tell": "That heifer carries the oldest line on the place, and the mother wants it marked with his sign.",
+        "help": [
+          "The sentence over the bench says where the heifer's line starts.",
+          "It starts with a cow bought before the barn and the fence."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The heifer comes from the father's first cow, so the mother wants the old mark on it.",
+        "accept_ideas": [
+          "her line goes back to the father's first cow",
+          "she is from the oldest line on the place",
+          "the mother wants the family sign on that line"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the new tool cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the mother wants to save money",
+            "ask": "The new tool is already hot and costs less time. What does the line have to do with it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "By the end, what has the old iron come to mean to the daughter?",
+      "tutor_only": {
+        "confirm": "Yes. It is hers to keep now, and she uses it for the oldest line.",
+        "correct_reason": "The last sentences show her heating it once a spring, for that line, and leaving the handle unpainted.",
+        "tell": "The iron stops being only her father's tool. She keeps it for the oldest line and uses it once a spring.",
+        "help": [
+          "Read the last two sentences for what she does in the spring.",
+          "She heats it once, for that same line, and does not paint the handle."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She keeps the iron and uses it once a spring for the oldest line on the place.",
+        "accept_ideas": [
+          "it is hers now",
+          "she keeps it for the oldest line",
+          "it carries the family's oldest line",
+          "she chooses it once a spring"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the new tool can do"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she decides new tools are bad",
+            "ask": "She puts the new tool in its case, and nothing says the tool was wrong. What does she keep?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because the next stage of this skill is not authored yet.",
+    "student_line": "You have the move. The next reading is another lesson in this band."
+  },
+  "retry": {
+    "next_file": "literary_text_band_4_2_0002",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

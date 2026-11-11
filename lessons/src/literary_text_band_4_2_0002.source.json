@@ -1,0 +1,245 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_4_2_0002",
+  "meta": {
+    "status": "published",
+    "title": "Ask Aldous",
+    "skill": "literary_text",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 2,
+    "genre": "fiction",
+    "topic_domain": "history and people",
+    "skill_frame": "Literary text: track what one person is called, and read what the change marks.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.8 over the three parts (107 words at FK 5.92, 103 words at FK 5.77, 101 words at FK 5.58). The load is two names for one woman, a night when she holds a train, and an ending that changes her name again.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for literary_text 4.2, Band 4.2, sequence 2. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A junction signal box in wartime, a woman who holds a troop train for a coal train, and the crews who stop using her title.",
+      "avoided": "No real junction, railway company, regiment, or date. No claim about what the report said."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "one woman under two names, and a night's decision that changes what the crews call her"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Miss Aldous had worked the board at the junction for a year when the troop trains started running at night. The board was a wall of levers and a row of brass bells. Each bell had a number on it, and each number meant that a train had passed the box up the line. The crews on the platform called her the girl on the board. The dispatcher called her Miss Aldous and asked, every night at ten, whether the line was clear through the tunnel. She answered the same way all winter: clear, or not clear, and then the number of the train she was holding.",
+    "part_2": "On the night the blackout order came, a coal train stood on the single track above the tunnel. A troop train was due in nine minutes, and the platform was dark. She had two levers to set and no time to walk the platform and back. She rang the box up the line and held the troop train at the signal below the junction. Then she brought the coal train down in the dark, one block at a time, while the sergeant counted the minutes out loud. At eleven the troop train moved again, and nobody on it saw the junction at all.",
+    "part_3": "Nothing was written about that night, and she was not named in the report that went up the line. The report named the signal and the time and the length of the delay, and it did not name her. In March the crews began to ask for her by her surname, without the title. The dispatcher had called her Miss Aldous at ten o'clock every night for a year. Now he told the new man where to find the board, and he said: ask Aldous. She heard him say it, and she set the next lever without looking up from it."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does Miss Aldous do at the junction?",
+      "tutor_only": {
+        "confirm": "Right. She works the board: she sets the levers and holds the trains.",
+        "correct_reason": "The sentence about the board names the levers and the number of the train she is holding.",
+        "tell": "She works the board. She sets the levers and decides which train waits.",
+        "help": [
+          "The sentence about the board says what a lever and a held train have to do with her.",
+          "A held train is a train she keeps back at a signal."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She sets the levers on the board and holds trains so they pass one at a time.",
+        "accept_ideas": [
+          "she works the board",
+          "she sets the signals",
+          "she holds the trains back"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who drives the troop trains"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she drives the trains",
+            "ask": "The board is a wall of levers in a box. What can a person at a lever do?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "She tells the dispatcher the number of the train she is holding. What does that tell him?",
+      "tutor_only": {
+        "confirm": "Yes. It tells him the line is not clear, and which train is waiting on it.",
+        "correct_reason": "The sentence about her answer pairs clear or not clear with the number of the held train.",
+        "tell": "The number tells him which train is waiting, so he knows the line is not clear through the tunnel.",
+        "help": [
+          "The sentence about her answer puts clear, or not clear, beside the number.",
+          "A held train is standing at a signal, and the dispatcher sends other trains by."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The number tells him a train is waiting, so the line through the tunnel is not clear.",
+        "accept_ideas": [
+          "that a train is waiting",
+          "that the line is not clear",
+          "which train she is holding back"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long her shift was"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the number is the time of the train",
+            "ask": "The bells already mark a train passing. Her answer is about the train she keeps."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did she hold the troop train at the signal?",
+      "tutor_only": {
+        "confirm": "Right. The coal train was already on the single track, and only one could pass.",
+        "correct_reason": "The sentence says a coal train stood on the single track and a troop train was due in nine minutes.",
+        "tell": "The coal train was already on the single track above the tunnel. Two trains cannot pass there at once.",
+        "help": [
+          "The sentence about that night says what was already standing on the track.",
+          "It says the track is single, so one train waits while the other moves."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The coal train was on the single track, so she kept the troop train back and let the coal train down.",
+        "accept_ideas": [
+          "the coal train was already on the track",
+          "only one train fits on the single track",
+          "the track was blocked above the tunnel"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the sergeant was doing"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the troop train was late",
+            "ask": "Being late is not a reason to hold a train. What was standing on the track?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "In March the crews ask for her by her surname, without the title. What does that change show?",
+      "tutor_only": {
+        "confirm": "Yes. They treat her as one of the people who run the line, not as a guest on it.",
+        "correct_reason": "The ending pairs the dropped title with the dispatcher telling a new man to ask Aldous.",
+        "tell": "The title was how a visitor was addressed. Without it, she is one of the people the line depends on.",
+        "help": [
+          "The ending shows the dispatcher sending a new man to her for the answer.",
+          "The new man is told to ask her, which means her word settles it."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Dropping the title shows the crews now treat her as the person who knows the line.",
+        "accept_ideas": [
+          "she is one of them now",
+          "they treat her as the one who knows",
+          "her word settles the question",
+          "she is not a visitor any more"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what happened to the sergeant"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the crews have forgotten her first name",
+            "ask": "A surname used alone is not forgetting. Who is sent to her for an answer?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "Nothing about that night was written down, and she is not named in the report. What does the ending show about how she earned her place on the board?",
+      "tutor_only": {
+        "confirm": "Right. The crews saw the night's work themselves, and their asking her is the record.",
+        "correct_reason": "The passage gives the report naming the signal and the delay, and the crews asking for her by surname.",
+        "tell": "The report named the signal and the delay and not her. Her place came from the men who watched her work.",
+        "help": [
+          "The sentence about the report names the signal and the delay. The sentence in March names who is asked.",
+          "The paperwork keeps the signal and the time. The men keep the woman."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Her place came from what the crews saw her do that night, not from anything written down.",
+        "accept_ideas": [
+          "the crews saw what she did",
+          "the men who watched her gave her the place",
+          "the report was not what mattered"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long she had worked the board"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she was given a better job",
+            "ask": "No new job is mentioned. What does the report name, and who asks for her?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because the next stage of this skill is not authored yet.",
+    "student_line": "You have the move. The next reading is another lesson in this band."
+  },
+  "retry": {
+    "next_file": "literary_text_band_4_2_0003",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_4_2_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

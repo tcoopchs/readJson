@@ -1,0 +1,245 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_4_2_0004",
+  "meta": {
+    "status": "published",
+    "title": "The Beech on the Bend",
+    "skill": "literary_text",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 4,
+    "genre": "fiction",
+    "topic_domain": "places and travel",
+    "skill_frame": "Literary text: read a change in how a place is described, and what the description is carrying.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.9 over the three parts (116 words at FK 6.39, 107 words at FK 5.59, 103 words at FK 5.65). The load is one road described twice, and the change sits in what she stops naming rather than in anything she says.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for literary_text 4.2, Band 4.2, sequence 4. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A mail driver on a mountain pass, a notice that the pass will close, and a last run where she names nothing.",
+      "avoided": "No real pass, depot, or route number. No claim about what the new road costs."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "one road described twice, with the change carried by named pieces that stop being named"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The mail run went over the pass twice a day in a truck with a heater that worked when it wanted to. She had driven it for nineteen years, and she knew the road the way a person knows a room in the dark. There is the long bend with the beech tree on the outside, and the water below it that runs brown after rain. There is the cattle grid that clanks twice, and the lay-by where the drivers ate lunch before the new bridge took the heavy traffic away. She named the pieces to herself as she came to them, the way other people count sheep. In nineteen years she was never late.",
+    "part_2": "In October a notice went up at the depot. It said the pass would close for good in the spring, and the mail would go round by the valley road. On the Monday after the notice she drove the run and did not name the bend or the beech. She counted the posts instead, the way a driver counts in fog, and the water below the road was only water. At the top she sat in the truck for four minutes with the engine running and the log open on the seat beside her. Then she wrote the time in it and drove down the other side.",
+    "part_3": "At the bottom she turned left instead of right, and took the long way back to the depot past the new bridge and the lay-by. The cattle grid clanked twice, and she heard it both times. The supervisor asked why the run had taken an extra hour. She said the road was wet, which was true and was not the whole reason she had taken it. That night she wrote the pass into the log for the first time in nineteen years. The line was one sentence long, and the sentence was about the beech, not about the water or the bridge."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "How did she know the road after nineteen years?",
+      "tutor_only": {
+        "confirm": "Right. She knew every piece of it, the way a person knows a room in the dark.",
+        "correct_reason": "The sentence names the bend, the beech, the water, the grid, and the lay-by.",
+        "tell": "She knew each piece of the road by heart, the way a person knows a room in the dark.",
+        "help": [
+          "The sentence about knowing the road compares it to a room.",
+          "She could find each part without looking for it."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She knew every piece of the road by heart, bend, beech, water, grid, and lay-by.",
+        "accept_ideas": [
+          "she knew it by heart",
+          "she had driven it so long she knew every part",
+          "she named the pieces as she came to them"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what she carried in the truck"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she had a map",
+            "ask": "A map is not what the sentence compares the road to. What does she do as she comes to each piece?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "She named the pieces to herself the way other people count sheep. What was the naming doing for her?",
+      "tutor_only": {
+        "confirm": "Yes. It kept her steady and marked the way, and she was never late.",
+        "correct_reason": "The sentence about naming sits with the sentence about never being late.",
+        "tell": "The naming kept her place on the road and her pace, the way counting keeps a person steady.",
+        "help": [
+          "The sentence about naming says what other people do instead.",
+          "It kept her steady on a road she drove twice a day."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The naming kept her steady and held her place, and in nineteen years she was never late.",
+        "accept_ideas": [
+          "it kept her steady",
+          "it marked her way along the road",
+          "it was a habit that kept her on time"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the run took"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she was bored",
+            "ask": "Nothing says bored. What does a driver get from counting a familiar road?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "After the notice she stops naming the bend and the beech and counts posts instead. What does that change show?",
+      "tutor_only": {
+        "confirm": "Right. She has started to let the road go, and it has become a route to get through.",
+        "correct_reason": "The part sets the dropped names beside counting posts and the sentence that the water was only water.",
+        "tell": "The names belonged to a road she loved. Counting posts and seeing only water is how a person drives a road they have already given up.",
+        "help": [
+          "The sentence before the notice has names in it. The sentence after it has a number of posts.",
+          "One telling has a beech in it. The other has a number of posts."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She has stopped letting the road be familiar, which shows she is already saying goodbye to it.",
+        "accept_ideas": [
+          "she is letting the road go",
+          "she has begun to give it up",
+          "the road has stopped being hers",
+          "she is already saying goodbye"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the notice said about the mail"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the snow made her stop naming things",
+            "ask": "No snow falls in this part. What does the notice at the depot say?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "She takes the long way back past the new bridge and the lay-by. What does that show?",
+      "tutor_only": {
+        "confirm": "Yes. She wanted one more run over the road she is about to lose.",
+        "correct_reason": "The last part has her turning left instead of right, past the pieces she had counted.",
+        "tell": "The long way is the old road itself. Turning onto it on purpose shows she wanted one more pass over it.",
+        "help": [
+          "The sentence says she turns left instead of right, and what the road past it holds.",
+          "The new bridge and the lay-by are both pieces of the old route."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She chose the old road on purpose, for one more run over it before it closes.",
+        "accept_ideas": [
+          "she wanted one more run over the old road",
+          "she was not ready to go back",
+          "the old road was still the way she knew"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "why the supervisor asked about the hour"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the new bridge was closed",
+            "ask": "Nothing says the bridge was closed. Which way did she turn, and past what?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "That night she writes one line about the beech. What does the line show about what she took from the run?",
+      "tutor_only": {
+        "confirm": "Right. She kept the tree she had stopped naming, and not the water that had become only water.",
+        "correct_reason": "The closing sentence sets the beech against the water and the bridge.",
+        "tell": "The line keeps the beech. It shows she took the part she had given up naming, and not the rest.",
+        "help": [
+          "The last sentence names the beech, then names the water and the bridge as what the line leaves out.",
+          "The water and the bridge are named in the sentence as what the line leaves out."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The line keeps the beech. It shows she took the part she had given up naming, and not the rest.",
+        "accept_ideas": [
+          "she kept the beech",
+          "she kept the part of the road she loved",
+          "she took the tree she had stopped naming"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the line was"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she was recording a fault on the road",
+            "ask": "The log takes the time of the run. What does the one line hold?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because the next stage of this skill is not authored yet.",
+    "student_line": "You have the move. The next reading is another lesson in this band."
+  },
+  "retry": {
+    "next_file": "literary_text_band_4_2_0005",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_4_2_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

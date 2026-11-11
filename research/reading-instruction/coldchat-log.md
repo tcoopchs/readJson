@@ -470,3 +470,24 @@ lesson list, the rung above the first fiction floor.
 
 Still owed on this rung: misconception, injection, and stop-by-request sessions, and the TC review of
 the six drafted passages.
+
+## literary_text 4.2 — six lessons, swept (2026-11-10)
+
+`literary_text_band_4_2_0001` to `_0006`, swept on the compiled files at indices 65-70 of the sorted
+lesson list, the rung above 4.1.
+
+- Smooth: 6 of 6, opened on the first reply, five items in order, `done=5 u=5 an=1`, no leak, no early
+  ticket ($0.0229).
+- Hard: 6 of 6, authored help only (`invented_help` empty on every lesson), `tell` reached, stopped
+  ticket `an=0|stop=1` with `done=1` on every lesson, no private-field leak ($0.0133).
+- Routing against the live catalog: a clear on 4.2 holds with `hold=ceiling` because 4.3 is not
+  authored, a hard fail on 4.2_0003 steps down to `literary_text_band_4_1_0003` (the middle sequence
+  of the rung below), and a clear on 4.1_0004 now moves up to `literary_text_band_4_2_0001` after the
+  six 4.1 `advance` targets were repointed.
+- Measured before items were written: every part 101-124 words and part FK 5.43-6.49, whole-passage
+  FK 5.61-6.08. `--strict` clean on first compile after two copy fixes (one 26-word prompt, one
+  22-word `tell`); `audit_lessons.py` reports nothing on this rung, the 58 findings all sitting in
+  older cells.
+
+Still owed on this rung: misconception, injection, and stop-by-request sessions; the branch and
+tolerance probes; and the TC review of the six drafted passages.

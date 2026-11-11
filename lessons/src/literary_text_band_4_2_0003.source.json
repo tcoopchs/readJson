@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_4_2_0003",
+  "meta": {
+    "status": "published",
+    "title": "Twenty-Five Pounds",
+    "skill": "literary_text",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 3,
+    "genre": "fiction",
+    "topic_domain": "work and trade",
+    "skill_frame": "Literary text: read a jump of two winters, and weigh what the story tells against what it skips.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.1 over the three parts (112 words at FK 6.23, 104 words at FK 6.49, 106 words at FK 5.55). The load is a jump of two winters, a plant that shrinks, and a block size that turns out to be a judgement about the sea.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for literary_text 4.2, Band 4.2, sequence 3. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "An ice plant on a fishing harbour, a queue of boats that becomes four, and a foreman who wants the blocks cut thinner.",
+      "avoided": "No harbour, port, company, or species named. No claim about what the boats were paid."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "a jump of two winters, a shrinking fleet, and a block size that only the last part explains"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The ice plant stood at the end of the harbour, with its conveyor running out over the water. In February the boats came in one behind another, and the men on the conveyor weighed each block before they sent it down into a hold. A block weighed twenty-five pounds and was cut to the same size every winter. The man on the conveyor knew the boats by their hatches, and he could tell from a hatch cover how long a boat had been out. Ice went in at the top of the hold, and the catch came out of the same dark space. A good skipper packed both in one afternoon.",
+    "part_2": "Two winters later, four boats came in February and the plant ran three days a week. Fuel had gone up and the buyers had gone south, and the men who owned the boats talked about the price the way they used to talk about the weather. The new foreman wanted the blocks cut thinner, because a thin block froze faster and cost less to make. The man on the conveyor cut twenty-five pounds anyway and said nothing about it. Nobody asked him to explain. The foreman stopped asking for thinner blocks when the first boat came home with ice still in the hold.",
+    "part_3": "At the end of the season the skipper of the last boat stood by the conveyor and told the foreman what the man on the conveyor had never put into words. The trips were longer now, he said, because the fish had moved south. A long trip needed a block that would still be there on the fourth day. A thin block was cheaper at the plant and dearer at sea. The foreman looked at the row of twenty-five pound blocks going down the conveyor. Then he left the cutting frame where it was, and the blocks went down at twenty-five pounds all season."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What did the ice plant do for the boats?",
+      "tutor_only": {
+        "confirm": "Right. It cut blocks of ice and packed them into the boat holds with the catch.",
+        "correct_reason": "The sentence about the hold says ice goes in at the top and the catch comes out of the same space.",
+        "tell": "The plant cut blocks and sent them down into the holds, so the catch stayed cold on the way in.",
+        "help": [
+          "The sentence about the hold says where the ice goes.",
+          "A block goes down into the hold, above the catch."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It cut ice into blocks and packed them into the holds to keep the catch cold.",
+        "accept_ideas": [
+          "it made ice for the boats",
+          "it iced the catch",
+          "it loaded ice into the holds"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who owned the boats"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the plant froze the fish",
+            "ask": "The block is ice. What does ice do to a catch in a hold?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "How could the man on the conveyor tell how long a boat had been out?",
+      "tutor_only": {
+        "confirm": "Yes. He read it from the hatch cover.",
+        "correct_reason": "The sentence says he could tell from a hatch cover how long a boat had been out.",
+        "tell": "He read the hatch cover. Years of the same work taught him what a long trip leaves on it.",
+        "help": [
+          "The sentence about the hatches says what he looked at.",
+          "It is the cover of the opening the ice goes down through."
+        ],
+        "say_back": "own_words",
+        "core_idea": "He told the length of a trip from the boat's hatch cover.",
+        "accept_ideas": [
+          "from the hatch cover",
+          "the state of the hatch",
+          "by looking at the hatch"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many men worked the conveyor"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he looked at the boat's name",
+            "ask": "He knew the boats already by their hatches. What else did the hatch tell him?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The story never says what became of the boats that stopped coming. What does it give the reader instead?",
+      "tutor_only": {
+        "confirm": "Right. It gives the cost and the buyers going south, and never says how each boat stopped coming.",
+        "correct_reason": "The part opens on four boats, higher fuel, and buyers gone south, and it accounts for no single boat.",
+        "tell": "The story gives a cause that hit the whole fleet: fuel cost more and the buyers went south. It never says what became of each boat.",
+        "help": [
+          "The sentences about the two winters give fuel and the buyers. No sentence accounts for one boat.",
+          "Four boats came where a queue had come. Nothing explains one boat at a time."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It gives the fleet-wide causes, fuel and the buyers, and never accounts for each missing boat.",
+        "accept_ideas": [
+          "fuel went up and buyers left",
+          "only four boats were left working",
+          "it says why the trade shrank, not what happened to each boat"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many men lost work"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the other boats sank",
+            "ask": "No wreck is mentioned. Read what the story does give about the change."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "Why did the man keep cutting twenty-five pounds when the foreman wanted thinner blocks?",
+      "tutor_only": {
+        "confirm": "Yes. A longer trip needs ice that is still there on the fourth day.",
+        "correct_reason": "The skipper's sentence ties the longer trips to a block that lasts to the fourth day.",
+        "tell": "The trips were longer, because the fish had moved. A thin block would be gone before the boat came home.",
+        "help": [
+          "The skipper says what a long trip needs from a block.",
+          "A thin block is cheaper at the plant and dearer at sea, he says."
+        ],
+        "say_back": "own_words",
+        "core_idea": "He kept the thick block because the trips were longer and the ice had to last four days.",
+        "accept_ideas": [
+          "a thin block melts before the boat gets home",
+          "the trips are longer now",
+          "the catch needs ice on the fourth day"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the foreman was paid"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he was stubborn about the old way",
+            "ask": "Stubbornness is not a reason a skipper would give. What does a long trip need?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "The foreman leaves the cutting frame where it was. What does that show?",
+      "tutor_only": {
+        "confirm": "Right. He accepted that the sea, not the plant, decides how thick a block has to be.",
+        "correct_reason": "The last sentences pair the skipper's reason with the foreman leaving the frame alone.",
+        "tell": "The skipper gave him the reason the man on the conveyor had never spoken. The foreman stopped pressing for thinner blocks.",
+        "help": [
+          "Read what the skipper says a long trip needs, then what the foreman does.",
+          "Cheaper at the plant and dearer at sea is the whole of the argument."
+        ],
+        "say_back": "own_words",
+        "core_idea": "He saw that a thinner block costs the boats more than it saves the plant, and he dropped the change.",
+        "accept_ideas": [
+          "he agreed the block has to last",
+          "he understood the thin block costs the boats",
+          "he stopped asking for thinner blocks"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "whether the plant stayed open"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the foreman was told to stop by his manager",
+            "ask": "No manager appears. Who spoke to him, and about what?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because the next stage of this skill is not authored yet.",
+    "student_line": "You have the move. The next reading is another lesson in this band."
+  },
+  "retry": {
+    "next_file": "literary_text_band_4_2_0004",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_4_2_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

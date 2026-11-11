@@ -139,6 +139,12 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-126 | Two Kilos Light | Fiction | 4 | Band 4.1 | 310 words (three passages, 102, 108, 100) | 5.97 | `literary_text_band_4_1_0004` |
 | TB-127 | The Wet Week | Fiction | 4 | Band 4.1 | 314 words (three passages, 107, 101, 106) | 5.53 | `literary_text_band_4_1_0005` |
 | TB-128 | Fifteen Looms | Fiction | 4 | Band 4.1 | 304 words (three passages, 104, 100, 100) | 5.82 | `literary_text_band_4_1_0006` |
+| TB-129 | The Open Corner | Fiction | 4 | Band 4.2 | 356 words (three passages, 123, 124, 109) | 6.00 | `literary_text_band_4_2_0001` |
+| TB-130 | Ask Aldous | Fiction | 4 | Band 4.2 | 311 words (three passages, 107, 103, 101) | 5.76 | `literary_text_band_4_2_0002` |
+| TB-131 | Twenty-Five Pounds | Fiction | 4 | Band 4.2 | 322 words (three passages, 112, 104, 106) | 6.08 | `literary_text_band_4_2_0003` |
+| TB-132 | The Beech on the Bend | Fiction | 4 | Band 4.2 | 326 words (three passages, 116, 107, 103) | 5.88 | `literary_text_band_4_2_0004` |
+| TB-133 | The Second Question | Fiction | 4 | Band 4.2 | 320 words (three passages, 113, 106, 101) | 5.61 | `literary_text_band_4_2_0005` |
+| TB-134 | His Own | Fiction | 4 | Band 4.2 | 321 words (three passages, 103, 113, 105) | 6.03 | `literary_text_band_4_2_0006` |
 
 ---
 
@@ -4343,3 +4349,201 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
    of them fails this rule even with clean licences.
 9. **A work never serves two cells.** Not two bands, not two categories. The move from Band 5.1 to
    Band 6.1 is the transition a student always notices, so it gets fresh material.
+
+## TB-129 — The Open Corner
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | food and farming |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 356 words (three passages, 123, 124, 109) |
+| FK grade | 6.00 on the three passages together (5.75, 6.46, 5.89) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `literary_text_band_4_2_0001` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A daughter who has bought a faster branding tool keeps the old iron for the oldest line on the place, because the mark in it carries the family's start.
+
+**Supporting details.**
+
+- The father cut the sign from a length of rod and left one corner of the letter open, so every calf shows the same gap.
+- The new tool heats by current, saves time, and makes the same shape.
+- The mother heats the old iron for one heifer and holds it the way the father did.
+- The heifer's line goes back to the cow the father bought with his first wages.
+- The daughter uses the old iron once a spring and does not paint the handle again.
+
+**Why it works.** The tool passes to a second owner, so the same object has to be read twice, once as the father's practice and once as the daughter's choice.
+
+**Cautions.** No ranch, county, price, or registered brand. No claim about breed or the age of the cow.
+
+---
+
+## TB-130 — Ask Aldous
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | history and people |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 311 words (three passages, 107, 103, 101) |
+| FK grade | 5.76 on the three passages together (5.92, 5.77, 5.58) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `literary_text_band_4_2_0002` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A woman's standing on a wartime junction board changes with the crews after the night she holds a troop train for a coal train, though the report never names her.
+
+**Supporting details.**
+
+- She works the board, and her answer to the dispatcher is clear or not clear plus the number of the held train.
+- The platform crews call her the girl on the board, and the dispatcher calls her Miss Aldous.
+- The coal train stands on the single track above the tunnel, so she holds the troop train at the signal.
+- Nothing is written about the night and she is not named in the report.
+- In March the crews use her surname alone, and the dispatcher tells a new man to ask Aldous.
+
+**Why it works.** The two names for one woman sit at the front and the back of the story, and the change of address is the whole measure of what the night did.
+
+**Cautions.** No real junction, railway company, regiment, or date. No claim about what the report said.
+
+---
+
+## TB-131 — Twenty-Five Pounds
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 322 words (three passages, 112, 104, 106) |
+| FK grade | 6.08 on the three passages together (6.23, 6.49, 5.55) |
+| Complexity | L2, I3, S3, K1 |
+| Best lesson fit | `literary_text_band_4_2_0003` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A man on an ice conveyor keeps cutting the block size the boats need against a foreman's cheaper size, and the skipper at the end supplies the reason he never spoke.
+
+**Supporting details.**
+
+- The plant cut twenty-five pound blocks and packed them into the holds with the catch.
+- He could tell how long a boat had been out from its hatch cover.
+- Two winters later four boats came, fuel had gone up, and the buyers had gone south.
+- The foreman wanted thinner blocks because they froze faster and cost less to make.
+- The skipper explains that longer trips need ice that lasts to the fourth day, and the foreman leaves the cutting frame.
+
+**Why it works.** The story jumps two winters and gives a fleet-wide cause rather than a boat-by-boat account, and the block size turns out to be a judgement about the sea.
+
+**Cautions.** No harbour, port, company, or species named. No claim about what the boats were paid.
+
+---
+
+## TB-132 — The Beech on the Bend
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | places and travel |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 326 words (three passages, 116, 107, 103) |
+| FK grade | 5.88 on the three passages together (6.39, 5.59, 5.65) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `literary_text_band_4_2_0004` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A mail driver facing the closure of her pass stops naming its pieces on the first run after the notice, and writes the one piece she kept into the log.
+
+**Supporting details.**
+
+- She knew the road by its pieces and named them as she came to them.
+- The notice says the pass closes in the spring and the mail goes round by the valley road.
+- After the notice she counts posts and the water below the road is only water.
+- She takes the long way back past the new bridge and the lay-by.
+- She enters one line in the log, about the beech, not about the water or the bridge.
+
+**Why it works.** The change in her is carried by what the description stops naming, so the mood has to be read from the telling rather than from anything she says.
+
+**Cautions.** No real pass, depot, or route number. No claim about what the new road costs.
+
+---
+
+## TB-133 — The Second Question
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | sport and play |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 320 words (three passages, 113, 106, 101) |
+| FK grade | 5.61 on the three passages together (5.43, 5.66, 5.81) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `literary_text_band_4_2_0005` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A guide answers a hunter's question about a shot with wind and ground, and by the second day the hunter asks about the wind instead.
+
+**Supporting details.**
+
+- The guide checks the wind before light with a pinch of flour over the hood.
+- The hunter asks twice whether he will get a shot, and the guide answers about wind and frost.
+- A doe with a fawn stands in the open and the hunter does not lift the rifle.
+- He says he came for a head on a wall and got a morning instead.
+- On the second day he asks about the wind, and the guide answers him.
+
+**Why it works.** One conversation carries two questions, and the two men end the day satisfied without either having answered the other.
+
+**Cautions.** No state, licence, ranch, or price. No shot is fired and no animal is wounded.
+
+---
+
+## TB-134 — His Own
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | arts and language |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 321 words (three passages, 103, 113, 105) |
+| FK grade | 6.03 on the three passages together (6.23, 5.96, 5.96) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `literary_text_band_4_2_0006` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A front-office letter of four hundred words fails where the farmer's own account of two buckets and a calf in water gets the owner out in nine days.
+
+**Supporting details.**
+
+- The man writes letters for people who cannot write them well.
+- The first letter is four hundred words about weather and neglect.
+- The farmer says the letter does not sound like him, and the man says it was not meant to.
+- He describes the two buckets, the stain, and the calf that stood in six inches of water.
+- The shorter letter brings a man out in nine days, and the carbon copy is marked his own.
+
+**Why it works.** The same complaint is written twice by two hands, and the version that works is the one whose words belong to the person making it.
+
+**Cautions.** No county, town, owner, or rent named. No claim about the law on repairs.
+
+---
