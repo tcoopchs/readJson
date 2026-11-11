@@ -4424,6 +4424,228 @@
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, accepted on spot check.",
       "drafted_by": "TC"
+    },
+    {
+      "id": "TB-123",
+      "title": "The Second Turn",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (109, 113, 100 words)",
+      "length_words": 322,
+      "fk_grade": 5.49,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_4_1_0001"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "An owner who checks every wheel twice loses the habit when work piles up, and the helper who watched him fix a bad wheel quietly takes it on.",
+      "supporting_details": [
+        "The owner spins every wheel once to hear the bearing and again with his hand on the rim.",
+        "The helper works fast, and when the shop fills with bikes the owner stops watching him.",
+        "A loose rim comes back, and the owner refunds the charge and fits a new rim himself without a word.",
+        "By the next month the helper checks every wheel twice and the owner does not.",
+        "The helper finds a loose nut on the owner's work, makes it tight, and says nothing."
+      ],
+      "why_it_works": "Both habits reverse across the same three parts. The example, not an instruction, carries the change.",
+      "cautions": "No shop name, street, town, or price. No claim about what the helper was paid.",
+      "topic_domain": "work and trade",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-124",
+      "title": "The Empty Depot",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (109, 106, 100 words)",
+      "length_words": 315,
+      "fk_grade": 5.62,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_4_1_0002"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A night driver gives the same reason for his run, and the empty depot he still visits shows the stop is the real reason.",
+      "supporting_details": [
+        "The driver says the pay is better and the roads are clear, in the same words every time.",
+        "He times the last stretch so he reaches a small depot while its lights are still on.",
+        "He buys a coffee he does not drink, and the man has told him twice he need not buy anything.",
+        "The depot shuts and the man takes a job at a motorway service station.",
+        "The driver still stops at the empty yard at two, and gives the pay as his reason again."
+      ],
+      "why_it_works": "The contradiction between the stated reason and the nightly stop is never named, so the reader has to make it.",
+      "cautions": "No company, depot name, road number, or town. No claim about what the new job pays.",
+      "topic_domain": "places and travel",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-125",
+      "title": "Not Yet",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (116, 110, 101 words)",
+      "length_words": 327,
+      "fk_grade": 5.45,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_4_1_0003"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A foreman's two-word verdict means a faulty paint job in the apprentice's first week and an unready stage on dress-rehearsal night.",
+      "supporting_details": [
+        "The foreman says not yet when the paint is wrong, and sends the flat back for another coat.",
+        "A flat called not yet waits a day and is looked at again.",
+        "The apprentice finishes a door frame, and she says the same two words.",
+        "He reaches for the sandpaper, reading the words as he first learned them.",
+        "She stops his hand and points at the actors still walking their marks."
+      ],
+      "why_it_works": "One phrase carries two meanings, and the second use is shown by what the foreman does with her hand rather than explained.",
+      "cautions": "No theatre, town, or play named. No claim about who wrote the play.",
+      "topic_domain": "arts and language",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-126",
+      "title": "Two Kilos Light",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (102, 108, 100 words)",
+      "length_words": 310,
+      "fk_grade": 5.97,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_4_1_0004"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A grower weighs her last crates on a scale known to read light, and blames the sun for the money she loses.",
+      "supporting_details": [
+        "The bay scale reads two kilos light on every crate and has done so since spring.",
+        "Repairs were booked twice, and both times the fitter was sent to the wrong bay.",
+        "The grower weighs six crates on the bay scale and works out that the money covers her costs.",
+        "The counter weighs the load on the office scale and prints a smaller figure.",
+        "The grower says the crates must have dried out in the sun."
+      ],
+      "why_it_works": "The reader holds the fault from the first part while the grower holds a wrong total, so the ending is inference rather than information.",
+      "cautions": "No co-op name, town, crop, or price. No claim about who owns the scale.",
+      "topic_domain": "food and farming",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-127",
+      "title": "The Wet Week",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (107, 101, 106 words)",
+      "length_words": 314,
+      "fk_grade": 5.53,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_4_1_0005"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A groundsman closes a waterlogged pitch and a captain loses his last home match, and each of them ends up protecting the other's position.",
+      "supporting_details": [
+        "The groundsman closes the pitch after three days of rain, because a tear lasts a season.",
+        "The captain has one home match left, no win since the ground was relaid, and two players leaving.",
+        "The fork goes in at eleven of twelve points, so the pitch is soft.",
+        "The captain calls the match off himself and tells the players the weather won it.",
+        "That night he rolls the goalmouth by hand, and the groundsman records the date without naming him."
+      ],
+      "why_it_works": "Both claims are defensible and neither character is corrected, so the reader has to hold two reasons at once.",
+      "cautions": "No club, league, ground, or county named. No score or date.",
+      "topic_domain": "sport and play",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
+    },
+    {
+      "id": "TB-128",
+      "title": "Fifteen Looms",
+      "author": "Written for this lesson",
+      "url": "",
+      "license": "Original text, written for this lesson",
+      "genre": "fiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (104, 100, 100 words)",
+      "length_words": 304,
+      "fk_grade": 5.82,
+      "complexity": {
+        "language": 2,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "literary_text_band_4_1_0006"
+      ],
+      "cell_use": "Owns its own lesson in literary_text Band 4.1 and serves no other cell. Drafted for the band, so it yields no passage beyond its three parts.",
+      "central_idea": "A watchman counts fifteen looms on a floor of nine, and the mill's last wage book shows he is counting the weavers who worked there.",
+      "supporting_details": [
+        "Nine looms stand on the floor, and the watchman touches each frame as he counts aloud.",
+        "He says fifteen at every aisle while the clerk counts nine.",
+        "The clerk writes the number down and draws a line under it.",
+        "The mill's last full year of work listed fifteen weavers on that floor.",
+        "The clerk says nothing about what she found, and he gives her the keys."
+      ],
+      "why_it_works": "The closing record changes the opening count, so the first passage has to be read a second time.",
+      "cautions": "No mill, town, or firm named. No date, wage, or claim about the sale.",
+      "topic_domain": "history and people",
+      "source_kind": "written for this lesson",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC"
     }
   ],
   "screened_not_banked": [

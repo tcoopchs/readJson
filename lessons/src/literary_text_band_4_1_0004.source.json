@@ -1,0 +1,246 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_4_1_0004",
+  "meta": {
+    "status": "published",
+    "title": "Two Kilos Light",
+    "skill": "literary_text",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 4,
+    "genre": "fiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Literary text: read what a character knows and what the story has shown the reader.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.0 over the three parts (102 words at FK 6.1, 108 words at FK 6.3, 100 words at FK 5.5). The load is a fact the reader holds and the grower does not, carried by a scale error stated once early.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for literary_text 4.1, Band 4.1, sequence 4. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A grower who trusts a faulty bay scale, with the reader told the fault in the first passage part.",
+      "avoided": "No co-op name, town, crop, or price. No claim about who owns the scale."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "a fact the reader holds and the grower does not, carried by a scale error stated once early"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The co-op pays growers by weight, and the scale at the loading bay decides how much money moves that day. That scale has been wrong since the spring. It reads two kilos light on every crate that goes over it, which is small money on one crate. The office has known about the fault since April, has written the date on the wall behind the till, and has not told the growers. A repair was booked in June and again in August. Both times the fitter was sent to the wrong bay by mistake, and both times he went home again.",
+    "part_2": "The grower weighs her last six crates on the bay scale and writes the totals in her book. She adds them twice on the tailgate with the pencil in her mouth. The wind pulls at the pages, so she holds the book down with her elbow. The number covers the seed, the fuel, and the helper's week, and she says so out loud to the helper, who is stacking empty crates behind her. The helper does not read the book, has never asked what the number covers, and is not asked. Then she drives to the co-op with the book open on the passenger seat beside her.",
+    "part_3": "At the counter the clerk weighed the load again on the office scale and wrote down a smaller figure. The grower asked her to check it. The clerk turned the ticket around, and the figure on it had been printed by the office scale, which nobody in the room could change. The clerk was new and had been told to use that scale and no other. The grower read the ticket twice, folded it in half, and put it in her coat. On the way out to the van she said the crates must have dried out in the sun."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is wrong with the scale at the loading bay?",
+      "tutor_only": {
+        "confirm": "Right. It reads two kilos light on every crate.",
+        "correct_reason": "The sentence about the fault says it reads two kilos light on every crate that goes over it.",
+        "tell": "The scale reads two kilos light on every crate that goes over it.",
+        "help": [
+          "The sentence after the fault gives the exact error.",
+          "It is a small weight, the same on every crate."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It reads two kilos light on every crate.",
+        "accept_ideas": [
+          "it reads two kilos light",
+          "it weighs two kilos under",
+          "it is two kilos light on each crate"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who made the scale"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it reads two kilos heavy",
+            "ask": "The passage says the opposite of heavy. Which way does the error go?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Repairs were booked in June and August. Why is the scale still wrong later in the year?",
+      "tutor_only": {
+        "confirm": "Yes. The fitter was sent to the wrong bay both times.",
+        "correct_reason": "The last sentence of the passage part says both times the fitter was sent to the wrong bay by mistake.",
+        "tell": "Each repair was booked, and each time the fitter went to the wrong bay.",
+        "help": [
+          "The last sentence of the passage part says what happened to both repairs.",
+          "The fitter came, but not to the scale."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The fitter was sent to the wrong bay both times.",
+        "accept_ideas": [
+          "the fitter went to the wrong bay",
+          "the repairs were booked for the wrong place",
+          "nobody fixed it because the fitter went elsewhere"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the repair would cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the office forgot to book a repair",
+            "ask": "The passage says repairs were booked. What went wrong with them?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The grower worked out that the money would cover her costs. Where did her number come from?",
+      "tutor_only": {
+        "confirm": "Right. From the bay scale, the one that reads light.",
+        "correct_reason": "The first sentence says she weighed the six crates on the bay scale and wrote the totals in her book.",
+        "tell": "She weighed the six crates on the bay scale and wrote those totals down.",
+        "help": [
+          "The first sentence says where she weighed the crates.",
+          "It is the same scale that has been wrong since spring."
+        ],
+        "say_back": "own_words",
+        "core_idea": "From the bay scale, the one that reads light.",
+        "accept_ideas": [
+          "from the bay scale",
+          "she weighed the crates on the broken scale",
+          "from the weights she took at the loading bay"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the seed cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she used the office scale",
+            "ask": "The office scale comes later, at the counter. Which scale did she use on the tailgate?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "The clerk's figure was smaller than the grower's. What made the difference?",
+      "tutor_only": {
+        "confirm": "Yes. The office scale weighed the load at its true weight, and the bay scale reads light.",
+        "correct_reason": "The sentence about the ticket says the figure was printed by the office scale, which the bay scale is not.",
+        "tell": "The clerk used the office scale, which was accurate. The grower's totals came from the bay scale.",
+        "help": [
+          "The sentence about the ticket says which scale printed the clerk's figure.",
+          "That scale was not the one the grower used."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The office scale weighed the load truly, and the bay scale reads two kilos light a crate.",
+        "accept_ideas": [
+          "the office scale was accurate",
+          "the bay scale reads two kilos light on each crate",
+          "her totals came from the wrong scale"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who loaded the crates"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the crates lost weight on the drive",
+            "ask": "Weight does not leave a crate on a short drive. Which scale printed the clerk's figure?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The grower said the crates must have dried out in the sun. What does the story show actually happened?",
+      "tutor_only": {
+        "confirm": "Right. The bay scale read two kilos light on each crate, so she counted more than she delivered.",
+        "correct_reason": "The passage states the fault in the first part and the printed office figure in the last part.",
+        "tell": "The error was two kilos a crate on the bay scale. Nothing dried out in the sun.",
+        "help": [
+          "Put the fault in the first passage part beside her last words.",
+          "The loss is the same on every crate, which the weather would not do."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The bay scale read two kilos light on each crate, so she counted more than she delivered.",
+        "accept_ideas": [
+          "the scale was wrong",
+          "she weighed them on the broken scale",
+          "the bay scale cost her two kilos a crate",
+          "the scale reads less than the true weight, so she was underpaid",
+          "she weighed the crates on a scale that reads light"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the helper was paid"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the co-op cheated her",
+            "ask": "The passage says nobody could change the office figure. Where did her own number come from?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because the next stage of this skill is not authored yet.",
+    "student_line": "You have the move. The next reading is another lesson in this band."
+  },
+  "retry": {
+    "next_file": "literary_text_band_4_1_0005",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_4_1_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

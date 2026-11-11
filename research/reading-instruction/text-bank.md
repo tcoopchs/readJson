@@ -133,6 +133,12 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-120 | The Word on the Board | Fiction | 3 | Band 3.1 | 100 words (two passages, 53 and 47) | 3.92 | `literary_text_band_3_1_0004` |
 | TB-121 | Read It Out Loud | Fiction | 3 | Band 3.1 | 99 words (two passages, 52 and 47) | 3.42 | `literary_text_band_3_1_0005` |
 | TB-122 | Sheets Over the Plants | Fiction | 3 | Band 3.1 | 106 words (two passages, 55 and 51) | 2.90 | `literary_text_band_3_1_0006` |
+| TB-123 | The Second Turn | Fiction | 4 | Band 4.1 | 322 words (three passages, 109, 113, 100) | 5.49 | `literary_text_band_4_1_0001` |
+| TB-124 | The Empty Depot | Fiction | 4 | Band 4.1 | 315 words (three passages, 109, 106, 100) | 5.62 | `literary_text_band_4_1_0002` |
+| TB-125 | Not Yet | Fiction | 4 | Band 4.1 | 327 words (three passages, 116, 110, 101) | 5.45 | `literary_text_band_4_1_0003` |
+| TB-126 | Two Kilos Light | Fiction | 4 | Band 4.1 | 310 words (three passages, 102, 108, 100) | 5.97 | `literary_text_band_4_1_0004` |
+| TB-127 | The Wet Week | Fiction | 4 | Band 4.1 | 314 words (three passages, 107, 101, 106) | 5.53 | `literary_text_band_4_1_0005` |
+| TB-128 | Fifteen Looms | Fiction | 4 | Band 4.1 | 304 words (three passages, 104, 100, 100) | 5.82 | `literary_text_band_4_1_0006` |
 
 ---
 
@@ -4117,6 +4123,204 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
 **Why it works.** The result is shown before the prediction is confirmed, and the last action carries a prediction the text never states.
 
 **Cautions.** No place, garden size, or crop name beyond young plants. No claim about the weather after this night.
+
+---
+
+## TB-123 — The Second Turn
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 322 words (three passages, 109, 113, 100) |
+| FK grade | 5.49 on the three passages together (5.57, 5.43, 5.54) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `literary_text_band_4_1_0001` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** An owner who checks every wheel twice loses the habit when work piles up, and the helper who watched him fix a bad wheel quietly takes it on.
+
+**Supporting details.**
+
+- The owner spins every wheel once to hear the bearing and again with his hand on the rim.
+- The helper works fast, and when the shop fills with bikes the owner stops watching him.
+- A loose rim comes back, and the owner refunds the charge and fits a new rim himself without a word.
+- By the next month the helper checks every wheel twice and the owner does not.
+- The helper finds a loose nut on the owner's work, makes it tight, and says nothing.
+
+**Why it works.** Both habits reverse across the same three parts. The example, not an instruction, carries the change.
+
+**Cautions.** No shop name, street, town, or price. No claim about what the helper was paid.
+
+---
+
+## TB-124 — The Empty Depot
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | places and travel |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 315 words (three passages, 109, 106, 100) |
+| FK grade | 5.62 on the three passages together (5.46, 5.66, 5.78) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `literary_text_band_4_1_0002` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A night driver gives the same reason for his run, and the empty depot he still visits shows the stop is the real reason.
+
+**Supporting details.**
+
+- The driver says the pay is better and the roads are clear, in the same words every time.
+- He times the last stretch so he reaches a small depot while its lights are still on.
+- He buys a coffee he does not drink, and the man has told him twice he need not buy anything.
+- The depot shuts and the man takes a job at a motorway service station.
+- The driver still stops at the empty yard at two, and gives the pay as his reason again.
+
+**Why it works.** The contradiction between the stated reason and the nightly stop is never named, so the reader has to make it.
+
+**Cautions.** No company, depot name, road number, or town. No claim about what the new job pays.
+
+---
+
+## TB-125 — Not Yet
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | arts and language |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 327 words (three passages, 116, 110, 101) |
+| FK grade | 5.45 on the three passages together (5.52, 5.40, 5.46) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `literary_text_band_4_1_0003` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A foreman's two-word verdict means a faulty paint job in the apprentice's first week and an unready stage on dress-rehearsal night.
+
+**Supporting details.**
+
+- The foreman says not yet when the paint is wrong, and sends the flat back for another coat.
+- A flat called not yet waits a day and is looked at again.
+- The apprentice finishes a door frame, and she says the same two words.
+- He reaches for the sandpaper, reading the words as he first learned them.
+- She stops his hand and points at the actors still walking their marks.
+
+**Why it works.** One phrase carries two meanings, and the second use is shown by what the foreman does with her hand rather than explained.
+
+**Cautions.** No theatre, town, or play named. No claim about who wrote the play.
+
+---
+
+## TB-126 — Two Kilos Light
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | food and farming |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 310 words (three passages, 102, 108, 100) |
+| FK grade | 5.97 on the three passages together (6.08, 6.29, 5.54) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `literary_text_band_4_1_0004` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A grower weighs her last crates on a scale known to read light, and blames the sun for the money she loses.
+
+**Supporting details.**
+
+- The bay scale reads two kilos light on every crate and has done so since spring.
+- Repairs were booked twice, and both times the fitter was sent to the wrong bay.
+- The grower weighs six crates on the bay scale and works out that the money covers her costs.
+- The counter weighs the load on the office scale and prints a smaller figure.
+- The grower says the crates must have dried out in the sun.
+
+**Why it works.** The reader holds the fault from the first part while the grower holds a wrong total, so the ending is inference rather than information.
+
+**Cautions.** No co-op name, town, crop, or price. No claim about who owns the scale.
+
+---
+
+## TB-127 — The Wet Week
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | sport and play |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 314 words (three passages, 107, 101, 106) |
+| FK grade | 5.53 on the three passages together (5.37, 5.93, 5.33) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `literary_text_band_4_1_0005` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A groundsman closes a waterlogged pitch and a captain loses his last home match, and each of them ends up protecting the other's position.
+
+**Supporting details.**
+
+- The groundsman closes the pitch after three days of rain, because a tear lasts a season.
+- The captain has one home match left, no win since the ground was relaid, and two players leaving.
+- The fork goes in at eleven of twelve points, so the pitch is soft.
+- The captain calls the match off himself and tells the players the weather won it.
+- That night he rolls the goalmouth by hand, and the groundsman records the date without naming him.
+
+**Why it works.** Both claims are defensible and neither character is corrected, so the reader has to hold two reasons at once.
+
+**Cautions.** No club, league, ground, or county named. No score or date.
+
+---
+
+## TB-128 — Fifteen Looms
+
+| Field | Value |
+| --- | --- |
+| Source | Written for this lesson |
+| URL | none; original text drafted for the band |
+| License | Original text, written for this lesson |
+| Genre | Fiction, realistic |
+| Topic domain | history and people |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 304 words (three passages, 104, 100, 100) |
+| FK grade | 5.82 on the three passages together (5.47, 5.66, 6.49) |
+| Complexity | L2, I3, S2, K1 |
+| Best lesson fit | `literary_text_band_4_1_0006` |
+| Provenance | `drafted_by: "TC"`; spot-check rotation |
+
+**Central idea.** A watchman counts fifteen looms on a floor of nine, and the mill's last wage book shows he is counting the weavers who worked there.
+
+**Supporting details.**
+
+- Nine looms stand on the floor, and the watchman touches each frame as he counts aloud.
+- He says fifteen at every aisle while the clerk counts nine.
+- The clerk writes the number down and draws a line under it.
+- The mill's last full year of work listed fifteen weavers on that floor.
+- The clerk says nothing about what she found, and he gives her the keys.
+
+**Why it works.** The closing record changes the opening count, so the first passage has to be read a second time.
+
+**Cautions.** No mill, town, or firm named. No date, wage, or claim about the sale.
 
 ---
 

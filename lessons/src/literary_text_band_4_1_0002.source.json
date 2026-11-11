@@ -1,0 +1,247 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_4_1_0002",
+  "meta": {
+    "status": "published",
+    "title": "The Empty Depot",
+    "skill": "literary_text",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 2,
+    "genre": "fiction",
+    "topic_domain": "places and travel",
+    "skill_frame": "Literary text: hold the reason someone gives against what the story shows them doing.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.6 over the three parts (109 words at FK 5.5, 106 words at FK 5.7, 100 words at FK 5.8). The load is a stated reason that the last passage part contradicts, with the contradiction carried by an empty yard and a coffee.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for literary_text 4.1, Band 4.1, sequence 2. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A night lorry driver whose stated reason for the run does not survive the last passage part.",
+      "avoided": "No company, depot name, road number, or town. No claim about what the new job pays."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "a stated reason that the last passage part contradicts, with the contradiction carried by an empty yard and a coffee"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The driver takes the night run because the pay is better and the roads are clear. He says this to anyone who asks, in the same words, and he has said it for four years. The run leaves the yard at eleven and reaches the coast by four. For most of the distance there is nothing to look at but fence posts, the backs of barns, and one small depot with a light on above the door. He drives it alone, has never asked for a second man, and would not take one. The cab is warm, and the radio will not hold a station past the first hill.",
+    "part_2": "The depot sells fuel, coffee, and nothing else, and one man runs the counter and the till. The driver's stop is most of the trade that depot sees after dark. He buys a coffee he does not drink and stands by the door until the kettle is switched off. He times the last stretch of the run so that he pulls in before two, while the lights are still on and the man is still awake. In four years he has never once arrived after the lights went out. The man behind the counter has told him twice that he does not have to buy anything.",
+    "part_3": "Last winter the depot shut, because a service station opened beside the motorway and took the trade. The man behind the counter took a job there. The driver still stops at the empty yard at two. He switches off his lights, sits for ten minutes in the dark with the engine running low, and drinks the coffee he now brings from home. The pumps have been taken out, the windows are boarded, and there is nothing left in the yard to light. When a new hand asked him why he took the night run, he said the pay was better."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What reason does the driver give for taking the night run?",
+      "tutor_only": {
+        "confirm": "Right. He says the pay is better and the roads are clear.",
+        "correct_reason": "The first sentence says he takes the night run because the pay is better and the roads are clear.",
+        "tell": "He says the pay is better and the roads are clear. He gives that answer every time.",
+        "help": [
+          "The first sentence of the passage gives his reason.",
+          "It names two things: money and the state of the roads."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The pay is better and the roads are clear.",
+        "accept_ideas": [
+          "the pay is better",
+          "better pay and empty roads",
+          "the roads are clear",
+          "more money and less traffic"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the run is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he likes driving at night",
+            "ask": "The passage gives his reason in his own words. What does he say about the pay?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the driver time the run so he arrives at the depot before two?",
+      "tutor_only": {
+        "confirm": "Yes. So he arrives while the lights are on and the man is still awake.",
+        "correct_reason": "The sentence about the last stretch says he pulls in before two, while the lights are still on and the man is still awake.",
+        "tell": "He plans the last stretch to reach the depot before two. After that, the lights are out.",
+        "help": [
+          "The sentence about the last stretch says what is still true at two.",
+          "It is about the lights and the man behind the counter."
+        ],
+        "say_back": "own_words",
+        "core_idea": "So he reaches the depot while the lights are still on.",
+        "accept_ideas": [
+          "so the lights are still on",
+          "to catch the man before he closes",
+          "so the depot is still open"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how much fuel he buys"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the coffee is better fresh",
+            "ask": "The passage says he does not drink the coffee. What is still on at two?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The man has told him twice that he does not have to buy anything. Why does the driver keep buying the coffee?",
+      "tutor_only": {
+        "confirm": "Right. The coffee gives him a reason to stop there.",
+        "correct_reason": "He buys a coffee he does not drink, and the sentence about the man says he does not have to buy anything.",
+        "tell": "The coffee is the reason he can give for stopping. He buys it and does not drink it.",
+        "help": [
+          "The sentence about the man says he does not have to buy. The driver buys anyway.",
+          "A stop with no purchase would be harder to make every night."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Buying the coffee gives him a reason to stop there.",
+        "accept_ideas": [
+          "so he has a reason to stop",
+          "to keep the counter's trade going",
+          "it keeps the stop going",
+          "he wants to be there when the depot is open",
+          "he likes being at the depot with the man"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the coffee costs"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he likes the coffee",
+            "ask": "The passage says he does not drink it. What does the purchase do for the stop?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "The depot has shut and the driver still stops there at two. What does that show about the reason he gave for the night run?",
+      "tutor_only": {
+        "confirm": "Yes. The stop mattered more than the pay, so his reason is not the whole reason.",
+        "correct_reason": "He drives to an empty yard at two and sits in the dark. The pay does not explain that.",
+        "tell": "He drives to an empty yard at two every night. The pay does not explain that.",
+        "help": [
+          "Read what he does in the empty yard, then read the reason he gives at the end.",
+          "The two do not fit together."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The stop mattered more than the pay, so the reason he gives is not the whole reason.",
+        "accept_ideas": [
+          "the stop was the real reason",
+          "he cares about the depot more than the money",
+          "his reason is not the whole story"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the new job pays"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he is too tired to change the run",
+            "ask": "Changing the run is not what the passage describes. What does he do at two?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The driver says the pay is better. What does the story show about that answer?",
+      "tutor_only": {
+        "confirm": "Right. It is the answer he gives, and his nights show the stop was the real reason.",
+        "correct_reason": "He gives the same answer every time, and he still stops at an empty yard where nothing is for sale.",
+        "tell": "He gives the same answer every time. His nights at an empty yard say something else.",
+        "help": [
+          "Put the last two sentences beside the first sentence of the passage.",
+          "One is what he says, and the other is what he does."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It is the answer he gives, but his nights show the stop was the real reason.",
+        "accept_ideas": [
+          "it is only part of the reason",
+          "he says it but does not mean it",
+          "the stop was the real reason"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the coast run carries"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he is lying about the pay",
+            "ask": "The passage does not say the pay is worse. What does it show he keeps doing?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because the next stage of this skill is not authored yet.",
+    "student_line": "You have the move. The next reading is another lesson in this band."
+  },
+  "retry": {
+    "next_file": "literary_text_band_4_1_0003",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_4_1_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

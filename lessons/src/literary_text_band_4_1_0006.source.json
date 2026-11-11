@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_4_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "Fifteen Looms",
+    "skill": "literary_text",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "fiction",
+    "topic_domain": "history and people",
+    "skill_frame": "Literary text: carry a number to the end and read what the closing scene changes.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.8 over the three parts (104 words at FK 5.5, 100 words at FK 5.7, 100 words at FK 6.5). The load is a number repeated three times, then explained by a record in the last passage part, so the opening is read again.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for literary_text 4.1, Band 4.1, sequence 6. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A watchman counting a mill floor, with a closing record that sends the reader back to the first count.",
+      "avoided": "No mill, town, or firm named. No date, wage, or claim about the sale."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "a number repeated three times, then explained by a record in the last passage part, so the opening is read again"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The watchman walks the mill floor twice a night and counts the looms as he goes. There are nine of them now, covered in canvas sheets, and the aisles between them are swept clean. He counts aloud in the darkness and touches every frame with two fingers as he passes. The building is being cleared in the spring, and he has been asked to keep the wooden floor dry until the vans come for the looms. The looms will be sold for spare parts, and the sheets will go with them to the same sale. Nobody has told him what that sale is worth.",
+    "part_2": "A clerk from the office walked the route with him on Tuesday night to learn it before he left. She carried the keys and wrote down the doors that stick. At the end of the first aisle the watchman said fifteen and moved on without stopping. The clerk counted the frames under the sheets and got nine, and she said nothing about the number. At the second aisle he said fifteen again, and at the third he said it again. She wrote the number in her book beside the list of doors that stick, and drew a line under it.",
+    "part_3": "In the office the clerk found the mill's old wage books in a cupboard, one for every year the mill had run. The last full year of work listed fifteen weavers on that floor. She closed the book, put it back in the cupboard, and walked back down the aisle. The watchman was touching the sheet of the last frame and saying the number, and she waited until he had finished before she asked him for the keys. He gave the keys to her and wished her a good night, and she did not tell him what she had found."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "How many looms are on the mill floor now?",
+      "tutor_only": {
+        "confirm": "Right. Nine.",
+        "correct_reason": "The sentence after the counting says there are nine of them now, covered in sheets.",
+        "tell": "There are nine looms on the floor, under sheets.",
+        "help": [
+          "The sentence after the counting says how many there are.",
+          "The number is under ten."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Nine.",
+        "accept_ideas": [
+          "nine",
+          "nine looms",
+          "there are nine"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the sheets cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says fifteen",
+            "ask": "That is the number he says aloud. How many frames are under the sheets?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The clerk counted nine frames. What number did the watchman say at each aisle?",
+      "tutor_only": {
+        "confirm": "Yes. Fifteen, at every aisle.",
+        "correct_reason": "The passage says he said fifteen at the first aisle, fifteen again at the second, and again at the third.",
+        "tell": "He said fifteen at the first aisle, at the second, and at the third.",
+        "help": [
+          "The sentence at the end of the first aisle gives his number.",
+          "It does not change between the aisles."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Fifteen, at every aisle.",
+        "accept_ideas": [
+          "fifteen",
+          "he said fifteen three times",
+          "fifteen every time"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the walk takes"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he said nine",
+            "ask": "The clerk got nine by counting. What did the watchman say aloud?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "What did the mill's wage book show for its last full year of work?",
+      "tutor_only": {
+        "confirm": "Right. Fifteen weavers worked on that floor.",
+        "correct_reason": "The sentence about the wage book says the last full year of work listed fifteen weavers on that floor.",
+        "tell": "The last full year lists fifteen weavers on that floor.",
+        "help": [
+          "The sentence about the wage book names the number and the job.",
+          "It is the same number he says in the dark."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Fifteen weavers worked on that floor.",
+        "accept_ideas": [
+          "fifteen weavers",
+          "fifteen people worked there",
+          "the mill employed fifteen weavers"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the weavers were paid"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it listed fifteen looms",
+            "ask": "A wage book lists people who were paid. Who was on that list?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "The clerk wrote the number in her book and drew a line under it. What did she do next?",
+      "tutor_only": {
+        "confirm": "Yes. She looked up the mill's old wage books.",
+        "correct_reason": "The first sentence of the last passage part says she found the mill's old wage books in a cupboard.",
+        "tell": "She drew a line under the number and then looked for it in the old wage books.",
+        "help": [
+          "The first sentence of the last passage part says where she went.",
+          "She was looking for the number in a record."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She went to the office and looked up the mill's old wage books.",
+        "accept_ideas": [
+          "she looked in the wage books",
+          "she checked the old records",
+          "she went to the cupboard in the office"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who keeps the keys"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she told the watchman about it",
+            "ask": "The passage says she said nothing about the number. What did she do instead?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The clerk did not tell the watchman what she had found. What does the story show the counting was for?",
+      "tutor_only": {
+        "confirm": "Right. It was his way of keeping the mill and its weavers as they were.",
+        "correct_reason": "The number he says is the number of weavers in the mill's last full year, not the looms on the floor.",
+        "tell": "He counts the weavers from the mill's last full year. The number is a memory, not an error.",
+        "help": [
+          "Set the wage-book number beside the number he says in the dark.",
+          "One number is looms, and the other is people."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It was his way of keeping the mill and its weavers as they were, not a mistake about looms.",
+        "accept_ideas": [
+          "he was remembering the weavers",
+          "he was keeping the mill as it was",
+          "it was about the people, not the looms"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the looms will sell for"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he cannot count",
+            "ask": "He touches every frame as he passes and gets the nine right. What else could fifteen be?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because the next stage of this skill is not authored yet.",
+    "student_line": "You have the move. The next reading is another lesson in this band."
+  },
+  "retry": {
+    "next_file": "literary_text_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

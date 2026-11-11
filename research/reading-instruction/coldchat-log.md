@@ -437,3 +437,36 @@ of the sorted lesson list, the first fiction cell below band 5.
 
 Still owed on this rung: misconception, injection, and stop-by-request sessions, the branch and
 tolerance probes, and the TC review of the six drafted passages.
+
+## literary_text 4.1 — six lessons, swept and both probes (2026-11-10)
+
+`literary_text_band_4_1_0001` to `_0006`, swept on the compiled files at indices 59-64 of the sorted
+lesson list, the rung above the first fiction floor.
+
+- Smooth: 6 of 6, opened on the first reply, five items in order, `done=5 u=5 an=1`, no leak, no early
+  ticket ($0.0315).
+- Hard: 6 of 6, authored help only (`invented_help` empty on every lesson), `tell` reached, stopped
+  ticket `an=0|stop=1` with `done=1` on every lesson, no private-field leak ($0.0177).
+- Branch probe, two items per lesson, three variants each: 35 of 36 sessions dispatched the stored
+  branch ($0.0413). The one failure was real: at 0001 item 2 the student answered "the owner probably
+  thought the helper could handle it" and was marked correct. That branch named only speed or skill,
+  so the owner-trusts reading was not covered. The `when` was widened to the trust reading and a
+  second branch added for speed, and the replay passed ($0.0021). 36 of 36.
+- Tolerance probe, five items per lesson, student answering in its own words: 21 of 30 accepted
+  ($0.0307). Reading every miss, two were key defects — 0002 item 3 refused "he wants to be there when
+  the depot is open", and 0004 item 5 refused "the scale reads less, so she was underpaid" — and both
+  keys were widened and replayed accepted ($0.0074). The other seven were the student model answering
+  wrongly or too thinly, checked one by one: 0003 item 3 said the frame "needed more work", 0004 item 3
+  described what the number covered instead of where it came from, 0004 item 4 added a drying-out
+  cause, 0005 item 3 read the fork as proof the ground was good, 0006 items 4 and 5 answered out of
+  order and named loom tracking, and 0001 item 5 left out the quiet part of what the helper learned.
+  With the two key fixes the rate is 23 of 30; the seven leftovers are classified as student-side.
+- Routing against the live catalog: a clear on 4.1 holds with `hold=ceiling` because 4.2 is not
+  authored, a hard fail on 4.1_0002 steps down to `literary_text_band_3_1_0003` (the middle sequence
+  of the rung below), and a clear on 3.1_0004 now moves up to `literary_text_band_4_1_0001`.
+- Defects caught before the sweep: `--strict` flagged `easily` as a condescending word in one lesson's
+  copy (three strings, rewritten to "went straight in"); `audit_lessons.py` reports nothing on this
+  rung, the 58 findings all sitting in older cells.
+
+Still owed on this rung: misconception, injection, and stop-by-request sessions, and the TC review of
+the six drafted passages.

@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_4_1_0005",
+  "meta": {
+    "status": "published",
+    "title": "The Wet Week",
+    "skill": "literary_text",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 5,
+    "genre": "fiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Literary text: hold two people who are both right, and read what the choice costs.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.5 over the three parts (107 words at FK 5.4, 101 words at FK 5.9, 106 words at FK 5.3). The load is two defensible claims held at once, and a closing scene where each character's respect is shown by what is not recorded.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for literary_text 4.1, Band 4.1, sequence 5. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A groundsman and a captain with a fair claim each, resolved without a winner.",
+      "avoided": "No club, league, ground, or county named. No score or date."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "two defensible claims held at once, and a closing scene where each character's respect is shown by what is not recorded"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The groundsman has one rule he will not bend. After three days of rain the pitch is closed, because a studded boot on soft turf tears the surface, and a tear takes a season to mend. The captain has one match left at home this season. His side has not won there since the ground was relaid two years ago, and two of his best players are leaving in the spring. The club has no other ground to move the match to, and the season ends in three weeks. The captain has already asked for the match twice, once on the phone and once at the gate.",
+    "part_2": "On Thursday the groundsman walked the pitch with a fork and pushed it into the turf at twelve points. It went in easily at eleven of them. He told the captain the match was off and offered him the pitch for the month after. The captain said the month after was past the end of the season, and the groundsman said he knew that, and neither of them said anything else. The fork was still in the groundsman's hand when the captain turned and walked back to the gate. The gate was chained, and the captain had to step over it.",
+    "part_3": "The captain called the match off himself and told the players that the weather had won it. That night the groundsman found him on the pitch with a heavy roller, working the worst of the goalmouth by hand in the light of one lamp. Neither of them mentioned the match or the fork. In the morning the fork went in at three points instead of eleven, and the groundsman wrote the date in the book by the door. He did not write in the book whose work had firmed the ground. The captain did not ask him to write it, and the match was never played."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is the groundsman's rule?",
+      "tutor_only": {
+        "confirm": "Right. After three days of rain the pitch is closed.",
+        "correct_reason": "The second sentence gives the rule: after three days of rain the pitch is closed.",
+        "tell": "Three days of rain closes the pitch, because a torn surface takes a season to mend.",
+        "help": [
+          "The second sentence of the passage gives the rule.",
+          "It counts the days of rain."
+        ],
+        "say_back": "own_words",
+        "core_idea": "After three days of rain the pitch is closed.",
+        "accept_ideas": [
+          "the pitch closes after three days of rain",
+          "no play on soft turf",
+          "three days of rain closes the pitch"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who owns the ground"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the pitch closes when it is frozen",
+            "ask": "The passage names rain, not frost. How many days of rain close it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "Why did the captain want this match played so much?",
+      "tutor_only": {
+        "confirm": "Yes. It was the last home match, his side had not won there, and two players were leaving.",
+        "correct_reason": "The sentences about the captain give the last home match, no win since the ground was relaid, and two players leaving.",
+        "tell": "It was the last home match, the side had not won there, and two players were leaving.",
+        "help": [
+          "The sentences about the captain give three reasons at once.",
+          "One is the last match, one is the wins, one is the players."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It was his last home match, his side had not won there, and two players were leaving.",
+        "accept_ideas": [
+          "it was the last home match",
+          "his side had not won there",
+          "two players were leaving and it was the last chance"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many matches the side had won away"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the match was for a trophy",
+            "ask": "The passage says nothing about a trophy. What does it say about the season?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The groundsman pushed a fork into the turf at twelve points. What did the test show?",
+      "tutor_only": {
+        "confirm": "Right. The turf was soft at eleven of the twelve points.",
+        "correct_reason": "The sentence after the fork says it went in easily at eleven of them.",
+        "tell": "The fork went straight in at eleven points. That is soft ground, and soft ground tears.",
+        "help": [
+          "The sentence after the fork says what happened at each point.",
+          "It went straight in at almost every point."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The turf was soft at eleven of the twelve points, so it could not hold a match.",
+        "accept_ideas": [
+          "the pitch was soft",
+          "the fork went in easily at eleven points",
+          "the turf would not hold"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how deep the fork went"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the pitch was too hard",
+            "ask": "A fork that goes straight in is not a sign of hard ground. What happened at eleven points?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "The captain called the match off and then rolled the goalmouth at night. What does that show?",
+      "tutor_only": {
+        "confirm": "Yes. He accepted the reason, and he still wanted the ground fit.",
+        "correct_reason": "He cancelled the match himself, and that night he was on the pitch with a roller.",
+        "tell": "He gave up the match and then worked the ground himself. The pitch mattered more than the argument.",
+        "help": [
+          "Read the two things he does in that passage part, one in the day and one at night.",
+          "One of them gives up the match."
+        ],
+        "say_back": "own_words",
+        "core_idea": "He accepted the groundsman's reason, and he still wanted the ground fit.",
+        "accept_ideas": [
+          "he agreed with the groundsman",
+          "he put the ground before the match",
+          "he took the reason seriously"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the roller weighed"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he rolled the pitch to play on it",
+            "ask": "The match was already called off. What was he doing to the ground instead?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The groundsman wrote the date but not whose work firmed the ground. What does the passage show about the two of them?",
+      "tutor_only": {
+        "confirm": "Right. They disagreed, and each of them left the other one out of it.",
+        "correct_reason": "The captain took the reason and did the work quietly, and the groundsman recorded the fact and kept the man out of it.",
+        "tell": "The captain took the reason and did the work quietly. The groundsman recorded the fact and kept the man out of it.",
+        "help": [
+          "Read the two sentences that say what was not written and what was not asked.",
+          "Each of them leaves the other one out of the record."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They disagreed and each respected the other, and neither had to be beaten.",
+        "accept_ideas": [
+          "they respected each other",
+          "both of them had a fair reason",
+          "neither of them made it a fight"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the book is used for"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the groundsman did not trust the captain",
+            "ask": "The groundsman wrote the date from the captain's work. What was left out of the book?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because the next stage of this skill is not authored yet.",
+    "student_line": "You have the move. The next reading is another lesson in this band."
+  },
+  "retry": {
+    "next_file": "literary_text_band_4_1_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_4_1_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

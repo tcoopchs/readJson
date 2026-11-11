@@ -1,0 +1,243 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_4_1_0003",
+  "meta": {
+    "status": "published",
+    "title": "Not Yet",
+    "skill": "literary_text",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 3,
+    "genre": "fiction",
+    "topic_domain": "arts and language",
+    "skill_frame": "Literary text: read the same words twice and see when the meaning changes.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.4 over the three parts (116 words at FK 5.5, 110 words at FK 5.4, 101 words at FK 5.5). The load is one phrase used twice with different meanings, and a character who misreads the second use.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Written for this lesson.",
+      "attribution": "Original text drafted for literary_text 4.1, Band 4.1, sequence 3. No external work.",
+      "text_status": "Drafted for the band, accepted on spot check.",
+      "drafted_by": "TC",
+      "survey": "A scene shop where one phrase carries two meanings, and an apprentice has to tell them apart.",
+      "avoided": "No theatre, town, or play named. No claim about who wrote the play."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "one phrase used twice with different meanings, and a character who misreads the second use"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "In the scene shop the foreman reads every flat before it goes to the stage. When the paint is wrong she says two words and no more: not yet. The painter learned those words in his first week. A flat that was not yet went back on the trestles, took another coat, and waited a day before anyone looked at it again. Nothing left the shop until the foreman said the flat's name and nothing else. A flat is a wall of scenery, painted on canvas and carried to the theatre by two people on a truck. The paint is mixed at the bench at the back, and the whole shop smells of it all day.",
+    "part_2": "On the night of the dress rehearsal the same two words came back to him. The painter had finished a door frame at six, and the foreman walked past it, looked at the paint, and said, not yet. He took the frame off the trestles and began sanding the edge for a second coat. She stopped his hand with two fingers and pointed at the stage, where the actors were still walking through their marks. It was ten past ten, and the stage had been lit for the first time that week. The door frame was the last piece of the set, and it had been his job since Monday.",
+    "part_3": "The frame was right, and the floor was not ready for it. In his first week, not yet had meant the paint was wrong, and he had learned to hear it that way. On that night it meant the paint was finished and the hour was wrong, which is a different thing to hear. He carried the frame into the wings and held it there while the actors crossed the stage behind him. The next time she said the words, he asked a question before he reached for the sandpaper. She answered it, and he left the sandpaper in the drawer."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the foreman say when the paint is wrong?",
+      "tutor_only": {
+        "confirm": "Right. She says two words: not yet.",
+        "correct_reason": "The sentence about wrong paint gives her words: not yet, and nothing more.",
+        "tell": "When the paint is wrong she says the words not yet, and she says nothing more.",
+        "help": [
+          "The sentence about wrong paint gives her exact words.",
+          "It is two words, and neither of them is no."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She says not yet.",
+        "accept_ideas": [
+          "not yet",
+          "she says the words not yet"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how many flats are in the shop"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says she says no",
+            "ask": "She does say two words, but not that one. What are they?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What happens to a flat that the foreman calls not yet?",
+      "tutor_only": {
+        "confirm": "Yes. It goes back on the trestles, takes another coat, and waits a day.",
+        "correct_reason": "The sentence after her words says the flat went back on the trestles, took another coat, and waited a day.",
+        "tell": "The flat goes back on the trestles, takes another coat, and waits a day.",
+        "help": [
+          "The sentence after her words says where the flat goes and what happens to it.",
+          "It is repainted and left to dry."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It goes back on the trestles, gets another coat, and waits a day.",
+        "accept_ideas": [
+          "it gets another coat",
+          "it goes back for more paint",
+          "it waits a day and gets another coat"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "who mixes the paint"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it is thrown away",
+            "ask": "Nothing leaves the shop, but nothing is scrapped either. Where does the flat go?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "On the night of the dress rehearsal she said not yet about a frame he had finished. What was wrong?",
+      "tutor_only": {
+        "confirm": "Right. The paint was right, and the stage was not ready for the frame.",
+        "correct_reason": "She stopped his hand and pointed at the stage, where the actors were still walking their marks.",
+        "tell": "She stopped his sanding and pointed at the stage. The frame was finished, and the stage was not ready.",
+        "help": [
+          "The sentence about her hand says what she pointed at.",
+          "The actors were still walking their marks."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The paint was right, but the stage was not ready for the frame.",
+        "accept_ideas": [
+          "the paint was fine and the stage was not ready",
+          "the actors were still on the stage",
+          "the hour was wrong, not the paint"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how the frame was carried"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the paint was still wet",
+            "ask": "She stopped him from sanding the paint. What was happening on the stage?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The painter began sanding the frame for a second coat. What did that show he thought the words meant?",
+      "tutor_only": {
+        "confirm": "Yes. He thought the paint was wrong again, as it had been in his first week.",
+        "correct_reason": "He reached for the sandpaper, so he read the words the way he first learned them.",
+        "tell": "He reached for the sandpaper, so he heard the words the way he first learned them.",
+        "help": [
+          "Read what he did with his hands after she said the words.",
+          "Sanding means he believed the paint was wrong."
+        ],
+        "say_back": "own_words",
+        "core_idea": "He thought the paint was wrong again, as it had been in his first week.",
+        "accept_ideas": [
+          "he thought the paint was wrong",
+          "he read the words the old way",
+          "he thought the work had failed again"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "what the second coat would cost"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he was arguing with the foreman",
+            "ask": "The passage shows him reading the words, not arguing. What did his hands do?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "What did the painter learn the second time he heard the two words?",
+      "tutor_only": {
+        "confirm": "Right. The words can mean the work is wrong or that the hour is wrong.",
+        "correct_reason": "The passage gives both meanings: in his first week the paint was wrong, and on that night the paint was finished.",
+        "tell": "The words can name a fault in the work or a wait for the stage. He learns to ask which one.",
+        "help": [
+          "Read the two sentences near the end that give the two meanings.",
+          "One is about the paint and one is about the hour."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The words can mean the work is wrong or the hour is wrong, so he has to ask.",
+        "accept_ideas": [
+          "the words can mean two things",
+          "he must ask which meaning it is",
+          "the words might be about the hour, not the paint"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "how long the rehearsal ran"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he learned to paint better",
+            "ask": "That evening his paint was already right. What did he learn about the words?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, because the next stage of this skill is not authored yet.",
+    "student_line": "You have the move. The next reading is another lesson in this band."
+  },
+  "retry": {
+    "next_file": "literary_text_band_4_1_0004",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson on this skill in this band."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_4_1_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
