@@ -221,19 +221,19 @@
       "show_part_again": true,
       "prompt": "The opening asks you to picture a bird carrying a cherry seed. What does the last part do instead?",
       "tutor_only": {
-        "confirm": "It stops asking you to picture a scene and explains why the oaks grow once the pines are cut.",
+        "confirm": "It explains a cause and its result: the pines are cut, so the oaks grow.",
         "correct_reason": "'See how cleverly a cherry seed is placed so a bird must carry it' invites a picture. 'But when the pines are cleared off, the oaks have just the start they want... so they spring up at once into trees' explains a cause and its result.",
-        "tell": "The opening asks you to picture a bird. The last part explains what happens when the pines are cut.",
+        "tell": "The opening shows you a bird. The last part explains why the oaks grow.",
         "help": [
           "Reread the opening and find where the author asks you to see a bird with a cherry seed.",
           "Reread the last part and find a sentence with 'when' and 'so' that tells a result."
         ],
         "say_back": "own_words",
-        "core_idea": "The opening invites the reader to picture a bird carrying a seed; the last part explains causes and results instead of picturing a scene.",
+        "core_idea": "The last part explains a cause and its result: the pines are cut, so the oaks grow.",
         "accept_ideas": [
-          "it explains causes instead of asking you to picture a scene",
-          "it stops picturing and explains what happens when the pines are cleared",
-          "the author explains a cause and result rather than showing a picture"
+          "it explains a cause — the pines are cut, so the oaks grow",
+          "it tells why the oaks come up after the pines are cleared",
+          "it explains what happens when the pines are cut so the oaks grow"
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -255,6 +255,10 @@
         "partial": [
           {
             "when": "the student gives the clearing of the pines as the answer without naming the change from picturing to explaining",
+            "ask": "What does the last part do that the opening does not?"
+          },
+          {
+            "when": "the student says what the last part is about — squirrels, nuts, or the pines being cleared — without naming the cause and its result",
             "ask": "What does the last part do that the opening does not?"
           }
         ]
