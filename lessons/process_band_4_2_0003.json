@@ -49,23 +49,22 @@
           "It crosses the gravel bed, drops into a sump, and is pumped back."
         ],
         "say_back": "own_words",
-        "core_idea": "Across a bed of gravel and sand, into a sump, and back to the tank by pump.",
+        "core_idea": "Over the filter bed and back through the pump.",
         "accept_ideas": [
           "over the filter bed and back through the pump",
           "across the gravel into a sump and back",
           "through the filter and then back to the tank"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how fast the pump runs"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says it drains away",
             "ask": "The passage says the loop closes. Where does the water go instead?"
           }
-        ]
+        ],
+        "full_idea": "Across a bed of gravel and sand, into a sump, and back to the tank by pump."
       },
       "display": {
         "lead": "",
@@ -97,9 +96,7 @@
           "the smallest bits pass the gravel"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the dust is made of"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -131,7 +128,7 @@
           "Each pass adds a little to the tank, and the passes do not stop."
         ],
         "say_back": "own_words",
-        "core_idea": "The dust that slips through returns on every pass, so the amount builds up over a week.",
+        "core_idea": "The dust comes back every time and adds up.",
         "accept_ideas": [
           "the dust comes back every time and adds up",
           "each pass leaves a little more dust",
@@ -147,7 +144,8 @@
             "when": "the student says the filter is broken",
             "ask": "The passage says the filter works as designed. What does the dust do?"
           }
-        ]
+        ],
+        "full_idea": "The dust that slips through returns on every pass, so the amount builds up over a week."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -178,7 +176,7 @@
           "the filter cannot remove what is already in the water",
           "the loop keeps bringing the dust back"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how much a new filter costs"
         ],
@@ -188,7 +186,8 @@
             "when": "the student says the new filter is smaller",
             "ask": "Size is not the point here. What does the returning water carry?"
           }
-        ]
+        ],
+        "full_idea": "The dust already in the loop keeps returning, so a new filter only catches what passes through it."
       },
       "display": {
         "lead": "",
@@ -219,7 +218,7 @@
           "only draining takes dust out of the loop",
           "the drain lowers the count and the pump does not"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how often the crew drains"
         ],
@@ -229,7 +228,8 @@
             "when": "the student says the pump is too weak",
             "ask": "The tank is not short of flow. What does more flow do to the dust?"
           }
-        ]
+        ],
+        "full_idea": "A faster pump moves the dust around faster, while a drain lowers the count; the amount to drain is known only after the loop has run."
       },
       "display": {
         "lead": "Here is the rest of the passage.",

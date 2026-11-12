@@ -56,9 +56,7 @@
           "snow insulates the ice and holds it back"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how deep the snow was"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -172,7 +170,7 @@
           "It compares March ice with January ice."
         ],
         "say_back": "own_words",
-        "core_idea": "March ice is thinner and softer, so the crew waited for the cold.",
+        "core_idea": "The ice is thinner in March.",
         "accept_ideas": [
           "the ice is thinner in March",
           "March ice is softer",
@@ -180,16 +178,15 @@
           "they wanted thick, hard ice"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who owned the pond"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says January ice is cleaner",
             "ask": "Cleanliness is not the reason given. What happens to ice as the winter goes on?"
           }
-        ]
+        ],
+        "full_idea": "March ice is thinner and softer, so the crew waited for the cold."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -214,16 +211,14 @@
           "The two months give ice of different thickness."
         ],
         "say_back": "own_words",
-        "core_idea": "The ice was thick in January and thin in March, so a late crew had less to cut.",
+        "core_idea": "The ice was thinner later in the year.",
         "accept_ideas": [
           "the ice was thinner later in the year",
           "the ice got soft as the weather warmed",
           "they had to cut while the ice was thick"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the ice was sold for"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -234,7 +229,8 @@
             "when": "the student says March had more snow",
             "ask": "More snow is what the crew scraped off. What does the passage say about the ice itself in March?"
           }
-        ]
+        ],
+        "full_idea": "The ice was thick in January and thin in March, so a late crew had less to cut."
       },
       "display": {
         "lead": "",

@@ -55,9 +55,7 @@
           "she says the words not yet"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how many flats are in the shop"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -95,7 +93,7 @@
           "it goes back for more paint",
           "it waits a day and gets another coat"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "who mixes the paint"
         ],
@@ -105,7 +103,8 @@
             "when": "the student says it is thrown away",
             "ask": "Nothing leaves the shop, but nothing is scrapped either. Where does the flat go?"
           }
-        ]
+        ],
+        "full_idea": "It goes back on the trestles, gets another coat, and waits a day."
       },
       "display": {
         "lead": "",
@@ -118,7 +117,7 @@
       "type": "short_answer",
       "skill": "literary_text",
       "difficulty": 2,
-      "show_part": "part_2",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "On the night of the dress rehearsal she said not yet about a frame he had finished. What was wrong?",
       "tutor_only": {
@@ -149,9 +148,9 @@
         ]
       },
       "display": {
-        "lead": "Here is the rest of the passage.",
+        "lead": "",
         "label": "Passage",
-        "text": "On the night of the dress rehearsal the same two words came back to him. The painter had finished a door frame at six, and the foreman walked past it, looked at the paint, and said, not yet. He took the frame off the trestles and began sanding the edge for a second coat. She stopped his hand with two fingers and pointed at the stage, where the actors were still walking through their marks. It was ten past ten, and the stage had been lit for the first time that week. The door frame was the last piece of the set, and it had been his job since Monday."
+        "text": "In the scene shop the foreman reads every flat before it goes to the stage. When the paint is wrong she says two words and no more: not yet. The painter learned those words in his first week. A flat that was not yet went back on the trestles, took another coat, and waited a day before anyone looked at it again. Nothing left the shop until the foreman said the flat's name and nothing else. A flat is a wall of scenery, painted on canvas and carried to the theatre by two people on a truck. The paint is mixed at the bench at the back, and the whole shop smells of it all day.\n\nOn the night of the dress rehearsal the same two words came back to him. The painter had finished a door frame at six, and the foreman walked past it, looked at the paint, and said, not yet. He took the frame off the trestles and began sanding the edge for a second coat. She stopped his hand with two fingers and pointed at the stage, where the actors were still walking through their marks. It was ten past ten, and the stage had been lit for the first time that week. The door frame was the last piece of the set, and it had been his job since Monday.\n\nThe frame was right, and the floor was not ready for it. In his first week, not yet had meant the paint was wrong, and he had learned to hear it that way. On that night it meant the paint was finished and the hour was wrong, which is a different thing to hear. He carried the frame into the wings and held it there while the actors crossed the stage behind him. The next time she said the words, he asked a question before he reached for the sandpaper. She answered it, and he left the sandpaper in the drawer."
       }
     },
     {
@@ -190,9 +189,9 @@
         ]
       },
       "display": {
-        "lead": "",
+        "lead": "Here is the rest of the passage.",
         "label": "Passage",
-        "text": ""
+        "text": "On the night of the dress rehearsal the same two words came back to him. The painter had finished a door frame at six, and the foreman walked past it, looked at the paint, and said, not yet. He took the frame off the trestles and began sanding the edge for a second coat. She stopped his hand with two fingers and pointed at the stage, where the actors were still walking through their marks. It was ten past ten, and the stage had been lit for the first time that week. The door frame was the last piece of the set, and it had been his job since Monday."
       }
     },
     {
@@ -212,7 +211,7 @@
           "One is about the paint and one is about the hour."
         ],
         "say_back": "own_words",
-        "core_idea": "The words can mean the work is wrong or the hour is wrong, so he has to ask.",
+        "core_idea": "The words can mean two things.",
         "accept_ideas": [
           "the words can mean two things",
           "he must ask which meaning it is",
@@ -228,7 +227,8 @@
             "when": "the student says he learned to paint better",
             "ask": "That evening his paint was already right. What did he learn about the words?"
           }
-        ]
+        ],
+        "full_idea": "The words can mean the work is wrong or the hour is wrong, so he has to ask."
       },
       "display": {
         "lead": "",

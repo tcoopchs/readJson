@@ -91,7 +91,7 @@
           "It says the sign came after everything else."
         ],
         "say_back": "own_words",
-        "core_idea": "The passage starts at the end, so it says the sign was the last thing done.",
+        "core_idea": "The sign was the last thing to happen.",
         "accept_ideas": [
           "the sign was the last thing to happen",
           "the passage begins with the ending",
@@ -107,7 +107,8 @@
             "when": "the student says the sign was the oldest thing",
             "ask": "The passage says the paint is still fresh. What does it say about when the sign went up?"
           }
-        ]
+        ],
+        "full_idea": "The passage starts at the end, so it says the sign was the last thing done."
       },
       "display": {
         "lead": "",
@@ -173,13 +174,12 @@
           "It names the reason the bottom waited."
         ],
         "say_back": "own_words",
-        "core_idea": "Because working below a loose slope is dangerous.",
+        "core_idea": "Working below a loose slope is dangerous.",
         "accept_ideas": [
           "the slope above could still fall",
           "it was not safe to work under it",
           "the crew could be hit by falling soil"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "how long the debris took to clear"
         ],
@@ -189,7 +189,9 @@
             "when": "the student says the debris was too heavy to move",
             "ask": "Weight is not discussed. What does the passage say about working below the slope?"
           }
-        ]
+        ],
+        "full_idea": "Because working below a loose slope is dangerous.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",
@@ -214,23 +216,22 @@
           "The sign was the final job, and it comes first in the reading."
         ],
         "say_back": "own_words",
-        "core_idea": "The passage starts with the last event and then goes back to earlier ones.",
+        "core_idea": "It starts with the end.",
         "accept_ideas": [
           "it starts with the end",
           "the telling is out of order",
           "it goes back in time after the opening"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long the path is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the passage is in order",
             "ask": "The sign went up last, and it is the first thing described. What does that make the order?"
           }
-        ]
+        ],
+        "full_idea": "The passage starts with the last event and then goes back to earlier ones."
       },
       "display": {
         "lead": "",

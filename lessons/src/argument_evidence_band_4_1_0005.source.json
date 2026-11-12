@@ -104,7 +104,7 @@
           "the ropes will not fix the pool",
           "cloudy water is the real problem"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how many swimmers use the pool"
         ],
@@ -114,7 +114,8 @@
             "when": "the student says the objection is the cost",
             "ask": "The cost is one part of the case. What objection does the letter raise against itself?"
           }
-        ]
+        ],
+        "full_idea": "That new ropes will not fix the pool, because the water is cloudy in August."
       }
     },
     {
@@ -141,17 +142,16 @@
           "the log ties the cloud to repairs",
           "nine days tied to pumps"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "who pays for the pumps"
-        ],
+        "one_idea_is_enough": false,
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the letter agrees the ropes will not help",
             "ask": "The letter uses a record. What does the log tie each cloudy day to?"
           }
-        ]
+        ],
+        "full_idea": "The log shows nine cloudy days, and each one is tied to a failed pump."
       }
     },
     {
@@ -171,7 +171,7 @@
           "The objection is answered and not fought."
         ],
         "say_back": "own_words",
-        "core_idea": "It shows the cloud has a different cause, so the objection does not block the request.",
+        "core_idea": "It shows another cause for the cloud.",
         "accept_ideas": [
           "it shows another cause for the cloud",
           "the objection does not block the request",
@@ -188,7 +188,8 @@
             "when": "the student says the letter ignores the cloud",
             "ask": "The letter answers the cloud question. What does that answer do for the request?"
           }
-        ]
+        ],
+        "full_idea": "It shows the cloud has a different cause, so the objection does not block the request."
       }
     },
     {

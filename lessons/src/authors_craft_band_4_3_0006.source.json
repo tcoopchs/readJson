@@ -1,0 +1,274 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "authors_craft_band_4_3_0006",
+  "meta": {
+    "status": "published",
+    "title": "Thirty Drags for a Cable",
+    "skill": "authors_craft",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "work and trade",
+    "skill_frame": "Author's craft: read how the writer holds back the result of the work until the end.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured part_1 101w at FK 6.1, part_2 104w at FK 6.3, part_3 104w at FK 6.4, with mean sentences of about 17 words. The load is a result held back across three parts, so the reader has to track failure after failure.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from Charles Bright, The Story of the Atlantic Cable (1903), the chapters on the 1866 expedition, under DESIGN_RULES 2.5.",
+      "attribution": "Charles Bright. The Story of the Atlantic Cable. 1903. Project Gutenberg eBook #46105, https://www.gutenberg.org/ebooks/46105, accessed 2026-11-12. Public domain in the United States.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "The authoring pass split long sentences, dropped rare words and simplified technical terms; no facts added.",
+      "survey": "Bright's account of the 1866 expedition: the cable lost in 1865, the drags with wire rope and grapnels, the line slipping back, the thirtieth attempt, and the tests at Valentia.",
+      "avoided": "No invented details. The engineering tables and the company's finances are left out to keep the passage on the delay.",
+      "drafted_by": "LessonBot-adjacent, adapted from the named human source"
+    },
+    "session": {
+      "scope": "bank",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "the result held back until the last part"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "In 1865 a telegraph cable had been laid most of the way across the Atlantic, and then it broke. It lay on the bottom of the ocean, two thousand fathoms down, about six hundred miles from Newfoundland. Nothing marked the place where it had gone, because the buoys set to find it had long since disappeared. In 1866 a ship went back to look for it. Five miles of buoy rope were loaded, with grapnels of several kinds, some made to grip the cable and some to cut it. The plan was to catch the line, cut it, and lift one end aboard.",
+    "part_2": "The work went badly from the first day. One ship hooked the cable and then lost it, along with two thousand fathoms of wire rope. About eleven at night another drag brought the cable up to the surface, and the boats were quickly alongside. Then the grapnel tipped, and the line slid off the prongs like a great eel and went back down into the dark. Day after day the ships dragged the same ground and found nothing at all. The store of rope grew smaller, and the calm weather of that season, which the engineers had counted on, could not last much longer.",
+    "part_3": "On the thirty-first of August the hook took the cable for the thirtieth time. The weather was calm, and this time the crew held it. The ship lifted the line foot by foot, coiling it as it came aboard, and the work took two hours. Then the end was on deck, and signals were exchanged with Valentia at once. The electricians applied their tests, and everyone on board waited for the answer. In a few minutes the words came back that the cable was whole from end to end, and the answering signals from Valentia were met with loud cheers through the ship."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "How deep did the broken cable lie?",
+      "tutor_only": {
+        "confirm": "Two thousand fathoms down.",
+        "correct_reason": "The sentence says it 'lay on the bottom of the ocean, two thousand fathoms down'.",
+        "tell": "The cable lay two thousand fathoms down.",
+        "help": [
+          "The sentence about the bottom gives the depth.",
+          "The number is given in fathoms."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The cable lay two thousand fathoms down on the bottom of the ocean.",
+        "accept_ideas": [
+          "two thousand fathoms",
+          "2,000 fathoms down",
+          "two thousand fathoms down"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say six hundred miles, which is the distance from Newfoundland.",
+            "ask": "Six hundred miles is how far it was from land. How deep was it?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the depth is not given.",
+            "ask": "The passage gives a number for the depth. What is it?"
+          }
+        ],
+        "not_required": [
+          "how the cable broke"
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "prompt": "Why was it hard for the ships to find the cable?",
+      "tutor_only": {
+        "confirm": "It lay two thousand fathoms down with no mark, and the buoys meant to find it had disappeared.",
+        "correct_reason": "The passage says 'Nothing marked the place where it had gone, because the buoys set to find it had long since disappeared'.",
+        "tell": "Nothing marked the place, the buoys had disappeared, and the cable lay very deep.",
+        "help": [
+          "Two sentences in the opening give the trouble.",
+          "One is about a missing mark and one is about the depth."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Nothing marked the place and the buoys were gone.",
+        "accept_ideas": [
+          "nothing marked the place and the buoys were gone",
+          "the buoys had disappeared and the water was very deep",
+          "no mark was left and the buoys were lost"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say the cable was too short to reach across.",
+            "ask": "The cable was already laid. What made it hard to find?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the ships did not know which ocean it was in.",
+            "ask": "They knew the ocean and the distance from land. What was missing?"
+          }
+        ],
+        "not_required": [
+          "the year it broke",
+          "the number of ships"
+        ],
+        "full_idea": "Nothing marked the place, the buoys were gone, and the cable lay two thousand fathoms down."
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "The line 'slid off the prongs like a great eel'. What does that tell us about how close the crew came?",
+      "tutor_only": {
+        "confirm": "They had the cable at the surface and lost it again, so success was near and then gone.",
+        "correct_reason": "The passage says the drag 'brought the cable up to the surface', the boats were alongside, and then 'the line slid off the prongs like a great eel'.",
+        "tell": "The cable was up at the surface and slipped away, so they nearly had it.",
+        "help": [
+          "Something like an eel is already out of the water when it slips away.",
+          "The boats had come alongside before the hook tipped."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The eel comparison shows the cable was at the surface and slipped away, so they nearly had it.",
+        "accept_ideas": [
+          "they had it at the surface and lost it again",
+          "they nearly had it and it slipped away",
+          "success was close and then gone"
+        ],
+        "one_idea_is_enough": false,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say the crew never touched the cable.",
+            "ask": "The line came up to the surface. Who was alongside it?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the cable broke on the sea floor.",
+            "ask": "The passage says it slid off the prongs. Where was it then?"
+          }
+        ],
+        "not_required": [],
+        "full_idea": "The eel comparison shows the cable was at the surface and slipped away, so they nearly had it."
+      },
+      "show_part_again": true
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "prompt": "One failure follows another until the final sentences. What does that order do?",
+      "tutor_only": {
+        "confirm": "The failures come first, so the recovery is stated only after every loss.",
+        "correct_reason": "Lost hooks, a line that 'slid off the prongs,' and a shrinking rope all come before 'the cable was whole from end to end,' so the recovery is stated only after the failures.",
+        "tell": "The failures come one after another. The recovery is stated only after them.",
+        "help": [
+          "List what goes wrong before the cable is called whole.",
+          "Notice that the good news is the last thing stated."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The failures are told first, so the recovery is stated only after every loss.",
+        "accept_ideas": [
+          "the recovery comes only after all the failures",
+          "the success is told last, after the losses",
+          "every loss is told before the cable is whole"
+        ],
+        "one_idea_is_enough": false,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say the recovery feels exciting or hard won, or that the failures show the crew was careless, without saying the failures are told first.",
+            "ask": "What has the writer already told before the cable is whole?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the writer forgot to give the result earlier.",
+            "ask": "The result is given, but late. What does the lateness do?"
+          }
+        ],
+        "not_required": [
+          "the depth in fathoms"
+        ],
+        "full_idea": "The failures are told first, so the recovery is stated only after every loss."
+      },
+      "show_part_again": true
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "Why does the writer spend so much of the account on the failures?",
+      "tutor_only": {
+        "confirm": "Because the failures show how unlikely the recovery was, so the success at the end means more.",
+        "correct_reason": "Three parts of the passage are given to lost hooks, a shrinking rope and a season running out, and only the last sentences give the recovery.",
+        "tell": "The failures show how unlikely the recovery was, so the success means more.",
+        "help": [
+          "After thirty drags a reader expects the cable to stay lost.",
+          "Think about what a reader expects after thirty drags."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The long run of failures shows how unlikely the recovery was, which makes the success mean more.",
+        "accept_ideas": [
+          "they show how unlikely the success was, so it means more",
+          "the failures make the recovery look almost impossible",
+          "they build up how hard the job was before it worked"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say the writer wanted to blame the crew.",
+            "ask": "The crew kept dragging. What does the length of the failure show about the job?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the failures are the whole point and the cable was never found.",
+            "ask": "The passage ends with tests at Valentia. Was the cable found?"
+          }
+        ],
+        "not_required": [
+          "the number of ships"
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "authors_craft_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band; no higher craft rung is authored yet.",
+    "student_line": "You have this move. The next reading is another craft lesson in this band."
+  },
+  "retry": {
+    "next_file": "authors_craft_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished.",
+    "student_line": "The next reading is another craft lesson in this band."
+  },
+  "stopped": {
+    "next_file": "authors_craft_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

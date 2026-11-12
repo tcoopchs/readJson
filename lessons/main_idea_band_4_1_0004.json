@@ -48,7 +48,7 @@
           "Look at what the pantry weighed at the end of the month."
         ],
         "say_back": "own_words",
-        "core_idea": "Families got food they could not use, and the pantry threw away some of it.",
+        "core_idea": "People got food they could not use.",
         "accept_ideas": [
           "people got food they could not use",
           "the boxes were wasted",
@@ -64,7 +64,8 @@
             "when": "the student says the boxes were too heavy",
             "ask": "Weight is how the pantry measured, not the problem. What was inside the boxes?"
           }
-        ]
+        ],
+        "full_idea": "Families got food they could not use, and the pantry threw away some of it."
       },
       "display": {
         "lead": "",
@@ -89,7 +90,7 @@
           "Read the sentence that starts with the word surprise."
         ],
         "say_back": "own_words",
-        "core_idea": "The waste fell by half, and families took less each visit.",
+        "core_idea": "The waste fell by half.",
         "accept_ideas": [
           "the waste fell by half",
           "people took only what they could use",
@@ -109,7 +110,8 @@
             "when": "the student says the shelves cost two hundred dollars",
             "ask": "Cost is one sentence. What happened to the waste?"
           }
-        ]
+        ],
+        "full_idea": "The waste fell by half, and families took less each visit."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -134,7 +136,7 @@
           "Find the two words that answer it."
         ],
         "say_back": "own_words",
-        "core_idea": "They said people would take too much, and families took less instead.",
+        "core_idea": "People took less than they expected.",
         "accept_ideas": [
           "people took less than they expected",
           "the pantry did not run out",
@@ -150,7 +152,8 @@
             "when": "the student says the volunteers were right",
             "ask": "Read the sentence that begins with the count. Did the pantry run out?"
           }
-        ]
+        ],
+        "full_idea": "They said people would take too much, and families took less instead."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -182,7 +185,7 @@
           "choice worked better than packed boxes",
           "the shelves cut waste and nobody took too much"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "the price of the shelves"
         ],
@@ -195,7 +198,8 @@
             "when": "the student says it is about volunteers who doubted the change",
             "ask": "The doubt is one part. What did the count show?"
           }
-        ]
+        ],
+        "full_idea": "A pantry let families choose their own food, and the waste fell by half without anyone taking too much."
       },
       "display": {
         "lead": "",

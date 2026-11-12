@@ -1,0 +1,277 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "authors_craft_band_4_3_0005",
+  "meta": {
+    "status": "published",
+    "title": "The Belly and the Voice",
+    "skill": "authors_craft",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "topic_domain": "arts and language",
+    "skill_frame": "Author's craft: read how the maker's plain names for the parts make the violin a body.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured part_1 101w at FK 5.9, part_2 104w at FK 5.4, part_3 102w at FK 5.7, with mean sentences of 14 to 17 words. The load is the body words themselves, which carry a picture the reader has to notice rather than being told.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from Walter H. Mayson, Violin Making (The Strad Library, No. IX), chapters on the selection of wood, under DESIGN_RULES 2.5.",
+      "attribution": "Walter H. Mayson. Violin Making (The Strad Library, No. IX). 1909 printing. Project Gutenberg eBook #28252, https://www.gutenberg.org/ebooks/28252, accessed 2026-11-12. Public domain in the United States.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "The authoring pass split long sentences, dropped rare words and simplified technical terms; no facts added.",
+      "survey": "Mayson's lectures on the making of a violin: the eighty pieces and sixteen ounces, the names of the parts, the pine belly, wood dried too fast, and wood left seven years.",
+      "avoided": "No invented details. Mayson's long arguments with other makers and his acoustics are left out to keep the passage on the naming.",
+      "drafted_by": "LessonBot-adjacent, adapted from the named human source"
+    },
+    "session": {
+      "scope": "bank",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "the maker's body words for the parts of a violin"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A violin is made of about eighty pieces of wood, glued together into one shell that weighs scarcely sixteen ounces. The maker gives these parts the names of a body. The front is the belly, and the sides are the ribs. The back is simply the back. Of all of them the belly matters most, because it is the belly that produces the tone. A maker may have a fine back and fine ribs, good curves and beautiful varnish. Yet if he has chosen a poor belly, the instrument will never sound well, and nothing else can make up for it.",
+    "part_2": "The wood for the belly is pine, and the best of it comes from Switzerland. It must be dried slowly, by weather and by years, and never by heat. Wood that is dried too fast looks straight and clean, but its cells are starved of the strength they need. The maker says that such wood has lost the soul of resonance before the instrument is even built. Play it for three hours in a warm room and its voice goes dumb, or it dies the moment the bow leaves the string. The maker can hear the difference with a single stroke of the bow.",
+    "part_3": "Good wood is another matter altogether. It is cut when the tree is full grown, and then left for at least seven years before anyone works it. Even after seven years the maker still calls it new wood, because he wants the cells full of their own sap and strength. Only then can they resist the bow and give back a rich and steady sound. Some of his friends argued for drying the wood in a heated kiln instead, and he would not have it. He answered that nature does not dry a singer's lungs before she sends him out to sing."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "Which part of the violin does the maker call the belly?",
+      "tutor_only": {
+        "confirm": "The front of the violin.",
+        "correct_reason": "The passage says 'The front is the belly' and later 'the belly that produces the tone'.",
+        "tell": "The front of the violin is the part the maker calls the belly.",
+        "help": [
+          "The naming sentence says which part is the belly.",
+          "The belly is not the back or the ribs."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The maker calls the front of the violin its belly.",
+        "accept_ideas": [
+          "the front",
+          "the front of the violin",
+          "the upper table, which is the front"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say the belly is the back of the violin.",
+            "ask": "The back is named separately. Which part is the belly?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the belly is the post inside.",
+            "ask": "The post is called the soul. Which part is the belly?"
+          }
+        ],
+        "not_required": [
+          "how much the violin weighs",
+          "what the sides are called"
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "The wood for a violin is dried too fast. What happens to its sound after three hours in a warm room?",
+      "tutor_only": {
+        "confirm": "Its voice goes dumb, or the sound dies as soon as the bow leaves the string.",
+        "correct_reason": "The passage says 'Play it for three hours in a warm room and its voice goes dumb, or it dies the moment the bow leaves the string.'",
+        "tell": "Its voice goes dumb in a warm room, or the sound dies as the bow leaves the string.",
+        "help": [
+          "The sentence about the warm room gives the answer.",
+          "The maker describes the sound as a voice."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Its voice goes dumb.",
+        "accept_ideas": [
+          "its voice goes dumb",
+          "the sound dies when the bow leaves the string",
+          "it goes dumb or the sound dies at once"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say the violin sounds louder and richer.",
+            "ask": "The passage says the voice goes dumb. What does that mean for the sound?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the wood cracks in the heat.",
+            "ask": "The passage says nothing about cracking. What happens to the voice?"
+          }
+        ],
+        "not_required": [
+          "where the pine comes from"
+        ],
+        "full_idea": "The voice of a violin made from badly dried wood goes dumb in a warm room, and the sound dies."
+      },
+      "show_part_again": true
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "prompt": "Why does the maker want the wood left for at least seven years?",
+      "tutor_only": {
+        "confirm": "So the cells keep their sap and strength and can resist the bow and give a rich sound.",
+        "correct_reason": "The passage says he 'wants the cells full of their own sap and strength' so that 'they can resist the bow and give back a rich and steady sound'.",
+        "tell": "He wants the cells full of sap and strength, so they resist the bow and give a rich sound.",
+        "help": [
+          "The sentence about the cells gives his reason.",
+          "He sets the strength of the wood against the bow."
+        ],
+        "say_back": "own_words",
+        "core_idea": "He leaves the wood so its cells keep their sap and strength, which lets them resist the bow and sound rich.",
+        "accept_ideas": [
+          "so the cells keep their strength and give a rich sound",
+          "so the wood keeps its sap and can resist the bow",
+          "so it can answer the bow with a rich sound"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say the wood should be strong or sound rich, or that he waits so it will look older, without saying the cells keep their sap.",
+            "ask": "What does he want still in the cells after seven years?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say he waits because the tree is not yet cut.",
+            "ask": "The tree is already cut. Why does the cut wood wait?"
+          }
+        ],
+        "not_required": [
+          "how the violin is glued"
+        ]
+      },
+      "show_part_again": true
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "prompt": "He calls the front the 'belly' and bad wood 'dumb.' What do those words do?",
+      "tutor_only": {
+        "confirm": "They talk about the violin as a body with a voice, not a box of wood.",
+        "correct_reason": "The front is 'the belly,' the sides are 'the ribs,' and bad wood 'goes dumb,' so the words give the violin a body and a voice.",
+        "tell": "Belly and dumb are body and voice words, so the violin is a body, not a box.",
+        "help": [
+          "The words for the parts and the words for the sound belong to a body.",
+          "A box cannot have a belly or go dumb."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Belly, ribs, and dumb talk about the violin as a body with a voice, not a box of wood.",
+        "accept_ideas": [
+          "they make it a body that can speak",
+          "a living body with a voice, not a box",
+          "belly and dumb give it a body and a voice"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say the violin seems alive or has feelings, or that the words are only trade names, without saying the words give it a body and a voice.",
+            "ask": "Which words name body parts, and which word is about a voice?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the words show the violin is a machine.",
+            "ask": "A machine has parts, but does it have a belly and a voice?"
+          }
+        ],
+        "not_required": [
+          "the number of pieces",
+          "the weight in ounces"
+        ],
+        "one_idea_is_enough": true
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "What does the maker care about most when he chooses wood, and why?",
+      "tutor_only": {
+        "confirm": "The belly, because the belly makes the tone, so no fine back or varnish can save poor wood there.",
+        "correct_reason": "The passage says 'the belly matters most, because it is the belly that produces the tone' and that a fine back 'will never sound well' with a poor belly.",
+        "tell": "He cares most about the belly, because it produces the tone, and fine ribs or varnish cannot save it.",
+        "help": [
+          "The passage names one part as the chief concern and gives the reason.",
+          "The last sentence of the opening says what a fine back cannot do."
+        ],
+        "say_back": "own_words",
+        "core_idea": "He cares most about the belly, because the belly produces the tone and nothing else can make up for poor wood there.",
+        "accept_ideas": [
+          "the belly, because it makes the tone",
+          "the wood for the belly, since that is what sounds",
+          "the belly, so good ribs or varnish cannot save a poor one"
+        ],
+        "one_idea_is_enough": false,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say he cares most about the varnish.",
+            "ask": "The passage names one part as the chief concern. Which one?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say all the parts matter equally.",
+            "ask": "The passage ranks them. Which part comes first?"
+          }
+        ],
+        "not_required": [
+          "the number of years",
+          "the country the pine comes from"
+        ],
+        "full_idea": "He cares most about the belly, because the belly produces the tone and nothing else can make up for poor wood there."
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "authors_craft_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band; no higher craft rung is authored yet.",
+    "student_line": "You have this move. The next reading is another craft lesson in this band."
+  },
+  "retry": {
+    "next_file": "authors_craft_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "The next lesson in this band.",
+    "student_line": "The next reading is another craft lesson in this band."
+  },
+  "stopped": {
+    "next_file": "authors_craft_band_4_3_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

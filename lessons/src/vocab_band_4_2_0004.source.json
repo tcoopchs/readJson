@@ -109,7 +109,6 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how much the item weighs",
           "where it sits on the shelf"
         ]
       }
@@ -176,11 +175,12 @@
           "you lose on the goods and on the money you cannot use",
           "the item spoils while the cash stays locked in it"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how long the fruit keeps",
           "what else the grocer sells"
-        ]
+        ],
+        "full_idea": "The goods lose value, and the cash tied up in them cannot buy what is selling."
       }
     },
     {

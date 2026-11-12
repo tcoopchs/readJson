@@ -59,10 +59,7 @@
           "silly or careless"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "where the word came from",
-          "how it was spelled"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says it meant pleasant",
@@ -195,7 +192,7 @@
           "how words change meaning without anyone deciding",
           "dictionaries record changes instead of making them"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how many meanings an entry can have",
           "the Latin root"
@@ -209,7 +206,8 @@
             "when": "the student says it is about the history of Latin",
             "ask": "Latin is one sentence. What do the next two parts do?"
           }
-        ]
+        ],
+        "full_idea": "Word meanings drift through everyday use, and dictionaries record the drift rather than decide it."
       },
       "display": {
         "lead": "",

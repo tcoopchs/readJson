@@ -150,7 +150,7 @@
       "type": "short_answer",
       "skill": "vocab",
       "difficulty": 3,
-      "show_part": "part_2",
+      "show_part": "all",
       "prompt": "Why did the taker record ages he doubted?",
       "tutor_only": {
         "confirm": "Right. He wrote what he was told, because guessing would break the rule.",
@@ -171,7 +171,7 @@
             "ask": "Time is not the reason given. What rule governed every entry?"
           }
         ],
-        "core_idea": "Because every entry had to be treated the same way, so a doubtful answer was written as given rather than guessed at.",
+        "core_idea": "He was not allowed to guess.",
         "accept_ideas": [
           "he was not allowed to guess",
           "the rule was to write what he was told",
@@ -181,12 +181,14 @@
         "not_required": [
           "how old the children were",
           "who the head of the household was"
-        ]
+        ],
+        "full_idea": "Because every entry had to be treated the same way, so a doubtful answer was written as given rather than guessed at."
       },
+      "show_part_again": true,
       "display": {
         "lead": "",
         "label": "Passage",
-        "text": ""
+        "text": "Once every ten years, a census taker walked a district and knocked on every door. The census is a count of people. The count decides how many representatives a place gets, and how much money it receives. The taker carried a form with a column for each fact: name, age, occupation, and place of birth. It also asked how each person was related to the head of the household. A household is everyone living under one roof, whether or not they are related. The taker wrote what he was told, and he was not allowed to guess. A guess would make one house different from the next.\n\nThe work was slow and often unwelcome. A taker returned to a house three times before he could record it as empty. A missed house is a missed person, and it cannot be corrected later. Some families gave ages that did not fit the children standing beside them. The taker recorded the answer anyway. A return is the sheet a taker filed. Its value depends on every entry being treated the same way, even the doubtful ones. One careful taker and one careless one would otherwise produce two different countries. The rules were long for that reason. A taker who invented his own answers was not kept.\n\nThe census is read long after the knock. A historian can compare one decade with the next. A street may change from workshops to apartments. A family may shrink as children leave. No single form says any of this. The pattern appears only when thousands of returns are stacked together. That is the strange power of the count. It tells nothing important about one house and something important about all of them. A street that looks the same in two photographs may hold different people, and the forms show it. Nothing in one return is interesting. The interest is in the difference between one return and the next."
       }
     },
     {

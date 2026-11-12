@@ -103,9 +103,7 @@
           "the liquid from the cubes"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the whey is used for"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -132,23 +130,22 @@
           "It says the rind looks the same in both cases."
         ],
         "say_back": "own_words",
-        "core_idea": "Nothing, because the rind looks smooth whether the salt was enough or not.",
+        "core_idea": "The rind looks smooth whether the salt was enough or not.",
         "accept_ideas": [
           "nothing",
           "it cannot show whether there was enough salt",
           "the rind looks the same either way"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "what the rind is made of"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says it shows the salt was enough",
             "ask": "The passage says the rind looks smooth either way. What does that tell the maker?"
           }
-        ]
+        ],
+        "full_idea": "Nothing, because the rind looks smooth whether the salt was enough or not.",
+        "one_idea_is_enough": true
       }
     },
     {
@@ -168,23 +165,22 @@
           "It says the salt keeps moving for weeks."
         ],
         "say_back": "own_words",
-        "core_idea": "Salt moves inward slowly, and the shortage shows only when the inside sours or the rind grows a soft coat.",
+        "core_idea": "Salt moves inward slowly.",
         "accept_ideas": [
           "salt moves inward slowly",
           "the effect takes weeks to appear",
           "the inside or the rind only fails later"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how much salt was used"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the cheese dries out",
             "ask": "The passage names a sour inside and a soft coat. When do they appear?"
           }
-        ]
+        ],
+        "full_idea": "Salt moves inward slowly, and the shortage shows only when the inside sours or the rind grows a soft coat."
       }
     },
     {

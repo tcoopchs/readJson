@@ -90,7 +90,7 @@
           "Wind and frost are what decide whether deer move at all."
         ],
         "say_back": "own_words",
-        "core_idea": "He answers with what he can read, the wind and the frost, and does not promise a shot.",
+        "core_idea": "He answers with the conditions.",
         "accept_ideas": [
           "he answers with the conditions",
           "he will not promise a deer",
@@ -106,7 +106,8 @@
             "when": "the student says the guide did not hear the question",
             "ask": "He hears it twice and answers both times. What are his answers about?"
           }
-        ]
+        ],
+        "full_idea": "He answers with what he can read, the wind and the frost, and does not promise a shot."
       },
       "display": {
         "lead": "",
@@ -160,7 +161,7 @@
       "type": "short_answer",
       "skill": "literary_text",
       "difficulty": 3,
-      "show_part": "part_3",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "The hunter says he came for a head on a wall and got a morning instead. What changed for him?",
       "tutor_only": {
@@ -191,9 +192,9 @@
         ]
       },
       "display": {
-        "lead": "Here is the rest of the passage.",
+        "lead": "",
         "label": "Passage",
-        "text": "At the truck the guide said the ground had frozen early and the deer would move again at dusk. The hunter said he had come for a head to hang on a wall and had got a morning instead. Neither of them had answered the other's question, and both of them were satisfied with the day. The guide wrote nothing in his book, and he did not need to. On the second day the hunter did not ask about a shot. He asked about the wind, and the guide answered him, and that was the whole of their conversation that morning."
+        "text": "The guide checked the wind before first light. He let a pinch of flour go over the hood of the truck and watched it drift left. He had hunted the same ridge for twenty years, and he read the ground the way other men read a printed page. The hunter had paid for three days and a buck, and on the first morning he asked whether he would get a shot at one. The guide said the wind was out of the west and would turn by nine. An hour later the hunter asked the same question again, and the guide said the frost had come early and the deer would feed late.\n\nThey sat above a cut where the ridge fell away into second growth, and the cold came up through the pad they sat on. At seven a doe came out with a fawn behind her, and she stood in the open for a long minute. The hunter had the rifle across his knee and did not lift it. The guide watched the fawn and said nothing at all, which was answer enough. After the two deer went back into the trees, the hunter let out a breath and laughed once, quietly. Then he asked the guide whether that had been the chance he was waiting for.\n\nAt the truck the guide said the ground had frozen early and the deer would move again at dusk. The hunter said he had come for a head to hang on a wall and had got a morning instead. Neither of them had answered the other's question, and both of them were satisfied with the day. The guide wrote nothing in his book, and he did not need to. On the second day the hunter did not ask about a shot. He asked about the wind, and the guide answered him, and that was the whole of their conversation that morning."
       }
     },
     {
@@ -213,7 +214,7 @@
           "The guide answered the wind question, and that was the whole conversation."
         ],
         "say_back": "own_words",
-        "core_idea": "He had learned what the guide could give him, the wind and the ground, and he asked for that.",
+        "core_idea": "He learned what the guide could give.",
         "accept_ideas": [
           "he learned what the guide could give",
           "he stopped asking for a promise",
@@ -229,7 +230,8 @@
             "when": "the student says he had given up hunting",
             "ask": "He is back out on the second day. What does he ask instead of a shot?"
           }
-        ]
+        ],
+        "full_idea": "He had learned what the guide could give him, the wind and the ground, and he asked for that."
       },
       "display": {
         "lead": "",

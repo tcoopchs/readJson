@@ -88,7 +88,7 @@
           "What the first piece spends is taken from the third."
         ],
         "say_back": "own_words",
-        "core_idea": "It spent the fixed store early, so less was left for the third piece.",
+        "core_idea": "It used its fuel early.",
         "accept_ideas": [
           "it used its fuel early",
           "the store is fixed and the start took too much",
@@ -102,7 +102,8 @@
             "when": "the student says the crew was saving fuel for the finish",
             "ask": "The passage says a crew that opens two seconds ahead does what to the third piece?"
           }
-        ]
+        ],
+        "full_idea": "It spent the fixed store early, so less was left for the third piece."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -127,7 +128,7 @@
           "The plan is written before anyone knows how the water will feel."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the four rates have to add up to one fixed store, and the choice is made before the start.",
+        "core_idea": "The rates have to add up to one store.",
         "accept_ideas": [
           "the rates have to add up to one store",
           "the fuel is fixed, so the split is set in advance",
@@ -141,7 +142,8 @@
             "when": "the student says so the crew can change the order of the pieces",
             "ask": "The passage says the order cannot change. What is left to choose?"
           }
-        ]
+        ],
+        "full_idea": "Because the four rates have to add up to one fixed store, and the choice is made before the start."
       },
       "display": {
         "lead": "Here is the rest of the passage.",

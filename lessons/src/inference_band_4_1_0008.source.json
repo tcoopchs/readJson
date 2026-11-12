@@ -95,7 +95,7 @@
           "They link fat tissue to the percentage."
         ],
         "say_back": "own_words",
-        "core_idea": "Because fat tissue holds less water, and women carry more fat.",
+        "core_idea": "They have more fat.",
         "accept_ideas": [
           "they have more fat",
           "fat holds less water",
@@ -110,7 +110,8 @@
             "when": "the student says women are smaller",
             "ask": "The passage names a kind of tissue. What does it hold?"
           }
-        ]
+        ],
+        "full_idea": "Because fat tissue holds less water, and women carry more fat."
       }
     },
     {
@@ -137,9 +138,7 @@
           "the body changes as it grows"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "the diet of each group"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says babies drink more water",
@@ -172,9 +171,7 @@
           "3.2 quarts"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how much of that comes from food"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says 2.2 liters",

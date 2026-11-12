@@ -68,9 +68,7 @@
           "the course is five kilometers long"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who runs the club"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -134,24 +132,23 @@
           "It names the things distance does not cover."
         ],
         "say_back": "own_words",
-        "core_idea": "Because distance says nothing about cars or blind corners.",
+        "core_idea": "Distance says nothing about cars or blind corners.",
         "accept_ideas": [
           "distance says nothing about traffic",
           "it does not count cars",
           "it says nothing about crossings",
           "measuring distance is not checking safety"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "how wide the path is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says a measured route must be safe",
             "ask": "A measured route can still have traffic. What does the wheel measure?"
           }
-        ]
+        ],
+        "full_idea": "Because distance says nothing about cars or blind corners.",
+        "one_idea_is_enough": true
       }
     },
     {
@@ -159,8 +156,8 @@
       "type": "short_answer",
       "skill": "argument_evidence",
       "difficulty": 3,
-      "show_part": "part_2",
-      "show_part_again": false,
+      "show_part": "all",
+      "show_part_again": true,
       "prompt": "A runner says the flyer proves the route is safe. What is wrong with that?",
       "tutor_only": {
         "confirm": "Right. The flyer gives no traffic count or crash record, and the route crosses three streets without stop signs.",
@@ -171,7 +168,7 @@
           "They name the records left out and the crossings."
         ],
         "say_back": "own_words",
-        "core_idea": "The flyer has no traffic record, and the route crosses streets without stop signs.",
+        "core_idea": "There is no traffic count.",
         "accept_ideas": [
           "there is no traffic count",
           "no crash record is given",
@@ -188,7 +185,8 @@
             "when": "the student says the surveyor is not qualified",
             "ask": "The surveyor measured distance correctly. What did the surveyor not measure?"
           }
-        ]
+        ],
+        "full_idea": "The flyer has no traffic record, and the route crosses streets without stop signs."
       }
     },
     {
@@ -216,9 +214,7 @@
           "counts of cars at the crossings"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how many runners joined last year"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {

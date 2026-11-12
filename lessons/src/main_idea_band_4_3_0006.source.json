@@ -101,7 +101,7 @@
           "A slide with no car under it is a different problem."
         ],
         "say_back": "own_words",
-        "core_idea": "Closing the road removes what a slide would hit, so crews can work on a schedule they control.",
+        "core_idea": "Why closing makes the slope safer.",
         "accept_ideas": [
           "why closing makes the slope safer",
           "closing removes what could be hurt",
@@ -121,7 +121,8 @@
             "when": "the student says it is about the cost to towns",
             "ask": "The towns and the money come later. What is this part about?"
           }
-        ]
+        ],
+        "full_idea": "Closing the road removes what a slide would hit, so crews can work on a schedule they control."
       }
     },
     {
@@ -221,7 +222,7 @@
           "The last sentence says the problem is solved by closing."
         ],
         "say_back": "own_words",
-        "core_idea": "Some mountain passes close on purpose, because a slide cannot be managed with traffic on the road.",
+        "core_idea": "Some roads close on purpose to control slides.",
         "accept_ideas": [
           "some roads close on purpose to control slides",
           "closing is how a pass handles avalanches",
@@ -241,7 +242,8 @@
             "when": "the student says it is about building tunnels",
             "ask": "Tunnels are the alternative, mentioned once. What do most passes do?"
           }
-        ]
+        ],
+        "full_idea": "Some mountain passes close on purpose, because a slide cannot be managed with traffic on the road."
       }
     }
   ],

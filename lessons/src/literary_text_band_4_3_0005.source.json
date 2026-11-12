@@ -1,0 +1,242 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_4_3_0005",
+  "meta": {
+    "status": "published",
+    "title": "Mule Drivers",
+    "skill": "literary_text",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 5,
+    "genre": "fiction",
+    "topic_domain": "history and people",
+    "skill_frame": "Literary text: separate what an officer's order was about from what the men heard in it.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 6.5, 6.0 and 5.7 over the three parts (102, 123 and 120 words). The load is an overheard order, a name for the regiment, and a group that carries a meaning the speaker never gave it.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from Stephen Crane's novel The Red Badge of Courage (1895), public domain in the United States.",
+      "attribution": "Crane, Stephen. The Red Badge of Courage: An Episode of the American Civil War (1895). Project Gutenberg ebook 73. https://www.gutenberg.org/ebooks/73 (accessed 2026-11-12).",
+      "text_status": "Adapted, reading load reduced.",
+      "drafted_by": "TC",
+      "adaptation": "Cut the dialect spellings, shortened the general's orders to their two statements, and kept the sequence: the order, the name, the charge. No fact was added.",
+      "survey": "The scene where two soldiers overhear a general spend their regiment. Chosen over a battle scene because the judgement and the men's reading of it are both on the page.",
+      "avoided": "No invented unit numbers, place names, or casualty figures beyond the 304th and Whiterside, which the passage gives."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "an order meant for one purpose, a name the men take personally, and a charge that follows both"
+    },
+    "authoring_exceptions": []
+  },
+  "passage": {
+    "part_1": "Two soldiers had been sent for water, and on the way back they heard horses and stepped off the road. A general and another officer rode up and stopped near enough to hear. The two men started to walk on, then lingered, because they hoped to hear something great. The general looked at the other officer and spoke as coolly as if he were talking about the man's coat. He said the enemy was forming for another charge. The charge would be aimed at Whiterside, and the line would break unless it was stopped. Then he asked what troops could be spared.",
+    "part_2": "The officer said he had already ordered in the 12th to help the 76th, and had none to give. Then he said there was the 304th. They fight like a lot of mule drivers, he said, and I can spare them best of any. The general told him to get them ready. As the officer rode off, the general called after him that he did not believe many of the mule drivers would get back. The other man shouted something and smiled. The two soldiers hurried back to the line with scared faces, and the younger one felt that in a few minutes he had been made old. The officer had spoken of the regiment as if he were pointing at a broom.",
+    "part_3": "The regiment was standing in the woods, and the men were tired and quiet. The two soldiers came back and told what they had heard. One of them shouted that they were going to charge, and the lieutenant's face opened into a boastful grin. A group of men gathered round to hear it, and one man said it could not be true. Others nodded, because the two had told the truth before. They tightened their belts and hitched at their trousers. The two who had heard the officers carried a secret they did not repeat: that the charge was given to them because they could be spared. Then the officers pushed the men into line, and the regiment went forward."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "What does the general say the enemy is forming for?",
+      "tutor_only": {
+        "confirm": "Right. Another charge, and it will be aimed at Whiterside.",
+        "correct_reason": "The general says the enemy is forming over there for another charge, and that it will be directed against Whiterside.",
+        "tell": "The general says the enemy is forming for another charge. The charge will be aimed at Whiterside.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "another charge, aimed at Whiterside",
+        "accept_ideas": [
+          "another charge",
+          "a charge at Whiterside",
+          "another attack on the line"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the enemy is retreating",
+            "ask": "Read what the general says the enemy is forming for. Which way is it going?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "The officer names the 304th for the charge. Why does he name that regiment?",
+      "tutor_only": {
+        "confirm": "Right. He had no other troops left, so the 304th was the unit he could give up first.",
+        "correct_reason": "The officer says he has already ordered in the 12th and has none to give, then says he can spare the 304th best of any.",
+        "tell": "He names them because he can spare them. They are the unit he can give up first.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "they were the unit he could spare first",
+        "accept_ideas": [
+          "because he could spare them",
+          "they were the ones he could give up",
+          "he had no other troops left"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he chose them because they were the best fighters",
+            "ask": "He calls them mule drivers. Which word in his answer explains the choice?"
+          }
+        ]
+      },
+      "show_part_again": true
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "The youth thinks the officer spoke of the regiment as if pointing at a broom. What does that image show he believes the officer meant?",
+      "tutor_only": {
+        "confirm": "Right. That the regiment is a thing to be used up, of no account.",
+        "correct_reason": "The youth thinks the officer spoke of the regiment as if he referred to a broom, some part of the woods needing sweeping.",
+        "tell": "The image says the youth heard himself called a tool to be used up. The officer's tone was indifferent to its fate.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "the regiment is a thing to be used up, of no account",
+        "accept_ideas": [
+          "they are tools to be used up",
+          "the regiment does not matter",
+          "they are worth nothing to him"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says a broom means the men are dirty",
+            "ask": "The point is what a broom is for. What happens to a broom after sweeping?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "the student says it shows the officer is tidy",
+            "ask": "The sentence is about how the officer spoke, not about cleaning. What is the regiment compared to?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "'They fight like a lot of mule drivers.' What does that comparison make the men's fighting sound like?",
+      "tutor_only": {
+        "confirm": "Right. Clumsy, stubborn hauling, not soldiering.",
+        "correct_reason": "The comparison is the officer's whole account of the regiment's fighting, and he says it to explain why they can be spared.",
+        "tell": "The comparison makes their fighting sound like stubborn hauling. It is work done badly, not skill.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "clumsy, stubborn hauling rather than soldiering",
+        "accept_ideas": [
+          "like heavy work done badly",
+          "stubborn and clumsy",
+          "like hauling, not fighting"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says mules are strong",
+            "ask": "Strong is not the point. Who drives mules, and how good is the work?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "the student says it means they are slow",
+            "ask": "Slow is one part. What does a mule driver do for a living?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "The 304th was chosen because it could be spared. What did the men hear, and what did they do with it?",
+      "tutor_only": {
+        "confirm": "Right. They heard a judgement on their courage, and they carried it forward into the charge.",
+        "correct_reason": "The two who overheard keep the secret that the charge was given because the regiment could be spared, and the men tighten their belts and go forward.",
+        "tell": "They heard a judgement on their courage, not an order about troops. They carried it and charged.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "they heard a judgement on their courage and charged anyway",
+        "accept_ideas": [
+          "they took it as an insult and still charged",
+          "they heard they were worthless and went forward",
+          "they took it personally and charged"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says they refused to charge",
+            "ask": "The passage says the regiment went forward. What did the men do with the secret?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "the student says they were proud to be chosen",
+            "ask": "Chosen because they could be spared is not an honour. How did the youth take it?"
+          }
+        ]
+      },
+      "show_part_again": true
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, which is the highest one authored so far.",
+    "student_line": "You read this one closely. The next reading is another lesson at this level."
+  },
+  "retry": {
+    "next_file": "literary_text_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson at this level."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_4_3_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -48,7 +48,7 @@
           "Look at the hour the crew eats."
         ],
         "say_back": "own_words",
-        "core_idea": "The cafeteria was closed during their shift, so they ate from a machine.",
+        "core_idea": "The cafeteria was closed.",
         "accept_ideas": [
           "the cafeteria was closed",
           "nothing was open at night",
@@ -64,7 +64,8 @@
             "when": "the student says they liked the machine",
             "ask": "The passage does not say that. Why was the machine the only choice?"
           }
-        ]
+        ],
+        "full_idea": "The cafeteria was closed during their shift, so they ate from a machine."
       },
       "display": {
         "lead": "",
@@ -89,7 +90,7 @@
           "Name the two changes it reports."
         ],
         "say_back": "own_words",
-        "core_idea": "The crew slept better, and the large meals at home mostly stopped.",
+        "core_idea": "The crew slept better.",
         "accept_ideas": [
           "the crew slept better",
           "they stopped eating big meals at home",
@@ -105,7 +106,8 @@
             "when": "the student says the hospital learned the food was too expensive",
             "ask": "Cost is one sentence in the part. What happened to the crew's sleep?"
           }
-        ]
+        ],
+        "full_idea": "The crew slept better, and the large meals at home mostly stopped."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -138,9 +140,7 @@
           "the time of the meal"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "the cost of the food"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the eggs and rice made the difference",
@@ -171,7 +171,7 @@
           "The food is on the plate. What does the passage say mattered?"
         ],
         "say_back": "own_words",
-        "core_idea": "A hospital served a hot meal at three in the morning, and eating together at that hour changed the crew's nights more than the food did.",
+        "core_idea": "A hot meal in the middle of the night.",
         "accept_ideas": [
           "a hot meal in the middle of the night",
           "the hospital opened the cafeteria at night",
@@ -179,9 +179,7 @@
           "a shared meal at the right hour"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the meal cost"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says it is about eggs and rice",
@@ -191,7 +189,8 @@
             "when": "the student says it is about a vending machine",
             "ask": "The machine is the problem in part one. What did the hospital do about it?"
           }
-        ]
+        ],
+        "full_idea": "A hospital served a hot meal at three in the morning, and eating together at that hour changed the crew's nights more than the food did."
       },
       "display": {
         "lead": "",
@@ -216,7 +215,7 @@
           "Look at what stopped at home."
         ],
         "say_back": "own_words",
-        "core_idea": "They sat together at a table in the middle of the shift instead of eating alone, and they slept better after it.",
+        "core_idea": "They ate together instead of alone.",
         "accept_ideas": [
           "they ate together instead of alone",
           "the break in the middle of the shift",
@@ -232,7 +231,8 @@
             "when": "the student says the food was better",
             "ask": "The manager says the food was not the reason. What was?"
           }
-        ]
+        ],
+        "full_idea": "They sat together at a table in the middle of the shift instead of eating alone, and they slept better after it."
       },
       "display": {
         "lead": "",

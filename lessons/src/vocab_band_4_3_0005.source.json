@@ -98,7 +98,7 @@
             "ask": "The story is not the problem. What does the audience feel about the timing?"
           }
         ],
-        "core_idea": "It steps on the line, so the change starts before the line has landed and the audience feels the timing go wrong.",
+        "core_idea": "It steps on the line.",
         "accept_ideas": [
           "it steps on the line",
           "the change starts before the line is finished",
@@ -108,7 +108,8 @@
         "not_required": [
           "how loud the sound is",
           "who calls the cue"
-        ]
+        ],
+        "full_idea": "It steps on the line, so the change starts before the line has landed and the audience feels the timing go wrong."
       }
     },
     {
@@ -176,8 +177,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "who watches the strike",
-          "how long the run lasted"
+          "who watches the strike"
         ]
       }
     },
@@ -214,10 +214,7 @@
           "the words are about the work, not the play"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how good the play is",
-          "who wrote it"
-        ]
+        "not_required": []
       },
       "show_part_again": true
     }

@@ -1,0 +1,277 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "authors_craft_band_4_3_0002",
+  "meta": {
+    "status": "published",
+    "title": "The Other Half of the Story",
+    "skill": "authors_craft",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "topic_domain": "history and people",
+    "skill_frame": "Author's craft: read how the writer turns the same words around to show two opposite changes.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured part_1 110w at FK 6.5, part_2 132w at FK 5.5, part_3 110w at FK 5.5, with mean sentences of 15 to 18 words. The load is the mirrored sentence, which the reader must hold across the whole account.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave (1845), chapters X and XI, under DESIGN_RULES 2.5.",
+      "attribution": "Frederick Douglass. Narrative of the Life of Frederick Douglass, an American Slave. 1845. Project Gutenberg eBook #23, https://www.gutenberg.org/ebooks/23, accessed 2026-11-12. Public domain in the United States.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "The authoring pass split long sentences, dropped rare words and simplified technical terms; no facts added.",
+      "survey": "The Covey chapter: the frame sentence about a man made a slave and a slave made a man, the collapse in the wheat field, the fight in the stable, and the resolve that follows it.",
+      "avoided": "No invented details. The gravest violence of the chapter is left out; the passage keeps the facts an item can point to.",
+      "drafted_by": "LessonBot-adjacent, adapted from the named human source"
+    },
+    "session": {
+      "scope": "bank",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "the writer's reversal of one sentence to mark two opposite changes"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "You have seen how a man was made a slave; you shall see how a slave was made a man. In August 1833 I was fanning wheat for a farmer named Covey, and four of us worked around the fan that cleaned the grain. I carried the wheat to it in a basket, and the day was one of the hottest of that summer. The chaff filled the air and the sun came down without any shade. By three in the afternoon my strength failed me completely. My head ached and the field swam with dizziness, so I crawled under the fence and lay there until Covey came looking for me.",
+    "part_2": "He asked what was the matter, and then he kicked me in the side and ordered me to get up. I attempted it and fell back again. Once I was on my feet, I made up my mind to walk seven miles to my master and enter a complaint. I made the journey, and I came back without any help. On the Monday morning Covey caught me in the stable before daylight. He carried a long rope, and he bent down to tie my legs together. Something rose up in me at that moment, and I resolved to fight him rather than submit. I seized him by the throat. He called to a hired man for assistance, and the man answered that he was hired to work, not to help whip me.",
+    "part_3": "So Covey and I fought our own battle out in the stable. We were at it for nearly two hours, and at last he released me, puffing and blowing with the effort. He said that if I had not resisted, he would not have whipped me half so much. The truth was that he had not whipped me at all. After that day he never laid a finger on me in anger again. I resolved that however long I remained a slave in form, the day had passed forever when I could be a slave in fact. The man who expected to whip me would first have to kill me."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "What happened to the writer by three in the afternoon in the wheat field?",
+      "tutor_only": {
+        "confirm": "His strength failed, and he crawled under the fence to get out of the sun.",
+        "correct_reason": "The passage says 'By three in the afternoon my strength failed me' and that he 'crawled under the fence and lay there'.",
+        "tell": "By three his strength failed, and he crawled under the fence to get out of the sun.",
+        "help": [
+          "The sentence about three in the afternoon gives the answer.",
+          "He moves out of the sun, which tells you how he felt."
+        ],
+        "say_back": "own_words",
+        "core_idea": "His strength failed him, and he crawled under the fence to lie in the shade.",
+        "accept_ideas": [
+          "his strength failed and he crawled under the fence",
+          "he broke down and lay under the fence",
+          "he could not go on and crawled out of the sun"
+        ],
+        "one_idea_is_enough": false,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say he finished the work and went to the house.",
+            "ask": "Did he keep working, or did his strength fail?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say Covey carried him to the house.",
+            "ask": "Who moved, the writer or Covey?"
+          }
+        ],
+        "not_required": [
+          "the name of the farmer",
+          "how many men were fanning"
+        ],
+        "full_idea": "His strength failed him, and he crawled under the fence to lie in the shade."
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "Covey called to a hired man for help. What reason did the man give for refusing?",
+      "tutor_only": {
+        "confirm": "He said he was hired to work, not to help whip the writer.",
+        "correct_reason": "The sentence says the man 'answered that he was hired to work, not to help whip me'.",
+        "tell": "The man said he was hired to work, not to help whip the writer.",
+        "help": [
+          "The hired man gives his reason in the last sentence.",
+          "He sets one job against another job."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The hired man said his master hired him to work, not to help whip Douglass.",
+        "accept_ideas": [
+          "he was hired to work, not to help whip him",
+          "his job was work, not whipping",
+          "he was paid to work, not to join a whipping"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say the man was afraid of Covey.",
+            "ask": "The man gives a reason about his hiring. What was it?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the man had gone to fetch the master.",
+            "ask": "Did the man leave, or did he stay and refuse?"
+          }
+        ],
+        "not_required": [
+          "Covey's first name",
+          "how long the fight lasted"
+        ]
+      },
+      "show_part_again": true
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "prompt": "Covey said he would not have whipped the writer half so much if he had not resisted. The writer adds that 'he had not whipped me at all'. What does that tell us?",
+      "tutor_only": {
+        "confirm": "The writer won the fight, and Covey's excuse was not true.",
+        "correct_reason": "The passage says Covey 'had not whipped me at all' and that afterwards he 'never laid a finger on me in anger again'.",
+        "tell": "Covey had not whipped him at all, so the writer got the better of the fight.",
+        "help": [
+          "Two sentences in the last part say who came out of it better.",
+          "Covey's own words are set against what the writer says was true."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The writer got the better of the fight, so Covey's excuse about the whipping was false.",
+        "accept_ideas": [
+          "the writer won, so Covey's excuse was false",
+          "Covey did not whip him, so Covey lost",
+          "the writer got the better of it and Covey's words were untrue"
+        ],
+        "one_idea_is_enough": false,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say Covey won but was generous afterwards.",
+            "ask": "If Covey had won, why did he never touch him again?"
+          },
+          {
+            "when": "The student says Covey did not whip him, without saying the writer won or that the excuse was false.",
+            "ask": "Covey said he would have whipped him less. What does 'not at all' do to that excuse?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the writer was too weak to fight.",
+            "ask": "The passage says the fight lasted nearly two hours. Who came out of it better?"
+          }
+        ],
+        "not_required": [],
+        "full_idea": "The writer got the better of the fight, so Covey's excuse about the whipping was false."
+      },
+      "show_part_again": true
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "prompt": "The writer says first 'how a man was made a slave', then 'how a slave was made a man'. What does turning the same words around show about the two events?",
+      "tutor_only": {
+        "confirm": "The two changes are opposites: the first was done to him, and the second he did himself.",
+        "correct_reason": "Douglass reverses the same nouns and verbs, 'a man was made a slave' and 'a slave was made a man', so the second change answers the first.",
+        "tell": "The reversal makes the two changes opposite: one was done to him, one he did himself.",
+        "help": [
+          "The two halves are a pair, and the question is which one is doing the making.",
+          "In the first half someone makes him a slave; in the second he is the one who acts."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Turning the words around makes the two events opposites, one done to him and one done by him.",
+        "accept_ideas": [
+          "they are opposites, one done to him and one by him",
+          "the first was forced on him and the second he made himself",
+          "the same words show two opposite changes"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say the second sentence means he was freed by someone else.",
+            "ask": "Who does the making in 'a slave was made a man'?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the words repeat because he forgot what he had written.",
+            "ask": "What changes between the two halves: the words, or the order of them?"
+          }
+        ],
+        "not_required": [
+          "the name Covey",
+          "the month of the fight"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "By the end, what has changed for the writer, even though he is still a slave?",
+      "tutor_only": {
+        "confirm": "He is a slave in form only; he has decided that anyone who whips him must first kill him.",
+        "correct_reason": "The last sentences say 'the day had passed forever when I could be a slave in fact' and that a man who expected to whip him would first have to kill him.",
+        "tell": "He is a slave in form, not in fact, and anyone who whips him must first kill him.",
+        "help": [
+          "The last two sentences say what he has resolved.",
+          "He keeps the word 'form' and sets it against 'fact'."
+        ],
+        "say_back": "own_words",
+        "core_idea": "He still has the form of a slave, but he has resolved that he can no longer be made a slave in fact.",
+        "accept_ideas": [
+          "he is a slave in form but not in fact",
+          "he has decided he cannot be whipped again without a fight",
+          "he is still a slave but his spirit is free"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say he ran away that same night.",
+            "ask": "Does the passage say he left, or that he stayed and resolved?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say nothing has changed, because he is still a slave.",
+            "ask": "He is still a slave in form. What has changed in him?"
+          }
+        ],
+        "not_required": []
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "authors_craft_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band; no higher craft rung is authored yet.",
+    "student_line": "You have this move. The next reading is another craft lesson in this band."
+  },
+  "retry": {
+    "next_file": "authors_craft_band_4_3_0003",
+    "next_irl": 4,
+    "next_means": "The next lesson in this band.",
+    "student_line": "The next reading is another craft lesson in this band."
+  },
+  "stopped": {
+    "next_file": "authors_craft_band_4_3_0002",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

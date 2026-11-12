@@ -57,9 +57,7 @@
           "grinding stopped at the mill"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who owned the mill"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -141,9 +139,7 @@
           "no machines came with the mill"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who bought the mill"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -163,7 +159,7 @@
       "type": "short_answer",
       "skill": "argument_evidence",
       "difficulty": 3,
-      "show_part": "part_3",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "Why are the two records stronger together than either one alone?",
       "tutor_only": {
@@ -175,7 +171,7 @@
           "It names who wrote them and what they knew."
         ],
         "say_back": "own_words",
-        "core_idea": "They came from different offices that did not copy each other, so one mistake would not repeat.",
+        "core_idea": "Different offices wrote them.",
         "accept_ideas": [
           "different offices wrote them",
           "neither copied the other",
@@ -183,21 +179,20 @@
           "two separate offices made them"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how old the mill is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says two records are always better than one",
             "ask": "Two copies of one record would not help. What makes these two different?"
           }
-        ]
+        ],
+        "full_idea": "They came from different offices that did not copy each other, so one mistake would not repeat."
       },
       "display": {
-        "lead": "Here is the rest of the passage.",
+        "lead": "",
         "label": "Passage",
-        "text": "Two records that do not come from the same source are stronger than two copies of one record. Together they support the 1911 date. The case would be weaker if both records came from the society itself, because one office can repeat its own mistake. It would also weaken if a later record showed grain being ground after 1911. A sale notice from 1915 would undo both records at once. A second record is only worth something when it was made on its own, and these two were. A reader can say which part of the case is strong and which part is only likely."
+        "text": "The historical society wants a plaque on the old mill by the river. The society says the mill stopped grinding grain in 1911, and the plaque would print that year in large letters. One record supports the date. The list is a page of buildings, and each line gives the state of a building that year. A tax list from that year shows the building listed as empty and the mill wheel gone. The list was made by the county for its own accounts, not to prove anything about the mill. Nobody at the society wrote it, and nobody at the society could change it.\n\nA second record points the same way. A notice in the county paper, printed the same autumn, offers the mill for sale with no machines included. The paper and the tax list were written in different offices for different reasons. Neither one copied the other. Neither office knew what the other had printed. The notice names the mill, the road, and the asking price, and it lists no tools. The two records agree on what a reader needs, which is that the mill was not working that year. A record that stands alone can be checked against one that did not know about it.\n\nTwo records that do not come from the same source are stronger than two copies of one record. Together they support the 1911 date. The case would be weaker if both records came from the society itself, because one office can repeat its own mistake. It would also weaken if a later record showed grain being ground after 1911. A sale notice from 1915 would undo both records at once. A second record is only worth something when it was made on its own, and these two were. A reader can say which part of the case is strong and which part is only likely."
       }
     },
     {

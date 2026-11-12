@@ -59,7 +59,6 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "Naming the pith and bark",
           "Explaining what wood cells are"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
@@ -102,8 +101,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "Naming asparagus or rattan",
-          "Explaining seed leaves"
+          "Naming asparagus or rattan"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -143,10 +141,9 @@
           "The first kind, with hard wood on the outside and no annual layers.",
           "The inside-growing kind; it has no annual layers."
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
-          "Naming the plants in part_2",
-          "Explaining what a seed leaf is"
+          "Naming the plants in part_2"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -154,7 +151,8 @@
             "when": "They say it is the second kind.",
             "ask": "Which kind has scattered threads and no annual layers?"
           }
-        ]
+        ],
+        "full_idea": "The first kind has scattered threads, no annual layers, and hard wood on the outside."
       },
       "display": {
         "lead": "",
@@ -187,10 +185,7 @@
           "A picture of the two patterns without a drawing."
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "Saying one kind is better",
-          "Naming the pith and bark"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -222,7 +217,7 @@
           "Notice the move from the two arrangements to the hard wood."
         ],
         "say_back": "own_words",
-        "core_idea": "Part_1 names the two kinds; the last part shows where the hard wood sits and what each kind has or lacks.",
+        "core_idea": "It shows where the hard wood sits in each kind.",
         "accept_ideas": [
           "It shows where the hard wood sits in each kind.",
           "It compares what each kind has and lacks.",
@@ -231,7 +226,6 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "Retelling the examples",
           "Naming every plant"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
@@ -240,7 +234,8 @@
             "when": "They say the last part repeats the two kinds.",
             "ask": "What does the last part add about the hard wood and the layers?"
           }
-        ]
+        ],
+        "full_idea": "Part_1 names the two kinds; the last part shows where the hard wood sits and what each kind has or lacks."
       },
       "display": {
         "lead": "",

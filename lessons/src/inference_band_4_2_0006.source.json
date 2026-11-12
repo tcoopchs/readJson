@@ -65,9 +65,7 @@
           "after a big storm"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how big the pool is"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says every day",
@@ -93,14 +91,13 @@
           "Then find what it is closed for."
         ],
         "say_back": "own_words",
-        "core_idea": "Because looking clear does not mean the water is safe or filtered.",
+        "core_idea": "Looking clear does not mean the water is safe or filtered.",
         "accept_ideas": [
           "clear is not safe",
           "clarity is not the test",
           "the water can be clear and still unsafe",
           "it is about the filter and chlorine"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "who complains"
         ],
@@ -109,7 +106,9 @@
             "when": "the student says the staff are being careful about looks",
             "ask": "The passage says the opposite. What two things decide the reopening?"
           }
-        ]
+        ],
+        "full_idea": "Because looking clear does not mean the water is safe or filtered.",
+        "one_idea_is_enough": true
       }
     },
     {
@@ -129,7 +128,7 @@
           "Look at what a reading taken too early would show."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the test must come after the water has mixed, so adding chlorine early does not help.",
+        "core_idea": "The test needs mixed water.",
         "accept_ideas": [
           "the test needs mixed water",
           "the water has to mix first",
@@ -145,7 +144,8 @@
             "when": "the student says chlorine is dangerous",
             "ask": "Danger is not the point here. What has to happen before the test?"
           }
-        ]
+        ],
+        "full_idea": "Because the test must come after the water has mixed, so adding chlorine early does not help."
       }
     },
     {
@@ -201,14 +201,13 @@
           "Both of them take time, and one waits on the other."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the filter needs hours and the test waits for the water to mix.",
+        "core_idea": "The filter needs hours and the test waits for the water to mix.",
         "accept_ideas": [
           "the filter takes hours and then the test",
           "two jobs take time",
           "the filter has to finish and the test follow",
           "it needs the filter and the test"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "how many swimmers use it"
         ],
@@ -217,7 +216,9 @@
             "when": "the student says the staff are slow",
             "ask": "The passage names two causes of the delay. What are they?"
           }
-        ]
+        ],
+        "full_idea": "Because the filter needs hours and the test waits for the water to mix.",
+        "one_idea_is_enough": true
       }
     }
   ],

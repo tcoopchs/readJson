@@ -62,13 +62,12 @@
           "The part lists three things."
         ],
         "say_back": "own_words",
-        "core_idea": "A planet must orbit a star, be round from gravity, and have cleared its path.",
+        "core_idea": "Orbit a star, be round, and clear its path.",
         "accept_ideas": [
           "orbit a star, be round, and clear its path",
           "circle a star, be round, and have an empty path",
           "orbit, be round, and clear the area"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "the name of the group that voted"
         ],
@@ -77,7 +76,8 @@
             "when": "the student names only one or two conditions",
             "ask": "The passage lists three. Which one is missing?"
           }
-        ]
+        ],
+        "one_idea_is_enough": false
       }
     },
     {
@@ -104,9 +104,7 @@
           "other objects circle near it"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "it is too far from the Sun"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says Pluto is too small",
@@ -181,9 +179,8 @@
           "what counts as a planet and who decides",
           "the rule that changed Pluto's label"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
-          "the year of the vote",
           "the size of Pluto"
         ],
         "if_they_say": [
@@ -195,7 +192,8 @@
             "when": "the student says it is about the solar system",
             "ask": "The passage is about one word. Which word?"
           }
-        ]
+        ],
+        "full_idea": "The definition of planet, and how it changed when new objects were found."
       }
     },
     {
@@ -215,7 +213,7 @@
           "The opening is the rule and the end is the argument."
         ],
         "say_back": "own_words",
-        "core_idea": "Pluto is the case that shows why the rule changed, and the passage is about the rule.",
+        "core_idea": "It leaves out the three conditions.",
         "accept_ideas": [
           "it leaves out the three conditions",
           "the passage is about the rule, not one object",
@@ -234,7 +232,8 @@
             "when": "the student says it leaves out the Moon",
             "ask": "The Moon is not in the passage. What is the opening about?"
           }
-        ]
+        ],
+        "full_idea": "Pluto is the case that shows why the rule changed, and the passage is about the rule."
       }
     }
   ],

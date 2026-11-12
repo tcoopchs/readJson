@@ -98,11 +98,12 @@
           "they take shelter behind the front rider",
           "the front rider pushes the air aside for the rest"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how fast the group travels",
           "how many riders are in the line"
-        ]
+        ],
+        "full_idea": "The front rider breaks the air, so the riders behind use less effort and the whole line moves faster."
       },
       "display": {
         "lead": "",
@@ -150,7 +151,7 @@
       "type": "short_answer",
       "skill": "vocab",
       "difficulty": 3,
-      "show_part": "part_3",
+      "show_part": "all",
       "prompt": "What does rotate mean for a group of riders?",
       "tutor_only": {
         "confirm": "Yes. The riders take turns at the front.",
@@ -171,7 +172,7 @@
             "ask": "The line does not reverse. What does each rider do after a turn at the front?"
           }
         ],
-        "core_idea": "Taking turns at the front, then drifting back, so everyone shares the work.",
+        "core_idea": "Taking turns at the front.",
         "accept_ideas": [
           "taking turns at the front",
           "each rider leads for a while then drops back",
@@ -179,15 +180,15 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how fast the group rides",
-          "who wins the ride"
-        ]
+          "how fast the group rides"
+        ],
+        "full_idea": "Taking turns at the front, then drifting back, so everyone shares the work."
       },
       "show_part_again": true,
       "display": {
-        "lead": "Here is the rest of the passage.",
+        "lead": "",
         "label": "Passage",
-        "text": "None of this is a trick, and none of it is cheating, though it can look like both from the side of the road. It is a rule of the air, and the group uses it on purpose. A rider who is dropped from the line loses the pocket and faces the wind alone. That is why the back of a group is a hard place to be for a rider who is already tired. The word rotate describes the order of the line, not the wheels, and the order is the only thing the group owns. A group that forgets the order still has the same riders and the same road, and it stops being a group."
+        "text": "A rider who sits close behind another rider uses less effort than the rider in front. The front rider pushes the air aside, and the air closes again behind the wheel. That leaves a small pocket where the next rider can sit, out of the wind, and recover. Riders call this the draft, and it is not a small saving. At speed it can take a third of the work out of the ride. A group that understands the draft stays in a line, wheel behind wheel, and the line moves faster than any rider in it could move alone on a flat road.\n\nThe draft only works if the riders take turns, and a group that has not learned this is slower than its strongest rider. The rider at the front does the most work and tires first, so the group rotates. Each rider moves up, holds the front for a short time, then drifts back to the end of the line. A rider who will not rotate is soon known. The others do extra work while he sits in the pocket and saves his legs. Groups that rotate cover more ground in a day than groups that do not, and they arrive with more riders still able to ride the next stage.\n\nNone of this is a trick, and none of it is cheating, though it can look like both from the side of the road. It is a rule of the air, and the group uses it on purpose. A rider who is dropped from the line loses the pocket and faces the wind alone. That is why the back of a group is a hard place to be for a rider who is already tired. The word rotate describes the order of the line, not the wheels, and the order is the only thing the group owns. A group that forgets the order still has the same riders and the same road, and it stops being a group."
       }
     },
     {

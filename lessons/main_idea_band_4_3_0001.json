@@ -61,8 +61,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how long the cover crop grows",
-          "which mix is best"
+          "how long the cover crop grows"
         ],
         "if_they_say": [
           {
@@ -98,7 +97,7 @@
           "Three problems are named, and then each one is answered."
         ],
         "say_back": "own_words",
-        "core_idea": "Three ways a field wears down when one crop is repeated, and how a fallow year interrupts them.",
+        "core_idea": "The soil wearing out and how resting helps.",
         "accept_ideas": [
           "the soil wearing out and how resting helps",
           "the field losing food and gaining weeds",
@@ -119,7 +118,8 @@
             "when": "the student says it is about worms and soil life",
             "ask": "That is the last sentence. What does the rest of the part list?"
           }
-        ]
+        ],
+        "full_idea": "Three ways a field wears down when one crop is repeated, and how a fallow year interrupts them."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -196,7 +196,6 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how much the loss is",
           "which crops a farmer plants"
         ],
         "if_they_say": [
@@ -240,9 +239,7 @@
           "it misses the reason for giving up a season"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "which plow a farm uses"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says nothing is missing",

@@ -129,14 +129,13 @@
           "Look at how many sides the deck loses heat from."
         ],
         "say_back": "own_words",
-        "core_idea": "Because cold air takes heat from the deck above and below, while the road is warmed by soil.",
+        "core_idea": "Cold air takes heat from the deck above and below, while the road is warmed by soil.",
         "accept_ideas": [
           "heat leaves from two sides",
           "air under the deck",
           "the deck loses heat from below too",
           "the road keeps heat in the soil"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "how thick the concrete is"
         ],
@@ -145,7 +144,9 @@
             "when": "the student says the bridge is in the shade",
             "ask": "The passage says there are no trees and it is a straight stretch. What does it say about the air under the deck?"
           }
-        ]
+        ],
+        "full_idea": "Because cold air takes heat from the deck above and below, while the road is warmed by soil.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -178,9 +179,7 @@
           "the air is wet"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how much rain fell"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the ice came from the road",
@@ -211,7 +210,7 @@
           "Then find what else could warm the deck."
         ],
         "say_back": "own_words",
-        "core_idea": "There is no sun to warm the deck, and the salt cannot dissolve in hard cold.",
+        "core_idea": "No sun and salt does not work.",
         "accept_ideas": [
           "no sun and salt does not work",
           "salt needs warmth",
@@ -219,15 +218,14 @@
           "the salt sits on the ice"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how many cars cross"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the bridge is busier",
             "ask": "Traffic can help, but the passage names two things. What are they?"
           }
-        ]
+        ],
+        "full_idea": "There is no sun to warm the deck, and the salt cannot dissolve in hard cold."
       },
       "display": {
         "lead": "",

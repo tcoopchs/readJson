@@ -91,16 +91,14 @@
           "The last sentences name the conditions a storm needs."
         ],
         "say_back": "own_words",
-        "core_idea": "How storms are sorted by wind speed, and what they need to grow.",
+        "core_idea": "How storms are sorted by wind speed.",
         "accept_ideas": [
           "how storms are sorted by wind speed",
           "wind classes and what storms need",
           "the wind speeds that make a hurricane"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "the name of the scale"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says it is about the eye of the storm",
@@ -110,7 +108,8 @@
             "when": "the student says it is about warm water only",
             "ask": "Warm water is one condition. What else must be true?"
           }
-        ]
+        ],
+        "full_idea": "How storms are sorted by wind speed, and what they need to grow."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -183,8 +182,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "the number of names on the list",
-          "the size of the eye"
+          "the number of names on the list"
         ],
         "if_they_say": [
           {

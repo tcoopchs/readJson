@@ -57,7 +57,6 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "The exact number of rounds.",
           "Why the ammunition was low.",
           "The names of the regiments."
         ],
@@ -102,7 +101,6 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "Naming every weapon in the passage",
           "Explaining where the artillery was placed",
           "Describing the flat roofs"
         ],

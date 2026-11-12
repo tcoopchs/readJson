@@ -119,7 +119,7 @@
       "type": "short_answer",
       "skill": "literary_text",
       "difficulty": 2,
-      "show_part": "part_2",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "The grower worked out that the money would cover her costs. Where did her number come from?",
       "tutor_only": {
@@ -138,9 +138,7 @@
           "from the weights she took at the loading bay"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the seed cost"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -150,9 +148,9 @@
         ]
       },
       "display": {
-        "lead": "Here is the rest of the passage.",
+        "lead": "",
         "label": "Passage",
-        "text": "The grower weighs her last six crates on the bay scale and writes the totals in her book. She adds them twice on the tailgate with the pencil in her mouth. The wind pulls at the pages, so she holds the book down with her elbow. The number covers the seed, the fuel, and the helper's week, and she says so out loud to the helper, who is stacking empty crates behind her. The helper does not read the book, has never asked what the number covers, and is not asked. Then she drives to the co-op with the book open on the passenger seat beside her."
+        "text": "The co-op pays growers by weight, and the scale at the loading bay decides how much money moves that day. That scale has been wrong since the spring. It reads two kilos light on every crate that goes over it, which is small money on one crate. The office has known about the fault since April, has written the date on the wall behind the till, and has not told the growers. A repair was booked in June and again in August. Both times the fitter was sent to the wrong bay by mistake, and both times he went home again.\n\nThe grower weighs her last six crates on the bay scale and writes the totals in her book. She adds them twice on the tailgate with the pencil in her mouth. The wind pulls at the pages, so she holds the book down with her elbow. The number covers the seed, the fuel, and the helper's week, and she says so out loud to the helper, who is stacking empty crates behind her. The helper does not read the book, has never asked what the number covers, and is not asked. Then she drives to the co-op with the book open on the passenger seat beside her.\n\nAt the counter the clerk weighed the load again on the office scale and wrote down a smaller figure. The grower asked her to check it. The clerk turned the ticket around, and the figure on it had been printed by the office scale, which nobody in the room could change. The clerk was new and had been told to use that scale and no other. The grower read the ticket twice, folded it in half, and put it in her coat. On the way out to the van she said the crates must have dried out in the sun."
       }
     },
     {
@@ -178,7 +176,7 @@
           "the bay scale reads two kilos light on each crate",
           "her totals came from the wrong scale"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "who loaded the crates"
         ],
@@ -188,7 +186,8 @@
             "when": "the student says the crates lost weight on the drive",
             "ask": "Weight does not leave a crate on a short drive. Which scale printed the clerk's figure?"
           }
-        ]
+        ],
+        "full_idea": "The office scale weighed the load truly, and the bay scale reads two kilos light a crate."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -213,7 +212,7 @@
           "The loss is the same on every crate, which the weather would not do."
         ],
         "say_back": "own_words",
-        "core_idea": "The bay scale read two kilos light on each crate, so she counted more than she delivered.",
+        "core_idea": "The scale was wrong.",
         "accept_ideas": [
           "the scale was wrong",
           "she weighed them on the broken scale",
@@ -231,7 +230,8 @@
             "when": "the student says the co-op cheated her",
             "ask": "The passage says nobody could change the office figure. Where did her own number come from?"
           }
-        ]
+        ],
+        "full_idea": "The bay scale read two kilos light on each crate, so she counted more than she delivered."
       },
       "display": {
         "lead": "",

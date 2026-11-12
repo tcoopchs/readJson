@@ -160,8 +160,8 @@
       "type": "short_answer",
       "skill": "text_structure",
       "difficulty": 3,
-      "show_part": "part_2",
-      "show_part_again": false,
+      "show_part": "all",
+      "show_part_again": true,
       "prompt": "Why can the method not say how many turns a string needs?",
       "tutor_only": {
         "confirm": "Yes. The number is not known until she listens, so the step repeats until the pulse stops.",
@@ -172,7 +172,7 @@
           "It says why the number is not available before the string is heard."
         ],
         "say_back": "own_words",
-        "core_idea": "The number depends on what she hears, so the step repeats until the pulse stops.",
+        "core_idea": "The number is not known until she listens.",
         "accept_ideas": [
           "the number is not known until she listens",
           "it ends when the pulse stops, not after a count",
@@ -188,12 +188,13 @@
             "when": "the student says the tuner is experienced",
             "ask": "Experience is not the reason the passage gives. What ends the repeating?"
           }
-        ]
+        ],
+        "full_idea": "The number depends on what she hears, so the step repeats until the pulse stops."
       },
       "display": {
         "lead": "",
         "label": "Passage",
-        "text": ""
+        "text": "A piano tuner works by repeating one step until a test stops failing. She strikes the note and the string above it at the same moment. If the two are close but not equal, the sound begins to pulse. The pulses come faster the further apart the two strings are. She turns the pin a little, strikes again, and listens for the same pulse. Nothing in the method says how many turns a string needs, because that number does not exist yet. The string answers that question one turn at a time, and a tuner with a list of turns would still have to listen.\n\nThe loop ends on a condition rather than on a count of turns. The tuning is finished when the pulsing stops and the strings sound as one, and the tuner decides that by ear rather than by a mark on the pin. On a badly flat string, the first turns can make the pulsing faster. That faster pulse is the sign that she turned the pin the wrong way, so the same step that corrects a string can also report a mistake. A step list would have told her to turn three times and stop. Three turns on a flat string leave it flat, and the next string inherits the error.\n\nThat difference is what makes the trade hard to teach from a book. A recipe can tell a cook to turn the pin three times and stop, and the recipe will be right every time. A tuning cannot, because the third turn on one string is the first turn on the next. The same pin has to be set again every season. Wood and wire move with the weather, and the note drifts with them. The reader who watches for the pulse learns the work faster than the reader who counts turns, and the passage is written for the first of the two."
       }
     },
     {
@@ -219,7 +220,7 @@
           "one counts turns and the other listens for the pulse to stop",
           "a recipe stops after three turns and a tuning stops when it sounds right"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "who wrote the recipe"
         ],
@@ -229,7 +230,8 @@
             "when": "the student says a recipe is easier",
             "ask": "Easier is a judgement. What does the passage say each kind of instruction uses to decide when to stop?"
           }
-        ]
+        ],
+        "full_idea": "A recipe can count its steps; a tuning repeats a step until a test passes."
       },
       "display": {
         "lead": "",

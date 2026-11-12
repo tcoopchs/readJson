@@ -1,0 +1,243 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_4_3_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Last Round",
+    "skill": "literary_text",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 6,
+    "genre": "fiction",
+    "topic_domain": "sport and play",
+    "skill_frame": "Literary text: read a defeat caused by a body that can no longer spend what the mind knows.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.6, 6.3 and 5.5 over the three parts (119, 113 and 117 words). The load is a hungry household, three rounds of one fight, and a cause the fighter names only partly at the end.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from Jack London's story 'A Piece of Steak' in When God Laughs, and Other Stories (1911), public domain in the United States.",
+      "attribution": "London, Jack. When God Laughs, and Other Stories (1911). Project Gutenberg ebook 2545. https://www.gutenberg.org/ebooks/2545 (accessed 2026-11-12).",
+      "text_status": "Adapted, reading load reduced.",
+      "drafted_by": "TC",
+      "adaptation": "Cut the round-by-round detail to three moments, removed the boxing slang that needs a glossary, and kept the order: the empty table, the ninth round, the twelfth. No fact was added.",
+      "survey": "London's ageing fighter who knows the winning move and cannot land it. Chosen over a team sport because the limit is shown in one body across named rounds.",
+      "avoided": "No invented purse, odds, or venue, and no medical claim beyond what the passage shows."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "three rounds of one fight, a skill that still works and then does not, and a cause the fighter states only in part"
+    },
+    "authoring_exceptions": []
+  },
+  "passage": {
+    "part_1": "Tom King wiped his plate with the last of the bread and chewed the mouthful slowly. When he got up from the table he was still hungry. He had eaten alone. The two children had been sent to bed early so that they might sleep instead of asking for food, and his wife had sat with him and touched nothing. She had borrowed the flour for the gravy from the woman across the hall, and the last two pennies had gone for bread. King sat down by the window and put his pipe in his mouth, then found that he had no tobacco. He was a heavy, solid man who had been fighting for a living for many years.",
+    "part_2": "King's advantage in the ring was experience. He had learned not to waste a movement, and he had learned how to make a younger man waste his. He never hit more often than he had to, because his knuckles were bad and every blow had to count. In the ninth round he put Sandel on the floor three times with the same right hook, and three times the younger man got up. Sandel was tired and had lost much of his speed, but he was still strong. He kept coming forward and swinging, and he spent his strength as if he had an endless supply of it, which, for that night, he did.",
+    "part_3": "In the last round King knew the fight was his to take, and one good blow would topple Sandel. He wished he had the steak behind that punch, and he aimed for the jaw. The blow landed no higher than the shoulder: he had willed it higher, but the tired muscles would not obey. Then he saw the gloved fist coming at his own jaw and willed his arm to guard it. The arm was too heavy, and it would not lift, and the fist landed, and the dark closed over him. Afterward a young man in the doorway asked why he had not finished the fight. King told him to go to hell and walked out."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "Why had the children been sent to bed early?",
+      "tutor_only": {
+        "confirm": "Right. So that they would sleep instead of asking for food.",
+        "correct_reason": "The passage says the children were sent early to bed so that in sleep they might forget they had gone supperless.",
+        "tell": "They were sent to bed so they would sleep instead of asking for food.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "so they would sleep instead of asking for food",
+        "accept_ideas": [
+          "so they would not ask for food",
+          "so they could sleep through their hunger",
+          "because there was no supper"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says because it was late",
+            "ask": "The passage gives a reason about food. What were they sent to forget?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "King put Sandel on the floor three times with the same punch. What does that show about King in the ninth round?",
+      "tutor_only": {
+        "confirm": "Right. His skill still worked, and he could time the punch.",
+        "correct_reason": "In the ninth round King's right hook put Sandel down three times, and each time Sandel rose.",
+        "tell": "His skill still worked in the ninth. He could time the punch and land it.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "his skill still worked and he could land the punch",
+        "accept_ideas": [
+          "he still had the skill",
+          "he could still time it",
+          "the punch still worked"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it shows Sandel was weak",
+            "ask": "Sandel got up each time. What does that say about the punch?"
+          }
+        ]
+      },
+      "show_part_again": true
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "prompt": "King aimed a blow at Sandel's jaw and it landed on the shoulder. What does the passage say caused that?",
+      "tutor_only": {
+        "confirm": "Right. He willed the blow higher, and his tired muscles would not obey him.",
+        "correct_reason": "The passage says he had willed the blow higher, but the tired muscles had not been able to obey.",
+        "tell": "His body caused it, not his aim. He willed the blow higher, and the tired muscles would not obey.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "his tired muscles would not obey, though he willed the blow higher",
+        "accept_ideas": [
+          "his muscles would not obey",
+          "his body would not do what he wanted",
+          "he was too tired to lift the blow"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he aimed badly",
+            "ask": "The passage says where he aimed. What does it say about his muscles?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "the student says Sandel blocked the blow",
+            "ask": "The blow landed on the shoulder. Where did King aim it?"
+          }
+        ]
+      },
+      "show_part_again": true
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "prompt": "The sentence says 'he had willed it higher, but the tired muscles would not obey'. What does that make the defeat look like?",
+      "tutor_only": {
+        "confirm": "Right. A body that has stopped answering, not a mistake of the mind.",
+        "correct_reason": "The sentence sets his will against his muscles and gives the muscles the last word.",
+        "tell": "The sentence makes the defeat a body that stopped answering. His will was still there.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "a body that has stopped answering him, not a mistake",
+        "accept_ideas": [
+          "a body that would not obey",
+          "a physical failure, not a mistake",
+          "his body gave out, not his nerve"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he wanted it too much",
+            "ask": "Willing harder is what he did. What did the muscles do?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "the student says he was careless",
+            "ask": "Nothing in the sentence is about care. What is set against what?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "King says the loss was all because of the piece of steak. What else does the story show?",
+      "tutor_only": {
+        "confirm": "Right. Age: the body could no longer spend what he knew, and hunger made it worse.",
+        "correct_reason": "The passage shows King hungry before the fight and unable to reach the opening in the twelfth, and it ends with him thinking of an old fighter he beat the same way.",
+        "tell": "The story shows more than hunger. His age had taken the body that his knowledge needed.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "his age: the body could no longer do what he knew",
+        "accept_ideas": [
+          "he was too old",
+          "age as well as hunger",
+          "his age, not only the missed meal"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the steak was the only cause",
+            "ask": "Hunger is one cause. What did the twelfth round show about his arms?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "the student says Sandel was simply better",
+            "ask": "King had him down three times. What had changed by the twelfth?"
+          }
+        ]
+      },
+      "show_part_again": true
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, which is the highest one authored so far.",
+    "student_line": "You read this one closely. The next reading is another lesson at this level."
+  },
+  "retry": {
+    "next_file": "literary_text_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished.",
+    "student_line": "The next reading is another lesson at this level."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_4_3_0006",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

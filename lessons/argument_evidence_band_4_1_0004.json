@@ -49,7 +49,7 @@
           "It names a number of bikes and a number of days."
         ],
         "say_back": "own_words",
-        "core_idea": "A storm closed the road for a week, and twelve bikes waited.",
+        "core_idea": "A storm closed the road.",
         "accept_ideas": [
           "a storm closed the road",
           "twelve bikes waited a week",
@@ -66,7 +66,8 @@
             "when": "the student says the shop closed for good",
             "ask": "The shop lost a week. What stopped the trucks?"
           }
-        ]
+        ],
+        "full_idea": "A storm closed the road for a week, and twelve bikes waited."
       },
       "display": {
         "lead": "",
@@ -163,7 +164,7 @@
       "type": "short_answer",
       "skill": "argument_evidence",
       "difficulty": 3,
-      "show_part": "part_3",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "A reader says the memo is about the storm. Why is that not the claim?",
       "tutor_only": {
@@ -182,7 +183,7 @@
           "the pages before describe the problem",
           "the storm makes the request worth considering"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how the shop orders now"
         ],
@@ -192,12 +193,13 @@
             "when": "the student says both are claims",
             "ask": "One sentence asks for something. Which one?"
           }
-        ]
+        ],
+        "full_idea": "The storm is the situation that makes the change worth considering, and the claim is the request."
       },
       "display": {
-        "lead": "Here is the rest of the passage.",
+        "lead": "",
         "label": "Passage",
-        "text": "Reading the memo backward helps, because the last sentence carries the request. The earlier pages describe the problem the change would solve and the room it would use. A reader who stops after the second page has read the setup and missed the claim. A summary that says the memo is about a storm has missed it too. The end of the memo is where the shop stops describing and starts asking. The claim is the request, and the pages before it are the reason the request is on the table. Nothing in the first two pages asks for anything."
+        "text": "For years the repair shop on the corner ordered parts one job at a time. A worker wrote the order when a bike came in and then waited for the box to arrive. Most boxes came within three days, which was fast enough for most jobs and kept the rack clear. Two winters ago a storm closed the road for a week and stopped the trucks, and twelve bikes waited on the rack with nothing to fix them. The shop lost that week, and it could not promise the owners a date. The owner still has the list of those twelve bikes.\n\nThe memo describes that week, then the parts counter, then the shelf space the shop now has free. It ends with one sentence, and the sentence asks for a change. The shop should order the ten most common parts once a month, so a box is always on the shelf. That sentence is the claim. Everything before it is the situation that makes the claim worth considering. The memo takes its time getting there, and the early pages are easy to mistake for the point of the whole document. A reader has to reach the last line to find what the shop wants.\n\nReading the memo backward helps, because the last sentence carries the request. The earlier pages describe the problem the change would solve and the room it would use. A reader who stops after the second page has read the setup and missed the claim. A summary that says the memo is about a storm has missed it too. The end of the memo is where the shop stops describing and starts asking. The claim is the request, and the pages before it are the reason the request is on the table. Nothing in the first two pages asks for anything."
       }
     },
     {

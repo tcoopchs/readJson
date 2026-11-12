@@ -103,9 +103,7 @@
           "the gravel was buried in silt"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how deep the silt was"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -139,9 +137,7 @@
           "it looked worse than before the dam came out"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the engineer said"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -211,9 +207,7 @@
           "taking the dam out was easy next to the river repairing the damage"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how tall the dam was"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {

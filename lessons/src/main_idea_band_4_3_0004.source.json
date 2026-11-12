@@ -69,9 +69,7 @@
           "to end at the royal box"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who won the 1908 race"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the old finish was too far from the start",
@@ -101,7 +99,7 @@
           "A time only means something if the distance is the same."
         ],
         "say_back": "own_words",
-        "core_idea": "Courses varied in length, so times from different races could not be compared.",
+        "core_idea": "Times could not be compared.",
         "accept_ideas": [
           "times could not be compared",
           "a fast time meant little in another country",
@@ -121,7 +119,8 @@
             "when": "the student says the races were too long",
             "ask": "Length varied in both directions. What did that do to comparing times?"
           }
-        ]
+        ],
+        "full_idea": "Courses varied in length, so times from different races could not be compared."
       }
     },
     {

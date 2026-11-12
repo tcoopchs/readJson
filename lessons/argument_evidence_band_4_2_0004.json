@@ -57,9 +57,7 @@
           "the course is five kilometers long"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who runs the club"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -133,24 +131,23 @@
           "It names the things distance does not cover."
         ],
         "say_back": "own_words",
-        "core_idea": "Because distance says nothing about cars or blind corners.",
+        "core_idea": "Distance says nothing about cars or blind corners.",
         "accept_ideas": [
           "distance says nothing about traffic",
           "it does not count cars",
           "it says nothing about crossings",
           "measuring distance is not checking safety"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "how wide the path is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says a measured route must be safe",
             "ask": "A measured route can still have traffic. What does the wheel measure?"
           }
-        ]
+        ],
+        "full_idea": "Because distance says nothing about cars or blind corners.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -163,8 +160,8 @@
       "type": "short_answer",
       "skill": "argument_evidence",
       "difficulty": 3,
-      "show_part": "part_2",
-      "show_part_again": false,
+      "show_part": "all",
+      "show_part_again": true,
       "prompt": "A runner says the flyer proves the route is safe. What is wrong with that?",
       "tutor_only": {
         "confirm": "Right. The flyer gives no traffic count or crash record, and the route crosses three streets without stop signs.",
@@ -175,7 +172,7 @@
           "They name the records left out and the crossings."
         ],
         "say_back": "own_words",
-        "core_idea": "The flyer has no traffic record, and the route crosses streets without stop signs.",
+        "core_idea": "There is no traffic count.",
         "accept_ideas": [
           "there is no traffic count",
           "no crash record is given",
@@ -192,12 +189,13 @@
             "when": "the student says the surveyor is not qualified",
             "ask": "The surveyor measured distance correctly. What did the surveyor not measure?"
           }
-        ]
+        ],
+        "full_idea": "The flyer has no traffic record, and the route crosses streets without stop signs."
       },
       "display": {
         "lead": "",
         "label": "Passage",
-        "text": ""
+        "text": "A running club printed a flyer for its summer route and made two statements about it. The first says the route is officially measured at five kilometers. The second says it is the safest route in town. The flyer gives the name of the surveyor who measured the course and the date of the measurement. It gives no traffic count, no record of crashes, and no note about where cars cross the path. The measurement is precise and easy to check. The safety claim sits beside it as if the same surveyor had checked both. The club prints the flyer every spring and hands it out at the start line.\n\nThe surveyor measures distance with a wheel and a fixed line. That work says nothing about cars, driveways, or blind corners. The route does cross three streets where drivers turn without a stop sign, and the flyer does not mention them. A measured course can still be a dangerous course, and an unmeasured course can be safe. The two statements are printed in the same size and color, which makes them look like one finding. They come from different kinds of work, and only one of them was done. A reader who wants to judge the route should ask for those records.\n\nThe distance claim is backed, because a surveyor walked the line and signed the date. The safety claim has no support, because a measured line says nothing about cars. The flyer would need crash records or traffic counts to back the second claim. A true fact placed next to a claim with no support can make the second one look stronger than it is. The reader has to ask what the surveyor really checked. A signed distance says nothing about a driver who turns without looking. The flyer's two claims ask the reader to trust one piece of work for both."
       }
     },
     {
@@ -225,9 +223,7 @@
           "counts of cars at the crossings"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how many runners joined last year"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {

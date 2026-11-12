@@ -104,11 +104,12 @@
           "they take shelter behind the front rider",
           "the front rider pushes the air aside for the rest"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how fast the group travels",
           "how many riders are in the line"
-        ]
+        ],
+        "full_idea": "The front rider breaks the air, so the riders behind use less effort and the whole line moves faster."
       }
     },
     {
@@ -146,7 +147,7 @@
       "type": "short_answer",
       "skill": "vocab",
       "difficulty": 3,
-      "show_part": "part_3",
+      "show_part": "all",
       "prompt": "What does rotate mean for a group of riders?",
       "tutor_only": {
         "confirm": "Yes. The riders take turns at the front.",
@@ -167,7 +168,7 @@
             "ask": "The line does not reverse. What does each rider do after a turn at the front?"
           }
         ],
-        "core_idea": "Taking turns at the front, then drifting back, so everyone shares the work.",
+        "core_idea": "Taking turns at the front.",
         "accept_ideas": [
           "taking turns at the front",
           "each rider leads for a while then drops back",
@@ -175,9 +176,9 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how fast the group rides",
-          "who wins the ride"
-        ]
+          "how fast the group rides"
+        ],
+        "full_idea": "Taking turns at the front, then drifting back, so everyone shares the work."
       },
       "show_part_again": true
     },

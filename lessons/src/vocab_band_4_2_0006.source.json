@@ -170,7 +170,7 @@
             "ask": "Weather is not mentioned. What forms in summer for next spring?"
           }
         ],
-        "core_idea": "The tree uses its energy on the heavy fruit, so it makes fewer strong buds for next spring.",
+        "core_idea": "The tree has no energy left for buds.",
         "accept_ideas": [
           "the tree has no energy left for buds",
           "heavy fruit takes the energy the buds needed",
@@ -178,9 +178,9 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how much rain fell",
           "when the apples were picked"
-        ]
+        ],
+        "full_idea": "The tree uses its energy on the heavy fruit, so it makes fewer strong buds for next spring."
       }
     },
     {
@@ -210,7 +210,7 @@
             "ask": "Rest is what farmers do for land. What does the off year reveal about the tree?"
           }
         ],
-        "core_idea": "The light year shows the limit the heavy year used up, so the tree's capacity is visible in what it failed to produce.",
+        "core_idea": "The light crop shows the tree ran out of energy.",
         "accept_ideas": [
           "the light crop shows the tree ran out of energy",
           "the off year is evidence of a limit the tree hit",
@@ -218,9 +218,9 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how many apples the tree made",
-          "how the tree is pruned"
-        ]
+          "how many apples the tree made"
+        ],
+        "full_idea": "The light year shows the limit the heavy year used up, so the tree's capacity is visible in what it failed to produce."
       }
     }
   ],

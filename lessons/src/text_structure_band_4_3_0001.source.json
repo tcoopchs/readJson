@@ -98,7 +98,7 @@
           "It says what the railroad had done since the dry summer."
         ],
         "say_back": "own_words",
-        "core_idea": "The railroad had added a second train, so the freight went by rail.",
+        "core_idea": "The railroad added a second train.",
         "accept_ideas": [
           "the railroad added a second train",
           "the line was carrying more of the freight",
@@ -114,7 +114,8 @@
             "when": "the student says the sand came back that year",
             "ask": "The passage says the water was good that year. What had the railroad done in the meantime?"
           }
-        ]
+        ],
+        "full_idea": "The railroad had added a second train, so the freight went by rail."
       }
     },
     {
@@ -141,9 +142,7 @@
           "the trade had already moved inland"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how much the spur cost"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -177,17 +176,16 @@
           "that one cause at a time would not have finished the port",
           "how the two worked before they met"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "which section is longer"
-        ],
+        "one_idea_is_enough": false,
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says it shows which cause came first",
             "ask": "The two causes are written side by side and the clerk did not rank them. What does the separate telling let you compare?"
           }
-        ]
+        ],
+        "full_idea": "How each cause worked by itself, and that neither one alone brought the port down."
       }
     },
     {
@@ -207,7 +205,7 @@
           "It says where that money had gone, and what that left the sand free to do."
         ],
         "say_back": "own_words",
-        "core_idea": "Each loss made the other's repair harder, so together they finished what one alone would not.",
+        "core_idea": "Each one blocked the fix for the other.",
         "accept_ideas": [
           "each one blocked the fix for the other",
           "they worked against the town together",
@@ -215,16 +213,15 @@
           "neither could be fixed once the other had happened"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "the exact year the town recovered"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the two causes made the loss bigger",
             "ask": "Bigger is a sum, and the passage says this was not a sum. What was the freight money needed for?"
           }
-        ]
+        ],
+        "full_idea": "Each loss made the other's repair harder, so together they finished what one alone would not."
       }
     }
   ],

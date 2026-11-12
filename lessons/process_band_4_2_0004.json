@@ -56,9 +56,7 @@
           "mistakes in the text"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who assigns the pages"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -96,7 +94,7 @@
           "how long each column runs",
           "the column width and the advertisement borders"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "who set the frame"
         ],
@@ -106,7 +104,8 @@
             "when": "the student says he measures the sentences",
             "ask": "He reads very little of the text. What does he hold the ruler against?"
           }
-        ]
+        ],
+        "full_idea": "Each column against the frame, and the advertisement borders."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -119,8 +118,8 @@
       "type": "short_answer",
       "skill": "process",
       "difficulty": 2,
-      "show_part": "part_2",
-      "show_part_again": false,
+      "show_part": "all",
+      "show_part_again": true,
       "prompt": "Why does the compositor read very little of the text?",
       "tutor_only": {
         "confirm": "Right. A wrong name means nothing to his ruler.",
@@ -131,7 +130,7 @@
           "He is checking space, not meaning."
         ],
         "say_back": "own_words",
-        "core_idea": "His job is the space; a wrong name does not change any measurement.",
+        "core_idea": "He checks space, not words.",
         "accept_ideas": [
           "he checks space, not words",
           "a wrong name does not affect the columns",
@@ -147,12 +146,13 @@
             "when": "the student says he cannot read",
             "ask": "Reading is not the issue. What would a wrong name change on his ruler?"
           }
-        ]
+        ],
+        "full_idea": "His job is the space; a wrong name does not change any measurement."
       },
       "display": {
         "lead": "",
         "label": "Passage",
-        "text": ""
+        "text": "A weekly paper sets each page in metal type, then pulls a proof on paper. The proof goes first to the copy editor, who reads it the way a reader would. She looks for a wrong name, a missing word, or a sentence that says the opposite of what the reporter meant. Her marks sit in the margin beside the line. She does not look at the width of the columns or the edges of the advertisements. Her job is the words, and she reads every one of them on the page. A wrong name printed in a wedding notice reaches a thousand homes before the office can correct it.\n\nThe same proof then goes to the compositor, who checks the page as a piece of work. He measures each column against the frame. A column that runs long pushes the last line off the page. He checks that the borders of the advertisements line up and that no headline sits over the wrong story. He lays a ruler along the frame and counts the lines in each column. The frame is measured in inches, and a page that fits it will print without a fold. He reads very little of the text. A wrong name means nothing to his ruler, and a column that overruns means nothing to the copy editor.\n\nBoth reads happen before the press starts, and neither can replace the other. A page that passes the copy editor can still be crooked, and a page that passes the compositor can still name the wrong mayor. The page is set, read for words, read for space, and then printed. One reader could do both jobs, but not in one pass, because the two reads look for different defects. Skipping either read sends a page to the press that only half a crew has checked. The two reads are cheap next to a reprinted page, so the paper pays for both of them."
       }
     },
     {
@@ -160,7 +160,7 @@
       "type": "short_answer",
       "skill": "process",
       "difficulty": 3,
-      "show_part": "part_3",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "A page passes the copy editor and is still wrong. What could be wrong, and why did she miss it?",
       "tutor_only": {
@@ -172,7 +172,7 @@
           "Her marks are in the margin beside the line, not on the frame."
         ],
         "say_back": "own_words",
-        "core_idea": "A column could run long or the advertisement borders could be off, because she does not measure the page.",
+        "core_idea": "The columns or the advertisement borders could be wrong.",
         "accept_ideas": [
           "the columns or the advertisement borders could be wrong",
           "the page could be laid out badly",
@@ -188,12 +188,13 @@
             "when": "the student says the page could have a wrong name",
             "ask": "She reads every word, so a name would not reach her blind spot. What does she never measure?"
           }
-        ]
+        ],
+        "full_idea": "A column could run long or the advertisement borders could be off, because she does not measure the page."
       },
       "display": {
-        "lead": "Here is the rest of the passage.",
+        "lead": "",
         "label": "Passage",
-        "text": "Both reads happen before the press starts, and neither can replace the other. A page that passes the copy editor can still be crooked, and a page that passes the compositor can still name the wrong mayor. The page is set, read for words, read for space, and then printed. One reader could do both jobs, but not in one pass, because the two reads look for different defects. Skipping either read sends a page to the press that only half a crew has checked. The two reads are cheap next to a reprinted page, so the paper pays for both of them."
+        "text": "A weekly paper sets each page in metal type, then pulls a proof on paper. The proof goes first to the copy editor, who reads it the way a reader would. She looks for a wrong name, a missing word, or a sentence that says the opposite of what the reporter meant. Her marks sit in the margin beside the line. She does not look at the width of the columns or the edges of the advertisements. Her job is the words, and she reads every one of them on the page. A wrong name printed in a wedding notice reaches a thousand homes before the office can correct it.\n\nThe same proof then goes to the compositor, who checks the page as a piece of work. He measures each column against the frame. A column that runs long pushes the last line off the page. He checks that the borders of the advertisements line up and that no headline sits over the wrong story. He lays a ruler along the frame and counts the lines in each column. The frame is measured in inches, and a page that fits it will print without a fold. He reads very little of the text. A wrong name means nothing to his ruler, and a column that overruns means nothing to the copy editor.\n\nBoth reads happen before the press starts, and neither can replace the other. A page that passes the copy editor can still be crooked, and a page that passes the compositor can still name the wrong mayor. The page is set, read for words, read for space, and then printed. One reader could do both jobs, but not in one pass, because the two reads look for different defects. Skipping either read sends a page to the press that only half a crew has checked. The two reads are cheap next to a reprinted page, so the paper pays for both of them."
       }
     },
     {
@@ -213,28 +214,27 @@
           "Each reader is looking for a different kind of fault."
         ],
         "say_back": "own_words",
-        "core_idea": "The two reads look for different defects, so one pass cannot do both jobs.",
+        "core_idea": "Each read looks for a different fault.",
         "accept_ideas": [
           "each read looks for a different fault",
           "finding words does not find a crooked column",
           "one reader can only look for one kind of error"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long each read takes"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the job is too long for one person",
             "ask": "Time is not the reason given. What is each reader looking for?"
           }
-        ]
+        ],
+        "full_idea": "The two reads look for different defects, so one pass cannot do both jobs."
       },
       "display": {
-        "lead": "",
+        "lead": "Here is the rest of the passage.",
         "label": "Passage",
-        "text": ""
+        "text": "Both reads happen before the press starts, and neither can replace the other. A page that passes the copy editor can still be crooked, and a page that passes the compositor can still name the wrong mayor. The page is set, read for words, read for space, and then printed. One reader could do both jobs, but not in one pass, because the two reads look for different defects. Skipping either read sends a page to the press that only half a crew has checked. The two reads are cheap next to a reprinted page, so the paper pays for both of them."
       }
     }
   ],

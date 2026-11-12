@@ -85,8 +85,8 @@
       "type": "short_answer",
       "skill": "process",
       "difficulty": 2,
-      "show_part": "part_1",
-      "show_part_again": false,
+      "show_part": "all",
+      "show_part_again": true,
       "prompt": "The washer spends the same water, soap, and hour on any load. Why does the crew wait for a full cart?",
       "tutor_only": {
         "confirm": "Right. A half cart pays for a full load and returns half the linen.",
@@ -121,7 +121,7 @@
       "type": "short_answer",
       "skill": "process",
       "difficulty": 2,
-      "show_part": "part_2",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "Clean linen has to be on the hospital floors by six. Why can the crew not wait as long as it takes to fill the drum?",
       "tutor_only": {
@@ -139,7 +139,7 @@
           "waiting would make the linen late",
           "an hour is needed, so the wait has a limit"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how many carts the hospital sends"
         ],
@@ -149,7 +149,8 @@
             "when": "the student says the crew runs out of carts",
             "ask": "The carts are not the limit here. What deadline does the linen have?"
           }
-        ]
+        ],
+        "full_idea": "Because a full load takes about an hour, so waiting too long misses the six o'clock delivery."
       }
     },
     {
@@ -169,7 +170,7 @@
           "The mark can wait a morning. The six o'clock cart cannot."
         ],
         "say_back": "own_words",
-        "core_idea": "The delivery time matters more than a full drum, so the crew runs a short load rather than miss six o'clock.",
+        "core_idea": "The delivery matters more than a full load.",
         "accept_ideas": [
           "the delivery matters more than a full load",
           "it would rather send half than be late",
@@ -185,7 +186,8 @@
             "when": "the student says the crew forgot the mark",
             "ask": "The crew knows the mark. What deadline is pressing on it?"
           }
-        ]
+        ],
+        "full_idea": "The delivery time matters more than a full drum, so the crew runs a short load rather than miss six o'clock."
       }
     },
     {
@@ -211,7 +213,7 @@
           "the morning cannot make the same amount of linen",
           "every half load spends an hour and gives half the linen"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how many loads the laundry can run"
         ],
@@ -221,7 +223,8 @@
             "when": "the student says the morning stays the same",
             "ask": "Nothing in the machine changes for a half load. What does the crew get back for the hour?"
           }
-        ]
+        ],
+        "full_idea": "Each half load spends a full hour and returns half the linen, so the same linen needs twice the hours and the six o'clock delivery runs short."
       }
     }
   ],

@@ -134,7 +134,7 @@
           "Look for a number that did not change."
         ],
         "say_back": "own_words",
-        "core_idea": "The notice gives no time for the crossings, and the sailing minutes did not change.",
+        "core_idea": "No time is given for either year.",
         "accept_ideas": [
           "no time is given for either year",
           "the sailing minutes are the same",
@@ -151,7 +151,8 @@
             "when": "the student says a new engine is proof of speed",
             "ask": "A new part is not a measurement. What do the sailing minutes show?"
           }
-        ]
+        ],
+        "full_idea": "The notice gives no time for the crossings, and the sailing minutes did not change."
       }
     },
     {
@@ -161,7 +162,7 @@
       "difficulty": 3,
       "show_part": "part_3",
       "show_part_again": true,
-      "prompt": "A resident says the trip will take an hour less. Does the notice support that?",
+      "prompt": "A resident says the trip will take an hour less. Does the notice support that? Say which words in the passage decide it.",
       "tutor_only": {
         "confirm": "No. The notice gives no time, and the listed minutes did not change.",
         "correct_reason": "The notice gives no crossing time for either year, and the schedule still lists the same sailing minutes for the trip.",
@@ -171,7 +172,7 @@
           "It gives a number that has not moved."
         ],
         "say_back": "own_words",
-        "core_idea": "No. No time changed, and the sailing minutes are the same.",
+        "core_idea": "No, the times are the same.",
         "accept_ideas": [
           "no, the times are the same",
           "no, no time changed",
@@ -188,7 +189,8 @@
             "when": "the student says yes because the engine is new",
             "ask": "The engine is new, but what does the notice say about minutes?"
           }
-        ]
+        ],
+        "full_idea": "No. No time changed, and the sailing minutes are the same."
       }
     },
     {
@@ -215,7 +217,6 @@
           "the daily crossing, because last winter supports it",
           "the daily crossing, because the record shows the run in ice"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "the ticket price"
         ],
@@ -225,7 +226,8 @@
             "when": "the student says the shorter trip is supported",
             "ask": "The trip time did not change on the schedule. Which claim has a report behind it?"
           }
-        ]
+        ],
+        "one_idea_is_enough": false
       }
     }
   ],

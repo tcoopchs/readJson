@@ -213,7 +213,7 @@
           "The two futures are not the same, and the people in the passage act on that."
         ],
         "say_back": "own_words",
-        "core_idea": "The grouping says what the fog will do next, so people can plan.",
+        "core_idea": "It tells you what the fog will do next.",
         "accept_ideas": [
           "it tells you what the fog will do next",
           "you know whether the fog will lift or build",
@@ -229,7 +229,8 @@
             "when": "the student says the grouping makes the fog easier to name",
             "ask": "A name alone would not help a grower. What does the passage show people doing with the name?"
           }
-        ]
+        ],
+        "full_idea": "The grouping says what the fog will do next, so people can plan."
       },
       "display": {
         "lead": "",

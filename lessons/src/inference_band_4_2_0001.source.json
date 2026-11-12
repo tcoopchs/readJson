@@ -65,9 +65,7 @@
           "he padlocks a bike"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "the make of the lock"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says he puts oil on the loop",
@@ -93,7 +91,7 @@
           "If the lock were worn out, when would it fail?"
         ],
         "say_back": "own_words",
-        "core_idea": "The lock still works, so the trouble is something the rain affects.",
+        "core_idea": "The lock is fine.",
         "accept_ideas": [
           "the lock is fine",
           "the lock is not broken",
@@ -101,15 +99,14 @@
           "the trouble is the rain"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how old the lock is"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the lock is worn out",
             "ask": "A worn lock would stick every day. This one sticks only after rain. What does that suggest?"
           }
-        ]
+        ],
+        "full_idea": "The lock still works, so the trouble is something the rain affects."
       }
     },
     {
@@ -137,9 +134,7 @@
           "the grip was on the shackle"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what kind of oil he used"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says he used the wrong oil",
@@ -165,7 +160,7 @@
           "Then find what rust does to the space the metal takes."
         ],
         "say_back": "own_words",
-        "core_idea": "Without paint the steel rusted, and rust made the loop swell.",
+        "core_idea": "Bare steel rusts.",
         "accept_ideas": [
           "bare steel rusts",
           "the steel rusted and swelled",
@@ -181,7 +176,8 @@
             "when": "the student says the paint made the loop slippery",
             "ask": "Paint is there to keep water off. What happened to the steel where it was gone?"
           }
-        ]
+        ],
+        "full_idea": "Without paint the steel rusted, and rust made the loop swell."
       }
     },
     {
@@ -201,7 +197,7 @@
           "Then look at which part the owner replaced."
         ],
         "say_back": "own_words",
-        "core_idea": "The rusted loop was the cause, so replacing it removed the grip.",
+        "core_idea": "The loop was the cause.",
         "accept_ideas": [
           "the loop was the cause",
           "the rust was on the loop",
@@ -209,15 +205,14 @@
           "the loop was gripping the lock"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "the price of a new lock"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says a new loop is stronger",
             "ask": "Strength is not the issue. What did the old loop do in wet weather?"
           }
-        ]
+        ],
+        "full_idea": "The rusted loop was the cause, so replacing it removed the grip."
       }
     }
   ],

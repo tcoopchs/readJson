@@ -122,7 +122,7 @@
       "type": "short_answer",
       "skill": "authors_craft",
       "difficulty": 2,
-      "show_part": "part_2",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "Why did Helen stand still?",
       "tutor_only": {
@@ -143,7 +143,6 @@
         "one_idea_is_enough": true,
         "not_required": [
           "Naming the word 'water'",
-          "Explaining why she was blind",
           "Describing the well-house"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
@@ -155,9 +154,9 @@
         ]
       },
       "display": {
-        "lead": "Here is the rest of the passage.",
+        "lead": "",
         "label": "Passage",
-        "text": "Suddenly I felt a strange feeling, as of something forgotten\u2014a thrill of returning thought. Somehow the mystery of language opened to me. I knew then that \"w-a-t-e-r\" meant the wonderful cool something flowing over my hand. That living word awakened my soul; it gave me light, hope, and joy, and set me free. There were still barriers, but they could be swept away in time. I left the well-house eager to learn. Everything had a name, and each name gave birth to a new thought. As we walked back to the house, everything I touched seemed alive. I saw everything with a strange, new sight."
+        "text": "I felt my teacher sweep the pieces of the broken doll to one side of the hearth. I was glad the cause of my discomfort was gone. She brought me my hat, and I knew I was going out into the warm sunshine. We walked down the path to the well-house, drawn by the fragrance of the honeysuckle that covered it. Someone was drawing water, and my teacher placed my hand under the spout. As the cool stream gushed over one hand, she spelled into the other the word water, first slowly, then rapidly. I stood still, my whole attention fixed on the motions of her fingers.\n\nSuddenly I felt a strange feeling, as of something forgotten\u2014a thrill of returning thought. Somehow the mystery of language opened to me. I knew then that \"w-a-t-e-r\" meant the wonderful cool something flowing over my hand. That living word awakened my soul; it gave me light, hope, and joy, and set me free. There were still barriers, but they could be swept away in time. I left the well-house eager to learn. Everything had a name, and each name gave birth to a new thought. As we walked back to the house, everything I touched seemed alive. I saw everything with a strange, new sight."
       }
     },
     {
@@ -185,7 +184,6 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "Naming every sense",
           "Explaining what a well-house is"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
@@ -203,9 +201,9 @@
         ]
       },
       "display": {
-        "lead": "",
+        "lead": "Here is the rest of the passage.",
         "label": "Passage",
-        "text": ""
+        "text": "Suddenly I felt a strange feeling, as of something forgotten\u2014a thrill of returning thought. Somehow the mystery of language opened to me. I knew then that \"w-a-t-e-r\" meant the wonderful cool something flowing over my hand. That living word awakened my soul; it gave me light, hope, and joy, and set me free. There were still barriers, but they could be swept away in time. I left the well-house eager to learn. Everything had a name, and each name gave birth to a new thought. As we walked back to the house, everything I touched seemed alive. I saw everything with a strange, new sight."
       }
     },
     {

@@ -55,9 +55,7 @@
           "the saturated zone has water in every space"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "which zone is higher"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the unsaturated zone holds more water",
@@ -88,22 +86,21 @@
           "They compare two kinds of rock."
         ],
         "say_back": "own_words",
-        "core_idea": "Because some rocks let water through quickly and others hold it back.",
+        "core_idea": "Some rocks let water through quickly and others hold it back.",
         "accept_ideas": [
           "some rocks let water pass quickly",
           "the rock decides the speed",
           "rock that holds water back refills slowly"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "the name of a rock type"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says aquifers refill at the same speed everywhere",
             "ask": "The passage says the speed depends on something. What is it?"
           }
-        ]
+        ],
+        "full_idea": "Because some rocks let water through quickly and others hold it back.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -128,7 +125,7 @@
           "Look at what slow water means for a person waiting on a well."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the water a well removes comes back slowly, so refill takes time.",
+        "core_idea": "Water comes back slowly.",
         "accept_ideas": [
           "water comes back slowly",
           "refill takes a long time",
@@ -143,7 +140,8 @@
             "when": "the student says groundwater never moves",
             "ask": "The passage says it moves. What word does it use to describe the speed?"
           }
-        ]
+        ],
+        "full_idea": "Because the water a well removes comes back slowly, so refill takes time."
       },
       "display": {
         "lead": "",
@@ -208,22 +206,21 @@
           "Look at what happens if people pump faster than the refill."
         ],
         "say_back": "own_words",
-        "core_idea": "Because pumping faster than the refill uses up the water.",
+        "core_idea": "Pumping faster than the refill uses up the water.",
         "accept_ideas": [
           "pumping faster than refill uses up the water",
           "the store can run low",
           "they need to know how much they can pump"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "the depth of a well"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says refill speed does not matter",
             "ask": "The passage says refill speed varies. Why would that matter to a farmer?"
           }
-        ]
+        ],
+        "full_idea": "Because pumping faster than the refill uses up the water.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",

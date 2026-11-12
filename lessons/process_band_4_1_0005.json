@@ -80,7 +80,7 @@
       "difficulty": 2,
       "show_part": "part_1",
       "show_part_again": false,
-      "prompt": "Do the crews work one after the other?",
+      "prompt": "Do the crews work one after the other? Say which words in the passage decide it.",
       "tutor_only": {
         "confirm": "Right. They start at the same time on opposite sides.",
         "correct_reason": "The first part says the two crews begin at the same moment, and neither waits for the other to start.",
@@ -96,7 +96,6 @@
           "they start together",
           "they work side by side"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "which crew starts first"
         ],
@@ -106,7 +105,8 @@
             "when": "the student says the cleaners wait for fuel",
             "ask": "The first sentence gives the start time for both. Are they the same?"
           }
-        ]
+        ],
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",
@@ -131,7 +131,7 @@
           "It is not one crew but both."
         ],
         "say_back": "own_words",
-        "core_idea": "Only when both crews finish, so boarding waits for the cleaning crew.",
+        "core_idea": "When the cleaning is finished too.",
         "accept_ideas": [
           "when the cleaning is finished too",
           "after both are done",
@@ -147,7 +147,8 @@
             "when": "the student says as soon as fuel is done",
             "ask": "The passage says boarding waits for both. Which crew is still working?"
           }
-        ]
+        ],
+        "full_idea": "Only when both crews finish, so boarding waits for the cleaning crew."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -172,7 +173,7 @@
           "There is one light for each crew."
         ],
         "say_back": "own_words",
-        "core_idea": "When each crew has finished; the flight is released only when both lights are green.",
+        "core_idea": "Whether each crew is done.",
         "accept_ideas": [
           "whether each crew is done",
           "when both jobs are finished",
@@ -188,7 +189,8 @@
             "when": "the student says which gate to use",
             "ask": "The board has two lights, one for each crew. What does each light show?"
           }
-        ]
+        ],
+        "full_idea": "When each crew has finished; the flight is released only when both lights are green."
       },
       "display": {
         "lead": "",
@@ -213,7 +215,7 @@
           "One is about the hose, and one is about the cabin."
         ],
         "say_back": "own_words",
-        "core_idea": "A connected fuel hose or an unfinished cabin makes boarding unsafe or unready, so one crew's finish is not enough.",
+        "core_idea": "Boarding is unsafe with the hose connected.",
         "accept_ideas": [
           "boarding is unsafe with the hose connected",
           "the cabin must be clean and the hose off",
@@ -229,7 +231,8 @@
             "when": "the student says to save time",
             "ask": "The passage gives safety and readiness as reasons. What makes boarding unsafe?"
           }
-        ]
+        ],
+        "full_idea": "A connected fuel hose or an unfinished cabin makes boarding unsafe or unready, so one crew's finish is not enough."
       },
       "display": {
         "lead": "",

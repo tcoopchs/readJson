@@ -130,14 +130,13 @@
           "Look at what used to happen to rain on that ground."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the estate's roofs and paving shed water quickly instead of soaking it in.",
+        "core_idea": "The estate's roofs and paving shed water quickly instead of soaking it in.",
         "accept_ideas": [
           "hard surfaces send water fast",
           "the ground cannot absorb it now",
           "the paving sheds water",
           "roofs and drives run off"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "how much rain falls"
         ],
@@ -146,7 +145,9 @@
             "when": "the student says it rains more now",
             "ask": "The passage does not say that. What does it say about the surfaces?"
           }
-        ]
+        ],
+        "full_idea": "Because the estate's roofs and paving shed water quickly instead of soaking it in.",
+        "one_idea_is_enough": true
       }
     },
     {

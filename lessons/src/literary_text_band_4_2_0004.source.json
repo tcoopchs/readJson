@@ -66,7 +66,6 @@
           "she had driven it so long she knew every part",
           "she named the pieces as she came to them"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "what she carried in the truck"
         ],
@@ -76,7 +75,8 @@
             "when": "the student says she had a map",
             "ask": "A map is not what the sentence compares the road to. What does she do as she comes to each piece?"
           }
-        ]
+        ],
+        "one_idea_is_enough": true
       }
     },
     {
@@ -96,23 +96,22 @@
           "It kept her steady on a road she drove twice a day."
         ],
         "say_back": "own_words",
-        "core_idea": "The naming kept her steady and held her place, and in nineteen years she was never late.",
+        "core_idea": "It kept her steady.",
         "accept_ideas": [
           "it kept her steady",
           "it marked her way along the road",
           "it was a habit that kept her on time"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long the run took"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says she was bored",
             "ask": "Nothing says bored. What does a driver get from counting a familiar road?"
           }
-        ]
+        ],
+        "full_idea": "The naming kept her steady and held her place, and in nineteen years she was never late."
       }
     },
     {
@@ -157,7 +156,7 @@
       "type": "short_answer",
       "skill": "literary_text",
       "difficulty": 3,
-      "show_part": "part_3",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "She takes the long way back past the new bridge and the lay-by. What does that show?",
       "tutor_only": {
@@ -205,23 +204,22 @@
           "The water and the bridge are named in the sentence as what the line leaves out."
         ],
         "say_back": "own_words",
-        "core_idea": "The line keeps the beech. It shows she took the part she had given up naming, and not the rest.",
+        "core_idea": "She kept the beech.",
         "accept_ideas": [
           "she kept the beech",
           "she kept the part of the road she loved",
           "she took the tree she had stopped naming"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long the line was"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says she was recording a fault on the road",
             "ask": "The log takes the time of the run. What does the one line hold?"
           }
-        ]
+        ],
+        "full_idea": "The line keeps the beech. It shows she took the part she had given up naming, and not the rest."
       }
     }
   ],

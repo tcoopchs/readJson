@@ -62,14 +62,13 @@
           "One group ran the camps. The other chose the work."
         ],
         "say_back": "own_words",
-        "core_idea": "The Army ran the camps, and the National Park Service chose the work.",
+        "core_idea": "The army ran them and the park service chose the work.",
         "accept_ideas": [
           "the army ran them and the park service chose the work",
           "the army and the national park service"
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how the men were paid",
           "how long each man stayed"
         ],
         "if_they_say": [
@@ -77,7 +76,8 @@
             "when": "the student says the President ran the camps",
             "ask": "The President started the program. Which two groups ran the camps and chose the work?"
           }
-        ]
+        ],
+        "full_idea": "The Army ran the camps, and the National Park Service chose the work."
       }
     },
     {
@@ -177,7 +177,7 @@
           "Two parts are about building. One is about shaping the land."
         ],
         "say_back": "own_words",
-        "core_idea": "CCC crews built the park and shaped how it looks, so its wild look came from people.",
+        "core_idea": "Crews that built a park and shaped how it looks.",
         "accept_ideas": [
           "crews that built a park and shaped how it looks",
           "people made the park, including the views",
@@ -185,8 +185,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "the names of the camps",
-          "the year the park opened"
+          "the names of the camps"
         ],
         "if_they_say": [
           {
@@ -197,7 +196,8 @@
             "when": "the student says it is about a sawmill and a blacksmith shop",
             "ask": "Those are two workplaces. What do all the workplaces add up to?"
           }
-        ]
+        ],
+        "full_idea": "CCC crews built the park and shaped how it looks, so its wild look came from people."
       }
     },
     {
@@ -223,10 +223,7 @@
           "crews cleared and planted the whole area",
           "the view was made on purpose"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "how the road was paved"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the road was built through wild land",
@@ -236,7 +233,8 @@
             "when": "the student says the park is too small to be natural",
             "ask": "Size is not the reason given. What did the landscape architect do?"
           }
-        ]
+        ],
+        "one_idea_is_enough": true
       }
     }
   ],

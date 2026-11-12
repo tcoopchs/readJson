@@ -100,8 +100,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "who the referee is",
-          "how long the game lasts"
+          "who the referee is"
         ]
       },
       "display": {
@@ -178,10 +177,7 @@
           "to give the fouled team its advantage"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long the wait is",
-          "what the free kick is"
-        ]
+        "not_required": []
       },
       "display": {
         "lead": "",
@@ -224,8 +220,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "who carries the whistle",
-          "how loud it is"
+          "who carries the whistle"
         ]
       },
       "display": {

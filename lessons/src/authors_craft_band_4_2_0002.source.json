@@ -72,8 +72,7 @@
         "one_idea_is_enough": true,
         "not_required": [
           "the price of the plantation",
-          "how many pupils were rising",
-          "the story from Alabama"
+          "how many pupils were rising"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -109,8 +108,7 @@
         "one_idea_is_enough": true,
         "not_required": [
           "the exact number of pupils",
-          "the price of land",
-          "the Alabama story"
+          "the price of land"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -148,8 +146,7 @@
         "one_idea_is_enough": true,
         "not_required": [
           "The exact price",
-          "The owner's name",
-          "The story from Alabama"
+          "The owner's name"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -230,9 +227,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "Every detail about the pupils or the Alabama story",
-          "The exact wording of the rhetorical question",
-          "A full retelling of the passage"
+          "Every detail about the pupils or the Alabama story"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [

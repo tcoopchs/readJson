@@ -68,9 +68,7 @@
           "grinding stopped at the mill"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who owned the mill"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -142,9 +140,7 @@
           "no machines came with the mill"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who bought the mill"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -159,7 +155,7 @@
       "type": "short_answer",
       "skill": "argument_evidence",
       "difficulty": 3,
-      "show_part": "part_3",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "Why are the two records stronger together than either one alone?",
       "tutor_only": {
@@ -171,7 +167,7 @@
           "It names who wrote them and what they knew."
         ],
         "say_back": "own_words",
-        "core_idea": "They came from different offices that did not copy each other, so one mistake would not repeat.",
+        "core_idea": "Different offices wrote them.",
         "accept_ideas": [
           "different offices wrote them",
           "neither copied the other",
@@ -179,16 +175,15 @@
           "two separate offices made them"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how old the mill is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says two records are always better than one",
             "ask": "Two copies of one record would not help. What makes these two different?"
           }
-        ]
+        ],
+        "full_idea": "They came from different offices that did not copy each other, so one mistake would not repeat."
       }
     },
     {

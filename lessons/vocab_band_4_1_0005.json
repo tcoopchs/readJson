@@ -98,11 +98,12 @@
           "bacteria need water and salt removes it",
           "it dries the meat out"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how salty the meat tastes",
           "how long it is packed"
-        ]
+        ],
+        "full_idea": "It pulls water out of the meat, and the bacteria that spoil food cannot grow without water."
       },
       "display": {
         "lead": "",
@@ -179,8 +180,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how thick it is",
-          "whether it is eaten"
+          "how thick it is"
         ]
       },
       "display": {
@@ -216,17 +216,17 @@
             "ask": "The passage says salt was cheap only if it could be carried. What was local?"
           }
         ],
-        "core_idea": "Each region preserved food in its own way, depending on what it could get, so the food tasted different from place to place.",
+        "core_idea": "Different regions used different methods, so the food was different.",
         "accept_ideas": [
           "different regions used different methods, so the food was different",
           "what people ate depended on where they lived",
           "the way of keeping food changed from valley to valley"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "which method worked best",
           "how salt was carried"
-        ]
+        ],
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",

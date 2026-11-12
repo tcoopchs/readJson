@@ -55,7 +55,6 @@
           "she had driven it so long she knew every part",
           "she named the pieces as she came to them"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "what she carried in the truck"
         ],
@@ -65,7 +64,8 @@
             "when": "the student says she had a map",
             "ask": "A map is not what the sentence compares the road to. What does she do as she comes to each piece?"
           }
-        ]
+        ],
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",
@@ -90,23 +90,22 @@
           "It kept her steady on a road she drove twice a day."
         ],
         "say_back": "own_words",
-        "core_idea": "The naming kept her steady and held her place, and in nineteen years she was never late.",
+        "core_idea": "It kept her steady.",
         "accept_ideas": [
           "it kept her steady",
           "it marked her way along the road",
           "it was a habit that kept her on time"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long the run took"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says she was bored",
             "ask": "Nothing says bored. What does a driver get from counting a familiar road?"
           }
-        ]
+        ],
+        "full_idea": "The naming kept her steady and held her place, and in nineteen years she was never late."
       },
       "display": {
         "lead": "",
@@ -161,7 +160,7 @@
       "type": "short_answer",
       "skill": "literary_text",
       "difficulty": 3,
-      "show_part": "part_3",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "She takes the long way back past the new bridge and the lay-by. What does that show?",
       "tutor_only": {
@@ -192,9 +191,9 @@
         ]
       },
       "display": {
-        "lead": "Here is the rest of the passage.",
+        "lead": "",
         "label": "Passage",
-        "text": "At the bottom she turned left instead of right, and took the long way back to the depot past the new bridge and the lay-by. The cattle grid clanked twice, and she heard it both times. The supervisor asked why the run had taken an extra hour. She said the road was wet, which was true and was not the whole reason she had taken it. That night she wrote the pass into the log for the first time in nineteen years. The line was one sentence long, and the sentence was about the beech, not about the water or the bridge."
+        "text": "The mail run went over the pass twice a day in a truck with a heater that worked when it wanted to. She had driven it for nineteen years, and she knew the road the way a person knows a room in the dark. There is the long bend with the beech tree on the outside, and the water below it that runs brown after rain. There is the cattle grid that clanks twice, and the lay-by where the drivers ate lunch before the new bridge took the heavy traffic away. She named the pieces to herself as she came to them, the way other people count sheep. In nineteen years she was never late.\n\nIn October a notice went up at the depot. It said the pass would close for good in the spring, and the mail would go round by the valley road. On the Monday after the notice she drove the run and did not name the bend or the beech. She counted the posts instead, the way a driver counts in fog, and the water below the road was only water. At the top she sat in the truck for four minutes with the engine running and the log open on the seat beside her. Then she wrote the time in it and drove down the other side.\n\nAt the bottom she turned left instead of right, and took the long way back to the depot past the new bridge and the lay-by. The cattle grid clanked twice, and she heard it both times. The supervisor asked why the run had taken an extra hour. She said the road was wet, which was true and was not the whole reason she had taken it. That night she wrote the pass into the log for the first time in nineteen years. The line was one sentence long, and the sentence was about the beech, not about the water or the bridge."
       }
     },
     {
@@ -214,23 +213,22 @@
           "The water and the bridge are named in the sentence as what the line leaves out."
         ],
         "say_back": "own_words",
-        "core_idea": "The line keeps the beech. It shows she took the part she had given up naming, and not the rest.",
+        "core_idea": "She kept the beech.",
         "accept_ideas": [
           "she kept the beech",
           "she kept the part of the road she loved",
           "she took the tree she had stopped naming"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long the line was"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says she was recording a fault on the road",
             "ask": "The log takes the time of the run. What does the one line hold?"
           }
-        ]
+        ],
+        "full_idea": "The line keeps the beech. It shows she took the part she had given up naming, and not the rest."
       },
       "display": {
         "lead": "",

@@ -90,7 +90,7 @@
           "It says where the water went instead of soaking in."
         ],
         "say_back": "own_words",
-        "core_idea": "The sand closed the surface, so water ran to the low end of the straight.",
+        "core_idea": "It filled the holes so water could not soak in.",
         "accept_ideas": [
           "it filled the holes so water could not soak in",
           "it sent the water to another part of the track",
@@ -106,7 +106,8 @@
             "when": "the student says the sand washed away",
             "ask": "Washing away would leave the curve as it was. What did the passage say the sand did to the surface?"
           }
-        ]
+        ],
+        "full_idea": "The sand closed the surface, so water ran to the low end of the straight."
       },
       "display": {
         "lead": "",
@@ -138,9 +139,7 @@
           "roots from the trees"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long the pipe was"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -172,23 +171,22 @@
           "One touched the surface, and the other opened the way out."
         ],
         "say_back": "own_words",
-        "core_idea": "The pipe was the cause of the flooding, and opening it let the water leave.",
+        "core_idea": "Water could drain again.",
         "accept_ideas": [
           "water could drain again",
           "it fixed the cause instead of the puddle",
           "the water could reach the ditch"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how deep the pipe lay"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the new pipe was wider",
             "ask": "Width is not the point. What could the water do once the blockage was gone?"
           }
-        ]
+        ],
+        "full_idea": "The pipe was the cause of the flooding, and opening it let the water leave."
       },
       "display": {
         "lead": "",
@@ -213,23 +211,21 @@
           "The early success made the real cause harder to find."
         ],
         "say_back": "own_words",
-        "core_idea": "The sand looked like a fix because it worked for a few weeks, which hid the blocked pipe.",
+        "core_idea": "It worked at first, so people thought it was fixed.",
         "accept_ideas": [
           "it worked at first, so people thought it was fixed",
           "it hid the real cause",
           "the early success stopped anyone looking for the pipe"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "how much the repair cost"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the sand was the wrong material",
             "ask": "The material is not the issue; the passage says the sand treated the puddle. What did that early success hide?"
           }
-        ]
+        ],
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",

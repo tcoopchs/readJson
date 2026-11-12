@@ -1,0 +1,245 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_4_3_0004",
+  "meta": {
+    "status": "published",
+    "title": "A Teacup of Mushrooms",
+    "skill": "literary_text",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 4,
+    "genre": "fiction",
+    "topic_domain": "food and farming",
+    "skill_frame": "Literary text: read a gift given at the worst moment as a claim about standing, not about food.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.9, 6.2 and 6.4 over the three parts (117, 120 and 111 words). The load is one visit, a household with almost nothing, and a gift whose cost the reader has to work out from two earlier scenes.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from Willa Cather's novel My Antonia (1918), public domain in the United States.",
+      "attribution": "Cather, Willa. My Antonia (1918). Project Gutenberg ebook 242. https://www.gutenberg.org/ebooks/242 (accessed 2026-11-12).",
+      "text_status": "Adapted, reading load reduced.",
+      "drafted_by": "TC",
+      "adaptation": "Split long sentences, dropped the neighbour's history and the dialect, and kept the order of the visit: the barrels, the father's account, the bag. No fact was added.",
+      "survey": "The cave visit in My Antonia, where a family with no flour gives away its last food from home. Chosen over a harvest scene because the gift and its cost are both on the page.",
+      "avoided": "No invented prices, acreages, or details of the family's journey beyond what the father says."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "one visit, a family with no food, and a gift whose cost sits two scenes back"
+    },
+    "authoring_exceptions": []
+  },
+  "passage": {
+    "part_1": "The Shimerdas lived in a hole dug into the bank, with a stovepipe through the grass and a door sunk in the drawside. When the visitors came in, the air was stifling, and a lantern over the stove gave out a weak yellow light. Mrs. Shimerda seized the grandmother's hand and began to cry. She pointed at her feet, which were tied up in rags, and looked about her accusingly. Then she pulled the covers off two barrels behind the door and made them look inside. One barrel held potatoes that had frozen and were rotting. The other held a little flour. She caught up an empty coffee-pot from the shelf and shook it at them.",
+    "part_2": "The grandmother went on talking in her polite Virginia way, and did not admit how badly the family needed help. Then the man came in with the hamper of provisions, as if in answer to the empty pot, and Mrs. Shimerda sat down on the floor and cried with her face on her knees. Her husband came out from behind the stove. He was clean and neat, with a green neckcloth and a coral pin, and he asked the grandmother to sit on the only chair. He wanted her to know that they had not been beggars at home. He had left Bohemia with more than a thousand dollars, and lost most of it on the exchange and the fares.",
+    "part_3": "Before the visitors left, Mrs. Shimerda opened a wooden chest and took out a long bag made of bed-ticking. The boy on the floor began to smack his lips at the sight of it. She stirred the bag with her hand, and a salty, earthy smell came out of it into the close air of the cave. Then she measured a teacup of the dried mushrooms, tied them up in a piece of sacking, and held the parcel out to the grandmother. The family had almost no flour and no potatoes, and this bag was the one thing in the house that had come with them from the old country."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "What does Mrs. Shimerda show the visitors in the two barrels?",
+      "tutor_only": {
+        "confirm": "Right. Potatoes that have frozen and rotted, and a little flour.",
+        "correct_reason": "One barrel holds potatoes that had frozen and were rotting, and the other holds a little flour.",
+        "tell": "She shows them frozen, rotting potatoes and a little flour.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "frozen rotting potatoes and a little flour",
+        "accept_ideas": [
+          "bad potatoes and flour",
+          "rotten potatoes and some flour",
+          "frozen potatoes and a bit of flour"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says a cow or a stove",
+            "ask": "Look at what she takes the covers off. What is inside the two barrels?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "all",
+      "prompt": "Mrs. Shimerda shakes an empty coffee-pot at the visitors. What does giving them the parcel of mushrooms do to that moment?",
+      "tutor_only": {
+        "confirm": "Right. It answers the empty pot, so the family is giving and not only asking.",
+        "correct_reason": "The empty pot is shaken at the visitors in accusation. Later Mrs. Shimerda measures out a teacup of dried mushrooms and holds the parcel out.",
+        "tell": "The parcel answers the empty pot. The family gives something back instead of only showing what it lacks.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "it answers the empty pot by giving something back",
+        "accept_ideas": [
+          "it answers the empty coffee-pot",
+          "she gives something back",
+          "it turns the asking into giving"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it shows the mushrooms were no use to them",
+            "ask": "The bag came from the old country. What does giving it cost?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "the student says it is just politeness",
+            "ask": "Politeness does not cost a family its last food. What does the gift answer?"
+          }
+        ]
+      },
+      "show_part_again": true
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "Mr. Shimerda says he was not a beggar at home and had a thousand dollars. Why say this after the empty barrels?",
+      "tutor_only": {
+        "confirm": "Right. To separate being poor now from what the family is.",
+        "correct_reason": "The father says they were respected at home, that he left with more than a thousand dollars, and that exchange and fares took most of it.",
+        "tell": "He is separating being poor now from what they are. The barrels show need, and he answers for their standing.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "to separate being poor now from what the family is",
+        "accept_ideas": [
+          "to show they were not always poor",
+          "to answer for the family's standing",
+          "because the barrels make them look like beggars"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he wants to borrow money",
+            "ask": "He says they still had some money. What is he answering in the room?"
+          }
+        ]
+      },
+      "show_part_again": true
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "prompt": "The bag is 'the one thing in the house that had come with them from the old country'. What does that make the gift cost?",
+      "tutor_only": {
+        "confirm": "Right. It is the last thing they own from home, so the gift is a piece of the old life.",
+        "correct_reason": "The passage says the family had almost no flour and no potatoes, and the bag was the one thing that had come with them from the old country.",
+        "tell": "The gift costs them their last piece of home. It is not spare food.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "their last piece of home, which makes the gift cost a great deal",
+        "accept_ideas": [
+          "it costs them their last food from home",
+          "the last thing they brought from home",
+          "it is a piece of the old life"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says mushrooms are cheap",
+            "ask": "The passage is not about price. Where did the bag come from?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "the student says it costs them a cup of food",
+            "ask": "A cup is the measure. What makes this cup different from flour?"
+          }
+        ]
+      },
+      "show_part_again": true
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "The family has almost no food, and Mrs. Shimerda gives a cup of mushrooms away. What is the gift for?",
+      "tutor_only": {
+        "confirm": "Right. It says the family can still give, so it is not a household of beggars.",
+        "correct_reason": "The empty pot accuses the visitors, the father insists they were not beggars at home, and then the mother gives from the chest.",
+        "tell": "The gift is about standing. It shows the family can give, which answers the empty pot.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "To keep their standing.",
+        "accept_ideas": [
+          "to keep their standing",
+          "so they are not beggars",
+          "to show they can give too"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the gift is to pay for the hamper",
+            "ask": "The hamper is a gift, not a debt. What does the mother say as she gives?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "the student says she gives it because mushrooms spoil",
+            "ask": "The bag is dried and keeps. What does the visit turn on?"
+          }
+        ],
+        "full_idea": "to show the family can still give, so they are not beggars"
+      },
+      "show_part_again": true
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, which is the highest one authored so far.",
+    "student_line": "You read this one closely. The next reading is another lesson at this level."
+  },
+  "retry": {
+    "next_file": "literary_text_band_4_3_0005",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson at this level."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_4_3_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

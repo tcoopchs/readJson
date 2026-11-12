@@ -67,9 +67,7 @@
           "the tape will not stick otherwise"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what soap he uses"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -96,23 +94,22 @@
           "It is a mark for the place, not for the climb."
         ],
         "say_back": "own_words",
-        "core_idea": "Its exact position, so the setter can read the plan from the floor.",
+        "core_idea": "Its exact position.",
         "accept_ideas": [
           "where the hold sits",
           "the position of each hold",
           "the spot the hold goes in"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "what color the tape is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the grade of the route",
             "ask": "The grade is decided later. What does the tape mark on the wall?"
           }
-        ]
+        ],
+        "full_idea": "Its exact position, so the setter can read the plan from the floor.",
+        "one_idea_is_enough": true
       }
     },
     {
@@ -168,7 +165,7 @@
           "The route is not opened with a note. The work changes and the climb repeats."
         ],
         "say_back": "own_words",
-        "core_idea": "The hold moves, the tape changes, and the climb starts again from the floor.",
+        "core_idea": "The move is changed and the climb repeats.",
         "accept_ideas": [
           "the move is changed and the climb repeats",
           "the hold is moved and she climbs again",
@@ -184,7 +181,8 @@
             "when": "the student says the grade is posted higher",
             "ask": "The grade stays as posted. What changes on the wall?"
           }
-        ]
+        ],
+        "full_idea": "The hold moves, the tape changes, and the climb starts again from the floor."
       }
     },
     {
@@ -204,7 +202,7 @@
           "The person who built the move is the least likely to find it hard."
         ],
         "say_back": "own_words",
-        "core_idea": "A setter climbs with his own reach in mind, so a move built for his arm may not suit the next person.",
+        "core_idea": "The setter knows his own reach and cannot feel the difficulty.",
         "accept_ideas": [
           "the setter knows his own reach and cannot feel the difficulty",
           "someone else has to find the moves the setter finds easy",
@@ -220,7 +218,8 @@
             "when": "the student says the setter is too busy",
             "ask": "Time is not the reason. What does the setter know too well?"
           }
-        ]
+        ],
+        "full_idea": "A setter climbs with his own reach in mind, so a move built for his arm may not suit the next person."
       }
     }
   ],

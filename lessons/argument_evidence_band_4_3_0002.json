@@ -57,9 +57,7 @@
           "the new seed beats the old seed"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the seed costs"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -99,9 +97,7 @@
           "forty bushels an acre and twenty-eight"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how much rain fell"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -165,7 +161,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "A reader says the card proves the new seed yields more. Is that shown?",
+      "prompt": "A reader says the card proves the new seed yields more. Is that shown? Say which words in the passage decide it.",
       "tutor_only": {
         "confirm": "No. The trial field also had manure and an earlier planting.",
         "correct_reason": "The two fields differ in seed, manure, and planting date, so the twelve-bushel gap could come from any of the three.",
@@ -175,7 +171,7 @@
           "They show three differences, not one."
         ],
         "say_back": "own_words",
-        "core_idea": "No, because the trial field also had manure and an earlier planting, so the gap could come from those.",
+        "core_idea": "No, the trial field also had manure.",
         "accept_ideas": [
           "no, the trial field also had manure",
           "no, the fields differ in more than seed",
@@ -183,16 +179,15 @@
           "no, three things changed at once"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "whether the seed is expensive"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the harvests were weighed, so the card is right",
             "ask": "Weighing fixes the harvest, not the cause. What else differed between the fields?"
           }
-        ]
+        ],
+        "full_idea": "No, because the trial field also had manure and an earlier planting, so the gap could come from those."
       },
       "display": {
         "lead": "",

@@ -102,7 +102,7 @@
           "The syrup should preserve the fruit, not sweeten it.",
           "The fruit's own taste should come through."
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "The exact phrase 'serious problem'",
           "A feeling about sugar",
@@ -115,7 +115,8 @@
             "when": "They say jam should be as sweet as dessert.",
             "ask": "What does the writer say sugar does to the sour taste?"
           }
-        ]
+        ],
+        "full_idea": "The fruit's own sour taste should survive; the syrup preserves it, not turns it into dessert."
       },
       "display": {
         "lead": "",
@@ -140,7 +141,7 @@
           "Use the line about mildew and jam."
         ],
         "say_back": "own_words",
-        "core_idea": "The care must start before the fruit is picked or reaches the pan; a spoiled pick cannot be saved later.",
+        "core_idea": "Before the fruit is picked.",
         "accept_ideas": [
           "Before the fruit is picked.",
           "Before it reaches the pan.",
@@ -159,7 +160,8 @@
             "when": "They say the care starts when the syrup boils.",
             "ask": "Where does the mildew warning come in the passage?"
           }
-        ]
+        ],
+        "full_idea": "The care must start before the fruit is picked or reaches the pan; a spoiled pick cannot be saved later."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -195,7 +197,6 @@
         "one_idea_is_enough": true,
         "not_required": [
           "Naming the exact phrase",
-          "Using the word 'tone'",
           "Explaining how mildew grows"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
@@ -239,10 +240,7 @@
         "one_idea_is_enough": true,
         "not_required": [
           "naming both the syrup signs and the fire",
-          "naming every detail from part_2",
-          "quoting the technical terms for syrup",
-          "retelling all three parts in order",
-          "listing all jam ingredients"
+          "quoting the technical terms for syrup"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [

@@ -49,13 +49,12 @@
           "It names the force that holds the light."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the pull of gravity is too strong for light to escape.",
+        "core_idea": "The pull of gravity is too strong for light to escape.",
         "accept_ideas": [
           "the gravity is too strong",
           "the pull is stronger than light",
           "gravity keeps light from leaving"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "what happens inside the black hole"
         ],
@@ -64,7 +63,9 @@
             "when": "the student says black holes have no gravity",
             "ask": "The passage says the opposite. What does the gravity do to light?"
           }
-        ]
+        ],
+        "full_idea": "Because the pull of gravity is too strong for light to escape.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",
@@ -129,22 +130,21 @@
           "It compares the gravity of the hole with the gravity of the sun."
         ],
         "say_back": "own_words",
-        "core_idea": "Nothing. A black hole with the same mass keeps the same gravity, so Earth's orbit would not change.",
+        "core_idea": "No, the gravity would be the same.",
         "accept_ideas": [
           "no, the gravity would be the same",
           "no, Earth would still orbit",
           "the same mass gives the same pull"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the sky would look like"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says Earth would be sucked in",
             "ask": "The passage says the same mass means the same gravity. What follows for Earth?"
           }
-        ]
+        ],
+        "full_idea": "Nothing. A black hole with the same mass keeps the same gravity, so Earth's orbit would not change."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -175,16 +175,15 @@
           "a red giant",
           "a white dwarf"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "how long that will take"
-        ],
+        "one_idea_is_enough": false,
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the sun will become a black hole",
             "ask": "The passage says the sun lacks something. What does it lack?"
           }
-        ]
+        ],
+        "full_idea": "It will become a red giant and then a white dwarf."
       },
       "display": {
         "lead": "",
@@ -215,7 +214,7 @@
           "the same mass means the same gravity",
           "a black hole does not add gravity"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "why stars collapse"
         ],
@@ -224,7 +223,8 @@
             "when": "the student says black holes always have more gravity",
             "ask": "The passage compares two objects with the same mass. What does it say about their pull?"
           }
-        ]
+        ],
+        "full_idea": "Gravity depends on mass, so equal mass means equal pull."
       },
       "display": {
         "lead": "",

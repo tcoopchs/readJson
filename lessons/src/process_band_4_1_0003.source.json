@@ -67,9 +67,7 @@
           "from the spring"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how old the tank is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -103,9 +101,7 @@
           "they dug up the old pipe"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the pipe is made of"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -132,23 +128,22 @@
           "The limit was upstream of the pipe."
         ],
         "say_back": "own_words",
-        "core_idea": "The spring sends the same amount of water each minute, so the wider pipe had nothing more to carry.",
+        "core_idea": "The spring's flow did not change.",
         "accept_ideas": [
           "the spring's flow did not change",
           "the spring puts in the same water each minute",
           "the pipe was already wide enough"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long the new pipe is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the new pipe leaked",
             "ask": "The crew checked the joints and found no leaks. What did the spring send each minute?"
           }
-        ]
+        ],
+        "full_idea": "The spring sends the same amount of water each minute, so the wider pipe had nothing more to carry."
       }
     },
     {
@@ -168,7 +163,7 @@
           "It names the real narrow point."
         ],
         "say_back": "own_words",
-        "core_idea": "The pipe was never the limit; the spring's flow was.",
+        "core_idea": "The pipe was not the limit.",
         "accept_ideas": [
           "the pipe was not the limit",
           "the limit was the spring",
@@ -184,7 +179,8 @@
             "when": "the student says the pipe was too short",
             "ask": "The numbers matched at both ends. Where does the passage put the narrow point?"
           }
-        ]
+        ],
+        "full_idea": "The pipe was never the limit; the spring's flow was."
       }
     },
     {
@@ -204,7 +200,7 @@
           "Improving the tank or the pipe does not change the daily total."
         ],
         "say_back": "own_words",
-        "core_idea": "The spring itself must give more, because every other step waits on it.",
+        "core_idea": "The spring has to give more.",
         "accept_ideas": [
           "the spring has to give more",
           "they need a second source, because the spring limits everything",
@@ -220,7 +216,8 @@
             "when": "the student says a bigger tank",
             "ask": "A tank stores water. What does the passage say the daily total depends on?"
           }
-        ]
+        ],
+        "full_idea": "The spring itself must give more, because every other step waits on it."
       }
     }
   ],

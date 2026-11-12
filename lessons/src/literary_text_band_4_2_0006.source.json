@@ -103,9 +103,7 @@
           "four hundred words about the roof"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how much the repair would cost"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -132,23 +130,22 @@
           "The man's answer is about what kind of letter an owner reads."
         ],
         "say_back": "own_words",
-        "core_idea": "The letter carried the office's formal voice, and the farmer would not have put it that way.",
+        "core_idea": "It was the office's words.",
         "accept_ideas": [
           "it was the office's words",
           "it was written the way the office writes",
           "it was too formal to be him"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "whether he could read"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the letter had the wrong facts",
             "ask": "He does not correct a fact. What does he say about the sound of it?"
           }
-        ]
+        ],
+        "full_idea": "The letter carried the office's formal voice, and the farmer would not have put it that way."
       }
     },
     {
@@ -168,7 +165,7 @@
           "The details are things a person standing in the barn would know."
         ],
         "say_back": "own_words",
-        "core_idea": "He gave the man the details he had lived with, the buckets, the stain, and the calf in the water.",
+        "core_idea": "The buckets and the stain.",
         "accept_ideas": [
           "the buckets and the stain",
           "what he had seen in the barn",
@@ -184,7 +181,8 @@
             "when": "the student says he gave him a cheaper price",
             "ask": "No money is mentioned. What did the farmer describe in the barn?"
           }
-        ]
+        ],
+        "full_idea": "He gave the man the details he had lived with, the buckets, the stain, and the calf in the water."
       }
     },
     {

@@ -57,9 +57,7 @@
           "more money and less traffic"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long the run is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -98,9 +96,7 @@
           "so the depot is still open"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how much fuel he buys"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -175,23 +171,22 @@
           "The two do not fit together."
         ],
         "say_back": "own_words",
-        "core_idea": "The stop mattered more than the pay, so the reason he gives is not the whole reason.",
+        "core_idea": "The stop was the real reason.",
         "accept_ideas": [
           "the stop was the real reason",
           "he cares about the depot more than the money",
           "his reason is not the whole story"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the new job pays"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says he is too tired to change the run",
             "ask": "Changing the run is not what the passage describes. What does he do at two?"
           }
-        ]
+        ],
+        "full_idea": "The stop mattered more than the pay, so the reason he gives is not the whole reason."
       },
       "display": {
         "lead": "Here is the rest of the passage.",

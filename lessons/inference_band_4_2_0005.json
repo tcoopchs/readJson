@@ -94,9 +94,7 @@
           "the sign says so"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how many staff work there"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the store went out of business",
@@ -127,7 +125,7 @@
           "Look at what the counting needs."
         ],
         "say_back": "own_words",
-        "core_idea": "The delivery has to be counted as it comes in, and that needs the aisles clear.",
+        "core_idea": "The counting needs an empty shop.",
         "accept_ideas": [
           "the counting needs an empty shop",
           "you cannot count with customers there",
@@ -143,7 +141,8 @@
             "when": "the student says the owner wanted a day off",
             "ask": "The passage says the owner was not away. What does the delivery need?"
           }
-        ]
+        ],
+        "full_idea": "The delivery has to be counted as it comes in, and that needs the aisles clear."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -208,23 +207,22 @@
           "Find the sentence that says when the truck arrives."
         ],
         "say_back": "own_words",
-        "core_idea": "Because Wednesday afternoon is when the delivery truck arrives.",
+        "core_idea": "Wednesday afternoon is when the delivery truck arrives.",
         "accept_ideas": [
           "the delivery comes then",
           "that is when the truck comes",
           "because of the delivery",
           "the truck arrives on wednesday"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "which day is busiest"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says Wednesday is quiet",
             "ask": "Quietness is not mentioned. What does the passage say happens on Wednesday afternoon?"
           }
-        ]
+        ],
+        "full_idea": "Because Wednesday afternoon is when the delivery truck arrives.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",

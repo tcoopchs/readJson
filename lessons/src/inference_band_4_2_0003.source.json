@@ -80,8 +80,8 @@
       "type": "short_answer",
       "skill": "inference",
       "difficulty": 2,
-      "show_part": "part_1",
-      "show_part_again": false,
+      "show_part": "all",
+      "show_part_again": true,
       "prompt": "People at the north-end stops see the second bus and do not get on. What does that suggest?",
       "tutor_only": {
         "confirm": "Yes. They had already been picked up or were not waiting for it.",
@@ -92,7 +92,7 @@
           "Then think about why these riders did nothing."
         ],
         "say_back": "own_words",
-        "core_idea": "They already had their ride, so the second bus was no use to them.",
+        "core_idea": "They were already picked up.",
         "accept_ideas": [
           "they were already picked up",
           "they did not need it",
@@ -108,7 +108,8 @@
             "when": "the student says the bus was full",
             "ask": "The passage says it was almost empty. Why did the waiting people let it pass?"
           }
-        ]
+        ],
+        "full_idea": "They already had their ride, so the second bus was no use to them."
       }
     },
     {
@@ -135,7 +136,7 @@
           "it comes second",
           "the riders are already on the first bus"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "the driver's experience"
         ],
@@ -144,7 +145,8 @@
             "when": "the student says the driver is slow",
             "ask": "The passage says the driver is not new. What does it say about the bus's position on the route?"
           }
-        ]
+        ],
+        "full_idea": "It runs behind the first bus, so the riders are already gone."
       }
     },
     {
@@ -172,9 +174,7 @@
           "the bus and driver are fine"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who owns the buses"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the bus was too small",
@@ -199,23 +199,22 @@
           "Find the sentence that says why the office keeps the short turn."
         ],
         "say_back": "own_words",
-        "core_idea": "Because it covers the north end when the first bus is late.",
+        "core_idea": "It covers the north end when the first bus is late.",
         "accept_ideas": [
           "it fills a gap",
           "for when the first bus is late",
           "so people do not wait twenty minutes",
           "it is a backup"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "how much fuel it uses"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the office made a mistake",
             "ask": "The passage gives a reason for keeping it. What is the reason?"
           }
-        ]
+        ],
+        "full_idea": "Because it covers the north end when the first bus is late.",
+        "one_idea_is_enough": true
       }
     }
   ],

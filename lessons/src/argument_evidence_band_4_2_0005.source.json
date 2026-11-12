@@ -68,9 +68,7 @@
           "the clearest sound gear around"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the gear cost"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -105,9 +103,7 @@
           "the shop that put it in"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who paid for the note"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -134,7 +130,7 @@
           "It names the interest behind the claim."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the shop gains from the sale, so the note is not neutral.",
+        "core_idea": "The shop gains from the sale.",
         "accept_ideas": [
           "the shop gains from the sale",
           "it is not a neutral source",
@@ -151,7 +147,8 @@
             "when": "the student says the shop must be lying",
             "ask": "An interest does not prove a lie. What kind of source does it make the note?"
           }
-        ]
+        ],
+        "full_idea": "Because the shop gains from the sale, so the note is not neutral."
       }
     },
     {
@@ -159,8 +156,8 @@
       "type": "short_answer",
       "skill": "argument_evidence",
       "difficulty": 3,
-      "show_part": "part_2",
-      "show_part_again": false,
+      "show_part": "all",
+      "show_part_again": true,
       "prompt": "A member says the note proves the gear is best. What is wrong with that?",
       "tutor_only": {
         "confirm": "Right. It is the seller's pitch, from one trial in an empty hall, with no outside check.",
@@ -216,9 +213,7 @@
           "a test by someone outside the shop"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who selected the gear"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {

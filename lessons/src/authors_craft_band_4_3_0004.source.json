@@ -1,0 +1,272 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "authors_craft_band_4_3_0004",
+  "meta": {
+    "status": "published",
+    "title": "The Lovely Lake and the Wall of Rock",
+    "skill": "authors_craft",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "topic_domain": "places and travel",
+    "skill_frame": "Author's craft: read how the writer's manner changes from pleased to frightened and back again.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured part_1 107w at FK 5.8, part_2 114w at FK 5.5, part_3 109w at FK 6.3, with mean sentences of 16 to 18 words. The load is a change of manner inside one account, which the reader must notice without being told.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from Isabella L. Bird, A Lady's Life in the Rocky Mountains (1879), letter VII, the ascent of Long's Peak, under DESIGN_RULES 2.5.",
+      "attribution": "Isabella L. Bird. A Lady's Life in the Rocky Mountains. 1879. Project Gutenberg eBook #755, https://www.gutenberg.org/ebooks/755, accessed 2026-11-12. Public domain in the United States.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "The authoring pass split long sentences, dropped rare words and simplified technical terms; no facts added.",
+      "survey": "The Long's Peak letter: the Notch and its green lake, the two-thousand-foot wall, the roped climb that turned back, and the view from the summit.",
+      "avoided": "No invented details. Bird's remarks about the men and peoples of the region are left out entirely, as is her footnote to climbers.",
+      "drafted_by": "LessonBot-adjacent, adapted from the named human source"
+    },
+    "session": {
+      "scope": "bank",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "a change of manner from pleased description to plain fear"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "At the top of the pass we came to a gate of rock, and beyond it the ridge was only a few feet wide. Boulders the size of carts lay along the top of it. On the far side the ground fell away in one long sweep of three thousand feet to a hollow with a green lake in it. Other lakes lay among the pines farther off, and above us the peak rose in a smooth wall of granite. I usually dislike views that spread out like a map, but this one was different. It was a picturesque place, and the little lake below was lovely.",
+    "part_2": "Then the real business of the climb began. Two thousand feet of rock stood above us, and four thousand feet of broken stone fell away below. The footholds were smooth ribs of granite, and the melted snow had frozen again over them in a thin skin of ice. Many of the rocks were loose, and they rolled away when I put my weight on them. To me it was a time of extreme terror. I was roped to Jim, but the rope was no help, because my feet were numb and slipped on the bare stone. He said it was useless to try that way, and we turned back to look for another route.",
+    "part_3": "Slipping and gasping in the thin air, we came at last to the top, and the view opened again. A lake lay below us with dark woods around it, and streams ran down from it toward the plains. Range after range of snowy mountains reached the horizon. Pike's Peak stood more than a hundred miles away, a shapeless summit at the edge of sight. I thought of the rivers starting in those mountains and of the far-off islands they would pass on their way to the sea. The fear was gone, and I was glad that I had come, though I was ashamed of how I had climbed."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "What lay in the hollow below the ridge?",
+      "tutor_only": {
+        "confirm": "A green lake.",
+        "correct_reason": "The sentence says the ground fell away 'to a hollow with a green lake in it'.",
+        "tell": "A green lake lay in the hollow below the ridge.",
+        "help": [
+          "The sentence about the hollow says what is in it.",
+          "The writer gives the lake a colour."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A green lake lay in the hollow below the ridge.",
+        "accept_ideas": [
+          "a green lake",
+          "a lake of green water",
+          "a small green lake in the hollow"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say a river ran through the hollow.",
+            "ask": "The passage names a lake, not a river. What colour was it?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the hollow was filled with pine woods.",
+            "ask": "The lakes among the pines are farther off. What lay in the hollow below?"
+          }
+        ],
+        "not_required": [
+          "how deep the hollow was",
+          "who climbed with her"
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "Why did the writer and Jim turn back on their first route?",
+      "tutor_only": {
+        "confirm": "Her feet went numb and slipped on the bare stone, and Jim said it was useless to try that way.",
+        "correct_reason": "The passage says 'my feet went numb and slipped on the bare stone, and he said it was useless to try that way. We turned back'.",
+        "tell": "Her feet slipped on the bare stone, and Jim said it was useless to try that way.",
+        "help": [
+          "The sentence about her feet comes right before they turn back.",
+          "Jim gives his judgment after her feet slip."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Her feet slipped on the bare stone, so Jim said the route was useless and they turned back.",
+        "accept_ideas": [
+          "her feet slipped on the stone, so the route was useless",
+          "she could not keep her footing, and Jim said it was useless",
+          "her feet went numb and slipped, so they turned back"
+        ],
+        "one_idea_is_enough": false,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say they turned back because of bad weather.",
+            "ask": "The passage gives a reason about her feet. What was it?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say they reached the top on that route.",
+            "ask": "Did they finish that way, or turn back?"
+          }
+        ],
+        "not_required": [],
+        "full_idea": "Her feet slipped on the bare stone, so Jim said the route was useless and they turned back."
+      },
+      "show_part_again": true
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "prompt": "She says she was 'ashamed of how I had climbed'. What does that tell us about how she reached the top?",
+      "tutor_only": {
+        "confirm": "She climbed badly, so the climb was a poor one.",
+        "correct_reason": "The passage ends 'I was glad that I had come, though I was ashamed of how I had climbed,' after her feet slipped on the stone.",
+        "tell": "She slipped on the way up. She was ashamed, so the climb was a poor one.",
+        "help": [
+          "The last sentence sets her gladness against her shame.",
+          "The passage has already told us her feet slipped and she was roped to Jim."
+        ],
+        "say_back": "own_words",
+        "core_idea": "She reached the top by climbing badly, so the climb was a poor one.",
+        "accept_ideas": [
+          "she did not climb well",
+          "she slipped and was ashamed of how she climbed",
+          "she reached the top, but the climb was poor"
+        ],
+        "one_idea_is_enough": false,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say she was ashamed because she had not wanted to come.",
+            "ask": "She says she was glad she had come. What was she ashamed of?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say she climbed better than anyone else.",
+            "ask": "The passage says she was roped and her feet slipped. What does that suggest?"
+          }
+        ],
+        "not_required": [
+          "how far Pike's Peak was"
+        ],
+        "full_idea": "She reached the top by climbing badly, so the climb was a poor one."
+      },
+      "show_part_again": true
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "She calls the place 'picturesque' and the lake 'lovely', then says the climb 'was a time of extreme terror'. What does that change in her words do?",
+      "tutor_only": {
+        "confirm": "It drops the pleased words and states plain fear.",
+        "correct_reason": "She moves from 'a picturesque place' and 'the little lake below was lovely' to 'To me it was a time of extreme terror.'",
+        "tell": "The pleased words stop. Plain fear takes their place.",
+        "help": [
+          "Her words for the view and her words for the climb do not match.",
+          "One sentence about terror follows several sentences of pleasure."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The change drops the pleased words and states plain fear.",
+        "accept_ideas": [
+          "it turns from liking the view to being afraid",
+          "beauty gives way to fear",
+          "it drops the pleased words and shows the climb was dangerous, not pretty"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say the change shows she stopped looking at the view.",
+            "ask": "She does look again at the top. What does the change in her words do to the danger?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the word 'terror' is only a joke about the climb.",
+            "ask": "The passage gives the height and the ice. Does the fear fit what she describes?"
+          }
+        ],
+        "not_required": []
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "How does her view of the mountain change from the pass to the summit?",
+      "tutor_only": {
+        "confirm": "It moves from a lovely picture to fear and back to wonder. She sees the mountain as beautiful and dangerous at once.",
+        "correct_reason": "The passage opens with 'picturesque' and 'lovely', turns to 'extreme terror' on the wall, and closes with snowy ranges and a glad arrival.",
+        "tell": "She sees a lovely picture, feels terror on the rock, then wonders at the view. The mountain is both beautiful and dangerous.",
+        "help": [
+          "One of the earlier feelings comes back at the top.",
+          "Notice which feeling comes back at the top."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It moves from a lovely picture to fear and back to wonder.",
+        "accept_ideas": [
+          "it moves from a lovely picture to fear and back to wonder",
+          "from beauty to terror to wonder",
+          "she sees it as beautiful and dangerous at once"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "partial": [
+          {
+            "when": "They say her view of the mountain never changes.",
+            "ask": "The words for the place change more than once. How?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say she decides the mountain is only dangerous.",
+            "ask": "At the top she is glad she came. What does that add?"
+          }
+        ],
+        "not_required": [
+          "the distance to Pike's Peak"
+        ],
+        "full_idea": "Her view moves from a lovely picture to plain terror and then to wonder, so the mountain is both beautiful and dangerous."
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "authors_craft_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band; no higher craft rung is authored yet.",
+    "student_line": "You have this move. The next reading is another craft lesson in this band."
+  },
+  "retry": {
+    "next_file": "authors_craft_band_4_3_0005",
+    "next_irl": 4,
+    "next_means": "The next lesson in this band.",
+    "student_line": "The next reading is another craft lesson in this band."
+  },
+  "stopped": {
+    "next_file": "authors_craft_band_4_3_0004",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -96,7 +96,7 @@
           "Wind and frost are what decide whether deer move at all."
         ],
         "say_back": "own_words",
-        "core_idea": "He answers with what he can read, the wind and the frost, and does not promise a shot.",
+        "core_idea": "He answers with the conditions.",
         "accept_ideas": [
           "he answers with the conditions",
           "he will not promise a deer",
@@ -112,7 +112,8 @@
             "when": "the student says the guide did not hear the question",
             "ask": "He hears it twice and answers both times. What are his answers about?"
           }
-        ]
+        ],
+        "full_idea": "He answers with what he can read, the wind and the frost, and does not promise a shot."
       }
     },
     {
@@ -156,7 +157,7 @@
       "type": "short_answer",
       "skill": "literary_text",
       "difficulty": 3,
-      "show_part": "part_3",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "The hunter says he came for a head on a wall and got a morning instead. What changed for him?",
       "tutor_only": {
@@ -204,7 +205,7 @@
           "The guide answered the wind question, and that was the whole conversation."
         ],
         "say_back": "own_words",
-        "core_idea": "He had learned what the guide could give him, the wind and the ground, and he asked for that.",
+        "core_idea": "He learned what the guide could give.",
         "accept_ideas": [
           "he learned what the guide could give",
           "he stopped asking for a promise",
@@ -220,7 +221,8 @@
             "when": "the student says he had given up hunting",
             "ask": "He is back out on the second day. What does he ask instead of a shot?"
           }
-        ]
+        ],
+        "full_idea": "He had learned what the guide could give him, the wind and the ground, and he asked for that."
       }
     }
   ],

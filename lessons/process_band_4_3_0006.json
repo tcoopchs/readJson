@@ -88,13 +88,12 @@
           "One lane of cars is enough to tilt the deck."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the pumping has to answer each lane before the next car can board.",
+        "core_idea": "The pumping has to answer each lane before the next car can board.",
         "accept_ideas": [
           "a lean would change the ramp before the next car",
           "the ramp angle would move and stop the line",
           "the boat has to stay level at every step"
         ],
-        "one_idea_is_enough": true,
         "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -102,7 +101,9 @@
             "when": "the student says pumping afterward is faster",
             "ask": "Speed is not the limit. What happens to the next car if the pumping waits?"
           }
-        ]
+        ],
+        "full_idea": "Because the pumping has to answer each lane before the next car can board.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -127,13 +128,12 @@
           "The ramp is fixed to the side that is being pushed under."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the near side drops and the ramp angle changes with it.",
+        "core_idea": "The near side drops and the ramp angle changes with it.",
         "accept_ideas": [
           "the ramp side sinks, so the angle changes",
           "the deck tilts and the ramp follows it down",
           "the near side is pushed into the water"
         ],
-        "one_idea_is_enough": true,
         "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -141,7 +141,9 @@
             "when": "the student says the boat might sink",
             "ask": "The passage says a few degrees. What does that do to the ramp?"
           }
-        ]
+        ],
+        "full_idea": "Because the near side drops and the ramp angle changes with it.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",
@@ -211,7 +213,7 @@
           "the deck leans and the line stops",
           "the boat sits low on one side and unloading breaks"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -219,7 +221,8 @@
             "when": "the student says the tanks can fix it at the end",
             "ask": "The tanks can pump afterward. What has already happened to the ramp?"
           }
-        ]
+        ],
+        "full_idea": "The boat tilts, the ramp stops reaching the shore, and the line of cars stops with it."
       },
       "display": {
         "lead": "",

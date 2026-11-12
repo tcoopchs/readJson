@@ -95,17 +95,15 @@
           "lime, sand, and water",
           "sand, lime and water"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "how much of each goes in"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says cement",
             "ask": "The passage names three materials at the board. Cement is not one of them."
           }
-        ]
+        ],
+        "one_idea_is_enough": false
       },
       "display": {
         "lead": "",
@@ -171,7 +169,7 @@
           "It happens in winter, not on the day of the work."
         ],
         "say_back": "own_words",
-        "core_idea": "The fault is inside the joints, and only the frost reveals it months later.",
+        "core_idea": "The fault is inside and shows in winter.",
         "accept_ideas": [
           "the fault is inside and shows in winter",
           "the surface can look fine while the joint is weak",
@@ -187,7 +185,8 @@
             "when": "the student says the wall was not finished",
             "ask": "The passage says every joint was full. Where does the fault sit?"
           }
-        ]
+        ],
+        "full_idea": "The fault is inside the joints, and only the frost reveals it months later."
       },
       "display": {
         "lead": "",
@@ -212,7 +211,7 @@
           "It is about the missing lime."
         ],
         "say_back": "own_words",
-        "core_idea": "Once the mortar sets, the missing lime cannot be put back; the ratio is fixed at the mixing board.",
+        "core_idea": "The mortar is already set in the wall.",
         "accept_ideas": [
           "the mortar is already set in the wall",
           "you cannot add lime after it sets",
@@ -228,7 +227,8 @@
             "when": "the student says the frost can be cleaned off",
             "ask": "Cleaning the joint does not add anything. What is missing inside the mortar?"
           }
-        ]
+        ],
+        "full_idea": "Once the mortar sets, the missing lime cannot be put back; the ratio is fixed at the mixing board."
       },
       "display": {
         "lead": "",

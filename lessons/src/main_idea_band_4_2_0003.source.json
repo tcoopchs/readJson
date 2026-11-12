@@ -62,13 +62,12 @@
           "The part names three places water is stored."
         ],
         "say_back": "own_words",
-        "core_idea": "Water is stored in the air, on the land, and below the ground.",
+        "core_idea": "In the air, on the land, and underground.",
         "accept_ideas": [
           "in the air, on the land, and underground",
           "in the sky, on land, and in the ground",
           "everywhere and in three forms"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "how much water each place holds"
         ],
@@ -77,7 +76,8 @@
             "when": "the student says water is stored in the ocean only",
             "ask": "The ocean is one place. What three places does the opening name?"
           }
-        ]
+        ],
+        "one_idea_is_enough": true
       }
     },
     {
@@ -97,7 +97,7 @@
           "The last sentences are about how long water stays."
         ],
         "say_back": "own_words",
-        "core_idea": "The large pools where water is stored, and how long each holds it.",
+        "core_idea": "The pools that hold water.",
         "accept_ideas": [
           "the pools that hold water",
           "where most water is stored",
@@ -117,7 +117,8 @@
             "when": "the student says it is about rivers carrying water to the sea",
             "ask": "Movement is the next part. What is this part about?"
           }
-        ]
+        ],
+        "full_idea": "The large pools where water is stored, and how long each holds it."
       }
     },
     {
@@ -137,7 +138,7 @@
           "The part names three effects."
         ],
         "say_back": "own_words",
-        "core_idea": "They change where water is stored, how it moves, and how clean it is.",
+        "core_idea": "Where water is stored and how it moves.",
         "accept_ideas": [
           "where water is stored and how it moves",
           "the movement of water and its cleanliness",
@@ -152,7 +153,8 @@
             "when": "the student says they change the weather",
             "ask": "Weather is not named. Read the sentence that follows the list of actions."
           }
-        ]
+        ],
+        "full_idea": "They change where water is stored, how it moves, and how clean it is."
       }
     },
     {
@@ -178,7 +180,7 @@
           "the water cycle and how people change it",
           "where water is and how it moves"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "the exact share of water in the ocean",
           "the names of the pools"
@@ -192,7 +194,8 @@
             "when": "the student says it is about how rain forms",
             "ask": "Rain is one step in the movement. What is the whole passage about?"
           }
-        ]
+        ],
+        "full_idea": "Water moves between the places it is stored, and people change that movement."
       }
     },
     {
@@ -212,7 +215,7 @@
           "Two parts are about movement and people."
         ],
         "say_back": "own_words",
-        "core_idea": "It treats one pool as the subject, and the passage is about movement between all the pools.",
+        "core_idea": "It leaves out how water moves between places.",
         "accept_ideas": [
           "it leaves out how water moves between places",
           "the passage is about the cycle, not one pool",
@@ -231,7 +234,8 @@
             "when": "the student says it leaves out rain",
             "ask": "Rain is one step. What larger thing do all the steps belong to?"
           }
-        ]
+        ],
+        "full_idea": "It treats one pool as the subject, and the passage is about movement between all the pools."
       }
     }
   ],

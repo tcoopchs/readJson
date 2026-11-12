@@ -100,12 +100,9 @@
           "Work the bees inside the hive.",
           "Control the entrance and inspect the bees."
         ],
-        "one_idea_is_enough": true,
         "not_required": [
-          "the exact number of bees",
           "the color white",
           "the empty roof",
-          "the door slit",
           "the word 'bee-city'"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
@@ -114,7 +111,8 @@
             "when": "They say the keeper can only look at the outside.",
             "ask": "What can the keeper do with the door and the roof?"
           }
-        ]
+        ],
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",
@@ -190,8 +188,6 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "the word \"personification\"",
-          "the term \"figurative language\"",
           "a list of every room in a house"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
@@ -238,11 +234,8 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "Naming every hive part",
           "Naming the most important chamber",
-          "Quoting exact sentences",
-          "Mentioning the bee-city comparison",
-          "Explaining how bees make wax"
+          "Mentioning the bee-city comparison"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [

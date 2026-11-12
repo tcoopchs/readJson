@@ -95,7 +95,7 @@
           "Look at what happened to the cooler and the bill."
         ],
         "say_back": "own_words",
-        "core_idea": "The wall was twelve degrees cooler, the cooler cycled less, and the electric bill fell.",
+        "core_idea": "The wall was cooler.",
         "accept_ideas": [
           "the wall was cooler",
           "the electric bill fell by a tenth",
@@ -111,7 +111,8 @@
             "when": "the student says he found the wall was hotter",
             "ask": "Compare the reading with the one from before the trees. Which way did it move?"
           }
-        ]
+        ],
+        "full_idea": "The wall was twelve degrees cooler, the cooler cycled less, and the electric bill fell."
       }
     },
     {
@@ -131,7 +132,7 @@
           "Look at what the owner did with his plan for a fence."
         ],
         "say_back": "own_words",
-        "core_idea": "The shade turned the strip beside the store into a place people use, so the owner dropped his fence.",
+        "core_idea": "People started using the shade.",
         "accept_ideas": [
           "people started using the shade",
           "the owner dropped the fence",
@@ -147,7 +148,8 @@
             "when": "the student says it is about a fence the owner built",
             "ask": "Check the sentence about the fence. Did he build it?"
           }
-        ]
+        ],
+        "full_idea": "The shade turned the strip beside the store into a place people use, so the owner dropped his fence."
       }
     },
     {
@@ -173,10 +175,8 @@
           "shade trees saved money and made a place to sit",
           "the trees cooled the store and people started using the shade"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "the exact July bill"
-        ],
+        "one_idea_is_enough": false,
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says it is about a fence",
@@ -186,7 +186,8 @@
             "when": "the student says it is about saving electricity",
             "ask": "Electricity is one part. What does the last part say the shade changed?"
           }
-        ]
+        ],
+        "full_idea": "Six shade trees cooled a hot wall, cut the store's cooling cost, and made the strip beside it a place people use."
       }
     },
     {

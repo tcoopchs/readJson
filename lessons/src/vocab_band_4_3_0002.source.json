@@ -106,7 +106,6 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how deep the seed is",
           "how long the winter lasts"
         ]
       }
@@ -203,17 +202,15 @@
             "ask": "The passage says the seed is not careful in any human sense. What does it name instead of knowing?"
           }
         ],
-        "core_idea": "The seed has no intent or judgement; its chemistry needs a long cold, so it is not choosing to be cautious.",
+        "core_idea": "It has no plan or intent.",
         "accept_ideas": [
           "it has no plan or intent",
           "the seed is not choosing anything",
           "its chemistry does it, not the seed"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long the cold lasts",
-          "what the seedling looks like"
-        ]
+        "not_required": [],
+        "full_idea": "The seed has no intent or judgement; its chemistry needs a long cold, so it is not choosing to be cautious."
       },
       "show_part_again": true
     }

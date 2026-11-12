@@ -88,13 +88,12 @@
           "Water leaves through the top, and that top did not grow."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the pan's top is the same width, so water leaves at the old rate while twice as much must go.",
+        "core_idea": "The top did not widen, so the water leaves at the same rate.",
         "accept_ideas": [
           "the top did not widen, so the water leaves at the same rate",
           "there is twice the water and the same surface",
           "the pan is deeper but no wider"
         ],
-        "one_idea_is_enough": true,
         "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -102,7 +101,8 @@
             "when": "the student says the flame is too small for a big pan",
             "ask": "The passage points at the top of the pan, not the flame. What did not grow?"
           }
-        ]
+        ],
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -115,8 +115,8 @@
       "type": "short_answer",
       "skill": "process",
       "difficulty": 3,
-      "show_part": "part_1",
-      "show_part_again": false,
+      "show_part": "all",
+      "show_part_again": true,
       "prompt": "Why does a shallow pan set faster than a deep one?",
       "tutor_only": {
         "confirm": "Right. Its top is wide for the amount of fruit in it.",
@@ -127,7 +127,7 @@
           "More surface for the same amount of fruit means faster setting."
         ],
         "say_back": "own_words",
-        "core_idea": "Its top is wide for the amount of fruit, so more water can leave at once.",
+        "core_idea": "The surface is wide for the amount of fruit.",
         "accept_ideas": [
           "the surface is wide for the amount of fruit",
           "more of the mixture touches the top",
@@ -141,12 +141,13 @@
             "when": "the student says a shallow pan gets hotter",
             "ask": "The passage is about water leaving, not heat. What does the wide top allow?"
           }
-        ]
+        ],
+        "full_idea": "Its top is wide for the amount of fruit, so more water can leave at once."
       },
       "display": {
         "lead": "",
         "label": "Passage",
-        "text": ""
+        "text": "A jam kitchen cooks its fruit in wide, shallow pans that sit over a steady flame. The cook weighs the fruit, the sugar, and the lemon juice, and writes each weight on a sheet pinned above the stove. Nothing goes into the pan by eye, and the mixture boils until it reaches the set point. The cook tests for that point by dropping a spoonful onto a cold plate and tipping it. A shallow pan sets faster than a deep one, because water leaves through the top of the mixture. The top of a wide pan is the part that grows when the pan grows.\n\nOne morning the order doubles. The cook doubles the fruit, the sugar, and the lemon, and pours the lot into the same pan. The pan is now twice as deep, and its top is the same width as it was before. Water leaves through that top, so the pan loses water at the same rate as it did with half the fruit. There is twice as much water to remove, and no second top to help it leave. The boil therefore runs much longer than twice the old time, and a long boil darkens the color and pushes the flavor toward caramel.\n\nThe recipe is a list of amounts, and every amount on it doubles. The pan is not on the list, and the pan is what decides how long the boil runs. A cook who doubles the fruit and keeps one pan pays twice: in time at the stove, and in the color of the jam. The fix is a second pan or a wider one, so that the surface grows along with the fruit. What has to scale is the surface, not the depth. The sheet above the stove records the amounts and says nothing about the surface, so the cook has to supply that part of the plan."
       }
     },
     {
@@ -166,7 +167,7 @@
           "A wider pan and a deeper pan hold the same fruit. Only one of them helps."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the surface lets the water escape, so it must grow with the fruit.",
+        "core_idea": "The top is what lets the water out.",
         "accept_ideas": [
           "the top is what lets the water out",
           "a deeper pan only adds water to remove",
@@ -180,7 +181,8 @@
             "when": "the student says a deeper pan holds more fruit",
             "ask": "Holding more is not the problem. Which part of the pan lets water leave?"
           }
-        ]
+        ],
+        "full_idea": "Because the surface lets the water escape, so it must grow with the fruit."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -205,7 +207,7 @@
           "Both the fruit and the top doubled, so the two cancel."
         ],
         "say_back": "own_words",
-        "core_idea": "It runs about as long as the old one, because the surface grew with the fruit.",
+        "core_idea": "About the same time.",
         "accept_ideas": [
           "about the same time",
           "it stays close to the old boil",
@@ -219,7 +221,8 @@
             "when": "the student says it takes twice as long because there is twice the fruit",
             "ask": "In the first case the top stayed the same. What changed about the top here?"
           }
-        ]
+        ],
+        "full_idea": "It runs about as long as the old one, because the surface grew with the fruit."
       },
       "display": {
         "lead": "",

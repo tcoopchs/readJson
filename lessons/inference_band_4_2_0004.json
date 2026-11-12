@@ -94,9 +94,7 @@
           "both get the same sun"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how much snow fell"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the corner roof faces the sun better",
@@ -176,9 +174,7 @@
           "it is heating the outside"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what fuel they use"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the corner house is bigger",
@@ -217,9 +213,7 @@
           "both come from the heat loss"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "the price of fuel"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the corner house is warmer inside",

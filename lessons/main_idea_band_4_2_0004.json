@@ -58,9 +58,7 @@
           "the conditions the fire must meet"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "the name of the plan"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says a prescription is a medicine",
@@ -98,9 +96,7 @@
           "the goals the fires reach"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "the name of one park"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says it is about Saratoga",
@@ -182,10 +178,7 @@
           "how parks plan a fire and check it before starting"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "the name of the ignition tool",
-          "the size of a burn"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says it is about putting out wildfires",
@@ -220,7 +213,7 @@
           "The fire is set on purpose to prevent a worse one."
         ],
         "say_back": "own_words",
-        "core_idea": "The fire here is set on purpose to prevent a worse one, so it is a tool, not a wildfire.",
+        "core_idea": "The fire here is set on purpose.",
         "accept_ideas": [
           "the fire here is set on purpose",
           "the passage is about a planned fire, not a wildfire",
@@ -239,7 +232,8 @@
             "when": "the student says it leaves out the weather",
             "ask": "Weather is part of the conditions. What is the fire itself?"
           }
-        ]
+        ],
+        "full_idea": "The fire here is set on purpose to prevent a worse one, so it is a tool, not a wildfire."
       },
       "display": {
         "lead": "",

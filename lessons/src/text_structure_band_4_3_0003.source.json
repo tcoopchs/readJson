@@ -60,7 +60,7 @@
           "One names the plant groups and the other names the years on the packet."
         ],
         "say_back": "own_words",
-        "core_idea": "What the plant is for, and how long the seed will sprout.",
+        "core_idea": "The kind of plant and how long the seed keeps.",
         "accept_ideas": [
           "the kind of plant and how long the seed keeps",
           "plant group and the years left",
@@ -77,7 +77,8 @@
             "when": "the student names only the plant groups",
             "ask": "The drawers hold one level. What does the packet add inside the drawer?"
           }
-        ]
+        ],
+        "full_idea": "What the plant is for, and how long the seed will sprout."
       }
     },
     {
@@ -121,7 +122,7 @@
       "type": "short_answer",
       "skill": "text_structure",
       "difficulty": 2,
-      "show_part": "part_2",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "Bean seed and pea seed both sit in the pod drawer. Why does the saver still read both packets?",
       "tutor_only": {
@@ -140,17 +141,16 @@
           "the years differ, so the packet decides",
           "one is nearer its end than the other"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "which one tastes better"
-        ],
+        "one_idea_is_enough": false,
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says they need different soil",
             "ask": "The passage gives only one difference between them. Find the sentence that gives it."
           }
-        ]
+        ],
+        "full_idea": "They keep for different numbers of years, so the packet decides which to sow."
       }
     },
     {
@@ -178,9 +178,7 @@
           "neither level is enough alone"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how wide the room is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {

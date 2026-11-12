@@ -109,8 +109,6 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "That he is afraid",
-          "That he is retreating",
           "A feeling of excitement"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
@@ -146,9 +144,8 @@
           "He risked more to get a better shot.",
           "He moved nearer the enemy than the narrator."
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
-          "the words brave or courageous",
           "naming Kettle Hill or the ranch buildings",
           "details about the Spaniards running out"
         ],
@@ -158,7 +155,8 @@
             "when": "He says Bardshar ran ahead because someone ordered him to.",
             "ask": "Does the passage say anyone ordered Bardshar forward?"
           }
-        ]
+        ],
+        "full_idea": "Bardshar moved ahead of the mounted narrator, nearer the enemy, to get better shots, so he took on greater danger than the men behind him."
       }
     },
     {
@@ -178,16 +176,14 @@
           "Notice that the next move starts as soon as the last one ends."
         ],
         "say_back": "own_words",
-        "core_idea": "Each short sentence is one move, so the actions come one right after another.",
+        "core_idea": "Each sentence is one move, so the ride goes fast.",
         "accept_ideas": [
           "Each sentence is one move, so the ride goes fast.",
           "The actions come one right after another.",
           "One move per sentence, with no pause between them.",
           "The short sentences put each move in its own beat."
         ],
-        "one_idea_is_enough": true,
         "not_required": [
-          "Naming the narrator as \"I\"",
           "Listing every action in order",
           "Saying the narrator is on horseback"
         ],
@@ -203,7 +199,8 @@
             "when": "The student says the ride feels exciting, urgent, or scary, without saying each sentence is one move.",
             "ask": "What does each short sentence contain?"
           }
-        ]
+        ],
+        "one_idea_is_enough": true
       }
     },
     {
@@ -231,11 +228,7 @@
           "The writer puts himself in the close action."
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "names of all the soldiers",
-          "exact distances",
-          "the phrase “short sentences”"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {

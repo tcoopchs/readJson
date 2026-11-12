@@ -68,8 +68,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "naming the richer mix",
-          "copying the whole sentence"
+          "naming the richer mix"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -107,8 +106,7 @@
         "one_idea_is_enough": true,
         "not_required": [
           "Exact number of turns",
-          "The phrase 'richer mix'",
-          "The location of the carb dash knob"
+          "The phrase 'richer mix'"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -146,8 +144,7 @@
         "one_idea_is_enough": true,
         "not_required": [
           "exact notch numbers",
-          "whether the crank or starter is used",
-          "details from part 3"
+          "whether the crank or starter is used"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -175,7 +172,7 @@
           "Name what each word does in the pull."
         ],
         "say_back": "own_words",
-        "core_idea": "'Catch' is the moment the crank engages; 'swing' is the quick arc of the pull, so the two verbs split one action into stages.",
+        "core_idea": "First it catches, then the big swing.",
         "accept_ideas": [
           "first it catches, then the big swing",
           "the verbs split the pull into a grab and an arc",
@@ -183,7 +180,6 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "naming the exact steps in order",
           "explaining what a spark switch is",
           "saying it means turn on the switch"
         ],
@@ -199,7 +195,8 @@
             "when": "the student describes a general picture of starting an old car, or says the verbs only mean how to start it",
             "ask": "What do the words 'catch' and 'swing' show about the pull itself?"
           }
-        ]
+        ],
+        "full_idea": "'Catch' is the moment the crank engages; 'swing' is the quick arc of the pull, so the two verbs split one action into stages."
       }
     },
     {
@@ -227,11 +224,7 @@
           "It moves from steps to reasons and warming."
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "Naming every step in part_1",
-          "Repeating the exact quoted craft phrase",
-          "Listing all five numbered steps in part_2"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {

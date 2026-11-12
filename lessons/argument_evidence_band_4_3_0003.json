@@ -167,7 +167,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "A reader says the ad shows the course works for most students. Is that supported?",
+      "prompt": "A reader says the ad shows the course works for most students. Is that supported? Say which words in the passage decide it.",
       "tutor_only": {
         "confirm": "No. The ad names three successes and says nothing about the other twenty-eight.",
         "correct_reason": "The ad lists three successes from a class of thirty-one and says nothing about the rest, so it cannot show what is usual.",
@@ -177,14 +177,13 @@
           "They name the students the ad leaves out."
         ],
         "say_back": "own_words",
-        "core_idea": "No, because three successes from a class of thirty-one say nothing about the other twenty-eight.",
+        "core_idea": "Three successes from a class of thirty-one say nothing about the other twenty-eight.",
         "accept_ideas": [
           "no, the other twenty-eight are missing",
           "no, three names are not most of the class",
           "no, it shows what is possible, not what is usual",
           "no, the ad only lists winners"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "whether the shops are busy"
         ],
@@ -194,7 +193,9 @@
             "when": "the student says the three stories are true, so the claim is proven",
             "ask": "True stories can still be chosen. How many students started the class?"
           }
-        ]
+        ],
+        "full_idea": "No, because three successes from a class of thirty-one say nothing about the other twenty-eight.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",
@@ -226,7 +227,7 @@
           "how many finished and found work",
           "the outcome for every student"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how much the shops earn"
         ],
@@ -236,7 +237,8 @@
             "when": "the student says the ad needs more success stories",
             "ask": "More winners from a big class still hide the rest. What has to be counted?"
           }
-        ]
+        ],
+        "full_idea": "How many started, how many finished, and what work each one found."
       },
       "display": {
         "lead": "",

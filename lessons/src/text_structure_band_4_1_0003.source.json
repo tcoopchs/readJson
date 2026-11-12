@@ -68,9 +68,7 @@
           "the load of sixty trucks"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long the tow is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -170,7 +168,7 @@
           "It gives the reason a shipper chooses the more expensive way."
         ],
         "say_back": "own_words",
-        "core_idea": "To meet a ship on a certain day, because a late barge is worse than a costly truck.",
+        "core_idea": "The grain has to arrive on time.",
         "accept_ideas": [
           "the grain has to arrive on time",
           "a late barge is worse",
@@ -187,7 +185,8 @@
             "when": "the student says trucks are safer",
             "ask": "Safety is not discussed. What does the passage say a late barge costs the shipper?"
           }
-        ]
+        ],
+        "full_idea": "To meet a ship on a certain day, because a late barge is worse than a costly truck."
       }
     },
     {

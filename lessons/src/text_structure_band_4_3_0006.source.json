@@ -156,8 +156,8 @@
       "type": "short_answer",
       "skill": "text_structure",
       "difficulty": 3,
-      "show_part": "part_2",
-      "show_part_again": false,
+      "show_part": "all",
+      "show_part_again": true,
       "prompt": "Why can the method not say how many turns a string needs?",
       "tutor_only": {
         "confirm": "Yes. The number is not known until she listens, so the step repeats until the pulse stops.",
@@ -168,7 +168,7 @@
           "It says why the number is not available before the string is heard."
         ],
         "say_back": "own_words",
-        "core_idea": "The number depends on what she hears, so the step repeats until the pulse stops.",
+        "core_idea": "The number is not known until she listens.",
         "accept_ideas": [
           "the number is not known until she listens",
           "it ends when the pulse stops, not after a count",
@@ -184,7 +184,8 @@
             "when": "the student says the tuner is experienced",
             "ask": "Experience is not the reason the passage gives. What ends the repeating?"
           }
-        ]
+        ],
+        "full_idea": "The number depends on what she hears, so the step repeats until the pulse stops."
       }
     },
     {
@@ -210,7 +211,7 @@
           "one counts turns and the other listens for the pulse to stop",
           "a recipe stops after three turns and a tuning stops when it sounds right"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "who wrote the recipe"
         ],
@@ -220,7 +221,8 @@
             "when": "the student says a recipe is easier",
             "ask": "Easier is a judgement. What does the passage say each kind of instruction uses to decide when to stop?"
           }
-        ]
+        ],
+        "full_idea": "A recipe can count its steps; a tuning repeats a step until a test passes."
       }
     }
   ],

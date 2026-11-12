@@ -171,7 +171,7 @@
             "ask": "The teacher's pay depended on attendance. What kept students away?"
           }
         ],
-        "core_idea": "Students were needed for the farm work, so few came during harvest and school ran between harvests.",
+        "core_idea": "Children had to work on the farm.",
         "accept_ideas": [
           "children had to work on the farm",
           "families needed help bringing in the crops",
@@ -179,9 +179,9 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how much the teacher was paid",
-          "what crops were grown"
-        ]
+          "how much the teacher was paid"
+        ],
+        "full_idea": "Students were needed for the farm work, so few came during harvest and school ran between harvests."
       },
       "display": {
         "lead": "",
@@ -224,7 +224,6 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how long it lasted",
           "what subject it covered"
         ]
       },

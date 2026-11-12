@@ -57,9 +57,7 @@
           "the path along the cliff is safe"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long the path is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -165,7 +163,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "A reader says the empty log shows the path is safe. Is that supported?",
+      "prompt": "A reader says the empty log shows the path is safe. Is that supported? Say which words in the passage decide it.",
       "tutor_only": {
         "confirm": "No. A fall on the path would rarely reach the form, so the log cannot show safety.",
         "correct_reason": "An empty log only shows nothing was written down, and the form is far from the path, so the log cannot speak for the path.",
@@ -175,7 +173,7 @@
           "They show how far a fall is from the box."
         ],
         "say_back": "own_words",
-        "core_idea": "No, because the form is three miles from the path, so a fall would not reach the log.",
+        "core_idea": "No, the form is too far away.",
         "accept_ideas": [
           "no, the form is too far away",
           "no, a fall would not reach the log",
@@ -183,16 +181,15 @@
           "no, people tell their friends, not a ranger"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how steep the path is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says no reports means no falls",
             "ask": "A report needs a form and a long walk. Where is the form kept?"
           }
-        ]
+        ],
+        "full_idea": "No, because the form is three miles from the path, so a fall would not reach the log."
       },
       "display": {
         "lead": "",
@@ -217,7 +214,7 @@
           "They show what a report would need."
         ],
         "say_back": "own_words",
-        "core_idea": "A way to report a fall at the path, so a fall would reach the record.",
+        "core_idea": "A way to report a fall at the path.",
         "accept_ideas": [
           "a way to report a fall at the path",
           "reports of falls from the path",
@@ -235,7 +232,8 @@
             "when": "the student says the log needs more years",
             "ask": "More years of the same long walk still miss the falls. What has to change?"
           }
-        ]
+        ],
+        "full_idea": "A way to report a fall at the path, so a fall would reach the record."
       },
       "display": {
         "lead": "",

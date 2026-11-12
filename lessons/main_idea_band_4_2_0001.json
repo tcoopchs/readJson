@@ -51,7 +51,7 @@
           "The passage names an auto repair shop and old parts."
         ],
         "say_back": "own_words",
-        "core_idea": "By the 1970s, the drained wetland held buildings, an auto repair shop, and junk instead of water.",
+        "core_idea": "Buildings and junk.",
         "accept_ideas": [
           "buildings and junk",
           "an auto repair shop and old cars",
@@ -61,8 +61,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "who Burl Tonkin was",
-          "what Lock 26 is"
+          "who Burl Tonkin was"
         ],
         "if_they_say": [
           {
@@ -73,7 +72,8 @@
             "when": "the student says beavers stood there",
             "ask": "The beavers come into the passage later. What was on the land in the 1970s?"
           }
-        ]
+        ],
+        "full_idea": "By the 1970s, the drained wetland held buildings, an auto repair shop, and junk instead of water."
       },
       "display": {
         "lead": "",
@@ -105,10 +105,9 @@
           "beavers built dams that brought the water back",
           "the beavers made a pond"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
-          "how many beavers returned",
-          "which trees they cut"
+          "how many beavers returned"
         ],
         "if_they_say": [
           {
@@ -119,7 +118,8 @@
             "when": "the student says it is about the federal government buying the land",
             "ask": "The purchase is one detail. What happens to the water in this part?"
           }
-        ]
+        ],
+        "full_idea": "Beavers returned to the valley, and their dams flooded the land again."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -150,9 +150,8 @@
           "volunteers hauled trash and beavers built dams",
           "the beavers flooded it and people cleaned it up"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
-          "the name of the club",
           "the year of the cleanup"
         ],
         "if_they_say": [
@@ -164,7 +163,8 @@
             "when": "the student names only the beavers",
             "ask": "The beavers brought the water. Who removed the junk?"
           }
-        ]
+        ],
+        "full_idea": "Volunteers hauled away the junk, and beavers raised the water with their dams."
       },
       "display": {
         "lead": "",
@@ -234,7 +234,7 @@
           "One part is about junk and cleaning."
         ],
         "say_back": "own_words",
-        "core_idea": "It leaves out the years when the land was drained and junked, and the cleanup that came later.",
+        "core_idea": "It leaves out the people who cleaned the land.",
         "accept_ideas": [
           "it leaves out the people who cleaned the land",
           "it leaves out how the land was drained and junked",
@@ -253,7 +253,8 @@
             "when": "the student says it leaves out the visitors",
             "ask": "Visitors are named once, near the start. What is the cleanup about?"
           }
-        ]
+        ],
+        "full_idea": "It leaves out the years when the land was drained and junked, and the cleanup that came later."
       },
       "display": {
         "lead": "",

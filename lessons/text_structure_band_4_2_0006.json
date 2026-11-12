@@ -96,7 +96,6 @@
           "nobody has to agree on it later",
           "the table decides it in advance"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "who wrote the rule"
         ],
@@ -106,7 +105,8 @@
             "when": "the student says both teams agree it is fair",
             "ask": "The passage gives timing, not fairness. When is the host named?"
           }
-        ]
+        ],
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",
@@ -138,9 +138,7 @@
           "neither team's own ground"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how the site is chosen"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -213,23 +211,22 @@
           "It says what happens to a rule with too many of them."
         ],
         "say_back": "own_words",
-        "core_idea": "A rule with many exceptions stops being a rule, so the line stays where travel can change the result.",
+        "core_idea": "Too many exceptions would end the rule.",
         "accept_ideas": [
           "too many exceptions would end the rule",
           "the exception only covers travel that changes results",
           "a rule that is widened for everyone decides nothing"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who voted on it"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the league wanted to keep the home teams happy",
             "ask": "The passage gives a reason about rules, not about votes. What happens to a rule with a hundred exceptions?"
           }
-        ]
+        ],
+        "full_idea": "A rule with many exceptions stops being a rule, so the line stays where travel can change the result."
       },
       "display": {
         "lead": "",

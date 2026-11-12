@@ -134,7 +134,7 @@
           "the water table drops for both wells",
           "the neighbor's well pulls from the same water"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "the depth of either well"
         ],
@@ -143,7 +143,8 @@
             "when": "the student says the neighbor's well is broken",
             "ask": "The passage does not say the well breaks. What happens to the water level?"
           }
-        ]
+        ],
+        "full_idea": "Because both wells use the same aquifer, so pumping lowers the water for both."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -175,9 +176,7 @@
           "the same height as the ocean"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long the hole takes to fill"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the hole fills to the top",
@@ -208,13 +207,12 @@
           "Connect the pumping sentences to the recharge sentence."
         ],
         "say_back": "own_words",
-        "core_idea": "Because recharge is how the water they pump is replaced.",
+        "core_idea": "Recharge is how the water they pump is replaced.",
         "accept_ideas": [
           "recharge replaces the water",
           "without it the aquifer runs low",
           "the water they use is not added back"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "the exact rate of recharge"
         ],
@@ -223,7 +221,9 @@
             "when": "the student says recharge is another word for rain",
             "ask": "Rain is one source. The passage gives recharge a job. What is that job?"
           }
-        ]
+        ],
+        "full_idea": "Because recharge is how the water they pump is replaced.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",

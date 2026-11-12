@@ -161,7 +161,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "A reader says the page shows twice as many children read this summer. Is that supported?",
+      "prompt": "A reader says the page shows twice as many children read this summer. Is that supported? Say which words in the passage decide it.",
       "tutor_only": {
         "confirm": "No. The two summers counted different acts, and a card is not the list.",
         "correct_reason": "The forty finished a list of ten books and the eighty signed a card, so the chart compares reading with signing.",
@@ -171,14 +171,13 @@
           "They say what each count required."
         ],
         "say_back": "own_words",
-        "core_idea": "No, because the two summers counted different acts: finishing the list against signing a card.",
+        "core_idea": "The two summers counted different acts: finishing the list against signing a card.",
         "accept_ideas": [
           "no, a card is not the reading list",
           "no, the page compares reading with signing",
           "no, the two counts measure different things",
           "no, signing up is not reading"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "what the books were about"
         ],
@@ -188,7 +187,9 @@
             "when": "the student says forty to eighty is a doubling, so the page is right",
             "ask": "A doubling of what? What did a child have to do to be counted each year?"
           }
-        ]
+        ],
+        "full_idea": "No, because the two summers counted different acts: finishing the list against signing a card.",
+        "one_idea_is_enough": true
       }
     },
     {

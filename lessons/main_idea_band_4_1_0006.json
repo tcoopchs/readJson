@@ -120,8 +120,8 @@
       "type": "short_answer",
       "skill": "main_idea",
       "difficulty": 2,
-      "show_part": "part_2",
-      "show_part_again": false,
+      "show_part": "all",
+      "show_part_again": true,
       "prompt": "Why did the volunteers read the notebook before opening a machine?",
       "tutor_only": {
         "confirm": "Right. So they would not spend an hour repeating a fix that had already failed.",
@@ -153,7 +153,7 @@
       "display": {
         "lead": "",
         "label": "Passage",
-        "text": ""
+        "text": "The repair cafe opens in a church hall on the first Saturday of the month. People bring lamps, radios, kettles, and once a riding mower. Volunteers with soldering irons sit at long tables and try to fix what comes in. Nobody takes minutes at the tables. For two years the group kept one record: a list of the machines it had fixed, with a total at the bottom. The list was used in a grant application and nowhere else.\n\nThen a volunteer started a second notebook for the machines that could not be fixed. Each line gave the model, the fault, what was tried, and why it failed. Some cases could not be opened without breaking them. Some needed a part that is no longer made. Some had a battery sealed inside. The glue never held when that case was closed again. After a year, the volunteers read the notebook before they opened anything.\n\nThe notebook changed the work in two ways. Volunteers stopped spending an hour on machines the group had already failed to open. They also began telling a visitor at the door what was likely, before the visitor waited. In the year after the notebook started, the share of machines fixed rose from half to two thirds. That was the group's best year. The list of successes never taught the group anything. The record of failures did."
       }
     },
     {
@@ -180,7 +180,7 @@
           "writing down what failed helped the group",
           "failures taught them more than successes"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "the name of the church hall"
         ],
@@ -193,7 +193,8 @@
             "when": "the student says it is about batteries sealed inside",
             "ask": "That is one kind of failure. What did the notebook of failures do for the group?"
           }
-        ]
+        ],
+        "full_idea": "A repair group started recording its failures, and that record taught it more than its list of successes did."
       },
       "display": {
         "lead": "",

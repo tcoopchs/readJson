@@ -66,9 +66,7 @@
           "young single men"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how much they were paid"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says anyone could join",
@@ -94,22 +92,21 @@
           "One explains the name and the other explains the cause."
         ],
         "say_back": "own_words",
-        "core_idea": "Because it was too high and cold to use all year.",
+        "core_idea": "It was too high and cold to use all year.",
         "accept_ideas": [
           "it was high up",
           "men could only stay in warm months",
           "the weather was too cold"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "how many men lived there"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says it was a small camp",
             "ask": "The passage gives a reason about height and seasons. What is it?"
           }
-        ]
+        ],
+        "full_idea": "Because it was too high and cold to use all year.",
+        "one_idea_is_enough": true
       }
     },
     {
@@ -129,22 +126,21 @@
           "It names another park and says the camps were lower."
         ],
         "say_back": "own_words",
-        "core_idea": "Because Cedar Breaks was too cold in winter, so they moved to lower camps.",
+        "core_idea": "Cedar Breaks was too cold.",
         "accept_ideas": [
           "Cedar Breaks was too cold",
           "they moved to a lower camp",
           "the high camp closed in winter"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how far Zion was"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says they preferred Zion",
             "ask": "The passage gives a reason about the camp, not a preference. What is it?"
           }
-        ]
+        ],
+        "full_idea": "Because Cedar Breaks was too cold in winter, so they moved to lower camps."
       }
     },
     {
@@ -201,22 +197,21 @@
           "It says what a building is used for now."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the things they built are still used by visitors.",
+        "core_idea": "The things they built are still used by visitors.",
         "accept_ideas": [
           "the buildings are still used",
           "the museum is the visitor center",
           "people still use the roads and trails"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "the details of the fence"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the CCC is only history",
             "ask": "The passage says one building has a job today. What is it?"
           }
-        ]
+        ],
+        "full_idea": "Because the things they built are still used by visitors.",
+        "one_idea_is_enough": true
       }
     }
   ],

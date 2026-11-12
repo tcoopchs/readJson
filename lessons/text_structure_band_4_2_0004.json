@@ -131,7 +131,7 @@
           "It says where each example puts the news."
         ],
         "say_back": "own_words",
-        "core_idea": "The shorter sentence puts the news at the end, so the reader waits longer for it.",
+        "core_idea": "The verb comes last in the short one.",
         "accept_ideas": [
           "the verb comes last in the short one",
           "it keeps the news until the end",
@@ -147,7 +147,8 @@
             "when": "the student says the short one uses harder words",
             "ask": "Both examples use the same words, in a different order. What moves to the end in the short one?"
           }
-        ]
+        ],
+        "full_idea": "The shorter sentence puts the news at the end, so the reader waits longer for it."
       },
       "display": {
         "lead": "Here is the rest of the passage.",

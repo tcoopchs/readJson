@@ -55,7 +55,7 @@
           "Birds fly away with the seeds.",
           "Birds carry the seeds instead of plant wings."
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "Naming thrushes specifically",
           "Mentioning pine seeds",
@@ -67,7 +67,8 @@
             "when": "They say the wind carries cherry seeds.",
             "ask": "Which sentence names the creature that carries the seeds?"
           }
-        ]
+        ],
+        "full_idea": "Cherry seeds have no plant wings; thrushes carry them in their bills."
       },
       "display": {
         "lead": "",
@@ -98,7 +99,7 @@
           "Birds carry the seeds in their mouths or bills when they fly off.",
           "The seeds are 'winged' because birds carry them."
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "Mentioning pine seeds",
           "Using the exact phrase 'winged in another sense'",
@@ -114,7 +115,8 @@
             "when": "They say birds eat the fruit and leave the seed on the tree.",
             "ask": "Which sentence tells where the thrush takes the stone?"
           }
-        ]
+        ],
+        "full_idea": "The author playfully calls cherry seeds winged because thrushes carry them in their bills and fly away."
       },
       "display": {
         "lead": "",
@@ -139,7 +141,7 @@
           "Think about what \"choke\" means for a young tree."
         ],
         "say_back": "own_words",
-        "core_idea": "Pines can shade and choke young oaks, so a thick pine wood may have many oak seeds but few growing oaks.",
+        "core_idea": "Pines choke little oaks.",
         "accept_ideas": [
           "Pines choke little oaks.",
           "Little oaks do not grow well under pine shade.",
@@ -149,7 +151,6 @@
         "one_idea_is_enough": true,
         "not_required": [
           "mentioning squirrels",
-          "mentioning wind",
           "using the word \"choke\"",
           "explaining what happens after pines are cut"
         ],
@@ -159,7 +160,8 @@
             "when": "They say squirrels choke the little oaks.",
             "ask": "Which sentence says what shades and chokes the little oaks?"
           }
-        ]
+        ],
+        "full_idea": "Pines can shade and choke young oaks, so a thick pine wood may have many oak seeds but few growing oaks."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -184,7 +186,7 @@
           "Compare the carriers that walk with the birds that fly."
         ],
         "say_back": "own_words",
-        "core_idea": "It sets the animals that walk against the birds that fly, so both kinds of carrier are named.",
+        "core_idea": "It contrasts animals that walk with the birds that fly.",
         "accept_ideas": [
           "It contrasts animals that walk with the birds that fly.",
           "Mammals carry the seeds on foot, not birds.",
@@ -213,7 +215,8 @@
             "when": "The student says the phrase makes the animals look small, or names small animals without saying they walk rather than fly.",
             "ask": "What does 'four-legged' add next to the birds the author described earlier?"
           }
-        ]
+        ],
+        "full_idea": "It sets the animals that walk against the birds that fly, so both kinds of carrier are named."
       },
       "display": {
         "lead": "",
@@ -238,15 +241,13 @@
           "Reread the last part and find a sentence with 'when' and 'so' that tells a result."
         ],
         "say_back": "own_words",
-        "core_idea": "The last part explains a cause and its result: the pines are cut, so the oaks grow.",
+        "core_idea": "It explains a cause \u2014 the pines are cut, so the oaks grow.",
         "accept_ideas": [
           "it explains a cause \u2014 the pines are cut, so the oaks grow",
           "it tells why the oaks come up after the pines are cleared",
           "it explains what happens when the pines are cut so the oaks grow"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
-          "Naming every tree in the passage",
           "Quoting the phrase 'winged or legged'",
           "Explaining the whole squirrel planting process"
         ],
@@ -270,7 +271,8 @@
             "when": "the student says what the last part is about \u2014 squirrels, nuts, or the pines being cleared \u2014 without naming the cause and its result",
             "ask": "What does the last part do that the opening does not?"
           }
-        ]
+        ],
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",

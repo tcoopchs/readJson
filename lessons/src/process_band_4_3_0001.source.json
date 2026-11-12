@@ -103,7 +103,7 @@
           "arrival order switches ink more often",
           "it breaks the colors up into more changes"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -111,7 +111,8 @@
             "when": "the student says arrival order is slower because of the paper",
             "ask": "Paper is wasted at every wash-up. What makes more wash-ups happen?"
           }
-        ]
+        ],
+        "full_idea": "Arrival order alternates the inks, so more switches are needed."
       }
     },
     {
@@ -131,7 +132,7 @@
           "One group has a time on it that the shop cannot move."
         ],
         "say_back": "own_words",
-        "core_idea": "The greens are due at noon, and a late delivery costs more than a wash-up.",
+        "core_idea": "The noon deadline outranks the earlier arrival.",
         "accept_ideas": [
           "the noon deadline outranks the earlier arrival",
           "a late delivery costs more than a wash-up",
@@ -145,7 +146,8 @@
             "when": "the student says the greens came in first",
             "ask": "The blues arrived first. What does the green group have that the blues do not?"
           }
-        ]
+        ],
+        "full_idea": "The greens are due at noon, and a late delivery costs more than a wash-up."
       }
     },
     {
@@ -171,7 +173,7 @@
           "in the blue group, behind the noon job",
           "it joins the blues once the greens are done"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -179,7 +181,8 @@
             "when": "the student says it goes at the end because it arrived last",
             "ask": "Arrival order was already set aside once. What two things set this board?"
           }
-        ]
+        ],
+        "full_idea": "With the other blues, after the greens, because the greens are due first and the blues share an ink."
       }
     },
     {
@@ -199,13 +202,12 @@
           "One rule is about the press, and the other is about the customer."
         ],
         "say_back": "own_words",
-        "core_idea": "Shared ink decides the order, and an earlier due time can overrule it.",
+        "core_idea": "The setup decides, and a due time outranks it.",
         "accept_ideas": [
           "the setup decides, and a due time outranks it",
           "grouping by ink, unless a deadline is earlier",
           "ink changes set the order, and a sooner deadline breaks it"
         ],
-        "one_idea_is_enough": true,
         "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -213,7 +215,8 @@
             "when": "the student says the customer always decides",
             "ask": "A due time matters, but what is the order built on first?"
           }
-        ]
+        ],
+        "one_idea_is_enough": false
       }
     }
   ],

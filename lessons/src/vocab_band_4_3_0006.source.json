@@ -104,11 +104,12 @@
           "it needs more depth to cross the bar",
           "it is waiting for the tide to come in"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how many passengers are aboard",
           "how long the crossing takes"
-        ]
+        ],
+        "full_idea": "The water is too shallow over the bar at low tide, so the ferry waits for the harbor to fill."
       }
     },
     {
@@ -174,10 +175,7 @@
           "the right height at the pier"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how big the boat is",
-          "who owns the pier"
-        ]
+        "not_required": []
       }
     },
     {
@@ -212,11 +210,11 @@
           "the sea does not follow the timetable",
           "the printed time can be wrong when the water differs"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
-          "how often the ferry runs",
-          "what the fare is"
-        ]
+          "how often the ferry runs"
+        ],
+        "full_idea": "The times are the company's best reading of the water, and the water is not bound by them."
       },
       "show_part_again": true
     }

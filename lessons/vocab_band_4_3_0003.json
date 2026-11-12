@@ -88,7 +88,7 @@
             "ask": "The passage says it is not greed. What does it buy for the workshop?"
           }
         ],
-        "core_idea": "To replace worn tools and cover weeks with no orders, so the work can keep going.",
+        "core_idea": "To buy new tools when the old ones fail.",
         "accept_ideas": [
           "to buy new tools when the old ones fail",
           "to get through weeks with no orders",
@@ -98,7 +98,8 @@
         "not_required": [
           "how big the margin is",
           "who sets the price"
-        ]
+        ],
+        "full_idea": "To replace worn tools and cover weeks with no orders, so the work can keep going."
       },
       "show_part_again": true,
       "display": {
@@ -169,11 +170,11 @@
           "one owns its machines and one pays rent",
           "the quotes cover different costs"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "which quote is lower",
           "how long the chair takes"
-        ]
+        ],
+        "one_idea_is_enough": true
       },
       "show_part_again": true,
       "display": {
@@ -204,7 +205,7 @@
             "ask": "Hiding is not lying here. What is left out of the number?"
           }
         ],
-        "core_idea": "The price leaves out the maker's time, so it looks cheaper than the work really is.",
+        "core_idea": "The price does not count the time.",
         "accept_ideas": [
           "the price does not count the time",
           "the hours are not in the number",
@@ -214,7 +215,8 @@
         "not_required": [
           "how many hours the chair takes",
           "who wins the order"
-        ]
+        ],
+        "full_idea": "The price leaves out the maker's time, so it looks cheaper than the work really is."
       },
       "show_part_again": true,
       "display": {

@@ -180,7 +180,7 @@
           "it flies out and comes back, because the label is not checked again",
           "it is sent far away since the far route never rechecks"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "what happens to the box after it returns"
         ],
@@ -190,7 +190,8 @@
             "when": "the student says the gate sends it back",
             "ask": "The gate checked it once. What happens after that check?"
           }
-        ]
+        ],
+        "full_idea": "It is flown away and comes back days later, because nothing on the far route reads the label again."
       },
       "display": {
         "lead": "",
@@ -221,7 +222,7 @@
           "a wrong box cannot be pulled out once the doors close",
           "the box cannot be checked after sealing"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how many containers leave each day"
         ],
@@ -231,7 +232,8 @@
             "when": "the student says to keep the belt moving",
             "ask": "The belt is not the reason. What can no worker do after the doors close?"
           }
-        ]
+        ],
+        "full_idea": "Once the doors close, no worker can open it, so a stray box cannot be found and sent back."
       },
       "display": {
         "lead": "",

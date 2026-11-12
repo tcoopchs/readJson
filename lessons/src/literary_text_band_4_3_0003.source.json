@@ -1,0 +1,246 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "literary_text_band_4_3_0003",
+  "meta": {
+    "status": "published",
+    "title": "A House of Refuge",
+    "skill": "literary_text",
+    "irl_grade": 4,
+    "stage": 3,
+    "sequence": 3,
+    "genre": "fiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Literary text: find the word a group's plan hangs on, and see that nobody has checked what it means.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured FK 5.5, 6.3 and 5.6 over the three parts (112, 117 and 120 words). The load is four men, one building they have never seen, and a plan that rests on a definition neither of them can settle.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from Stephen Crane's story 'The Open Boat' in The Open Boat and Other Stories (1898), public domain in the United States.",
+      "attribution": "Crane, Stephen. The Open Boat and Other Stories (1898). Project Gutenberg ebook 45524. https://www.gutenberg.org/ebooks/45524 (accessed 2026-11-12).",
+      "text_status": "Adapted, reading load reduced.",
+      "drafted_by": "TC",
+      "adaptation": "Shortened the descriptive passages, kept the exchange about the house of refuge word for word where it could stand, and compressed the shore scene to the man, the bicycle and the thing on wheels. No fact was added.",
+      "survey": "Crane's dingey, where the men's hope is built on a term they disagree about. Chosen over a storm-at-sea passage because the disagreement is on the page.",
+      "avoided": "No invented place names, distances, or rescue details beyond what the crew sees and says."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "four men, a word they define differently, and a shore that answers none of it"
+    },
+    "authoring_exceptions": []
+  },
+  "passage": {
+    "part_1": "None of the four men in the boat knew the colour of the sky. Their eyes were fixed on the water that came at them, slate grey with white tops, and all of them knew the colours of the sea. The boat was smaller than a bath-tub, and each wave was a problem in small-boat sailing. The cook squatted in the bottom and bailed, watching the six inches of wood between him and the ocean. The oiler steered with one thin oar that looked ready to snap. The correspondent pulled at the other oar and wondered why he was there. The injured captain lay in the bow, sunk in silence.",
+    "part_2": "The cook said there was a house of refuge just north of the light, and that as soon as the men there saw them they would come off in a boat and pick them up. The correspondent said houses of refuge did not have crews. They were places where clothes and food were kept for shipwrecked people. The cook said that they did, and the correspondent said that they did not, and neither man had ever seen one. The oiler, steering, said that they were not there yet. The cook thought again and said that perhaps it was a life-saving station he was thinking of, and the oiler said again that they were not there yet.",
+    "part_3": "Late in the afternoon a man appeared on the shore. The men in the boat watched him walk, stop, and turn to face them. He's waving, one of them said, and another said that a boat would be out for them within half an hour. The man ran up the beach toward a house. A second man came along on a bicycle, and then something came up the beach on wheels. One man said it was the life-boat, dragged along the shore on a wagon, and another said it was a hotel omnibus. A man standing on its steps took off his coat and swung it over his head, and none of them could agree what the signal meant."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "What is the cook doing in the bottom of the boat?",
+      "tutor_only": {
+        "confirm": "Right. He is bailing water and watching the six inches of wood that hold out the sea.",
+        "correct_reason": "The cook squats in the bottom and bails, watching the six inches of gunwale between him and the ocean.",
+        "tell": "The cook bails water out of the boat. He keeps his eyes on the six inches of wood holding out the sea.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "bailing water and watching the six inches of wood",
+        "accept_ideas": [
+          "bailing",
+          "bailing out water",
+          "watching the side of the boat and bailing"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says he is rowing",
+            "ask": "Two other men have the oars. What are the cook's hands doing?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "The cook says a boat will come out to them. What do the two men disagree about?",
+      "tutor_only": {
+        "confirm": "Right. Whether it has a crew, not whether it is there.",
+        "correct_reason": "The correspondent says houses of refuge have no crews and are only places where clothes and food are kept. The cook says they do have crews.",
+        "tell": "They disagree about whether the place has a crew. Neither doubts that it exists.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "whether it has a crew",
+        "accept_ideas": [
+          "whether there is a crew there",
+          "if anyone is stationed there",
+          "whether the place has men in it"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says they disagree about where it is",
+            "ask": "Both men put it north of the light. What do they argue about instead?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "the student says they disagree about whether it exists",
+            "ask": "Neither man doubts the building. What is the argument about?"
+          }
+        ]
+      },
+      "show_part_again": true
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "Neither man has ever seen a house of refuge. What does that make their plan rest on?",
+      "tutor_only": {
+        "confirm": "Right. On a guess about what the building is, with nothing checked.",
+        "correct_reason": "The passage says the cook and the correspondent argue about the name, and neither has seen the place. The plan to be picked up depends on the cook being right.",
+        "tell": "Their plan rests on a guess about the building. Nobody has checked what is there.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "a guess about what the building is",
+        "accept_ideas": [
+          "a guess",
+          "nothing they have checked",
+          "the cook being right about the name"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it rests on the map",
+            "ask": "No map is mentioned. What does the passage say neither man has done?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "the student says it rests on the cook's experience",
+            "ask": "The cook has not seen one either. What does that leave the plan resting on?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "prompt": "The oiler says 'we're not there yet' twice. What does saying it twice do to the argument?",
+      "tutor_only": {
+        "confirm": "Right. It refuses to settle the argument and points at the distance instead.",
+        "correct_reason": "The oiler repeats the same line after each exchange, and neither man answers it.",
+        "tell": "The repeat refuses to settle the argument. It turns the men back to how far they still are.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "it refuses to settle the argument and points at the distance",
+        "accept_ideas": [
+          "it ends the argument without settling it",
+          "he will not take a side",
+          "it shows the argument does not matter yet"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says it proves the oiler agrees with the cook",
+            "ask": "The oiler takes no side. What does he say about where they are?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "literary_text",
+      "difficulty": 4,
+      "show_part": "all",
+      "prompt": "On the shore the men cannot agree whether the thing on wheels is a life-boat or an omnibus. What does that show about how they read the shore?",
+      "tutor_only": {
+        "confirm": "Right. Each man names what he hopes to see, and none of it is checked.",
+        "correct_reason": "One man says the life-boat, another says a hotel omnibus, and a man on its steps waves his coat while they argue about the signal.",
+        "tell": "They read the shore by hope. Each names what he wants it to be, the same way the cook named the house.",
+        "help": [
+          "The sentence about this sits in the passage. Read it again.",
+          "Name the fact the passage gives, then say what it shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "they read it by hope, naming what they want to see",
+        "accept_ideas": [
+          "they see what they hope for",
+          "they guess from hope",
+          "they name what they want it to be"
+        ],
+        "one_idea_is_enough": true,
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "the student says the shore is too far to see",
+            "ask": "They can see it well enough to argue about details. What are they arguing about?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "the student says it shows they are frightened",
+            "ask": "Fear is not stated. What does each man do with what he sees?"
+          },
+          {
+            "when": "the student says they cannot tell what the thing is",
+            "ask": "Not knowing is the start of it. What does each man do with the name he gives it?"
+          }
+        ]
+      },
+      "show_part_again": true
+    }
+  ],
+  "advance": {
+    "next_file": "literary_text_band_4_3_0001",
+    "next_irl": 4,
+    "next_means": "The first lesson of this band, which is the highest one authored so far.",
+    "student_line": "You read this one closely. The next reading is another lesson at this level."
+  },
+  "retry": {
+    "next_file": "literary_text_band_4_3_0004",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another lesson at this level."
+  },
+  "stopped": {
+    "next_file": "literary_text_band_4_3_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

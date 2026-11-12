@@ -56,9 +56,7 @@
           "where the Saturday stalls are"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what day it is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {

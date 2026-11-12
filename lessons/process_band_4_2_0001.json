@@ -79,8 +79,8 @@
       "type": "short_answer",
       "skill": "process",
       "difficulty": 2,
-      "show_part": "part_1",
-      "show_part_again": false,
+      "show_part": "all",
+      "show_part_again": true,
       "prompt": "The washer spends the same water, soap, and hour on any load. Why does the crew wait for a full cart?",
       "tutor_only": {
         "confirm": "Right. A half cart pays for a full load and returns half the linen.",
@@ -112,7 +112,7 @@
       "display": {
         "lead": "",
         "label": "Passage",
-        "text": ""
+        "text": "A hospital laundry sorts dirty linen by color and by weight before anything is washed. Sheets and towels go into one tall cart, and the pale scrubs go into another. The washer does its best work when the drum is full, so the crew checks each cart against a mark painted on the machine. A full drum of sheets is one load, and half a drum of scrubs is also one load. The machine uses the same water, the same soap, and the same hour either way. The crew therefore does not start the machine while the cart is short. It keeps sorting until the cart comes up to the mark.\n\nThe waiting costs the laundry real money, so the crew sorts several hours ahead of the wash. Clean linen has to reach the hospital floors by six in the morning, and one full load takes about an hour from wash to fold. That hour does not shrink when the load is small. A short load consumes the same hour and returns only half the linen. When a cart fills slowly, the crew starts the next load early and sends the scrubs through directly behind the sheets. The mark on the drum determines when the machine starts. The clock on the wall decides when the crew stops waiting and runs what it has.\n\nThe order follows the count, because the count decides whether the next step happens at all. Counting comes before washing, washing comes before drying, and drying comes before folding, since wet linen will not fold. The failure is easy to see. A crew that starts the drum at half a load pays for a full load and dries only half as much. A crew that waits too long misses the six o'clock delivery. The rule is to fill the drum, or to leave it empty and keep sorting the rest. A half load is the one mistake that costs at both ends, in money and in time."
       }
     },
     {
@@ -120,7 +120,7 @@
       "type": "short_answer",
       "skill": "process",
       "difficulty": 2,
-      "show_part": "part_2",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "Clean linen has to be on the hospital floors by six. Why can the crew not wait as long as it takes to fill the drum?",
       "tutor_only": {
@@ -138,7 +138,7 @@
           "waiting would make the linen late",
           "an hour is needed, so the wait has a limit"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how many carts the hospital sends"
         ],
@@ -148,12 +148,13 @@
             "when": "the student says the crew runs out of carts",
             "ask": "The carts are not the limit here. What deadline does the linen have?"
           }
-        ]
+        ],
+        "full_idea": "Because a full load takes about an hour, so waiting too long misses the six o'clock delivery."
       },
       "display": {
-        "lead": "Here is the rest of the passage.",
+        "lead": "",
         "label": "Passage",
-        "text": "The waiting costs the laundry real money, so the crew sorts several hours ahead of the wash. Clean linen has to reach the hospital floors by six in the morning, and one full load takes about an hour from wash to fold. That hour does not shrink when the load is small. A short load consumes the same hour and returns only half the linen. When a cart fills slowly, the crew starts the next load early and sends the scrubs through directly behind the sheets. The mark on the drum determines when the machine starts. The clock on the wall decides when the crew stops waiting and runs what it has."
+        "text": "A hospital laundry sorts dirty linen by color and by weight before anything is washed. Sheets and towels go into one tall cart, and the pale scrubs go into another. The washer does its best work when the drum is full, so the crew checks each cart against a mark painted on the machine. A full drum of sheets is one load, and half a drum of scrubs is also one load. The machine uses the same water, the same soap, and the same hour either way. The crew therefore does not start the machine while the cart is short. It keeps sorting until the cart comes up to the mark.\n\nThe waiting costs the laundry real money, so the crew sorts several hours ahead of the wash. Clean linen has to reach the hospital floors by six in the morning, and one full load takes about an hour from wash to fold. That hour does not shrink when the load is small. A short load consumes the same hour and returns only half the linen. When a cart fills slowly, the crew starts the next load early and sends the scrubs through directly behind the sheets. The mark on the drum determines when the machine starts. The clock on the wall decides when the crew stops waiting and runs what it has.\n\nThe order follows the count, because the count decides whether the next step happens at all. Counting comes before washing, washing comes before drying, and drying comes before folding, since wet linen will not fold. The failure is easy to see. A crew that starts the drum at half a load pays for a full load and dries only half as much. A crew that waits too long misses the six o'clock delivery. The rule is to fill the drum, or to leave it empty and keep sorting the rest. A half load is the one mistake that costs at both ends, in money and in time."
       }
     },
     {
@@ -173,7 +174,7 @@
           "The mark can wait a morning. The six o'clock cart cannot."
         ],
         "say_back": "own_words",
-        "core_idea": "The delivery time matters more than a full drum, so the crew runs a short load rather than miss six o'clock.",
+        "core_idea": "The delivery matters more than a full load.",
         "accept_ideas": [
           "the delivery matters more than a full load",
           "it would rather send half than be late",
@@ -189,12 +190,13 @@
             "when": "the student says the crew forgot the mark",
             "ask": "The crew knows the mark. What deadline is pressing on it?"
           }
-        ]
+        ],
+        "full_idea": "The delivery time matters more than a full drum, so the crew runs a short load rather than miss six o'clock."
       },
       "display": {
-        "lead": "",
+        "lead": "Here is the rest of the passage.",
         "label": "Passage",
-        "text": ""
+        "text": "The waiting costs the laundry real money, so the crew sorts several hours ahead of the wash. Clean linen has to reach the hospital floors by six in the morning, and one full load takes about an hour from wash to fold. That hour does not shrink when the load is small. A short load consumes the same hour and returns only half the linen. When a cart fills slowly, the crew starts the next load early and sends the scrubs through directly behind the sheets. The mark on the drum determines when the machine starts. The clock on the wall decides when the crew stops waiting and runs what it has."
       }
     },
     {
@@ -220,7 +222,7 @@
           "the morning cannot make the same amount of linen",
           "every half load spends an hour and gives half the linen"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how many loads the laundry can run"
         ],
@@ -230,7 +232,8 @@
             "when": "the student says the morning stays the same",
             "ask": "Nothing in the machine changes for a half load. What does the crew get back for the hour?"
           }
-        ]
+        ],
+        "full_idea": "Each half load spends a full hour and returns half the linen, so the same linen needs twice the hours and the six o'clock delivery runs short."
       },
       "display": {
         "lead": "",

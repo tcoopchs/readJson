@@ -92,7 +92,7 @@
             "ask": "The line runs left to right on the page. What about each letter?"
           }
         ],
-        "core_idea": "The letter was cut backwards, so it printed the right way round on paper.",
+        "core_idea": "The letter was cut backwards.",
         "accept_ideas": [
           "the letter was cut backwards",
           "it was a mirror image",
@@ -102,7 +102,8 @@
         "not_required": [
           "what metal was used",
           "how big the blocks were"
-        ]
+        ],
+        "full_idea": "The letter was cut backwards, so it printed the right way round on paper."
       },
       "display": {
         "lead": "",
@@ -174,7 +175,7 @@
             "ask": "He already read. What did the arrangement of the type require?"
           }
         ],
-        "core_idea": "Because that is how the type sat in the form, so he was reading the blocks as they were arranged.",
+        "core_idea": "That was the way the type was arranged.",
         "accept_ideas": [
           "that was the way the type was arranged",
           "because the type was reversed in the tray",
@@ -184,7 +185,8 @@
         "not_required": [
           "how many hours it took",
           "who checked the work"
-        ]
+        ],
+        "full_idea": "Because that is how the type sat in the form, so he was reading the blocks as they were arranged."
       },
       "display": {
         "lead": "",
@@ -226,10 +228,7 @@
           "laying out the letters to be printed"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long it took",
-          "what the book was about"
-        ]
+        "not_required": []
       },
       "display": {
         "lead": "",

@@ -60,7 +60,7 @@
           "One of them is the line where the change happens."
         ],
         "say_back": "own_words",
-        "core_idea": "A number, a change, and the line of the play where it belongs.",
+        "core_idea": "A number, a change and a line.",
         "accept_ideas": [
           "a number, a change and a line",
           "the cue number, the change and the line",
@@ -74,7 +74,8 @@
             "when": "the student says the time of night",
             "ask": "The cue is tied to a line, not a time. What three things does it record?"
           }
-        ]
+        ],
+        "full_idea": "A number, a change, and the line of the play where it belongs."
       }
     },
     {
@@ -128,13 +129,12 @@
           "The moment is set by a voice, and a voice is never twice the same."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the line moves by seconds each night, since the actor is not a machine.",
+        "core_idea": "The line moves by seconds each night, since the actor is not a machine.",
         "accept_ideas": [
           "the line moves each night",
           "the actor is not a machine, so the timing drifts",
           "a timer would be early or late"
         ],
-        "one_idea_is_enough": true,
         "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -142,7 +142,9 @@
             "when": "the student says the operator would forget the cue",
             "ask": "The operator is already on standby. What keeps moving each night?"
           }
-        ]
+        ],
+        "full_idea": "Because the line moves by seconds each night, since the actor is not a machine.",
+        "one_idea_is_enough": true
       }
     },
     {
@@ -196,7 +198,7 @@
           "The book holds the change. The night holds the moment."
         ],
         "say_back": "own_words",
-        "core_idea": "Holds standby and calls go when the line finally comes, because the word sets the moment.",
+        "core_idea": "Waits and calls go on the line.",
         "accept_ideas": [
           "waits and calls go on the line",
           "holds the call until the actor speaks",
@@ -210,7 +212,8 @@
             "when": "the student says the manager calls go at the planned second",
             "ask": "The passage puts the call on a word. Which word?"
           }
-        ]
+        ],
+        "full_idea": "Holds standby and calls go when the line finally comes, because the word sets the moment."
       }
     }
   ],

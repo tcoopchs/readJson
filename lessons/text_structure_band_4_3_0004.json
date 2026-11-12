@@ -56,9 +56,7 @@
           "whether it is billed whether or not the shop sells"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how much the rent is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -137,17 +135,16 @@
           "the fuel bill stops when the van stops and insurance does not",
           "one cost follows the sales and the other does not"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "how old the van is"
-        ],
+        "one_idea_is_enough": false,
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says insurance is a kind of fuel cost",
             "ask": "Look at the two sentences about the van. Which cost keeps being paid when the wheels do not turn?"
           }
-        ]
+        ],
+        "full_idea": "Fuel stops with the parcels; the insurance is paid in a quiet month."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -179,9 +176,7 @@
           "see the definition work on a hard case"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "which case is easier"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -213,7 +208,7 @@
           "They put size against stopping, and the passage says which one decides."
         ],
         "say_back": "own_words",
-        "core_idea": "Whether a cost stops is what decides, and its size does not.",
+        "core_idea": "Size does not decide, stopping does.",
         "accept_ideas": [
           "size does not decide, stopping does",
           "a large cost can stop and a small one can keep going",
@@ -229,7 +224,8 @@
             "when": "the student says a slow week is cheaper",
             "ask": "Cheap is about money. The test is about what keeps being billed."
           }
-        ]
+        ],
+        "full_idea": "Whether a cost stops is what decides, and its size does not."
       },
       "display": {
         "lead": "",

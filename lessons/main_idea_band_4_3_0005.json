@@ -140,7 +140,7 @@
           "The word cheaply is in that sentence."
         ],
         "say_back": "own_words",
-        "core_idea": "Removing the solid stone cost too much, so the roof and tower came off and the walls stayed.",
+        "core_idea": "It cost too much to remove.",
         "accept_ideas": [
           "it cost too much to remove",
           "the stone was too solid",
@@ -160,7 +160,8 @@
             "when": "the student says the walls were needed for the dam",
             "ask": "The dam is built at the narrow end. What does the part say about the church?"
           }
-        ]
+        ],
+        "full_idea": "Removing the solid stone cost too much, so the roof and tower came off and the walls stayed."
       },
       "display": {
         "lead": "",
@@ -238,9 +239,7 @@
           "it misses the clearing of the valley"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long a dam lasts"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says nothing is missing",

@@ -60,7 +60,7 @@
           "It names a number of bikes and a number of days."
         ],
         "say_back": "own_words",
-        "core_idea": "A storm closed the road for a week, and twelve bikes waited.",
+        "core_idea": "A storm closed the road.",
         "accept_ideas": [
           "a storm closed the road",
           "twelve bikes waited a week",
@@ -77,7 +77,8 @@
             "when": "the student says the shop closed for good",
             "ask": "The shop lost a week. What stopped the trucks?"
           }
-        ]
+        ],
+        "full_idea": "A storm closed the road for a week, and twelve bikes waited."
       }
     },
     {
@@ -159,7 +160,7 @@
       "type": "short_answer",
       "skill": "argument_evidence",
       "difficulty": 3,
-      "show_part": "part_3",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "A reader says the memo is about the storm. Why is that not the claim?",
       "tutor_only": {
@@ -178,7 +179,7 @@
           "the pages before describe the problem",
           "the storm makes the request worth considering"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how the shop orders now"
         ],
@@ -188,7 +189,8 @@
             "when": "the student says both are claims",
             "ask": "One sentence asks for something. Which one?"
           }
-        ]
+        ],
+        "full_idea": "The storm is the situation that makes the change worth considering, and the claim is the request."
       }
     },
     {

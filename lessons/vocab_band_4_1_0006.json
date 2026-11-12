@@ -92,7 +92,7 @@
             "ask": "No escape is mentioned. What problem does the hill create?"
           }
         ],
-        "core_idea": "Because water will not run uphill, so a lock lifts boats to the next level.",
+        "core_idea": "To raise boats over a hill.",
         "accept_ideas": [
           "to raise boats over a hill",
           "to move boats up or down between levels",
@@ -102,7 +102,8 @@
         "not_required": [
           "how big the chamber is",
           "who opens the gates"
-        ]
+        ],
+        "full_idea": "Because water will not run uphill, so a lock lifts boats to the next level."
       },
       "display": {
         "lead": "",
@@ -171,7 +172,7 @@
             "ask": "Horses come in the last part. What did he do with the gates?"
           }
         ],
-        "core_idea": "Watched the gates, opened and closed them for each boat, and recorded the traffic.",
+        "core_idea": "Opened and closed the gates for boats.",
         "accept_ideas": [
           "opened and closed the gates for boats",
           "ran the locks and kept a record of boats",
@@ -179,9 +180,9 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how much the job paid",
           "where the reservoir was"
-        ]
+        ],
+        "full_idea": "Watched the gates, opened and closed them for each boat, and recorded the traffic."
       },
       "display": {
         "lead": "",
@@ -216,17 +217,17 @@
             "ask": "The passage says speed came on rails, but it also says the slowness was the point. Why?"
           }
         ],
-        "core_idea": "The slowness was acceptable because the load arrived whole and the cost of moving it was low.",
+        "core_idea": "Being slow did not matter because the goods arrived safely and cheaply.",
         "accept_ideas": [
           "being slow did not matter because the goods arrived safely and cheaply",
           "slow travel was worth it for the low cost",
           "the point was cheap, safe delivery, not speed"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "how fast a horse walks",
           "what the canal carried"
-        ]
+        ],
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",

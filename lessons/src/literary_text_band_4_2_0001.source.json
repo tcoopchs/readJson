@@ -67,9 +67,7 @@
           "it brands the calves with the family sign"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how many calves are in the pen"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -96,23 +94,22 @@
           "He cut the rod himself, and one corner was left open."
         ],
         "say_back": "own_words",
-        "core_idea": "The father left one corner of the letter open, so every calf shows the same gap.",
+        "core_idea": "The father left a corner of the letter open.",
         "accept_ideas": [
           "the father left a corner of the letter open",
           "the sign has an open corner in it",
           "it is how the sign was cut"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the new tool is made of"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the gap is a mistake in the paint",
             "ask": "Nothing is painted here. The sentence about the sign says how it was cut."
           }
-        ]
+        ],
+        "full_idea": "The father left one corner of the letter open, so every calf shows the same gap."
       }
     },
     {
@@ -168,23 +165,22 @@
           "It starts with a cow bought before the barn and the fence."
         ],
         "say_back": "own_words",
-        "core_idea": "The heifer comes from the father's first cow, so the mother wants the old mark on it.",
+        "core_idea": "Her line goes back to the father's first cow.",
         "accept_ideas": [
           "her line goes back to the father's first cow",
           "she is from the oldest line on the place",
           "the mother wants the family sign on that line"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the new tool cost"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the mother wants to save money",
             "ask": "The new tool is already hot and costs less time. What does the line have to do with it?"
           }
-        ]
+        ],
+        "full_idea": "The heifer comes from the father's first cow, so the mother wants the old mark on it."
       }
     },
     {
@@ -212,9 +208,7 @@
           "she chooses it once a spring"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the new tool can do"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {

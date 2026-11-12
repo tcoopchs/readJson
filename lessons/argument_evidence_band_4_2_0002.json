@@ -133,14 +133,13 @@
           "It names the days and people left out."
         ],
         "say_back": "own_words",
-        "core_idea": "Because it covers one swim on one day, not other days or other swimmers.",
+        "core_idea": "It covers one swim on one day, not other days or other swimmers.",
         "accept_ideas": [
           "it is only one swim on one day",
           "it does not cover other swimmers",
           "one person's impression is not the whole pool",
           "it says nothing about the other days"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "who wrote the comment"
         ],
@@ -150,7 +149,9 @@
             "when": "the student says the member is not a good swimmer",
             "ask": "The issue is coverage, not skill. How many days does the comment describe?"
           }
-        ]
+        ],
+        "full_idea": "Because it covers one swim on one day, not other days or other swimmers.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -175,7 +176,7 @@
           "It contrasts an impression with a daily record."
         ],
         "say_back": "own_words",
-        "core_idea": "A feeling from one swim is not a measurement, and the daily log was not used.",
+        "core_idea": "One feeling is not a measurement.",
         "accept_ideas": [
           "one feeling is not a measurement",
           "the note ignored the test log",
@@ -192,7 +193,8 @@
             "when": "the student says the member is lying",
             "ask": "The comment may be honest. The problem is what one comment can prove."
           }
-        ]
+        ],
+        "full_idea": "A feeling from one swim is not a measurement, and the daily log was not used."
       },
       "display": {
         "lead": "",

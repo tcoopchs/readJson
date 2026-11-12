@@ -107,8 +107,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how long it grows",
-          "what it is made of"
+          "how long it grows"
         ]
       }
     },
@@ -176,8 +175,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how much sugar",
-          "how old the tree is"
+          "how much sugar"
         ]
       }
     },
@@ -208,17 +206,15 @@
             "ask": "The forest claim is the loose one. What makes the soil claim different?"
           }
         ],
-        "core_idea": "The soil really does contain living organisms, so the phrase is accurate rather than poetic.",
+        "core_idea": "The soil actually holds living things.",
         "accept_ideas": [
           "the soil actually holds living things",
           "it is literally true, not just a figure of speech",
           "the soil is full of living fungi and other organisms"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what lives in the soil",
-          "how deep the soil goes"
-        ]
+        "not_required": [],
+        "full_idea": "The soil really does contain living organisms, so the phrase is accurate rather than poetic."
       }
     }
   ],

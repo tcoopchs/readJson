@@ -129,7 +129,7 @@
           "Look at what a longer cell does to that side of the stem."
         ],
         "say_back": "own_words",
-        "core_idea": "Cells on the shaded side stretch longer, so that side pushes the stem into a curve.",
+        "core_idea": "The shaded cells stretch.",
         "accept_ideas": [
           "the shaded cells stretch",
           "one side grows longer",
@@ -137,15 +137,14 @@
           "longer cells on one side"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "the colour of the pot"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the stem is weak",
             "ask": "A weak stem would droop evenly. The passage names one side growing longer. Which side?"
           }
-        ]
+        ],
+        "full_idea": "Cells on the shaded side stretch longer, so that side pushes the stem into a curve."
       }
     },
     {
@@ -208,9 +207,7 @@
           "turn toward the new window"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long it would take"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says it would keep leaning the old way",

@@ -49,7 +49,7 @@
           "It names the state of the bank."
         ],
         "say_back": "own_words",
-        "core_idea": "The bank keeps falling in because it is not stable.",
+        "core_idea": "The bank is not stable.",
         "accept_ideas": [
           "the bank is not stable",
           "the bank keeps falling in",
@@ -57,16 +57,15 @@
           "the bank is not steady"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who wrote the note"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the note gives no reason at all",
             "ask": "The first line does give one. What state does it name for the bank?"
           }
-        ]
+        ],
+        "full_idea": "The bank keeps falling in because it is not stable."
       },
       "display": {
         "lead": "",
@@ -91,24 +90,23 @@
           "It names what is missing from the bank."
         ],
         "say_back": "own_words",
-        "core_idea": "Hard rain, because no roots hold the soil in place.",
+        "core_idea": "Hard rain.",
         "accept_ideas": [
           "rain, since no roots hold the soil",
           "hard rain washes it in",
           "the soil has no roots to hold it",
           "rain carries the soil away"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "how much rain fell last year"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the pond pulls the soil in",
             "ask": "The note names what the bank lacks. What happens to soil without roots in a hard rain?"
           }
-        ]
+        ],
+        "full_idea": "Hard rain, because no roots hold the soil in place.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -133,7 +131,7 @@
           "One reason names a cause the reader can look for."
         ],
         "say_back": "own_words",
-        "core_idea": "The second names a cause and what the reeds will do, and the first only repeats the claim.",
+        "core_idea": "The second says what causes the falling and what the reeds do.",
         "accept_ideas": [
           "the second says what causes the falling and what the reeds do",
           "the first only repeats the claim",
@@ -150,7 +148,8 @@
             "when": "the student says both reasons are equally good",
             "ask": "Compare the two sentences. Which one names something a reader can go and look at?"
           }
-        ]
+        ],
+        "full_idea": "The second names a cause and what the reeds will do, and the first only repeats the claim."
       },
       "display": {
         "lead": "",
@@ -183,9 +182,7 @@
           "it adds nothing new"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how much the work will cost"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -224,7 +221,7 @@
           "the second one, because it predicts the soil staying",
           "the one that says roots hold the soil"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how long the reeds take to spread"
         ],
@@ -234,7 +231,8 @@
             "when": "the student picks the first reason",
             "ask": "The first reason says nothing about reeds. Which reason names what they will do?"
           }
-        ]
+        ],
+        "full_idea": "The reason about roots, because it names the cause and what the roots will do."
       },
       "display": {
         "lead": "",

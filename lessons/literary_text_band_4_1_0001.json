@@ -91,7 +91,7 @@
           "It is about how many bikes the shop took in."
         ],
         "say_back": "own_words",
-        "core_idea": "The shop had more bikes than racks, so the owner was too busy.",
+        "core_idea": "The shop was too busy.",
         "accept_ideas": [
           "the shop was too busy",
           "there were more bikes than racks",
@@ -111,7 +111,8 @@
             "when": "the student says the helper was fast or good at his job",
             "ask": "Speed is what the helper did, not why the watching stopped. What changed in the shop?"
           }
-        ]
+        ],
+        "full_idea": "The shop had more bikes than racks, so the owner was too busy."
       },
       "display": {
         "lead": "",
@@ -143,9 +144,7 @@
           "he treated it as his own job"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the new rim cost"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -183,7 +182,7 @@
           "the owner showed him how to fix a mistake quietly",
           "the owner stopped because he was behind"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how many bikes the shop repaired that month"
         ],
@@ -193,7 +192,8 @@
             "when": "the student says the helper was told to check twice",
             "ask": "Nothing shows the owner telling him. What did the helper see the owner do?"
           }
-        ]
+        ],
+        "full_idea": "The owner's example taught the helper, and the owner dropped his own check when work piled up."
       },
       "display": {
         "lead": "Here is the rest of the passage.",

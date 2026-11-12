@@ -100,8 +100,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how short the sentence is",
-          "who wrote it"
+          "how short the sentence is"
         ]
       },
       "display": {
@@ -180,11 +179,11 @@
           "the writer likes it even though it slows the piece",
           "it is good, so removing it feels wrong"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
-          "how long the sentence is",
-          "who wrote it"
-        ]
+          "how long the sentence is"
+        ],
+        "full_idea": "The writer keeps it because it is well made, but it slows the paragraph, so its quality is the reason it is hard to remove."
       },
       "display": {
         "lead": "",
@@ -225,11 +224,12 @@
           "each suggestion was either accepted or argued against",
           "nothing was ignored; the writer changed it or defended it"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how many marks there were",
           "who won the argument"
-        ]
+        ],
+        "full_idea": "The writer either made the edit or explained why it should not be made, so no mark was simply ignored."
       },
       "display": {
         "lead": "",

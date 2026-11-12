@@ -60,23 +60,22 @@
           "They describe what the sound did and how it sounded."
         ],
         "say_back": "own_words",
-        "core_idea": "Sound came back late, so the music and speech sounded blurred.",
+        "core_idea": "There was an echo.",
         "accept_ideas": [
           "there was an echo",
           "the sound bounced back late",
           "it sounded blurred"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how many seats the hall had"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the hall was too small",
             "ask": "Size is not the problem given. What did the sound do off the walls?"
           }
-        ]
+        ],
+        "full_idea": "Sound came back late, so the music and speech sounded blurred."
       }
     },
     {
@@ -103,9 +102,7 @@
           "to hear the delay"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "to test the seats"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -132,7 +129,7 @@
           "It says what happened to the echo."
         ],
         "say_back": "own_words",
-        "core_idea": "They absorbed the sound, and the echo stopped.",
+        "core_idea": "They absorbed the sound.",
         "accept_ideas": [
           "they absorbed the sound",
           "they stopped the echo",
@@ -148,7 +145,8 @@
             "when": "the student says the panels blocked the stage",
             "ask": "Blocking is not what the passage describes. What does cloth do to sound?"
           }
-        ]
+        ],
+        "full_idea": "They absorbed the sound, and the echo stopped."
       }
     },
     {
@@ -168,23 +166,22 @@
           "They say what the players lost when the echo stopped."
         ],
         "say_back": "own_words",
-        "core_idea": "The room went dead, so the players could not hear each other.",
+        "core_idea": "Too much sound was absorbed.",
         "accept_ideas": [
           "too much sound was absorbed",
           "the room went dead",
           "they could not hear each other play"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how loud the music was"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the panels fell down",
             "ask": "Nothing fell. What did the absorption do to the room?"
           }
-        ]
+        ],
+        "full_idea": "The room went dead, so the players could not hear each other."
       }
     },
     {
@@ -204,7 +201,7 @@
           "The same panels are a solution in one part and a cause in the next."
         ],
         "say_back": "own_words",
-        "core_idea": "Because each fix created the next problem, so the room had to be tuned in steps.",
+        "core_idea": "The first solution caused the second problem.",
         "accept_ideas": [
           "the first solution caused the second problem",
           "each change made a new problem",
@@ -220,7 +217,8 @@
             "when": "the student says the engineer was wrong the first time",
             "ask": "The passage says the panels stopped the echo. What did they do besides that?"
           }
-        ]
+        ],
+        "full_idea": "Because each fix created the next problem, so the room had to be tuned in steps."
       }
     }
   ],

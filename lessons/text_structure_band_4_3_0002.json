@@ -90,7 +90,7 @@
           "It says which of the two is carried away and which is not."
         ],
         "say_back": "own_words",
-        "core_idea": "The salt stays behind, so a sea with no outlet keeps it.",
+        "core_idea": "The salt stays behind.",
         "accept_ideas": [
           "the salt stays behind",
           "the water leaves and the salt stays",
@@ -106,7 +106,8 @@
             "when": "the student says the salt leaves with the vapor",
             "ask": "Read the sentence about what leaves the sea. Which of the two, water or salt, is carried up?"
           }
-        ]
+        ],
+        "full_idea": "The salt stays behind, so a sea with no outlet keeps it."
       },
       "display": {
         "lead": "",
@@ -137,7 +138,7 @@
           "water leaves the closed basin only as vapor, so the salt stays",
           "the basin has no river running out"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "what the lake water tastes like"
         ],
@@ -147,7 +148,8 @@
             "when": "the student says the mountain lake gets no salt",
             "ask": "The passage says the closed basin collects salt from its streams. What does a mountain lake have that the basin lacks?"
           }
-        ]
+        ],
+        "full_idea": "The mountain lake has a river running out; the closed basin has no outlet, so the salt gathers."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -180,9 +182,7 @@
           "the reader has to have the first two"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long the page is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {

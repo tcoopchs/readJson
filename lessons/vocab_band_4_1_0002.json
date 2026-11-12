@@ -95,7 +95,7 @@
             "ask": "The fast side is the outside. Where does the water slow?"
           }
         ],
-        "core_idea": "The water moves fastest there and carries soil away, so that bank is cut back.",
+        "core_idea": "The bank is worn away.",
         "accept_ideas": [
           "the bank is worn away",
           "the fast water carries soil off the bank",
@@ -103,9 +103,9 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how deep the water is",
-          "what kind of soil it is"
-        ]
+          "how deep the water is"
+        ],
+        "full_idea": "The water moves fastest there and carries soil away, so that bank is cut back."
       },
       "display": {
         "lead": "",
@@ -185,8 +185,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "what stone they use",
-          "where the town is"
+          "what stone they use"
         ]
       },
       "show_part_again": true,
@@ -231,8 +230,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how old the river is",
-          "where the town sits"
+          "how old the river is"
         ]
       },
       "display": {

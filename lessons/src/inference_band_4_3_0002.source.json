@@ -57,7 +57,7 @@
           "Find the sentence that lists what stayed the same."
         ],
         "say_back": "own_words",
-        "core_idea": "The recipe, the flour, and the oven model.",
+        "core_idea": "The recipe flour and oven.",
         "accept_ideas": [
           "the recipe flour and oven",
           "recipe and flour",
@@ -73,7 +73,8 @@
             "when": "the student says she bought a new oven",
             "ask": "The passage says the oven was new in both shops. What did she keep the same?"
           }
-        ]
+        ],
+        "full_idea": "The recipe, the flour, and the oven model."
       }
     },
     {
@@ -93,7 +94,7 @@
           "Then look at what did go wrong."
         ],
         "say_back": "own_words",
-        "core_idea": "It rules out bad ingredients, because the bread still tasted right.",
+        "core_idea": "The ingredients were fine.",
         "accept_ideas": [
           "the ingredients were fine",
           "it is not the flour",
@@ -109,7 +110,8 @@
             "when": "the student says the customers were being kind",
             "ask": "The passage uses their reaction as evidence. What did they still find good?"
           }
-        ]
+        ],
+        "full_idea": "It rules out bad ingredients, because the bread still tasted right."
       }
     },
     {
@@ -137,9 +139,7 @@
           "lower pressure outside"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how warm the kitchen was"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the kitchen was warmer",
@@ -165,7 +165,7 @@
           "Look at what happens to a loaf whose structure cannot hold them."
         ],
         "say_back": "own_words",
-        "core_idea": "The bubbles were too large for the dough to hold, so the loaf sank.",
+        "core_idea": "The bubbles were too big.",
         "accept_ideas": [
           "the bubbles were too big",
           "the structure could not hold",
@@ -173,15 +173,14 @@
           "the dough could not hold the gas"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long it baked"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says she baked it too long",
             "ask": "The loaf sank as it baked. What does the passage blame for that?"
           }
-        ]
+        ],
+        "full_idea": "The bubbles were too large for the dough to hold, so the loaf sank."
       }
     },
     {
@@ -201,7 +200,7 @@
           "Then think about what would reduce that expansion."
         ],
         "say_back": "own_words",
-        "core_idea": "They slow the rise, so the dough does not over-expand before it bakes.",
+        "core_idea": "Less gas before baking.",
         "accept_ideas": [
           "less gas before baking",
           "it slows the rise",
@@ -217,7 +216,8 @@
             "when": "the student says she needs a hotter oven",
             "ask": "The oven was the same model. What did the passage say was too large?"
           }
-        ]
+        ],
+        "full_idea": "They slow the rise, so the dough does not over-expand before it bakes."
       }
     }
   ],

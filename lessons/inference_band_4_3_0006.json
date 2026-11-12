@@ -55,9 +55,7 @@
           "when the wind picks up"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what wood is burned"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says when it is cold",
@@ -170,7 +168,7 @@
           "Look at what that does to the pressure."
         ],
         "say_back": "own_words",
-        "core_idea": "They make the wind uneven, so the pressure at the chimney keeps changing.",
+        "core_idea": "They make the wind uneven.",
         "accept_ideas": [
           "they make the wind uneven",
           "the wind is not steady",
@@ -186,7 +184,8 @@
             "when": "the student says the trees block the chimney",
             "ask": "Blocking is ruled out. What does the passage say the trees do to the wind?"
           }
-        ]
+        ],
+        "full_idea": "They make the wind uneven, so the pressure at the chimney keeps changing."
       },
       "display": {
         "lead": "",
@@ -211,23 +210,22 @@
           "Look at which force the passage says wins."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the downdraft pushes smoke back faster than the fire can push it out.",
+        "core_idea": "The downdraft pushes smoke back faster than the fire can push it out.",
         "accept_ideas": [
           "the downdraft wins",
           "the pressure is stronger",
           "the wind beats the fire",
           "the smoke is pushed back faster"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "how much wood is used"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the fire is too small",
             "ask": "The fire is not the problem; the pull is being beaten. What does the passage say a cap or a taller chimney does?"
           }
-        ]
+        ],
+        "full_idea": "Because the downdraft pushes smoke back faster than the fire can push it out.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",

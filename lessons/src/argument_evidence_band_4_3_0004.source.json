@@ -68,9 +68,7 @@
           "the warm-up halved the injury count"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how often the club meets"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -134,7 +132,7 @@
           "They name one runner as enough to change the count."
         ],
         "say_back": "own_words",
-        "core_idea": "Because injuries among sixty runners are rare, so one runner can move the count by itself.",
+        "core_idea": "One runner can move the count.",
         "accept_ideas": [
           "one runner can move the count",
           "injuries are rare at this club",
@@ -142,16 +140,15 @@
           "a single bad step changes the total"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long each run is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the club got luckier weather",
             "ask": "The club counted three injuries in two seasons. What does one runner weigh in that count?"
           }
-        ]
+        ],
+        "full_idea": "Because injuries among sixty runners are rare, so one runner can move the count by itself."
       }
     },
     {
@@ -161,7 +158,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "A reader says the note proves the warm-up cut injuries. Is that shown?",
+      "prompt": "A reader says the note proves the warm-up cut injuries. Is that shown? Say which words in the passage decide it.",
       "tutor_only": {
         "confirm": "No. One injury fewer is too small a change to separate the warm-up from luck.",
         "correct_reason": "A fall from two to one moves the whole percentage, so the number is too small to show what caused the difference.",
@@ -171,14 +168,13 @@
           "They show how little one injury means here."
         ],
         "say_back": "own_words",
-        "core_idea": "No, because a change of one injury is too small to separate the warm-up from luck.",
+        "core_idea": "A change of one injury is too small to separate the warm-up from luck.",
         "accept_ideas": [
           "no, one injury is too small a change",
           "no, two seasons cannot show it",
           "no, the numbers are too small",
           "no, luck could explain one injury"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "how many members the club has"
         ],
@@ -188,7 +184,9 @@
             "when": "the student says fifty percent is a large fall, so the warm-up works",
             "ask": "Half of two is one. How much does one runner move a club of sixty?"
           }
-        ]
+        ],
+        "full_idea": "No, because a change of one injury is too small to separate the warm-up from luck.",
+        "one_idea_is_enough": true
       }
     },
     {
@@ -208,7 +206,7 @@
           "They show what a pattern would need."
         ],
         "say_back": "own_words",
-        "core_idea": "More seasons or more runners, so the counts are large enough to compare.",
+        "core_idea": "More seasons of data.",
         "accept_ideas": [
           "more seasons of data",
           "a much larger group of runners",
@@ -216,16 +214,15 @@
           "many more seasons than two"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "a warmer place to run"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the club should count the same two seasons again",
             "ask": "Two seasons gave three injuries. Would a fourth season settle it? What has to grow?"
           }
-        ]
+        ],
+        "full_idea": "More seasons or more runners, so the counts are large enough to compare."
       }
     }
   ],

@@ -68,9 +68,7 @@
           "a ten o'clock last bus"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how much the change would cost"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -134,7 +132,7 @@
           "It names the people who were not asked."
         ],
         "say_back": "own_words",
-        "core_idea": "Because only bus riders were asked, and everyone else was left out.",
+        "core_idea": "Only bus riders were asked.",
         "accept_ideas": [
           "only bus riders were asked",
           "people who do not ride never got a card",
@@ -151,7 +149,8 @@
             "when": "the student says three hundred is too small a number",
             "ask": "The problem is not the size of the count. Who was never asked?"
           }
-        ]
+        ],
+        "full_idea": "Because only bus riders were asked, and everyone else was left out."
       }
     },
     {
@@ -161,7 +160,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "A reader says every person in town was asked. Does the notice support that?",
+      "prompt": "A reader says every person in town was asked. Does the notice support that? Say which words in the passage decide it.",
       "tutor_only": {
         "confirm": "No. The cards went only to passengers boarding the bus.",
         "correct_reason": "The notice says cards were handed to passengers as they got on the bus, so people who were not riding were not asked.",
@@ -171,14 +170,13 @@
           "It names the group that received them."
         ],
         "say_back": "own_words",
-        "core_idea": "No, because only people boarding the bus received a card.",
+        "core_idea": "Only people boarding the bus received a card.",
         "accept_ideas": [
           "no, only bus riders were asked",
           "no, the cards went to passengers only",
           "no, people not on the bus were not asked",
           "no, it says nothing about everyone in town"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "how the office counted the answers"
         ],
@@ -188,7 +186,9 @@
             "when": "the student says yes because three hundred is a large number",
             "ask": "A large number from one group is still one group. Who received the cards?"
           }
-        ]
+        ],
+        "full_idea": "No, because only people boarding the bus received a card.",
+        "one_idea_is_enough": true
       }
     },
     {

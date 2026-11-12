@@ -97,9 +97,7 @@
           "loading the last car"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how many cars the lane holds"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -137,7 +135,6 @@
           "it cuts the meeting and keeps the rest",
           "the meeting has minutes to give"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "how long the meeting usually runs"
         ],
@@ -147,7 +144,8 @@
             "when": "the student says the crew skips the weighing",
             "ask": "The passage says the weighing cannot be skipped. Which step can give time?"
           }
-        ]
+        ],
+        "one_idea_is_enough": false
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -172,23 +170,22 @@
           "The step is not a wait. A car is already moving on it."
         ],
         "say_back": "own_words",
-        "core_idea": "A car halfway up the ramp cannot stop, and the boat has to stay balanced.",
+        "core_idea": "A car cannot stop halfway up.",
         "accept_ideas": [
           "a car cannot stop halfway up",
           "the boat has to stay balanced while loading",
           "cars are already on the ramp"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how steep the ramp is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the ramp is not needed",
             "ask": "The cars have to get aboard somehow. What is happening while the ramp is up?"
           }
-        ]
+        ],
+        "full_idea": "A car halfway up the ramp cannot stop, and the boat has to stay balanced."
       },
       "display": {
         "lead": "",
@@ -213,7 +210,7 @@
           "One way finds the shortage at the end. The other knows it from the start."
         ],
         "say_back": "own_words",
-        "core_idea": "Working forward runs out of time at the ramp; from the sailing time each step gets its own minutes.",
+        "core_idea": "Forward working runs out of time at the end.",
         "accept_ideas": [
           "forward working runs out of time at the end",
           "the fixed finish tells each step how long it has",
@@ -229,7 +226,8 @@
             "when": "the student says it is easier to count backward",
             "ask": "The passage gives a reason about time, not about ease. What runs out?"
           }
-        ]
+        ],
+        "full_idea": "Working forward runs out of time at the ramp; from the sailing time each step gets its own minutes."
       },
       "display": {
         "lead": "Here is the rest of the passage.",

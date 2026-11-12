@@ -175,7 +175,7 @@
           "Read the number for what it counts."
         ],
         "say_back": "own_words",
-        "core_idea": "The eleven are the bunches that spoiled, and there is no earlier count.",
+        "core_idea": "Eleven is what spoiled, not what was saved.",
         "accept_ideas": [
           "eleven is what spoiled, not what was saved",
           "the number counts spoiled bunches",
@@ -192,7 +192,8 @@
             "when": "the student says eleven were saved",
             "ask": "The sign counts bunches in the compost. Were they saved?"
           }
-        ]
+        ],
+        "full_idea": "The eleven are the bunches that spoiled, and there is no earlier count."
       },
       "display": {
         "lead": "Here is the rest of the passage.",

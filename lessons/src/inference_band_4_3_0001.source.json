@@ -65,9 +65,7 @@
           "in august"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how deep the well is"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says in spring",
@@ -136,7 +134,7 @@
           "spring refills it and summer empties it",
           "it is lowest at the end of summer"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how hot August is"
         ],
@@ -145,7 +143,8 @@
             "when": "the student says August is the hottest month",
             "ask": "Heat matters, but the passage gives a sequence. When does the water come in?"
           }
-        ]
+        ],
+        "full_idea": "Recharge comes in spring, and the summer draws the water down, so August is lowest."
       }
     },
     {

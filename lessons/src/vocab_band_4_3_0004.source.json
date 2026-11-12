@@ -102,7 +102,6 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "how the men were armed",
           "how many men walked"
         ]
       }
@@ -173,11 +172,11 @@
           "money and a night of work both paid the share",
           "the poor paid in time instead of cash"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
-          "how much the sum was",
           "how many households there were"
-        ]
+        ],
+        "full_idea": "A household could pay money or send a man to walk, and both counted as its share."
       },
       "show_part_again": true
     },
@@ -209,11 +208,12 @@
           "the watchmen were not really paid",
           "the town grew and the shares stopped working"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "when the paid force started",
           "what the force cost"
-        ]
+        ],
+        "full_idea": "The town outgrew it: too few men for the streets, no real pay for the man walking, and substitutes who did not know the streets."
       },
       "show_part_again": true
     }

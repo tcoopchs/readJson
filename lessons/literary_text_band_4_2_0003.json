@@ -131,23 +131,22 @@
           "Four boats came where a queue had come. Nothing explains one boat at a time."
         ],
         "say_back": "own_words",
-        "core_idea": "It gives the fleet-wide causes, fuel and the buyers, and never accounts for each missing boat.",
+        "core_idea": "Fuel went up and buyers left.",
         "accept_ideas": [
           "fuel went up and buyers left",
           "only four boats were left working",
           "it says why the trade shrank, not what happened to each boat"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how many men lost work"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the other boats sank",
             "ask": "No wreck is mentioned. Read what the story does give about the change."
           }
-        ]
+        ],
+        "full_idea": "It gives the fleet-wide causes, fuel and the buyers, and never accounts for each missing boat."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -172,7 +171,7 @@
           "A thin block is cheaper at the plant and dearer at sea, he says."
         ],
         "say_back": "own_words",
-        "core_idea": "He kept the thick block because the trips were longer and the ice had to last four days.",
+        "core_idea": "A thin block melts before the boat gets home.",
         "accept_ideas": [
           "a thin block melts before the boat gets home",
           "the trips are longer now",
@@ -190,7 +189,8 @@
             "when": "the student says he was stubborn about the old way",
             "ask": "Stubbornness is not a reason a skipper would give. What does a long trip need?"
           }
-        ]
+        ],
+        "full_idea": "He kept the thick block because the trips were longer and the ice had to last four days."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -215,7 +215,7 @@
           "Cheaper at the plant and dearer at sea is the whole of the argument."
         ],
         "say_back": "own_words",
-        "core_idea": "He saw that a thinner block costs the boats more than it saves the plant, and he dropped the change.",
+        "core_idea": "He agreed the block has to last.",
         "accept_ideas": [
           "he agreed the block has to last",
           "he understood the thin block costs the boats",
@@ -231,7 +231,8 @@
             "when": "the student says the foreman was told to stop by his manager",
             "ask": "No manager appears. Who spoke to him, and about what?"
           }
-        ]
+        ],
+        "full_idea": "He saw that a thinner block costs the boats more than it saves the plant, and he dropped the change."
       },
       "display": {
         "lead": "",

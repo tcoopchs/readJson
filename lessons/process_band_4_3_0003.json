@@ -49,7 +49,7 @@
           "One clutch does not hatch on a single day."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the hatch estimate is rough, so they must catch the right moment.",
+        "core_idea": "The hatch date is only an estimate.",
         "accept_ideas": [
           "the hatch date is only an estimate",
           "the eggs hatch over several days",
@@ -63,7 +63,8 @@
             "when": "the student says they return to count the eggs again",
             "ask": "The count happens once. What does the estimate make them come back for?"
           }
-        ]
+        ],
+        "full_idea": "Because the hatch estimate is rough, so they must catch the right moment."
       },
       "display": {
         "lead": "",
@@ -88,7 +89,7 @@
           "One failure loses the band, and the other keeps it off the bird."
         ],
         "say_back": "own_words",
-        "core_idea": "Too early the band slips over the foot and is lost, and too late the leg is too thick for it.",
+        "core_idea": "Too early it slides off and is lost, too late the leg is too big.",
         "accept_ideas": [
           "too early it slides off and is lost, too late the leg is too big",
           "the band falls off early, and it will not fit late"
@@ -101,7 +102,8 @@
             "when": "the student says too early the chick is too small to hold",
             "ask": "The passage says the band slides somewhere. Where does it go?"
           }
-        ]
+        ],
+        "full_idea": "Too early the band slips over the foot and is lost, and too late the leg is too thick for it."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -126,13 +128,12 @@
           "The count can wait a week. The leg cannot."
         ],
         "say_back": "own_words",
-        "core_idea": "Because the window is set by the chick's growth and does not reopen.",
+        "core_idea": "The window is set by the chick's growth and does not reopen.",
         "accept_ideas": [
           "the window is set by the bird, not the crew",
           "it closes and does not come back",
           "waiting loses the chance for that chick"
         ],
-        "one_idea_is_enough": true,
         "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -140,7 +141,9 @@
             "when": "the student says banding takes longer than counting",
             "ask": "Length is not the point. What happens to a window that is missed?"
           }
-        ]
+        ],
+        "full_idea": "Because the window is set by the chick's growth and does not reopen.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -165,7 +168,7 @@
           "The window does not reopen later in the season."
         ],
         "say_back": "own_words",
-        "core_idea": "The chance to band that chick, because the box is skipped.",
+        "core_idea": "That chick goes unbanded.",
         "accept_ideas": [
           "that chick goes unbanded",
           "the box is skipped for the year",
@@ -179,7 +182,8 @@
             "when": "the student says they come back the next day",
             "ask": "The passage says the window does not reopen. What happens to that box?"
           }
-        ]
+        ],
+        "full_idea": "The chance to band that chick, because the box is skipped."
       },
       "display": {
         "lead": "",
@@ -204,7 +208,7 @@
           "An older clutch has less window left, not more."
         ],
         "say_back": "own_words",
-        "core_idea": "Band that box now, because the window may be closing and it does not reopen.",
+        "core_idea": "Band them at once, before the legs grow.",
         "accept_ideas": [
           "band them at once, before the legs grow",
           "visit that box first",
@@ -218,7 +222,8 @@
             "when": "the student says wait for the next scheduled visit",
             "ask": "What does the passage say a missed window does?"
           }
-        ]
+        ],
+        "full_idea": "Band that box now, because the window may be closing and it does not reopen."
       },
       "display": {
         "lead": "",

@@ -50,7 +50,7 @@
           "The seller speaks the number."
         ],
         "say_back": "own_words",
-        "core_idea": "The seller quotes a price when the buyer stops; nothing on the floor is marked.",
+        "core_idea": "The seller tells them.",
         "accept_ideas": [
           "the seller tells them",
           "the seller quotes a price",
@@ -70,7 +70,8 @@
             "when": "the student says the price is set at an office",
             "ask": "An office is mentioned only to say the price is not set there. Who quotes it?"
           }
-        ]
+        ],
+        "full_idea": "The seller quotes a price when the buyer stops; nothing on the floor is marked."
       },
       "display": {
         "lead": "",
@@ -103,9 +104,7 @@
           "too much produce lowers the price"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "which vegetables sell best"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says it is about how tomatoes are grown",
@@ -140,7 +139,7 @@
           "The part says it is worth nothing by morning."
         ],
         "say_back": "own_words",
-        "core_idea": "A crate unsold by morning is worth nothing, so a low price beats no sale.",
+        "core_idea": "Unsold produce is worth nothing the next day.",
         "accept_ideas": [
           "unsold produce is worth nothing the next day",
           "the crate would be thrown out",
@@ -160,7 +159,8 @@
             "when": "the student says the price is fixed by the city",
             "ask": "The part says the price is not set in an office. Why sell low, then?"
           }
-        ]
+        ],
+        "full_idea": "A crate unsold by morning is worth nothing, so a low price beats no sale."
       },
       "display": {
         "lead": "",
@@ -185,7 +185,7 @@
           "The passage calls the number a report, not a rule."
         ],
         "say_back": "own_words",
-        "core_idea": "The day's price is found on the floor from that morning's supply, and it lasts about a day.",
+        "core_idea": "The price is set each morning by what arrived.",
         "accept_ideas": [
           "the price is set each morning by what arrived",
           "a daily price found on the market floor",
@@ -206,7 +206,8 @@
             "when": "the student says it is about trucks and roads",
             "ask": "Trucks carry the load. What does the load decide?"
           }
-        ]
+        ],
+        "full_idea": "The day's price is found on the floor from that morning's supply, and it lasts about a day."
       },
       "display": {
         "lead": "",
@@ -231,7 +232,7 @@
           "Two weeks of weather shows up as one number."
         ],
         "say_back": "own_words",
-        "core_idea": "It leaves out the price-finding on the floor, and that the weather matters only through the size of the load.",
+        "core_idea": "It leaves out how the price is found.",
         "accept_ideas": [
           "it leaves out how the price is found",
           "it misses the market floor",
@@ -239,9 +240,7 @@
           "it leaves out that the price lasts a day"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "which crops need rain"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says nothing is missing",
@@ -251,7 +250,8 @@
             "when": "the student says it leaves out the buyers",
             "ask": "Buyers are in every part. What do they and the sellers produce together?"
           }
-        ]
+        ],
+        "full_idea": "It leaves out the price-finding on the floor, and that the weather matters only through the size of the load."
       },
       "display": {
         "lead": "",

@@ -134,14 +134,13 @@
           "They name the wells and the season left out."
         ],
         "say_back": "own_words",
-        "core_idea": "Because one of four wells was tested, in one month, for one substance.",
+        "core_idea": "One of four wells was tested, in one month, for one substance.",
         "accept_ideas": [
           "only one of four wells was tested",
           "the other wells were not tested",
           "it covers one month",
           "it covers one substance"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "how deep the wells are"
         ],
@@ -151,7 +150,9 @@
             "when": "the student says one well speaks for the farm",
             "ask": "One well is one well. How many wells does the farm draw from?"
           }
-        ]
+        ],
+        "full_idea": "Because one of four wells was tested, in one month, for one substance.",
+        "one_idea_is_enough": true
       }
     },
     {
@@ -161,7 +162,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "A customer says the sheet proves every field has clean water. Is that supported?",
+      "prompt": "A customer says the sheet proves every field has clean water. Is that supported? Say which words in the passage decide it.",
       "tutor_only": {
         "confirm": "No. Only one well was tested, so the other fields have no result.",
         "correct_reason": "The sheet reports a test of one well, and the other three wells serve the rest of the fields with no reported test.",
@@ -171,14 +172,13 @@
           "It says what was not reported."
         ],
         "say_back": "own_words",
-        "core_idea": "No, because only one of the farm's four wells was tested.",
+        "core_idea": "Only one of the farm's four wells was tested.",
         "accept_ideas": [
           "no, the other wells were not tested",
           "no, one well cannot cover every field",
           "no, only one well has a result",
           "no, the sheet leaves out three wells"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "whether the tested well is near the barn"
         ],
@@ -188,7 +188,9 @@
             "when": "the student says yes because the lab is reliable",
             "ask": "A reliable lab result is still one result. How many wells did it cover?"
           }
-        ]
+        ],
+        "full_idea": "No, because only one of the farm's four wells was tested.",
+        "one_idea_is_enough": true
       }
     },
     {
@@ -216,9 +218,7 @@
           "cover every well and every season"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who would pay for the tests"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {

@@ -99,9 +99,7 @@
           "eleven and nineteen accidents"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the mill made"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -141,9 +139,7 @@
           "the size of each workforce"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the buildings were made of"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
@@ -175,7 +171,7 @@
           "They give a number for each workplace."
         ],
         "say_back": "own_words",
-        "core_idea": "The mill had about thirty workers and the plant has two hundred and forty, so the totals cover very different amounts of work.",
+        "core_idea": "The mill had far fewer workers.",
         "accept_ideas": [
           "the mill had far fewer workers",
           "the plant has many more people who can be hurt",
@@ -183,16 +179,15 @@
           "thirty workers against two hundred and forty"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long the mill ran"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says eleven is smaller than nineteen, so the page is right",
             "ask": "Fewer than nineteen, yes. How many hands stood behind each total?"
           }
-        ]
+        ],
+        "full_idea": "The mill had about thirty workers and the plant has two hundred and forty, so the totals cover very different amounts of work."
       },
       "display": {
         "lead": "",

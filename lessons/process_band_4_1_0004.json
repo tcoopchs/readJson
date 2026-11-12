@@ -90,13 +90,12 @@
           "It is about the small spaces and what used to move through them."
         ],
         "say_back": "own_words",
-        "core_idea": "They close, so air and water cannot travel down to the roots.",
+        "core_idea": "They close.",
         "accept_ideas": [
           "they close up",
           "they are pressed shut",
           "air and water can no longer get down"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "how deep the roots are"
         ],
@@ -106,7 +105,9 @@
             "when": "the student says the grass stops growing",
             "ask": "The passage says the spaces close. What used to travel through them?"
           }
-        ]
+        ],
+        "full_idea": "They close, so air and water cannot travel down to the roots.",
+        "one_idea_is_enough": true
       },
       "display": {
         "lead": "",
@@ -180,17 +181,16 @@
           "it helped the roots grow deeper",
           "it kept the holes open"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "what kind of sand was used"
-        ],
+        "one_idea_is_enough": false,
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says it fed the grass",
             "ask": "Look at what went into the holes after the sand. Where did the water go?"
           }
-        ]
+        ],
+        "full_idea": "With the sand in the holes, water went down into the soil instead of running off, and the roots followed it."
       },
       "display": {
         "lead": "",
@@ -221,7 +221,7 @@
           "mowing seals the surface, so the holes must come after",
           "opening the ground first would be undone by mowing"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "which machine is used to open the holes"
         ],
@@ -231,7 +231,8 @@
             "when": "the student says the holes must dry out",
             "ask": "The passage gives the mower as the reason. What does the mower do to the surface?"
           }
-        ]
+        ],
+        "full_idea": "The mower presses the surface shut, so holes opened first would be closed again by the same wheels."
       },
       "display": {
         "lead": "",

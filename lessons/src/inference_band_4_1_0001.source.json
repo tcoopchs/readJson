@@ -99,7 +99,7 @@
           "you lose more fluid than you take in",
           "the body loses water faster than it is replaced"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "the name of any medicine"
         ],
@@ -108,7 +108,8 @@
             "when": "the student says the medicine dries up the water inside the body",
             "ask": "The passage names one effect of the medicine. What does that effect do to the body's water?"
           }
-        ]
+        ],
+        "full_idea": "Because urinating more removes water, so the person loses more fluid than they take in."
       }
     },
     {
@@ -134,7 +135,7 @@
           "they lose their sense of thirst and drink less",
           "they drink less because they are not thirsty"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "the exact age when thirst fades"
         ],
@@ -143,7 +144,8 @@
             "when": "the student says older adults forget to drink",
             "ask": "The passage names a body signal, not memory. Which signal changes with age?"
           }
-        ]
+        ],
+        "full_idea": "They may not feel thirsty, so they drink less than their body needs."
       }
     },
     {
@@ -172,9 +174,7 @@
           "hot weather and exercise"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "amounts in cups or liters"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student names only one time",

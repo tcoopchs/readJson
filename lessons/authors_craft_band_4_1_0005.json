@@ -92,7 +92,7 @@
           "Ask what those two limits mean for the reader's safety."
         ],
         "say_back": "own_words",
-        "core_idea": "The two limits make the warning stronger because no one aboard can prevent a bad setting.",
+        "core_idea": "No one on board can run the engine or know if parts are set right.",
         "accept_ideas": [
           "No one on board can run the engine or know if parts are set right.",
           "The reader cannot rely on anyone aboard to prevent a bad setting.",
@@ -101,7 +101,6 @@
         "one_idea_is_enough": true,
         "not_required": [
           "Naming second person",
-          "Naming fear appeal",
           "Quoting the death sentence"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
@@ -110,7 +109,8 @@
             "when": "They say the writer means the owner can run the engine.",
             "ask": "Which sentence says no one on board can run the engine?"
           }
-        ]
+        ],
+        "full_idea": "The two limits make the warning stronger because no one aboard can prevent a bad setting."
       },
       "display": {
         "lead": "",
@@ -143,9 +143,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "chauffeur pay",
-          "brand names",
-          "exact quote"
+          "chauffeur pay"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -191,9 +189,6 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "Naming the rhetorical question.",
-          "Explaining the fear appeal.",
-          "Quoting the whole sentence.",
           "Listing the chauffeur's faults."
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",

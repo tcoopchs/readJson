@@ -97,9 +97,7 @@
           "more riders"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "the exact length of the walk"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the town saved money on fuel",
@@ -130,7 +128,7 @@
           "Look at who the van is for."
         ],
         "say_back": "own_words",
-        "core_idea": "The town added a van for the people who lost their stop, so they were not left without a ride.",
+        "core_idea": "The town added a van.",
         "accept_ideas": [
           "the town added a van",
           "the people who lost a stop got a van",
@@ -147,7 +145,8 @@
             "when": "the student says the third part is about the cost of the van",
             "ask": "Cost is one sentence. What is the van for?"
           }
-        ]
+        ],
+        "full_idea": "The town added a van for the people who lost their stop, so they were not left without a ride."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -172,7 +171,7 @@
           "Parts one and two are the gain. Part three is who paid for it."
         ],
         "say_back": "own_words",
-        "core_idea": "The town traded a small walk for a few riders against a shorter, more reliable ride for everyone else, and covered the loss with a van.",
+        "core_idea": "The town moved a stop and added a van.",
         "accept_ideas": [
           "the town moved a stop and added a van",
           "a bus route changed to save time for everyone",
@@ -193,7 +192,8 @@
             "when": "the student says it is about people who lost their bus stop",
             "ask": "That is one part. What happened on the whole route?"
           }
-        ]
+        ],
+        "full_idea": "The town traded a small walk for a few riders against a shorter, more reliable ride for everyone else, and covered the loss with a van."
       },
       "display": {
         "lead": "",
@@ -225,9 +225,7 @@
           "a few people walk farther so the bus runs on time"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "the cost of the van in dollars"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the town gained nothing",

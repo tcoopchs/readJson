@@ -49,7 +49,7 @@
           "One names the plant groups and the other names the years on the packet."
         ],
         "say_back": "own_words",
-        "core_idea": "What the plant is for, and how long the seed will sprout.",
+        "core_idea": "The kind of plant and how long the seed keeps.",
         "accept_ideas": [
           "the kind of plant and how long the seed keeps",
           "plant group and the years left",
@@ -66,7 +66,8 @@
             "when": "the student names only the plant groups",
             "ask": "The drawers hold one level. What does the packet add inside the drawer?"
           }
-        ]
+        ],
+        "full_idea": "What the plant is for, and how long the seed will sprout."
       },
       "display": {
         "lead": "",
@@ -120,7 +121,7 @@
       "type": "short_answer",
       "skill": "text_structure",
       "difficulty": 2,
-      "show_part": "part_2",
+      "show_part": "all",
       "show_part_again": true,
       "prompt": "Bean seed and pea seed both sit in the pod drawer. Why does the saver still read both packets?",
       "tutor_only": {
@@ -139,22 +140,21 @@
           "the years differ, so the packet decides",
           "one is nearer its end than the other"
         ],
-        "one_idea_is_enough": true,
-        "not_required": [
-          "which one tastes better"
-        ],
+        "one_idea_is_enough": false,
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says they need different soil",
             "ask": "The passage gives only one difference between them. Find the sentence that gives it."
           }
-        ]
+        ],
+        "full_idea": "They keep for different numbers of years, so the packet decides which to sow."
       },
       "display": {
-        "lead": "Here is the rest of the passage.",
+        "lead": "",
         "label": "Passage",
-        "text": "The second level cuts across the first, and that is the part a new grower misses. Parsnip seed, a root, dies in a year, while beet seed, also a root, keeps four. Bean seed keeps three years and pea seed two, though both sit in the pod drawer. So the drawer tells the saver where to look, and the packet tells her whether to bother. A drawer sorted only by plant would hide the date. A shelf sorted only by date would split a family across the room, and the saver would walk between two shelves to sow one bed."
+        "text": "A seed saver keeps her stock in two levels of order, and the labels on the drawers show both levels at once. The top level is what the plant is for: leaf, root, fruit, or pod. Each of those four groups has its own drawer, and the drawer is labelled with the group. Seed from a root crop and seed from a leaf crop follow the same storage rules. A saver who separated them by colour would double the work of sowing. Within a drawer the packets are filed by a second level. That second level is how long the seed will still sprout, and the number is written on the packet in pencil.\n\nThe second level cuts across the first, and that is the part a new grower misses. Parsnip seed, a root, dies in a year, while beet seed, also a root, keeps four. Bean seed keeps three years and pea seed two, though both sit in the pod drawer. So the drawer tells the saver where to look, and the packet tells her whether to bother. A drawer sorted only by plant would hide the date. A shelf sorted only by date would split a family across the room, and the saver would walk between two shelves to sow one bed.\n\nIn spring the two levels pay for themselves in one motion. The saver opens the root drawer, reads the years written on the packets, and sows the oldest seed first. The seed nearest its end is the seed that has to be tested while there is still a season to replace it. She does not search the whole room, and she does not sow a four-year-old parsnip. The order written on the packets is not tidiness. It is the part of the record that decides what happens in the field, and the drawers only get her to it in time."
       }
     },
     {
@@ -182,9 +182,7 @@
           "neither level is enough alone"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how wide the room is"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {

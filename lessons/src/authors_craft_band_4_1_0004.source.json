@@ -68,8 +68,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "mentioning bread versus pastry flour",
-          "explaining why sifting helps"
+          "mentioning bread versus pastry flour"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -103,9 +102,8 @@
           "Bread flour when yeast is used; pastry flour otherwise.",
           "Bread flour for yeast; pastry flour in other cases."
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
-          "Exact wording from the passage.",
           "The exceptions to the bread-flour rule.",
           "A description of how to test flour by hand."
         ],
@@ -119,7 +117,8 @@
             "when": "They say bread flour is for all recipes without exceptions.",
             "ask": "What phrase after 'with few exceptions' names the other flour?"
           }
-        ]
+        ],
+        "full_idea": "Bread flour is for yeast recipes; pastry flour is for other recipes."
       }
     },
     {
@@ -146,7 +145,6 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "It dies at 32°F.",
           "It turns into alcohol.",
           "It becomes a spore."
         ],
@@ -224,11 +222,10 @@
           "Part_3 gives a sequence of actions for making bread.",
           "Part_1 tests flour; part_3 tells how to make dough rise."
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "Naming every ingredient",
-          "Mentioning yeast types",
-          "Using the term imperative mood"
+          "Mentioning yeast types"
         ],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
@@ -236,7 +233,8 @@
             "when": "They say part_1 already gives the steps for shaping loaves.",
             "ask": "The opening tells you how to judge flour. Which sentences give the steps for shaping loaves?"
           }
-        ]
+        ],
+        "full_idea": "Part_1 helps readers judge flour; part_3 gives ordered steps for making bread."
       }
     }
   ],

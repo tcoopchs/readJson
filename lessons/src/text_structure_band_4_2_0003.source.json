@@ -103,9 +103,7 @@
           "one narrow door could not feed two tables"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who measured the doors"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {

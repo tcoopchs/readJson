@@ -90,7 +90,7 @@
           "One is the last match, one is the wins, one is the players."
         ],
         "say_back": "own_words",
-        "core_idea": "It was his last home match, his side had not won there, and two players were leaving.",
+        "core_idea": "It was the last home match.",
         "accept_ideas": [
           "it was the last home match",
           "his side had not won there",
@@ -106,7 +106,8 @@
             "when": "the student says the match was for a trophy",
             "ask": "The passage says nothing about a trophy. What does it say about the season?"
           }
-        ]
+        ],
+        "full_idea": "It was his last home match, his side had not won there, and two players were leaving."
       },
       "display": {
         "lead": "",
@@ -131,23 +132,22 @@
           "It went straight in at almost every point."
         ],
         "say_back": "own_words",
-        "core_idea": "The turf was soft at eleven of the twelve points, so it could not hold a match.",
+        "core_idea": "The pitch was soft.",
         "accept_ideas": [
           "the pitch was soft",
           "the fork went in easily at eleven points",
           "the turf would not hold"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how deep the fork went"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the pitch was too hard",
             "ask": "A fork that goes straight in is not a sign of hard ground. What happened at eleven points?"
           }
-        ]
+        ],
+        "full_idea": "The turf was soft at eleven of the twelve points, so it could not hold a match."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -172,7 +172,7 @@
           "One of them gives up the match."
         ],
         "say_back": "own_words",
-        "core_idea": "He accepted the groundsman's reason, and he still wanted the ground fit.",
+        "core_idea": "He agreed with the groundsman.",
         "accept_ideas": [
           "he agreed with the groundsman",
           "he put the ground before the match",
@@ -188,7 +188,8 @@
             "when": "the student says he rolled the pitch to play on it",
             "ask": "The match was already called off. What was he doing to the ground instead?"
           }
-        ]
+        ],
+        "full_idea": "He accepted the groundsman's reason, and he still wanted the ground fit."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -213,23 +214,22 @@
           "Each of them leaves the other one out of the record."
         ],
         "say_back": "own_words",
-        "core_idea": "They disagreed and each respected the other, and neither had to be beaten.",
+        "core_idea": "They respected each other.",
         "accept_ideas": [
           "they respected each other",
           "both of them had a fair reason",
           "neither of them made it a fight"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "what the book is used for"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the groundsman did not trust the captain",
             "ask": "The groundsman wrote the date from the captain's work. What was left out of the book?"
           }
-        ]
+        ],
+        "full_idea": "They disagreed and each respected the other, and neither had to be beaten."
       },
       "display": {
         "lead": "",

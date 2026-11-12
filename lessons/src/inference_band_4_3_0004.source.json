@@ -65,9 +65,7 @@
           "the kids copy"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "which book it was"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says both",
@@ -101,9 +99,7 @@
           "not a manufacturing fault"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how much the book cost"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the children's copy was cheaper",
@@ -129,7 +125,7 @@
           "Then find the sentence about what handling does."
         ],
         "say_back": "own_words",
-        "core_idea": "It was borrowed far more often, and handling is what wears a book.",
+        "core_idea": "It was borrowed more.",
         "accept_ideas": [
           "it was borrowed more",
           "74 against 9",
@@ -137,15 +133,14 @@
           "handling wore it out"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how old each copy is"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says children are rougher",
             "ask": "The passage names handling and loan counts, not carelessness. Which one does it measure?"
           }
-        ]
+        ],
+        "full_idea": "It was borrowed far more often, and handling is what wears a book."
       }
     },
     {
@@ -172,7 +167,7 @@
           "it means more handling",
           "the book travels more"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "how fast children read"
         ],
@@ -181,7 +176,8 @@
             "when": "the student says children damage books",
             "ask": "The passage measures trips, not damage. What does a short sitting increase?"
           }
-        ]
+        ],
+        "full_idea": "It means more loans, and more loans mean more handling."
       }
     },
     {
@@ -201,7 +197,7 @@
           "Then look at what splits that cause between two books."
         ],
         "say_back": "own_words",
-        "core_idea": "Because demand caused the wear, so a second copy shares the handling.",
+        "core_idea": "Demand is the cause.",
         "accept_ideas": [
           "demand is the cause",
           "two copies share the wear",
@@ -209,15 +205,14 @@
           "more copies means less handling each"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how long a book should last"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the first copy was poor quality",
             "ask": "The passage rules that out. What did it say about loans?"
           }
-        ]
+        ],
+        "full_idea": "Because demand caused the wear, so a second copy shares the handling."
       }
     }
   ],

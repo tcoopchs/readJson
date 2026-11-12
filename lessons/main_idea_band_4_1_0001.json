@@ -57,8 +57,7 @@
         ],
         "one_idea_is_enough": true,
         "not_required": [
-          "the kinds of tools on the shelf",
-          "how long a card lasts"
+          "the kinds of tools on the shelf"
         ],
         "if_they_say": [
           {
@@ -97,7 +96,7 @@
           "donated tools fill the shed",
           "it saves people money"
         ],
-        "one_idea_is_enough": true,
+        "one_idea_is_enough": false,
         "not_required": [
           "the price of a saw",
           "how many visits the library counts"
@@ -107,7 +106,8 @@
             "when": "the student says it is about a volunteer who repairs saws",
             "ask": "The saw is one example. What does that example show about what a borrower pays?"
           }
-        ]
+        ],
+        "full_idea": "Borrowing a tool saves the cost of buying one, and donated tools keep the shed stocked."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -174,7 +174,7 @@
           "Parts one and two are about tools. Part three is about the people who teach."
         ],
         "say_back": "own_words",
-        "core_idea": "A town library lends tools and teaches people to use them, because buying a tool for one job costs too much.",
+        "core_idea": "A library that lends tools and teaches people to use them.",
         "accept_ideas": [
           "a library that lends tools and teaches people to use them",
           "a tool shed that saves people money and shows them how",
@@ -194,7 +194,8 @@
             "when": "the student says it is about a volunteer who repairs tools",
             "ask": "Repairs are one job in one part. What are the other parts about?"
           }
-        ]
+        ],
+        "full_idea": "A town library lends tools and teaches people to use them, because buying a tool for one job costs too much."
       },
       "display": {
         "lead": "",
@@ -219,7 +220,7 @@
           "Two parts do not mention a book at all."
         ],
         "say_back": "own_words",
-        "core_idea": "It leaves out the tool shed, and every part of the passage is about the shed.",
+        "core_idea": "It leaves out the tools.",
         "accept_ideas": [
           "it leaves out the tools",
           "the passage is about tools, not books",
@@ -235,7 +236,8 @@
             "when": "the student says nothing is missing",
             "ask": "Count the parts that are about the shed. Then count the parts about books."
           }
-        ]
+        ],
+        "full_idea": "It leaves out the tool shed, and every part of the passage is about the shed."
       },
       "display": {
         "lead": "",

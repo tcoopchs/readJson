@@ -204,7 +204,7 @@
           "It names the one thing that can refill what those boats took."
         ],
         "say_back": "own_words",
-        "core_idea": "Only the reservoir refills the summit, so the number of boats a day depends on it.",
+        "core_idea": "It is the only thing that refills the summit.",
         "accept_ideas": [
           "it is the only thing that refills the summit",
           "the summit empties and only the reservoir fills it",
@@ -220,7 +220,8 @@
             "when": "the student says the reservoir is the largest size",
             "ask": "Large is about size. The passage says something about refilling. What does only the reservoir do?"
           }
-        ]
+        ],
+        "full_idea": "Only the reservoir refills the summit, so the number of boats a day depends on it."
       }
     }
   ],

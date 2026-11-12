@@ -88,7 +88,7 @@
           "They link speed to soaking."
         ],
         "say_back": "own_words",
-        "core_idea": "Because plants slow the water, so it has time to soak in.",
+        "core_idea": "They slow the water down.",
         "accept_ideas": [
           "they slow the water down",
           "slow water has time to soak in",
@@ -103,7 +103,8 @@
             "when": "the student says plants drink all the rain",
             "ask": "Plants do use water. The passage names a different effect. What is it?"
           }
-        ]
+        ],
+        "full_idea": "Because plants slow the water, so it has time to soak in."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -135,9 +136,7 @@
           "it does not soak in"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "how much rain falls"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the rain soaks in faster on pavement",
@@ -216,9 +215,7 @@
           "fewer hard surfaces"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "the cost of such a change"
-        ],
+        "not_required": [],
         "if_they_say": [
           {
             "when": "the student says the town should build more storm drains",

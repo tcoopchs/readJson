@@ -132,7 +132,7 @@
           "The sizer grades every apple, one at a time, after the wash."
         ],
         "say_back": "own_words",
-        "core_idea": "The sizer was the slow step, so a faster wash only moved the waiting.",
+        "core_idea": "The sizer could not keep up.",
         "accept_ideas": [
           "the sizer could not keep up",
           "the wash was not the limit",
@@ -148,7 +148,8 @@
             "when": "the student says the crew needed a third belt",
             "ask": "The line waits at one station, and it is not the wash. Which one?"
           }
-        ]
+        ],
+        "full_idea": "The sizer was the slow step, so a faster wash only moved the waiting."
       },
       "display": {
         "lead": "",
@@ -173,7 +174,7 @@
           "The wash was never the step that held the fruit back."
         ],
         "say_back": "own_words",
-        "core_idea": "The wash never limited the line; the sizer did, so the extra belt only added waiting room.",
+        "core_idea": "The wash was never the limit.",
         "accept_ideas": [
           "the wash was never the limit",
           "the sizer set the speed all along",
@@ -189,7 +190,8 @@
             "when": "the student says the wash broke",
             "ask": "Nothing in the passage says the wash broke. What does the line's speed depend on?"
           }
-        ]
+        ],
+        "full_idea": "The wash never limited the line; the sizer did, so the extra belt only added waiting room."
       },
       "display": {
         "lead": "Here is the rest of the passage.",
@@ -214,7 +216,7 @@
           "When one station speeds up, where does the fruit wait next?"
         ],
         "say_back": "own_words",
-        "core_idea": "The pile moves again, to whatever station is now slowest, because the line runs at the speed of its slowest step.",
+        "core_idea": "The waiting moves to the next slow station.",
         "accept_ideas": [
           "the waiting moves to the next slow station",
           "the pile shifts again to another lane",
@@ -230,7 +232,8 @@
             "when": "the student says output rises for good",
             "ask": "One station got faster. The passage says the line still has one slow step."
           }
-        ]
+        ],
+        "full_idea": "The pile moves again, to whatever station is now slowest, because the line runs at the speed of its slowest step."
       },
       "display": {
         "lead": "",

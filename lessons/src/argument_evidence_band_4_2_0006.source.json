@@ -134,14 +134,13 @@
           "They show that a vent seal or a drain could be the cause."
         ],
         "say_back": "own_words",
-        "core_idea": "Because they show water enters, not where or why it enters.",
+        "core_idea": "They show water enters, not where or why it enters.",
         "accept_ideas": [
           "they do not show where the water enters",
           "they do not show the cause",
           "a vent seal or drain could be the cause",
           "no one traced the leak"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "how old the building is"
         ],
@@ -151,7 +150,9 @@
             "when": "the student says nine leaks prove the roof is worn",
             "ask": "Nine leaks prove water. What would show the roof is the cause?"
           }
-        ]
+        ],
+        "full_idea": "Because they show water enters, not where or why it enters.",
+        "one_idea_is_enough": true
       }
     },
     {
@@ -161,7 +162,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "The owner says the photos prove the roof is worn out. Is that supported?",
+      "prompt": "The owner says the photos prove the roof is worn out. Is that supported? Say which words in the passage decide it.",
       "tutor_only": {
         "confirm": "No. The photos show water and buckets, not the condition of the roof.",
         "correct_reason": "The photos show water and buckets inside the shop, and the memo reports no inspection of the roof itself.",
@@ -171,14 +172,13 @@
           "It says what the memo does not report."
         ],
         "say_back": "own_words",
-        "core_idea": "No, because the photos show the leak, not the roof's condition.",
+        "core_idea": "The photos show the leak, not the roof's condition.",
         "accept_ideas": [
           "no, they show water, not the roof",
           "no, no one inspected the roof",
           "no, the photos are inside the shop",
           "no, the memo gives no roof report"
         ],
-        "one_idea_is_enough": true,
         "not_required": [
           "how many buckets were used"
         ],
@@ -188,7 +188,9 @@
             "when": "the student says the buckets prove the roof is old",
             "ask": "Buckets catch water. What would show the roof itself is worn?"
           }
-        ]
+        ],
+        "full_idea": "No, because the photos show the leak, not the roof's condition.",
+        "one_idea_is_enough": true
       }
     },
     {
@@ -208,7 +210,7 @@
           "It also names the comparison of fixes."
         ],
         "say_back": "own_words",
-        "core_idea": "An inspection tracing the water to its entry, and a comparison of repairs.",
+        "core_idea": "An inspection of the roof.",
         "accept_ideas": [
           "an inspection of the roof",
           "a roofer to trace the leak",
@@ -216,16 +218,15 @@
           "a report on where the water enters"
         ],
         "one_idea_is_enough": true,
-        "not_required": [
-          "who pays for the roof"
-        ],
+        "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
             "when": "the student says the landlord should replace the roof because it leaks",
             "ask": "A leak shows something is wrong. What shows whether the roof is the cause?"
           }
-        ]
+        ],
+        "full_idea": "An inspection tracing the water to its entry, and a comparison of repairs."
       }
     }
   ],
