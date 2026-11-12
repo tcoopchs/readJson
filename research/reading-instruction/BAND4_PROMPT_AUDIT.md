@@ -1,7 +1,7 @@
-# Band 4 prompt audit — the literal-answer test
+# Level 4+ prompt audit — the literal-answer test
 
 Date: 2026-11-11
-Scope: every `irl_grade: 4` lesson (127) plus the one `authors_craft` 12.1 lesson.
+Scope: every `irl_grade: 4` lesson (127) plus every lesson above band 4 (9).
 
 Method: answer the prompt literally from the passage. If the literal answer is defensible but the
 stored key wants a different level — an inference or a craft effect — the prompt is underspecified
@@ -58,10 +58,28 @@ One new fix, one already-fixed Grant item, 22 pass.
 | `literary_text_band_4_2_0006` (literary_text) | 5 | The shorter letter got the owner out in nine days. What does the story show made the difference? | Keep. The cause is the target. |
 | `authors_craft_band_4_1_0002` (authors_craft) | 3 | The writer says his horse was under fire at the street crossings. What does that sentence show about the danger of the ride? | Already fixed. The prompt now names danger; the old wording ("about the ride") was the defect. |
 
+## Band 5+ check — 9 lessons, 45 items
+
+All 45 items were read with their keys. None has a literal answer that satisfies the prompt while
+the key wants a different level.
+
+| Lesson | Grade | Skill | Result |
+| --- | --- | --- | --- |
+| `inference_band_5_1_0001` | 5.1 | inference | Pass. Each prompt names a specific inference target. |
+| `inference_band_5_1_0002` | 5.1 | inference | Pass. Each prompt names a specific inference target. |
+| `inference_band_6_1_0001` | 6.1 | inference | Pass. "What does that tell you" asks for the inference; the detail is the premise. |
+| `main_idea_band_7_1_0001` | 7.1 | main_idea | Pass. Gist and cloze; direct. |
+| `main_idea_band_7_1_0002` | 7.1 | main_idea | Pass. Gist and cloze; direct. |
+| `process_band_9_1_0001` | 9.1 | process | Pass. Causal and sequence prompts; direct. |
+| `process_band_9_1_0002` | 9.1 | process | Pass. Causal and sequence prompts; direct. |
+| `process_band_10_1_0001` | 10.1 | process | Pass. Causal and sequence prompts; direct. |
+| `authors_craft_band_12_1_0001` | 12.1 | authors_craft | Pass. The craft items name the refrain choice and "Nevermore" and ask for their effect. |
+
 ## Totals
 
 - Authors_craft band 4: 30 items, 2 rewritten (Grant 3 and 4), 28 pass.
 - Authors_craft 12.1: 5 items, all pass.
 - Other band 4 candidates: 24 prompts, 1 new rewrite (tax list), 1 already fixed (Grant 3), 22 pass.
+- Band 5+: 45 items, 0 changes.
 - No batch rewrite of the other 122 band 4 lessons is justified by this pass. Bands 3 and 5 remain
   for the next vertical touch; new authoring uses the prompt-stem table immediately.
