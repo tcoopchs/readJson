@@ -132,7 +132,7 @@
       "difficulty": 2,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "What does the sentence about street crossings show about the writer's ride back?",
+      "prompt": "The writer says his horse was under fire at the street crossings. What does that sentence show about the danger of the ride?",
       "tutor_only": {
         "confirm": "The ride was dangerous because enemy fire could reach him at the crossings.",
         "correct_reason": "The sentence 'My horse was under fire only at street crossings' shows enemy fire could reach him during the ride, so the facts support danger even though the writer does not state it directly.",
@@ -185,11 +185,11 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "The author writes \"I got out safely without a scratch.\" What does this plain phrase show about the ride?",
+      "prompt": "The writer called the ride 'an exposed one', and he got out 'without a scratch'. What does that plain phrase make the danger sound like?",
       "tutor_only": {
         "confirm": "The phrase makes the exposed ride sound calm and matter-of-fact.",
-        "correct_reason": "The sentence \"I got out safely without a scratch\" uses a plain phrase for escaping harm after an exposed ride.",
-        "tell": "The phrase 'without a scratch' is plain and calm. It makes the danger of the ride feel smaller than it was.",
+        "correct_reason": "The ride is called \"an exposed one,\" but the plain phrase \"I got out safely without a scratch\" makes the danger sound smaller than it was.",
+        "tell": "The ride was still dangerous. The plain phrase 'without a scratch' makes the danger feel smaller than it was.",
         "help": [
           "Look at the sentence about getting out safely.",
           "Notice what 'without a scratch' leaves out about the danger."
@@ -200,7 +200,8 @@
           "The phrase makes the dangerous ride sound calm.",
           "It shows he escaped harm while under fire.",
           "It understates the risk of the ride.",
-          "The plain wording makes the escape seem matter-of-fact."
+          "The plain wording makes the escape seem matter-of-fact.",
+          "It makes the danger sound smaller than it was."
         ],
         "one_idea_is_enough": true,
         "not_required": [

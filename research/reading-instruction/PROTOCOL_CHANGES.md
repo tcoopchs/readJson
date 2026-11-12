@@ -110,3 +110,32 @@ Replay result on `authors_craft_band_4_1_0002`:
 - Item 3: **Not quite.** + tell + say-back; a good say-back → **mercy**.
 - Item 4: **Not quite.** + tell; `no` → advance with `open`, no false mercy.
 - Ticket: `done=5|u=3|h=0|m=1|o=1|an=1`, consistent.
+
+## Question design: the prompt must name the move
+
+The second Gemini retest exposed a deeper cause than the say-back gate. Item 4 asked "What does this
+plain phrase show about the ride?" — "He was safe" is literally correct. Item 3 asked "What does the
+sentence about street crossings show about the writer's ride back?" — "He was safe" and "he rode fast"
+are both defensible. The keys wanted danger/understatement, so the model had to guess whether the
+literal answer counted; it guessed differently on the two items.
+
+Rewrites:
+
+- Item 3: "The writer says his horse was under fire at the street crossings. What does that sentence
+  show about the danger of the ride?"
+- Item 4: "The writer called the ride 'an exposed one', and he got out 'without a scratch'. What does
+  that plain phrase make the danger sound like?"
+
+The skill now carries a prompt-stem table by category and a literal-answer test: answer the prompt
+literally from the passage before storing a key; if the literal answer is defensible but not the key,
+rewrite the prompt. The design check asks whether the prompt names the move it grades.
+
+Replay: "He was safe" and "It was easy" now miss; "the ride wasn't a problem for him" closes open
+instead of being accepted as a say-back.
+
+## Carry placeholder
+
+The ticket template has `{carry}` but no lesson supplied it; Gemini wrote `carry=none`, which the
+server rejects. Compiled `rules` now includes `"carry": ""`, and the protocol says to print `carry=`
+when it is empty. The model still guessed `1.0..0` in replay; the real carry is session state, so the
+next fix is for the server to inject it when serving the lesson, not for the model to invent it.
