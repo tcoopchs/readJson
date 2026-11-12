@@ -45,7 +45,7 @@
         "correct_reason": "The last sentence of part 1 states, \"We had not held this position long when we found our ammunition was low.\"",
         "tell": "The writer states the ammunition problem in one short sentence. This fact leads to the ride for ammunition later.",
         "help": [
-          "Look at the final sentence of part 1.",
+          "Look at the final sentence of the opening.",
           "Find the words about ammunition running low."
         ],
         "say_back": "own_words",
@@ -121,7 +121,7 @@
       "difficulty": 2,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "The writer says his horse was under fire at the street crossings. What does that sentence show about the danger of the ride?",
+      "prompt": "The writer says his horse was under fire at the street crossings. What conclusion about the danger does that detail support but not state?",
       "tutor_only": {
         "confirm": "The ride was dangerous because enemy fire could reach him at the crossings.",
         "correct_reason": "The sentence 'My horse was under fire only at street crossings' shows enemy fire could reach him during the ride, so the facts support danger even though the writer does not state it directly.",
@@ -174,23 +174,22 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "The writer called the ride 'an exposed one', and he got out 'without a scratch'. What does that plain phrase make the danger sound like?",
+      "prompt": "His horse was under fire, yet he says he came out 'without a scratch'. What does that plain wording do?",
       "tutor_only": {
-        "confirm": "The phrase makes the exposed ride sound calm and matter-of-fact.",
-        "correct_reason": "The ride is called \"an exposed one,\" but the plain phrase \"I got out safely without a scratch\" makes the danger sound smaller than it was.",
-        "tell": "The ride was still dangerous. The plain phrase 'without a scratch' makes the danger feel smaller than it was.",
+        "confirm": "It makes the danger sound smaller than it was. The flat phrase understates the ride.",
+        "correct_reason": "The passage says the horse was under fire at the crossings, then reports the writer got out 'without a scratch'. The plain phrase plays the danger down.",
+        "tell": "The horse was under fire, but he says 'without a scratch', so the danger sounds smaller than it was.",
         "help": [
           "Look at the sentence about getting out safely.",
           "Notice what 'without a scratch' leaves out about the danger."
         ],
         "say_back": "own_words",
-        "core_idea": "The author uses the plain phrase \"without a scratch\" to understate the danger of the exposed ride.",
+        "core_idea": "The flat phrase 'without a scratch' understates the ride: the danger sounds smaller than the fire he describes.",
         "accept_ideas": [
-          "The phrase makes the dangerous ride sound calm.",
-          "It shows he escaped harm while under fire.",
-          "It understates the risk of the ride.",
-          "The plain wording makes the escape seem matter-of-fact.",
-          "It makes the danger sound smaller than it was."
+          "it makes the danger sound smaller than it was",
+          "he downplays how dangerous the ride was",
+          "the flat words hide the danger",
+          "it makes a ride under fire sound ordinary"
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -216,7 +215,13 @@
             "ask": "What does the plain phrase make the danger feel like?"
           }
         ]
-      }
+      },
+      "partial": [
+        {
+          "when": "the student answers that he was safe, or that he escaped without injury, as the answer",
+          "ask": "The horse was under fire. What does the phrase 'without a scratch' do to how dangerous that sounds?"
+        }
+      ]
     },
     {
       "id": "5",
@@ -225,11 +230,11 @@
       "difficulty": 3,
       "show_part": "all",
       "show_part_again": true,
-      "prompt": "How does the writer show the plan changing in part 3?",
+      "prompt": "How does the writer show the plan changing near the end?",
       "tutor_only": {
         "confirm": "The writer shows the advance being canceled and the troops withdrawn.",
         "correct_reason": "The sentence beginning 'Before ammunition could be collected' states the movement was canceled.",
-        "tell": "Part 1 describes the regiments advancing toward the plaza. Part 3 says the movement was canceled and the troops withdrew.",
+        "tell": "The opening describes the regiments advancing toward the plaza. The last part says the movement was canceled and the troops withdrew.",
         "help": [
           "Find the sentence that begins 'Before ammunition could be collected.'",
           "Look for what happens to the movement after the regiments return."

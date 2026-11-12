@@ -77,9 +77,9 @@
       "difficulty": 2,
       "show_part": "part_1",
       "show_part_again": false,
-      "prompt": "Which sentence tells how thrushes give cherry seeds wings another way, after the author says they have no plant wings?",
+      "prompt": "Which sentence says that thrushes carry the seeds, after saying the seeds have no wings?",
       "tutor_only": {
-        "confirm": "The sentence about thrushes taking cherry seeds in their bills and flying away.",
+        "confirm": "The sentence 'But Nature has made thrushes take them into their bills and fly away with them.'",
         "correct_reason": "The sentence 'But Nature has made thrushes take them into their bills and fly away with them' links the birds' eating to carrying the seed.",
         "tell": "Cherry seeds lack plant wings. Thrushes carry them in their bills and fly away.",
         "help": [
@@ -123,7 +123,7 @@
       "tutor_only": {
         "confirm": "Pines shade and choke little oaks, so thick pine woods may hold oak seeds without many tall oaks.",
         "correct_reason": "The sentence \"but the pines shade them and choke them\" supports the conclusion that little oaks do not grow well under thick pines.",
-        "tell": "Look at the sentence about pines shading the little oaks. It shows what happens to oaks under pines.",
+        "tell": "The pines shade the little oaks and choke them, so young oaks stay small under pines.",
         "help": [
           "Read the sentence that starts \"If you look through the thickest pine wood.\"",
           "Think about what \"choke\" means for a young tree."
@@ -159,22 +159,22 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "The author writes 'four-legged animals' rather than 'animals.' What does this word choice help you picture?",
+      "prompt": "Earlier the author says birds carry cherry seeds. Why does he write 'four-legged animals' here instead of 'animals'?",
       "tutor_only": {
-        "confirm": "It helps readers picture animals on four legs carrying seeds as they move.",
-        "correct_reason": "The sentence 'Each year, many four-legged animals and birds plant it' uses 'four-legged' to make the seed carriers visible and active.",
-        "tell": "The phrase 'four-legged' names how the animals move. It makes seed planting seem like work by creatures.",
+        "confirm": "It sets the walking carriers against the flying ones, so both kinds are named.",
+        "correct_reason": "Part one says thrushes carry cherry seeds in their bills and fly away; part two's 'four-legged animals and birds' names the carriers that walk as well, so the phrase marks a second kind of carrier.",
+        "tell": "Birds carry cherry seeds in their bills, so 'four-legged' marks the carriers that walk instead.",
         "help": [
-          "Look at the sentence beginning 'Each year, many four-legged animals...'",
-          "Ask what 'four-legged' adds that the word 'animals' does not."
+          "Look at the sentence 'Each year, many four-legged animals and birds plant it.'",
+          "Compare the carriers that walk with the birds that fly."
         ],
         "say_back": "own_words",
-        "core_idea": "The word choice helps readers picture animals physically carrying and planting seeds.",
+        "core_idea": "It sets the animals that walk against the birds that fly, so both kinds of carrier are named.",
         "accept_ideas": [
-          "Animals walking on four legs",
-          "Creatures carrying seeds to new places",
-          "Seed planting done by animals",
-          "A picture of animals moving through the wood"
+          "It contrasts animals that walk with the birds that fly.",
+          "Mammals carry the seeds on foot, not birds.",
+          "Squirrels and other walking animals carry seeds, not only birds.",
+          "The carriers walk instead of flying, so 'four-legged' says which kind."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -192,6 +192,12 @@
             "when": "They say 'four-legged' describes the seeds.",
             "ask": "Which noun does 'four-legged' describe in that sentence?"
           }
+        ],
+        "partial": [
+          {
+            "when": "The student says the phrase makes the animals look small, or names small animals without saying they walk rather than fly.",
+            "ask": "What does 'four-legged' add next to the birds the author described earlier?"
+          }
         ]
       }
     },
@@ -202,21 +208,21 @@
       "difficulty": 3,
       "show_part": "all",
       "show_part_again": true,
-      "prompt": "Which sentence in the last part shows the author explaining a cause and result? How does it differ from asking you to picture a bird?",
+      "prompt": "The opening asks you to picture a bird carrying a cherry seed. What does the last part do instead?",
       "tutor_only": {
-        "confirm": "The sentence beginning 'But when the pines are cleared off' explains a cause and result.",
-        "correct_reason": "The part_3 sentence 'But when the pines are cleared off, the oaks have just the start they want and good conditions, so they spring up at once into trees.' shows the author explaining a cause and result rather than inviting the reader to picture a bird.",
-        "tell": "Part_1 asks you to picture a bird carrying a cherry seed. Part_3 states what happens when pines are cleared and oaks get light.",
+        "confirm": "It stops asking you to picture a scene and explains why the oaks grow once the pines are cut.",
+        "correct_reason": "'See how cleverly a cherry seed is placed so a bird must carry it' invites a picture. 'But when the pines are cleared off, the oaks have just the start they want... so they spring up at once into trees' explains a cause and its result.",
+        "tell": "The opening asks you to picture a bird. The last part explains what happens when the pines are cut.",
         "help": [
-          "Reread part_1 and find where the author asks you to see a bird with a cherry seed.",
-          "Reread part_3 and find a sentence with 'when' and 'so' that tells a result."
+          "Reread the opening and find where the author asks you to see a bird with a cherry seed.",
+          "Reread the last part and find a sentence with 'when' and 'so' that tells a result."
         ],
         "say_back": "own_words",
-        "core_idea": "The author shifts from playful, reader-facing imagining to explaining causes and conditions.",
+        "core_idea": "The opening invites the reader to picture a bird carrying a seed; the last part explains causes and results instead of picturing a scene.",
         "accept_ideas": [
-          "The author moves from playful imagining to explaining causes.",
-          "Part_1 invites the reader to picture a bird; part_3 states what happens after pines are cut.",
-          "The author changes from direct address to cause-and-effect explanation."
+          "it explains causes instead of asking you to picture a scene",
+          "it stops picturing and explains what happens when the pines are cleared",
+          "the author explains a cause and result rather than showing a picture"
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -228,14 +234,20 @@
         "if_they_say": [
           {
             "when": "The student says part_3 still asks the reader to picture a bird.",
-            "ask": "Where does part_3 tell what happens after pines are cleared?"
+            "ask": "Where does the passage tell what happens after pines are cleared?"
           },
           {
             "when": "The student says the author only describes seeds in both parts.",
-            "ask": "What does part_1 ask you to see a bird do?"
+            "ask": "What does the opening ask you to see a bird do?"
           }
         ]
-      }
+      },
+      "partial": [
+        {
+          "when": "the student gives the clearing of the pines as the answer without naming the change from picturing to explaining",
+          "ask": "What does the last part do that the opening does not?"
+        }
+      ]
     }
   ],
   "script": {
