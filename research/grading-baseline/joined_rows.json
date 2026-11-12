@@ -1,0 +1,4188 @@
+[
+ {
+  "lesson": "argument_evidence_band_4_1",
+  "iid": "3",
+  "d": 2,
+  "prompt": "The engine is new. Why does the notice not show that the trip will be shorter?",
+  "core": "The notice gives no time for the crossings, and the sailing minutes did not change.",
+  "head": "The notice gives no time for the crossings",
+  "tail": "the sailing minutes did not change.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "no time is given for either year",
+   "the sailing minutes are the same",
+   "the schedule lists the same sailing minutes",
+   "no crossing time changed"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "argument_evidence_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "A resident says the trip will take an hour less. Does the notice support that?",
+  "core": "No. No time changed, and the sailing minutes are the same.",
+  "head": "No. No time changed",
+  "tail": "the sailing minutes are the same.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "no, the times are the same",
+   "no, no time changed",
+   "no, the sailing minutes did not change",
+   "no, the notice gives no time at all"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_1",
+  "iid": "1",
+  "d": 1,
+  "prompt": "The note gives a reason in its first line. What does that reason say?",
+  "core": "The bank keeps falling in because it is not stable.",
+  "head": "The bank keeps falling in",
+  "tail": "it is not stable.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "the bank is not stable",
+   "the bank keeps falling in",
+   "the bank falls because it is unstable",
+   "the bank is not steady"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_1",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Why can a reader check the second reason but not the first?",
+  "core": "The second names a cause and what the reeds will do, and the first only repeats the claim.",
+  "head": "The second names a cause and what the reeds will do",
+  "tail": "the first only repeats the claim.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the second says what causes the falling and what the reeds do",
+   "the first only repeats the claim",
+   "the second can be checked against the pond",
+   "the second names roots and rain"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "Two sentences in the note give reasons. Which one lets a reader predict what the reeds will do, and why?",
+  "core": "The reason about roots, because it names the cause and what the roots will do.",
+  "head": "The reason about roots",
+  "tail": "it names the cause and what the roots will do.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "the one about roots, because it says what they hold",
+   "the root reason, since it names the cause",
+   "the second one, because it predicts the soil staying",
+   "the one that says roots hold the soil"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "A buyer says the cooler saved eleven bunches. What is wrong with that reading?",
+  "core": "The eleven are the bunches that spoiled, and there is no earlier count.",
+  "head": "The eleven are the bunches that spoiled",
+  "tail": "there is no earlier count.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "eleven is what spoiled, not what was saved",
+   "the number counts spoiled bunches",
+   "there is no earlier count to compare",
+   "nothing shows the number fell"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_1",
+  "iid": "1",
+  "d": 1,
+  "prompt": "What happened to the shop two winters ago?",
+  "core": "A storm closed the road for a week, and twelve bikes waited.",
+  "head": "A storm closed the road for a week",
+  "tail": "twelve bikes waited.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "a storm closed the road",
+   "twelve bikes waited a week",
+   "the road shut for a week",
+   "a storm stopped the trucks"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "A reader says the memo is about the storm. Why is that not the claim?",
+  "core": "The storm is the situation that makes the change worth considering, and the claim is the request.",
+  "head": "The storm is the situation that makes the change worth considering",
+  "tail": "the claim is the request.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the storm is the problem, not the request",
+   "the claim is the request at the end",
+   "the pages before describe the problem",
+   "the storm makes the request worth considering"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What objection does the letter raise against its own request?",
+  "core": "That new ropes will not fix the pool, because the water is cloudy in August.",
+  "head": "That new ropes will not fix the pool",
+  "tail": "the water is cloudy in August.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "new ropes will not clear the cloudy water",
+   "the water is cloudy in August",
+   "the ropes will not fix the pool",
+   "cloudy water is the real problem"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_1",
+  "iid": "3",
+  "d": 2,
+  "prompt": "How does the letter answer that objection?",
+  "core": "The log shows nine cloudy days, and each one is tied to a failed pump.",
+  "head": "The log shows nine cloudy days",
+  "tail": "each one is tied to a failed pump.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the log shows nine days after pump failures",
+   "each cloudy day had a failed pump",
+   "the log ties the cloud to repairs",
+   "nine days tied to pumps"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "The letter does not claim the ropes will clear the water. Why does that help its case?",
+  "core": "It shows the cloud has a different cause, so the objection does not block the request.",
+  "head": "It shows the cloud has a different cause",
+  "tail": "the objection does not block the request.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "it shows another cause for the cloud",
+   "the objection does not block the request",
+   "it proves the pumps cause the cloud",
+   "the cloud has its own cause"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why are the two records stronger together than either one alone?",
+  "core": "They came from different offices that did not copy each other, so one mistake would not repeat.",
+  "head": "They came from different offices that did not copy each other",
+  "tail": "one mistake would not repeat.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "different offices wrote them",
+   "neither copied the other",
+   "they did not know about each other",
+   "two separate offices made them"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_2",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Why can the three hundred answers not show what most people in town want?",
+  "core": "Because only bus riders were asked, and everyone else was left out.",
+  "head": "Because only bus riders were asked",
+  "tail": "everyone else was left out.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "only bus riders were asked",
+   "people who do not ride never got a card",
+   "the cards reached one group only",
+   "people not on the bus were left out"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "A board member says the comment proves the filter works. What is wrong with that?",
+  "core": "A feeling from one swim is not a measurement, and the daily log was not used.",
+  "head": "A feeling from one swim is not a measurement",
+  "tail": "the daily log was not used.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "one feeling is not a measurement",
+   "the note ignored the test log",
+   "a comment cannot prove the filter works",
+   "expectation can change what someone notices"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "A runner says the flyer proves the route is safe. What is wrong with that?",
+  "core": "The flyer has no traffic record, and the route crosses streets without stop signs.",
+  "head": "The flyer has no traffic record",
+  "tail": "the route crosses streets without stop signs.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "there is no traffic count",
+   "no crash record is given",
+   "the route crosses streets without stop signs",
+   "distance does not show traffic"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_2",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Why does that make the note weaker as evidence?",
+  "core": "Because the shop gains from the sale, so the note is not neutral.",
+  "head": "Because the shop gains from the sale",
+  "tail": "the note is not neutral.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the shop gains from the sale",
+   "it is not a neutral source",
+   "the seller profits if people believe it",
+   "the writer has an interest"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_2",
+  "iid": "5",
+  "d": 3,
+  "prompt": "What would the landlord need before choosing a full replacement?",
+  "core": "An inspection tracing the water to its entry, and a comparison of repairs.",
+  "head": "An inspection tracing the water to its entry",
+  "tail": "a comparison of repairs.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "an inspection of the roof",
+   "a roofer to trace the leak",
+   "a comparison of repairs",
+   "a report on where the water enters"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "A reader says the page proves the old mill was safer. What is wrong with that?",
+  "core": "The mill had about thirty workers and the plant has two hundred and forty, so the totals cover very different amounts of work.",
+  "head": "The mill had about thirty workers and the plant has two hundred and forty",
+  "tail": "the totals cover very different amounts of work.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the mill had far fewer workers",
+   "the plant has many more people who can be hurt",
+   "the two totals cover different amounts of work",
+   "thirty workers against two hundred and forty"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "A reader says the card proves the new seed yields more. Is that shown?",
+  "core": "No, because the trial field also had manure and an earlier planting, so the gap could come from those.",
+  "head": "No, because the trial field also had manure and an earlier planting",
+  "tail": "the gap could come from those.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "no, the trial field also had manure",
+   "no, the fields differ in more than seed",
+   "no, the earlier planting could explain it",
+   "no, three things changed at once"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_3",
+  "iid": "5",
+  "d": 3,
+  "prompt": "What numbers would make the ad's claim testable?",
+  "core": "How many started, how many finished, and what work each one found.",
+  "head": "How many started, how many finished",
+  "tail": "what work each one found.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "how many started and where they ended up",
+   "a count of the whole class",
+   "how many finished and found work",
+   "the outcome for every student"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_3",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Why could a change from two injuries to one come from chance?",
+  "core": "Because injuries among sixty runners are rare, so one runner can move the count by itself.",
+  "head": "Because injuries among sixty runners are rare",
+  "tail": "one runner can move the count by itself.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "one runner can move the count",
+   "injuries are rare at this club",
+   "rare events move around from season to season",
+   "a single bad step changes the total"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_3",
+  "iid": "5",
+  "d": 3,
+  "prompt": "What would the club need to show the warm-up works?",
+  "core": "More seasons or more runners, so the counts are large enough to compare.",
+  "head": "More seasons or more runners",
+  "tail": "the counts are large enough to compare.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "more seasons of data",
+   "a much larger group of runners",
+   "enough injuries to compare",
+   "many more seasons than two"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "argument_evidence_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "A reader says the empty log shows the path is safe. Is that supported?",
+  "core": "No, because the form is three miles from the path, so a fall would not reach the log.",
+  "head": "No, because the form is three miles from the path",
+  "tail": "a fall would not reach the log.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "no, the form is too far away",
+   "no, a fall would not reach the log",
+   "no, nothing was written down, not nothing happened",
+   "no, people tell their friends, not a ranger"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "argument_evidence_band_4_3",
+  "iid": "5",
+  "d": 3,
+  "prompt": "What would make the log good evidence about the path?",
+  "core": "A way to report a fall at the path, so a fall would reach the record.",
+  "head": "A way to report a fall at the path",
+  "tail": "a fall would reach the record.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "a way to report a fall at the path",
+   "reports of falls from the path",
+   "if falls were reported from the path",
+   "if walkers could report a fall where it happened",
+   "a form on the path"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_1",
+  "iid": "1",
+  "d": 1,
+  "prompt": "The writer says cherry seeds are 'winged in another sense.' What carries them away?",
+  "core": "Cherry seeds have no plant wings; thrushes carry them in their bills.",
+  "head": "Cherry seeds have no plant wings",
+  "tail": "thrushes carry them in their bills.",
+  "pat": ";\\s*",
+  "acc": [
+   "Thrushes carry cherry seeds in their bills.",
+   "Birds fly away with the seeds.",
+   "Birds carry the seeds instead of plant wings."
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "Which sentence says that thrushes carry the seeds, after saying the seeds have no wings?",
+  "core": "The author playfully calls cherry seeds winged because thrushes carry them in their bills and fly away.",
+  "head": "The author playfully calls cherry seeds winged",
+  "tail": "thrushes carry them in their bills and fly away.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "Thrushes take cherry seeds in their bills and fly away.",
+   "Birds carry the seeds in their mouths or bills when they fly off.",
+   "The seeds are 'winged' because birds carry them."
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_1",
+  "iid": "3",
+  "d": 2,
+  "prompt": "What conclusion about thick pine woods does the author support with the little oaks?",
+  "core": "Pines can shade and choke young oaks, so a thick pine wood may have many oak seeds but few growing oaks.",
+  "head": "Pines can shade and choke young oaks",
+  "tail": "a thick pine wood may have many oak seeds but few growing oaks.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "Pines choke little oaks.",
+   "Little oaks do not grow well under pine shade.",
+   "A pine wood can have many oak seeds but few tall oaks.",
+   "Pines keep young oaks from thriving."
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Earlier the author says birds carry cherry seeds. Why does he write 'four-legged animals' here instead of 'animals'?",
+  "core": "It sets the animals that walk against the birds that fly, so both kinds of carrier are named.",
+  "head": "It sets the animals that walk against the birds that fly",
+  "tail": "both kinds of carrier are named.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "It contrasts animals that walk with the birds that fly.",
+   "Mammals carry the seeds on foot, not birds.",
+   "Squirrels and other walking animals carry seeds, not only birds.",
+   "The carriers walk instead of flying, so 'four-legged' says which kind."
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The opening asks you to picture a bird carrying a cherry seed. What does the last part do instead?",
+  "core": "The last part explains a cause and its result: the pines are cut, so the oaks grow.",
+  "head": "The last part explains a cause and its result: the pines are cut",
+  "tail": "the oaks grow.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "it explains a cause \u2014 the pines are cut, so the oaks grow",
+   "it tells why the oaks come up after the pines are cleared",
+   "it explains what happens when the pines are cut so the oaks grow"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "According to the passage, when should bread flour be used, and when should pastry flour be used?",
+  "core": "Bread flour is for yeast recipes; pastry flour is for other recipes.",
+  "head": "Bread flour is for yeast recipes",
+  "tail": "pastry flour is for other recipes.",
+  "pat": ";\\s*",
+  "acc": [
+   "Bread flour for yeast recipes and pastry flour for other recipes.",
+   "Bread flour when yeast is used; pastry flour otherwise.",
+   "Bread flour for yeast; pastry flour in other cases."
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "What change in approach does the sentence about shaping loaves and filling pans show?",
+  "core": "Part_1 helps readers judge flour; part_3 gives ordered steps for making bread.",
+  "head": "Part_1 helps readers judge flour",
+  "tail": "part_3 gives ordered steps for making bread.",
+  "pat": ";\\s*",
+  "acc": [
+   "The author moves from judging flour to giving ordered bread-making steps.",
+   "Part_3 gives a sequence of actions for making bread.",
+   "Part_1 tests flour; part_3 tells how to make dough rise."
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "No one on board can run the engine or know if parts are set right. How does that make the warning stronger?",
+  "core": "The two limits make the warning stronger because no one aboard can prevent a bad setting.",
+  "head": "The two limits make the warning stronger",
+  "tail": "no one aboard can prevent a bad setting.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "No one on board can run the engine or know if parts are set right.",
+   "The reader cannot rely on anyone aboard to prevent a bad setting.",
+   "The warning is stronger because danger can go unseen."
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_2",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Bardshar ran ahead of the mounted narrator to get better shots at the Spaniards. What conclusion about the risk he took does this support but not state?",
+  "core": "Bardshar moved ahead of the mounted narrator, nearer the enemy, to get better shots, so he took on greater danger than the men behind him.",
+  "head": "Bardshar moved ahead of the mounted narrator, nearer the enemy, to get better shots",
+  "tail": "he took on greater danger than the men behind him.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "He took on greater danger by moving closer to the enemy.",
+   "He was more exposed than the men behind him.",
+   "He risked more to get a better shot.",
+   "He moved nearer the enemy than the narrator."
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Short sentences like 'I wheeled around. I galloped.' What does that rhythm do to the ride?",
+  "core": "Each short sentence is one move, so the actions come one right after another.",
+  "head": "Each short sentence is one move",
+  "tail": "the actions come one right after another.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "Each sentence is one move, so the ride goes fast.",
+   "The actions come one right after another.",
+   "One move per sentence, with no pause between them.",
+   "The short sentences put each move in its own beat."
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_2",
+  "iid": "3",
+  "d": 2,
+  "prompt": "A grower cuts a stem and sees threads, no ring, and bark that will not peel cleanly. Which kind of wood is it, and what will that stem never show?",
+  "core": "The first kind has scattered threads, no annual layers, and hard wood on the outside.",
+  "head": "The first kind has scattered threads, no annual layers",
+  "tail": "hard wood on the outside.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "The first kind. It will never show annual layers.",
+   "The kind with scattered threads; it has no annual layers.",
+   "The first kind, with hard wood on the outside and no annual layers.",
+   "The inside-growing kind; it has no annual layers."
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_2",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The opening sorts wood into two kinds. What does the last part do with each kind?",
+  "core": "Part_1 names the two kinds; the last part shows where the hard wood sits and what each kind has or lacks.",
+  "head": "Part_1 names the two kinds",
+  "tail": "the last part shows where the hard wood sits and what each kind has or lacks.",
+  "pat": ";\\s*",
+  "acc": [
+   "It shows where the hard wood sits in each kind.",
+   "It compares what each kind has and lacks.",
+   "It explains the hard wood's position and the layers.",
+   "It adds the details of each kind."
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "authors_craft_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "The crank will 'catch,' then you 'lift upward with a quick swing.' What do the two verbs show?",
+  "core": "'Catch' is the moment the crank engages; 'swing' is the quick arc of the pull, so the two verbs split one action into stages.",
+  "head": "'Catch' is the moment the crank engages",
+  "tail": "'swing' is the quick arc of the pull, so the two verbs split one action into stages.",
+  "pat": ";\\s*",
+  "acc": [
+   "first it catches, then the big swing",
+   "the verbs split the pull into a grab and an arc",
+   "the crank catches and then swings up"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_2",
+  "iid": "2",
+  "d": 2,
+  "prompt": "Sugar destroys the sour taste; sweet fruit is 'meant for dessert.' What should jam taste like?",
+  "core": "The fruit's own sour taste should survive; the syrup preserves it, not turns it into dessert.",
+  "head": "The fruit's own sour taste should survive",
+  "tail": "the syrup preserves it, not turns it into dessert.",
+  "pat": ";\\s*",
+  "acc": [
+   "The fruit's sour taste should survive.",
+   "Jam should not taste like a sweet dessert.",
+   "The syrup should preserve the fruit, not sweeten it.",
+   "The fruit's own taste should come through."
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_2",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Wet fruit 'will soon mildew and be no use for jam.' When does the care have to start?",
+  "core": "The care must start before the fruit is picked or reaches the pan; a spoiled pick cannot be saved later.",
+  "head": "The care must start before the fruit is picked or reaches the pan",
+  "tail": "a spoiled pick cannot be saved later.",
+  "pat": ";\\s*",
+  "acc": [
+   "Before the fruit is picked.",
+   "Before it reaches the pan.",
+   "At picking time, not at the boiling.",
+   "A spoiled pick cannot be saved by boiling."
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_3",
+  "iid": "3",
+  "d": 3,
+  "prompt": "The writer could name a tree 'at a distance of several miles'. What does that tell us about how each kind of tree moved?",
+  "core": "Each kind of tree moved in its own clear way, so the moving forest was not one blur.",
+  "head": "Each kind of tree moved in its own clear way",
+  "tail": "the moving forest was not one blur.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "each kind of tree moved in its own clear way",
+   "every species had a distinct gesture, so he could tell them apart",
+   "the trees did not all move the same way"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_3",
+  "iid": "1",
+  "d": 1,
+  "prompt": "What happened to the writer by three in the afternoon in the wheat field?",
+  "core": "His strength failed him, and he crawled under the fence to lie in the shade.",
+  "head": "His strength failed him",
+  "tail": "he crawled under the fence to lie in the shade.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "his strength failed and he crawled under the fence",
+   "he broke down and lay under the fence",
+   "he could not go on and crawled out of the sun"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_3",
+  "iid": "3",
+  "d": 3,
+  "prompt": "Covey said he would not have whipped the writer half so much if he had not resisted. The writer adds that 'he had not whipped me at all'. What does that tell us?",
+  "core": "The writer got the better of the fight, so Covey's excuse about the whipping was false.",
+  "head": "The writer got the better of the fight",
+  "tail": "Covey's excuse about the whipping was false.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the writer won, so Covey's excuse was false",
+   "Covey did not whip him, so Covey lost",
+   "the writer got the better of it and Covey's words were untrue"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "The crops come one after another with nothing between them. What does that run make the neighbor's land sound like?",
+  "core": "The run of crops makes the neighbor's land sound packed with good things, so the poor field looks able to produce.",
+  "head": "The run of crops makes the neighbor's land sound packed with good things",
+  "tail": "the poor field looks able to produce.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "it makes the land sound packed with good things",
+   "it shows the soil can carry crop after crop",
+   "it piles up the produce so the land sounds rich"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_3",
+  "iid": "5",
+  "d": 4,
+  "prompt": "Why did the writer choose small fruits for a small farm near a city?",
+  "core": "He chose small fruits because city buyers wanted them, they sold early, and they spoiled too quickly to travel far.",
+  "head": "He chose small fruits",
+  "tail": "city buyers wanted them, they sold early, and they spoiled too quickly to travel far.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "they are wanted and sell close to home because they spoil quickly",
+   "city buyers wanted them and they could not travel far",
+   "they sold early and had to be sold nearby"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "authors_craft_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "Why did the writer and Jim turn back on their first route?",
+  "core": "Her feet slipped on the bare stone, so Jim said the route was useless and they turned back.",
+  "head": "Her feet slipped on the bare stone",
+  "tail": "Jim said the route was useless and they turned back.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "her feet slipped on the stone, so the route was useless",
+   "she could not keep her footing, and Jim said it was useless",
+   "her feet went numb and slipped, so they turned back"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_3",
+  "iid": "3",
+  "d": 3,
+  "prompt": "She says she was 'ashamed of how I had climbed'. What does that tell us about how she reached the top?",
+  "core": "She reached the top by climbing badly, so the climb was a poor one.",
+  "head": "She reached the top by climbing badly",
+  "tail": "the climb was a poor one.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "she did not climb well",
+   "she slipped and was ashamed of how she climbed",
+   "she reached the top, but the climb was poor"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_3",
+  "iid": "5",
+  "d": 4,
+  "prompt": "How does her view of the mountain change from the pass to the summit?",
+  "core": "Her view moves from a lovely picture to plain terror and then to wonder, so the mountain is both beautiful and dangerous.",
+  "head": "Her view moves from a lovely picture to plain terror and then to wonder",
+  "tail": "the mountain is both beautiful and dangerous.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "it moves from a lovely picture to fear and back to wonder",
+   "from beauty to terror to wonder",
+   "she sees it as beautiful and dangerous at once"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "The wood for a violin is dried too fast. What happens to its sound after three hours in a warm room?",
+  "core": "The voice of a violin made from badly dried wood goes dumb in a warm room, and the sound dies.",
+  "head": "The voice of a violin made from badly dried wood goes dumb in a warm room",
+  "tail": "the sound dies.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "its voice goes dumb",
+   "the sound dies when the bow leaves the string",
+   "it goes dumb or the sound dies at once"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_3",
+  "iid": "5",
+  "d": 4,
+  "prompt": "What does the maker care about most when he chooses wood, and why?",
+  "core": "He cares most about the belly, because the belly produces the tone and nothing else can make up for poor wood there.",
+  "head": "He cares most about the belly",
+  "tail": "the belly produces the tone and nothing else can make up for poor wood there.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "the belly, because it makes the tone",
+   "the wood for the belly, since that is what sounds",
+   "the belly, so good ribs or varnish cannot save a poor one"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "Why was it hard for the ships to find the cable?",
+  "core": "Nothing marked the place, the buoys were gone, and the cable lay two thousand fathoms down.",
+  "head": "Nothing marked the place, the buoys were gone",
+  "tail": "the cable lay two thousand fathoms down.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "nothing marked the place and the buoys were gone",
+   "the buoys had disappeared and the water was very deep",
+   "no mark was left and the buoys were lost"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_3",
+  "iid": "3",
+  "d": 3,
+  "prompt": "The line 'slid off the prongs like a great eel'. What does that tell us about how close the crew came?",
+  "core": "The eel comparison shows the cable was at the surface and slipped away, so they nearly had it.",
+  "head": "The eel comparison shows the cable was at the surface and slipped away",
+  "tail": "they nearly had it.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "they had it at the surface and lost it again",
+   "they nearly had it and it slipped away",
+   "success was close and then gone"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "authors_craft_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "One failure follows another until the final sentences. What does that order do?",
+  "core": "The failures are told first, so the recovery is stated only after every loss.",
+  "head": "The failures are told first",
+  "tail": "the recovery is stated only after every loss.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the recovery comes only after all the failures",
+   "the success is told last, after the losses",
+   "every loss is told before the cable is whole"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_1",
+  "iid": "d2",
+  "d": 2,
+  "prompt": "Some medicines make a person urinate more. Why would that cause dehydration?",
+  "core": "Because urinating more removes water, so the person loses more fluid than they take in.",
+  "head": "Because urinating more removes water",
+  "tail": "the person loses more fluid than they take in.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "more water leaves the body",
+   "you lose more fluid than you take in",
+   "the body loses water faster than it is replaced"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_1",
+  "iid": "d3",
+  "d": 3,
+  "prompt": "Why might an older adult become dehydrated without noticing?",
+  "core": "They may not feel thirsty, so they drink less than their body needs.",
+  "head": "They may not feel thirsty",
+  "tail": "they drink less than their body needs.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "they do not feel thirsty",
+   "they lose their sense of thirst and drink less",
+   "they drink less because they are not thirsty"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_1",
+  "iid": "a3",
+  "d": 3,
+  "prompt": "Pumping too much water can make a neighbor's well run dry. Why?",
+  "core": "Because both wells use the same aquifer, so pumping lowers the water for both.",
+  "head": "Because both wells use the same aquifer",
+  "tail": "pumping lowers the water for both.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "they share the same aquifer",
+   "the water table drops for both wells",
+   "the neighbor's well pulls from the same water"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_1",
+  "iid": "s3",
+  "d": 3,
+  "prompt": "The passage says groundwater is still moving, though very slowly. Why does that matter for a well?",
+  "core": "Because the water a well removes comes back slowly, so refill takes time.",
+  "head": "Because the water a well removes comes back slowly",
+  "tail": "refill takes time.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "water comes back slowly",
+   "refill takes a long time",
+   "slow movement means slow replacement"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_1",
+  "iid": "i2",
+  "d": 2,
+  "prompt": "Why do plants help rain soak into the ground?",
+  "core": "Because plants slow the water, so it has time to soak in.",
+  "head": "Because plants slow the water",
+  "tail": "it has time to soak in.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "they slow the water down",
+   "slow water has time to soak in",
+   "plants give water time to sink in"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_1",
+  "iid": "b3",
+  "d": 3,
+  "prompt": "If a black hole with the sun's mass replaced the sun, what would happen to Earth's orbit?",
+  "core": "Nothing. A black hole with the same mass keeps the same gravity, so Earth's orbit would not change.",
+  "head": "Nothing. A black hole with the same mass keeps the same gravity",
+  "tail": "Earth's orbit would not change.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "no, the gravity would be the same",
+   "no, Earth would still orbit",
+   "the same mass gives the same pull"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_1",
+  "iid": "b4",
+  "d": 1,
+  "prompt": "What will the sun become at the end of its life?",
+  "core": "It will become a red giant and then a white dwarf.",
+  "head": "It will become a red giant",
+  "tail": "a white dwarf.",
+  "pat": "\\s+and then\\s+",
+  "acc": [
+   "a red giant then a white dwarf",
+   "a red giant",
+   "a white dwarf"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_1",
+  "iid": "b5",
+  "d": 4,
+  "prompt": "A black hole with the sun's mass would keep the sun's gravity. What does that tell you about what makes gravity strong?",
+  "core": "Gravity depends on mass, so equal mass means equal pull.",
+  "head": "Gravity depends on mass",
+  "tail": "equal mass means equal pull.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "gravity depends on mass",
+   "the same mass means the same gravity",
+   "a black hole does not add gravity"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_1",
+  "iid": "k3",
+  "d": 3,
+  "prompt": "Why did the CCC men work at Zion in the winter?",
+  "core": "Because Cedar Breaks was too cold in winter, so they moved to lower camps.",
+  "head": "Because Cedar Breaks was too cold in winter",
+  "tail": "they moved to lower camps.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "Cedar Breaks was too cold",
+   "they moved to a lower camp",
+   "the high camp closed in winter"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_1",
+  "iid": "w2",
+  "d": 2,
+  "prompt": "Why do adult women have a lower percentage of water than adult men?",
+  "core": "Because fat tissue holds less water, and women carry more fat.",
+  "head": "Because fat tissue holds less water",
+  "tail": "women carry more fat.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "they have more fat",
+   "fat holds less water",
+   "more fat means less water"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_2",
+  "iid": "q2",
+  "d": 2,
+  "prompt": "The key turns in dry weather. What does that tell you about the lock?",
+  "core": "The lock still works, so the trouble is something the rain affects.",
+  "head": "The lock still works",
+  "tail": "the trouble is something the rain affects.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the lock is fine",
+   "the lock is not broken",
+   "it still works",
+   "the trouble is the rain"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_2",
+  "iid": "q4",
+  "d": 3,
+  "prompt": "The paint wore off the loop. Why does that matter?",
+  "core": "Without paint the steel rusted, and rust made the loop swell.",
+  "head": "Without paint the steel rusted",
+  "tail": "rust made the loop swell.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "bare steel rusts",
+   "the steel rusted and swelled",
+   "no paint means rust",
+   "it let the loop rust"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_2",
+  "iid": "q5",
+  "d": 4,
+  "prompt": "The owner replaced the loop, not the lock. Why did that fix it?",
+  "core": "The rusted loop was the cause, so replacing it removed the grip.",
+  "head": "The rusted loop was the cause",
+  "tail": "replacing it removed the grip.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the loop was the cause",
+   "the rust was on the loop",
+   "a new loop does not swell",
+   "the loop was gripping the lock"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_2",
+  "iid": "q3",
+  "d": 3,
+  "prompt": "Why does the stem curve instead of growing straight?",
+  "core": "Cells on the shaded side stretch longer, so that side pushes the stem into a curve.",
+  "head": "Cells on the shaded side stretch longer",
+  "tail": "that side pushes the stem into a curve.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the shaded cells stretch",
+   "one side grows longer",
+   "the dark side grows faster",
+   "longer cells on one side"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_2",
+  "iid": "q2",
+  "d": 2,
+  "prompt": "People at the north-end stops see the second bus and do not get on. What does that suggest?",
+  "core": "They already had their ride, so the second bus was no use to them.",
+  "head": "They already had their ride",
+  "tail": "the second bus was no use to them.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "they were already picked up",
+   "they did not need it",
+   "the first bus took them",
+   "they had a ride already"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_2",
+  "iid": "q3",
+  "d": 3,
+  "prompt": "Why does the second bus carry so few riders?",
+  "core": "It runs behind the first bus, so the riders are already gone.",
+  "head": "It runs behind the first bus",
+  "tail": "the riders are already gone.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "it runs behind the first bus",
+   "the first bus takes them",
+   "it comes second",
+   "the riders are already on the first bus"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_2",
+  "iid": "q3",
+  "d": 3,
+  "prompt": "Why close the store instead of counting the delivery with customers there?",
+  "core": "The delivery has to be counted as it comes in, and that needs the aisles clear.",
+  "head": "The delivery has to be counted as it comes in",
+  "tail": "that needs the aisles clear.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the counting needs an empty shop",
+   "you cannot count with customers there",
+   "the boxes block the aisles",
+   "the counting needs the floor"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "inference_band_4_2",
+  "iid": "q3",
+  "d": 3,
+  "prompt": "Why can staff not add chlorine and reopen straight away?",
+  "core": "Because the test must come after the water has mixed, so adding chlorine early does not help.",
+  "head": "Because the test must come after the water has mixed",
+  "tail": "adding chlorine early does not help.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the test needs mixed water",
+   "the water has to mix first",
+   "a test too early proves nothing",
+   "the chlorine has to spread"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_3",
+  "iid": "q3",
+  "d": 3,
+  "prompt": "Why is August the low point for the water table?",
+  "core": "Recharge comes in spring, and the summer draws the water down, so August is lowest.",
+  "head": "Recharge comes in spring, and the summer draws the water down",
+  "tail": "August is lowest.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "recharge is in spring and summer draws it down",
+   "the table falls all summer",
+   "spring refills it and summer empties it",
+   "it is lowest at the end of summer"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_3",
+  "iid": "q1",
+  "d": 1,
+  "prompt": "What did the baker keep the same after the move?",
+  "core": "The recipe, the flour, and the oven model.",
+  "head": "The recipe, the flour",
+  "tail": "the oven model.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the recipe flour and oven",
+   "recipe and flour",
+   "the same recipe",
+   "flour and oven"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_3",
+  "iid": "q2",
+  "d": 2,
+  "prompt": "Customers said the bread still tasted good. What does that rule out?",
+  "core": "It rules out bad ingredients, because the bread still tasted right.",
+  "head": "It rules out bad ingredients",
+  "tail": "the bread still tasted right.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "the ingredients were fine",
+   "it is not the flour",
+   "it rules out bad flour",
+   "the ingredients were good"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_3",
+  "iid": "q4",
+  "d": 3,
+  "prompt": "Why did the loaves fall in the oven?",
+  "core": "The bubbles were too large for the dough to hold, so the loaf sank.",
+  "head": "The bubbles were too large for the dough to hold",
+  "tail": "the loaf sank.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the bubbles were too big",
+   "the structure could not hold",
+   "it collapsed",
+   "the dough could not hold the gas"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_3",
+  "iid": "q5",
+  "d": 4,
+  "prompt": "Why would less yeast and a shorter first rise help?",
+  "core": "They slow the rise, so the dough does not over-expand before it bakes.",
+  "head": "They slow the rise",
+  "tail": "the dough does not over-expand before it bakes.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "less gas before baking",
+   "it slows the rise",
+   "the dough does not over-expand",
+   "fewer bubbles to hold"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "inference_band_4_3",
+  "iid": "q5",
+  "d": 4,
+  "prompt": "Why is a cold, sunless morning the worst case for this bridge?",
+  "core": "There is no sun to warm the deck, and the salt cannot dissolve in hard cold.",
+  "head": "There is no sun to warm the deck",
+  "tail": "the salt cannot dissolve in hard cold.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "no sun and salt does not work",
+   "salt needs warmth",
+   "nothing melts it",
+   "the salt sits on the ice"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "inference_band_4_3",
+  "iid": "q3",
+  "d": 3,
+  "prompt": "Why did the children's copy wear out first?",
+  "core": "It was borrowed far more often, and handling is what wears a book.",
+  "head": "It was borrowed far more often",
+  "tail": "handling is what wears a book.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "it was borrowed more",
+   "74 against 9",
+   "more loans",
+   "handling wore it out"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_3",
+  "iid": "q4",
+  "d": 3,
+  "prompt": "Children read in shorter sittings. How does that add to the wear?",
+  "core": "It means more loans, and more loans mean more handling.",
+  "head": "It means more loans",
+  "tail": "more loans mean more handling.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "more loans back and forth",
+   "more trips",
+   "it means more handling",
+   "the book travels more"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_3",
+  "iid": "q5",
+  "d": 4,
+  "prompt": "Why did the librarian buy a second copy rather than a stronger one alone?",
+  "core": "Because demand caused the wear, so a second copy shares the handling.",
+  "head": "Because demand caused the wear",
+  "tail": "a second copy shares the handling.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "demand is the cause",
+   "two copies share the wear",
+   "it spreads the loans",
+   "more copies means less handling each"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "inference_band_4_3",
+  "iid": "q4",
+  "d": 3,
+  "prompt": "Why do the trees and the ridge matter?",
+  "core": "They make the wind uneven, so the pressure at the chimney keeps changing.",
+  "head": "They make the wind uneven",
+  "tail": "the pressure at the chimney keeps changing.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "they make the wind uneven",
+   "the wind is not steady",
+   "the pressure keeps changing",
+   "they disturb the wind"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "Why did the owner stop watching the helper at all that spring?",
+  "core": "The shop had more bikes than racks, so the owner was too busy.",
+  "head": "The shop had more bikes than racks",
+  "tail": "the owner was too busy.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the shop was too busy",
+   "there were more bikes than racks",
+   "he had more work than he could handle"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "By the end the helper checks every wheel twice and the owner does not. What does the story show caused that?",
+  "core": "The owner's example taught the helper, and the owner dropped his own check when work piled up.",
+  "head": "The owner's example taught the helper",
+  "tail": "the owner dropped his own check when work piled up.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the helper copied the owner",
+   "the owner showed him how to fix a mistake quietly",
+   "the owner stopped because he was behind"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "The depot has shut and the driver still stops there at two. What does that show about the reason he gave for the night run?",
+  "core": "The stop mattered more than the pay, so the reason he gives is not the whole reason.",
+  "head": "The stop mattered more than the pay",
+  "tail": "the reason he gives is not the whole reason.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the stop was the real reason",
+   "he cares about the depot more than the money",
+   "his reason is not the whole story"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "literary_text_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What happens to a flat that the foreman calls not yet?",
+  "core": "It goes back on the trestles, gets another coat, and waits a day.",
+  "head": "It goes back on the trestles, gets another coat",
+  "tail": "waits a day.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "it gets another coat",
+   "it goes back for more paint",
+   "it waits a day and gets another coat"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "What did the painter learn the second time he heard the two words?",
+  "core": "The words can mean the work is wrong or the hour is wrong, so he has to ask.",
+  "head": "The words can mean the work is wrong or the hour is wrong",
+  "tail": "he has to ask.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the words can mean two things",
+   "he must ask which meaning it is",
+   "the words might be about the hour, not the paint"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "The clerk's figure was smaller than the grower's. What made the difference?",
+  "core": "The office scale weighed the load truly, and the bay scale reads two kilos light a crate.",
+  "head": "The office scale weighed the load truly",
+  "tail": "the bay scale reads two kilos light a crate.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the office scale was accurate",
+   "the bay scale reads two kilos light on each crate",
+   "her totals came from the wrong scale"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The grower said the crates must have dried out in the sun. What does the story show actually happened?",
+  "core": "The bay scale read two kilos light on each crate, so she counted more than she delivered.",
+  "head": "The bay scale read two kilos light on each crate",
+  "tail": "she counted more than she delivered.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the scale was wrong",
+   "she weighed them on the broken scale",
+   "the bay scale cost her two kilos a crate",
+   "the scale reads less than the true weight, so she was underpaid",
+   "she weighed the crates on a scale that reads light"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "Why did the captain want this match played so much?",
+  "core": "It was his last home match, his side had not won there, and two players were leaving.",
+  "head": "It was his last home match, his side had not won there",
+  "tail": "two players were leaving.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "it was the last home match",
+   "his side had not won there",
+   "two players were leaving and it was the last chance"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_1",
+  "iid": "3",
+  "d": 2,
+  "prompt": "The groundsman pushed a fork into the turf at twelve points. What did the test show?",
+  "core": "The turf was soft at eleven of the twelve points, so it could not hold a match.",
+  "head": "The turf was soft at eleven of the twelve points",
+  "tail": "it could not hold a match.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the pitch was soft",
+   "the fork went in easily at eleven points",
+   "the turf would not hold"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "The captain called the match off and then rolled the goalmouth at night. What does that show?",
+  "core": "He accepted the groundsman's reason, and he still wanted the ground fit.",
+  "head": "He accepted the groundsman's reason",
+  "tail": "he still wanted the ground fit.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "he agreed with the groundsman",
+   "he put the ground before the match",
+   "he took the reason seriously"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The groundsman wrote the date but not whose work firmed the ground. What does the passage show about the two of them?",
+  "core": "They disagreed and each respected the other, and neither had to be beaten.",
+  "head": "They disagreed and each respected the other",
+  "tail": "neither had to be beaten.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "they respected each other",
+   "both of them had a fair reason",
+   "neither of them made it a fight"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_2",
+  "iid": "2",
+  "d": 2,
+  "prompt": "Every calf shows the same small gap in the mark. What did her father do that put it there?",
+  "core": "The father left one corner of the letter open, so every calf shows the same gap.",
+  "head": "The father left one corner of the letter open",
+  "tail": "every calf shows the same gap.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the father left a corner of the letter open",
+   "the sign has an open corner in it",
+   "it is how the sign was cut"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why does the mother want the old iron for that one heifer?",
+  "core": "The heifer comes from the father's first cow, so the mother wants the old mark on it.",
+  "head": "The heifer comes from the father's first cow",
+  "tail": "the mother wants the old mark on it.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "her line goes back to the father's first cow",
+   "she is from the oldest line on the place",
+   "the mother wants the family sign on that line"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_2",
+  "iid": "2",
+  "d": 2,
+  "prompt": "She tells the dispatcher the number of the train she is holding. What does that tell him?",
+  "core": "The number tells him a train is waiting, so the line through the tunnel is not clear.",
+  "head": "The number tells him a train is waiting",
+  "tail": "the line through the tunnel is not clear.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "that a train is waiting",
+   "that the line is not clear",
+   "which train she is holding back"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_2",
+  "iid": "3",
+  "d": 3,
+  "prompt": "Why did she hold the troop train at the signal?",
+  "core": "A coal train was already on the track, so she held the troop train to keep the two from meeting.",
+  "head": "A coal train was already on the track",
+  "tail": "she held the troop train to keep the two from meeting.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "so it would not hit the coal train",
+   "the coal train was already on the track",
+   "only one train fits on the single track",
+   "the track was blocked above the tunnel"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_2",
+  "iid": "3",
+  "d": 2,
+  "prompt": "The story never says what became of the boats that stopped coming. What does it give the reader instead?",
+  "core": "It gives the fleet-wide causes, fuel and the buyers, and never accounts for each missing boat.",
+  "head": "It gives the fleet-wide causes, fuel and the buyers",
+  "tail": "never accounts for each missing boat.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "fuel went up and buyers left",
+   "only four boats were left working",
+   "it says why the trade shrank, not what happened to each boat"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why did the man keep cutting twenty-five pounds when the foreman wanted thinner blocks?",
+  "core": "He kept the thick block because the trips were longer and the ice had to last four days.",
+  "head": "He kept the thick block",
+  "tail": "the trips were longer and the ice had to last four days.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "a thin block melts before the boat gets home",
+   "the trips are longer now",
+   "the catch needs ice on the fourth day",
+   "a thin block costs more at sea",
+   "a thick block saves money on a long trip"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_2",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The foreman leaves the cutting frame where it was. What does that show?",
+  "core": "He saw that a thinner block costs the boats more than it saves the plant, and he dropped the change.",
+  "head": "He saw that a thinner block costs the boats more than it saves the plant",
+  "tail": "he dropped the change.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "he agreed the block has to last",
+   "he understood the thin block costs the boats",
+   "he stopped asking for thinner blocks"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_2",
+  "iid": "2",
+  "d": 2,
+  "prompt": "She named the pieces to herself the way other people count sheep. What was the naming doing for her?",
+  "core": "The naming kept her steady and held her place, and in nineteen years she was never late.",
+  "head": "The naming kept her steady and held her place",
+  "tail": "in nineteen years she was never late.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "it kept her steady",
+   "it marked her way along the road",
+   "it was a habit that kept her on time"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_2",
+  "iid": "5",
+  "d": 3,
+  "prompt": "That night she writes one line about the beech. What does the line show about what she took from the run?",
+  "core": "The line keeps the beech. It shows she took the part she had given up naming, and not the rest.",
+  "head": "The line keeps the beech. It shows she took the part she had given up naming",
+  "tail": "not the rest.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "she kept the beech",
+   "she kept the part of the road she loved",
+   "she took the tree she had stopped naming"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_2",
+  "iid": "2",
+  "d": 2,
+  "prompt": "The hunter asks twice about a shot, and both times the guide answers about wind or frost. What is the guide doing?",
+  "core": "He answers with what he can read, the wind and the frost, and does not promise a shot.",
+  "head": "He answers with what he can read, the wind and the frost",
+  "tail": "does not promise a shot.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "he answers with the conditions",
+   "he will not promise a deer",
+   "he tells him what the weather will do"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_2",
+  "iid": "5",
+  "d": 3,
+  "prompt": "On the second day the hunter asks about the wind instead of a shot. What does that show?",
+  "core": "He had learned what the guide could give him, the wind and the ground, and he asked for that.",
+  "head": "He had learned what the guide could give him, the wind and the ground",
+  "tail": "he asked for that.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "he learned what the guide could give",
+   "he stopped asking for a promise",
+   "he took the day on the guide's terms"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_2",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Why did the farmer say the first letter did not sound like him?",
+  "core": "The letter carried the office's formal voice, and the farmer would not have put it that way.",
+  "head": "The letter carried the office's formal voice",
+  "tail": "the farmer would not have put it that way.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "it was the office's words",
+   "it was written the way the office writes",
+   "it was too formal to be him"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_2",
+  "iid": "4",
+  "d": 2,
+  "prompt": "What did the farmer give the man for the second letter?",
+  "core": "He gave the man the details he had lived with, the buckets, the stain, and the calf in the water.",
+  "head": "He gave the man the details he had lived with, the buckets, the stain",
+  "tail": "the calf in the water.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the buckets and the stain",
+   "what he had seen in the barn",
+   "the calf standing in six inches of water"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "They look 'as if none of them knew what was expected.' What does that say about the waiting?",
+  "core": "They do not know what is expected, so the waiting is an unexplained duty, not grief.",
+  "head": "They do not know what is expected",
+  "tail": "the waiting is an unexplained duty, not grief.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "a duty none of them understands",
+   "they are waiting without knowing what they are supposed to do",
+   "it is a duty, not grief"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "literary_text_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Jukes writes that 'you could not find a quieter skipper'. What does that phrase do to the opinion that follows?",
+  "core": "it sounds like praise and then turns into an insult",
+  "head": "it sounds like praise",
+  "tail": "turns into an insult",
+  "pat": "\\s+and then\\s+",
+  "acc": [
+   "it is praise that becomes an insult",
+   "he makes quiet mean dull",
+   "the compliment turns against him"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "literary_text_band_4_3",
+  "iid": "5",
+  "d": 4,
+  "prompt": "The family has almost no food, and Mrs. Shimerda gives a cup of mushrooms away. What is the gift for?",
+  "core": "to show the family can still give, so they are not beggars",
+  "head": "to show the family can still give",
+  "tail": "they are not beggars",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "to keep their standing",
+   "so they are not beggars",
+   "to show they can give too"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What is the second part mostly about?",
+  "core": "Borrowing a tool saves the cost of buying one, and donated tools keep the shed stocked.",
+  "head": "Borrowing a tool saves the cost of buying one",
+  "tail": "donated tools keep the shed stocked.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "borrowing is cheaper than buying",
+   "people save money by borrowing tools",
+   "donated tools fill the shed",
+   "it saves people money"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "A town library lends tools and teaches people to use them, because buying a tool for one job costs too much.",
+  "head": "A town library lends tools and teaches people to use them",
+  "tail": "buying a tool for one job costs too much.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "a library that lends tools and teaches people to use them",
+   "a tool shed that saves people money and shows them how",
+   "the library lends tools and helps people learn to use them"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "5",
+  "d": 4,
+  "prompt": "One reader says the passage is mostly about a library that lends books. What is missing from that idea?",
+  "core": "It leaves out the tool shed, and every part of the passage is about the shed.",
+  "head": "It leaves out the tool shed",
+  "tail": "every part of the passage is about the shed.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "it leaves out the tools",
+   "the passage is about tools, not books",
+   "it misses the shed",
+   "books are only the setting"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "3",
+  "d": 2,
+  "prompt": "What is the third part mostly about?",
+  "core": "The town added a van for the people who lost their stop, so they were not left without a ride.",
+  "head": "The town added a van for the people who lost their stop",
+  "tail": "they were not left without a ride.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the town added a van",
+   "the people who lost a stop got a van",
+   "the town covered the loss",
+   "a van circles the flats"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "The town traded a small walk for a few riders against a shorter, more reliable ride for everyone else, and covered the loss with a van.",
+  "head": "The town traded a small walk for a few riders against a shorter, more reliable ride for everyone else",
+  "tail": "covered the loss with a van.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the town moved a stop and added a van",
+   "a bus route changed to save time for everyone",
+   "the town traded a walk for a better route",
+   "a route change that helped most riders"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What did the owner find after the trees grew?",
+  "core": "The wall was twelve degrees cooler, the cooler cycled less, and the electric bill fell.",
+  "head": "The wall was twelve degrees cooler, the cooler cycled less",
+  "tail": "the electric bill fell.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the wall was cooler",
+   "the electric bill fell by a tenth",
+   "the cooler ran less",
+   "the trees cut the cooling cost"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "3",
+  "d": 2,
+  "prompt": "What is the third part mostly about?",
+  "core": "The shade turned the strip beside the store into a place people use, so the owner dropped his fence.",
+  "head": "The shade turned the strip beside the store into a place people use",
+  "tail": "the owner dropped his fence.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "people started using the shade",
+   "the owner dropped the fence",
+   "the strip became a place to wait",
+   "drivers and riders use the shade"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "Six shade trees cooled a hot wall, cut the store's cooling cost, and made the strip beside it a place people use.",
+  "head": "Six shade trees cooled a hot wall, cut the store's cooling cost",
+  "tail": "made the strip beside it a place people use.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "trees that cooled a store and changed its front",
+   "shade trees saved money and made a place to sit",
+   "the trees cooled the store and people started using the shade"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "1",
+  "d": 1,
+  "prompt": "What problem did the packed boxes cause?",
+  "core": "Families got food they could not use, and the pantry threw away some of it.",
+  "head": "Families got food they could not use",
+  "tail": "the pantry threw away some of it.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "people got food they could not use",
+   "the boxes were wasted",
+   "families could not cook what was in the box",
+   "the pantry wasted food"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What happened after the pantry put up shelves?",
+  "core": "The waste fell by half, and families took less each visit.",
+  "head": "The waste fell by half",
+  "tail": "families took less each visit.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the waste fell by half",
+   "people took only what they could use",
+   "there was less waste",
+   "families came more often and took less"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "3",
+  "d": 2,
+  "prompt": "What did the volunteers who expected failure get wrong?",
+  "core": "They said people would take too much, and families took less instead.",
+  "head": "They said people would take too much",
+  "tail": "families took less instead.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "people took less than they expected",
+   "the pantry did not run out",
+   "families took only what they cooked",
+   "the shelves did not fail"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "A pantry let families choose their own food, and the waste fell by half without anyone taking too much.",
+  "head": "A pantry let families choose their own food",
+  "tail": "the waste fell by half without anyone taking too much.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "letting people choose cut the waste",
+   "a pantry stopped wasting food by letting people choose",
+   "choice worked better than packed boxes",
+   "the shelves cut waste and nobody took too much"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "1",
+  "d": 1,
+  "prompt": "Why did the crew eat from a vending machine?",
+  "core": "The cafeteria was closed during their shift, so they ate from a machine.",
+  "head": "The cafeteria was closed during their shift",
+  "tail": "they ate from a machine.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the cafeteria was closed",
+   "nothing was open at night",
+   "the kitchen shut before their shift",
+   "they worked while the cafeteria was closed"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What did the hospital learn from the six-week trial?",
+  "core": "The crew slept better, and the large meals at home mostly stopped.",
+  "head": "The crew slept better",
+  "tail": "the large meals at home mostly stopped.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the crew slept better",
+   "they stopped eating big meals at home",
+   "the trial worked for the crew",
+   "the shift went better"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "A hospital served a hot meal at three in the morning, and eating together at that hour changed the crew's nights more than the food did.",
+  "head": "A hospital served a hot meal at three in the morning",
+  "tail": "eating together at that hour changed the crew's nights more than the food did.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "a hot meal in the middle of the night",
+   "the hospital opened the cafeteria at night",
+   "night workers got a meal and slept better",
+   "a shared meal at the right hour"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "5",
+  "d": 4,
+  "prompt": "The crew said the meal made the night shorter. Why would a meal do that?",
+  "core": "They sat together at a table in the middle of the shift instead of eating alone, and they slept better after it.",
+  "head": "They sat together at a table in the middle of the shift instead of eating alone",
+  "tail": "they slept better after it.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "they ate together instead of alone",
+   "the break in the middle of the shift",
+   "they stopped eating a big meal at home",
+   "they had company during the shift"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "A repair group started recording its failures, and that record taught it more than its list of successes did.",
+  "head": "A repair group started recording its failures",
+  "tail": "that record taught it more than its list of successes did.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "recording failures taught the group more than recording successes",
+   "the notebook of failures made them better",
+   "writing down what failed helped the group",
+   "failures taught them more than successes"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "1",
+  "d": 1,
+  "prompt": "By the 1970s, what stood on this land?",
+  "core": "By the 1970s, the drained wetland held buildings, an auto repair shop, and junk instead of water.",
+  "head": "By the 1970s, the drained wetland held buildings, an auto repair shop",
+  "tail": "junk instead of water.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "buildings and junk",
+   "an auto repair shop and old cars",
+   "homes, a shop, and junk",
+   "old cars and worn-out parts",
+   "it was drained and built on"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What is this part mostly about?",
+  "core": "Beavers returned to the valley, and their dams flooded the land again.",
+  "head": "Beavers returned to the valley",
+  "tail": "their dams flooded the land again.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "beavers came back and flooded the area",
+   "beaver dams raised the water",
+   "beavers built dams that brought the water back",
+   "the beavers made a pond"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "3",
+  "d": 3,
+  "prompt": "The passage names two groups that helped this land. What did each one do?",
+  "core": "Volunteers hauled away the junk, and beavers raised the water with their dams.",
+  "head": "Volunteers hauled away the junk",
+  "tail": "beavers raised the water with their dams.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "people cleaned the junk and beavers raised the water",
+   "volunteers hauled trash and beavers built dams",
+   "the beavers flooded it and people cleaned it up"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "5",
+  "d": 4,
+  "prompt": "A reader says the passage is mostly about how beavers build dams. What does that idea leave out?",
+  "core": "It leaves out the years when the land was drained and junked, and the cleanup that came later.",
+  "head": "It leaves out the years when the land was drained and junked",
+  "tail": "the cleanup that came later.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "it leaves out the people who cleaned the land",
+   "it leaves out how the land was drained and junked",
+   "it misses the cleanup and the lost wetlands"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "1",
+  "d": 1,
+  "prompt": "Who ran the camps, and who chose the work?",
+  "core": "The Army ran the camps, and the National Park Service chose the work.",
+  "head": "The Army ran the camps",
+  "tail": "the National Park Service chose the work.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the army ran them and the park service chose the work",
+   "the army and the national park service"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "CCC crews built the park and shaped how it looks, so its wild look came from people.",
+  "head": "CCC crews built the park and shaped how it looks",
+  "tail": "its wild look came from people.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "crews that built a park and shaped how it looks",
+   "people made the park, including the views",
+   "a park built by hand during the Depression"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "1",
+  "d": 1,
+  "prompt": "Where does the passage say water is stored?",
+  "core": "Water is stored in the air, on the land, and below the ground.",
+  "head": "Water is stored in the air, on the land",
+  "tail": "below the ground.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "in the air, on the land, and underground",
+   "in the sky, on land, and in the ground",
+   "everywhere and in three forms"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What is this part mostly about?",
+  "core": "The large pools where water is stored, and how long each holds it.",
+  "head": "The large pools where water is stored",
+  "tail": "how long each holds it.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the pools that hold water",
+   "where most water is stored",
+   "the places water sits in"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "3",
+  "d": 3,
+  "prompt": "People pump water, build dams, and drain wetlands. What does the passage say those actions change?",
+  "core": "They change where water is stored, how it moves, and how clean it is.",
+  "head": "They change where water is stored, how it moves",
+  "tail": "how clean it is.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "where water is stored and how it moves",
+   "the movement of water and its cleanliness",
+   "they affect the whole cycle"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "Water moves between the places it is stored, and people change that movement.",
+  "head": "Water moves between the places it is stored",
+  "tail": "people change that movement.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "water moving between places it is stored and how people affect it",
+   "the water cycle and how people change it",
+   "where water is and how it moves"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "5",
+  "d": 4,
+  "prompt": "A reader says the passage is mostly about the ocean, because it holds almost all of Earth's water. What does that idea miss?",
+  "core": "It treats one pool as the subject, and the passage is about movement between all the pools.",
+  "head": "It treats one pool as the subject",
+  "tail": "the passage is about movement between all the pools.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "it leaves out how water moves between places",
+   "the passage is about the cycle, not one pool",
+   "it misses what people do to the water"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "5",
+  "d": 4,
+  "prompt": "A reader says the passage is mostly about fighting wildfires. What is wrong with that idea?",
+  "core": "The fire here is set on purpose to prevent a worse one, so it is a tool, not a wildfire.",
+  "head": "The fire here is set on purpose to prevent a worse one",
+  "tail": "it is a tool, not a wildfire.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the fire here is set on purpose",
+   "the passage is about a planned fire, not a wildfire",
+   "stopping fires is only one of its goals"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What is this part mostly about?",
+  "core": "How storms are sorted by wind speed, and what they need to grow.",
+  "head": "How storms are sorted by wind speed",
+  "tail": "what they need to grow.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "how storms are sorted by wind speed",
+   "wind classes and what storms need",
+   "the wind speeds that make a hurricane"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "1",
+  "d": 1,
+  "prompt": "What three things must a planet do?",
+  "core": "A planet must orbit a star, be round from gravity, and have cleared its path.",
+  "head": "A planet must orbit a star, be round from gravity",
+  "tail": "have cleared its path.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "orbit a star, be round, and clear its path",
+   "circle a star, be round, and have an empty path",
+   "orbit, be round, and clear the area"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "The definition of planet, and how it changed when new objects were found.",
+  "head": "The definition of planet",
+  "tail": "how it changed when new objects were found.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "how the definition of planet was made and changed",
+   "what counts as a planet and who decides",
+   "the rule that changed Pluto's label"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_2",
+  "iid": "5",
+  "d": 4,
+  "prompt": "A reader says the passage is mostly about Pluto. What does that idea miss?",
+  "core": "Pluto is the case that shows why the rule changed, and the passage is about the rule.",
+  "head": "Pluto is the case that shows why the rule changed",
+  "tail": "the passage is about the rule.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "it leaves out the three conditions",
+   "the passage is about the rule, not one object",
+   "Pluto is only the example"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What is this part mostly about?",
+  "core": "Three ways a field wears down when one crop is repeated, and how a fallow year interrupts them.",
+  "head": "Three ways a field wears down when one crop is repeated",
+  "tail": "how a fallow year interrupts them.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the soil wearing out and how resting helps",
+   "the field losing food and gaining weeds",
+   "why a field needs a rest",
+   "the problems a cover crop fixes"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "Word meanings drift through everyday use, and dictionaries record the drift rather than decide it.",
+  "head": "Word meanings drift through everyday use",
+  "tail": "dictionaries record the drift rather than decide it.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "words change meaning over time and dictionaries record it",
+   "meanings drift and dictionaries follow",
+   "how words change meaning without anyone deciding",
+   "dictionaries record changes instead of making them"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_3",
+  "iid": "1",
+  "d": 1,
+  "prompt": "How does a buyer find out what a crate costs at this market?",
+  "core": "The seller quotes a price when the buyer stops; nothing on the floor is marked.",
+  "head": "The seller quotes a price when the buyer stops",
+  "tail": "nothing on the floor is marked.",
+  "pat": ";\\s*",
+  "acc": [
+   "the seller tells them",
+   "the seller quotes a price",
+   "by asking the seller",
+   "the seller names a price"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_3",
+  "iid": "3",
+  "d": 3,
+  "prompt": "Why would a seller sell a crate cheap instead of waiting?",
+  "core": "A crate unsold by morning is worth nothing, so a low price beats no sale.",
+  "head": "A crate unsold by morning is worth nothing",
+  "tail": "a low price beats no sale.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "unsold produce is worth nothing the next day",
+   "the crate would be thrown out",
+   "produce spoils",
+   "a cheap sale beats a loss"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "The day's price is found on the floor from that morning's supply, and it lasts about a day.",
+  "head": "The day's price is found on the floor from that morning's supply",
+  "tail": "it lasts about a day.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the price is set each morning by what arrived",
+   "a daily price found on the market floor",
+   "price follows the morning's supply",
+   "the market finds a new price every day"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_3",
+  "iid": "5",
+  "d": 4,
+  "prompt": "A reader says the passage is about how weather affects crops. What does that leave out?",
+  "core": "It leaves out the price-finding on the floor, and that the weather matters only through the size of the load.",
+  "head": "It leaves out the price-finding on the floor",
+  "tail": "that the weather matters only through the size of the load.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "it leaves out how the price is found",
+   "it misses the market floor",
+   "the weather only matters because it changes the load",
+   "it leaves out that the price lasts a day"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What problem did the different marathon courses cause?",
+  "core": "Courses varied in length, so times from different races could not be compared.",
+  "head": "Courses varied in length",
+  "tail": "times from different races could not be compared.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "times could not be compared",
+   "a fast time meant little in another country",
+   "the races were different lengths",
+   "records were not comparable"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "main_idea_band_4_3",
+  "iid": "3",
+  "d": 3,
+  "prompt": "Why were the church walls left standing?",
+  "core": "Removing the solid stone cost too much, so the roof and tower came off and the walls stayed.",
+  "head": "Removing the solid stone cost too much",
+  "tail": "the roof and tower came off and the walls stayed.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "it cost too much to remove",
+   "the stone was too solid",
+   "taking it down was too expensive",
+   "it was cheaper to leave the walls"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What is this part mostly about?",
+  "core": "Closing the road removes what a slide would hit, so crews can work on a schedule they control.",
+  "head": "Closing the road removes what a slide would hit",
+  "tail": "crews can work on a schedule they control.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "why closing makes the slope safer",
+   "closing removes what could be hurt",
+   "a slide cannot be managed with traffic",
+   "the road is closed so crews can control the snow"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "main_idea_band_4_3",
+  "iid": "5",
+  "d": 4,
+  "prompt": "What is this passage mostly about?",
+  "core": "Some mountain passes close on purpose, because a slide cannot be managed with traffic on the road.",
+  "head": "Some mountain passes close on purpose",
+  "tail": "a slide cannot be managed with traffic on the road.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "some roads close on purpose to control slides",
+   "closing is how a pass handles avalanches",
+   "the closure is planned, not a failure",
+   "why a mountain pass shuts for the winter"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "A box marked for a street in town rides the far belt. What happens to it, and why?",
+  "core": "It is flown away and comes back days later, because nothing on the far route reads the label again.",
+  "head": "It is flown away and comes back days later",
+  "tail": "nothing on the far route reads the label again.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "it goes to the airport and returns days later",
+   "it flies out and comes back, because the label is not checked again",
+   "it is sent far away since the far route never rechecks"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "Why must the code be read before the container doors close?",
+  "core": "Once the doors close, no worker can open it, so a stray box cannot be found and sent back.",
+  "head": "Once the doors close, no worker can open it",
+  "tail": "a stray box cannot be found and sent back.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "nobody can open the container after it is sealed",
+   "a wrong box cannot be pulled out once the doors close",
+   "the box cannot be checked after sealing"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why does too little salt not show up until weeks later?",
+  "core": "Salt moves inward slowly, and the shortage shows only when the inside sours or the rind grows a soft coat.",
+  "head": "Salt moves inward slowly",
+  "tail": "the shortage shows only when the inside sours or the rind grows a soft coat.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "salt moves inward slowly",
+   "the effect takes weeks to appear",
+   "the inside or the rind only fails later"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_1",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Why did the wider pipe not fill the tank faster?",
+  "core": "The spring sends the same amount of water each minute, so the wider pipe had nothing more to carry.",
+  "head": "The spring sends the same amount of water each minute",
+  "tail": "the wider pipe had nothing more to carry.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the spring's flow did not change",
+   "the spring puts in the same water each minute",
+   "the pipe was already wide enough"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "The crew measured the flow at both ends and the numbers matched. What did that show?",
+  "core": "The pipe was never the limit; the spring's flow was.",
+  "head": "The pipe was never the limit",
+  "tail": "the spring's flow was.",
+  "pat": ";\\s*",
+  "acc": [
+   "the pipe was not the limit",
+   "the limit was the spring",
+   "nothing was lost in the pipe, so the spring sets the rate"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "If the town wants more water each day, what has to change, and why?",
+  "core": "The spring itself must give more, because every other step waits on it.",
+  "head": "The spring itself must give more",
+  "tail": "every other step waits on it.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "the spring has to give more",
+   "they need a second source, because the spring limits everything",
+   "only more flow from the spring would help"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "What did the sand in the holes do?",
+  "core": "With the sand in the holes, water went down into the soil instead of running off, and the roots followed it.",
+  "head": "With the sand in the holes, water went down into the soil instead of running off",
+  "tail": "the roots followed it.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "it let water into the soil",
+   "it gave water and roots a way down",
+   "it helped the water drain down",
+   "it helped the roots grow deeper",
+   "it kept the holes open"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "Why must the puncturing come after the mowing?",
+  "core": "The mower presses the surface shut, so holes opened first would be closed again by the same wheels.",
+  "head": "The mower presses the surface shut",
+  "tail": "holes opened first would be closed again by the same wheels.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the mower would close the holes again",
+   "mowing seals the surface, so the holes must come after",
+   "opening the ground first would be undone by mowing"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_1",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Fuel is finished early but the cabin is half done. When does boarding begin?",
+  "core": "Only when both crews finish, so boarding waits for the cleaning crew.",
+  "head": "Only when both crews finish",
+  "tail": "boarding waits for the cleaning crew.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "when the cleaning is finished too",
+   "after both are done",
+   "boarding waits for the slower crew"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "process_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "What do the two lights on the board tell the dispatcher?",
+  "core": "When each crew has finished; the flight is released only when both lights are green.",
+  "head": "When each crew has finished",
+  "tail": "the flight is released only when both lights are green.",
+  "pat": ";\\s*",
+  "acc": [
+   "whether each crew is done",
+   "when both jobs are finished",
+   "that both crews have finished"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "Why is the release one step that comes after both jobs?",
+  "core": "A connected fuel hose or an unfinished cabin makes boarding unsafe or unready, so one crew's finish is not enough.",
+  "head": "A connected fuel hose or an unfinished cabin makes boarding unsafe or unready",
+  "tail": "one crew's finish is not enough.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "boarding is unsafe with the hose connected",
+   "the cabin must be clean and the hose off",
+   "both jobs have to be done before people walk out"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "The wall looks finished at the end of the day. Why does that not show the mix was right?",
+  "core": "The fault is inside the joints, and only the frost reveals it months later.",
+  "head": "The fault is inside the joints",
+  "tail": "only the frost reveals it months later.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the fault is inside and shows in winter",
+   "the surface can look fine while the joint is weak",
+   "only freezing shows the problem"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "Why can no later step repair a bad mix?",
+  "core": "Once the mortar sets, the missing lime cannot be put back; the ratio is fixed at the mixing board.",
+  "head": "Once the mortar sets, the missing lime cannot be put back",
+  "tail": "the ratio is fixed at the mixing board.",
+  "pat": ";\\s*",
+  "acc": [
+   "the mortar is already set in the wall",
+   "you cannot add lime after it sets",
+   "the mix is decided before the wall shows anything"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Clean linen has to be on the hospital floors by six. Why can the crew not wait as long as it takes to fill the drum?",
+  "core": "Because a full load takes about an hour, so waiting too long misses the six o'clock delivery.",
+  "head": "Because a full load takes about an hour",
+  "tail": "waiting too long misses the six o'clock delivery.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the load takes an hour and six o'clock comes first",
+   "waiting would make the linen late",
+   "an hour is needed, so the wait has a limit"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "When carts fill slowly, the crew starts the next load early. Why does the crew give up the full drum?",
+  "core": "The delivery time matters more than a full drum, so the crew runs a short load rather than miss six o'clock.",
+  "head": "The delivery time matters more than a full drum",
+  "tail": "the crew runs a short load rather than miss six o'clock.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the delivery matters more than a full load",
+   "it would rather send half than be late",
+   "the clock is firmer than the mark"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "5",
+  "d": 3,
+  "prompt": "A crew starts every load as soon as two carts are half full, so each drum runs half full. What happens to the morning, and why?",
+  "core": "Each half load spends a full hour and returns half the linen, so the same linen needs twice the hours and the six o'clock delivery runs short.",
+  "head": "Each half load spends a full hour and returns half the linen",
+  "tail": "the same linen needs twice the hours and the six o'clock delivery runs short.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "twice the hours for the same linen, so the delivery is short",
+   "the morning cannot make the same amount of linen",
+   "every half load spends an hour and gives half the linen"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Why did doubling the wash not raise output?",
+  "core": "The sizer was the slow step, so a faster wash only moved the waiting.",
+  "head": "The sizer was the slow step",
+  "tail": "a faster wash only moved the waiting.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the sizer could not keep up",
+   "the wash was not the limit",
+   "the fruit now waited at the sizer"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "The crew says the wash had been fine all along. What does that mean?",
+  "core": "The wash never limited the line; the sizer did, so the extra belt only added waiting room.",
+  "head": "The wash never limited the line",
+  "tail": "the sizer did, so the extra belt only added waiting room.",
+  "pat": ";\\s*",
+  "acc": [
+   "the wash was never the limit",
+   "the sizer set the speed all along",
+   "the extra belt added nothing"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The crew adds a boxer to the lane that fills fastest. What should they expect next, and why?",
+  "core": "The pile moves again, to whatever station is now slowest, because the line runs at the speed of its slowest step.",
+  "head": "The pile moves again, to whatever station is now slowest",
+  "tail": "the line runs at the speed of its slowest step.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "the waiting moves to the next slow station",
+   "the pile shifts again to another lane",
+   "output stays the same until the new slow step is fixed"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "1",
+  "d": 1,
+  "prompt": "Where does the water go after it leaves the tank?",
+  "core": "Across a bed of gravel and sand, into a sump, and back to the tank by pump.",
+  "head": "Across a bed of gravel and sand, into a sump",
+  "tail": "back to the tank by pump.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "over the filter bed and back through the pump",
+   "across the gravel into a sump and back",
+   "through the filter and then back to the tank"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "3",
+  "d": 2,
+  "prompt": "The filter works as it was built to work. Why is the tank cloudy anyway?",
+  "core": "The dust that slips through returns on every pass, so the amount builds up over a week.",
+  "head": "The dust that slips through returns on every pass",
+  "tail": "the amount builds up over a week.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the dust comes back every time and adds up",
+   "each pass leaves a little more dust",
+   "the water keeps circulating the dust"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "The crew fits a new filter. Why does that not clear the tank for long?",
+  "core": "The dust already in the loop keeps returning, so a new filter only catches what passes through it.",
+  "head": "The dust already in the loop keeps returning",
+  "tail": "a new filter only catches what passes through it.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the dust in the tank keeps coming back through the new filter",
+   "the filter cannot remove what is already in the water",
+   "the loop keeps bringing the dust back"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "5",
+  "d": 3,
+  "prompt": "Why do the crew drain water instead of fitting a bigger pump?",
+  "core": "A faster pump moves the dust around faster, while a drain lowers the count; the amount to drain is known only after the loop has run.",
+  "head": "A faster pump moves the dust around faster, while a drain lowers the count",
+  "tail": "the amount to drain is known only after the loop has run.",
+  "pat": ";\\s*",
+  "acc": [
+   "a bigger pump makes the dust move faster",
+   "only draining takes dust out of the loop",
+   "the drain lowers the count and the pump does not"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What does the compositor measure?",
+  "core": "Each column against the frame, and the advertisement borders.",
+  "head": "Each column against the frame",
+  "tail": "the advertisement borders.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the columns against the frame",
+   "how long each column runs",
+   "the column width and the advertisement borders"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Why does the compositor read very little of the text?",
+  "core": "His job is the space; a wrong name does not change any measurement.",
+  "head": "His job is the space",
+  "tail": "a wrong name does not change any measurement.",
+  "pat": ";\\s*",
+  "acc": [
+   "he checks space, not words",
+   "a wrong name does not affect the columns",
+   "measuring the page does not need reading"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "A page passes the copy editor and is still wrong. What could be wrong, and why did she miss it?",
+  "core": "A column could run long or the advertisement borders could be off, because she does not measure the page.",
+  "head": "A column could run long or the advertisement borders could be off",
+  "tail": "she does not measure the page.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "the columns or the advertisement borders could be wrong",
+   "the page could be laid out badly",
+   "its space is wrong because she checks words only"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "5",
+  "d": 3,
+  "prompt": "Why can one reader not do both jobs in one pass?",
+  "core": "The two reads look for different defects, so one pass cannot do both jobs.",
+  "head": "The two reads look for different defects",
+  "tail": "one pass cannot do both jobs.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "each read looks for a different fault",
+   "finding words does not find a crooked column",
+   "one reader can only look for one kind of error"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "If one move is too far for the grade, what has to happen before the route opens?",
+  "core": "The hold moves, the tape changes, and the climb starts again from the floor.",
+  "head": "The hold moves, the tape changes",
+  "tail": "the climb starts again from the floor.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the move is changed and the climb repeats",
+   "the hold is moved and she climbs again",
+   "the route goes back for another climb"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "5",
+  "d": 3,
+  "prompt": "Why is the tester never the setter?",
+  "core": "A setter climbs with his own reach in mind, so a move built for his arm may not suit the next person.",
+  "head": "A setter climbs with his own reach in mind",
+  "tail": "a move built for his arm may not suit the next person.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the setter knows his own reach and cannot feel the difficulty",
+   "someone else has to find the moves the setter finds easy",
+   "the setter is blind to his own reach"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why can the crew not shorten the ramp step?",
+  "core": "A car halfway up the ramp cannot stop, and the boat has to stay balanced.",
+  "head": "A car halfway up the ramp cannot stop",
+  "tail": "the boat has to stay balanced.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "a car cannot stop halfway up",
+   "the boat has to stay balanced while loading",
+   "cars are already on the ramp"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_2",
+  "iid": "5",
+  "d": 3,
+  "prompt": "Why does the crew build the sheet backward from the sailing time, not forward from the first step?",
+  "core": "Working forward runs out of time at the ramp; from the sailing time each step gets its own minutes.",
+  "head": "Working forward runs out of time at the ramp",
+  "tail": "from the sailing time each step gets its own minutes.",
+  "pat": ";\\s*",
+  "acc": [
+   "forward working runs out of time at the end",
+   "the fixed finish tells each step how long it has",
+   "backward shows the shortage before the work starts"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "Four jobs in two colors need two wash-ups when each color runs together. Why can the same jobs in arrival order need three?",
+  "core": "Arrival order alternates the inks, so more switches are needed.",
+  "head": "Arrival order alternates the inks",
+  "tail": "more switches are needed.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the colors alternate, so each change costs a wash-up",
+   "arrival order switches ink more often",
+   "it breaks the colors up into more changes"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "3",
+  "d": 3,
+  "prompt": "The greens run first even though the blues arrived first. Why?",
+  "core": "The greens are due at noon, and a late delivery costs more than a wash-up.",
+  "head": "The greens are due at noon",
+  "tail": "a late delivery costs more than a wash-up.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the noon deadline outranks the earlier arrival",
+   "a late delivery costs more than a wash-up",
+   "the greens have to go out by noon"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "A blue job due at four arrives after the green job due at noon. Where does it go on the board, and why?",
+  "core": "With the other blues, after the greens, because the greens are due first and the blues share an ink.",
+  "head": "With the other blues, after the greens",
+  "tail": "the greens are due first and the blues share an ink.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "after the greens, with the other blues",
+   "in the blue group, behind the noon job",
+   "it joins the blues once the greens are done"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "5",
+  "d": 4,
+  "prompt": "What decides the order on the board, and what one thing can overrule it?",
+  "core": "Shared ink decides the order, and an earlier due time can overrule it.",
+  "head": "Shared ink decides the order",
+  "tail": "an earlier due time can overrule it.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the setup decides, and a due time outranks it",
+   "grouping by ink, unless a deadline is earlier",
+   "ink changes set the order, and a sooner deadline breaks it"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "The cook doubles every amount and uses the same pan. Why does the boil take much longer than twice the old time?",
+  "core": "Because the pan's top is the same width, so water leaves at the old rate while twice as much must go.",
+  "head": "Because the pan's top is the same width",
+  "tail": "water leaves at the old rate while twice as much must go.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the top did not widen, so the water leaves at the same rate",
+   "there is twice the water and the same surface",
+   "the pan is deeper but no wider"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "3",
+  "d": 3,
+  "prompt": "Why does a shallow pan set faster than a deep one?",
+  "core": "Its top is wide for the amount of fruit, so more water can leave at once.",
+  "head": "Its top is wide for the amount of fruit",
+  "tail": "more water can leave at once.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the surface is wide for the amount of fruit",
+   "more of the mixture touches the top",
+   "there is more surface for the water to leave from"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "The cook says what has to scale is the surface, not the depth. Why?",
+  "core": "Because the surface lets the water escape, so it must grow with the fruit.",
+  "head": "Because the surface lets the water escape",
+  "tail": "it must grow with the fruit.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the top is what lets the water out",
+   "a deeper pan only adds water to remove",
+   "the width has to grow with the batch"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "5",
+  "d": 4,
+  "prompt": "A second batch doubles as before but uses a pan twice as wide. How does the boil compare with the old one?",
+  "core": "It runs about as long as the old one, because the surface grew with the fruit.",
+  "head": "It runs about as long as the old one",
+  "tail": "the surface grew with the fruit.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "about the same time",
+   "it stays close to the old boil",
+   "much shorter than the doubled batch in one pan"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "1",
+  "d": 1,
+  "prompt": "Why does the crew return to each box several times?",
+  "core": "Because the hatch estimate is rough, so they must catch the right moment.",
+  "head": "Because the hatch estimate is rough",
+  "tail": "they must catch the right moment.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the hatch date is only an estimate",
+   "the eggs hatch over several days",
+   "to find the day the chicks are the right age"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What goes wrong if a band goes on too early, and what goes wrong if it goes on too late?",
+  "core": "Too early the band slips over the foot and is lost, and too late the leg is too thick for it.",
+  "head": "Too early the band slips over the foot and is lost",
+  "tail": "too late the leg is too thick for it.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "too early it slides off and is lost, too late the leg is too big",
+   "the band falls off early, and it will not fit late"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Rain can close the window for a box. What does the crew lose?",
+  "core": "The chance to band that chick, because the box is skipped.",
+  "head": "The chance to band that chick",
+  "tail": "the box is skipped.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "that chick goes unbanded",
+   "the box is skipped for the year",
+   "they lose the banding for those chicks"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "5",
+  "d": 4,
+  "prompt": "The crew finds a box where the chicks are older than expected. What should they do, and why?",
+  "core": "Band that box now, because the window may be closing and it does not reopen.",
+  "head": "Band that box now",
+  "tail": "the window may be closing and it does not reopen.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "band them at once, before the legs grow",
+   "visit that box first",
+   "band them now, since the window is nearly closed"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "1",
+  "d": 1,
+  "prompt": "What does each cue in the book record?",
+  "core": "A number, a change, and the line of the play where it belongs.",
+  "head": "A number, a change",
+  "tail": "the line of the play where it belongs.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "a number, a change and a line",
+   "the cue number, the change and the line",
+   "what changes, which line, and how long it takes"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "5",
+  "d": 4,
+  "prompt": "The actor pauses for four seconds before the line. What does the manager do, and why?",
+  "core": "Holds standby and calls go when the line finally comes, because the word sets the moment.",
+  "head": "Holds standby and calls go when the line finally comes",
+  "tail": "the word sets the moment.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "waits and calls go on the line",
+   "holds the call until the actor speaks",
+   "nothing, until the word arrives"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "A crew opens two seconds ahead at the first mark and then loses four in the third. Why?",
+  "core": "It spent the fixed store early, so less was left for the third piece.",
+  "head": "It spent the fixed store early",
+  "tail": "less was left for the third piece.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "it used its fuel early",
+   "the store is fixed and the start took too much",
+   "spending at a high rate early leaves less for later"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "3",
+  "d": 3,
+  "prompt": "Why does the crew have to choose its rates before the race?",
+  "core": "Because the four rates have to add up to one fixed store, and the choice is made before the start.",
+  "head": "Because the four rates have to add up to one fixed store",
+  "tail": "the choice is made before the start.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the rates have to add up to one store",
+   "the fuel is fixed, so the split is set in advance",
+   "deciding late means deciding badly"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "process_band_4_3",
+  "iid": "5",
+  "d": 4,
+  "prompt": "The crew loads two full lanes on one side before pumping at all. What happens, and why?",
+  "core": "The boat tilts, the ramp stops reaching the shore, and the line of cars stops with it.",
+  "head": "The boat tilts, the ramp stops reaching the shore",
+  "tail": "the line of cars stops with it.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "it tilts and the ramp no longer reaches",
+   "the deck leans and the line stops",
+   "the boat sits low on one side and unloading breaks"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "The crew could have cut ice in March. Why did they wait for January?",
+  "core": "March ice is thinner and softer, so the crew waited for the cold.",
+  "head": "March ice is thinner and softer",
+  "tail": "the crew waited for the cold.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the ice is thinner in March",
+   "March ice is softer",
+   "the cold makes thicker ice",
+   "they wanted thick, hard ice"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The passage says a crew that cut in the wrong week wasted a season of work. What made the week matter so much?",
+  "core": "The ice was thick in January and thin in March, so a late crew had less to cut.",
+  "head": "The ice was thick in January and thin in March",
+  "tail": "a late crew had less to cut.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the ice was thinner later in the year",
+   "the ice got soft as the weather warmed",
+   "they had to cut while the ice was thick"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why would a shipper pay more to send grain by truck?",
+  "core": "To meet a ship on a certain day, because a late barge is worse than a costly truck.",
+  "head": "To meet a ship on a certain day",
+  "tail": "a late barge is worse than a costly truck.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "the grain has to arrive on time",
+   "a late barge is worse",
+   "to hit the ship's date",
+   "speed matters more than price that week"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "text_structure_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "The sand worked for a month. Why did the water come back worse?",
+  "core": "The sand closed the surface, so water ran to the low end of the straight.",
+  "head": "The sand closed the surface",
+  "tail": "water ran to the low end of the straight.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "it filled the holes so water could not soak in",
+   "it sent the water to another part of the track",
+   "the water ran off the curve"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "text_structure_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why did replacing the pipe stop the flooding when the sand did not?",
+  "core": "The pipe was the cause of the flooding, and opening it let the water leave.",
+  "head": "The pipe was the cause of the flooding",
+  "tail": "opening it let the water leave.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "water could drain again",
+   "it fixed the cause instead of the puddle",
+   "the water could reach the ditch"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The passage says a fix that treats the symptom can work for a while. It says that early success makes it dangerous. What does that mean for the sand?",
+  "core": "The sand looked like a fix because it worked for a few weeks, which hid the blocked pipe.",
+  "head": "The sand looked like a fix",
+  "tail": "it worked for a few weeks, which hid the blocked pipe.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "it worked at first, so people thought it was fixed",
+   "it hid the real cause",
+   "the early success stopped anyone looking for the pipe"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "text_structure_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "The passage says the sign 'went up last of all.' Why does it point that out?",
+  "core": "The passage starts at the end, so it says the sign was the last thing done.",
+  "head": "The passage starts at the end",
+  "tail": "it says the sign was the last thing done.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the sign was the last thing to happen",
+   "the passage begins with the ending",
+   "the story is told backwards"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The passage opens with the sign. What does that show about the order of the events it describes?",
+  "core": "The passage starts with the last event and then goes back to earlier ones.",
+  "head": "The passage starts with the last event",
+  "tail": "goes back to earlier ones.",
+  "pat": "\\s+and then\\s+",
+  "acc": [
+   "it starts with the end",
+   "the telling is out of order",
+   "it goes back in time after the opening"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_1",
+  "iid": "1",
+  "d": 1,
+  "prompt": "What was wrong with the hall when it opened?",
+  "core": "Sound came back late, so the music and speech sounded blurred.",
+  "head": "Sound came back late",
+  "tail": "the music and speech sounded blurred.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "there was an echo",
+   "the sound bounced back late",
+   "it sounded blurred"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_1",
+  "iid": "3",
+  "d": 1,
+  "prompt": "What did the cloth panels do to the echo?",
+  "core": "They absorbed the sound, and the echo stopped.",
+  "head": "They absorbed the sound",
+  "tail": "the echo stopped.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "they absorbed the sound",
+   "they stopped the echo",
+   "they soaked up the sound"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why did the musicians complain after the panels went up?",
+  "core": "The room went dead, so the players could not hear each other.",
+  "head": "The room went dead",
+  "tail": "the players could not hear each other.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "too much sound was absorbed",
+   "the room went dead",
+   "they could not hear each other play"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "text_structure_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The passage says the engineer could not plan the room in one pass. Why not?",
+  "core": "Because each fix created the next problem, so the room had to be tuned in steps.",
+  "head": "Because each fix created the next problem",
+  "tail": "the room had to be tuned in steps.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the first solution caused the second problem",
+   "each change made a new problem",
+   "it had to be tuned by ear, one change at a time"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_2",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The passage keeps both kinds under one set of rules. What does a reader get from that?",
+  "core": "The grouping says what the fog will do next, so people can plan.",
+  "head": "The grouping says what the fog will do next",
+  "tail": "people can plan.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "it tells you what the fog will do next",
+   "you know whether the fog will lift or build",
+   "it lets a grower or a crew plan the morning"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "text_structure_band_4_2",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Why is the pile turned as soon as the middle cools?",
+  "core": "Turning lets air reach the parts that had none, so the pile heats again.",
+  "head": "Turning lets air reach the parts that had none",
+  "tail": "the pile heats again.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "it lets air reach the parts that had none",
+   "the outside material gets air and heats up",
+   "turning restarts the heat in the pile"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "The pile heats a second time after it is turned. What does that show about the scraps on the outside?",
+  "core": "The outside scraps had not been broken down yet, so they were still waiting for air.",
+  "head": "The outside scraps had not been broken down yet",
+  "tail": "they were still waiting for air.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the outside had not broken down yet",
+   "there was still work left in the material",
+   "those scraps had no air before, so they were unfinished"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_2",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The passage ends by calling the bin a stage and not an ending. What makes the trip a loop?",
+  "core": "The humus feeds the crop, and the crop comes back to the kitchen as scraps.",
+  "head": "The humus feeds the crop",
+  "tail": "the crop comes back to the kitchen as scraps.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the harvest becomes the next pile of scraps",
+   "the material comes back to the kitchen in a new form",
+   "the food goes round from bin to bed to table and back"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "text_structure_band_4_2",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Why is the shorter example harder to hold than the longer one?",
+  "core": "The shorter sentence puts the news at the end, so the reader waits longer for it.",
+  "head": "The shorter sentence puts the news at the end",
+  "tail": "the reader waits longer for it.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the verb comes last in the short one",
+   "it keeps the news until the end",
+   "the reader has to wait for what happened"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "text_structure_band_4_2",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The league refused to widen the exception. What reason does the passage give?",
+  "core": "A rule with many exceptions stops being a rule, so the line stays where travel can change the result.",
+  "head": "A rule with many exceptions stops being a rule",
+  "tail": "the line stays where travel can change the result.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "too many exceptions would end the rule",
+   "the exception only covers travel that changes results",
+   "a rule that is widened for everyone decides nothing"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "The year after the dry summer the water was good, but the wharves stayed quiet. Why?",
+  "core": "The railroad had added a second train, so the freight went by rail.",
+  "head": "The railroad had added a second train",
+  "tail": "the freight went by rail.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the railroad added a second train",
+   "the line was carrying more of the freight",
+   "a second train took the river traffic"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "The passage gives each cause its own section before it brings them together. What does that order let you see?",
+  "core": "How each cause worked by itself, and that neither one alone brought the port down.",
+  "head": "How each cause worked by itself",
+  "tail": "that neither one alone brought the port down.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "what each cause did alone",
+   "that each cause hurt the port separately",
+   "that one cause at a time would not have finished the port",
+   "how the two worked before they met"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_3",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The passage says the two causes 'did not add up to a sum.' What does that mean here?",
+  "core": "Each loss made the other's repair harder, so together they finished what one alone would not.",
+  "head": "Each loss made the other's repair harder",
+  "tail": "together they finished what one alone would not.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "each one blocked the fix for the other",
+   "they worked against the town together",
+   "the money to dredge had gone with the freight",
+   "neither could be fixed once the other had happened"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "text_structure_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "Water leaves the sea as vapor. What does that do to the salt?",
+  "core": "The salt stays behind, so a sea with no outlet keeps it.",
+  "head": "The salt stays behind",
+  "tail": "a sea with no outlet keeps it.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the salt stays behind",
+   "the water leaves and the salt stays",
+   "the sea keeps what its rivers bring"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_3",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Why is a mountain lake fresh while a lake in a closed basin turns bitter?",
+  "core": "The mountain lake has a river running out; the closed basin has no outlet, so the salt gathers.",
+  "head": "The mountain lake has a river running out",
+  "tail": "the closed basin has no outlet, so the salt gathers.",
+  "pat": ";\\s*",
+  "acc": [
+   "the mountain lake drains out and the basin does not",
+   "water leaves the closed basin only as vapor, so the salt stays",
+   "the basin has no river running out"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_3",
+  "iid": "1",
+  "d": 1,
+  "prompt": "What are the two levels of order in the seed drawers?",
+  "core": "What the plant is for, and how long the seed will sprout.",
+  "head": "What the plant is for",
+  "tail": "how long the seed will sprout.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the kind of plant and how long the seed keeps",
+   "plant group and the years left",
+   "what the plant is for and the date",
+   "leaf, root, fruit or pod, then how long it sprouts"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_3",
+  "iid": "3",
+  "d": 2,
+  "prompt": "Bean seed and pea seed both sit in the pod drawer. Why does the saver still read both packets?",
+  "core": "They keep for different numbers of years, so the packet decides which to sow.",
+  "head": "They keep for different numbers of years",
+  "tail": "the packet decides which to sow.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "they last different lengths of time",
+   "bean keeps three years and pea two",
+   "the years differ, so the packet decides",
+   "one is nearer its end than the other"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_3",
+  "iid": "3",
+  "d": 3,
+  "prompt": "The van's fuel and the van's insurance go on different sides. Why?",
+  "core": "Fuel stops with the parcels; the insurance is paid in a quiet month.",
+  "head": "Fuel stops with the parcels",
+  "tail": "the insurance is paid in a quiet month.",
+  "pat": ";\\s*",
+  "acc": [
+   "fuel rises and falls with sales and the policy does not",
+   "the fuel bill stops when the van stops and insurance does not",
+   "one cost follows the sales and the other does not"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_3",
+  "iid": "5",
+  "d": 3,
+  "prompt": "Why does the class ask about a slow week rather than about the size of the bill?",
+  "core": "Whether a cost stops is what decides, and its size does not.",
+  "head": "Whether a cost stops is what decides",
+  "tail": "its size does not.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "size does not decide, stopping does",
+   "a large cost can stop and a small one can keep going",
+   "the week shows which costs keep coming"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "text_structure_band_4_3",
+  "iid": "5",
+  "d": 3,
+  "prompt": "Why does the guide call the reservoir the real limit on traffic?",
+  "core": "Only the reservoir refills the summit, so the number of boats a day depends on it.",
+  "head": "Only the reservoir refills the summit",
+  "tail": "the number of boats a day depends on it.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "it is the only thing that refills the summit",
+   "the summit empties and only the reservoir fills it",
+   "traffic is limited by how fast the summit refills"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why can the method not say how many turns a string needs?",
+  "core": "The number depends on what she hears, so the step repeats until the pulse stops.",
+  "head": "The number depends on what she hears",
+  "tail": "the step repeats until the pulse stops.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the number is not known until she listens",
+   "it ends when the pulse stops, not after a count",
+   "each string needs a different number of turns"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "text_structure_band_4_3",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The passage compares a recipe with a tuning. What is the difference it draws?",
+  "core": "A recipe can count its steps; a tuning repeats a step until a test passes.",
+  "head": "A recipe can count its steps",
+  "tail": "a tuning repeats a step until a test passes.",
+  "pat": ";\\s*",
+  "acc": [
+   "a recipe has a fixed number of steps and a tuning ends on a test",
+   "one counts turns and the other listens for the pulse to stop",
+   "a recipe stops after three turns and a tuning stops when it sounds right"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What does it mean that each block was cut in reverse?",
+  "core": "The letter was cut backwards, so it printed the right way round on paper.",
+  "head": "The letter was cut backwards",
+  "tail": "it printed the right way round on paper.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the letter was cut backwards",
+   "it was a mirror image",
+   "the block showed the letter flipped so the print came out normal"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why did the apprentice read the lines upside down and backwards?",
+  "core": "Because that is how the type sat in the form, so he was reading the blocks as they were arranged.",
+  "head": "Because that is how the type sat in the form",
+  "tail": "he was reading the blocks as they were arranged.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "that was the way the type was arranged",
+   "because the type was reversed in the tray",
+   "so he could check the blocks the way they sat"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "vocab_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What happens on the outside of a bend?",
+  "core": "The water moves fastest there and carries soil away, so that bank is cut back.",
+  "head": "The water moves fastest there and carries soil away",
+  "tail": "that bank is cut back.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the bank is worn away",
+   "the fast water carries soil off the bank",
+   "the outside bank loses ground"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why did the school year bend around the harvest?",
+  "core": "Students were needed for the farm work, so few came during harvest and school ran between harvests.",
+  "head": "Students were needed for the farm work",
+  "tail": "few came during harvest and school ran between harvests.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "children had to work on the farm",
+   "families needed help bringing in the crops",
+   "school had to fit around farm work"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "Why does salt keep meat from spoiling?",
+  "core": "It pulls water out of the meat, and the bacteria that spoil food cannot grow without water.",
+  "head": "It pulls water out of the meat",
+  "tail": "the bacteria that spoil food cannot grow without water.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "it takes the water out so bacteria cannot grow",
+   "bacteria need water and salt removes it",
+   "it dries the meat out"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_1",
+  "iid": "5",
+  "d": 3,
+  "prompt": "The passage says the method was local, and so was the taste. What does that mean?",
+  "core": "Each region preserved food in its own way, depending on what it could get, so the food tasted different from place to place.",
+  "head": "Each region preserved food in its own way, depending on what it could get",
+  "tail": "the food tasted different from place to place.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "different regions used different methods, so the food was different",
+   "what people ate depended on where they lived",
+   "the way of keeping food changed from valley to valley"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "vocab_band_4_1",
+  "iid": "2",
+  "d": 2,
+  "prompt": "Why does a canal need a lock?",
+  "core": "Because water will not run uphill, so a lock lifts boats to the next level.",
+  "head": "Because water will not run uphill",
+  "tail": "a lock lifts boats to the next level.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "to raise boats over a hill",
+   "to move boats up or down between levels",
+   "because the canal must stay level"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "vocab_band_4_1",
+  "iid": "4",
+  "d": 3,
+  "prompt": "What did a lock keeper do?",
+  "core": "Watched the gates, opened and closed them for each boat, and recorded the traffic.",
+  "head": "Watched the gates, opened and closed them for each boat",
+  "tail": "recorded the traffic.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "opened and closed the gates for boats",
+   "ran the locks and kept a record of boats",
+   "let the water in and out for each boat"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_1",
+  "iid": "5",
+  "d": 4,
+  "prompt": "The passage says the canal was slow, and that was the point. What does that mean?",
+  "core": "The slowness was acceptable because the load arrived whole and the cost of moving it was low.",
+  "head": "The slowness was acceptable",
+  "tail": "the load arrived whole and the cost of moving it was low.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "being slow did not matter because the goods arrived safely and cheaply",
+   "slow travel was worth it for the low cost",
+   "the point was cheap, safe delivery, not speed"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "vocab_band_4_2",
+  "iid": "2",
+  "d": 2,
+  "prompt": "What does scale mean in this passage?",
+  "core": "How much of the land is shown on one sheet, so a small scale covers more ground with less detail.",
+  "head": "How much of the land is shown on one sheet",
+  "tail": "a small scale covers more ground with less detail.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "how much of the world fits on the map",
+   "the amount of detail shown for the area",
+   "whether the map shows a country or a harbor"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why could a small-scale chart be dangerous in a harbor?",
+  "core": "It leaves out inlets and shoals too narrow to draw, so the sailor could run onto a hazard the chart simplified away.",
+  "head": "It leaves out inlets and shoals too narrow to draw",
+  "tail": "the sailor could run onto a hazard the chart simplified away.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "it leaves out small features like shoals",
+   "the details were too small to show",
+   "the chart was simplified, so a hidden shoal could be missed"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why is a good sentence in the wrong place the hardest cut?",
+  "core": "The writer keeps it because it is well made, but it slows the paragraph, so its quality is the reason it is hard to remove.",
+  "head": "The writer keeps it",
+  "tail": "it is well made, but it slows the paragraph, so its quality is the reason it is hard to remove.",
+  "pat": "\\s+because\\s+",
+  "acc": [
+   "because it is well written but does not belong there",
+   "the writer likes it even though it slows the piece",
+   "it is good, so removing it feels wrong"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_2",
+  "iid": "5",
+  "d": 4,
+  "prompt": "What does it mean that every mark was answered, either by a change or by a reason?",
+  "core": "The writer either made the edit or explained why it should not be made, so no mark was simply ignored.",
+  "head": "The writer either made the edit or explained why it should not be made",
+  "tail": "no mark was simply ignored.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the writer responded to every edit",
+   "each suggestion was either accepted or argued against",
+   "nothing was ignored; the writer changed it or defended it"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_2",
+  "iid": "5",
+  "d": 4,
+  "prompt": "The passage says that when people call the soil alive, they are not speaking loosely. What does that mean?",
+  "core": "The soil really does contain living organisms, so the phrase is accurate rather than poetic.",
+  "head": "The soil really does contain living organisms",
+  "tail": "the phrase is accurate rather than poetic.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the soil actually holds living things",
+   "it is literally true, not just a figure of speech",
+   "the soil is full of living fungi and other organisms"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why is the cost of waiting paid twice?",
+  "core": "The goods lose value, and the cash tied up in them cannot buy what is selling.",
+  "head": "The goods lose value",
+  "tail": "the cash tied up in them cannot buy what is selling.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the food loses value and the money is stuck in it",
+   "you lose on the goods and on the money you cannot use",
+   "the item spoils while the cash stays locked in it"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why did the taker record ages he doubted?",
+  "core": "Because every entry had to be treated the same way, so a doubtful answer was written as given rather than guessed at.",
+  "head": "Because every entry had to be treated the same way",
+  "tail": "a doubtful answer was written as given rather than guessed at.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "he was not allowed to guess",
+   "the rule was to write what he was told",
+   "consistency mattered more than correcting the family"
+  ],
+  "cov": false
+ },
+ {
+  "lesson": "vocab_band_4_2",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why does a heavy crop lead to a light one the next year?",
+  "core": "The tree uses its energy on the heavy fruit, so it makes fewer strong buds for next spring.",
+  "head": "The tree uses its energy on the heavy fruit",
+  "tail": "it makes fewer strong buds for next spring.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the tree has no energy left for buds",
+   "heavy fruit takes the energy the buds needed",
+   "the buds are weaker because the crop was big"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_2",
+  "iid": "5",
+  "d": 4,
+  "prompt": "What does the passage mean by saying the off year is the tree telling you what it could not do?",
+  "core": "The light year shows the limit the heavy year used up, so the tree's capacity is visible in what it failed to produce.",
+  "head": "The light year shows the limit the heavy year used up",
+  "tail": "the tree's capacity is visible in what it failed to produce.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the light crop shows the tree ran out of energy",
+   "the off year is evidence of a limit the tree hit",
+   "the tree shows its limit by producing less"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "Why can a line of riders move faster than one rider alone?",
+  "core": "The front rider breaks the air, so the riders behind use less effort and the whole line moves faster.",
+  "head": "The front rider breaks the air",
+  "tail": "the riders behind use less effort and the whole line moves faster.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the riders behind ride out of the wind",
+   "they take shelter behind the front rider",
+   "the front rider pushes the air aside for the rest"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "What does rotate mean for a group of riders?",
+  "core": "Taking turns at the front, then drifting back, so everyone shares the work.",
+  "head": "Taking turns at the front, then drifting back",
+  "tail": "everyone shares the work.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "taking turns at the front",
+   "each rider leads for a while then drops back",
+   "the order of the line changes"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_3",
+  "iid": "5",
+  "d": 4,
+  "prompt": "What does it mean that the seed is not being careful in any human sense?",
+  "core": "The seed has no intent or judgement; its chemistry needs a long cold, so it is not choosing to be cautious.",
+  "head": "The seed has no intent or judgement",
+  "tail": "its chemistry needs a long cold, so it is not choosing to be cautious.",
+  "pat": ";\\s*",
+  "acc": [
+   "it has no plan or intent",
+   "the seed is not choosing anything",
+   "its chemistry does it, not the seed"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "Why does a workshop need a margin?",
+  "core": "To replace worn tools and cover weeks with no orders, so the work can keep going.",
+  "head": "To replace worn tools and cover weeks with no orders",
+  "tail": "the work can keep going.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "to buy new tools when the old ones fail",
+   "to get through weeks with no orders",
+   "so the workshop can keep working"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_3",
+  "iid": "5",
+  "d": 4,
+  "prompt": "What does it mean that a quote hides the hours?",
+  "core": "The price leaves out the maker's time, so it looks cheaper than the work really is.",
+  "head": "The price leaves out the maker's time",
+  "tail": "it looks cheaper than the work really is.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the price does not count the time",
+   "the hours are not in the number",
+   "it looks cheaper because the work is not counted"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_3",
+  "iid": "4",
+  "d": 3,
+  "prompt": "Why does the passage say money and time were the same kind of contribution?",
+  "core": "A household could pay money or send a man to walk, and both counted as its share.",
+  "head": "A household could pay money or send a man to walk",
+  "tail": "both counted as its share.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "you could pay or send a man",
+   "money and a night of work both paid the share",
+   "the poor paid in time instead of cash"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_3",
+  "iid": "5",
+  "d": 4,
+  "prompt": "Why did the watch stop working as the town grew?",
+  "core": "The town outgrew it: too few men for the streets, no real pay for the man walking, and substitutes who did not know the streets.",
+  "head": "The town outgrew it: too few men for the streets, no real pay for the man walking",
+  "tail": "substitutes who did not know the streets.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the town had more streets than men",
+   "the watchmen were not really paid",
+   "the town grew and the shares stopped working"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "Why does a cue called too early cause a problem?",
+  "core": "It steps on the line, so the change starts before the line has landed and the audience feels the timing go wrong.",
+  "head": "It steps on the line",
+  "tail": "the change starts before the line has landed and the audience feels the timing go wrong.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "it steps on the line",
+   "the change starts before the line is finished",
+   "the audience feels the timing is off"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_3",
+  "iid": "2",
+  "d": 2,
+  "prompt": "Why does the ferry sometimes wait at the pier with its engine running?",
+  "core": "The water is too shallow over the bar at low tide, so the ferry waits for the harbor to fill.",
+  "head": "The water is too shallow over the bar at low tide",
+  "tail": "the ferry waits for the harbor to fill.",
+  "pat": ",\\s*so\\s+",
+  "acc": [
+   "the harbor is too shallow at low water",
+   "it needs more depth to cross the bar",
+   "it is waiting for the tide to come in"
+  ],
+  "cov": true
+ },
+ {
+  "lesson": "vocab_band_4_3",
+  "iid": "5",
+  "d": 4,
+  "prompt": "What does it mean that the printed times are not a rule the sea obeys?",
+  "core": "The times are the company's best reading of the water, and the water is not bound by them.",
+  "head": "The times are the company's best reading of the water",
+  "tail": "the water is not bound by them.",
+  "pat": ",\\s+and\\s+",
+  "acc": [
+   "the times are a reading of the tide, not a command",
+   "the sea does not follow the timetable",
+   "the printed time can be wrong when the water differs"
+  ],
+  "cov": true
+ }
+]

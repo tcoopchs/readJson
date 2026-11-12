@@ -1,0 +1,3082 @@
+[
+ {
+  "lesson": "text_structure_band_4_3_0006",
+  "item": "1",
+  "answers": {
+   "likely_right": "she strikes the note again",
+   "short_right": "strikes the note again",
+   "half": "she turns the pin",
+   "vague": "then she does something",
+   "echo": "right after she turns the pin",
+   "literal": "she listens for the same pulse",
+   "plausible_wrong": "she stops tuning the piano",
+   "alternative": "she checks the sound of the strings"
+  },
+  "res": [
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.002018
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.002054
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.002472
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.002088
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00208
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.002104
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.002054
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "CORRECT",
+    "cost": 0.00207
+   },
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.002042
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.000358533
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.00058946
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.002034
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.002018
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.000318424
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.00034083
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.00196275
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.002052
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "half",
+    "v": "MISS",
+    "cost": 8.7648e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.00015033
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.00198075
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.002088
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.00069808
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.00014234
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.0021345
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00208
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.0001076
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00019998
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00166725
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.002092
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.000294435
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.00071557
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.002196
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.002054
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 9.4192e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00011758
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00153525
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "CORRECT",
+    "cost": 0.00207
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "alternative",
+    "v": null,
+    "cost": 0.001275195
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "alternative",
+    "v": null,
+    "cost": 0.00122473
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.0027555
+   }
+  ]
+ },
+ {
+  "lesson": "vocab_band_4_1_0004",
+  "item": "2",
+  "answers": {
+   "likely_right": "Recitation was saying lessons from memory.",
+   "short_right": "Saying lessons aloud.",
+   "half": "It was saying something.",
+   "vague": "It was a way to learn.",
+   "echo": "Recitation meant saying the lesson aloud.",
+   "literal": "Students would say the lesson from memory.",
+   "plausible_wrong": "Recitation was when students wrote notes.",
+   "alternative": "It was a way for the teacher to check understanding."
+  },
+  "res": [
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.001986
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.002832
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "UNCLEAR",
+    "cost": 0.002076
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.002092
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "CORRECT",
+    "cost": 0.002022
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.002046
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00207
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "CORRECT",
+    "cost": 0.002112
+   },
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.002034
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.00011079
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.00025457
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.0017145
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.002028
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.000136264
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.00093374
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.003471
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "UNCLEAR",
+    "cost": 0.002076
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.00017019
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "half",
+    "v": "UNCLEAR",
+    "cost": 0.00052108
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.002211
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.00208
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.000169456
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.00020507
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.00181125
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "CORRECT",
+    "cost": 0.00213
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "echo",
+    "v": null,
+    "cost": 0.001275525
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00037442
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "echo",
+    "v": "CORRECT",
+    "cost": 0.0030045
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.002034
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 4.9833e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.00014694
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.0016545
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00207
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 9.5139e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.0001601
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.0017745
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "CORRECT",
+    "cost": 0.003192
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.000108324
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.00030296
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.002028
+   }
+  ]
+ },
+ {
+  "lesson": "vocab_band_4_3_0003",
+  "item": "2",
+  "answers": {
+   "likely_right": "A workshop needs a margin to cover costs and buy new tools.",
+   "short_right": "To pay for tools and rent.",
+   "half": "So they can replace tools.",
+   "vague": "It helps with expenses.",
+   "echo": "A workshop needs a margin.",
+   "literal": "A workshop without a margin cannot buy a new saw.",
+   "plausible_wrong": "They need a margin to make more chairs.",
+   "alternative": "Margins help keep prices stable."
+  },
+  "res": [
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.0021
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.002064
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "CORRECT",
+    "cost": 0.002062
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "CORRECT",
+    "cost": 0.002828
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.002026
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.002132
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "CORRECT",
+    "cost": 0.003448
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "CORRECT",
+    "cost": 0.002074
+   },
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.002088
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.00015006
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.00013345
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.0016185
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.002076
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.000161588
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.00017015
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.00193275
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "CORRECT",
+    "cost": 0.002062
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "half",
+    "v": "CORRECT",
+    "cost": 0.00023364
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "half",
+    "v": "CORRECT",
+    "cost": 0.00018269
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "half",
+    "v": "CORRECT",
+    "cost": 0.00169575
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "CORRECT",
+    "cost": 0.002732
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.000209676
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "vague",
+    "v": null,
+    "cost": 0.00122923
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.0018975
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.002038
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 9.6812e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00020948
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.0021645
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.00326
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 7.2408e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.00093638
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.002277
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.002104
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 7.266432e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00025646
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00254175
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "CORRECT",
+    "cost": 0.002638
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.000217432
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.00053801
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.00404325
+   }
+  ]
+ },
+ {
+  "lesson": "inference_band_4_3_0005",
+  "item": "q5",
+  "answers": {
+   "likely_right": "They could add more drains.",
+   "short_right": "More drains would help.",
+   "half": "Make the drains bigger.",
+   "vague": "It needs some changes.",
+   "echo": "The volume and speed of the water changed.",
+   "literal": "The field floods after heavy rain.",
+   "plausible_wrong": "They should build a wall around it.",
+   "alternative": "Planting trees could help absorb water."
+  },
+  "res": [
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "MISS",
+    "cost": 0.00427
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "UNCLEAR",
+    "cost": 0.002912
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.002588
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.002156
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.002512
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.002172
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.002186
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "CORRECT",
+    "cost": 0.00215
+   },
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "UNCLEAR",
+    "cost": 0.003838
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "likely_right",
+    "v": "MISS",
+    "cost": 0.000195296
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "likely_right",
+    "v": "MISS",
+    "cost": 0.00017736
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "likely_right",
+    "v": "MISS",
+    "cost": 0.00224025
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "UNCLEAR",
+    "cost": 0.003428
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.00023125
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.00029189
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.002997
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.002684
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.000133192
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.00022609
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.00198825
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.002168
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 7.770224e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.00016969
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.0020595
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.002416
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 9.1378e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00013927
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00209625
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.00216
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.000169336
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.00015025
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.00198225
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.003518
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.000143388
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00044885
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00172425
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.003626
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "alternative",
+    "v": "CORRECT",
+    "cost": 4.2168e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "alternative",
+    "v": "CORRECT",
+    "cost": 0.00018753
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "alternative",
+    "v": "CORRECT",
+    "cost": 0.001863
+   }
+  ]
+ },
+ {
+  "lesson": "inference_band_4_3_0004",
+  "item": "q1",
+  "answers": {
+   "likely_right": "the children's copy wore out",
+   "short_right": "children's copy",
+   "half": "the adult copy is fine",
+   "vague": "one of them got used more",
+   "echo": "the children's copy is falling apart",
+   "literal": "the children's copy is falling apart after a year",
+   "plausible_wrong": "both copies are old now",
+   "alternative": "the adult copy could be less popular"
+  },
+  "res": [
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.001894
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.001902
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "CORRECT",
+    "cost": 0.001954
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "CORRECT",
+    "cost": 0.001944
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "CORRECT",
+    "cost": 0.001896
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.001902
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00193
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.001958
+   },
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.001906
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 5.9292e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 9.369e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.00137175
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.001914
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 4.1356e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 9.324e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.00174825
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.001978
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.000143748
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.00021245
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.00152775
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "CORRECT",
+    "cost": 0.00192
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "vague",
+    "v": "UNCLEAR",
+    "cost": 0.000205476
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "vague",
+    "v": "UNCLEAR",
+    "cost": 0.00079869
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.0016935
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "CORRECT",
+    "cost": 0.001896
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "echo",
+    "v": "CORRECT",
+    "cost": 5.38104e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "echo",
+    "v": "CORRECT",
+    "cost": 8.303e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "echo",
+    "v": "CORRECT",
+    "cost": 0.00141375
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.00189
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.000114096
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 7.737e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.00140475
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00193
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.0001227828
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00029282
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00170025
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.001922
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.000159039
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 7.457e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.0014505
+   }
+  ]
+ },
+ {
+  "lesson": "vocab_band_4_3_0004",
+  "item": "4",
+  "answers": {
+   "likely_right": "Cuz both were ways to pay for stuff.",
+   "short_right": "They both were payments.",
+   "half": "Money and time were treated the same.",
+   "vague": "It shows how things were paid.",
+   "echo": "Money and time were treated as the same kind of contribution.",
+   "literal": "The town paid for the watch in shares.",
+   "plausible_wrong": "They used time instead of money.",
+   "alternative": "It shows how people valued their time."
+  },
+  "res": [
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.002046
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.003032
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.002102
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.002076
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.002122
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.002128
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "CORRECT",
+    "cost": 0.002064
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.003314
+   },
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.002106
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "likely_right",
+    "v": "MISS",
+    "cost": 0.00029497104
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "likely_right",
+    "v": "MISS",
+    "cost": 0.0011404
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "likely_right",
+    "v": "MISS",
+    "cost": 0.0022965
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.003224
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.000278628
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.0006767
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.00242025
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.002126
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.00061388
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.00021514
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.00182625
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.0021
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.000185016
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "vague",
+    "v": "UNCLEAR",
+    "cost": 0.00073763
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.00191175
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.002122
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 8.2068e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.000145716
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00161925
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.002128
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.000158988
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.00022939
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.00189075
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "CORRECT",
+    "cost": 0.00306
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00018537
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00055762
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.004833
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.002102
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 3.282464e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.00025791
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.00190125
+   }
+  ]
+ },
+ {
+  "lesson": "vocab_band_4_1_0006",
+  "item": "4",
+  "answers": {
+   "likely_right": "He opened and closed the gates for boats.",
+   "short_right": "Watched the locks and gates.",
+   "half": "He recorded the traffic.",
+   "vague": "He did stuff with the boats.",
+   "echo": "A lock keeper watched the gates.",
+   "literal": "He watched the level of each pound.",
+   "plausible_wrong": "He drove the boats through the locks.",
+   "alternative": "He made sure the water levels were good."
+  },
+  "res": [
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.002032
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.003252
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "CORRECT",
+    "cost": 0.002072
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.002124
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "CORRECT",
+    "cost": 0.002508
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.00239
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.002114
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "CORRECT",
+    "cost": 0.002668
+   },
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.002488
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.00012451
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.00014686
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.00160275
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.003156
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.000370716
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.00050188
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.00236175
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "CORRECT",
+    "cost": 0.001988
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.000244138
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "half",
+    "v": "CORRECT",
+    "cost": 0.00040899
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.00463725
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.002064
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "vague",
+    "v": "UNCLEAR",
+    "cost": 0.000255016
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "vague",
+    "v": "UNCLEAR",
+    "cost": 0.00061797
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.00174
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "CORRECT",
+    "cost": 0.002724
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00060647
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00025325
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00403125
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.002018
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 3.329264e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.00068768
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.0026595
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00209
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.0001859676
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00017162
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00198825
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "CORRECT",
+    "cost": 0.00256
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 4.556936e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.00043121
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.003009
+   }
+  ]
+ },
+ {
+  "lesson": "authors_craft_band_4_2_0001",
+  "item": "4",
+  "answers": {
+   "likely_right": "It makes the ride feel fast and exciting.",
+   "short_right": "It adds excitement.",
+   "half": "It makes it feel fast.",
+   "vague": "It changes the vibe.",
+   "echo": "Short sentences like 'I wheeled around.'",
+   "literal": "The rider is moving quickly and ahead of others.",
+   "plausible_wrong": "It slows down the action.",
+   "alternative": "It creates a sense of urgency."
+  },
+  "res": [
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.002126
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.002116
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "CORRECT",
+    "cost": 0.00212
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.002166
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00215
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.00286
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.002108
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "CORRECT",
+    "cost": 0.002098
+   },
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.002114
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "likely_right",
+    "v": "MISS",
+    "cost": 0.0002787082
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "likely_right",
+    "v": "MISS",
+    "cost": 0.000245586
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "likely_right",
+    "v": "MISS",
+    "cost": 0.00270525
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.002116
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.000162896
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.000224156
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.0016965
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "CORRECT",
+    "cost": 0.002096
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.0008704
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.001193126
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.002763
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.002142
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.000100863
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.000234646
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.002016
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.002102
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "echo",
+    "v": "UNCLEAR",
+    "cost": 7.795e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.000168036
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00201825
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.002644
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.000242388
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.000609986
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.00237225
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.002108
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 5.9336e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.000167586
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00157425
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "CORRECT",
+    "cost": 0.002122
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.000163989
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.000147996
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.0018
+   }
+  ]
+ },
+ {
+  "lesson": "text_structure_band_4_3_0005",
+  "item": "5",
+  "answers": {
+   "likely_right": "The reservoir is the only thing that can refill the summit, so it limits how many boats can go through.",
+   "short_right": "It refills the summit level.",
+   "half": "It refills the water.",
+   "vague": "It controls the water flow.",
+   "echo": "The reservoir comes last and is called the real limit on traffic.",
+   "literal": "The guide says the reservoir is needed to refill the summit.",
+   "plausible_wrong": "The reservoir is where boats go to rest.",
+   "alternative": "The reservoir is important for keeping the water levels stable."
+  },
+  "res": [
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.0005968
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.0018898
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.003877
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.0010976
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.000991
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.0016028
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.0005822
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.0037095
+   },
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.0005848
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 8.0313e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.000182116
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.0017295
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.0012538
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 7.9992e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.001119396
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.00315
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "CORRECT",
+    "cost": 0.0013616
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "half",
+    "v": "CORRECT",
+    "cost": 4.071624e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.000861686
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.0022905
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "UNCLEAR",
+    "cost": 0.0030176
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.00076925
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.000318366
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.0027825
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.000607
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 6.41256e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.000230116
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.001959
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.0018788
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 6.4892e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.000572596
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.002877
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.0006182
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.000200496
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.000155726
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00163725
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.0011346
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.000204696
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.000379276
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.0024075
+   }
+  ]
+ },
+ {
+  "lesson": "main_idea_band_4_3_0004",
+  "item": "2",
+  "answers": {
+   "likely_right": "it made it hard to compare times.",
+   "short_right": "different distances confused runners.",
+   "half": "it caused confusion.",
+   "vague": "it messed things up.",
+   "echo": "different marathon courses caused problems.",
+   "literal": "Courses varied by several miles.",
+   "plausible_wrong": "runners didn't like running far.",
+   "alternative": "some runners wanted a round number."
+  },
+  "res": [
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.002066
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.002084
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "CORRECT",
+    "cost": 0.002034
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.002096
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.002098
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.002086
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00204
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.002112
+   },
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.002066
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.00020436
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.00016507
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.00179925
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.00206
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "short_right",
+    "v": "CORRECT",
+    "cost": 0.000491568
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.0002934
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.001812
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "CORRECT",
+    "cost": 0.002094
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "half",
+    "v": "MISS",
+    "cost": 9.1714e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.00053201
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.00181875
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.002072
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.000435112
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.00015193
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.001722
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.002086
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 5.6973e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00017793
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.002094
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.002098
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.000229593
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "literal",
+    "v": "CORRECT",
+    "cost": 0.00014456
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.00529275
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.002112
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 5.8023e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00013969
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.0015105
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.0021
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 6.326832e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.00015599
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.001746
+   }
+  ]
+ },
+ {
+  "lesson": "inference_band_4_1_0007",
+  "item": "k5",
+  "answers": {
+   "likely_right": "the CCC helped build important stuff there.",
+   "short_right": "they built roads and trails.",
+   "half": "it made the place better.",
+   "vague": "it was important for things.",
+   "echo": "the CCC still matters at Cedar Breaks.",
+   "literal": "the crews built roads, trails, and a campground.",
+   "plausible_wrong": "the CCC was only for men.",
+   "alternative": "the CCC showed how to work together."
+  },
+  "res": [
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.003806
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.002878
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.002878
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.002386
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.002308
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.002912
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.002376
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.002426
+   },
+   {
+    "kind": "lab",
+    "type": "likely_right",
+    "v": "CORRECT",
+    "cost": 0.002906
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "likely_right",
+    "v": "MISS",
+    "cost": 0.000171576
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "likely_right",
+    "v": "MISS",
+    "cost": 0.000299136
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "likely_right",
+    "v": "MISS",
+    "cost": 0.00218775
+   },
+   {
+    "kind": "lab",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.003034
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.000365949
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.000229746
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "short_right",
+    "v": "MISS",
+    "cost": 0.00217875
+   },
+   {
+    "kind": "lab",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.002386
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.0006084
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.000139506
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "half",
+    "v": "MISS",
+    "cost": 0.0017475
+   },
+   {
+    "kind": "lab",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.002386
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.00015032976
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.000159716
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "vague",
+    "v": "MISS",
+    "cost": 0.00190125
+   },
+   {
+    "kind": "lab",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00232
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.000159039
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.000121156
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "echo",
+    "v": "MISS",
+    "cost": 0.00185775
+   },
+   {
+    "kind": "lab",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.002612
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.000200608
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.000185376
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "literal",
+    "v": "MISS",
+    "cost": 0.00232875
+   },
+   {
+    "kind": "lab",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.0024
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 1.561416e-05
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.000150466
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "plausible_wrong",
+    "v": "MISS",
+    "cost": 0.00178575
+   },
+   {
+    "kind": "lab",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.002882
+   },
+   {
+    "kind": "tutor",
+    "model": "deepseek/deepseek-v4.1-flash-1017",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.0005349
+   },
+   {
+    "kind": "tutor",
+    "model": "qwen/qwen3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.000183986
+   },
+   {
+    "kind": "tutor",
+    "model": "google/gemini-3.8-flash",
+    "type": "alternative",
+    "v": "MISS",
+    "cost": 0.0021465
+   }
+  ]
+ }
+]
