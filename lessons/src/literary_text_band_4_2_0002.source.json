@@ -124,16 +124,17 @@
       "show_part_again": true,
       "prompt": "Why did she hold the troop train at the signal?",
       "tutor_only": {
-        "confirm": "Right. The coal train was already on the single track, and only one could pass.",
-        "correct_reason": "The sentence says a coal train stood on the single track and a troop train was due in nine minutes.",
-        "tell": "The coal train was already on the single track above the tunnel. Two trains cannot pass there at once.",
+        "confirm": "Right. A coal train was already on the track, so the two trains would have met.",
+        "correct_reason": "The passage says 'a coal train stood on the single track above the tunnel' and a troop train was due in nine minutes, so she held the troop train.",
+        "tell": "A coal train was already on the single track. She held the troop train so the two would not meet.",
         "help": [
           "The sentence about that night says what was already standing on the track.",
           "It says the track is single, so one train waits while the other moves."
         ],
         "say_back": "own_words",
-        "core_idea": "The coal train was on the single track, so she kept the troop train back and let the coal train down.",
+        "core_idea": "A coal train was already on the track, so she held the troop train to keep the two from meeting.",
         "accept_ideas": [
+          "so it would not hit the coal train",
           "the coal train was already on the track",
           "only one train fits on the single track",
           "the track was blocked above the tunnel"
