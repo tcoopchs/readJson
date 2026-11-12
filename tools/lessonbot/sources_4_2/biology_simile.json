@@ -1,0 +1,18 @@
+{
+  "sequence": 5,
+  "title": "A Home Like a City",
+  "domain": "biology",
+  "craft_focus": "figurative comparison: the writer compares the insect's home to a city to explain it",
+  "source_file": "biology_simile.txt",
+  "source": {
+    "basis": "Adapted from Ellison Hawks, Bees, Shown to the Children (1912), under DESIGN_RULES 2.5.",
+    "attribution": "Hawks, Ellison. Bees, Shown to the Children. 1912. Project Gutenberg eBook #66970, https://www.gutenberg.org/ebooks/66970, accessed 2026-11-11. Public domain in the United States.",
+    "text_status": "Adapted, reading load reduced.",
+    "adaptation": "Extracted a single 358-word passage from Chapter XX, 'The Hive', and removed one sentence that pointed to a plate ('The two kinds are shown in Plate XIV.'); the authoring pass will split long sentences and simplify rare words; no facts added.",
+    "survey": "A 1912 children's nature book opens its chapter on the hive by calling it a bee-city, then explains the inside of the hive as a house: a door, three storeys, a roof, an extra storehouse, and nurseries for the young.",
+    "avoided": "No invented details."
+  },
+  "license_evidence": "https://www.gutenberg.org/ebooks/66970 states 'Copyright: Public domain in the USA.' for eBook #66970, Ellison Hawks, Bees, Shown to the Children. The ebook header gives the original publication as T. C. & E. C. Jack, 1912, which is before 1929, so the work is public domain in the United States.",
+  "word_count": 358,
+  "notes": "Anchor: 'A hive may with all truth be called a bee-city, for in it there live thousands upon thousands of little workers.' The simile that carries the comparison is 'like one of our own houses, it is divided into three storeys', and the city and house words then do the explaining: door, roof, storehouse, nurseries, cradles. Readability: FK 9.2 on 358 words in 14 sentences, mean 25.6 words per sentence, at the top of the grade 4-6 range; the longest sentence is 41 words ('Two little slips of wood ... bee-keeper') and must be split in the authoring pass. Risks: 'skeps', 'superseded' and 'storeplaces' are rare words; the piece is descriptive rather than narrative, so the adapted version must keep the city frame in the first sentence and the house words in the middle or the craft point disappears."
+}

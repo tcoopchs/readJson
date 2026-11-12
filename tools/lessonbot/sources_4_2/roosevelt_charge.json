@@ -1,0 +1,18 @@
+{
+  "sequence": 1,
+  "title": "The Charge Up the Hill",
+  "domain": "military history",
+  "craft_focus": "short sentences that speed the action and hold the reader in the moment",
+  "source_file": "roosevelt_charge.txt",
+  "source": {
+    "basis": "Adapted from Theodore Roosevelt, The Rough Riders (1899), under DESIGN_RULES 2.5.",
+    "attribution": "Theodore Roosevelt. The Rough Riders. 1899. Project Gutenberg eBook #13000, https://www.gutenberg.org/ebooks/13000, accessed 2026-11-11. Public domain in the United States.",
+    "text_status": "Adapted, reading load reduced.",
+    "adaptation": "Extracted a single 343-word passage (Chapter IV, the climb up Kettle Hill); the authoring pass will split long sentences and drop rare words; no facts added.",
+    "survey": "One paragraph of the Kettle Hill charge: the men cheering as they run, Roosevelt riding up the lane, the wire fence, and the last shots at the top.",
+    "avoided": "No invented details."
+  },
+  "license_evidence": "https://www.gutenberg.org/ebooks/13000 - Project Gutenberg states: 'This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever.' Work published 1899, so public domain in the United States (pre-1929).",
+  "word_count": 343,
+  "notes": "Anchor: Chapter IV, 'The Cavalry at Santiago', the paragraph beginning 'By this time we were all in the spirit of the thing'. CRAFT RISK - the short-sentence construct is NOT visible verbatim: the 13 sentences average 26.4 words and measure FK 11.1, because Roosevelt chains clauses with commas and semicolons. The paragraph is split-ready, not short-sentenced. Clause joins that become short sentences: 'By this time we were all in the spirit of the thing and greatly excited by the charge' -> 'We were all in the spirit of it. The charge excited us.'; 'Some forty yards from the top I ran into a wire fence and jumped off Little Texas, turning him loose.' -> 'Forty yards from the top I hit a wire fence. I jumped off Little Texas and turned him loose.'; 'As I ran up to the hill, Bardshar stopped to shoot, and two Spaniards fell as he emptied his magazine.' -> 'Bardshar stopped to shoot. Two Spaniards fell.' Splitting to about 12-word sentences should land near FK 5.5 (estimate). If the authoring pass does not split, this text cannot teach the assigned construct and a source with native short sentences should replace it."
+}

@@ -1,0 +1,256 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "authors_craft_band_4_2_0005",
+  "meta": {
+    "status": "published",
+    "title": "A Home Like a City",
+    "skill": "authors_craft",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "topic_domain": "biology",
+    "skill_frame": "Author's craft: read how the writer uses figurative comparison: the hive as a city.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured part_1 106w at FK 7.1, part_2 121w at FK 6.9, part_3 103w at FK 6.5. The load is figurative comparison: the hive as a city.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from Ellison Hawks, Bees, Shown to the Children (1912), under DESIGN_RULES 2.5.",
+      "attribution": "Hawks, Ellison. Bees, Shown to the Children. 1912. Project Gutenberg eBook #66970, https://www.gutenberg.org/ebooks/66970, accessed 2026-11-11. Public domain in the United States.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Extracted a single 358-word passage from Chapter XX, 'The Hive', and removed one sentence that pointed to a plate ('The two kinds are shown in Plate XIV.'); the authoring pass will split long sentences and simplify rare words; no facts added.",
+      "survey": "A 1912 children's nature book opens its chapter on the hive by calling it a bee-city, then explains the inside of the hive as a house: a door, three storeys, a roof, an extra storehouse, and nurseries for the young.",
+      "avoided": "No invented details."
+    },
+    "session": {
+      "scope": "bank",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "figurative comparison: the hive as a city"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "A hive may with all truth be called a bee-city, for in it there live thousands upon thousands of little workers. In this chapter I hope to tell you how this city is built, so the next chapters are easier to understand. Hives used to be made of straw and were called “skeps.” Some can still be seen in the country, but more convenient wooden hives are quickly replacing them. The wooden hive is a special box, usually painted white. This looks clean and keeps out the summer heat. You will notice that, like one of our own houses, it is divided into three storeys.",
+    "part_2": "Close to the floor of the hive, at the bottom of the lowest storey, is the door. This is made by cutting a slit in the wooden wall. Two little slips of wood slide in front of it, so that it can be made narrower, or even completely closed at the wish of the bee-keeper. If the bees themselves wish to close up the entrance for any reason, they are able to do so by blocking it up with wax. The top chamber of all is the roof, which is empty, and serves to protect the hive from the rain. It must, of course, be lifted off by the bee-keeper each time he wishes to look into the hive.",
+    "part_3": "The second chamber is a sort of extra storehouse. It is used by the bees to store honey when the third chamber is full. This third chamber is the most important of all, for it is here that the bees live. It consists of rows upon rows of combs, some of which are storeplaces for honey, but the greater part form the nurseries where the young bees are brought up. All the cells are built of wax, no matter whether they be honey cells or cradles. They are constructed in wooden frames which the bee-keeper places in the hive for the purpose."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "According to the opening, into how many storeys is the wooden hive divided?",
+      "tutor_only": {
+        "confirm": "The wooden hive is divided into three storeys.",
+        "correct_reason": "The final sentence of part_1 states that the wooden hive is divided into three storeys.",
+        "tell": "The last sentence of the opening gives the number of storeys. It says the wooden hive has three storeys.",
+        "help": [
+          "Read the last sentence of part_1.",
+          "Find the number of storeys it names."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The wooden hive is divided into three storeys.",
+        "accept_ideas": [
+          "three storeys",
+          "3 storeys",
+          "the wooden hive is divided into three storeys"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "straw skeps",
+          "painted white",
+          "summer heat"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They answer that the hive is painted white.",
+            "ask": "Which sentence in part_1 tells the number of storeys?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The passage says wooden hives are replacing straw skeps and that a wooden hive is divided into three storeys. What do these two facts together show about wooden hives?",
+      "tutor_only": {
+        "confirm": "Wooden hives are more convenient and are built in levels like houses.",
+        "correct_reason": "The sentence 'Some can still be seen in the country, but more convenient wooden hives are quickly replacing them' states that wooden hives are more convenient. The sentence 'like one of our own houses, it is divided into three storeys' shows their house-like levels.",
+        "tell": "Wooden hives are replacing straw skeps because they are more convenient. Their three storeys make them like small houses.",
+        "help": [
+          "The passage calls wooden hives more convenient than straw skeps.",
+          "It also says the wooden hive has three storeys like a house."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Wooden hives are more convenient than straw skeps and are organized in levels like houses.",
+        "accept_ideas": [
+          "Wooden hives are more convenient and have separate levels like a house.",
+          "The three storeys make the wooden hive house-like and easier to use.",
+          "Wooden hives replace skeps because their house-like design is more convenient."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the exact number of bees",
+          "the color white",
+          "the empty roof",
+          "the door slit",
+          "the word 'bee-city'"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say wooden hives are used only because they are painted white.",
+            "ask": "Which sentence says wooden hives are more convenient than skeps?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The bee-keeper can narrow or close the door and lift off the roof. What conclusion about the hive do these facts support?",
+      "tutor_only": {
+        "confirm": "The hive is made so the bee-keeper can control the entrance and look inside.",
+        "correct_reason": "The answer comes from the door slips that can be made narrower or closed at the bee-keeper's wish and the roof that must be lifted off by the bee-keeper.",
+        "tell": "The door slips let the bee-keeper make the entrance narrower or closed. The roof must be lifted off by the bee-keeper to look inside.",
+        "help": [
+          "The door has two slips of wood.",
+          "The roof can be lifted off."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The hive is designed for the bee-keeper to manage and inspect the bees.",
+        "accept_ideas": [
+          "The hive is built for the bee-keeper to manage.",
+          "The hive lets the bee-keeper control the door and roof.",
+          "The hive is designed for people to inspect the bees."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "The bees can block the entrance with wax.",
+          "The roof protects the hive from rain."
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "The bees made the door and roof for themselves.",
+            "ask": "What in the passage says the bee-keeper can move the door slips and lift the roof?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The author calls the hive's bottom 'the lowest storey.' What does 'storey' make you picture?",
+      "tutor_only": {
+        "confirm": "The word 'storey' makes the hive seem like a house with levels, not just a box.",
+        "correct_reason": "The sentence \"Close to the floor of the hive, at the bottom of the lowest storey, is the door\" carries the answer: \"storey\" is a building word, and nearby \"floor\" and later \"roof\" make the hive seem like a house.",
+        "tell": "The word \"storey\" names a level in a building. It makes the hive seem like a house with floors.",
+        "help": [
+          "Think of a building with levels, like a house.",
+          "The hive has a floor, a door, and a roof too."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The word \"storey\" makes the hive seem like a human house or building with levels, not merely a box.",
+        "accept_ideas": [
+          "a house",
+          "a building with levels",
+          "a home with floors and rooms",
+          "a human house rather than a plain box"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the word \"personification\"",
+          "the term \"figurative language\"",
+          "a list of every room in a house"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "The student says \"storey\" only means a level in the hive.",
+            "ask": "Which nearby words like \"floor\" and \"roof\" make the hive seem like a house?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "How does the writer's approach change from the opening to the last part?",
+      "tutor_only": {
+        "confirm": "The writer moves from a big-picture view of the hive to a close look inside the most important chamber.",
+        "correct_reason": "Part 1 says 'I hope to tell you how this city is built' and describes the hive's outside and three storeys; part 3 turns to 'the most important' third chamber and explains combs, nurseries, and frames inside.",
+        "tell": "The opening gives the whole hive and a preview. The last part zooms inside the most important chamber.",
+        "help": [
+          "Part 1 starts with the whole hive. Part 3 stays inside one chamber."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The writer begins with a broad preview and outside view of the hive, then narrows to a detailed inside view of the most important chamber.",
+        "accept_ideas": [
+          "Part 1 gives a big-picture preview and outside view; part 3 gives a close inside look at the main chamber.",
+          "The writer moves from describing the hive as a whole to explaining the important inside parts.",
+          "Part 1 introduces the hive and its storeys; part 3 focuses on the third chamber's combs and nurseries."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Naming every hive part",
+          "Quoting exact sentences",
+          "Mentioning the bee-city comparison",
+          "Explaining how bees make wax"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "The student only lists details about the third chamber.",
+            "ask": "What does part 1 do before part 3 gives those details?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "authors_craft_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "This band has no higher rung yet.",
+    "student_line": "You have the move. The next reading is another craft lesson."
+  },
+  "retry": {
+    "next_file": "authors_craft_band_4_2_0006",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another craft lesson in this band."
+  },
+  "stopped": {
+    "next_file": "authors_craft_band_4_2_0005",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

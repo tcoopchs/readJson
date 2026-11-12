@@ -1,0 +1,18 @@
+{
+  "sequence": 4,
+  "title": "Starting the Cold Engine",
+  "domain": "car repair",
+  "craft_focus": "vivid verbs that make a mechanical step easy to picture",
+  "source_file": "ford_starting.txt",
+  "source": {
+    "basis": "Adapted from Ford Motor Company, Ford Manual for Owners and Operators of Ford Cars and Trucks (1919), under DESIGN_RULES 2.5.",
+    "attribution": "Ford Motor Company. Ford Manual for Owners and Operators of Ford Cars and Trucks. 1919. Project Gutenberg eBook #46206, https://www.gutenberg.org/ebooks/46206, accessed 2026-11-11. Public domain in the United States.",
+    "text_status": "Adapted, reading load reduced.",
+    "adaptation": "Extracted a single 384-word passage; the authoring pass will split long sentences and drop rare words; no facts added.",
+    "survey": "A 1919 Ford manual shows a driver how to work the starting crank by hand and then gives the numbered steps for starting the engine on a cold day.",
+    "avoided": "No invented details."
+  },
+  "license_evidence": "https://www.gutenberg.org/ebooks/46206 - the Project Gutenberg ebook page records 'Copyright: Public domain in the USA.' for eBook #46206, Ford Motor Company, Ford Manual for Owners and Operators of Ford Cars and Trucks (1919); the file header carries the same public-domain statement.",
+  "word_count": 384,
+  "notes": "Verb anchor: 'push firmly toward the car till you feel the crank ratchet engage, then lift upward with a quick swing', then the cold-start run 'close ... hold out ... give ... let go ... place ... advance ... throw on ... give'. Risks: hand cranking a Model T is outside a grade-4 reader's experience, so the adaptation must keep the physical actions in order and say plainly where the handle is; 'magneto', 'carburetor', 'priming rod', and 'quadrant' are rare words to drop or gloss. One garbled scan sentence ('this operation wall become an easy matter') and the source's backfire warning were left out, so the excerpt carries no injury caution; the question headings were removed. No facts were added."
+}

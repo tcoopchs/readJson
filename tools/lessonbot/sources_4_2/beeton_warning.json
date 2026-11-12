@@ -1,0 +1,18 @@
+{
+  "sequence": 6,
+  "title": "The Warning in the Kitchen",
+  "domain": "cooking",
+  "craft_focus": "tone shift: the writer moves from calm instruction to a warning",
+  "source_file": "beeton_warning.txt",
+  "source": {
+    "basis": "Adapted from Isabella Beeton, The Book of Household Management (1861), under DESIGN_RULES 2.5.",
+    "attribution": "Beeton, Isabella. The Book of Household Management. 1861. Project Gutenberg eBook #10136, https://www.gutenberg.org/ebooks/10136, accessed 2026-11-11. Public domain in the United States.",
+    "text_status": "Adapted, reading load reduced.",
+    "adaptation": "Extracted a single 361-word passage and removed the paragraph number; the authoring pass will split long sentences and drop rare words; no facts added.",
+    "survey": "A household manual explains why fruit is preserved and how it should be picked and stored, then how long boiling thickens the syrup, and ends with a sharp caution about the fire.",
+    "avoided": "No invented details."
+  },
+  "license_evidence": "https://www.gutenberg.org/ebooks/10136 lists the work under 'Copyright: Public domain in the USA.'; the text itself records 'First Published in a Bound Edition 1861', which places it well before 1929.",
+  "word_count": 361,
+  "notes": "Anchor: the final sentence, 'Great care must be taken in the management of the fire, that the syrup does not boil over, and that the boiling is not carried to such an extent as to burn the sugar.' Everything before it is calm explanation and instruction, so the turn is the last sentence and an item must quote it. Risks: the warning is one sentence, so the authoring pass must not bury or split it into neutral prose; 'desideratum', 'sub-acid' and 'ice-house' are rare or archaic and need plain wording; the passage is adapted, so every item is written against the adapted text."
+}

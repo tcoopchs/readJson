@@ -1,0 +1,18 @@
+{
+  "sequence": 3,
+  "title": "Two Ways to Grow",
+  "domain": "botany",
+  "craft_focus": "contrast: the writer sets two plants side by side to show the difference",
+  "source_file": "gray_contrast.txt",
+  "source": {
+    "basis": "Adapted from Asa Gray, The Elements of Botany, For Beginners and For Schools (1887), under DESIGN_RULES 2.5.",
+    "attribution": "Asa Gray. The Elements of Botany, For Beginners and For Schools. 1887. Project Gutenberg eBook #33757, https://www.gutenberg.org/ebooks/33757, accessed 2026-11-11. Public domain in the United States.",
+    "text_status": "Adapted, reading load reduced.",
+    "adaptation": "Extracted a single 376-word passage; the authoring pass will split long sentences and drop rare words; no facts added.",
+    "survey": "Gray explains that stems build wood in two different patterns, and names a plant for each: an asparagus shoot and a corn stalk for one, a bean stalk and a maple for the other.",
+    "avoided": "No invented details."
+  },
+  "license_evidence": "https://www.gutenberg.org/ebooks/33757 - the Project Gutenberg ebook page records 'Copyright: Public domain in the USA.' for eBook #33757, Asa Gray, The Elements of Botany (1887); the file header carries the same public-domain statement.",
+  "word_count": 376,
+  "notes": "Contrast anchor: 'In one, the wood is made up of separate threads ... In the other, the wood is all collected to form a layer', reinforced by the named plants (Asparagus-shoot and Corn-stalk against a Bean-stalk and a common tree) and by 'the harder wood is outside ... the oldest and hardest wood is toward the centre'. Risks: the 1887 terms (phanerogamous, parenchyma, monocotyl, endogenous/exogenous) must be dropped or glossed in the authoring pass; the ring-versus-scattered-threads picture needs one plain restatement because the figures are not shown. Paragraph numbers, figure captions, and one '(Fig. 471)' reference were removed from the scan; nothing else was cut. Substitution: Gutenberg hosts the 1887 Elements of Botany, not the 1858 How Plants Grow, so the newer text of the same author and subject is used and its licence is verified on the ebook page."
+}

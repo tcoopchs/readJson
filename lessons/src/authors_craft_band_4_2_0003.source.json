@@ -1,0 +1,254 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "authors_craft_band_4_2_0003",
+  "meta": {
+    "status": "published",
+    "title": "Two Ways to Grow",
+    "skill": "authors_craft",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "botany",
+    "skill_frame": "Author's craft: read how the writer uses contrast to show the difference between two kinds of wood.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured part_1 100w at FK 5.1, part_2 107w at FK 4.8, part_3 105w at FK 4.5. The load is the contrast between two wood arrangements, the plant examples, and the position of the hard wood.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from Asa Gray, The Elements of Botany, For Beginners and For Schools (1887), under DESIGN_RULES 2.5.",
+      "attribution": "Asa Gray. The Elements of Botany, For Beginners and For Schools. 1887. Project Gutenberg eBook #33757, https://www.gutenberg.org/ebooks/33757, accessed 2026-11-11. Public domain in the United States.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Split the passage and simplified the technical terms (parenchyma, exogenous and endogenous, monocotyl) into plain words; kept the two arrangements, the examples, and the hard-wood position; no facts added.",
+      "survey": "Gray explains that stems build wood in two different patterns, and names a plant for each: an asparagus shoot and a corn stalk for one, a bean stalk and a maple for the other.",
+      "avoided": "No invented details."
+    },
+    "session": {
+      "scope": "bank",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "contrast between two wood arrangements, examples, and the position of the hard wood"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Wood begins to form in a stem while the plant is still young. It is arranged in one of two ways. In the first arrangement, the wood grows as separate threads scattered throughout the stem. In the second, the wood collects in a layer. If you cut the stem across, that layer appears as a ring between the soft center, called the pith, and the outer bark. The difference is visible in small plants, but it is even clearer in the stems of shrubs and trees that live for many years. Wood is made of wood cells and small tubes.",
+    "part_2": "Corn stalks and asparagus shoots show the first arrangement. A rattan shows it too. Plants with one seed leaf have this kind of stem. A bean stalk and the stem of a common tree show the second arrangement. Plants with more than one seed leaf have that kind. People once called the first kind \"inside-growing,\" but the writer says that name is not very accurate. They called the second kind \"outside-growing,\" and the writer says that name is accurate enough. Palms and dragon trees show the first kind at their largest. Some yuccas grow as trees along the warm southern edge of the United States.",
+    "part_3": "In the first kind, the woody threads are crowded toward the outside of the stem, so the harder wood is on the outside. In the second kind, the oldest and hardest wood is at the center. The first kind has no clear separation of pith, bark, and wood into rings. It has no annual layers, and its bark does not peel off clean. A cut across the first stem shows threads, not a ring. The second kind forms annual layers as it grows. Old yuccas do form a kind of layer and a scaly bark, and their woody threads curve and fade into the rind."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What are the two ways wood can be arranged in a stem?",
+      "tutor_only": {
+        "confirm": "It can grow as separate threads scattered through the stem, or as a layer that looks like a ring.",
+        "correct_reason": "The passage says wood is arranged in two ways: separate threads throughout the stem, or a layer that appears as a ring in a cut stem.",
+        "tell": "Wood can grow as separate threads through the stem. It can also grow as a layer that looks like a ring.",
+        "help": [
+          "Find the sentence that begins 'It is arranged in one of two ways.'",
+          "Notice the words 'separate threads' and 'layer.'"
+        ],
+        "say_back": "own_words",
+        "core_idea": "Wood has two arrangements: scattered threads or a ring-like layer.",
+        "accept_ideas": [
+          "Separate threads scattered through the stem.",
+          "A layer that looks like a ring.",
+          "Scattered threads or a ring.",
+          "One kind has threads; the other has a ring."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Naming the pith and bark",
+          "Explaining what wood cells are"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They name only one way.",
+            "ask": "What is the other way wood can be arranged?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What do a corn stalk and a bean stalk show about the two kinds of wood?",
+      "tutor_only": {
+        "confirm": "The corn stalk shows the first kind, with scattered threads. The bean stalk shows the second kind, with a ring.",
+        "correct_reason": "The passage names a corn stalk as an example of the first kind and a bean stalk as an example of the second kind.",
+        "tell": "A corn stalk shows the first kind, with threads. A bean stalk shows the second kind, with a ring.",
+        "help": [
+          "Find the corn stalk and the bean stalk in part_2.",
+          "Notice which kind each one shows."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The corn stalk shows scattered threads; the bean stalk shows a ring.",
+        "accept_ideas": [
+          "Corn shows the first kind and beans show the second.",
+          "The corn stalk has scattered threads.",
+          "The bean stalk has a ring.",
+          "They are examples of the two different kinds."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Naming asparagus or rattan",
+          "Explaining seed leaves"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say both plants show the same kind.",
+            "ask": "Which plant shows scattered threads, and which shows a ring?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What does the number of seed leaves tell you about a plant's wood?",
+      "tutor_only": {
+        "confirm": "A plant with one seed leaf has the first kind, with scattered threads. A plant with more than one seed leaf has the second kind, with a ring.",
+        "correct_reason": "The passage says plants with one seed leaf belong to the first kind and plants with more than one seed leaf belong to the second.",
+        "tell": "One seed leaf goes with the first kind, the scattered threads. More than one seed leaf goes with the second kind, the ring.",
+        "help": [
+          "Find the sentence about one seed leaf.",
+          "Notice what kind of wood goes with more than one seed leaf."
+        ],
+        "say_back": "own_words",
+        "core_idea": "One seed leaf goes with scattered threads; more than one goes with a ring.",
+        "accept_ideas": [
+          "One seed leaf means the first kind.",
+          "More than one seed leaf means the second kind.",
+          "The number of seed leaves matches the wood arrangement.",
+          "One seed leaf goes with threads; more than one goes with a ring."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Naming the plants in part_2",
+          "Explaining what a seed leaf is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say seed leaves do not matter.",
+            "ask": "What kind of wood goes with one seed leaf?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The writer uses contrast: 'separate threads' against 'a layer.' What does this contrast help you see?",
+      "tutor_only": {
+        "confirm": "It helps you see the difference: one kind is scattered threads, and the other is a ring.",
+        "correct_reason": "The juxtaposition sets 'separate threads' against 'a layer,' so the reader can picture the two patterns in a cut stem.",
+        "tell": "The two patterns are set apart: scattered threads and a layer. It helps you picture the two kinds of wood.",
+        "help": [
+          "Find the sentence with 'separate threads' and 'layer.'",
+          "Notice what each pattern looks like in a cut stem."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The contrast makes the two patterns clear: scattered threads versus a ring.",
+        "accept_ideas": [
+          "One kind is scattered threads; the other is a ring.",
+          "The contrast helps you picture the two patterns.",
+          "It shows how the two kinds differ.",
+          "The threads and the ring are two different arrangements."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Saying one kind is better",
+          "Naming the pith and bark"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say the contrast shows one kind is better.",
+            "ask": "What two patterns does the contrast help you see?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The writer's explanation shifts from the opening to the last part. How does it change?",
+      "tutor_only": {
+        "confirm": "It moves from the two arrangements to where the hard wood sits in each kind.",
+        "correct_reason": "Part_1 names the two arrangements; part_3 explains where the hard wood sits and how the two kinds differ in layers and bark.",
+        "tell": "Part_1 gives the two arrangements. Part_3 explains where the hard wood sits and how the two kinds differ.",
+        "help": [
+          "Compare what part_1 explains with what part_3 explains.",
+          "Notice the move from the two arrangements to the hard wood."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The explanation moves from the two arrangements to the hard wood's position and the differences in layers.",
+        "accept_ideas": [
+          "It moves from the two arrangements to the hard wood.",
+          "Part_3 explains where the hard wood sits in each kind.",
+          "It adds how the two kinds differ in layers and bark.",
+          "It starts with the two kinds and ends with their details."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Retelling the examples",
+          "Naming every plant"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say the writer only describes one kind.",
+            "ask": "What does part_3 add about the hard wood and the layers?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "authors_craft_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "This band has no higher rung yet.",
+    "student_line": "You have the move. The next reading is another craft lesson."
+  },
+  "retry": {
+    "next_file": "authors_craft_band_4_2_0004",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another craft lesson in this band."
+  },
+  "stopped": {
+    "next_file": "authors_craft_band_4_2_0003",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

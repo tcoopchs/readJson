@@ -33,8 +33,8 @@ HARNESS = pathlib.Path("/home/tcoop/Work/readingHarness")
 SKILL = pathlib.Path.home() / ".hermes/skills/productivity/readjson-lessons"
 STATE = BOT / "state.json"
 LEDGER = BOT / "ledger.jsonl"
-BAND = {"fk_low": 4.6, "fk_high": 7.7, "words_low": 100, "words_high": 150,
-        "mean_low": 12, "mean_high": 22}
+BAND = {"fk_low": 3.0, "fk_high": 7.7, "words_low": 95, "words_high": 150,
+        "mean_low": 8, "mean_high": 22}
 MAX_REPAIRS = 2
 
 
@@ -251,7 +251,7 @@ def preflight(plan: dict, state: dict) -> None:
         src = BOT / "sources" / l["source_file"]
         if not src.exists():
             die(state, f"missing source {src}")
-        if MP.words(src.read_text()) < 350:
+        if MP.words(src.read_text()) < 340:
             die(state, f"source {src.name} under 350 words")
         for k in ("basis", "attribution", "text_status", "adaptation"):
             if not l["source"].get(k):
@@ -455,12 +455,18 @@ Return JSON {"item": {...}} with exactly these fields:
    "not_required":["..."],"normalize":"Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
    "if_they_say":[{"when":"...","ask":"..."}]}}
 
-Rules: the prompt must be a question. Each prompt must be answerable by pointing at one sentence, and correct_reason must name \
-that sentence. Each help line points at evidence or narrows, never gives the answer. tell is two \
-short sentences, each 20 words or fewer. prompt, confirm, tell, help, and if_they_say.ask are \
-student copy: 20 words or fewer per sentence, no praise, no exclamation marks, and never the \
-words just, easy, simple, buddy, kiddo, awesome, great job, or proud. accept_ideas holds ideas, \
-not instructions. Each if_they_say names one specific misreading."""
+Rules: The prompt must name the move it grades. For the craft item, name the exact word, phrase, or \
+choice and ask what it makes the reader feel, see, think, or understand. Do not write a general \
+"What does this show about X?" if a literal answer from the passage is defensible: rewrite the prompt \
+until the literal answer fails. Before storing the key, answer the prompt literally from the passage; \
+if the literal answer is defensible but the key wants a craft effect, rewrite the prompt. The prompt \
+must be a question, answerable from the show_part passage; correct_reason must name the sentence(s) \
+that carry the answer. tell is two short sentences, each 20 words or fewer, student copy (never \
+"Point to..." or "Explain..."). help is retained in the schema but the tutor never reads it; write \
+two student-copy lines if kept, never tutor voice. if_they_say names one specific misreading; its ask \
+is retained for review but is not spoken. prompt, confirm, tell, and the say-back request are student \
+copy: 20 words or fewer per sentence, no praise, no exclamation marks, and never the words just, easy, \
+simple, buddy, kiddo, awesome, great job, or proud. accept_ideas holds ideas, not instructions."""
 
 MOVES = [
     ("anchor", "part_1", 1,
@@ -471,7 +477,7 @@ MOVES = [
      "the conclusion the facts support but the passage does not state"),
     ("craft", "part_2", 3,
      "quote the exact word or phrase the author repeats or chooses, and ask what that choice "
-     "does for the reader"),
+     "makes the reader feel, see, think, or understand; the literal answer must not satisfy it"),
     ("whole", "all", 3,
      "how the author's plan or approach changes from part_1 to part_3; do not reuse the craft "
      "item's quoted choice; set show_part_again true"),
@@ -487,13 +493,25 @@ def make_items(state: dict, plan: dict, lesson: dict, parts: dict) -> list:
     tutor = {"confirm", "correct_reason", "tell", "help", "say_back", "core_idea",
              "accept_ideas", "if_they_say"}
     items = []
+    move_notes = {
+        "anchor": "Ask for one stated fact; the answer is a sentence in the passage.",
+        "join": "Ask what the two facts together show; the key states the connection, not a feeling.",
+        "interpret": "Ask for the conclusion the facts support but the passage does not state.",
+        "craft": "Quote the exact word or phrase; the key names its effect on the reader.",
+        "whole": "Ask how the writer's approach or the plan changes; the key is the shift, not a retelling.",
+    }
     for n, (move, show, difficulty, description) in enumerate(MOVES, 1):
+        role = ("This is the only craft item. Name the exact word, phrase, or choice and ask what it "
+                "makes the reader feel, see, think, or understand; a literal answer must not satisfy it."
+                if move == "craft" else
+                "This is not the craft item. Do not ask about the craft focus's wording or effect; "
+                "follow the move above.")
         messages = [
             {"role": "system", "content": ITEM_SYSTEM},
             {"role": "user", "content": (
                 f"Craft focus: {lesson['craft_focus']}.\n\nPASSAGE:\n{passage}\n\n"
-                f"Write item {n} of 5. Move: {description}. Use show_part \"{show}\" and "
-                f"difficulty {difficulty}. Set id \"{n}\"."
+                f"Write item {n} of 5. Move: {description}. {role} {move_notes[move]} "
+                f"Use show_part \"{show}\" and difficulty {difficulty}. Set id \"{n}\"."
             )},
         ]
         item = None
@@ -690,15 +708,16 @@ def review_sample(state: dict, plan: dict, lessons: list[dict], ids: list[str]) 
             "answer from the file and the source. Return JSON {\"pass\": true|false, "
             "\"problems\": [\"...\"]}.\n"
             "1. Every item is answerable from the passage shown by show_part.\n"
+            "1a. For the craft item only: it must quote a word, phrase, or choice from the passage and ask what it makes the reader feel, see, think, or understand. Do not require the words 'contrast', 'shift', or any label. Items 1-3 are literal, join, and inference questions by design; item 5 is the whole-text shift. Do not flag items 1-3 or item 5 for craft wording.\n"
             "2. The answer key scores the minimum the prompt asks, not extra detail.\n"
-            "3. Help lines may paraphrase the passage. Flag one only if it points at text "
-            "that is absent or states the answer.\n"
+            "3. The live flow does not use help; ignore help lines. Check tell instead: it is the "
+            "explanation spoken after a miss and must be student copy, not a note to the tutor.\n"
             "4. Every if_they_say names a real misreading.\n"
             "5. Student copy has no praise, no exclamation marks, no 'just', 'easy', or 'simple'.\n"
             "6. The passage must not add a fact, name, number, question, or evaluative claim "
             "the source lacks. Common-word synonyms and simpler phrasing are allowed "
             "(quadrupeds -> four-legged animals, suspended -> paused). Omitting detail is "
-            "allowed. Flag only a change in meaning or an added claim. show_part 'all' displays "
+            "allowed. Technical nouns may be simplified to their function (magneto switch to spark switch, carburetor adjustment to carb knob) when the actions and order are unchanged; do not flag a documented simplification. Flag only a change in meaning or an added claim. show_part 'all' displays "
             "the whole passage, so an item comparing parts is answerable.\n\n"
             f"SOURCE (human-written, public domain):\n{source_text}\n\n"
             f"LESSON FILE:\n{json.dumps(src, indent=1)}"

@@ -1,0 +1,18 @@
+{
+  "sequence": 2,
+  "title": "What Were We to Do?",
+  "domain": "classic education",
+  "craft_focus": "rhetorical questions that make the reader feel the problem",
+  "source_file": "washington_questions.txt",
+  "source": {
+    "basis": "Adapted from Booker T. Washington, Up from Slavery (1901), under DESIGN_RULES 2.5.",
+    "attribution": "Washington, Booker T. Up from Slavery. 1901. Project Gutenberg eBook #2376, https://www.gutenberg.org/ebooks/2376, accessed 2026-11-11. Public domain in the United States.",
+    "text_status": "Adapted, reading load reduced.",
+    "adaptation": "Extracted a single passage; the authoring pass will split long sentences and simplify rare words; no facts added.",
+    "survey": "A school for freed people has more students than rooms and no money to buy a campus.",
+    "avoided": "No invented details."
+  },
+  "license_evidence": "https://www.gutenberg.org/ebooks/2376 - Project Gutenberg public-domain statement; work published 1901, pre-1929, public domain in the United States.",
+  "word_count": 420,
+  "notes": "Anchor: the two questions 'What were we to do?' and 'But how were we to get it?' The passage answers each: only a shanty and an abandoned church, then a burned plantation priced at five hundred dollars with no money. The dialect aside can be dropped in adaptation; it is not needed for the craft."
+}

@@ -1,0 +1,254 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "authors_craft_band_4_2_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Charge Up the Hill",
+    "skill": "authors_craft",
+    "irl_grade": 4,
+    "stage": 2,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "topic_domain": "military history",
+    "skill_frame": "Author's craft: read how the writer uses short sentences that speed the action and hold the reader in the moment.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured part_1 100w at FK 4.1, part_2 106w at FK 4.9, part_3 100w at FK 5.3. The load is short sentences that speed the action and hold the reader in the moment.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from Theodore Roosevelt, The Rough Riders (1899), under DESIGN_RULES 2.5.",
+      "attribution": "Theodore Roosevelt. The Rough Riders. 1899. Project Gutenberg eBook #13000, https://www.gutenberg.org/ebooks/13000, accessed 2026-11-11. Public domain in the United States.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Extracted a single 343-word passage (Chapter IV, the climb up Kettle Hill); the authoring pass will split long sentences and drop rare words; no facts added.",
+      "survey": "One paragraph of the Kettle Hill charge: the men cheering as they run, Roosevelt riding up the lane, the wire fence, and the last shots at the top.",
+      "avoided": "No invented details."
+    },
+    "session": {
+      "scope": "bank",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "short sentences that speed the action and hold the reader in the moment"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "By then we were all excited by the charge. The men cheered and ran forward between shots. The foremost officers' faces were delighted. Stevens of the Ninth ran at the head of his troops. He will always stay in my mind. I galloped forward a few yards until I saw the men were well started. Then I galloped back to help Goodrich get his men across the road. He commanded his troop. They would attack the hill from that side. Captain Mills had already thrown three of the other troops of the regiment across this road for the same purpose.",
+    "part_2": "I wheeled around. I galloped toward the hill again. I passed the shouting, cheering, firing men. I went up the lane, splashing through a small stream. When I came level with the ranch buildings on top of Kettle Hill, I turned and went up the slope. I was on horseback, so I got ahead of the men on foot. My orderly, Henry Bardshar, was the exception. He had run ahead very fast to get better shots at the Spaniards. They were now running out of the ranch buildings. Sergeant Campbell and a number of the Arizona men, and Dudley Dean, among others, were very close behind.",
+    "part_3": "Stevens and his Ninth platoon were abreast of us. So were McNamee and Hartwick. Some forty yards from the top I ran into a wire fence and jumped off Little Texas, turning him loose. He had been scraped by a couple of bullets, one of which nicked my elbow, and I never expected to see him again. I ran up the hill. Bardshar stopped to shoot. Two Spaniards fell as he emptied his magazine. These were the only Spaniards I actually saw fall to aimed shots by any one of my men, with the exception of two guerillas in trees."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What had Captain Mills already done with three other troops of the regiment?",
+      "tutor_only": {
+        "confirm": "Captain Mills had already thrown three other troops across the road for the same purpose.",
+        "correct_reason": "The answer is in the last sentence of part_1: 'Captain Mills had already thrown three of the other troops of the regiment across this road for the same purpose.'",
+        "tell": "The last sentence of the opening gives this fact. It says Captain Mills had already sent three troops across the road.",
+        "help": [
+          "Read the last sentence of part_1.",
+          "Find what Captain Mills had already done."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Captain Mills had already sent three other troops across the road to attack the hill from that side.",
+        "accept_ideas": [
+          "Captain Mills had already thrown three other troops across the road.",
+          "Captain Mills had already sent three troops across the road for the same purpose.",
+          "Three other troops of the regiment were already across the road to attack the hill from that side."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the names of the troops",
+          "the exact number of shots",
+          "why the men cheered"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say Captain Mills commanded Goodrich's troop.",
+            "ask": "Who commanded Goodrich's troop?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "The narrator galloped forward a few yards, then galloped back to help Goodrich. What do these two actions together show about his role?",
+      "tutor_only": {
+        "confirm": "He checks the advance, then helps another unit cross the road.",
+        "correct_reason": "The answer comes from 'I galloped forward a few yards until I saw the men were well started' and 'Then I galloped back to help Goodrich get his men across the road.'",
+        "tell": "He moves forward to see the men started. Then he turns back to help Goodrich's troop cross.",
+        "help": [
+          "He first checks that the charge is moving. Then he goes back to help another troop cross."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The narrator checks that the charge is underway, then turns back to help Goodrich's troop cross the road, showing he is coordinating the attack.",
+        "accept_ideas": [
+          "He checks on the advance before helping another unit.",
+          "He helps Goodrich's men get across the road after seeing the charge started.",
+          "He acts as a leader who coordinates the attack, not only a lone charger."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "That he is afraid",
+          "That he is retreating",
+          "A feeling of excitement"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "He rides back because he is retreating.",
+            "ask": "What does he go back to help Goodrich do?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Bardshar ran ahead of the mounted narrator to get better shots at the Spaniards. What conclusion about the risk he took does this support but not state?",
+      "tutor_only": {
+        "confirm": "He moved closer to the enemy than the men behind him, so he took on greater danger.",
+        "correct_reason": "The sentence says Bardshar ran ahead of the mounted narrator to get better shots at the Spaniards; moving closer to the enemy means he took on greater danger.",
+        "tell": "Bardshar ran ahead alone, closer to the Spaniards than the narrator. Going closer to shoot means he took on more danger.",
+        "help": [
+          "Look at where Bardshar was compared with the narrator and the men behind.",
+          "Closer to the enemy means more danger for the person who goes first."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Bardshar moved ahead of the mounted narrator, nearer the enemy, to get better shots, so he took on greater danger than the men behind him.",
+        "accept_ideas": [
+          "He took on greater danger by moving closer to the enemy.",
+          "He was more exposed than the men behind him.",
+          "He risked more to get a better shot.",
+          "He moved nearer the enemy than the narrator."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "the words brave or courageous",
+          "naming Kettle Hill or the ranch buildings",
+          "details about the Spaniards running out"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "He says Bardshar ran ahead because someone ordered him to.",
+            "ask": "Does the passage say anyone ordered Bardshar forward?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The author begins many short sentences with 'I' ('I wheeled around. I galloped...'). What does this choice make the reader feel about the pace?",
+      "tutor_only": {
+        "confirm": "The repeated short \"I...\" sentences make the ride feel fast and urgent.",
+        "correct_reason": "The answer comes from the string of short sentences in part 2: \"I wheeled around. I galloped toward the hill again. I passed... I went...\" Each quick \"I\" action adds speed and urgency.",
+        "tell": "The short \"I...\" sentences come in quick bursts. They make the ride feel fast and urgent.",
+        "help": [
+          "Notice the short sentences that begin with \"I.\"",
+          "Think about how fast the ride feels when actions come one after another."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The repeated short \"I...\" sentence openings make the ride feel fast and urgent.",
+        "accept_ideas": [
+          "The short repeated \"I\" sentences make the action feel quick and rushed.",
+          "The reader feels the narrator's urgent push up the hill.",
+          "The ride seems fast because each short sentence adds one action."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Naming the narrator as \"I\"",
+          "Listing every action in order",
+          "Saying the narrator is on horseback"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "Student says the repeated \"I\" only shows who did each action.",
+            "ask": "How do the short, repeated \"I\" sentences change the pace of the ride?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "How does the writer's approach change from the opening to the last part?",
+      "tutor_only": {
+        "confirm": "The approach shifts from watching and directing the charge to being in the close fight himself.",
+        "correct_reason": "Part_1 shows the narrator galloping forward, then back to help Goodrich and describing troop movements. Part_3 shows him jumping off Little Texas at the wire fence and running up the hill in the fight.",
+        "tell": "The opening mostly shows the charge and troop movements. The last part puts the writer in the close action on foot.",
+        "help": [
+          "Compare what the writer is doing in part_1 with what he is doing in part_3.",
+          "Name the change in his role, not every event."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The writing moves from a wider view of the charge and troop movements to the narrator’s own close action on foot.",
+        "accept_ideas": [
+          "The writer moves from a wider view of the charge to his own close action.",
+          "The focus shifts from troop movements and helping Goodrich to running up the hill in the fight.",
+          "The narrator goes from watching and directing men to being in the middle of the action himself."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "names of all the soldiers",
+          "exact distances",
+          "the phrase “short sentences”"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "The student says the writer only lists more events in part_3.",
+            "ask": "What changes in the writer’s own role from part_1 to part_3?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "authors_craft_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "This band has no higher rung yet.",
+    "student_line": "You have the move. The next reading is another craft lesson."
+  },
+  "retry": {
+    "next_file": "authors_craft_band_4_2_0002",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another craft lesson in this band."
+  },
+  "stopped": {
+    "next_file": "authors_craft_band_4_2_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

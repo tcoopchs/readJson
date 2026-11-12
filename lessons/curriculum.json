@@ -454,8 +454,17 @@
     },
     {
       "skill": "authors_craft",
-      "grade": 4,
+      "grade": 12,
       "stage": 1,
+      "expected_sequences": [
+        1
+      ],
+      "status": "complete"
+    },
+    {
+      "skill": "authors_craft",
+      "grade": 4,
+      "stage": 2,
       "expected_sequences": [
         1,
         2,
@@ -468,10 +477,15 @@
     },
     {
       "skill": "authors_craft",
-      "grade": 12,
+      "grade": 4,
       "stage": 1,
       "expected_sequences": [
-        1
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
       ],
       "status": "complete"
     }
