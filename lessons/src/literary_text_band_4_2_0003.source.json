@@ -121,7 +121,7 @@
       "skill": "literary_text",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The story never says what became of the boats that stopped coming. What does it give the reader instead?",
       "tutor_only": {
         "confirm": "Right. It gives the cost and the buyers going south, and never says how each boat stopped coming.",
@@ -157,7 +157,7 @@
       "skill": "literary_text",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why did the man keep cutting twenty-five pounds when the foreman wanted thinner blocks?",
       "tutor_only": {
         "confirm": "Yes. A longer trip needs ice that is still there on the fourth day.",

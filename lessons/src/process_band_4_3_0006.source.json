@@ -83,7 +83,7 @@
       "skill": "process",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why does the crew pump water while the lanes fill, instead of after loading?",
       "tutor_only": {
         "confirm": "Right. A lean changes the ramp angle before the next car.",
@@ -151,7 +151,7 @@
       "skill": "process",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The passage says a list of cars does not describe a boat. What does that mean?",
       "tutor_only": {
         "confirm": "Right. The order depends on the balance at each step, not the list.",

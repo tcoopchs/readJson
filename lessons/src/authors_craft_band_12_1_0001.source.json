@@ -130,7 +130,7 @@
       "skill": "authors_craft",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why did the writer decide that one word was the best refrain?",
       "tutor_only": {
         "confirm": "The writer picked a one-word refrain because he planned to vary it often.",
@@ -156,7 +156,7 @@
         "if_they_say": [
           {
             "when": "The student says the writer chose one word because it was sonorous.",
-            "ask": "Which sentence in part 2 links refrain length to frequent variation?"
+            "ask": "Which sentence links refrain length to frequent variation?"
           }
         ]
       }
@@ -207,13 +207,13 @@
       "difficulty": 3,
       "show_part": "all",
       "show_part_again": true,
-      "prompt": "After planning the refrain in part 1, what new problem does the writer work on in part 3?",
+      "prompt": "After planning the refrain, what new problem does the writer work on next?",
       "tutor_only": {
         "confirm": "He needs a reason to keep using the word 'Nevermore.'",
         "correct_reason": "The first sentence of part 3 says 'The next desideratum was a pretext for the continuous use of the one word “Nevermore.”'",
         "tell": "He had the word and the refrain. Next he needed a reason to repeat 'Nevermore.'",
         "help": [
-          "Look at the first sentence of part 3.",
+          "Look at the first sentence of the last part.",
           "Notice the word 'pretext.'"
         ],
         "say_back": "own_words",

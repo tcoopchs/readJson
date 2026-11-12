@@ -85,7 +85,7 @@
       "skill": "text_structure",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The shopfronts were built while carts came to the square. What changed for the houses behind walls?",
       "tutor_only": {
         "confirm": "Yes. The market moved to a covered hall and traders wanted quiet.",

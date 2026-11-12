@@ -118,7 +118,7 @@
       "skill": "inference",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why does the stem curve instead of growing straight?",
       "tutor_only": {
         "confirm": "Right. Cells on the shaded side stretch longer.",

@@ -123,7 +123,7 @@
       "skill": "argument_evidence",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "How was a child counted in each summer?",
       "tutor_only": {
         "confirm": "Right. Last summer by finishing the list, this summer by signing a card.",

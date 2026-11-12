@@ -85,7 +85,7 @@
       "skill": "process",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The crew doubled the wash. Where did the pile go?",
       "tutor_only": {
         "confirm": "Right. Down the line, in front of the sizer.",
@@ -158,7 +158,7 @@
       "skill": "process",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The crew says the wash had been fine all along. What does that mean?",
       "tutor_only": {
         "confirm": "Right. The wash never set the speed of the line.",

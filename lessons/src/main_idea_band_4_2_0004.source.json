@@ -86,7 +86,7 @@
       "skill": "main_idea",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What is this part mostly about?",
       "tutor_only": {
         "confirm": "Yes. The reasons parks set fires on purpose.",
@@ -125,7 +125,7 @@
       "skill": "main_idea",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why does the crew check a go/no-go list on the day of the burn?",
       "tutor_only": {
         "confirm": "Right. The fire starts only if every condition on the list is met.",

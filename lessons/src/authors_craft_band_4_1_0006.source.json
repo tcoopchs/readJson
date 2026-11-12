@@ -94,7 +94,7 @@
         "correct_reason": "The final sentence of part_1 states that selecting and increasing any trait will almost certainly modify other parts, owing to hidden growth laws.",
         "tell": "The examples link beak length and foot size in pigeons. The writer uses them to claim that selecting one trait changes other parts.",
         "help": [
-          "Look at the last sentence of part_1.",
+          "Look at the last sentence of the opening.",
           "Ask what the writer says happens to other parts when one trait is selected."
         ],
         "say_back": "own_words",
@@ -114,7 +114,7 @@
         "if_they_say": [
           {
             "when": "They say the passage only describes pigeon feet and beaks.",
-            "ask": "What does the last sentence of part_1 say happens when one trait is selected?"
+            "ask": "What does the opening's last sentence say happens when one trait is selected?"
           },
           {
             "when": "They say selecting one trait affects only that trait.",
@@ -129,7 +129,7 @@
       "skill": "authors_craft",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The author lists rare family traits and says chance almost forces a conclusion. What does this suggest about common traits?",
       "tutor_only": {
         "confirm": "Common traits are likely passed down too.",
@@ -167,13 +167,13 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "The author repeats the phrase 'passed down' in part 2. What does this repeated phrase help the reader do?",
+      "prompt": "The author repeats the phrase 'passed down'. What does that repeated phrase help the reader do?",
       "tutor_only": {
         "confirm": "Repeating 'passed down' ties the examples to one idea: traits pass from parent to child.",
         "correct_reason": "The last sentence repeats 'passed down' twice, moving from rare to common deviations to build the claim.",
         "tell": "The phrase 'passed down' appears many times. It keeps the examples tied to one idea.",
         "help": [
-          "Look at the last sentence of part 2. Find 'passed down' used twice there.",
+          "Look at the last sentence of the middle. Find 'passed down' used twice there.",
           "Ask what idea the repeated phrase keeps in front of the reader."
         ],
         "say_back": "own_words",
@@ -213,13 +213,13 @@
       "difficulty": 3,
       "show_part": "all",
       "show_part_again": true,
-      "prompt": "In part_3, which sentence shows the author admitting the laws are unknown after giving examples in part_1?",
+      "prompt": "Which sentence late in the passage shows the author admitting the laws are unknown, after his earlier examples?",
       "tutor_only": {
         "confirm": "The laws of how traits pass down are quite unknown.",
         "correct_reason": "The sentence 'The laws of how traits pass down are quite unknown.' shows the part_3 shift to admitted uncertainty.",
-        "tell": "Part_1 gives linked-trait examples and a claim. Part_3 admits the laws are unknown.",
+        "tell": "The opening gives linked-trait examples and a claim. The last part admits the laws are unknown.",
         "help": [
-          "Look in part_3 after the sentence about treating passing down as the rule.",
+          "Look in the last part after the sentence about treating passing down as the rule.",
           "Find the sentence that says what is not known about how traits pass down."
         ],
         "say_back": "own_words",
@@ -239,7 +239,7 @@
         "if_they_say": [
           {
             "when": "They say the author proves every trait is passed down.",
-            "ask": "Which sentence in part_3 says the laws are unknown?"
+            "ask": "Which sentence says the laws are unknown?"
           },
           {
             "when": "They answer with the age rule from the last sentence.",

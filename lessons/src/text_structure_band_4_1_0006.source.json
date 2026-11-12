@@ -121,7 +121,7 @@
       "skill": "text_structure",
       "difficulty": 1,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What did the cloth panels do to the echo?",
       "tutor_only": {
         "confirm": "Right. They absorbed the sound and stopped the echo.",

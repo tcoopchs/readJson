@@ -86,7 +86,7 @@
       "skill": "main_idea",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What is this part mostly about?",
       "tutor_only": {
         "confirm": "Yes. How storms are sorted by wind speed, and what they need to grow.",
@@ -125,7 +125,7 @@
       "skill": "main_idea",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The same storm has three names. What decides which name it gets?",
       "tutor_only": {
         "confirm": "Right. Where the storm forms.",

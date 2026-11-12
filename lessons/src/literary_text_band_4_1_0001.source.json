@@ -126,7 +126,7 @@
       "skill": "literary_text",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The owner refunded the charge and fitted the new rim himself. What did that show about how he treated the helper's mistake?",
       "tutor_only": {
         "confirm": "Right. He treated it as his own problem, not the helper's.",
@@ -162,7 +162,7 @@
       "skill": "literary_text",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "By the end the helper checks every wheel twice and the owner does not. What does the story show caused that?",
       "tutor_only": {
         "confirm": "Yes. One learned the habit from the other, and the other lost his own.",

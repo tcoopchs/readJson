@@ -121,7 +121,7 @@
       "skill": "literary_text",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "After the notice she stops naming the bend and the beech and counts posts instead. What does that change show?",
       "tutor_only": {
         "confirm": "Right. She has started to let the road go, and it has become a route to get through.",
@@ -158,7 +158,7 @@
       "skill": "literary_text",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "She takes the long way back past the new bridge and the lay-by. What does that show?",
       "tutor_only": {
         "confirm": "Yes. She wanted one more run over the road she is about to lose.",

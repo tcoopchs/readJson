@@ -206,7 +206,8 @@
         ],
         "tell": "The television is on and the water is unfinished. Mariam left quickly and did not stop to tidy up.",
         "say_back": "own_words"
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "q5",

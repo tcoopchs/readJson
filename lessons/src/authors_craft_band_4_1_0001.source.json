@@ -124,7 +124,7 @@
       "skill": "authors_craft",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why did Helen stand still?",
       "tutor_only": {
         "confirm": "She was fixing all her attention on the teacher's fingers.",
@@ -201,21 +201,21 @@
       "difficulty": 3,
       "show_part": "all",
       "show_part_again": true,
-      "prompt": "How does the writer show that the word 'water' changed everything for her?",
+      "prompt": "The writer calls 'water' a 'living word.' What does that phrase make the word seem to do?",
       "tutor_only": {
-        "confirm": "She calls it a 'living word' that awakened her soul and set it free.",
-        "correct_reason": "The passage says the living word awakened her soul, gave it light, hope, joy, and set it free.",
-        "tell": "The writer calls 'water' a living word that awakened her soul and set it free.",
+        "confirm": "The phrase makes the word seem alive, able to wake her and set her free.",
+        "correct_reason": "The passage calls 'water' a 'living word' that awakened her soul and set her free, so the phrase gives the word life and power, not only a name.",
+        "tell": "She calls the word alive and says it awakened her soul. That makes water seem like a living thing.",
         "help": [
-          "Find the sentence that begins 'That living word.'",
-          "Notice what the word gave her."
+          "Find the sentence that calls 'water' a living word.",
+          "Notice what the writer says that word did to her."
         ],
         "say_back": "own_words",
-        "core_idea": "The word 'water' awakened Helen's soul and set it free.",
+        "core_idea": "The phrase makes the word seem alive, something that could wake her and set her free.",
         "accept_ideas": [
-          "The word awakened her soul and set it free.",
-          "It gave her light, hope, and joy.",
-          "It opened language for her."
+          "It makes the word seem alive, like something that could wake her.",
+          "The word seems to act on her, not only name the water.",
+          "It makes water sound like a living thing that set her free."
         ],
         "one_idea_is_enough": true,
         "not_required": [

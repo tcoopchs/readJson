@@ -121,7 +121,7 @@
       "skill": "literary_text",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "She looks up before she passes. Why does that matter?",
       "tutor_only": {
         "confirm": "Right. Looking up lets her see the teammate alone in front of the goal.",

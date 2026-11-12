@@ -119,7 +119,7 @@
       "skill": "inference",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "If a black hole with the sun's mass replaced the sun, would Earth fall in? Why?",
       "tutor_only": {
         "confirm": "Right. No. The same mass means the same gravity, so orbits stay the same.",

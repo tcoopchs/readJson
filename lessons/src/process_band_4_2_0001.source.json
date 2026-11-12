@@ -122,7 +122,7 @@
       "skill": "process",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Clean linen has to be on the hospital floors by six. Why can the crew not wait as long as it takes to fill the drum?",
       "tutor_only": {
         "confirm": "Right. The wait would run past six.",

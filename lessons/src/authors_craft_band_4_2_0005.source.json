@@ -57,7 +57,7 @@
         "correct_reason": "The final sentence of part_1 states that the wooden hive is divided into three storeys.",
         "tell": "The last sentence of the opening gives the number of storeys. It says the wooden hive has three storeys.",
         "help": [
-          "Read the last sentence of part_1.",
+          "Read the last sentence of the opening.",
           "Find the number of storeys it names."
         ],
         "say_back": "own_words",
@@ -77,7 +77,7 @@
         "if_they_say": [
           {
             "when": "They answer that the hive is painted white.",
-            "ask": "Which sentence in part_1 tells the number of storeys?"
+            "ask": "Which sentence tells the number of storeys?"
           }
         ]
       }
@@ -129,7 +129,7 @@
       "skill": "authors_craft",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The bee-keeper can narrow or close the door and lift off the roof. What conclusion about the hive do these facts support?",
       "tutor_only": {
         "confirm": "The hive is made so the bee-keeper can control the entrance and look inside.",
@@ -212,7 +212,7 @@
         "correct_reason": "Part 1 says 'I hope to tell you how this city is built' and describes the hive's outside and three storeys; part 3 turns to 'the most important' third chamber and explains combs, nurseries, and frames inside.",
         "tell": "The opening gives the whole hive and a preview. The last part zooms inside the most important chamber.",
         "help": [
-          "Part 1 starts with the whole hive. Part 3 stays inside one chamber."
+          "The opening starts with the whole hive. The last part stays inside one chamber."
         ],
         "say_back": "own_words",
         "core_idea": "The writer begins with a broad preview and outside view of the hive, then narrows to a detailed inside view of the most important chamber.",
@@ -232,7 +232,7 @@
         "if_they_say": [
           {
             "when": "The student only lists details about the third chamber.",
-            "ask": "What does part 1 do before part 3 gives those details?"
+            "ask": "What does the opening do before the last part gives those details?"
           }
         ]
       }

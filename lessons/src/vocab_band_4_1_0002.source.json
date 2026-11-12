@@ -144,7 +144,8 @@
         "word_also": [
           "ox bow"
         ]
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "4",
@@ -183,7 +184,8 @@
           "what stone they use",
           "where the town is"
         ]
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "5",

@@ -117,7 +117,7 @@
       "skill": "inference",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why might an older adult become dehydrated without noticing?",
       "tutor_only": {
         "confirm": "Right. They may not feel thirsty, so they drink less.",

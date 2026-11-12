@@ -86,7 +86,7 @@
       "skill": "main_idea",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What did the second notebook hold?",
       "tutor_only": {
         "confirm": "Yes. The machines that could not be fixed, and why each attempt failed.",

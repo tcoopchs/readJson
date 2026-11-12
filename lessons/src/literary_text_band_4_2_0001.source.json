@@ -121,7 +121,7 @@
       "skill": "literary_text",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The mother holds the handle with two fingers clear of the hot part. What does that show?",
       "tutor_only": {
         "confirm": "Right. She has done this work before, in the way the father did it.",
@@ -157,7 +157,7 @@
       "skill": "literary_text",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why does the mother want the old iron for that one heifer?",
       "tutor_only": {
         "confirm": "Yes. Her line goes back to the cow the father bought with his first wages.",

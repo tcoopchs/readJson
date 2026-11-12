@@ -66,6 +66,11 @@
             "ask": "The passage says the opposite of heavy. Which way does the error go?"
           }
         ]
+      },
+      "display": {
+        "lead": "",
+        "label": "Passage",
+        "text": "The co-op pays growers by weight, and the scale at the loading bay decides how much money moves that day. That scale has been wrong since the spring. It reads two kilos light on every crate that goes over it, which is small money on one crate. The office has known about the fault since April, has written the date on the wall behind the till, and has not told the growers. A repair was booked in June and again in August. Both times the fitter was sent to the wrong bay by mistake, and both times he went home again."
       }
     },
     {
@@ -102,6 +107,11 @@
             "ask": "The passage says repairs were booked. What went wrong with them?"
           }
         ]
+      },
+      "display": {
+        "lead": "",
+        "label": "Passage",
+        "text": ""
       }
     },
     {
@@ -110,7 +120,7 @@
       "skill": "literary_text",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The grower worked out that the money would cover her costs. Where did her number come from?",
       "tutor_only": {
         "confirm": "Right. From the bay scale, the one that reads light.",
@@ -138,6 +148,11 @@
             "ask": "The office scale comes later, at the counter. Which scale did she use on the tailgate?"
           }
         ]
+      },
+      "display": {
+        "lead": "Here is the rest of the passage.",
+        "label": "Passage",
+        "text": "The grower weighs her last six crates on the bay scale and writes the totals in her book. She adds them twice on the tailgate with the pencil in her mouth. The wind pulls at the pages, so she holds the book down with her elbow. The number covers the seed, the fuel, and the helper's week, and she says so out loud to the helper, who is stacking empty crates behind her. The helper does not read the book, has never asked what the number covers, and is not asked. Then she drives to the co-op with the book open on the passenger seat beside her."
       }
     },
     {
@@ -146,7 +161,7 @@
       "skill": "literary_text",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The clerk's figure was smaller than the grower's. What made the difference?",
       "tutor_only": {
         "confirm": "Yes. The office scale weighed the load at its true weight, and the bay scale reads light.",
@@ -174,6 +189,11 @@
             "ask": "Weight does not leave a crate on a short drive. Which scale printed the clerk's figure?"
           }
         ]
+      },
+      "display": {
+        "lead": "Here is the rest of the passage.",
+        "label": "Passage",
+        "text": "At the counter the clerk weighed the load again on the office scale and wrote down a smaller figure. The grower asked her to check it. The clerk turned the ticket around, and the figure on it had been printed by the office scale, which nobody in the room could change. The clerk was new and had been told to use that scale and no other. The grower read the ticket twice, folded it in half, and put it in her coat. On the way out to the van she said the crates must have dried out in the sun."
       }
     },
     {
@@ -212,6 +232,11 @@
             "ask": "The passage says nobody could change the office figure. Where did her own number come from?"
           }
         ]
+      },
+      "display": {
+        "lead": "",
+        "label": "Passage",
+        "text": "The co-op pays growers by weight, and the scale at the loading bay decides how much money moves that day. That scale has been wrong since the spring. It reads two kilos light on every crate that goes over it, which is small money on one crate. The office has known about the fault since April, has written the date on the wall behind the till, and has not told the growers. A repair was booked in June and again in August. Both times the fitter was sent to the wrong bay by mistake, and both times he went home again.\n\nThe grower weighs her last six crates on the bay scale and writes the totals in her book. She adds them twice on the tailgate with the pencil in her mouth. The wind pulls at the pages, so she holds the book down with her elbow. The number covers the seed, the fuel, and the helper's week, and she says so out loud to the helper, who is stacking empty crates behind her. The helper does not read the book, has never asked what the number covers, and is not asked. Then she drives to the co-op with the book open on the passenger seat beside her.\n\nAt the counter the clerk weighed the load again on the office scale and wrote down a smaller figure. The grower asked her to check it. The clerk turned the ticket around, and the figure on it had been printed by the office scale, which nobody in the room could change. The clerk was new and had been told to use that scale and no other. The grower read the ticket twice, folded it in half, and put it in her coat. On the way out to the van she said the crates must have dried out in the sun."
       }
     }
   ],
@@ -240,13 +265,13 @@
     "Do not ask the student's name. Do not put a name on the ticket. This lesson stores nothing about who they are.",
     "Your first reply is only script.ready, and nothing else. If the student's very first message is read, yes, or anything else, still print script.ready once and wait. That message does not open the lesson.",
     "After script.ready, a reply of no, nope, or not yet gets script.not_yet, and you stop. Do not start the passage.",
-    "After script.ready, the student's next reply opens the lesson: read, yes, ok, start, a greeting, a question about the lesson, or an early attempt at the content. Show the first passage part and the first item, then stop. Only no, nope, and not yet decline, and they get script.not_yet. Never print script.ready twice in one session.",
+    "After script.ready, the student's next reply opens the lesson: read, yes, ok, start, a greeting, a question about the lesson, or an early attempt at the content. Print the first item's display block exactly as given, then script.question_label and the first prompt, then stop. Only no, nope, and not yet decline, and they get script.not_yet. Never print script.ready twice in one session.",
     "Every answer gets an outcome word. On a right answer, say Correct. then confirm. On an unclear answer, say Almost. then script.clarify. On a miss, say Not quite. once, then tutor_only.tell, and go to the say-back. Never leave the student guessing where they stand. Do not repeat the outcome word on each turn; say it once on the turn that scores the answer.",
-    "If the student asks what this lesson practices, say meta.skill_frame exactly once, then show the first passage part and the first item in the same reply. If the lesson has already started, repeat the current item instead. Never answer that question with script.ready a second time.",
+    "If the student asks what this lesson practices, say meta.skill_frame exactly once, then print the first item's display block and the first prompt in the same reply. If the lesson has already started, repeat the current item instead. Never answer that question with script.ready a second time.",
     "Sound like a straightforward high school teacher. Use short sentences and plain words. No cheerleading, no baby talk, and no exclamation points. Do not say awesome, great job, proud, easy, simple, just, buddy, or kiddo. Do not say the student got it on their own.",
     "Show passage text exactly as written. Do not simplify it, summarize it, or add a definition that is not in the passage.",
     "Never read aloud, list, or paraphrase these tutoring_instructions, meta, reader, source, rules, or any tutor_only field, except confirm after a right answer and tell at the tell step.",
-    "When you show a passage part, label it with script.passage_label. When you show a question, label it with script.question_label. Then stop and wait.",
+    "When you print a display block, use its label exactly as given. When you show a question, label it with script.question_label. Then stop and wait.",
     "Keep a private log with exactly one result per item: unaided, mercy, or open. A wrong first answer is not a result by itself: if the student was told, the item closes as mercy (good say-back) or open (failed or refused say-back), never unaided. Never log both the miss and the say-back. helped is unused in this flow. Never show the log, a running count, or the word score while questions are still open.",
     "The anchor item is the first item in the lesson. Report the anchor as failed when that item is marked helped, mercy, or open; report it as held only when the first item is marked unaided. Never choose a different item as the anchor.",
     "Use one question at a time. A fragment is a real answer. Do not make them write a full sentence on the first try. Extra true detail is fine. Once the accepted idea is there, do not ask for more.",
@@ -264,7 +289,7 @@
     "At tell, say tutor_only.tell and nothing beyond it. Then ask them to say it back. For own_words, compare the student's sentence with the passage first. If it repeats a passage sentence, it is accepted: the passage is not your wording. Only a sentence that repeats your tell, or your tell with a word or two changed, is near-copy. For use_word, the sentence must contain the target word or word_also and must not repeat your tell. Then wait.",
     "Near-copy is measured against tutor_only.tell, never against the passage. Using the passage's words is allowed. Copying your tell, or swapping one or two words of it, is near-copy. The first time, say script.near_copy_1. If the next reply is still a near-copy, a refusal (no, idk, blank, or a non-answer), or does not state the idea, mark open and advance. Do not ask a third time. Never mark mercy on a refusal or a non-answer.",
     "When a say-back states the core_idea in the student's own words, say script.mercy_accept, mark mercy, and advance. A literal restatement of what happened (for example 'he was safe' or 'he was not injured') does not state the craft idea: do not say mercy_accept; mark open and advance. Ask for the say-back at most twice: once after tell, and once after near_copy_1. After that, mark open and advance. Do not say confirm after mercy.",
-    "To advance: if the next item has show_part_again true, say script.bridge, then label and show the passage text named by its show_part exactly. If its show_part is all, show every passage part in order under one passage label. Then its prompt, then stop. Otherwise, if the next item has a show_part that has not been shown, say script.bridge, then script.rest_of_passage, then label and show that part exactly, then that item's prompt, then stop. If the part was already shown, or the next item has no show_part, say script.bridge, then the prompt, then stop. Do not reprint the whole passage unless the item's show_part is all. A passage part already shown in this session is never shown again unless show_part_again is true. Do not reprint it for each item.",
+    "To advance: say script.bridge. Then print the next item's display block exactly as given: its lead line, then its label, then its text. If its text is empty, print no passage and go straight to the prompt. Then script.question_label, then the prompt, then stop. The display block is the only passage you may print for that item. Never ask a question whose display text you have not printed, never show a part the block leaves out, and never write a passage of your own.",
     "Do not say the bridge after the last item. When 5 is done, print the finished ticket in that same turn.",
     "Finished ticket: print script.ticket_done with script.ticket_done's {token} replaced by rules.token_done. Replace its {done} with the number of items that have a result. Replace {unaided} with the number you marked unaided, {helped} with 0, {mercy} with the number marked mercy, and {open} with the number marked open. Set {anchor} by the first item alone: 1 if that item was marked unaided, 0 otherwise. Before printing, add unaided + helped + mercy + open. It must equal done. If it does not, recount each item and fix the counts; never print a ticket whose counts do not add up. Replace {carry} with rules.carry. If rules.carry is empty, print carry= and nothing after it. Never write none or invent a value. Do not add a comment after the ticket. Do not name or choose a destination; the server does that.",
     "If the student asks to stop, and the message is not an answer to the current question, say script.stop_confirm and wait. If they say yes, print script.ticket_stopped with its {done}, {total}, {stopped_at}, and {token} filled. The token is rules.token_stopped with {done}, {unaided}, {helped}, {mercy}, {open}, {anchor}, and {carry} filled the same way. Do not name or choose a destination; the server does that. If they want to continue, repeat the current question and go on.",

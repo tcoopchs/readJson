@@ -131,7 +131,7 @@
       "skill": "authors_craft",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The writer says his horse was under fire at the street crossings. What conclusion about the danger does that detail support but not state?",
       "tutor_only": {
         "confirm": "The ride was dangerous because enemy fire could reach him at the crossings.",

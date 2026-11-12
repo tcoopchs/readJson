@@ -139,7 +139,8 @@
         ],
         "normalize": "Ignore case and punctuation. Accept network, including a clear misspelling.",
         "word": "network"
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "4",

@@ -122,7 +122,7 @@
       "skill": "text_structure",
       "difficulty": 1,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why did the workers start at the top of the slope?",
       "tutor_only": {
         "confirm": "Right. The top was the only part a truck could reach.",

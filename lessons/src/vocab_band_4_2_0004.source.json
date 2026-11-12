@@ -141,7 +141,8 @@
         ],
         "normalize": "Ignore case and punctuation. Accept spoilage, including a clear misspelling such as spoilidge.",
         "word": "spoilage"
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "4",

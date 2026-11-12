@@ -122,7 +122,7 @@
       "skill": "text_structure",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What can people do on the footbridge that they cannot do on the stone bridge?",
       "tutor_only": {
         "confirm": "Right. They can sit on the benches and watch the river.",

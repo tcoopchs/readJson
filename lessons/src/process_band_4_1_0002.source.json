@@ -121,7 +121,7 @@
       "skill": "process",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "On the second day, what does the rind tell the maker about the salt?",
       "tutor_only": {
         "confirm": "Right. Nothing, because the rind looks smooth either way.",

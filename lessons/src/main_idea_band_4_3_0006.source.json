@@ -90,7 +90,7 @@
       "skill": "main_idea",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What is this part mostly about?",
       "tutor_only": {
         "confirm": "Yes. Closing the road removes what would be hurt, so crews can control when the snow comes down.",
@@ -170,7 +170,7 @@
       "skill": "main_idea",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why does the writer mention tunnels and galleries?",
       "tutor_only": {
         "confirm": "Right. To show that keeping a pass open costs far more than closing it.",

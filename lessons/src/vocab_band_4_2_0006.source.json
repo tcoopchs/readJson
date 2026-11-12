@@ -112,7 +112,8 @@
           "how many apples are left",
           "when the harvest happens"
         ]
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "3",

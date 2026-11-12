@@ -164,7 +164,7 @@
       "skill": "authors_craft",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The crank will 'catch,' then you 'lift upward with a quick swing.' What do you picture?",
       "tutor_only": {
         "confirm": "The moment the crank engages and the arc of the pull — the reader feels the resistance and the motion.",
@@ -210,8 +210,8 @@
         "correct_reason": "Part 1's 'If the car has no built-in start...' gives start-up steps; part 3's 'After you start the motor...' gives after-start warming, and 'The good thing about putting the switch on last...' explains why the order helps.",
         "tell": "The opening gives steps. The last part explains the reason for the order and how to warm the motor.",
         "help": [
-          "Part 1 gives steps for getting the engine going.",
-          "Part 3 explains why the order helps and what to do after it starts."
+          "The opening gives steps for getting the engine going.",
+          "The last part explains why the order helps and what to do after it starts."
         ],
         "say_back": "own_words",
         "core_idea": "The last part explains why the order works and gives after-start warming advice.",

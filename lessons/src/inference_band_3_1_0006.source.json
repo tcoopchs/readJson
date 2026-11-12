@@ -156,7 +156,7 @@
       "skill": "inference",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The owner planes the edge each July. What goes wrong in January?",
       "tutor_only": {
         "confirm": "Yes. The gap is too wide and cold air comes in.",

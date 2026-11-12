@@ -165,7 +165,8 @@
         ],
         "tell": "Starting and stopping all day wears out the motor. Waiting for the set point lets the pumps run in one long stretch.",
         "say_back": "own_words"
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "q4",
@@ -257,7 +258,8 @@
         ],
         "tell": "The pumps stop because they need power. The tank still holds water, so the taps run for a few hours.",
         "say_back": "own_words"
-      }
+      },
+      "show_part_again": true
     }
   ],
   "advance": {

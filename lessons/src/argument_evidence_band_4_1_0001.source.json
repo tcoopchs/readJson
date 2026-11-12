@@ -86,7 +86,7 @@
       "skill": "argument_evidence",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The notice points to last winter to support one claim. What happened last winter?",
       "tutor_only": {
         "confirm": "Right. The ferry crossed every day, through the same ice.",
@@ -160,7 +160,7 @@
       "skill": "argument_evidence",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "A resident says the trip will take an hour less. Does the notice support that?",
       "tutor_only": {
         "confirm": "No. The notice gives no time, and the listed minutes did not change.",

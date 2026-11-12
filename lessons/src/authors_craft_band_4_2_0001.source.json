@@ -59,7 +59,7 @@
         "correct_reason": "The answer is in the last sentence of part_1: 'Captain Mills had already thrown three of the other troops of the regiment across this road for the same purpose.'",
         "tell": "The last sentence of the opening gives this fact. It says Captain Mills had already sent three troops across the road.",
         "help": [
-          "Read the last sentence of part_1.",
+          "Read the last sentence of the opening.",
           "Find what Captain Mills had already done."
         ],
         "say_back": "own_words",
@@ -128,7 +128,7 @@
       "skill": "authors_craft",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Bardshar ran ahead of the mounted narrator to get better shots at the Spaniards. What conclusion about the risk he took does this support but not state?",
       "tutor_only": {
         "confirm": "He moved closer to the enemy than the men behind him, so he took on greater danger.",
@@ -213,7 +213,7 @@
         "correct_reason": "Part_3 puts the narrator on foot in the close fight; the opening had him watching and directing the charge.",
         "tell": "The opening mostly shows the charge and troop movements. The last part puts the writer in the close action on foot.",
         "help": [
-          "Compare what the writer is doing in part_1 with what he is doing in part_3.",
+          "Compare what the writer is doing in the opening with what he is doing in the last part.",
           "Name the change in his role, not every event."
         ],
         "say_back": "own_words",
@@ -234,7 +234,7 @@
         "if_they_say": [
           {
             "when": "The student says the writer only lists more events in part_3.",
-            "ask": "What changes in the writer’s own role from part_1 to part_3?"
+            "ask": "What changes in the writer’s own role from the opening to the last part?"
           }
         ]
       }

@@ -118,7 +118,7 @@
       "skill": "inference",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Karst covers about 20 percent of the United States. It holds about 40 percent of the groundwater. What does that tell you?",
       "tutor_only": {
         "confirm": "Right. Karst stores more water than its share of the land would suggest.",

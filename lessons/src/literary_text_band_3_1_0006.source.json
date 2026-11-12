@@ -124,7 +124,7 @@
       "skill": "literary_text",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "In the morning her plants are green and his are black. Why?",
       "tutor_only": {
         "confirm": "Right. The sheets kept the frost off her plants.",

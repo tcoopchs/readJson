@@ -172,7 +172,8 @@
         ],
         "tell": "The food in the cooler is not cold anymore. The manager keeps the diner closed so she will not serve it.",
         "say_back": "own_words"
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "q4",

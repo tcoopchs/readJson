@@ -130,7 +130,7 @@
       "skill": "authors_craft",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Wet fruit 'will soon mildew and be no use for jam.' When does the care have to start?",
       "tutor_only": {
         "confirm": "Before the fruit reaches the pan — a spoiled pick cannot be saved by careful boiling.",
@@ -215,8 +215,8 @@
         "correct_reason": "Part 1 gives broad reasons fruit is valuable and sugar is costly or uncertain. Part 3 gives exact syrup signs, careful measuring, and fire control so syrup does not boil over or burn.",
         "tell": "The opening gives the reasons. The last part shows the skill: judging syrup by signs and controlling the fire.",
         "help": [
-          "Part 1 spends time on why fruit is valuable and why sugar is a problem.",
-          "Part 3 spends time on measuring syrup by signs and controlling the fire."
+          "The opening spends time on why fruit is valuable and why sugar is a problem.",
+          "The last part spends time on measuring syrup by signs and controlling the fire."
         ],
         "say_back": "own_words",
         "core_idea": "The last part shows the work itself: judging syrup by signs and holding the fire, not only why fruit is kept.",

@@ -84,7 +84,7 @@
       "skill": "main_idea",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The town made some riders walk farther. What did it get in exchange?",
       "tutor_only": {
         "confirm": "Yes. Eight minutes saved on each trip, and a bus that starts its next run on time.",
@@ -120,7 +120,7 @@
       "skill": "main_idea",
       "difficulty": 2,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What is the third part mostly about?",
       "tutor_only": {
         "confirm": "Right. The town added a van so the people who lost their stop still have a ride.",

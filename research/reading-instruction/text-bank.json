@@ -1,6 +1,6 @@
 {
   "bank_version": 1,
-  "updated": "2026-11-10",
+  "updated": "2026-11-12",
   "rubric": "L/I/S/K 0-3; band is highest demand, grade_target is the reader label",
   "texts": [
     {
@@ -4868,6 +4868,480 @@
       "source_kind": "written for this lesson",
       "text_status": "Drafted for the band, accepted on spot check.",
       "drafted_by": "TC"
+    },
+    {
+      "id": "TB-135",
+      "title": "How a Poem Gets Its Echo",
+      "author": "Edgar Allan Poe",
+      "url": "https://www.gutenberg.org/ebooks/55749",
+      "license": "Public domain in the United States",
+      "genre": "nonfiction",
+      "grade_target": 12,
+      "band": "Band 12.1",
+      "length_note": "three passages, one per displayed part (247, 213, 221 words)",
+      "length_words": 681,
+      "fk_grade": 16.3,
+      "complexity": {
+        "language": 3,
+        "idea": 3,
+        "structure": 2,
+        "knowledge": 3
+      },
+      "best_lesson_fit": [
+        "authors_craft_band_12_1_0001"
+      ],
+      "cell_use": "Owns its own lesson in authors_craft 12.1 and serves no other cell.",
+      "central_idea": "Poe explains how he built 'The Raven' by choosing a melancholy tone, a varied refrain, the single word 'Nevermore', and a reason for repeating it.",
+      "supporting_details": [
+        "He keeps the refrain's sound the same and varies its thought to keep the effect new.",
+        "A brief refrain is easier to vary often, so he settles on a single word.",
+        "The long o and r give the word a sonorous sound that fits the melancholy tone.",
+        "The difficulty of justifying the repetition leads him to a non-reasoning speaker, the raven.",
+        "The poem's length and its most melancholy topic, death, follow from the same planning."
+      ],
+      "why_it_works": "The essay is a first-person account of composition: each choice constrains the next, and the reader must hold the tone, the refrain, the word, and the reason for it at once.",
+      "cautions": "Verbatim 1846 prose with long periodic sentences; part three measures FK 25.6. Assumes the reader knows what a refrain is. Parts run 213-247 words, recorded as an authoring exception.",
+      "topic_domain": "arts and language",
+      "source_kind": "verbatim public-domain work",
+      "text_status": "Verbatim from a public-domain work."
+    },
+    {
+      "id": "TB-136",
+      "title": "The Word at the Well-House",
+      "author": "Helen Keller",
+      "url": "https://www.gutenberg.org/ebooks/2397",
+      "license": "Public domain in the United States",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "two passages, one per displayed part (108, 111 words)",
+      "length_words": 219,
+      "fk_grade": 5.7,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "authors_craft_band_4_1_0001"
+      ],
+      "cell_use": "Owns its own lesson in authors_craft 4.1 and serves no other cell.",
+      "central_idea": "At the well-house the teacher spells 'water' into Helen's hand while water runs over the other, and the word opens language for her.",
+      "supporting_details": [
+        "The teacher sweeps the broken doll aside and brings Helen her hat.",
+        "She places one hand under the spout and spells into the other as the water gushes.",
+        "Helen stands still, her attention fixed on the fingers.",
+        "The word 'water' becomes a living word that awakened her soul and set her free.",
+        "Everything has a name, and she leaves the well-house eager to learn."
+      ],
+      "why_it_works": "Two short parts carry one scene and its consequence, and the sensory words do the work the items ask about.",
+      "cautions": "Adapted from chapter IV; the doll and the honeysuckle are kept, the religious framing is not. No dates or place names beyond the well-house.",
+      "topic_domain": "classic education",
+      "source_kind": "adapted public-domain work",
+      "text_status": "Adapted, reading load reduced."
+    },
+    {
+      "id": "TB-137",
+      "title": "The Street That Had to Be Crossed",
+      "author": "Ulysses S. Grant",
+      "url": "https://www.gutenberg.org/ebooks/1067",
+      "license": "Public domain in the United States",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (114, 139, 127 words)",
+      "length_words": 380,
+      "fk_grade": 6.5,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "authors_craft_band_4_1_0002"
+      ],
+      "cell_use": "Owns its own lesson in authors_craft 4.1 and serves no other cell.",
+      "central_idea": "Grant describes riding back through fire to start a charge, then shows the plan being canceled and the troops withdrawn.",
+      "supporting_details": [
+        "The ammunition is low, which sets up the ride for more.",
+        "He gallops forward until the men are started, then back to help Goodrich's troop across.",
+        "His horse is under fire at the street crossings, and he still gets out without a scratch.",
+        "The plain phrase 'without a scratch' makes the danger sound smaller than it was.",
+        "The movement is canceled and the troops withdraw."
+      ],
+      "why_it_works": "The ride is told in short moves, and the understatement in the last line is the craft the items point at.",
+      "cautions": "Adapted from the Personal Memoirs; no regiment numbers beyond those in the text, no casualty counts, no place names added.",
+      "topic_domain": "history and people",
+      "source_kind": "adapted public-domain work",
+      "text_status": "Adapted, reading load reduced."
+    },
+    {
+      "id": "TB-138",
+      "title": "Who Carries the Cherry Seed",
+      "author": "Henry David Thoreau",
+      "url": "https://www.gutenberg.org/ebooks/9846",
+      "license": "Public domain in the United States",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (150, 108, 131 words)",
+      "length_words": 389,
+      "fk_grade": 5.6,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "authors_craft_band_4_1_0003"
+      ],
+      "cell_use": "Owns its own lesson in authors_craft 4.1 and serves no other cell.",
+      "central_idea": "Thoreau shows that cherry seeds travel in the bills of thrushes and that other seeds are carried by four-legged animals, so birds and walkers both plant the wood.",
+      "supporting_details": [
+        "A cherry seed sits in the middle of the fruit, so a bird must take the stone into its bill.",
+        "Thrushes carry the seeds and fly away, so the seeds are 'winged in another sense'.",
+        "Each year four-legged animals and birds plant the seed, and squirrels carry nuts to the pines.",
+        "Pines shade and choke the little oaks that come up under them.",
+        "Clearing the pines gives the oaks the light and conditions they need."
+      ],
+      "why_it_works": "The passage sets two kinds of carrier against each other, then turns the same contrast into a claim about which trees come up where.",
+      "cautions": "Adapted from 'The Succession of Forest Trees'; the Latin names and the agricultural advice are cut. Part one measures FK 4.9, just inside the band floor.",
+      "topic_domain": "science and nature",
+      "source_kind": "adapted public-domain work",
+      "text_status": "Adapted, reading load reduced."
+    },
+    {
+      "id": "TB-139",
+      "title": "Telling Bread Flour by Hand",
+      "author": "Fannie Merritt Farmer",
+      "url": "https://www.gutenberg.org/ebooks/65061",
+      "license": "Public domain in the United States",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (112, 141, 133 words)",
+      "length_words": 386,
+      "fk_grade": 7.1,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "authors_craft_band_4_1_0004"
+      ],
+      "cell_use": "Owns its own lesson in authors_craft 4.1 and serves no other cell.",
+      "central_idea": "A cookbook chapter tells how to judge bread and pastry flour by hand, what yeast and fermentation do, and the ordered steps that turn dough into loaves.",
+      "supporting_details": [
+        "Bread flour is for yeast recipes and pastry flour for other cases.",
+        "A closed hand shows whether flour holds its shape or feels granular.",
+        "Flour should be sifted before it is measured.",
+        "Yeast is a tiny plant that makes fermentation, and freezing pauses it without destroying it.",
+        "The dough is kneaded, risen to double its bulk, kneaded again, shaped, and risen once more."
+      ],
+      "why_it_works": "The chapter moves from testing a handful of flour to the ordered steps of bread making, and the repetition of 'fermentation' holds the middle part together.",
+      "cautions": "Adapted from the Boston Cooking-School Cook Book; oven temperatures and brand names are cut. Part two measures FK 7.7, at the top of the band.",
+      "topic_domain": "food and farming",
+      "source_kind": "adapted public-domain work",
+      "text_status": "Adapted, reading load reduced."
+    },
+    {
+      "id": "TB-140",
+      "title": "Why the Driver Must Know the Car",
+      "author": "H. Clifford Brokaw and Charles A. Starr",
+      "url": "https://www.gutenberg.org/ebooks/65673",
+      "license": "Public domain in the United States",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (127, 137, 141 words)",
+      "length_words": 405,
+      "fk_grade": 6.8,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "authors_craft_band_4_1_0005"
+      ],
+      "cell_use": "Owns its own lesson in authors_craft 4.1 and serves no other cell.",
+      "central_idea": "An early motoring handbook warns that a bad setting can kill, then turns to teaching the owner enough to catch a chauffeur's mistakes.",
+      "supporting_details": [
+        "A bad setting may mean danger and even death.",
+        "No one on board can run the engine or know if the parts are set right.",
+        "Chauffeurs forget, loaf, and plot with the supply dealer.",
+        "An owner who knows the car can spot those mistakes.",
+        "The last part points the reader to schools, service stations, and the maker's instructions."
+      ],
+      "why_it_works": "The chapter opens as a warning and closes as a lesson, and the repeated word 'owner' keeps the responsibility in one place.",
+      "cautions": "Adapted from Putnam's Automobile Handbook; the quotation from Josh Billings is kept, the brand names are cut. Part three measures FK 7.7.",
+      "topic_domain": "work and trade",
+      "source_kind": "adapted public-domain work",
+      "text_status": "Adapted, reading load reduced."
+    },
+    {
+      "id": "TB-141",
+      "title": "When One Change Brings Another",
+      "author": "Charles Darwin",
+      "url": "https://www.gutenberg.org/ebooks/1228",
+      "license": "Public domain in the United States",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.1",
+      "length_note": "three passages, one per displayed part (123, 148, 141 words)",
+      "length_words": 412,
+      "fk_grade": 7.6,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "authors_craft_band_4_1_0006"
+      ],
+      "cell_use": "Owns its own lesson in authors_craft 4.1 and serves no other cell.",
+      "central_idea": "Darwin argues that selecting one trait changes other parts of an animal, that traits pass from parent to child, and that the laws of inheritance are still unknown.",
+      "supporting_details": [
+        "Long limbs almost always come with a long head, and hairless dogs have bad teeth.",
+        "Selecting one trait almost certainly modifies other parts without the breeder knowing.",
+        "Rare family traits that appear in parent and child are taken as passed down.",
+        "If rare deviations are inherited, commoner ones may be too.",
+        "The laws of how traits pass down are quite unknown."
+      ],
+      "why_it_works": "The passage builds from a list of odd linked traits to a general claim, then admits the limit of the explanation.",
+      "cautions": "Adapted from On the Origin of Species; the Latin names and the breeder examples kept are the plain ones. All three parts measure FK 7.5-7.7, at the top of the band.",
+      "topic_domain": "science and nature",
+      "source_kind": "adapted public-domain work",
+      "text_status": "Adapted, reading load reduced."
+    },
+    {
+      "id": "TB-142",
+      "title": "The Charge Up the Hill",
+      "author": "Theodore Roosevelt",
+      "url": "https://www.gutenberg.org/ebooks/13000",
+      "license": "Public domain in the United States",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (101, 106, 105 words)",
+      "length_words": 312,
+      "fk_grade": 4.4,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "authors_craft_band_4_2_0001"
+      ],
+      "cell_use": "Owns its own lesson in authors_craft 4.2 and serves no other cell.",
+      "central_idea": "Roosevelt rides back to start a troop across the road, then up the hill on horseback into the close fighting on foot.",
+      "supporting_details": [
+        "He gallops forward until the men are started, then back to help Goodrich's troop across.",
+        "Captain Mills had already sent three other troops across the road.",
+        "He passes the cheering men and goes up the slope ahead of the men on foot.",
+        "Bardshar runs ahead to get better shots at the Spaniards.",
+        "A wire fence stops the horse, and he finishes the charge on foot."
+      ],
+      "why_it_works": "Short sentences make each move its own beat, and the last part puts the writer inside the action he has been describing.",
+      "cautions": "Adapted from The Rough Riders; no casualty figures, no place names beyond Kettle Hill. Parts one and three measure FK 4.2 and 4.1, just below the band floor, recorded as an authoring exception for owner review.",
+      "topic_domain": "military history",
+      "source_kind": "adapted public-domain work",
+      "text_status": "Adapted, reading load reduced.",
+      "drafted_by": "LessonBot harness (DeepSeek 1017)"
+    },
+    {
+      "id": "TB-143",
+      "title": "What Were We to Do?",
+      "author": "Booker T. Washington",
+      "url": "https://www.gutenberg.org/ebooks/2376",
+      "license": "Public domain in the United States",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (107, 105, 102 words)",
+      "length_words": 314,
+      "fk_grade": 5.6,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "authors_craft_band_4_2_0002"
+      ],
+      "cell_use": "Owns its own lesson in authors_craft 4.2 and serves no other cell.",
+      "central_idea": "A school with a shack, a borrowed church, and rising numbers finds an abandoned plantation it needs but cannot pay for.",
+      "supporting_details": [
+        "The school had only a little old shack and an empty church lent by the town.",
+        "The number of pupils rose every day.",
+        "Many pupils wanted school so they would not have to work with their hands.",
+        "An abandoned plantation a mile from town came up for sale at five hundred dollars.",
+        "The owner asked for two hundred and fifty dollars down and the rest within a year."
+      ],
+      "why_it_works": "The opening piles up needs, the rhetorical question makes them urgent, and the last part narrows everything to one property and one money problem.",
+      "cautions": "Adapted from Up from Slavery; the town of Tuskegee is kept because the passage names it, no other names are added. Part three measures FK 4.4, just below the band floor, recorded as an authoring exception.",
+      "topic_domain": "school founding",
+      "source_kind": "adapted public-domain work",
+      "text_status": "Adapted, reading load reduced.",
+      "drafted_by": "LessonBot harness (DeepSeek 1017)"
+    },
+    {
+      "id": "TB-144",
+      "title": "Two Ways to Grow",
+      "author": "Asa Gray",
+      "url": "https://www.gutenberg.org/ebooks/33757",
+      "license": "Public domain in the United States",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (100, 108, 106 words)",
+      "length_words": 314,
+      "fk_grade": 4.7,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "authors_craft_band_4_2_0003"
+      ],
+      "cell_use": "Owns its own lesson in authors_craft 4.2 and serves no other cell.",
+      "central_idea": "A botany primer sorts stems into two kinds of wood, scattered threads and a ring, and shows where the hard wood sits in each.",
+      "supporting_details": [
+        "Wood grows either as separate threads through the stem or as a layer that shows as a ring.",
+        "Corn stalks and asparagus show the first kind; bean stalks and common trees show the second.",
+        "In the first kind the hard wood is on the outside; in the second it is at the center.",
+        "The first kind has no annual layers and its bark does not peel clean.",
+        "A cut across the first stem shows threads, and a cut across the second shows a ring."
+      ],
+      "why_it_works": "The passage sets two arrangements against each other, gives examples of each, then returns to the contrast to place the hard wood.",
+      "cautions": "Adapted from The Elements of Botany; the Latin names and the 'inside-growing' history are cut. All three parts measure FK 4.7-5.1, near the band floor.",
+      "topic_domain": "botany",
+      "source_kind": "adapted public-domain work",
+      "text_status": "Adapted, reading load reduced.",
+      "drafted_by": "LessonBot harness (DeepSeek 1017)"
+    },
+    {
+      "id": "TB-145",
+      "title": "Starting the Cold Engine",
+      "author": "Ford Motor Company",
+      "url": "https://www.gutenberg.org/ebooks/46206",
+      "license": "Public domain in the United States",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (136, 114, 126 words)",
+      "length_words": 376,
+      "fk_grade": 6.4,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "authors_craft_band_4_2_0004"
+      ],
+      "cell_use": "Owns its own lesson in authors_craft 4.2 and serves no other cell.",
+      "central_idea": "A 1919 owner's manual gives the order for starting a cold engine, then explains why the order works and how to warm the motor.",
+      "supporting_details": [
+        "The crank is pushed until it catches, then lifted with a quick swing.",
+        "The carb knob goes a fourth of a turn left to let a richer mix in.",
+        "The spark switch goes on last, after the gas is fed.",
+        "Starting with a cold motor gives little power and may stall.",
+        "After warming, the carb knob goes back a fourth of a turn."
+      ],
+      "why_it_works": "The steps come first and the reasons come after, so the reader sees the order and then learns why it matters.",
+      "cautions": "Adapted from the Ford Manual; the numbered steps are kept as prose. Carb, prime rod, and spark lever are not explained in the text, so the knowledge load is 2.",
+      "topic_domain": "vintage engines",
+      "source_kind": "adapted public-domain work",
+      "text_status": "Adapted, reading load reduced.",
+      "drafted_by": "LessonBot harness (DeepSeek 1017)"
+    },
+    {
+      "id": "TB-146",
+      "title": "A Home Like a City",
+      "author": "Ellison Hawks",
+      "url": "https://www.gutenberg.org/ebooks/66970",
+      "license": "Public domain in the United States",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (106, 121, 103 words)",
+      "length_words": 330,
+      "fk_grade": 6.8,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "authors_craft_band_4_2_0005"
+      ],
+      "cell_use": "Owns its own lesson in authors_craft 4.2 and serves no other cell.",
+      "central_idea": "A children's natural history describes the wooden hive as a three-storey house, from the door and roof to the chamber where the bees live.",
+      "supporting_details": [
+        "The wooden hive is a painted box divided into three storeys.",
+        "The door is a slit with slips of wood that narrow or close it.",
+        "The roof is empty and must be lifted off to look inside.",
+        "The second chamber stores honey when the third is full.",
+        "The third chamber holds the combs, the honey stores, and the nurseries."
+      ],
+      "why_it_works": "The description moves from the outside of the hive to its most important chamber, and the house comparison carries the structure.",
+      "cautions": "Adapted from Bees, Shown to the Children; the skep history is kept short and no bee anatomy is added.",
+      "topic_domain": "beekeeping",
+      "source_kind": "adapted public-domain work",
+      "text_status": "Adapted, reading load reduced.",
+      "drafted_by": "LessonBot harness (DeepSeek 1017)"
+    },
+    {
+      "id": "TB-147",
+      "title": "The Warning in the Kitchen",
+      "author": "Isabella Beeton",
+      "url": "https://www.gutenberg.org/ebooks/10136",
+      "license": "Public domain in the United States",
+      "genre": "nonfiction",
+      "grade_target": 4,
+      "band": "Band 4.2",
+      "length_note": "three passages, one per displayed part (115, 109, 104 words)",
+      "length_words": 328,
+      "fk_grade": 6.5,
+      "complexity": {
+        "language": 1,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "authors_craft_band_4_2_0006"
+      ],
+      "cell_use": "Owns its own lesson in authors_craft 4.2 and serves no other cell.",
+      "central_idea": "A household manual argues that sugar is a costly and flavour-destroying way to keep fruit, then shows that the keeping itself is skilled work.",
+      "supporting_details": [
+        "Sugar costs a lot and success is uncertain unless much of it is used.",
+        "Sugar destroys the slightly sour taste wanted in many fruits.",
+        "Fruit should be gathered in the morning in dry weather.",
+        "Wet fruit will soon mildew and be no use for jam.",
+        "The candy maker judges the syrup by signs and must control the fire."
+      ],
+      "why_it_works": "The opening argues why fruit must be kept and why sugar fails, and the last part turns to the skill of judging syrup and holding the fire.",
+      "cautions": "Adapted from The Book of Household Management; the technical syrup terms are cut and no quantities are given.",
+      "topic_domain": "preserving fruit",
+      "source_kind": "adapted public-domain work",
+      "text_status": "Adapted, reading load reduced.",
+      "drafted_by": "LessonBot harness (DeepSeek 1017)"
     }
   ],
   "screened_not_banked": [

@@ -121,7 +121,7 @@
       "skill": "process",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The boat arrives late. Which step does the crew cut, and why that one?",
       "tutor_only": {
         "confirm": "Right. The crew meeting, because it has spare minutes.",
@@ -193,7 +193,7 @@
       "skill": "process",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why does the crew build the sheet backward from the sailing time, not forward from the first step?",
       "tutor_only": {
         "confirm": "Right. Forward from the first step runs out of time at the ramp.",

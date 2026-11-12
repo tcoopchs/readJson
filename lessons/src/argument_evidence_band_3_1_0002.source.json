@@ -86,7 +86,7 @@
       "skill": "argument_evidence",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why is four inches not enough for a crowd?",
       "tutor_only": {
         "confirm": "Yes. The club rule needs six inches for a crowd.",

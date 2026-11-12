@@ -138,7 +138,8 @@
         ],
         "normalize": "Ignore case and punctuation.",
         "word": "relief"
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "4",
@@ -177,7 +178,8 @@
           "how much the sum was",
           "how many households there were"
         ]
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "5",

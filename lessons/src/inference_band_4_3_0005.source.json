@@ -119,7 +119,7 @@
       "skill": "inference",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why does the field flood now when it did not before?",
       "tutor_only": {
         "confirm": "Right. Roofs and paving send water off fast instead of soaking it in.",

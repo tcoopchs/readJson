@@ -83,7 +83,7 @@
       "skill": "process",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "A crew opens two seconds ahead at the first mark and then loses four in the third. Why?",
       "tutor_only": {
         "confirm": "Right. It spent its store early.",
@@ -117,7 +117,7 @@
       "skill": "process",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why does the crew have to choose its rates before the race?",
       "tutor_only": {
         "confirm": "Right. The four rates must add up to one fixed store.",

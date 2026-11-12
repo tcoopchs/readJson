@@ -85,7 +85,7 @@
       "skill": "process",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What does the compositor measure?",
       "tutor_only": {
         "confirm": "Right. Each column against the frame.",
@@ -157,7 +157,7 @@
       "skill": "process",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "A page passes the copy editor and is still wrong. What could be wrong, and why did she miss it?",
       "tutor_only": {
         "confirm": "Right. It could be crooked, and she never measures columns.",

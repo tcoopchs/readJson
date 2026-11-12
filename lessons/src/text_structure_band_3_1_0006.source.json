@@ -158,7 +158,7 @@
       "skill": "text_structure",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why did the crew let the new layer dry slowly?",
       "tutor_only": {
         "confirm": "Yes. So the paint had time to move with the cloth.",

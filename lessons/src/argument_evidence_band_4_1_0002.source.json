@@ -86,7 +86,7 @@
       "skill": "argument_evidence",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The note gives a second reason. What does it say carries the soil into the pond?",
       "tutor_only": {
         "confirm": "Right. Rain, because no roots hold the soil.",
@@ -160,7 +160,7 @@
       "skill": "argument_evidence",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "A reader says the first reason is fine, because it says the bank is not stable. What is wrong with it?",
       "tutor_only": {
         "confirm": "Right. It repeats the claim in other words, so it adds nothing.",

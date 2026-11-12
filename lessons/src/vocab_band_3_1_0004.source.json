@@ -144,7 +144,8 @@
         "word_also": [
           "worn out"
         ]
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "4",
@@ -183,7 +184,8 @@
           "what the form is made of",
           "how long the leather dries"
         ]
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "5",

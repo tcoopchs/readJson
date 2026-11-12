@@ -83,7 +83,7 @@
       "skill": "inference",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why do some aquifers refill quickly and others very slowly?",
       "tutor_only": {
         "confirm": "Yes. It depends on how fast water moves through the rock.",

@@ -122,7 +122,7 @@
       "skill": "process",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why does the lid go on while the jam is hot?",
       "tutor_only": {
         "confirm": "Right. The jam shrinks as it cools, and that pull makes the lid tight.",

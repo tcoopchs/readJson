@@ -327,6 +327,11 @@ Every authored student line must match that voice.
 **5.1 `show_part` rule.** Every item that depends on passage text must set `show_part` to the part
 containing the evidence. If the evidence is in `part_1` and the item follows `part_2` items, set
 `show_part: "part_1"`. Use `null` only when the answer is recoverable from text already on screen.
+The compiler materializes this into a `display` block on each compiled item — lead line, label, and
+the exact text to print, or an empty text for an item whose part is already on screen. The author
+writes `show_part`; the tutor copies `display` and never decides for itself what to show. An item
+that opens a later passage part also carries `show_part_again: true`, so the intent survives in the
+source and a reviewer can see it without compiling.
 
 **5.2 `accept_ideas` contains ideas, not instructions.** Put spelling and normalization guidance in
 `normalize`; put acceptable ideas in `accept_ideas`.

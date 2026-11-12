@@ -86,7 +86,7 @@
       "skill": "argument_evidence",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What does the memo ask the shop to change?",
       "tutor_only": {
         "confirm": "Right. Order the ten most common parts once a month.",
@@ -160,7 +160,7 @@
       "skill": "argument_evidence",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "A reader says the memo is about the storm. Why is that not the claim?",
       "tutor_only": {
         "confirm": "Right. The storm is the situation, and the claim is the request at the end.",

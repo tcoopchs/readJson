@@ -172,7 +172,8 @@
         ],
         "tell": "The booklet is already printed. It only needs folding, so Rosa can work on it while the paper is late.",
         "say_back": "own_words"
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "q4",
@@ -252,7 +253,8 @@
         ],
         "tell": "The paper arrived at two. The note was only useful while the order was missing, so Rosa throws it away.",
         "say_back": "own_words"
-      }
+      },
+      "show_part_again": true
     }
   ],
   "advance": {

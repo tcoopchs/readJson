@@ -121,7 +121,7 @@
       "skill": "process",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "How does the second setter test the route?",
       "tutor_only": {
         "confirm": "Right. She climbs it at its posted grade.",
@@ -193,7 +193,7 @@
       "skill": "process",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why is the tester never the setter?",
       "tutor_only": {
         "confirm": "Right. A setter climbs with his own reach in mind.",

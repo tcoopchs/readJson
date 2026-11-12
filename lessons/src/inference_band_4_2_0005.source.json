@@ -117,7 +117,7 @@
       "skill": "inference",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why close the store instead of counting the delivery with customers there?",
       "tutor_only": {
         "confirm": "Right. The counting cannot be done with customers in the aisles.",

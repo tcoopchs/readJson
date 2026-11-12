@@ -121,7 +121,7 @@
       "skill": "text_structure",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Where did the boxes wait longest?",
       "tutor_only": {
         "confirm": "Right. At the check station.",

@@ -56,7 +56,7 @@
         "correct_reason": "The last sentence says, \"Flour should always be sifted before measuring.\"",
         "tell": "The passage says to sift flour before measuring it. That order is stated in the last sentence.",
         "help": [
-          "Look at the final sentence in part 1.",
+          "Look at the final sentence in the opening.",
           "Find the action that comes before measuring."
         ],
         "say_back": "own_words",
@@ -89,7 +89,7 @@
       "show_part_again": false,
       "prompt": "According to the passage, when should bread flour be used, and when should pastry flour be used?",
       "tutor_only": {
-        "confirm": "Use bread flour when yeast is called for, with few exceptions; use pastry flour in other cases.",
+        "confirm": "Bread flour is for yeast recipes, with few exceptions; pastry flour covers the other cases.",
         "correct_reason": "The answer is in this sentence: 'Bread flour should be used in all cases where yeast is called for, with few exceptions; in other cases, pastry flour.'",
         "tell": "Bread flour goes with yeast recipes. Pastry flour is for the other cases.",
         "help": [
@@ -128,7 +128,7 @@
       "skill": "authors_craft",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The passage says yeast life at 32°F is paused but not fully destroyed. What does 'paused' suggest?",
       "tutor_only": {
         "confirm": "It may become active again when it warms.",
@@ -208,14 +208,14 @@
       "difficulty": 3,
       "show_part": "all",
       "show_part_again": true,
-      "prompt": "What change in approach does the part_3 sentence about shaping loaves and filling pans show?",
+      "prompt": "What change in approach does the sentence about shaping loaves and filling pans show?",
       "tutor_only": {
         "confirm": "The author shifts from judging flour to giving ordered bread-making steps.",
         "correct_reason": "The sentence 'Shape it into loaves and put them in greased bread pans, half filled' is an ordered bread-making step, showing part_3’s shift to process instructions.",
-        "tell": "Part_1 tells how to judge flour. Part_3 gives ordered steps for making bread.",
+        "tell": "The opening tells how to judge flour. The last part gives ordered steps for making bread.",
         "help": [
-          "Look at the part_3 command about shaping loaves and filling pans.",
-          "Compare part_1’s flour tests with part_3’s bread-making commands."
+          "Look at the last part's command about shaping loaves and filling pans.",
+          "Compare the opening’s flour tests with the last part’s bread-making commands."
         ],
         "say_back": "own_words",
         "core_idea": "Part_1 helps readers judge flour; part_3 gives ordered steps for making bread.",
@@ -234,7 +234,7 @@
         "if_they_say": [
           {
             "when": "They say part_1 already gives the steps for shaping loaves.",
-            "ask": "Part_1 tells you how to judge flour. Which part gives the steps for shaping loaves?"
+            "ask": "The opening tells you how to judge flour. Which sentences give the steps for shaping loaves?"
           }
         ]
       }

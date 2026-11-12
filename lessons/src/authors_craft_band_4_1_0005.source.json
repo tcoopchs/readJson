@@ -50,11 +50,11 @@
       "difficulty": 1,
       "show_part": "part_1",
       "show_part_again": false,
-      "prompt": "In part 1, what does the author say a bad setting may mean?",
+      "prompt": "What does the author say a bad setting may mean?",
       "tutor_only": {
         "confirm": "A bad setting may mean danger and even death.",
         "correct_reason": "The sentence 'A bad setting may mean danger and even death' states the fact.",
-        "tell": "The author warns that a bad setting may cause danger and death. This warning is a stated fact in part 1.",
+        "tell": "The author warns that a bad setting may cause danger and death. This warning is a stated fact early in the passage.",
         "help": [
           "Look at the sentence after the owner warning.",
           "Find the words about a bad setting and its result."
@@ -76,7 +76,7 @@
         "if_they_say": [
           {
             "when": "They say a bad setting only causes delay.",
-            "ask": "Which sentence in part 1 names danger and death?"
+            "ask": "Which sentence names danger and death?"
           }
         ]
       }
@@ -125,7 +125,7 @@
       "skill": "authors_craft",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The author says chauffeurs forget and loaf. What should an owner conclude about hiring one?",
       "tutor_only": {
         "confirm": "An owner should learn enough to catch a chauffeur’s mistakes.",
@@ -168,13 +168,13 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "Why does the author repeat the word 'owner' in part 2?",
+      "prompt": "Why does the author repeat the word 'owner'?",
       "tutor_only": {
         "confirm": "The repeated word is 'owner.' It points to the person responsible for knowing the car.",
         "correct_reason": "The sentence 'The owner who knows can spot these mistakes, for his comfort and the safety of his bank balance' shows the repeated word ties responsibility to the owner's knowledge.",
-        "tell": "The word 'owner' appears more than once in part 2. It keeps the reader focused on the person responsible for the car.",
+        "tell": "The word 'owner' appears more than once. It keeps the reader focused on the person responsible for the car.",
         "help": [
-          "Look at the sentence that begins 'The owner who knows...' in part 2.",
+          "Look at the sentence that begins 'The owner who knows...' in the middle of the passage.",
           "Ask who must spot mistakes and keep the car safe."
         ],
         "say_back": "own_words",
@@ -204,7 +204,7 @@
           },
           {
             "when": "The student says the repetition warns about accidents.",
-            "ask": "Which sentence in part 2 connects the owner to spotting mistakes?"
+            "ask": "Which sentence connects the owner to spotting mistakes?"
           }
         ]
       }
@@ -216,14 +216,14 @@
       "difficulty": 3,
       "show_part": "all",
       "show_part_again": true,
-      "prompt": "Which sentence in part_3 best shows the author's plan changing from warning to teaching?",
+      "prompt": "Which sentence near the end best shows the author's plan changing from warning to teaching?",
       "tutor_only": {
-        "confirm": "The sentence beginning 'In a school it is a good thing'.",
+        "confirm": "The 'In a school it is a good thing' sentence names an instructor and a lesson. It shows the plan has shifted to teaching.",
         "correct_reason": "The sentence 'In a school it is a good thing: it lets the instructor point out how useless it is to go at the thing wrong end first.' names an instructor and a lesson, showing the plan has shifted to teaching.",
-        "tell": "Part_1 warns and scares; part_3 shows a lesson with an instructor. Look for the sentence that names teaching, not danger.",
+        "tell": "The opening warns and scares. The last part shows a lesson with an instructor.",
         "help": [
-          "Reread part_3 for words about school or an instructor.",
-          "Compare that with part_1, where the author asks why you would risk a motor car."
+          "Reread the last part for words about school or an instructor.",
+          "Compare that with the opening, where the author asks why you would risk a motor car."
         ],
         "say_back": "own_words",
         "core_idea": "The author shifts from warning readers about danger to teaching them through a school example.",
@@ -242,7 +242,7 @@
         "if_they_say": [
           {
             "when": "They say part_3 still only warns readers.",
-            "ask": "Which part_3 sentence names an instructor or a lesson?"
+            "ask": "Which sentence near the end names an instructor or a lesson?"
           },
           {
             "when": "They choose the Josh Billings quotation as the change.",

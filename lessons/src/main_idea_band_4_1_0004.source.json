@@ -84,7 +84,7 @@
       "skill": "main_idea",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What happened after the pantry put up shelves?",
       "tutor_only": {
         "confirm": "Yes. The waste fell by half, and families took less each time even though they came more often.",
@@ -124,7 +124,7 @@
       "skill": "main_idea",
       "difficulty": 2,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What did the volunteers who expected failure get wrong?",
       "tutor_only": {
         "confirm": "Right. They said people would take too much, and families took less.",

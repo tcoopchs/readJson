@@ -122,7 +122,7 @@
       "skill": "process",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why does the crew plow in rounds instead of making one trip?",
       "tutor_only": {
         "confirm": "Right. New snow covers the lane the truck has cleared.",

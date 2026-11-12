@@ -209,7 +209,8 @@
         ],
         "tell": "The clarifier removes clumps you can see. The clear water still carries germs, so chlorine or ultraviolet light comes last.",
         "say_back": "own_words"
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "q5",
@@ -249,7 +250,8 @@
         ],
         "tell": "A flood moves water through too fast for the bacteria. Holding some back and releasing it slowly gives them time to eat the waste.",
         "say_back": "own_words"
-      }
+      },
+      "show_part_again": true
     }
   ],
   "advance": {

@@ -120,7 +120,7 @@
       "skill": "literary_text",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "On the night of the dress rehearsal she said not yet about a frame he had finished. What was wrong?",
       "tutor_only": {
         "confirm": "Right. The paint was right, and the stage was not ready for the frame.",

@@ -138,7 +138,8 @@
         ],
         "normalize": "Ignore case and punctuation.",
         "word": "scatter"
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "4",
@@ -177,7 +178,8 @@
           "the temperature on a single day",
           "how many weeks the cold lasts"
         ]
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "5",

@@ -121,7 +121,7 @@
       "skill": "literary_text",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why did she hold the troop train at the signal?",
       "tutor_only": {
         "confirm": "Right. The coal train was already on the single track, and only one could pass.",
@@ -157,7 +157,7 @@
       "skill": "literary_text",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "In March the crews ask for her by her surname, without the title. What does that change show?",
       "tutor_only": {
         "confirm": "Yes. They treat her as one of the people who run the line, not as a guest on it.",

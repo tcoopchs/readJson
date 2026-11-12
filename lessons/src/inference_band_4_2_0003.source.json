@@ -117,7 +117,7 @@
       "skill": "inference",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why does the second bus carry so few riders?",
       "tutor_only": {
         "confirm": "Right. It runs behind the first bus, which takes them first.",

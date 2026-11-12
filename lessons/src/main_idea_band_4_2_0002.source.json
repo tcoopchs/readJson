@@ -86,7 +86,7 @@
       "skill": "main_idea",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What is this part mostly about?",
       "tutor_only": {
         "confirm": "Yes. The crews built trails, buildings, mills, and a supply of plants.",

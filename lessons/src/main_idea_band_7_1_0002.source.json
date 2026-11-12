@@ -226,7 +226,8 @@
         ],
         "tell": "Rivers are a small share of freshwater. Even so, rivers and lakes supply most of the water people use every day.",
         "say_back": "own_words"
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "q5",

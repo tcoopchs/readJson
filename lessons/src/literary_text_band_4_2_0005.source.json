@@ -121,7 +121,7 @@
       "skill": "literary_text",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The doe stood in the open and the hunter did not lift the rifle. What had he decided?",
       "tutor_only": {
         "confirm": "Right. He decided not to take the shot, with a fawn behind her.",
@@ -157,7 +157,7 @@
       "skill": "literary_text",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The hunter says he came for a head on a wall and got a morning instead. What changed for him?",
       "tutor_only": {
         "confirm": "Yes. The deer stopped being the point of the day.",

@@ -86,7 +86,7 @@
       "skill": "argument_evidence",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What objection does the letter raise against its own request?",
       "tutor_only": {
         "confirm": "Right. That new ropes will not fix the cloudy water.",
@@ -160,7 +160,7 @@
       "skill": "argument_evidence",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The letter does not claim the ropes will clear the water. Why does that help its case?",
       "tutor_only": {
         "confirm": "Right. It shows the cloud has another cause, so the objection cannot block the request.",

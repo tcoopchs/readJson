@@ -121,7 +121,7 @@
       "skill": "text_structure",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The van's fuel and the van's insurance go on different sides. Why?",
       "tutor_only": {
         "confirm": "Yes. Fuel stops with the parcels, and the policy is paid anyway.",

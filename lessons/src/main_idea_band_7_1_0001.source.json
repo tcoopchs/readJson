@@ -176,7 +176,8 @@
         "word_also": [
           "pigments"
         ]
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "q4",
@@ -278,19 +279,19 @@
     }
   ],
   "advance": {
-      "next_file": "main_idea_band_7_1_0002",
+    "next_file": "main_idea_band_7_1_0002",
     "next_irl": 7,
     "next_means": "The second main-idea lesson, which explains the same move with a proportional passage.",
     "student_line": "You have the main-idea move. The next reading is another main-idea lesson in this band."
   },
   "retry": {
-      "next_file": "main_idea_band_7_1_0001",
+    "next_file": "main_idea_band_7_1_0001",
     "next_irl": 7,
     "next_means": "This same lesson, so the main-idea move can be practiced again.",
     "student_line": "The next reading is this same lesson, for another try at the main idea."
   },
   "stopped": {
-      "next_file": "main_idea_band_7_1_0001",
+    "next_file": "main_idea_band_7_1_0001",
     "next_irl": 7,
     "next_means": "This same lesson, so it can be finished."
   }

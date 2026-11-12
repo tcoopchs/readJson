@@ -84,7 +84,7 @@
       "skill": "main_idea",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What did the hospital learn from the six-week trial?",
       "tutor_only": {
         "confirm": "Yes. The crew slept better and stopped eating a large meal at home.",
@@ -120,7 +120,7 @@
       "skill": "main_idea",
       "difficulty": 2,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What did the manager say made the difference?",
       "tutor_only": {
         "confirm": "Right. The hour and the table, not the food.",

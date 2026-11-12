@@ -121,7 +121,7 @@
       "skill": "literary_text",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why did the farmer say the first letter did not sound like him?",
       "tutor_only": {
         "confirm": "Yes. The words were the office's, written the way the office thought an owner would read.",

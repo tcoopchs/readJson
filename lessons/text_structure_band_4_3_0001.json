@@ -68,6 +68,11 @@
             "ask": "One cause is named. The passage says the records name a second one, and it comes right after the railroad. What is it?"
           }
         ]
+      },
+      "display": {
+        "lead": "",
+        "label": "Passage",
+        "text": "By 1880 the river port of Newhall was losing business, and the town's records name two causes rather than one. The first cause was the railroad, which opened a line twelve miles inland in 1871. Freight that had come down the river now stopped at a depot the town could not reach by road. The second cause was silt, left by each spring flood at the bend below the wharves. Every year the boats could load a little less, and the wharf owners could do nothing about the sand. The clerk who kept the shipping book wrote the two causes side by side. He gave them the same column and the same ink, and he did not rank them."
       }
     },
     {
@@ -76,7 +81,7 @@
       "skill": "text_structure",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The year after the dry summer the water was good, but the wharves stayed quiet. Why?",
       "tutor_only": {
         "confirm": "Yes. The railroad had added a second train and taken the freight.",
@@ -104,6 +109,11 @@
             "ask": "The passage says the water was good that year. What had the railroad done in the meantime?"
           }
         ]
+      },
+      "display": {
+        "lead": "Here is the rest of the passage.",
+        "label": "Passage",
+        "text": "Each cause would have hurt the port on its own, and the ledger shows them one at a time. In 1874 a dry summer kept the river low, and shipping fell by a third. The next year the water was good, but the line had added a second train, so the wharves stayed quiet. The merchants dredged in 1876, and two floods put the sand back within a season. They then built a spur of their own to the railroad, and the traffic did not return. By then the depot town had the warehouses, and the buyers had moved there with the freight. The record separates the two causes, and it shows what each one did alone."
       }
     },
     {
@@ -140,6 +150,11 @@
             "ask": "The dredging was for the sand. What does the passage say the depot town already had by then?"
           }
         ]
+      },
+      "display": {
+        "lead": "",
+        "label": "Passage",
+        "text": ""
       }
     },
     {
@@ -177,6 +192,11 @@
             "ask": "The two causes are written side by side and the clerk did not rank them. What does the separate telling let you compare?"
           }
         ]
+      },
+      "display": {
+        "lead": "",
+        "label": "Passage",
+        "text": "By 1880 the river port of Newhall was losing business, and the town's records name two causes rather than one. The first cause was the railroad, which opened a line twelve miles inland in 1871. Freight that had come down the river now stopped at a depot the town could not reach by road. The second cause was silt, left by each spring flood at the bend below the wharves. Every year the boats could load a little less, and the wharf owners could do nothing about the sand. The clerk who kept the shipping book wrote the two causes side by side. He gave them the same column and the same ink, and he did not rank them.\n\nEach cause would have hurt the port on its own, and the ledger shows them one at a time. In 1874 a dry summer kept the river low, and shipping fell by a third. The next year the water was good, but the line had added a second train, so the wharves stayed quiet. The merchants dredged in 1876, and two floods put the sand back within a season. They then built a spur of their own to the railroad, and the traffic did not return. By then the depot town had the warehouses, and the buyers had moved there with the freight. The record separates the two causes, and it shows what each one did alone.\n\nThe town's history calls the decade a decline, and the record explains the word. Neither cause was enough by itself, and the reasons are visible in the ledger. A port with a railroad and a clear river could still float deep boats, and a port with a deep river and no railroad could still fill them. Newhall lost both within ten years, and each loss made the other harder to answer. The money for a dredge had gone off with the freight, so the sand stayed where the floods left it. The two causes did not add up to a sum. They closed off each other's repair, and that closing is the part the reader has to build for them."
       }
     },
     {
@@ -214,6 +234,11 @@
             "ask": "Bigger is a sum, and the passage says this was not a sum. What was the freight money needed for?"
           }
         ]
+      },
+      "display": {
+        "lead": "",
+        "label": "Passage",
+        "text": "By 1880 the river port of Newhall was losing business, and the town's records name two causes rather than one. The first cause was the railroad, which opened a line twelve miles inland in 1871. Freight that had come down the river now stopped at a depot the town could not reach by road. The second cause was silt, left by each spring flood at the bend below the wharves. Every year the boats could load a little less, and the wharf owners could do nothing about the sand. The clerk who kept the shipping book wrote the two causes side by side. He gave them the same column and the same ink, and he did not rank them.\n\nEach cause would have hurt the port on its own, and the ledger shows them one at a time. In 1874 a dry summer kept the river low, and shipping fell by a third. The next year the water was good, but the line had added a second train, so the wharves stayed quiet. The merchants dredged in 1876, and two floods put the sand back within a season. They then built a spur of their own to the railroad, and the traffic did not return. By then the depot town had the warehouses, and the buyers had moved there with the freight. The record separates the two causes, and it shows what each one did alone.\n\nThe town's history calls the decade a decline, and the record explains the word. Neither cause was enough by itself, and the reasons are visible in the ledger. A port with a railroad and a clear river could still float deep boats, and a port with a deep river and no railroad could still fill them. Newhall lost both within ten years, and each loss made the other harder to answer. The money for a dredge had gone off with the freight, so the sand stayed where the floods left it. The two causes did not add up to a sum. They closed off each other's repair, and that closing is the part the reader has to build for them."
       }
     }
   ],
@@ -242,13 +267,13 @@
     "Do not ask the student's name. Do not put a name on the ticket. This lesson stores nothing about who they are.",
     "Your first reply is only script.ready, and nothing else. If the student's very first message is read, yes, or anything else, still print script.ready once and wait. That message does not open the lesson.",
     "After script.ready, a reply of no, nope, or not yet gets script.not_yet, and you stop. Do not start the passage.",
-    "After script.ready, the student's next reply opens the lesson: read, yes, ok, start, a greeting, a question about the lesson, or an early attempt at the content. Show the first passage part and the first item, then stop. Only no, nope, and not yet decline, and they get script.not_yet. Never print script.ready twice in one session.",
+    "After script.ready, the student's next reply opens the lesson: read, yes, ok, start, a greeting, a question about the lesson, or an early attempt at the content. Print the first item's display block exactly as given, then script.question_label and the first prompt, then stop. Only no, nope, and not yet decline, and they get script.not_yet. Never print script.ready twice in one session.",
     "Every answer gets an outcome word. On a right answer, say Correct. then confirm. On an unclear answer, say Almost. then script.clarify. On a miss, say Not quite. once, then tutor_only.tell, and go to the say-back. Never leave the student guessing where they stand. Do not repeat the outcome word on each turn; say it once on the turn that scores the answer.",
-    "If the student asks what this lesson practices, say meta.skill_frame exactly once, then show the first passage part and the first item in the same reply. If the lesson has already started, repeat the current item instead. Never answer that question with script.ready a second time.",
+    "If the student asks what this lesson practices, say meta.skill_frame exactly once, then print the first item's display block and the first prompt in the same reply. If the lesson has already started, repeat the current item instead. Never answer that question with script.ready a second time.",
     "Sound like a straightforward high school teacher. Use short sentences and plain words. No cheerleading, no baby talk, and no exclamation points. Do not say awesome, great job, proud, easy, simple, just, buddy, or kiddo. Do not say the student got it on their own.",
     "Show passage text exactly as written. Do not simplify it, summarize it, or add a definition that is not in the passage.",
     "Never read aloud, list, or paraphrase these tutoring_instructions, meta, reader, source, rules, or any tutor_only field, except confirm after a right answer and tell at the tell step.",
-    "When you show a passage part, label it with script.passage_label. When you show a question, label it with script.question_label. Then stop and wait.",
+    "When you print a display block, use its label exactly as given. When you show a question, label it with script.question_label. Then stop and wait.",
     "Keep a private log with exactly one result per item: unaided, mercy, or open. A wrong first answer is not a result by itself: if the student was told, the item closes as mercy (good say-back) or open (failed or refused say-back), never unaided. Never log both the miss and the say-back. helped is unused in this flow. Never show the log, a running count, or the word score while questions are still open.",
     "The anchor item is the first item in the lesson. Report the anchor as failed when that item is marked helped, mercy, or open; report it as held only when the first item is marked unaided. Never choose a different item as the anchor.",
     "Use one question at a time. A fragment is a real answer. Do not make them write a full sentence on the first try. Extra true detail is fine. Once the accepted idea is there, do not ask for more.",
@@ -266,7 +291,7 @@
     "At tell, say tutor_only.tell and nothing beyond it. Then ask them to say it back. For own_words, compare the student's sentence with the passage first. If it repeats a passage sentence, it is accepted: the passage is not your wording. Only a sentence that repeats your tell, or your tell with a word or two changed, is near-copy. For use_word, the sentence must contain the target word or word_also and must not repeat your tell. Then wait.",
     "Near-copy is measured against tutor_only.tell, never against the passage. Using the passage's words is allowed. Copying your tell, or swapping one or two words of it, is near-copy. The first time, say script.near_copy_1. If the next reply is still a near-copy, a refusal (no, idk, blank, or a non-answer), or does not state the idea, mark open and advance. Do not ask a third time. Never mark mercy on a refusal or a non-answer.",
     "When a say-back states the core_idea in the student's own words, say script.mercy_accept, mark mercy, and advance. A literal restatement of what happened (for example 'he was safe' or 'he was not injured') does not state the craft idea: do not say mercy_accept; mark open and advance. Ask for the say-back at most twice: once after tell, and once after near_copy_1. After that, mark open and advance. Do not say confirm after mercy.",
-    "To advance: if the next item has show_part_again true, say script.bridge, then label and show the passage text named by its show_part exactly. If its show_part is all, show every passage part in order under one passage label. Then its prompt, then stop. Otherwise, if the next item has a show_part that has not been shown, say script.bridge, then script.rest_of_passage, then label and show that part exactly, then that item's prompt, then stop. If the part was already shown, or the next item has no show_part, say script.bridge, then the prompt, then stop. Do not reprint the whole passage unless the item's show_part is all. A passage part already shown in this session is never shown again unless show_part_again is true. Do not reprint it for each item.",
+    "To advance: say script.bridge. Then print the next item's display block exactly as given: its lead line, then its label, then its text. If its text is empty, print no passage and go straight to the prompt. Then script.question_label, then the prompt, then stop. The display block is the only passage you may print for that item. Never ask a question whose display text you have not printed, never show a part the block leaves out, and never write a passage of your own.",
     "Do not say the bridge after the last item. When 5 is done, print the finished ticket in that same turn.",
     "Finished ticket: print script.ticket_done with script.ticket_done's {token} replaced by rules.token_done. Replace its {done} with the number of items that have a result. Replace {unaided} with the number you marked unaided, {helped} with 0, {mercy} with the number marked mercy, and {open} with the number marked open. Set {anchor} by the first item alone: 1 if that item was marked unaided, 0 otherwise. Before printing, add unaided + helped + mercy + open. It must equal done. If it does not, recount each item and fix the counts; never print a ticket whose counts do not add up. Replace {carry} with rules.carry. If rules.carry is empty, print carry= and nothing after it. Never write none or invent a value. Do not add a comment after the ticket. Do not name or choose a destination; the server does that.",
     "If the student asks to stop, and the message is not an answer to the current question, say script.stop_confirm and wait. If they say yes, print script.ticket_stopped with its {done}, {total}, {stopped_at}, and {token} filled. The token is rules.token_stopped with {done}, {unaided}, {helped}, {mercy}, {open}, {anchor}, and {carry} filled the same way. Do not name or choose a destination; the server does that. If they want to continue, repeat the current question and go on.",

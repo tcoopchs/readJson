@@ -159,7 +159,7 @@
       "skill": "argument_evidence",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "A customer says the shop is closing for good. Does the passage support that?",
       "tutor_only": {
         "confirm": "No. The passage is about the Monday start, not closing.",

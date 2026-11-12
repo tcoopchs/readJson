@@ -112,7 +112,8 @@
           "how old the map is",
           "who drew it"
         ]
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "3",

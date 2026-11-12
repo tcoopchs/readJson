@@ -123,7 +123,7 @@
       "skill": "argument_evidence",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What does the notice in the county paper add?",
       "tutor_only": {
         "confirm": "Right. The mill was for sale with no machines included.",
@@ -160,7 +160,7 @@
       "skill": "argument_evidence",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why are the two records stronger together than either one alone?",
       "tutor_only": {
         "confirm": "Right. Different offices wrote them, and neither copied the other.",

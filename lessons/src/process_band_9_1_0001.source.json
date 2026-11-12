@@ -156,7 +156,8 @@
         ],
         "tell": "The canal above the lock is higher. If the upper gates opened, that water would crash in. It could throw the boat against the wall. The sluices let the water in slowly so the boat can rise.",
         "say_back": "own_words"
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "q4",

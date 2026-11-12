@@ -158,7 +158,7 @@
       "skill": "text_structure",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why does the grower pick the food before she sets the table?",
       "tutor_only": {
         "confirm": "Yes. The boxes have to be full before the table is set.",

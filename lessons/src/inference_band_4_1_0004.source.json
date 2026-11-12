@@ -83,7 +83,7 @@
       "skill": "inference",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why do plants help rain soak into the ground?",
       "tutor_only": {
         "confirm": "Yes. They slow the water, so it has time to soak in.",

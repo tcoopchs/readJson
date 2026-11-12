@@ -129,7 +129,7 @@
       "skill": "authors_craft",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What conclusion about thick pine woods does the author support with the little oaks?",
       "tutor_only": {
         "confirm": "Pines shade and choke little oaks, so thick pine woods may hold oak seeds without many tall oaks.",

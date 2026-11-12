@@ -88,14 +88,14 @@
       "skill": "authors_craft",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What do a corn stalk and a bean stalk show about the two kinds of wood?",
       "tutor_only": {
         "confirm": "The corn stalk shows the first kind, with scattered threads. The bean stalk shows the second kind, with a ring.",
         "correct_reason": "The passage names a corn stalk as an example of the first kind and a bean stalk as an example of the second kind.",
         "tell": "A corn stalk shows the first kind, with threads. A bean stalk shows the second kind, with a ring.",
         "help": [
-          "Find the corn stalk and the bean stalk in part_2.",
+          "Find the corn stalk and the bean stalk in the middle of the passage.",
           "Notice which kind each one shows."
         ],
         "say_back": "own_words",
@@ -209,7 +209,7 @@
         "correct_reason": "Part_1 names the two arrangements; part_3 explains where the hard wood sits and how the two kinds differ in layers and bark.",
         "tell": "The opening names the two kinds. The last part shows where the hard wood sits and what each kind has or lacks.",
         "help": [
-          "Compare what part_1 explains with what part_3 explains.",
+          "Compare what the opening explains with what the last part explains.",
           "Notice the move from the two arrangements to the hard wood."
         ],
         "say_back": "own_words",

@@ -494,3 +494,106 @@ lesson list, the rung above 4.1.
 
 Still owed on this rung: misconception, injection, and stop-by-request sessions; the branch and
 tolerance probes; and the TC review of the six drafted passages.
+
+
+## authors_craft 12.1 — Poe, one lesson, swept (2026-11-12)
+
+`authors_craft_band_12_1_0001`, swept on the compiled file at index 24 of the sorted lesson list. The
+lesson is verbatim Poe, "The Philosophy of Composition", in three parts of 247, 213, and 221 words.
+
+- Smooth: 1 of 1, opened on the first reply, five items in order, `done=5 u=5 an=1`, no leak, no early
+  ticket. The first pass recorded it as a failure (`u=3 o=1`, `premature_ticket` true); the cause was
+  the sweep's own matcher, not the lesson. Two prompts carry curly quotes (`refrain’s`,
+  `“Nevermore”`), the exact-substring test missed those two displays, and the driver kept answering
+  the item before. Fixed in the harness (see the 4.1 entry) and re-run clean.
+- Hard: 1 of 1, `tell` reached, stopped ticket `done=1 ... an=0|stop=1`, no invented help, no
+  private-field leak.
+- Copy fixed before the rebuild: item 5 asked about "part 1" and "part 3" and item 3's branch asked
+  about "part 2"; the help line pointed at "the first sentence of part 3". All four now name the
+  opening, the last part, or nothing. No item key or passage text changed.
+- Routing against the live catalog: a clear prints `hold=rung_exhausted` (grade 12 has no rung above
+  it); nothing advances, which is the intended ceiling.
+- Measured: part FK 14.8, 13.1, 25.6; whole 681 words at FK 16.3. Parts run 213-247 words, over the
+  100-200 window, recorded in `meta.authoring_exceptions`.
+
+Still owed on this rung: misconception (branch) and key-tolerance probes, injection and
+stop-by-request sessions, and the owner's read of the three-part excerpt.
+
+## authors_craft 4.1 — six lessons, swept (2026-11-12)
+
+`authors_craft_band_4_1_0001` to `_0006`, swept on the compiled files at indices 25-30 of the sorted
+lesson list. First cold-chat run this rung has ever had.
+
+- Smooth: 6 of 6 after the fixes, opened on the first reply, five items in order,
+  `done=5 u=5 an=1`, no leak, no early ticket. One record needed a corrected-detector re-run: at
+  `_0005` item 2's prompt quotes a passage sentence ("No one on board can run the engine..."), which
+  matches while the passage itself is on screen, so the sweep scored item 1 with item 2's answer and
+  printed `u=4 o=1 an=0`. A hand-driven transcript on the same file passed `u=5 an=1`, and after the
+  matcher was changed to take the lowest item ahead of the current one the re-run passed too. Lesson
+  copy was not touched for it.
+- Hard: 6 of 6, authored help only (`invented_help` empty), `tell` reached, stopped ticket
+  `an=0|stop=1` with `done=1`, no private-field leak. Re-run on `_0005` and `_0006` after their
+  item-1 copy changed; the other four ran before the copy fixes and their item 1 was untouched.
+- Spend: the 13-lesson sweep cost $0.0773 smooth and $0.0382 hard; the post-fix smooth pass over ten
+  lessons (12.1 plus 4.1 plus most of 4.2) cost $0.0392, the post-fix hard pass over four lessons
+  $0.0087, and the three diagnostic and re-run sessions $0.0149. $0.1783 for the whole job.
+- Copy fixed as classes, all in `lessons/src/*.source.json`: 57 strings across twelve lessons.
+  Numeric and underscored part references in prompts, `tell`, `confirm`, `help`, and `if_they_say.ask`
+  ("part 1", "part_3", "in part 2") rewritten to name the opening, the last part, or the sentence's
+  own subject. Three `tell` lines that spoke to the tutor instead of the student ("Look at the
+  sentence...", "Find the sentence...", "Look for the sentence...") rewritten as student copy. One
+  `confirm` that named only a sentence now states the idea as well. One prompt that graded an
+  inference behind a literal question ("What does that sentence show about the danger of the ride?")
+  rewritten to ask for the conclusion the detail supports but does not state.
+- Two item rewrites on the owner's finding and the literal-answer test:
+  `_0003` item 4 asked what "four-legged animals" helps you picture, and its key took only a sensory
+  answer, so "mammals rather than birds" was scored a miss and the `tell` claimed the passage makes
+  seed planting "work by creatures", which Thoreau does not say. The prompt now names the contrast
+  with the thrushes, the key is the walk-versus-fly contrast, `mammals, not birds` and
+  `squirrels and other walking animals` are accepted, a `partial` catches the size-only reading, and
+  the `tell` states the bill and the contrast in 16 words. `_0001` item 5 asked how the writer shows
+  that "water" changed everything, where several true sentences answer; it now quotes "living word"
+  and grades what the phrase does to the word.
+- Routing against the live catalog: a clear on `_0004` moves to `authors_craft_band_4_1_0005` (one
+  clear is not yet an up-move), and a hard fail on 4.2 `_0003` steps to `_0004` on the same window.
+- Measured: every part 101-150 words; part FK 4.9-7.7, whole-passage FK 5.6-7.6.
+  `validate_lesson.py --strict` passes all six with zero errors and zero warnings;
+  `build_lessons.py --check` passes on the rebuilt tree.
+- Harness fix, recorded here because it changes how every later sweep reads: `coldchat_sweep.py`
+  now matches a displayed prompt on the flattened first 30 characters as well as exactly, and takes
+  the lowest matching item ahead of the current one. Before the change a tutor that re-quoted a
+  prompt sent the state machine one item behind itself, which shows up as `o=` items and a
+  `premature_ticket` on a clean lesson.
+
+Still owed on this rung: branch and tolerance probes, injection and stop-by-request sessions, and
+the owner's spot-check of the six adapted passages.
+
+## authors_craft 4.2 — six lessons, swept (2026-11-12)
+
+`authors_craft_band_4_2_0001` to `_0006`, swept on the compiled files at indices 31-36, the rung
+above 4.1. These six are the ones the LessonBot harness authored under the current one-explanation
+plus say-back protocol.
+
+- Smooth: 6 of 6, opened on the first reply, five items in order, `done=5 u=5 an=1`, no leak, no
+  early ticket. `_0003`'s first record read as a failure for the matcher reason above and passed on
+  the post-fix re-run; `_0004` and `_0006` changed only unused `help` strings, so their first-pass
+  records stand.
+- Hard: 6 of 6, `tell` reached, stopped ticket `an=0|stop=1` with `done=1`, no invented help, no
+  leak. `_0001` and `_0002` were re-run after item-1 copy changed; `_0002` item 1 is the one whose
+  `tell` ordered the student to "Find the sentence".
+- Copy fixed: numeric part references in `_0001` (a branch), `_0002` (prompt, `tell`, two branches,
+  two help lines), and `_0005` (two branches, two help lines); the tutor-voice `tell` at `_0002`
+  item 1 rewritten as student copy.
+- Routing against the live catalog: a hard fail on `_0003` steps to `_0004` (the window wants two
+  hard fails in three), and 4.1's clear reaches `_0005`. No route target changed.
+- Measured: every part 100-136 words; part FK 4.1-7.4, whole-passage FK 4.4-6.8. Two lessons sit
+  below the grade-4 floor and both already carry an `authoring_exceptions` entry with "owner review
+  required": `_0001` (parts 4.2 and 4.1) and `_0002` (part three 4.4). A passage rewrite is the fix
+  and was out of scope for this pass.
+- Finding for the owner: `meta.topic_domain` on these six is `military history`, `school founding`,
+  `botany`, `vintage engines`, `beekeeping`, and `preserving fruit`. None is one of the seven
+  canonical domain words, so the four-of-seven spread rule cannot be checked from the field. They
+  are recorded as-is in the bank rows TB-142 to TB-147.
+
+Still owed on this rung: branch and tolerance probes, injection and stop-by-request sessions, and
+the owner review the FK exceptions call for.

@@ -121,7 +121,7 @@
       "skill": "text_structure",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Every boat crossing the summit takes water out of it. Why does that matter most at the summit?",
       "tutor_only": {
         "confirm": "Yes. The summit is the highest pound and has no higher water to draw on.",

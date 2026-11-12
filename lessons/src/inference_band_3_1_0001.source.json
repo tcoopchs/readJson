@@ -119,7 +119,7 @@
       "skill": "inference",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why did the light go dark when the wire was loose?",
       "tutor_only": {
         "confirm": "Right. No power could get to the bulb.",

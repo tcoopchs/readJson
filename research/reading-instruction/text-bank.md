@@ -145,6 +145,19 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-132 | The Beech on the Bend | Fiction | 4 | Band 4.2 | 326 words (three passages, 116, 107, 103) | 5.88 | `literary_text_band_4_2_0004` |
 | TB-133 | The Second Question | Fiction | 4 | Band 4.2 | 320 words (three passages, 113, 106, 101) | 5.61 | `literary_text_band_4_2_0005` |
 | TB-134 | His Own | Fiction | 4 | Band 4.2 | 321 words (three passages, 103, 113, 105) | 6.03 | `literary_text_band_4_2_0006` |
+| TB-135 | How a Poem Gets Its Echo | Nonfiction | 12 | Band 12.1 | 681 words (three passages, 247, 213, 221) | 16.30 | `authors_craft_band_12_1_0001` |
+| TB-136 | The Word at the Well-House | Nonfiction | 4 | Band 4.1 | 219 words (two passages, 108, 111) | 5.70 | `authors_craft_band_4_1_0001` |
+| TB-137 | The Street That Had to Be Crossed | Nonfiction | 4 | Band 4.1 | 380 words (three passages, 114, 139, 127) | 6.50 | `authors_craft_band_4_1_0002` |
+| TB-138 | Who Carries the Cherry Seed | Nonfiction | 4 | Band 4.1 | 389 words (three passages, 150, 108, 131) | 5.60 | `authors_craft_band_4_1_0003` |
+| TB-139 | Telling Bread Flour by Hand | Nonfiction | 4 | Band 4.1 | 386 words (three passages, 112, 141, 133) | 7.10 | `authors_craft_band_4_1_0004` |
+| TB-140 | Why the Driver Must Know the Car | Nonfiction | 4 | Band 4.1 | 405 words (three passages, 127, 137, 141) | 6.80 | `authors_craft_band_4_1_0005` |
+| TB-141 | When One Change Brings Another | Nonfiction | 4 | Band 4.1 | 412 words (three passages, 123, 148, 141) | 7.60 | `authors_craft_band_4_1_0006` |
+| TB-142 | The Charge Up the Hill | Nonfiction | 4 | Band 4.2 | 312 words (three passages, 101, 106, 105) | 4.40 | `authors_craft_band_4_2_0001` |
+| TB-143 | What Were We to Do? | Nonfiction | 4 | Band 4.2 | 314 words (three passages, 107, 105, 102) | 5.60 | `authors_craft_band_4_2_0002` |
+| TB-144 | Two Ways to Grow | Nonfiction | 4 | Band 4.2 | 314 words (three passages, 100, 108, 106) | 4.70 | `authors_craft_band_4_2_0003` |
+| TB-145 | Starting the Cold Engine | Nonfiction | 4 | Band 4.2 | 376 words (three passages, 136, 114, 126) | 6.40 | `authors_craft_band_4_2_0004` |
+| TB-146 | A Home Like a City | Nonfiction | 4 | Band 4.2 | 330 words (three passages, 106, 121, 103) | 6.80 | `authors_craft_band_4_2_0005` |
+| TB-147 | The Warning in the Kitchen | Nonfiction | 4 | Band 4.2 | 328 words (three passages, 115, 109, 104) | 6.50 | `authors_craft_band_4_2_0006` |
 
 ---
 
@@ -4545,5 +4558,434 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
 **Why it works.** The same complaint is written twice by two hands, and the version that works is the one whose words belong to the person making it.
 
 **Cautions.** No county, town, owner, or rent named. No claim about the law on repairs.
+
+---
+
+## TB-135 — How a Poem Gets Its Echo
+
+| Field | Value |
+| --- | --- |
+| Source | Edgar Allan Poe, "The Philosophy of Composition" (1846); Project Gutenberg |
+| URL | https://www.gutenberg.org/ebooks/55749 |
+| License | Public domain in the United States |
+| Genre | Nonfiction |
+| Topic domain | arts and language |
+| Grade target | 12 |
+| Band | Band 12.1 |
+| Length | 681 words (three passages, 247, 213, 221) |
+| FK grade | 16.30 on the three passages together (14.80, 13.10, 25.60) |
+| Complexity | L3, I3, S2, K3 |
+| Best lesson fit | `authors_craft_band_12_1_0001` |
+| Provenance | Verbatim public-domain text; no drafted_by; sourced under DESIGN_RULES 2.5 |
+
+**Central idea.** Poe explains how he built 'The Raven' by choosing a melancholy tone, a varied refrain, the single word 'Nevermore', and a reason for repeating it.
+
+**Supporting details.**
+
+- He keeps the refrain's sound the same and varies its thought to keep the effect new.
+- A brief refrain is easier to vary often, so he settles on a single word.
+- The long o and r give the word a sonorous sound that fits the melancholy tone.
+- The difficulty of justifying the repetition leads him to a non-reasoning speaker, the raven.
+- The poem's length and its most melancholy topic, death, follow from the same planning.
+
+**Why it works.** The essay is a first-person account of composition: each choice constrains the next, and the reader must hold the tone, the refrain, the word, and the reason for it at once.
+
+**Cautions.** Verbatim 1846 prose with long periodic sentences; part three measures FK 25.6. Assumes the reader knows what a refrain is. Parts run 213-247 words, recorded as an authoring exception.
+
+---
+
+## TB-136 — The Word at the Well-House
+
+| Field | Value |
+| --- | --- |
+| Source | Adapted from Helen Keller, The Story of My Life (1903), chapter IV; Project Gutenberg |
+| URL | https://www.gutenberg.org/ebooks/2397 |
+| License | Public domain in the United States |
+| Genre | Nonfiction |
+| Topic domain | classic education |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 219 words (two passages, 108, 111) |
+| FK grade | 5.70 on the two passages together (6.10, 5.50) |
+| Complexity | L1, I2, S1, K1 |
+| Best lesson fit | `authors_craft_band_4_1_0001` |
+| Provenance | Adapted under DESIGN_RULES 2.5; no drafted_by recorded |
+
+**Central idea.** At the well-house the teacher spells 'water' into Helen's hand while water runs over the other, and the word opens language for her.
+
+**Supporting details.**
+
+- The teacher sweeps the broken doll aside and brings Helen her hat.
+- She places one hand under the spout and spells into the other as the water gushes.
+- Helen stands still, her attention fixed on the fingers.
+- The word 'water' becomes a living word that awakened her soul and set her free.
+- Everything has a name, and she leaves the well-house eager to learn.
+
+**Why it works.** Two short parts carry one scene and its consequence, and the sensory words do the work the items ask about.
+
+**Cautions.** Adapted from chapter IV; the doll and the honeysuckle are kept, the religious framing is not. No dates or place names beyond the well-house.
+
+---
+
+## TB-137 — The Street That Had to Be Crossed
+
+| Field | Value |
+| --- | --- |
+| Source | Adapted from Ulysses S. Grant, Personal Memoirs, Vol. 1 (1885); Project Gutenberg |
+| URL | https://www.gutenberg.org/ebooks/1067 |
+| License | Public domain in the United States |
+| Genre | Nonfiction |
+| Topic domain | history and people |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 380 words (three passages, 114, 139, 127) |
+| FK grade | 6.50 on the three passages together (5.90, 6.20, 7.20) |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `authors_craft_band_4_1_0002` |
+| Provenance | Adapted under DESIGN_RULES 2.5; no drafted_by recorded |
+
+**Central idea.** Grant describes riding back through fire to start a charge, then shows the plan being canceled and the troops withdrawn.
+
+**Supporting details.**
+
+- The ammunition is low, which sets up the ride for more.
+- He gallops forward until the men are started, then back to help Goodrich's troop across.
+- His horse is under fire at the street crossings, and he still gets out without a scratch.
+- The plain phrase 'without a scratch' makes the danger sound smaller than it was.
+- The movement is canceled and the troops withdraw.
+
+**Why it works.** The ride is told in short moves, and the understatement in the last line is the craft the items point at.
+
+**Cautions.** Adapted from the Personal Memoirs; no regiment numbers beyond those in the text, no casualty counts, no place names added.
+
+---
+
+## TB-138 — Who Carries the Cherry Seed
+
+| Field | Value |
+| --- | --- |
+| Source | Adapted from Henry David Thoreau, "The Succession of Forest Trees" (1860); Project Gutenberg |
+| URL | https://www.gutenberg.org/ebooks/9846 |
+| License | Public domain in the United States |
+| Genre | Nonfiction |
+| Topic domain | science and nature |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 389 words (three passages, 150, 108, 131) |
+| FK grade | 5.60 on the three passages together (4.90, 5.20, 7.00) |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `authors_craft_band_4_1_0003` |
+| Provenance | Adapted under DESIGN_RULES 2.5; no drafted_by recorded |
+
+**Central idea.** Thoreau shows that cherry seeds travel in the bills of thrushes and that other seeds are carried by four-legged animals, so birds and walkers both plant the wood.
+
+**Supporting details.**
+
+- A cherry seed sits in the middle of the fruit, so a bird must take the stone into its bill.
+- Thrushes carry the seeds and fly away, so the seeds are 'winged in another sense'.
+- Each year four-legged animals and birds plant the seed, and squirrels carry nuts to the pines.
+- Pines shade and choke the little oaks that come up under them.
+- Clearing the pines gives the oaks the light and conditions they need.
+
+**Why it works.** The passage sets two kinds of carrier against each other, then turns the same contrast into a claim about which trees come up where.
+
+**Cautions.** Adapted from 'The Succession of Forest Trees'; the Latin names and the agricultural advice are cut. Part one measures FK 4.9, just inside the band floor.
+
+---
+
+## TB-139 — Telling Bread Flour by Hand
+
+| Field | Value |
+| --- | --- |
+| Source | Adapted from Fannie Merritt Farmer, The Boston Cooking-School Cook Book (1910); Project Gutenberg |
+| URL | https://www.gutenberg.org/ebooks/65061 |
+| License | Public domain in the United States |
+| Genre | Nonfiction |
+| Topic domain | food and farming |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 386 words (three passages, 112, 141, 133) |
+| FK grade | 7.10 on the three passages together (7.10, 7.70, 6.50) |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `authors_craft_band_4_1_0004` |
+| Provenance | Adapted under DESIGN_RULES 2.5; no drafted_by recorded |
+
+**Central idea.** A cookbook chapter tells how to judge bread and pastry flour by hand, what yeast and fermentation do, and the ordered steps that turn dough into loaves.
+
+**Supporting details.**
+
+- Bread flour is for yeast recipes and pastry flour for other cases.
+- A closed hand shows whether flour holds its shape or feels granular.
+- Flour should be sifted before it is measured.
+- Yeast is a tiny plant that makes fermentation, and freezing pauses it without destroying it.
+- The dough is kneaded, risen to double its bulk, kneaded again, shaped, and risen once more.
+
+**Why it works.** The chapter moves from testing a handful of flour to the ordered steps of bread making, and the repetition of 'fermentation' holds the middle part together.
+
+**Cautions.** Adapted from the Boston Cooking-School Cook Book; oven temperatures and brand names are cut. Part two measures FK 7.7, at the top of the band.
+
+---
+
+## TB-140 — Why the Driver Must Know the Car
+
+| Field | Value |
+| --- | --- |
+| Source | Adapted from H. Clifford Brokaw and Charles A. Starr, Putnam's Automobile Handbook (1918); Project Gutenberg |
+| URL | https://www.gutenberg.org/ebooks/65673 |
+| License | Public domain in the United States |
+| Genre | Nonfiction |
+| Topic domain | work and trade |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 405 words (three passages, 127, 137, 141) |
+| FK grade | 6.80 on the three passages together (5.70, 7.10, 7.70) |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `authors_craft_band_4_1_0005` |
+| Provenance | Adapted under DESIGN_RULES 2.5; no drafted_by recorded |
+
+**Central idea.** An early motoring handbook warns that a bad setting can kill, then turns to teaching the owner enough to catch a chauffeur's mistakes.
+
+**Supporting details.**
+
+- A bad setting may mean danger and even death.
+- No one on board can run the engine or know if the parts are set right.
+- Chauffeurs forget, loaf, and plot with the supply dealer.
+- An owner who knows the car can spot those mistakes.
+- The last part points the reader to schools, service stations, and the maker's instructions.
+
+**Why it works.** The chapter opens as a warning and closes as a lesson, and the repeated word 'owner' keeps the responsibility in one place.
+
+**Cautions.** Adapted from Putnam's Automobile Handbook; the quotation from Josh Billings is kept, the brand names are cut. Part three measures FK 7.7.
+
+---
+
+## TB-141 — When One Change Brings Another
+
+| Field | Value |
+| --- | --- |
+| Source | Adapted from Charles Darwin, On the Origin of Species (1859); Project Gutenberg |
+| URL | https://www.gutenberg.org/ebooks/1228 |
+| License | Public domain in the United States |
+| Genre | Nonfiction |
+| Topic domain | science and nature |
+| Grade target | 4 |
+| Band | Band 4.1 |
+| Length | 412 words (three passages, 123, 148, 141) |
+| FK grade | 7.60 on the three passages together (7.70, 7.60, 7.50) |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `authors_craft_band_4_1_0006` |
+| Provenance | Adapted under DESIGN_RULES 2.5; no drafted_by recorded |
+
+**Central idea.** Darwin argues that selecting one trait changes other parts of an animal, that traits pass from parent to child, and that the laws of inheritance are still unknown.
+
+**Supporting details.**
+
+- Long limbs almost always come with a long head, and hairless dogs have bad teeth.
+- Selecting one trait almost certainly modifies other parts without the breeder knowing.
+- Rare family traits that appear in parent and child are taken as passed down.
+- If rare deviations are inherited, commoner ones may be too.
+- The laws of how traits pass down are quite unknown.
+
+**Why it works.** The passage builds from a list of odd linked traits to a general claim, then admits the limit of the explanation.
+
+**Cautions.** Adapted from On the Origin of Species; the Latin names and the breeder examples kept are the plain ones. All three parts measure FK 7.5-7.7, at the top of the band.
+
+---
+
+## TB-142 — The Charge Up the Hill
+
+| Field | Value |
+| --- | --- |
+| Source | Adapted from Theodore Roosevelt (https://www.gutenberg.org/ebooks/13000); Project Gutenberg |
+| URL | https://www.gutenberg.org/ebooks/13000 |
+| License | Public domain in the United States |
+| Genre | Nonfiction |
+| Topic domain | military history |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 312 words (three passages, 101, 106, 105) |
+| FK grade | 4.40 on the three passages together (4.20, 4.90, 4.10) |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `authors_craft_band_4_2_0001` |
+| Provenance | `drafted_by: "LessonBot harness (DeepSeek 1017)"`; adapted under DESIGN_RULES 2.5; spot-check rotation |
+
+**Central idea.** Roosevelt rides back to start a troop across the road, then up the hill on horseback into the close fighting on foot.
+
+**Supporting details.**
+
+- He gallops forward until the men are started, then back to help Goodrich's troop across.
+- Captain Mills had already sent three other troops across the road.
+- He passes the cheering men and goes up the slope ahead of the men on foot.
+- Bardshar runs ahead to get better shots at the Spaniards.
+- A wire fence stops the horse, and he finishes the charge on foot.
+
+**Why it works.** Short sentences make each move its own beat, and the last part puts the writer inside the action he has been describing.
+
+**Cautions.** Adapted from The Rough Riders; no casualty figures, no place names beyond Kettle Hill. Parts one and three measure FK 4.2 and 4.1, just below the band floor, recorded as an authoring exception for owner review.
+
+---
+
+## TB-143 — What Were We to Do?
+
+| Field | Value |
+| --- | --- |
+| Source | Adapted from Booker T. Washington (https://www.gutenberg.org/ebooks/2376); Project Gutenberg |
+| URL | https://www.gutenberg.org/ebooks/2376 |
+| License | Public domain in the United States |
+| Genre | Nonfiction |
+| Topic domain | school founding |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 314 words (three passages, 107, 105, 102) |
+| FK grade | 5.60 on the three passages together (6.10, 7.00, 4.40) |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `authors_craft_band_4_2_0002` |
+| Provenance | `drafted_by: "LessonBot harness (DeepSeek 1017)"`; adapted under DESIGN_RULES 2.5; spot-check rotation |
+
+**Central idea.** A school with a shack, a borrowed church, and rising numbers finds an abandoned plantation it needs but cannot pay for.
+
+**Supporting details.**
+
+- The school had only a little old shack and an empty church lent by the town.
+- The number of pupils rose every day.
+- Many pupils wanted school so they would not have to work with their hands.
+- An abandoned plantation a mile from town came up for sale at five hundred dollars.
+- The owner asked for two hundred and fifty dollars down and the rest within a year.
+
+**Why it works.** The opening piles up needs, the rhetorical question makes them urgent, and the last part narrows everything to one property and one money problem.
+
+**Cautions.** Adapted from Up from Slavery; the town of Tuskegee is kept because the passage names it, no other names are added. Part three measures FK 4.4, just below the band floor, recorded as an authoring exception.
+
+---
+
+## TB-144 — Two Ways to Grow
+
+| Field | Value |
+| --- | --- |
+| Source | Adapted from Asa Gray (https://www.gutenberg.org/ebooks/33757); Project Gutenberg |
+| URL | https://www.gutenberg.org/ebooks/33757 |
+| License | Public domain in the United States |
+| Genre | Nonfiction |
+| Topic domain | botany |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 314 words (three passages, 100, 108, 106) |
+| FK grade | 4.70 on the three passages together (5.10, 4.70, 4.80) |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `authors_craft_band_4_2_0003` |
+| Provenance | `drafted_by: "LessonBot harness (DeepSeek 1017)"`; adapted under DESIGN_RULES 2.5; spot-check rotation |
+
+**Central idea.** A botany primer sorts stems into two kinds of wood, scattered threads and a ring, and shows where the hard wood sits in each.
+
+**Supporting details.**
+
+- Wood grows either as separate threads through the stem or as a layer that shows as a ring.
+- Corn stalks and asparagus show the first kind; bean stalks and common trees show the second.
+- In the first kind the hard wood is on the outside; in the second it is at the center.
+- The first kind has no annual layers and its bark does not peel clean.
+- A cut across the first stem shows threads, and a cut across the second shows a ring.
+
+**Why it works.** The passage sets two arrangements against each other, gives examples of each, then returns to the contrast to place the hard wood.
+
+**Cautions.** Adapted from The Elements of Botany; the Latin names and the 'inside-growing' history are cut. All three parts measure FK 4.7-5.1, near the band floor.
+
+---
+
+## TB-145 — Starting the Cold Engine
+
+| Field | Value |
+| --- | --- |
+| Source | Adapted from Ford Motor Company (https://www.gutenberg.org/ebooks/46206); Project Gutenberg |
+| URL | https://www.gutenberg.org/ebooks/46206 |
+| License | Public domain in the United States |
+| Genre | Nonfiction |
+| Topic domain | vintage engines |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 376 words (three passages, 136, 114, 126) |
+| FK grade | 6.40 on the three passages together (5.70, 7.00, 6.70) |
+| Complexity | L1, I2, S2, K2 |
+| Best lesson fit | `authors_craft_band_4_2_0004` |
+| Provenance | `drafted_by: "LessonBot harness (DeepSeek 1017)"`; adapted under DESIGN_RULES 2.5; spot-check rotation |
+
+**Central idea.** A 1919 owner's manual gives the order for starting a cold engine, then explains why the order works and how to warm the motor.
+
+**Supporting details.**
+
+- The crank is pushed until it catches, then lifted with a quick swing.
+- The carb knob goes a fourth of a turn left to let a richer mix in.
+- The spark switch goes on last, after the gas is fed.
+- Starting with a cold motor gives little power and may stall.
+- After warming, the carb knob goes back a fourth of a turn.
+
+**Why it works.** The steps come first and the reasons come after, so the reader sees the order and then learns why it matters.
+
+**Cautions.** Adapted from the Ford Manual; the numbered steps are kept as prose. Carb, prime rod, and spark lever are not explained in the text, so the knowledge load is 2.
+
+---
+
+## TB-146 — A Home Like a City
+
+| Field | Value |
+| --- | --- |
+| Source | Adapted from Ellison Hawks (https://www.gutenberg.org/ebooks/66970); Project Gutenberg |
+| URL | https://www.gutenberg.org/ebooks/66970 |
+| License | Public domain in the United States |
+| Genre | Nonfiction |
+| Topic domain | beekeeping |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 330 words (three passages, 106, 121, 103) |
+| FK grade | 6.80 on the three passages together (7.10, 6.90, 6.50) |
+| Complexity | L1, I2, S1, K1 |
+| Best lesson fit | `authors_craft_band_4_2_0005` |
+| Provenance | `drafted_by: "LessonBot harness (DeepSeek 1017)"`; adapted under DESIGN_RULES 2.5; spot-check rotation |
+
+**Central idea.** A children's natural history describes the wooden hive as a three-storey house, from the door and roof to the chamber where the bees live.
+
+**Supporting details.**
+
+- The wooden hive is a painted box divided into three storeys.
+- The door is a slit with slips of wood that narrow or close it.
+- The roof is empty and must be lifted off to look inside.
+- The second chamber stores honey when the third is full.
+- The third chamber holds the combs, the honey stores, and the nurseries.
+
+**Why it works.** The description moves from the outside of the hive to its most important chamber, and the house comparison carries the structure.
+
+**Cautions.** Adapted from Bees, Shown to the Children; the skep history is kept short and no bee anatomy is added.
+
+---
+
+## TB-147 — The Warning in the Kitchen
+
+| Field | Value |
+| --- | --- |
+| Source | Adapted from Isabella Beeton (https://www.gutenberg.org/ebooks/10136); Project Gutenberg |
+| URL | https://www.gutenberg.org/ebooks/10136 |
+| License | Public domain in the United States |
+| Genre | Nonfiction |
+| Topic domain | preserving fruit |
+| Grade target | 4 |
+| Band | Band 4.2 |
+| Length | 328 words (three passages, 115, 109, 104) |
+| FK grade | 6.50 on the three passages together (7.40, 5.60, 6.50) |
+| Complexity | L1, I2, S2, K1 |
+| Best lesson fit | `authors_craft_band_4_2_0006` |
+| Provenance | `drafted_by: "LessonBot harness (DeepSeek 1017)"`; adapted under DESIGN_RULES 2.5; spot-check rotation |
+
+**Central idea.** A household manual argues that sugar is a costly and flavour-destroying way to keep fruit, then shows that the keeping itself is skilled work.
+
+**Supporting details.**
+
+- Sugar costs a lot and success is uncertain unless much of it is used.
+- Sugar destroys the slightly sour taste wanted in many fruits.
+- Fruit should be gathered in the morning in dry weather.
+- Wet fruit will soon mildew and be no use for jam.
+- The candy maker judges the syrup by signs and must control the fire.
+
+**Why it works.** The opening argues why fruit must be kept and why sugar fails, and the last part turns to the skill of judging syrup and holding the fire.
+
+**Cautions.** Adapted from The Book of Household Management; the technical syrup terms are cut and no quantities are given.
 
 ---

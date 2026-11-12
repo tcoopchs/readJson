@@ -86,7 +86,7 @@
       "skill": "process",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Four jobs in two colors need two wash-ups when each color runs together. Why can the same jobs in arrival order need three?",
       "tutor_only": {
         "confirm": "Right. Arrival order can switch ink back and forth.",
@@ -154,7 +154,7 @@
       "skill": "process",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "A blue job due at four arrives after the green job due at noon. Where does it go on the board, and why?",
       "tutor_only": {
         "confirm": "Right. With the other blues, after the greens.",

@@ -119,7 +119,7 @@
       "skill": "inference",
       "difficulty": 3,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why does the bridge deck freeze before the road?",
       "tutor_only": {
         "confirm": "Right. Heat leaves it from above and below at once.",

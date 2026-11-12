@@ -120,7 +120,7 @@
       "skill": "process",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why is a mix with too much sand tempting to use?",
       "tutor_only": {
         "confirm": "Right. It feels gritty and goes on smoothly.",

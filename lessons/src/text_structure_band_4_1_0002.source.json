@@ -121,7 +121,7 @@
       "skill": "text_structure",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why did the neighbors think the removal had failed?",
       "tutor_only": {
         "confirm": "Right. They saw brown water and bare banks and drew a conclusion from what they could see.",

@@ -122,7 +122,7 @@
       "skill": "argument_evidence",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The passage gives two counts. What do the counts show?",
       "tutor_only": {
         "confirm": "Right. Nine wilted in the open and two under the awning.",

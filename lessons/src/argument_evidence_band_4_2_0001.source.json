@@ -86,7 +86,7 @@
       "skill": "argument_evidence",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The office reports three hundred answers. Where did those answers come from?",
       "tutor_only": {
         "confirm": "Right. From passengers who got a card while boarding the bus.",

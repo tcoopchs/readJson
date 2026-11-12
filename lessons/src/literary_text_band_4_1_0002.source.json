@@ -86,7 +86,7 @@
       "skill": "literary_text",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why does the driver time the run so he arrives at the depot before two?",
       "tutor_only": {
         "confirm": "Yes. So he arrives while the lights are on and the man is still awake.",
@@ -160,7 +160,7 @@
       "skill": "literary_text",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The depot has shut and the driver still stops there at two. What does that show about the reason he gave for the night run?",
       "tutor_only": {
         "confirm": "Yes. The stop mattered more than the pay, so his reason is not the whole reason.",

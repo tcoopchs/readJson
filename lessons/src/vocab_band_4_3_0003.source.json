@@ -105,7 +105,8 @@
           "how big the margin is",
           "who sets the price"
         ]
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "3",
@@ -169,7 +170,8 @@
           "which quote is lower",
           "how long the chair takes"
         ]
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "5",

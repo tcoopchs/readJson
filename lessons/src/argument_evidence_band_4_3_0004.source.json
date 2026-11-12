@@ -123,7 +123,7 @@
       "skill": "argument_evidence",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why could a change from two injuries to one come from chance?",
       "tutor_only": {
         "confirm": "Right. Injuries are rare here, so a single runner raises or lowers the total.",

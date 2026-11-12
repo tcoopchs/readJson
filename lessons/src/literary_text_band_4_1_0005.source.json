@@ -121,7 +121,7 @@
       "skill": "literary_text",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The groundsman pushed a fork into the turf at twelve points. What did the test show?",
       "tutor_only": {
         "confirm": "Right. The turf was soft at eleven of the twelve points.",
@@ -157,7 +157,7 @@
       "skill": "literary_text",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The captain called the match off and then rolled the goalmouth at night. What does that show?",
       "tutor_only": {
         "confirm": "Yes. He accepted the reason, and he still wanted the ground fit.",

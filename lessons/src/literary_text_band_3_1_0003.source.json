@@ -123,7 +123,7 @@
       "skill": "literary_text",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The grower gives one reason she cannot keep the boxes. What is it?",
       "tutor_only": {
         "confirm": "Right. She says the boxes will not last until five.",

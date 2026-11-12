@@ -109,7 +109,8 @@
           "how many people were counted",
           "when the count happened"
         ]
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "3",

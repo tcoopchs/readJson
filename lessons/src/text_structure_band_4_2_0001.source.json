@@ -121,7 +121,7 @@
       "skill": "text_structure",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "One kind of fog thickens through the morning. What in the passage explains that?",
       "tutor_only": {
         "confirm": "Right. More warm air keeps arriving over the cold ground or water.",

@@ -121,7 +121,7 @@
       "skill": "process",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The filter works as it was built to work. Why is the tank cloudy anyway?",
       "tutor_only": {
         "confirm": "Right. The dust comes back on every pass and builds up.",
@@ -193,7 +193,7 @@
       "skill": "process",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why do the crew drain water instead of fitting a bigger pump?",
       "tutor_only": {
         "confirm": "Right. A drain lowers the count; a faster pump only moves the dust faster.",

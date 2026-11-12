@@ -123,7 +123,7 @@
       "skill": "argument_evidence",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why does that make the note weaker as evidence?",
       "tutor_only": {
         "confirm": "Right. The shop gains from the sale, so its words are not a neutral report.",
@@ -197,7 +197,7 @@
       "skill": "argument_evidence",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What would give the theater independent evidence about the sound?",
       "tutor_only": {
         "confirm": "Right. A sound reading by someone else, or reports from audiences after several shows.",

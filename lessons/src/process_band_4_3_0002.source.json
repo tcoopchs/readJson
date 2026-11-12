@@ -83,7 +83,7 @@
       "skill": "process",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The cook doubles every amount and uses the same pan. Why does the boil take much longer than twice the old time?",
       "tutor_only": {
         "confirm": "Right. The top stays the same width while the water doubles.",
@@ -151,7 +151,7 @@
       "skill": "process",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The cook says what has to scale is the surface, not the depth. Why?",
       "tutor_only": {
         "confirm": "Right. The surface is what lets the water leave.",

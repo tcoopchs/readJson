@@ -141,7 +141,8 @@
         "word_also": [
           "folds"
         ]
-      }
+      },
+      "show_part_again": true
     },
     {
       "id": "4",

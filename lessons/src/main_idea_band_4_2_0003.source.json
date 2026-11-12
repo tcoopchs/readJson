@@ -86,7 +86,7 @@
       "skill": "main_idea",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What is this part mostly about?",
       "tutor_only": {
         "confirm": "Yes. The pools where water is stored, and how long each holds it.",
@@ -126,7 +126,7 @@
       "skill": "main_idea",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "People pump water, build dams, and drain wetlands. What does the passage say those actions change?",
       "tutor_only": {
         "confirm": "Right. They change where water is stored, how it moves, and how clean it is.",

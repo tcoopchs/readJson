@@ -83,7 +83,7 @@
       "skill": "process",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "What goes wrong if a band goes on too early, and what goes wrong if it goes on too late?",
       "tutor_only": {
         "confirm": "Right. Too early and it slips off; too late and it will not pass over the leg.",
@@ -116,7 +116,7 @@
       "skill": "process",
       "difficulty": 3,
       "show_part": "part_3",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "Why is banding the one step that cannot drift, when the count and the notes can?",
       "tutor_only": {
         "confirm": "Right. The window is set by the bird, not the crew, and it does not reopen.",

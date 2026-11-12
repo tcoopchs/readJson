@@ -57,9 +57,9 @@
       "tutor_only": {
         "confirm": "The little old shack and the empty church lent by the town.",
         "correct_reason": "The third sentence of part_1 states that they had 'only the little old shack and the empty church that the good people of the town had kindly lent us for our teaching.'",
-        "tell": "The passage names two places used for teaching. Find the sentence that lists both buildings.",
+        "tell": "The passage names two places used for teaching. The sentence about the school lists both buildings.",
         "help": [
-          "Reread the third sentence of part_1.",
+          "Reread the third sentence of the opening.",
           "That sentence lists the two places the school used for teaching."
         ],
         "say_back": "own_words",
@@ -79,7 +79,7 @@
         "if_they_say": [
           {
             "when": "They name the burned mansion house or the abandoned plantation.",
-            "ask": "Which part of the passage did you use? Look again at part_1."
+            "ask": "Which words in the opening did you use? Look again at the first lines."
           }
         ]
       }
@@ -127,7 +127,7 @@
       "skill": "authors_craft",
       "difficulty": 2,
       "show_part": "part_2",
-      "show_part_again": false,
+      "show_part_again": true,
       "prompt": "The pupils wanted school so they would not have to work with their hands. What does that tell you about what they thought school was for?",
       "tutor_only": {
         "confirm": "They saw school as a way out of field work, not as learning for its own sake.",
@@ -210,8 +210,8 @@
         "correct_reason": "Part_1 carries the broad need: the pupils were rising and the work only partly met what people needed. Part_3 carries the shift to a concrete plan and obstacle: the abandoned plantation seemed what they needed, but the price was five hundred dollars, they had no money, and the owner required two hundred and fifty dollars down and the rest within a year.",
         "tell": "The opening lists many needs. The last part narrows them to one property and the money to buy it.",
         "help": [
-          "The need in part_1 is broad and urgent.",
-          "Part_3 names a place, a price, and a payment problem."
+          "The need in the opening is broad and urgent.",
+          "The last part names a place, a price, and a payment problem."
         ],
         "say_back": "own_words",
         "core_idea": "The last part narrows the broad needs to one property and one money problem.",
