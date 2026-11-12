@@ -198,19 +198,20 @@
       "show_part_again": true,
       "prompt": "How does the writer's approach change from the opening to the last part?",
       "tutor_only": {
-        "confirm": "The approach shifts from watching and directing the charge to being in the close fight himself.",
-        "correct_reason": "Part_1 shows the narrator galloping forward, then back to help Goodrich and describing troop movements. Part_3 shows him jumping off Little Texas at the wire fence and running up the hill in the fight.",
+        "confirm": "The last part puts the writer in the close action on foot, in the fight himself.",
+        "correct_reason": "Part_3 puts the narrator on foot in the close fight; the opening had him watching and directing the charge.",
         "tell": "The opening mostly shows the charge and troop movements. The last part puts the writer in the close action on foot.",
         "help": [
           "Compare what the writer is doing in part_1 with what he is doing in part_3.",
           "Name the change in his role, not every event."
         ],
         "say_back": "own_words",
-        "core_idea": "The writing moves from a wider view of the charge and troop movements to the narrator\u2019s own close action on foot.",
+        "core_idea": "The last part puts the writer in the close action on foot.",
         "accept_ideas": [
-          "The writer moves from a wider view of the charge to his own close action.",
-          "The focus shifts from troop movements and helping Goodrich to running up the hill in the fight.",
-          "The narrator goes from watching and directing men to being in the middle of the action himself."
+          "He is in the close action on foot.",
+          "He joins the fight himself.",
+          "He is on foot in the close fight.",
+          "The writer puts himself in the close action."
         ],
         "one_idea_is_enough": true,
         "not_required": [
