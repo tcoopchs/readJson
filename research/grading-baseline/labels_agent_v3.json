@@ -1,0 +1,598 @@
+{
+ "A001": {
+  "label": "CORRECT",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A002": {
+  "label": "CORRECT",
+  "conf": "M",
+  "policy": true,
+  "note": "bare verdict: the prompt asks only 'does it support that', no reason requested",
+  "changed_by_decision": true
+ },
+ "A003": {
+  "label": "CORRECT",
+  "conf": "M",
+  "policy": false,
+  "note": "implies no, gives the reason"
+ },
+ "A004": {
+  "label": "CORRECT",
+  "conf": "M",
+  "policy": true,
+  "note": "hedged bare verdict ('doesn't really')",
+  "changed_by_decision": true
+ },
+ "A005": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A006": {
+  "label": "CORRECT",
+  "conf": "M",
+  "policy": false,
+  "note": "passage sentence that is the reason; implies no"
+ },
+ "A007": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A008": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A009": {
+  "label": "CORRECT",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A010": {
+  "label": "CORRECT",
+  "conf": "M",
+  "policy": false,
+  "note": "terse but states they show different kinds"
+ },
+ "A011": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": true,
+  "note": "half of a two-part answer (one plant only)",
+  "changed_by_decision": true
+ },
+ "A012": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": false,
+  "note": "",
+  "changed_by_decision": true
+ },
+ "A013": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": false,
+  "note": "repeats the prompt"
+ },
+ "A014": {
+  "label": "CORRECT",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A015": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A016": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A017": {
+  "label": "CORRECT",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A018": {
+  "label": "CORRECT",
+  "conf": "M",
+  "policy": false,
+  "note": "rust implied; result stated"
+ },
+ "A019": {
+  "label": "MISS",
+  "conf": "L",
+  "policy": true,
+  "note": "skips the rust step of the chain, states only the end effect",
+  "changed_by_decision": true
+ },
+ "A020": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": false,
+  "note": "",
+  "changed_by_decision": true
+ },
+ "A021": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A022": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A023": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A024": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": false,
+  "note": ""
+ },
+ "A025": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": true,
+  "note": "defensible: the gap is in the iron; key wants who cut it (prompt admits the shallower answer) | prompt rewritten: now asks what the father did",
+  "changed_by_decision": true
+ },
+ "A026": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": true,
+  "note": "same as A025 | prompt rewritten: now asks what the father did",
+  "changed_by_decision": true
+ },
+ "A027": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": true,
+  "note": "same as A025 | prompt rewritten: now asks what the father did",
+  "changed_by_decision": true
+ },
+ "A028": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": false,
+  "note": "no content to clarify"
+ },
+ "A029": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A030": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A031": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A032": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A033": {
+  "label": "CORRECT",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A034": {
+  "label": "CORRECT",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A035": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A036": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": false,
+  "note": ""
+ },
+ "A037": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A038": {
+  "label": "CORRECT",
+  "conf": "H",
+  "policy": false,
+  "note": "passage sentence, gives the reason"
+ },
+ "A039": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A040": {
+  "label": "UNCLEAR",
+  "conf": "M",
+  "policy": false,
+  "note": "purpose given, shaping only implied"
+ },
+ "A041": {
+  "label": "CORRECT",
+  "conf": "L",
+  "policy": true,
+  "note": "defensible from the sequence; key's 'kept holes open' is not stated in the passage",
+  "changed_by_decision": true
+ },
+ "A042": {
+  "label": "CORRECT",
+  "conf": "M",
+  "policy": false,
+  "note": ""
+ },
+ "A043": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A044": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": false,
+  "note": ""
+ },
+ "A045": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A046": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": true,
+  "note": "passage sentence about what followed the sand; is that 'what the sand did'?",
+  "changed_by_decision": true
+ },
+ "A047": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A048": {
+  "label": "CORRECT",
+  "conf": "L",
+  "policy": true,
+  "note": "drainage is defensible from the passage (water entered instead of running off)",
+  "changed_by_decision": true
+ },
+ "A049": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": false,
+  "note": "says it worked, not why"
+ },
+ "A050": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": false,
+  "note": ""
+ },
+ "A051": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A052": {
+  "label": "UNCLEAR",
+  "conf": "L",
+  "policy": false,
+  "note": ""
+ },
+ "A053": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A054": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A055": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A056": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A057": {
+  "label": "CORRECT",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A058": {
+  "label": "CORRECT",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A059": {
+  "label": "UNCLEAR",
+  "conf": "M",
+  "policy": false,
+  "note": "earn could mean revenue or profit"
+ },
+ "A060": {
+  "label": "MISS",
+  "conf": "L",
+  "policy": false,
+  "note": "",
+  "changed_by_decision": true
+ },
+ "A061": {
+  "label": "CORRECT",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A062": {
+  "label": "CORRECT",
+  "conf": "M",
+  "policy": false,
+  "note": "garbled but contains cost vs sale price"
+ },
+ "A063": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A064": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A065": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A066": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": false,
+  "note": ""
+ },
+ "A067": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": true,
+  "note": "two-question prompt (what + why): the 'what' alone",
+  "changed_by_decision": true
+ },
+ "A068": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": false,
+  "note": ""
+ },
+ "A069": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A070": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": true,
+  "note": "passage sentence states the 'what' with no 'why' (same two-question issue)",
+  "changed_by_decision": true
+ },
+ "A071": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A072": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A073": {
+  "label": "MISS",
+  "conf": "L",
+  "policy": true,
+  "note": "prompt is vague ('change in approach'); answer names steps but not the change",
+  "changed_by_decision": true
+ },
+ "A074": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": false,
+  "note": ""
+ },
+ "A075": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": false,
+  "note": ""
+ },
+ "A076": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": false,
+  "note": ""
+ },
+ "A077": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A078": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A079": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A080": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A081": {
+  "label": "CORRECT",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A082": {
+  "label": "CORRECT",
+  "conf": "M",
+  "policy": false,
+  "note": ""
+ },
+ "A083": {
+  "label": "CORRECT",
+  "conf": "L",
+  "policy": true,
+  "note": "half: the cause without the link to the ice lasting; the key lists it as accepted | one_idea_is_enough true and the key accepts it",
+  "changed_by_decision": true
+ },
+ "A084": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A085": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A086": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A087": {
+  "label": "CORRECT",
+  "conf": "L",
+  "policy": true,
+  "note": "defensible: 'cheaper at the plant and dearer at sea' says thick blocks save money at sea",
+  "changed_by_decision": true
+ },
+ "A088": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A089": {
+  "label": "CORRECT",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A090": {
+  "label": "CORRECT",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A091": {
+  "label": "UNCLEAR",
+  "conf": "M",
+  "policy": false,
+  "note": ""
+ },
+ "A092": {
+  "label": "MISS",
+  "conf": "M",
+  "policy": false,
+  "note": ""
+ },
+ "A093": {
+  "label": "MISS",
+  "conf": "L",
+  "policy": true,
+  "note": "passage fact without the link to the next crop",
+  "changed_by_decision": true
+ },
+ "A094": {
+  "label": "CORRECT",
+  "conf": "M",
+  "policy": false,
+  "note": "passage sentence; the soil link is implied by 'store it in their roots'"
+ },
+ "A095": {
+  "label": "MISS",
+  "conf": "H",
+  "policy": false,
+  "note": ""
+ },
+ "A096": {
+  "label": "CORRECT",
+  "conf": "L",
+  "policy": true,
+  "note": "'The cover crop shades out weeds' may refer to clover; the key's branch treats this as a miss",
+  "changed_by_decision": true
+ }
+}

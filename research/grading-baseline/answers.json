@@ -1,0 +1,578 @@
+[
+ {
+  "sid": "S01",
+  "type": "likely_right",
+  "answer": "No, only bus riders were asked.",
+  "aid": "A001"
+ },
+ {
+  "sid": "S01",
+  "type": "short_right",
+  "answer": "No, not everyone was asked.",
+  "aid": "A002"
+ },
+ {
+  "sid": "S01",
+  "type": "half",
+  "answer": "Only bus passengers got cards.",
+  "aid": "A003"
+ },
+ {
+  "sid": "S01",
+  "type": "vague",
+  "answer": "It doesn't really include everyone.",
+  "aid": "A004"
+ },
+ {
+  "sid": "S01",
+  "type": "echo",
+  "answer": "The notice counts those three hundred answers.",
+  "aid": "A005"
+ },
+ {
+  "sid": "S01",
+  "type": "literal",
+  "answer": "Only people who were already riding the bus received a card.",
+  "aid": "A006"
+ },
+ {
+  "sid": "S01",
+  "type": "plausible_wrong",
+  "answer": "Yes, everyone in town got a card.",
+  "aid": "A007"
+ },
+ {
+  "sid": "S01",
+  "type": "alternative",
+  "answer": "The notice suggests only some opinions matter.",
+  "aid": "A008"
+ },
+ {
+  "sid": "S02",
+  "type": "likely_right",
+  "answer": "Corn stalks show one kind and bean stalks show another.",
+  "aid": "A009"
+ },
+ {
+  "sid": "S02",
+  "type": "short_right",
+  "answer": "Different types of wood.",
+  "aid": "A010"
+ },
+ {
+  "sid": "S02",
+  "type": "half",
+  "answer": "Corn stalks are one type.",
+  "aid": "A011"
+ },
+ {
+  "sid": "S02",
+  "type": "vague",
+  "answer": "They show a type of growth.",
+  "aid": "A012"
+ },
+ {
+  "sid": "S02",
+  "type": "echo",
+  "answer": "Corn stalks and bean stalks show the two kinds of wood.",
+  "aid": "A013"
+ },
+ {
+  "sid": "S02",
+  "type": "literal",
+  "answer": "Corn stalks and bean stalks show different arrangements.",
+  "aid": "A014"
+ },
+ {
+  "sid": "S02",
+  "type": "plausible_wrong",
+  "answer": "Corn and beans are the same type.",
+  "aid": "A015"
+ },
+ {
+  "sid": "S02",
+  "type": "alternative",
+  "answer": "Both types can grow in different climates.",
+  "aid": "A016"
+ },
+ {
+  "sid": "S03",
+  "type": "likely_right",
+  "answer": "cuz it makes the metal rust and swell.",
+  "aid": "A017"
+ },
+ {
+  "sid": "S03",
+  "type": "short_right",
+  "answer": "rust makes it grip tighter.",
+  "aid": "A018"
+ },
+ {
+  "sid": "S03",
+  "type": "half",
+  "answer": "it causes the metal to swell.",
+  "aid": "A019"
+ },
+ {
+  "sid": "S03",
+  "type": "vague",
+  "answer": "it affects the loop somehow.",
+  "aid": "A020"
+ },
+ {
+  "sid": "S03",
+  "type": "echo",
+  "answer": "the paint wore off the loop.",
+  "aid": "A021"
+ },
+ {
+  "sid": "S03",
+  "type": "literal",
+  "answer": "the paint has worn off in two places.",
+  "aid": "A022"
+ },
+ {
+  "sid": "S03",
+  "type": "plausible_wrong",
+  "answer": "the loop is newer than the lock.",
+  "aid": "A023"
+ },
+ {
+  "sid": "S03",
+  "type": "alternative",
+  "answer": "maybe it shows how old the shop is.",
+  "aid": "A024"
+ },
+ {
+  "sid": "S04",
+  "type": "likely_right",
+  "answer": "the gap comes from the branding iron.",
+  "aid": "A025"
+ },
+ {
+  "sid": "S04",
+  "type": "short_right",
+  "answer": "from the branding iron.",
+  "aid": "A026"
+ },
+ {
+  "sid": "S04",
+  "type": "half",
+  "answer": "the branding iron made it.",
+  "aid": "A027"
+ },
+ {
+  "sid": "S04",
+  "type": "vague",
+  "answer": "it comes from something.",
+  "aid": "A028"
+ },
+ {
+  "sid": "S04",
+  "type": "echo",
+  "answer": "a calf that carries the mark shows the same small gap.",
+  "aid": "A029"
+ },
+ {
+  "sid": "S04",
+  "type": "literal",
+  "answer": "Every calf that carried the mark carried the same small gap in it.",
+  "aid": "A030"
+ },
+ {
+  "sid": "S04",
+  "type": "plausible_wrong",
+  "answer": "the gap is from the fire.",
+  "aid": "A031"
+ },
+ {
+  "sid": "S04",
+  "type": "alternative",
+  "answer": "the daughter painted it that way.",
+  "aid": "A032"
+ },
+ {
+  "sid": "S05",
+  "type": "likely_right",
+  "answer": "Cuz people shaped the land on purpose for drivers.",
+  "aid": "A033"
+ },
+ {
+  "sid": "S05",
+  "type": "short_right",
+  "answer": "The land was changed by people.",
+  "aid": "A034"
+ },
+ {
+  "sid": "S05",
+  "type": "half",
+  "answer": "It's not fully natural.",
+  "aid": "A035"
+ },
+ {
+  "sid": "S05",
+  "type": "vague",
+  "answer": "It\u2019s because of how it looks.",
+  "aid": "A036"
+ },
+ {
+  "sid": "S05",
+  "type": "echo",
+  "answer": "No area in view of the Skyline Drive is fully natural.",
+  "aid": "A037"
+ },
+ {
+  "sid": "S05",
+  "type": "literal",
+  "answer": "They shaped the land for the eye of a driver.",
+  "aid": "A038"
+ },
+ {
+  "sid": "S05",
+  "type": "plausible_wrong",
+  "answer": "The trees were all cut down.",
+  "aid": "A039"
+ },
+ {
+  "sid": "S05",
+  "type": "alternative",
+  "answer": "They wanted it to look wild for visitors.",
+  "aid": "A040"
+ },
+ {
+  "sid": "S06",
+  "type": "likely_right",
+  "answer": "The sand helped the roots grow deeper.",
+  "aid": "A041"
+ },
+ {
+  "sid": "S06",
+  "type": "short_right",
+  "answer": "It let water in.",
+  "aid": "A042"
+ },
+ {
+  "sid": "S06",
+  "type": "half",
+  "answer": "The sand was put in the holes.",
+  "aid": "A043"
+ },
+ {
+  "sid": "S06",
+  "type": "vague",
+  "answer": "It helped with the grass.",
+  "aid": "A044"
+ },
+ {
+  "sid": "S06",
+  "type": "echo",
+  "answer": "Sand was swept into the open holes.",
+  "aid": "A045"
+ },
+ {
+  "sid": "S06",
+  "type": "literal",
+  "answer": "Water entered the holes, and the roots followed it down.",
+  "aid": "A046"
+ },
+ {
+  "sid": "S06",
+  "type": "plausible_wrong",
+  "answer": "The sand made the grass die.",
+  "aid": "A047"
+ },
+ {
+  "sid": "S06",
+  "type": "alternative",
+  "answer": "The sand might have helped with drainage.",
+  "aid": "A048"
+ },
+ {
+  "sid": "S07",
+  "type": "likely_right",
+  "answer": "It worked better because it made the process faster without needing another person.",
+  "aid": "A049"
+ },
+ {
+  "sid": "S07",
+  "type": "short_right",
+  "answer": "Two steps sped things up.",
+  "aid": "A050"
+ },
+ {
+  "sid": "S07",
+  "type": "half",
+  "answer": "It made the process faster.",
+  "aid": "A051"
+ },
+ {
+  "sid": "S07",
+  "type": "vague",
+  "answer": "It helped with the waiting.",
+  "aid": "A052"
+ },
+ {
+  "sid": "S07",
+  "type": "echo",
+  "answer": "Splitting the check into two steps cleared the line.",
+  "aid": "A053"
+ },
+ {
+  "sid": "S07",
+  "type": "literal",
+  "answer": "The line cleared within nine days.",
+  "aid": "A054"
+ },
+ {
+  "sid": "S07",
+  "type": "plausible_wrong",
+  "answer": "A second packer would slow things down.",
+  "aid": "A055"
+ },
+ {
+  "sid": "S07",
+  "type": "alternative",
+  "answer": "Maybe the owner wanted to save money.",
+  "aid": "A056"
+ },
+ {
+  "sid": "S08",
+  "type": "likely_right",
+  "answer": "Margin is the profit made from selling stuff.",
+  "aid": "A057"
+ },
+ {
+  "sid": "S08",
+  "type": "short_right",
+  "answer": "The profit difference.",
+  "aid": "A058"
+ },
+ {
+  "sid": "S08",
+  "type": "half",
+  "answer": "It's how much they earn.",
+  "aid": "A059"
+ },
+ {
+  "sid": "S08",
+  "type": "vague",
+  "answer": "It's something about profits.",
+  "aid": "A060"
+ },
+ {
+  "sid": "S08",
+  "type": "echo",
+  "answer": "A margin is the difference between cost and selling price.",
+  "aid": "A061"
+ },
+ {
+  "sid": "S08",
+  "type": "literal",
+  "answer": "The grocer earns a margin from what a case costs and what it sells for.",
+  "aid": "A062"
+ },
+ {
+  "sid": "S08",
+  "type": "plausible_wrong",
+  "answer": "Margin is the total amount of stock.",
+  "aid": "A063"
+ },
+ {
+  "sid": "S08",
+  "type": "alternative",
+  "answer": "Margin could also mean the space on the shelf.",
+  "aid": "A064"
+ },
+ {
+  "sid": "S09",
+  "type": "likely_right",
+  "answer": "They should expect less waiting time for the boxes.",
+  "aid": "A065"
+ },
+ {
+  "sid": "S09",
+  "type": "short_right",
+  "answer": "Less pile of apples.",
+  "aid": "A066"
+ },
+ {
+  "sid": "S09",
+  "type": "half",
+  "answer": "The pile will move.",
+  "aid": "A067"
+ },
+ {
+  "sid": "S09",
+  "type": "vague",
+  "answer": "It should get better.",
+  "aid": "A068"
+ },
+ {
+  "sid": "S09",
+  "type": "echo",
+  "answer": "The crew adds a boxer to the lane that fills fastest.",
+  "aid": "A069"
+ },
+ {
+  "sid": "S09",
+  "type": "literal",
+  "answer": "The pile shifted again, this time to the boxers.",
+  "aid": "A070"
+ },
+ {
+  "sid": "S09",
+  "type": "plausible_wrong",
+  "answer": "They will have more apples to wash.",
+  "aid": "A071"
+ },
+ {
+  "sid": "S09",
+  "type": "alternative",
+  "answer": "The crew might have to add another wash step.",
+  "aid": "A072"
+ },
+ {
+  "sid": "S10",
+  "type": "likely_right",
+  "answer": "It shows the next step in making bread.",
+  "aid": "A073"
+ },
+ {
+  "sid": "S10",
+  "type": "short_right",
+  "answer": "Starts shaping the dough.",
+  "aid": "A074"
+ },
+ {
+  "sid": "S10",
+  "type": "half",
+  "answer": "It shows shaping loaves.",
+  "aid": "A075"
+ },
+ {
+  "sid": "S10",
+  "type": "vague",
+  "answer": "It changes how the dough is treated.",
+  "aid": "A076"
+ },
+ {
+  "sid": "S10",
+  "type": "echo",
+  "answer": "The sentence is about shaping loaves and filling pans.",
+  "aid": "A077"
+ },
+ {
+  "sid": "S10",
+  "type": "literal",
+  "answer": "The dough is shaped into loaves and put in pans half filled.",
+  "aid": "A078"
+ },
+ {
+  "sid": "S10",
+  "type": "plausible_wrong",
+  "answer": "It says to put the dough in the fridge.",
+  "aid": "A079"
+ },
+ {
+  "sid": "S10",
+  "type": "alternative",
+  "answer": "It emphasizes the importance of letting the dough rise.",
+  "aid": "A080"
+ },
+ {
+  "sid": "S11",
+  "type": "likely_right",
+  "answer": "he needed the blocks to last longer on the trips.",
+  "aid": "A081"
+ },
+ {
+  "sid": "S11",
+  "type": "short_right",
+  "answer": "to keep the fish longer.",
+  "aid": "A082"
+ },
+ {
+  "sid": "S11",
+  "type": "half",
+  "answer": "the trips were longer now.",
+  "aid": "A083"
+ },
+ {
+  "sid": "S11",
+  "type": "vague",
+  "answer": "it was important for something.",
+  "aid": "A084"
+ },
+ {
+  "sid": "S11",
+  "type": "echo",
+  "answer": "the blocks went down at twenty-five pounds.",
+  "aid": "A085"
+ },
+ {
+  "sid": "S11",
+  "type": "literal",
+  "answer": "the man kept cutting twenty-five pounds.",
+  "aid": "A086"
+ },
+ {
+  "sid": "S11",
+  "type": "plausible_wrong",
+  "answer": "he wanted to save money at sea.",
+  "aid": "A087"
+ },
+ {
+  "sid": "S11",
+  "type": "alternative",
+  "answer": "the foreman thought thinner blocks would be better.",
+  "aid": "A088"
+ },
+ {
+  "sid": "S12",
+  "type": "likely_right",
+  "answer": "Clover helps by adding nitrogen to the soil.",
+  "aid": "A089"
+ },
+ {
+  "sid": "S12",
+  "type": "short_right",
+  "answer": "It adds nitrogen to soil.",
+  "aid": "A090"
+ },
+ {
+  "sid": "S12",
+  "type": "half",
+  "answer": "It helps the soil.",
+  "aid": "A091"
+ },
+ {
+  "sid": "S12",
+  "type": "vague",
+  "answer": "It makes things better.",
+  "aid": "A092"
+ },
+ {
+  "sid": "S12",
+  "type": "echo",
+  "answer": "Clover pulls nitrogen from the air.",
+  "aid": "A093"
+ },
+ {
+  "sid": "S12",
+  "type": "literal",
+  "answer": "Clover and other legumes pull nitrogen from the air and store it in their roots.",
+  "aid": "A094"
+ },
+ {
+  "sid": "S12",
+  "type": "plausible_wrong",
+  "answer": "Clover makes the ground harder.",
+  "aid": "A095"
+ },
+ {
+  "sid": "S12",
+  "type": "alternative",
+  "answer": "Clover helps by stopping weeds.",
+  "aid": "A096"
+ }
+]

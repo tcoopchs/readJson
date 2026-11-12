@@ -150,7 +150,8 @@
           "it adds nitrogen to the soil",
           "it puts food back in the ground",
           "its roots hold nitrogen",
-          "it feeds the soil"
+          "it feeds the soil",
+          "it shades out weeds"
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -158,10 +159,6 @@
           "what other legumes do"
         ],
         "if_they_say": [
-          {
-            "when": "the student says clover covers the ground and blocks weeds",
-            "ask": "That is one thing it does. What does it put into the soil?"
-          },
           {
             "when": "the student says clover holds the soil in place",
             "ask": "Holding soil is the roots' job. What do the roots store?"

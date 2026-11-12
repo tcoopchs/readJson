@@ -91,15 +91,15 @@
       "show_part_again": true,
       "prompt": "What do a corn stalk and a bean stalk show about the two kinds of wood?",
       "tutor_only": {
-        "confirm": "The corn stalk shows the first kind, with scattered threads. The bean stalk shows the second kind, with a ring.",
+        "confirm": "Right. The corn stalk shows the first kind, and the bean stalk shows the second.",
         "correct_reason": "The passage names a corn stalk as an example of the first kind and a bean stalk as an example of the second kind.",
-        "tell": "A corn stalk shows the first kind, with threads. A bean stalk shows the second kind, with a ring.",
+        "tell": "A corn stalk is the passage's example of the first kind. A bean stalk is its example of the second.",
         "help": [
           "Find the corn stalk and the bean stalk in the middle of the passage.",
           "Notice which kind each one shows."
         ],
         "say_back": "own_words",
-        "core_idea": "The corn stalk shows scattered threads; the bean stalk shows a ring.",
+        "core_idea": "The corn stalk shows the first kind of wood and the bean stalk shows the second kind.",
         "accept_ideas": [
           "Corn shows the first kind and beans show the second.",
           "The corn stalk has scattered threads.",
@@ -115,7 +115,7 @@
         "if_they_say": [
           {
             "when": "They say both plants show the same kind.",
-            "ask": "Which plant shows scattered threads, and which shows a ring?"
+            "ask": "Which kind does the passage say each plant shows?"
           }
         ]
       }

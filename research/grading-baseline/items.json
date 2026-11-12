@@ -1,0 +1,383 @@
+[
+ {
+  "sid": "S01",
+  "lesson": "argument_evidence_band_4_2_0001",
+  "item": "4",
+  "difficulty": 3,
+  "show_part": "part_2",
+  "passage": "All three hundred answers came from cards the office handed to passengers as they got on the bus. Only people who were already riding the bus received a card. People who drive, walk, or stay home in the evening never saw the question. The notice counts those three hundred answers as the view of the whole town, though the cards reached one group and one group only. A rider who already depends on the bus has a reason to want a later trip. A person who never rides has no reason to answer, and no card in hand. The office never says how many people ride the bus in a week.",
+  "prompt": "A reader says every person in town was asked. Does the notice support that?",
+  "key": {
+   "core_idea": "No, because only people boarding the bus received a card.",
+   "accept_ideas": [
+    "no, only bus riders were asked",
+    "no, the cards went to passengers only",
+    "no, people not on the bus were not asked",
+    "no, it says nothing about everyone in town"
+   ],
+   "not_required": [
+    "how the office counted the answers"
+   ],
+   "confirm": "No. The cards went only to passengers boarding the bus.",
+   "tell": "No. The notice shows the cards reached passengers, not the whole town.",
+   "partial": null,
+   "if_they_say": [
+    {
+     "when": "the student says yes because three hundred is a large number",
+     "ask": "A large number from one group is still one group. Who received the cards?"
+    }
+   ],
+   "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase."
+  }
+ },
+ {
+  "sid": "S02",
+  "lesson": "authors_craft_band_4_2_0003",
+  "item": "2",
+  "difficulty": 2,
+  "show_part": "part_2",
+  "passage": "Corn stalks and asparagus shoots show the first arrangement. A rattan shows it too. Plants with one seed leaf have this kind of stem. A bean stalk and the stem of a common tree show the second arrangement. Plants with more than one seed leaf have that kind. This kind has been called \"inside-growing,\" though not very accurately. The second kind has been called \"outside-growing,\" and that name is accurate enough. Palms and dragon trees show the first kind at their largest. Some yuccas grow as trees along the warm southern edge of the United States. The first kind reaches its greatest size in warm climates.",
+  "prompt": "What do a corn stalk and a bean stalk show about the two kinds of wood?",
+  "key": {
+   "core_idea": "The corn stalk shows scattered threads; the bean stalk shows a ring.",
+   "accept_ideas": [
+    "Corn shows the first kind and beans show the second.",
+    "The corn stalk has scattered threads.",
+    "The bean stalk has a ring.",
+    "They are examples of the two different kinds."
+   ],
+   "not_required": [
+    "Naming asparagus or rattan",
+    "Explaining seed leaves"
+   ],
+   "confirm": "The corn stalk shows the first kind, with scattered threads. The bean stalk shows the second kind, with a ring.",
+   "tell": "A corn stalk shows the first kind, with threads. A bean stalk shows the second kind, with a ring.",
+   "partial": null,
+   "if_they_say": [
+    {
+     "when": "They say both plants show the same kind.",
+     "ask": "Which plant shows scattered threads, and which shows a ring?"
+    }
+   ],
+   "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase."
+  }
+ },
+ {
+  "sid": "S03",
+  "lesson": "inference_band_4_2_0001",
+  "item": "q4",
+  "difficulty": 3,
+  "show_part": "part_2",
+  "passage": "The loop is much older than the lock. It was set into the concrete when the shop was built, and the paint has worn off in two places. Bare steel rusts wherever water sits on it, and rust takes up more space than the steel it replaces, so the metal swells as it rusts. Wet air makes that swelling worse, and the swollen metal grips the shackle of the lock. The owner replaced the loop, and the key has turned every morning since.",
+  "prompt": "The paint wore off the loop. Why does that matter?",
+  "key": {
+   "core_idea": "Without paint the steel rusted, and rust made the loop swell.",
+   "accept_ideas": [
+    "bare steel rusts",
+    "the steel rusted and swelled",
+    "no paint means rust",
+    "it let the loop rust"
+   ],
+   "not_required": [
+    "who painted the shop"
+   ],
+   "confirm": "Yes. Bare steel rusts, and rust swells.",
+   "tell": "Paint protects steel. Where the paint wore off, the steel rusted and swelled.",
+   "partial": null,
+   "if_they_say": [
+    {
+     "when": "the student says the paint made the loop slippery",
+     "ask": "Paint is there to keep water off. What happened to the steel where it was gone?"
+    }
+   ],
+   "normalize": null
+  }
+ },
+ {
+  "sid": "S04",
+  "lesson": "literary_text_band_4_2_0001",
+  "item": "2",
+  "difficulty": 2,
+  "show_part": "part_1",
+  "passage": "The branding iron hung by the barn door for thirty years, and the daughter had painted the handle twice. Her father cut the sign from a length of rod, and he left one corner of the letter open. Every calf that carried the mark carried the same small gap in it. In the spring works the iron went into the fire until it turned grey. The daughter now uses a tool that heats by current, which costs less in time than the fire does. It makes the same shape, sharper at the edges, and it never goes into the fire at all. The old iron stays on its nail by the door, and the handle is smooth where three hands have held it.",
+  "prompt": "A calf that carries the mark shows the same small gap. Where does the gap come from?",
+  "key": {
+   "core_idea": "The father left one corner of the letter open, so every calf shows the same gap.",
+   "accept_ideas": [
+    "the father left a corner of the letter open",
+    "the sign has an open corner in it",
+    "it is how the sign was cut"
+   ],
+   "not_required": [
+    "what the new tool is made of"
+   ],
+   "confirm": "Yes. The father left one corner of the letter open when he cut the sign.",
+   "tell": "The gap is the open corner the father cut into the sign. Every calf shows it.",
+   "partial": null,
+   "if_they_say": [
+    {
+     "when": "the student says the gap is a mistake in the paint",
+     "ask": "Nothing is painted here. The sentence about the sign says how it was cut."
+    }
+   ],
+   "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase."
+  }
+ },
+ {
+  "sid": "S05",
+  "lesson": "main_idea_band_4_2_0002",
+  "item": "5",
+  "difficulty": 4,
+  "show_part": "all",
+  "passage": "In 1933, the country was deep in the Great Depression. President Roosevelt started the Civilian Conservation Corps to give young men work outdoors. By May, two CCC camps stood in the Shenandoah Valley, at Skyland and at Big Meadows, and more than 1,000 young men lived in them. The Army ran the camps, and the National Park Service chose the work. The park itself did not exist yet, because it would not open until 1935. Roosevelt wanted the camps seen, so photographers followed his tour. Between 1933 and 1942, ten CCC camps were set up in or near the park. Most early work stayed along the narrow strip of land beside the road.\n\nThe men built the park from the ground up, and their projects fell into three groups: buildings, roads and trails, and landscaping. They cut trails and fire roads, put up log comfort stations, and cleared picnic grounds. They built a sawmill and cut lumber for park buildings, and some of the lumber came from chestnut trees that a blight had killed years earlier. A shingle mill made heavy tiles shaped like wood shingles. A blacksmith shop made hinges, latches, and tools. Workers raised plants in nurseries, so bare ground could be planted again. A sign shop made wooden signboards for the park.\n\nThe crews did more than build. They also changed how the land looked. They removed dead chestnut trees, thinned the undergrowth, and cut deadwood to lower the risk of fire. They planted trees, shrubs, and small plants along the road, and they spent eight years trying to remove an invasive tree called Ailanthus. A landscape architect named Benson planned the views. Researchers now say that no area in view of the Skyline Drive is fully natural. The land was shaped on purpose, for the eye of a driver. Visitors see a park that looks wild, but people made it that way.",
+  "prompt": "The passage says no area in view of the Skyline Drive is fully natural. Why does it say that?",
+  "key": {
+   "core_idea": "People cleared, planted, and shaped the land to make the views.",
+   "accept_ideas": [
+    "people shaped the land to make the views",
+    "crews cleared and planted the whole area",
+    "the view was made on purpose"
+   ],
+   "not_required": [
+    "how the road was paved"
+   ],
+   "confirm": "Right. Crews cleared, planted, and shaped the land to create those views.",
+   "tell": "Because people cleared, planted, and shaped the land to make the views along the road.",
+   "partial": null,
+   "if_they_say": [
+    {
+     "when": "the student says the road was built through wild land",
+     "ask": "Read the sentences just before that claim. What had the crews done to the land?"
+    },
+    {
+     "when": "the student says the park is too small to be natural",
+     "ask": "Size is not the reason given. What did the landscape architect do?"
+    }
+   ],
+   "normalize": null
+  }
+ },
+ {
+  "sid": "S06",
+  "lesson": "process_band_4_1_0004",
+  "item": "4",
+  "difficulty": 3,
+  "show_part": "part_2",
+  "passage": "Water now sits on the surface and runs toward the edge instead of sinking in. The crew tried watering longer, but the extra water ran off the same way, and the grass stayed shallow-rooted. Then they changed the work. A machine pushed hollow tines into the green and pulled out thin plugs of soil. Sand was swept into the open holes. Water entered the holes, and the roots followed it down. Within a week the surface felt softer underfoot and the ball stopped running so far. The plugs were carried off in a barrow and spread on the rough ground behind the shed.",
+  "prompt": "What did the sand in the holes do?",
+  "key": {
+   "core_idea": "It held the holes open so water could enter and roots could follow it down.",
+   "accept_ideas": [
+    "it kept the holes open",
+    "it let water into the soil",
+    "it gave water and roots a way down"
+   ],
+   "not_required": [
+    "what kind of sand was used"
+   ],
+   "confirm": "Right. It kept the holes open for water and roots.",
+   "tell": "Sand filled the holes and kept them open. Water entered, and the roots followed it down.",
+   "partial": null,
+   "if_they_say": [
+    {
+     "when": "the student says it fed the grass",
+     "ask": "The passage says the sand kept the holes open. What went into them?"
+    }
+   ],
+   "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase."
+  }
+ },
+ {
+  "sid": "S07",
+  "lesson": "text_structure_band_4_2_0003",
+  "item": "4",
+  "difficulty": 3,
+  "show_part": "part_2",
+  "passage": "The stopwatch showed where the work stopped, and it was not the packing. It was the check station, where one person read each order against each box and taped on the label. Every box waited there, and the wait grew longer as the day went on. A second packer moved to that station would have cost a wage and changed nothing else. The owner split the check into two short steps, one before packing and one after, so no box waited for both at once. Each step took a different person less than half a minute. The line cleared within nine days.",
+  "prompt": "Splitting the check into two steps cleared the line. Why did that work when a second packer would not?",
+  "key": {
+   "core_idea": "No box waited for both steps at the same station.",
+   "accept_ideas": [
+    "the wait was split across two steps",
+    "each box stopped twice for less time",
+    "the two jobs no longer queued at one person"
+   ],
+   "not_required": [
+    "how many seconds each step took"
+   ],
+   "confirm": "Yes. No box then waited for both steps at the same station.",
+   "tell": "One station was doing two jobs, and every box queued for both of them. Split the jobs and the queue divides, so no box carries the whole wait.",
+   "partial": null,
+   "if_they_say": [
+    {
+     "when": "the student says the second packer was faster at checking",
+     "ask": "Speed was not the problem at the station. What did splitting the check stop a box from doing at once?"
+    }
+   ],
+   "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase."
+  }
+ },
+ {
+  "sid": "S08",
+  "lesson": "vocab_band_4_2_0004",
+  "item": "2",
+  "difficulty": 2,
+  "show_part": "part_1",
+  "passage": "A grocer buys stock before customers ask for it. Stock is the goods on the shelf, and every item on it is money already spent. The grocer earns a margin: the difference between what a case cost and what it sells for. A small margin on a fast item can be better than a large margin on a slow one, because the slow item ties up cash and space. The shelf is a bet about what people will want this week. A grocer who guesses well sells the shelf twice over; one who guesses badly lives with the guess. The bet is small and repeated, which is why the trade survives its mistakes.",
+  "prompt": "What is a margin?",
+  "key": {
+   "core_idea": "The difference between what an item cost the grocer and what it sells for.",
+   "accept_ideas": [
+    "the profit on an item",
+    "the gap between cost and selling price",
+    "what is left after the cost is paid"
+   ],
+   "not_required": [
+    "how much the item weighs",
+    "where it sits on the shelf"
+   ],
+   "confirm": "Yes. Margin is the gap between cost and selling price.",
+   "tell": "A margin is the space between the cost of an item and its price.",
+   "partial": null,
+   "if_they_say": [
+    {
+     "when": "the student says it is the price of the item",
+     "ask": "Price is one side of the gap. What is the other side?"
+    },
+    {
+     "when": "the student says it is the amount sold",
+     "ask": "Amount sold is volume. What is the money difference called?"
+    }
+   ],
+   "normalize": null
+  }
+ },
+ {
+  "sid": "S09",
+  "lesson": "process_band_4_2_0002",
+  "item": "5",
+  "difficulty": 3,
+  "show_part": "all",
+  "passage": "Crates of apples arrive at the packing shed and are tipped into a tank of water. The water floats the fruit onto a belt and carries it under a first spray. From there the apples climb a ramp to the sizer, which drops each one into a lane by size. The smallest apples fall first, and the largest ride to the far end of the sizer. A boxer at each lane packs the fruit and stacks the box on a pallet. The line runs from the dump tank to the pallet without stopping, and every step waits for the step before it.\n\nThe wash belt was the slow step, so the crew added a second belt and doubled the spray. The wash now moves fruit faster than the sizer can grade it. The pile did not go away. It moved down the line and collected in front of the sizer, where the apples roll against each other and bruise. The crew had spent a week and a good deal of money on a step that was not holding the line back. Output stayed the same, and the fruit that waited at the sizer sat longer in the water. The shed manager walked the line at noon and found the pile in the same place it had always been.\n\nThe line moves at the speed of its slowest step, so speeding up another step adds waiting room, not boxes. The sizer cannot be widened, because each size needs its own lane and each lane needs its own boxer. So the crew added a second boxer to the lane that filled fastest and moved the staff from the wash. The pile shifted again, this time to the boxers. The wash had been fine all along. A crew that fixes the wrong station pays twice, once for the change and once for the fruit that waits. The only way to find the slow step is to watch where the fruit collects.",
+  "prompt": "The crew adds a boxer to the lane that fills fastest. What should they expect next, and why?",
+  "key": {
+   "core_idea": "The pile moves again, to whatever station is now slowest, because the line runs at the speed of its slowest step.",
+   "accept_ideas": [
+    "the waiting moves to the next slow station",
+    "the pile shifts again to another lane",
+    "output stays the same until the new slow step is fixed"
+   ],
+   "not_required": [
+    "how many boxers the shed employs"
+   ],
+   "confirm": "Right. The pile moves again, to whatever is now slowest.",
+   "tell": "The pile will move again, to the next slow step. A line runs at the speed of its slowest station.",
+   "partial": null,
+   "if_they_say": [
+    {
+     "when": "the student says output rises for good",
+     "ask": "One station got faster. The passage says the line still has one slow step."
+    }
+   ],
+   "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase."
+  }
+ },
+ {
+  "sid": "S10",
+  "lesson": "authors_craft_band_4_1_0004",
+  "item": "5",
+  "difficulty": 3,
+  "show_part": "all",
+  "passage": "In buying flour, whether bread or pastry, select the best kept by your grocer. Bread flour should be used in all cases where yeast is called for, with few exceptions; in other cases, pastry flour. The difference between bread and pastry flour may be readily determined. Take bread flour in the hand, close hand tightly, then open. Flour will not keep in shape; if allowed to pass through fingers it will feel slightly granular. Take pastry flour in the hand, close hand tightly, open, and flour will be in shape, having impression of the lines of the hand, and feeling soft and velvety to touch. Flour should always be sifted before measuring.\n\nYeast is a tiny plant. It is a fungus. It is the lowest form of plant life; these spores grow by budding and division; they multiply fast in good conditions. They make fermentation. Fermentation is how sugar turns into alcohol and carbon dioxide. Air, warmth, moisture, and a ferment cause this; when bread dough ferments with yeast, the fermentation is alcoholic; if alcoholic fermentation goes on too long, acetic fermentation starts; acetic fermentation follows alcoholic. Lactic fermentation happens when milk sours. Compressed yeast cakes in tinfoil have long worked well. They are now almost always used. They have replaced home-made liquid yeast; never use a yeast cake unless it is perfectly fresh; you can tell by its light color and lack of dark streaks. The yeast plant is killed at 212\u00b0 F; at 32\u00b0 F, life is paused but not fully destroyed.\n\nThe best temperature for its growth is 65\u00b0 to 68\u00b0 F. Fermented bread is made by mixing flour into a dough with a definite quantity of water, milk, or water and milk, salt, and a ferment. Sugar is usually added to hasten fermentation. Knead the dough so the ingredients are thoroughly incorporated. Cover it and let it rise at 68\u00b0 F. until it has doubled its bulk. Knead the dough a second time to break bubbles and distribute the carbon dioxide evenly. Shape it into loaves and put them in greased bread pans, half filled. Cover them and let them rise at the same temperature as the first rising, until they double their bulk. If risen too long, it will be full of large holes; if not risen long enough, it will be heavy and soggy.",
+  "prompt": "What change in approach does the sentence about shaping loaves and filling pans show?",
+  "key": {
+   "core_idea": "Part_1 helps readers judge flour; part_3 gives ordered steps for making bread.",
+   "accept_ideas": [
+    "The author moves from judging flour to giving ordered bread-making steps.",
+    "Part_3 gives a sequence of actions for making bread.",
+    "Part_1 tests flour; part_3 tells how to make dough rise."
+   ],
+   "not_required": [
+    "Naming every ingredient",
+    "Mentioning yeast types",
+    "Using the term imperative mood"
+   ],
+   "confirm": "The author shifts from judging flour to giving ordered bread-making steps.",
+   "tell": "The opening tells how to judge flour. The last part gives ordered steps for making bread.",
+   "partial": null,
+   "if_they_say": [
+    {
+     "when": "They say part_1 already gives the steps for shaping loaves.",
+     "ask": "The opening tells you how to judge flour. Which sentences give the steps for shaping loaves?"
+    }
+   ],
+   "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase."
+  }
+ },
+ {
+  "sid": "S11",
+  "lesson": "literary_text_band_4_2_0003",
+  "item": "4",
+  "difficulty": 3,
+  "show_part": "part_3",
+  "passage": "At the end of the season the skipper of the last boat stood by the conveyor and told the foreman what the man on the conveyor had never put into words. The trips were longer now, he said, because the fish had moved south. A long trip needed a block that would still be there on the fourth day. A thin block was cheaper at the plant and dearer at sea. The foreman looked at the row of twenty-five pound blocks going down the conveyor. Then he left the cutting frame where it was, and the blocks went down at twenty-five pounds all season.",
+  "prompt": "Why did the man keep cutting twenty-five pounds when the foreman wanted thinner blocks?",
+  "key": {
+   "core_idea": "He kept the thick block because the trips were longer and the ice had to last four days.",
+   "accept_ideas": [
+    "a thin block melts before the boat gets home",
+    "the trips are longer now",
+    "the catch needs ice on the fourth day"
+   ],
+   "not_required": [
+    "what the foreman was paid"
+   ],
+   "confirm": "Yes. A longer trip needs ice that is still there on the fourth day.",
+   "tell": "The trips were longer, because the fish had moved. A thin block would be gone before the boat came home.",
+   "partial": null,
+   "if_they_say": [
+    {
+     "when": "the student says he was stubborn about the old way",
+     "ask": "Stubbornness is not a reason a skipper would give. What does a long trip need?"
+    }
+   ],
+   "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase."
+  }
+ },
+ {
+  "sid": "S12",
+  "lesson": "main_idea_band_4_3_0001",
+  "item": "3",
+  "difficulty": 3,
+  "show_part": "part_2",
+  "passage": "A field that grows the same crop for years wears down in three ways at once. Each harvest takes nitrogen and other food out of the soil, so the next crop starts poorer. Insects and weeds that like that crop build up in the field, season after season. Plowing breaks the soil into smaller pieces, and rain carries some of those pieces away. A fallow year interrupts all three problems, though it does not fix them by itself. Clover and other legumes pull nitrogen from the air and store it in their roots. The cover crop shades out weeds before they can seed. Roots and dead plants feed the worms and the small life that keep soil loose.",
+  "prompt": "Why does clover help the next crop?",
+  "key": {
+   "core_idea": "Clover stores nitrogen from the air in its roots, which feeds the next crop.",
+   "accept_ideas": [
+    "it adds nitrogen to the soil",
+    "it puts food back in the ground",
+    "its roots hold nitrogen",
+    "it feeds the soil"
+   ],
+   "not_required": [
+    "how much nitrogen a field needs",
+    "what other legumes do"
+   ],
+   "confirm": "Right. Clover is a legume, so it pulls nitrogen from the air and stores it in its roots.",
+   "tell": "Clover stores nitrogen from the air in its roots, so the next crop starts with more food in the soil.",
+   "partial": null,
+   "if_they_say": [
+    {
+     "when": "the student says clover covers the ground and blocks weeds",
+     "ask": "That is one thing it does. What does it put into the soil?"
+    },
+    {
+     "when": "the student says clover holds the soil in place",
+     "ask": "Holding soil is the roots' job. What do the roots store?"
+    }
+   ],
+   "normalize": null
+  }
+ }
+]

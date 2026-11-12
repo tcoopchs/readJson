@@ -160,19 +160,21 @@
       "show_part_again": false,
       "prompt": "What did the sand in the holes do?",
       "tutor_only": {
-        "confirm": "Right. It kept the holes open for water and roots.",
+        "confirm": "Right. It let the water go down into the soil, and the roots followed it.",
         "correct_reason": "The second part says sand was swept into the holes, water entered them, and the roots followed it down.",
-        "tell": "Sand filled the holes and kept them open. Water entered, and the roots followed it down.",
+        "tell": "The sand went into the open holes. Water then went down through them instead of running off, and the roots followed it down.",
         "help": [
           "Find the sentences after the plugs are pulled.",
           "One is about water, and one is about roots."
         ],
         "say_back": "own_words",
-        "core_idea": "It held the holes open so water could enter and roots could follow it down.",
+        "core_idea": "With the sand in the holes, water went down into the soil instead of running off, and the roots followed it.",
         "accept_ideas": [
-          "it kept the holes open",
           "it let water into the soil",
-          "it gave water and roots a way down"
+          "it gave water and roots a way down",
+          "it helped the water drain down",
+          "it helped the roots grow deeper",
+          "it kept the holes open"
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -182,7 +184,7 @@
         "if_they_say": [
           {
             "when": "the student says it fed the grass",
-            "ask": "The passage says the sand kept the holes open. What went into them?"
+            "ask": "Look at what went into the holes after the sand. Where did the water go?"
           }
         ]
       }

@@ -1,0 +1,2018 @@
+[
+ {
+  "aid": "A001",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Matches core idea: only bus riders received cards and were asked.\"}",
+  "cost": 0.000139265
+ },
+ {
+  "aid": "A001",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"States only bus riders were asked, matching core idea.\"}",
+  "cost": 0.0001225
+ },
+ {
+  "aid": "A001",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"The notice states only bus riders received cards.\"}",
+  "cost": 0.0001086
+ },
+ {
+  "aid": "A002",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"The answer correctly states that not everyone was asked.\"}",
+  "cost": 0.00019545
+ },
+ {
+  "aid": "A003",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"States cards went only to bus passengers, matching core idea.\"}",
+  "cost": 0.00021651
+ },
+ {
+  "aid": "A003",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\":\"CORRECT\",\"why\":\"Paraphrase states core idea: only bus passengers got cards.\"}",
+  "cost": 0.00029889
+ },
+ {
+  "aid": "A003",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"The notice states only bus passengers received cards.\"}",
+  "cost": 0.0001083
+ },
+ {
+  "aid": "A004",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"It states not everyone was included, matching that only bus riders got cards.\"}",
+  "cost": 0.00020116
+ },
+ {
+  "aid": "A004",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"The answer is vague; clarify what you mean by 'everyone'.\"}",
+  "cost": 0.0001113
+ },
+ {
+  "aid": "A005",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Describes counting answers, not whether everyone was asked.\"}",
+  "cost": 0.00021278
+ },
+ {
+  "aid": "A005",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. The notice shows only bus riders received cards.\"}",
+  "cost": 0.0001098
+ },
+ {
+  "aid": "A006",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\":\"CORRECT\",\"why\":\"States only bus riders received cards, matching core idea.\"}",
+  "cost": 0.00014425
+ },
+ {
+  "aid": "A006",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"The answer correctly states that only bus riders received a card.\"}",
+  "cost": 0.000111
+ },
+ {
+  "aid": "A007",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Says yes; passage shows cards went only to bus passengers.\"}",
+  "cost": 9.87444e-05
+ },
+ {
+  "aid": "A007",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"No. The notice shows the cards reached passengers, not the whole town.\"}",
+  "cost": 0.00011175
+ },
+ {
+  "aid": "A008",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Does not answer whether everyone was asked; states a different idea.\"}",
+  "cost": 0.0001273104
+ },
+ {
+  "aid": "A008",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. The notice shows only bus riders were asked.\"}",
+  "cost": 0.0001098
+ },
+ {
+  "aid": "A009",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Corn shows one kind and bean shows another, matching the accepted idea.\"}",
+  "cost": 0.000127912
+ },
+ {
+  "aid": "A009",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Corn shows the first kind and beans show the second.\"}",
+  "cost": 0.000201
+ },
+ {
+  "aid": "A010",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Could mean two kinds,",
+  "cost": 0.000242256
+ },
+ {
+  "aid": "A010",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not specify the kinds shown by each plant.\"}",
+  "cost": 0.0001134
+ },
+ {
+  "aid": "A011",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. A corn stalk shows the first kind, not just a type.\"}",
+  "cost": 0.0001161
+ },
+ {
+  "aid": "A012",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not specify the types of wood shown.\"}",
+  "cost": 0.0001131
+ },
+ {
+  "aid": "A013",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Names both as examples of the two different kinds.\"}",
+  "cost": 0.00010285
+ },
+ {
+  "aid": "A013",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Matches accepted idea that they show two kinds.\"}",
+  "cost": 0.00014905
+ },
+ {
+  "aid": "A013",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not specific about what each plant shows.\"}",
+  "cost": 0.00011235
+ },
+ {
+  "aid": "A014",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"States they show different arrangements, matching the two different kinds.\"}",
+  "cost": 0.000202736
+ },
+ {
+  "aid": "A014",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not specific enough about the kinds shown by each stalk.\"}",
+  "cost": 0.0001137
+ },
+ {
+  "aid": "A015",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Says both are the same kind; passage shows two different kinds.\"}",
+  "cost": 0.00012047
+ },
+ {
+  "aid": "A015",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\":\"MISS\",\"why\":\"Answer states both same kind, not different kinds.\"}",
+  "cost": 0.00015003
+ },
+ {
+  "aid": "A015",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer states a different idea about the plants.\"}",
+  "cost": 0.00011265
+ },
+ {
+  "aid": "A016",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Talks about climates, not which kind each stalk shows.\"}",
+  "cost": 0.00013447
+ },
+ {
+  "aid": "A016",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not address the two kinds of wood.\"}",
+  "cost": 0.00011325
+ },
+ {
+  "aid": "A017",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Says bare metal rusts and swells, matching core idea.\"}",
+  "cost": 8.665e-05
+ },
+ {
+  "aid": "A017",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\":\"CORRECT\",\"why\":\"It states metal rusts and swells.\"}",
+  "cost": 0.000172708
+ },
+ {
+  "aid": "A017",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Yes. Bare steel rusts, and rust swells.\"}",
+  "cost": 0.00018795
+ },
+ {
+  "aid": "A018",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. Rust gripping tighter does not explain why paint matters.\"}",
+  "cost": 0.00018735
+ },
+ {
+  "aid": "A019",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. Paint protects steel. Where it wore off, the steel rusted.\"}",
+  "cost": 0.0001131
+ },
+ {
+  "aid": "A020",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Vague; cannot tell what effect student means\"}",
+  "cost": 2.638024e-05
+ },
+ {
+  "aid": "A020",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. Paint protects steel. Where it wore off, the steel rusted.\"}",
+  "cost": 0.00011295
+ },
+ {
+  "aid": "A021",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Restates the setup; no rust or swelling given.\"}",
+  "cost": 0.00018291
+ },
+ {
+  "aid": "A021",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. Paint protects steel. Where it wore off, the steel rusted.\"}",
+  "cost": 0.0001131
+ },
+ {
+  "aid": "A022",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Restates the premise; does not say bare steel rusts and swells.\"}",
+  "cost": 0.00019488
+ },
+ {
+  "aid": "A022",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Restates paint wore off; does not explain rust swelling.\"}",
+  "cost": 0.000174444
+ },
+ {
+  "aid": "A022",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. Paint protects steel. Where it wore off, the steel rusted.\"}",
+  "cost": 0.0001134
+ },
+ {
+  "aid": "A023",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Gives loop's age, not rust or swelling; off the question's job.\"}",
+  "cost": 6.745e-05
+ },
+ {
+  "aid": "A023",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Answer states unrelated detail, not core idea.\"}",
+  "cost": 0.000159724
+ },
+ {
+  "aid": "A023",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not address why the paint wearing off matters.\"}",
+  "cost": 0.00011025
+ },
+ {
+  "aid": "A024",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Answer gives age, not rust and swelling from bare steel.\"}",
+  "cost": 2.02264e-05
+ },
+ {
+  "aid": "A024",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Answer",
+  "cost": 0.000189484
+ },
+ {
+  "aid": "A024",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not address why the paint wearing off matters.\"}",
+  "cost": 0.0001104
+ },
+ {
+  "aid": "A025",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Answer names the iron, not the open corner cut into",
+  "cost": 0.000176452
+ },
+ {
+  "aid": "A025",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. The gap is from the open corner cut by the father.\"}",
+  "cost": 0.0002007
+ },
+ {
+  "aid": "A026",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Names the tool, not the father's open corner in the sign.\"}",
+  "cost": 0.000301785
+ },
+ {
+  "aid": "A026",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not explain where the gap comes from.\"}",
+  "cost": 0.00011145
+ },
+ {
+  "aid": "A027",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Names the iron, not the father's open corner.\"}",
+  "cost": 0.0007092
+ },
+ {
+  "aid": "A027",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\":\"MISS\",\"why\":\"Does not identify the open corner.\"}",
+  "cost": 0.00015483
+ },
+ {
+  "aid": "A027",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not explain where the gap comes from.\"}",
+  "cost": 0.0001116
+ },
+ {
+  "aid": "A028",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Too vague to tell what the gap comes from.\"}",
+  "cost": 0.00019428
+ },
+ {
+  "aid": "A028",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not explain where the gap comes from.\"}",
+  "cost": 0.00019785
+ },
+ {
+  "aid": "A029",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Restates the question's given fact; does not say where the gap came from.\"}",
+  "cost": 0.00021819
+ },
+ {
+  "aid": "A029",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Restates prompt, not gap source.\"}",
+  "cost": 0.00015197
+ },
+ {
+  "aid": "A029",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. The answer describes the gap but doesn't explain its origin.\"}",
+  "cost": 0.0001143
+ },
+ {
+  "aid": "A030",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Restates that calves carry the gap; does not say where it comes from.\"}",
+  "cost": 0.0002397
+ },
+ {
+  "aid": "A030",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\":\"MISS\",\"why\":\"Repeats gap fact, not where gap comes from.\"}",
+  "cost": 0.0001565
+ },
+ {
+  "aid": "A030",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. The answer describes the gap but doesn't explain its origin.\"}",
+  "cost": 0.0001146
+ },
+ {
+  "aid": "A031",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Says the fire made the gap; the gap came from the sign's open corner.\"}",
+  "cost": 6.5162e-05
+ },
+ {
+  "aid": "A031",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Gap comes from open corner, not fire.\"}",
+  "cost": 0.0001014
+ },
+ {
+  "aid": "A031",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer describes a different idea about the gap's origin.\"}",
+  "cost": 0.00011235
+ },
+ {
+  "aid": "A032",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Student blames paint; the gap comes from the father's cut.\"}",
+  "cost": 0.000131532
+ },
+ {
+  "aid": "A032",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Attributes gap to painting, not father's open corner.\"}",
+  "cost": 0.00014417
+ },
+ {
+  "aid": "A032",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer describes a detail, not the source of the gap.\"}",
+  "cost": 0.00011295
+ },
+ {
+  "aid": "A033",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Matches core idea: land shaped on purpose for drivers' views.\"}",
+  "cost": 0.00029601
+ },
+ {
+  "aid": "A033",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\":\"CORRECT\",\"why\":\"Matches core idea: shaped land on purpose for drivers.\"}",
+  "cost": 0.000241518
+ },
+ {
+  "aid": "A033",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Right. Crews cleared, planted, and shaped the land to create those views.\"}",
+  "cost": 0.0002436
+ },
+ {
+  "aid": "A034",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Right. Crews cleared, planted, and shaped the land to create those views.\"}",
+  "cost": 0.0001374
+ },
+ {
+  "aid": "A035",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Restates the claim without giving the reason; misses that people shaped the land.\"}",
+  "cost": 0.000179164
+ },
+ {
+  "aid": "A035",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Restates the claim; does not give why.\"}",
+  "cost": 0.000152896
+ },
+ {
+  "aid": "A035",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. The answer does not explain why it's not fully natural.\"}",
+  "cost": 0.0001347
+ },
+ {
+  "aid": "A036",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Vague: does not say people shaped the land for views.\"}",
+  "cost": 0.000126402
+ },
+ {
+  "aid": "A036",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. The answer doesn't explain how it was shaped.\"}",
+  "cost": 0.00013395
+ },
+ {
+  "aid": "A037",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Restates the claim; gives no reason about crews shaping the land.\"}",
+  "cost": 0.00038682
+ },
+ {
+  "aid": "A037",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\":\"MISS\",\"why\":\"Restates claim, not reason.\"}",
+  "cost": 0.000130446
+ },
+ {
+  "aid": "A037",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer repeats the claim instead of explaining why.\"}",
+  "cost": 0.00013335
+ },
+ {
+  "aid": "A038",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Matches core idea: land was shaped on purpose for drivers' views.\"}",
+  "cost": 0.00014623
+ },
+ {
+  "aid": "A038",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Right. Crews cleared, planted, and shaped the land to create those views.\"}",
+  "cost": 0.000138
+ },
+ {
+  "aid": "A039",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer is a related detail, but it misses the core reason: intentional shaping of the land.\"}",
+  "cost": 0.00034745
+ },
+ {
+  "aid": "A039",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer describes part of the work, not the overall idea.\"}",
+  "cost": 0.0001344
+ },
+ {
+  "aid": "A040",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. The answer doesn't explain how the land was shaped.\"}",
+  "cost": 0.0001347
+ },
+ {
+  "aid": "A041",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. It kept the holes open for water and roots.\"}",
+  "cost": 0.0001929
+ },
+ {
+  "aid": "A042",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Matches accepted idea: sand let water into the holes.\"}",
+  "cost": 0.0004425
+ },
+ {
+  "aid": "A042",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Matches idea sand let water in.\"}",
+  "cost": 0.000161704
+ },
+ {
+  "aid": "A042",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Right. It kept the holes open for water and roots.\"}",
+  "cost": 0.00019245
+ },
+ {
+  "aid": "A043",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\":\"MISS\",\"why\":\"Describes placement, not function of keeping holes open for water and roots.\"}",
+  "cost": 0.00026
+ },
+ {
+  "aid": "A043",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. Sand kept the holes open for water and roots.\"}",
+  "cost": 0.0001065
+ },
+ {
+  "aid": "A044",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. It does not explain how sand helped.\"}",
+  "cost": 0.0001146
+ },
+ {
+  "aid": "A045",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Describes sand being put in holes, not what it did.\"}",
+  "cost": 0.0001597428
+ },
+ {
+  "aid": "A045",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Answered where sand went, not what it did.\"}",
+  "cost": 0.000174844
+ },
+ {
+  "aid": "A045",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. It describes the action, not the effect of sand.\"}",
+  "cost": 0.0001167
+ },
+ {
+  "aid": "A046",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. It describes the result, not what sand did.\"}",
+  "cost": 0.0001167
+ },
+ {
+  "aid": "A047",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Sand kept holes open for water and roots, not killing grass.\"}",
+  "cost": 0.00012819
+ },
+ {
+  "aid": "A047",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\":\"MISS\",\"why\":\"States different idea; sand helped water and roots, not grass die.\"}",
+  "cost": 0.000143674
+ },
+ {
+  "aid": "A047",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer describes a different idea than the passage states.\"}",
+  "cost": 0.00010515
+ },
+ {
+  "aid": "A048",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. It kept the holes open for water and roots.\"}",
+  "cost": 0.0001065
+ },
+ {
+  "aid": "A049",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Says faster with no new hire; misses that no box waited for both steps.\"}",
+  "cost": 0.00020475
+ },
+ {
+  "aid": "A049",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"It describes speed, not the core idea of splitting the wait.\"}",
+  "cost": 0.00020055
+ },
+ {
+  "aid": "A050",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. One station was doing two jobs, causing the wait.\"}",
+  "cost": 0.00019995
+ },
+ {
+  "aid": "A051",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Says only that it was faster; does not state the split-wait idea.\"}",
+  "cost": 0.000269928
+ },
+ {
+  "aid": "A051",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. It describes speed, not the core idea of splitting steps.\"}",
+  "cost": 0.00011415
+ },
+ {
+  "aid": "A052",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Vague: doesn\u2019t say how splitting the check reduced waiting.\"}",
+  "cost": 0.0001530228
+ },
+ {
+  "aid": "A052",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. It doesn't explain how splitting helped the waiting.\"}",
+  "cost": 0.00011235
+ },
+ {
+  "aid": "A053",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer restates the premise of the question rather than explaining the mechanism of improvement.\"}",
+  "cost": 0.00032904
+ },
+ {
+  "aid": "A053",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Repeats premise, not why splitting worked.\"}",
+  "cost": 0.0001562
+ },
+ {
+  "aid": "A053",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Yes. No box then waited for both steps at the same station.\"}",
+  "cost": 0.0002013
+ },
+ {
+  "aid": "A054",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Gives the result, not why splitting removed the shared wait.\"}",
+  "cost": 8.4142e-05
+ },
+ {
+  "aid": "A054",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States result, not why two steps worked.\"}",
+  "cost": 0.00015795
+ },
+ {
+  "aid": "A054",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"That describes a result, not why splitting the check worked.\"}",
+  "cost": 0.0001989
+ },
+ {
+  "aid": "A055",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Says a second packer would slow things down; the passage says it would cost a wage and change nothing.\"}",
+  "cost": 0.000299475
+ },
+ {
+  "aid": "A055",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States unrelated reason, not no box waiting for both.\"}",
+  "cost": 0.00013616
+ },
+ {
+  "aid": "A055",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer states a different idea about speed, not the core idea.\"}",
+  "cost": 0.000114
+ },
+ {
+  "aid": "A056",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Cost is a different idea; the core is why no box waited for both steps.\"}",
+  "cost": 0.000112392
+ },
+ {
+  "aid": "A056",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not address why splitting the check worked.\"}",
+  "cost": 0.00011205
+ },
+ {
+  "aid": "A057",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Profit from selling matches the accepted idea of margin as profit on an item.\"}",
+  "cost": 0.000153504
+ },
+ {
+  "aid": "A057",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. A margin is the difference between cost and selling price.\"}",
+  "cost": 0.00019695
+ },
+ {
+  "aid": "A058",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Profit difference matches the gap between cost and selling price.\"}",
+  "cost": 5.2274e-05
+ },
+ {
+  "aid": "A058",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Yes. Margin is the gap between cost and selling price.\"}",
+  "cost": 0.0001092
+ },
+ {
+  "aid": "A059",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. A margin is the difference between cost and selling price.\"}",
+  "cost": 0.0001965
+ },
+ {
+  "aid": "A060",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Fragment naming profit matches accepted idea of profit on an item.\"}",
+  "cost": 0.0001522
+ },
+ {
+  "aid": "A060",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. A margin specifically refers to the difference between cost and price.\"}",
+  "cost": 0.00011055
+ },
+ {
+  "aid": "A061",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"States the gap between cost and selling price.\"}",
+  "cost": 4.03248e-05
+ },
+ {
+  "aid": "A061",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Defines margin as difference between cost and selling price.\"}",
+  "cost": 0.000146294
+ },
+ {
+  "aid": "A061",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Yes. Margin is the gap between cost and selling price.\"}",
+  "cost": 0.00011025
+ },
+ {
+  "aid": "A062",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"States gap between case cost and selling price\"}",
+  "cost": 7.9795e-05
+ },
+ {
+  "aid": "A062",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Yes. Margin is the gap between cost and selling price.\"}",
+  "cost": 0.00011115
+ },
+ {
+  "aid": "A063",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Confuses margin with stock; states a different idea, so not a near miss.\"}",
+  "cost": 0.00042275
+ },
+ {
+  "aid": "A063",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Answer describes stock, not cost-price difference.\"}",
+  "cost": 7.77e-05
+ },
+ {
+  "aid": "A063",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"That describes stock, not the difference between cost and selling price.\"}",
+  "cost": 0.0001962
+ },
+ {
+  "aid": "A064",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Says margin is shelf space, not the cost-to-price gap.\"}",
+  "cost": 0.000155036
+ },
+ {
+  "aid": "A064",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States shelf space, not cost-price difference.\"}",
+  "cost": 9.398e-05
+ },
+ {
+  "aid": "A064",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"That describes a different idea, not the margin's definition.\"}",
+  "cost": 0.0001095
+ },
+ {
+  "aid": "A065",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Says waiting drops; passage says pile moves to next slow step.\"}",
+  "cost": 0.000200025
+ },
+ {
+  "aid": "A065",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer suggests output increases, which contradicts the passage's core idea.\"}",
+  "cost": 0.00023925
+ },
+ {
+  "aid": "A066",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Predicts pile shrinks, not that it moves to the next slow step.\"}",
+  "cost": 6.903984e-05
+ },
+ {
+  "aid": "A066",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not express the core idea clearly.\"}",
+  "cost": 0.0001299
+ },
+ {
+  "aid": "A067",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"",
+  "cost": 0.000186256
+ },
+ {
+  "aid": "A067",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. The answer lacks detail about the next slow step.\"}",
+  "cost": 0.0002373
+ },
+ {
+  "aid": "A068",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Says output improves; passage says waiting just moves to next slow step.\"}",
+  "cost": 9.0748e-05
+ },
+ {
+  "aid": "A068",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not express the core idea about the slow step.\"}",
+  "cost": 0.0002373
+ },
+ {
+  "aid": "A069",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Restated prompt only; no expected result or reason given, so meaning unclear.\"}",
+  "cost": 0.000162349
+ },
+ {
+  "aid": "A069",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Restated prompt without answering expected result or reason.\"}",
+  "cost": 0.000154806
+ },
+ {
+  "aid": "A069",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. The answer does not state what to expect next.\"}",
+  "cost": 0.00013275
+ },
+ {
+  "aid": "A070",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer describes a detail, not the expected outcome.\"}",
+  "cost": 0.00013155
+ },
+ {
+  "aid": "A071",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Says more apples to wash; misses that the pile moves to the new slowest step.\"}",
+  "cost": 0.000167054
+ },
+ {
+  "aid": "A071",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not address the slow step concept.\"}",
+  "cost": 0.00013035
+ },
+ {
+  "aid": "A072",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Says add wash step; passage says wash was fine, pile moves to next slow step.\"}",
+  "cost": 0.0005763
+ },
+ {
+  "aid": "A072",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Student expects wash step; misses pile moving to new slowest step.\"}",
+  "cost": 0.000152156
+ },
+ {
+  "aid": "A072",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer suggests a different idea instead of the expected outcome.\"}",
+  "cost": 0.00013185
+ },
+ {
+  "aid": "A073",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. The answer doesn't specify the shift from judging flour.\"}",
+  "cost": 0.00026085
+ },
+ {
+  "aid": "A074",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Names the action, not the shift from judging flour to ordered bread steps.\"}",
+  "cost": 0.00015054
+ },
+ {
+  "aid": "A074",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer describes part of the process, not the overall shift.\"}",
+  "cost": 0.00014505
+ },
+ {
+  "aid": "A075",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Names the action but not the shift to ordered bread-making steps.\"}",
+  "cost": 0.000120304
+ },
+ {
+  "aid": "A075",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States only topic, not change to ordered steps.\"}",
+  "cost": 0.000163256
+ },
+ {
+  "aid": "A075",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. The answer does not explain the change in approach.\"}",
+  "cost": 0.0001452
+ },
+ {
+  "aid": "A076",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Vague; can't tell if",
+  "cost": 0.00026686
+ },
+ {
+  "aid": "A076",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not express the core idea of ordered steps.\"}",
+  "cost": 0.0001449
+ },
+ {
+  "aid": "A077",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Restates sentence content; does not name the shift to ordered steps.\"}",
+  "cost": 7.872456e-05
+ },
+ {
+  "aid": "A077",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer describes the sentence but doesn't explain the change in approach.\"}",
+  "cost": 0.00014595
+ },
+ {
+  "aid": "A078",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Restates the sentence's content, not the shift to ordered bread-making steps.\"}",
+  "cost": 0.0001724832
+ },
+ {
+  "aid": "A078",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. The answer describes a detail, not the approach change.\"}",
+  "cost": 0.0002622
+ },
+ {
+  "aid": "A079",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Says fridge; passage says greased pans and warm rise, not the shift to steps.\"}",
+  "cost": 2.322528e-05
+ },
+ {
+  "aid": "A079",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States unsupported fridge detail, not shift to bread steps.\"}",
+  "cost": 0.000170436
+ },
+ {
+  "aid": "A079",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer describes a different idea instead of the ordered steps.\"}",
+  "cost": 0.0002604
+ },
+ {
+  "aid": "A080",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Names a related detail, not the shift to ordered bread-making steps.\"}",
+  "cost": 3.002928e-05
+ },
+ {
+  "aid": "A080",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer describes a detail, not the approach change.\"}",
+  "cost": 0.0001446
+ },
+ {
+  "aid": "A081",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"States the ice had to last longer on the longer trips.\"}",
+  "cost": 0.0004494
+ },
+ {
+  "aid": "A081",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\":\"CORRECT\",\"why\":\"Expresses core idea: blocks must last longer on trips.\"}",
+  "cost": 0.000203398
+ },
+ {
+  "aid": "A081",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Yes. A longer trip needs ice that is still there on the fourth day.\"}",
+  "cost": 0.0002007
+ },
+ {
+  "aid": "A082",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not explain why thicker blocks were needed.\"}",
+  "cost": 0.00010995
+ },
+ {
+  "aid": "A083",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Matches accepted idea: trips were longer now.\"}",
+  "cost": 0.00018238
+ },
+ {
+  "aid": "A083",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Matches accepted idea: trips were longer now.\"}",
+  "cost": 0.00011947
+ },
+ {
+  "aid": "A083",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Yes. A longer trip needs ice that is still there on the fourth day.\"}",
+  "cost": 0.00011355
+ },
+ {
+  "aid": "A084",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Vague; cannot tell what the something is or which idea is meant.\"}",
+  "cost": 7.52178e-05
+ },
+ {
+  "aid": "A084",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not express the core idea from the passage.\"}",
+  "cost": 0.00011055
+ },
+ {
+  "aid": "A085",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Restates the outcome, not the reason the thick block was needed.\"}",
+  "cost": 4.717488e-05
+ },
+ {
+  "aid": "A085",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer describes a detail, not the reason for keeping thick blocks.\"}",
+  "cost": 0.0001122
+ },
+ {
+  "aid": "A086",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Restates the question; gives no reason for the thick block.\"}",
+  "cost": 0.000118034
+ },
+ {
+  "aid": "A086",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"It restates the action",
+  "cost": 0.00016583
+ },
+ {
+  "aid": "A086",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not explain why he kept cutting that weight.\"}",
+  "cost": 0.00011085
+ },
+ {
+  "aid": "A087",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not address the need for ice lasting four days.\"}",
+  "cost": 0.00011145
+ },
+ {
+  "aid": "A088",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Gives the foreman's view, not why longer trips need thick ice.\"}",
+  "cost": 7.99554e-05
+ },
+ {
+  "aid": "A088",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"The answer does not address why thicker blocks were kept.\"}",
+  "cost": 0.00019695
+ },
+ {
+  "aid": "A089",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Matches accepted idea: clover adds nitrogen to the soil.\"}",
+  "cost": 0.000137268
+ },
+ {
+  "aid": "A089",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Matches accepted idea: adds nitrogen to soil.\"}",
+  "cost": 0.000179898
+ },
+ {
+  "aid": "A089",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Clover adds nitrogen to the soil, feeding the next crop.\"}",
+  "cost": 0.00020505
+ },
+ {
+  "aid": "A090",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Matches accepted idea: clover adds nitrogen to soil.\"}",
+  "cost": 9.2358e-05
+ },
+ {
+  "aid": "A090",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"It matches the accepted idea: adds nitrogen to soil.\"}",
+  "cost": 0.00010787
+ },
+ {
+  "aid": "A090",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Right. Clover adds nitrogen to the soil, feeding the next crop.\"}",
+  "cost": 0.00020505
+ },
+ {
+  "aid": "A091",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Not clear yet. What specific thing does clover put into the soil?\"}",
+  "cost": 0.00033044
+ },
+ {
+  "aid": "A091",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. Clover helps by storing nitrogen in its roots.\"}",
+  "cost": 0.0001167
+ },
+ {
+  "aid": "A092",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Too vague to tell what clover does; could mean the core idea.\"}",
+  "cost": 5.159568e-05
+ },
+ {
+  "aid": "A092",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. It does not specify how clover helps the next crop.\"}",
+  "cost": 0.0002049
+ },
+ {
+  "aid": "A093",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\":\"MISS\",\"why\":\"Pulls nitrogen from air, but omits storing it in roots to feed soil.\"}",
+  "cost": 0.0005326
+ },
+ {
+  "aid": "A093",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Right. Clover is a legume, so it pulls nitrogen from the air.\"}",
+  "cost": 0.00012015
+ },
+ {
+  "aid": "A094",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"States clover pulls nitrogen from air and stores it in roots.\"}",
+  "cost": 0.00015666
+ },
+ {
+  "aid": "A094",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"States clover stores nitrogen in roots, matching core idea.\"}",
+  "cost": 0.0001468
+ },
+ {
+  "aid": "A094",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Right. Clover is a legume, so it pulls nitrogen from the air.\"}",
+  "cost": 0.0001215
+ },
+ {
+  "aid": "A095",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Says clover hardens ground; does not state nitrogen or feeding soil.\"}",
+  "cost": 0.000244008
+ },
+ {
+  "aid": "A095",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Contradicts passage; clover keeps soil loose.\"}",
+  "cost": 0.00013716
+ },
+ {
+  "aid": "A095",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Clover holding soil is not the core idea about nitrogen.\"}",
+  "cost": 0.000117
+ },
+ {
+  "aid": "A096",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Names weed blocking only; misses nitrogen stored in roots.\"}",
+  "cost": 8.6168e-05
+ },
+ {
+  "aid": "A096",
+  "model": "openai/gpt-4o-mini",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Clover's role in stopping weeds is not the main idea.\"}",
+  "cost": 0.0001176
+ },
+ {
+  "aid": "A002",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"States no, matching that only bus passengers got cards.\"}",
+  "cost": 0.000247695
+ },
+ {
+  "aid": "A002",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\n  \"outcome\": \"CORRECT\",\n  \"why\": \"Denies every person was asked, matching accepted idea.\"\n}",
+  "cost": 0.00088375
+ },
+ {
+  "aid": "A005",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States related detail, not whether notice supports every person.\"}",
+  "cost": 0.00018031
+ },
+ {
+  "aid": "A006",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"States the key evidence: only bus riders got cards, so not everyone was asked.\"}",
+  "cost": 8.78304e-05
+ },
+ {
+  "aid": "A007",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\":\"MISS\",\"why\":\"Student says yes; notice supports no, only bus passengers.\"}",
+  "cost": 0.00014004
+ },
+ {
+  "aid": "A008",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Does not state no or bus riders only.\"}",
+  "cost": 0.00031191
+ },
+ {
+  "aid": "A009",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\n  \"outcome\": \"CORRECT\",\n  \"why\": \"Matches accepted idea: corn one kind, bean another.\"\n}",
+  "cost": 0.00015877
+ },
+ {
+  "aid": "A011",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Only names corn as one type; does not give bean as the other kind.\"}",
+  "cost": 0.000389865
+ },
+ {
+  "aid": "A012",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Too vague to tell which kinds or features are meant.\"}",
+  "cost": 0.000168044
+ },
+ {
+  "aid": "A012",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Too vague; no corn/bean kind or threads/ring.\"}",
+  "cost": 0.00076793
+ },
+ {
+  "aid": "A014",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"States they show different arrangements, accepted idea.\"}",
+  "cost": 0.00021534
+ },
+ {
+  "aid": "A016",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\":\"MISS\",\"why\":\"States climate detail, not wood kinds shown.\"}",
+  "cost": 0.00017024
+ },
+ {
+  "aid": "A018",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"States rust causes tighter grip, matching rust swelling and gripping the shackle.\"}",
+  "cost": 0.000594864
+ },
+ {
+  "aid": "A018",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Describes gripping, not bare steel rusting and swelling.\"}",
+  "cost": 0.000499234
+ },
+ {
+  "aid": "A019",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Only names swelling; misses that bare steel rusts.\"}",
+  "cost": 0.000220984
+ },
+ {
+  "aid": "A019",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\":\"CORRECT\",\"why\":\"States worn paint causes metal swelling.\"}",
+  "cost": 0.000507374
+ },
+ {
+  "aid": "A020",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Too vague; cannot tell what effect meant.\"}",
+  "cost": 0.000190444
+ },
+ {
+  "aid": "A021",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\":\"MISS\",\"why\":\"Restates question, not why paint loss matters.\"}",
+  "cost": 0.000195294
+ },
+ {
+  "aid": "A025",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States source object but not open corner; core idea missing.\"}",
+  "cost": 0.00040423
+ },
+ {
+  "aid": "A026",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Names iron, not open corner from sign.\"}",
+  "cost": 0.00029803
+ },
+ {
+  "aid": "A028",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Too vague; cannot tell what something is.\"}",
+  "cost": 0.00015797
+ },
+ {
+  "aid": "A034",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Paraphrase of core idea: people shaped the land, so not natural.\"}",
+  "cost": 9.12476e-05
+ },
+ {
+  "aid": "A034",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Answer states people changed land, matching core idea.\"}",
+  "cost": 0.000594376
+ },
+ {
+  "aid": "A036",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Too vague to show people shaped the land.\"}",
+  "cost": 0.000416866
+ },
+ {
+  "aid": "A038",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\":\"CORRECT\",\"why\":\"Answer states land was shaped for driver views.\"}",
+  "cost": 0.000149886
+ },
+ {
+  "aid": "A039",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\":\"MISS\",\"why\":\"States tree cutting, not people shaping views.\"}",
+  "cost": 0.000249396
+ },
+ {
+  "aid": "A040",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States purpose but not that crews cleared, planted, and shaped land.\"}",
+  "cost": 7.187352e-05
+ },
+ {
+  "aid": "A041",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Only says roots grew deeper; misses sand keeping holes open for water.\"}",
+  "cost": 0.0011442
+ },
+ {
+  "aid": "A041",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\n  \"outcome\": \"CORRECT\",\n  \"why\": \"Paraphrase matches accepted idea: sand let roots go deeper.\"\n}",
+  "cost": 0.000253804
+ },
+ {
+  "aid": "A043",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States placement, not sand's role in holes.\"}",
+  "cost": 0.000226074
+ },
+ {
+  "aid": "A044",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Says it helped the grass, not that it kept holes open for water and roots.\"}",
+  "cost": 0.000289016
+ },
+ {
+  "aid": "A044",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\":\"MISS\",\"why\":\"Does not state sand kept holes open for water/roots.\"}",
+  "cost": 0.000166554
+ },
+ {
+  "aid": "A046",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Describes water and roots, not what sand did.\"}",
+  "cost": 0.000181284
+ },
+ {
+  "aid": "A046",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Paraphrase of accepted idea: water entered and roots followed.\"}",
+  "cost": 0.000404804
+ },
+ {
+  "aid": "A048",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Drainage is related but does not clearly say holes stayed open for water/roots.\"}",
+  "cost": 0.000619272
+ },
+ {
+  "aid": "A048",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Drainage is not the stated sand role.\"}",
+  "cost": 0.000743074
+ },
+ {
+  "aid": "A049",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States result, not why boxes stopped waiting at one station.\"}",
+  "cost": 0.00027039
+ },
+ {
+  "aid": "A050",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Only says two steps sped things up; does not explain the split wait.\"}",
+  "cost": 0.0002094204
+ },
+ {
+  "aid": "A050",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Answer gives result, not core idea.\"}",
+  "cost": 0.00032982
+ },
+ {
+  "aid": "A051",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States speed, not core idea: no box waited for both steps.\"}",
+  "cost": 0.00061793
+ },
+ {
+  "aid": "A052",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\n  \"outcome\": \"MISS\",\n  \"why\": \"Too vague; does not state no box waited for both steps.\"\n}",
+  "cost": 0.00089758
+ },
+ {
+  "aid": "A056",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States money motive, not queue-splitting core idea.\"}",
+  "cost": 0.00017502
+ },
+ {
+  "aid": "A057",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Profit paraphrases cost-to-price gap.\"}",
+  "cost": 0.00057558
+ },
+ {
+  "aid": "A059",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\":\"CORRECT\",\"why\":\"Says earnings/profit, which matches the accepted idea of profit on an item.\"}",
+  "cost": 0.000344666
+ },
+ {
+  "aid": "A059",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\":\"UNCLEAR\",\"why\":\"How much they earn is ambiguous; clarify profit gap.\"}",
+  "cost": 0.00056823
+ },
+ {
+  "aid": "A060",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\":\"UNCLEAR\",\"why\":\"Vague profit reference; cannot tell if they mean cost gap.\"}",
+  "cost": 0.00027621
+ },
+ {
+  "aid": "A062",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\":\"UNCLEAR\",\"why\":\"Margin not clearly stated as cost-price difference.\"}",
+  "cost": 0.00045599
+ },
+ {
+  "aid": "A065",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States less waiting, not pile moving to next slow step.\"}",
+  "cost": 0.000168606
+ },
+ {
+  "aid": "A066",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\":\"MISS\",\"why\":\"Student did not say pile moves to next slow step.\"}",
+  "cost": 0.000301336
+ },
+ {
+  "aid": "A067",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\":\"UNCLEAR\",\"why\":\"Too vague; does not say where pile moves or why.\"}",
+  "cost": 0.000702246
+ },
+ {
+  "aid": "A068",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\":\"MISS\",\"why\":\"Vague improvement prediction, not pile moving to next slow step.\"}",
+  "cost": 0.000634566
+ },
+ {
+  "aid": "A070",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Matches accepted idea: pile shifts again to the next slow station.\"}",
+  "cost": 0.000113074
+ },
+ {
+  "aid": "A071",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States unrelated consequence, not pile moving to next slow step.\"}",
+  "cost": 0.000217656
+ },
+ {
+  "aid": "A073",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Identifies the ordered bread-making step, matching an accepted idea.\"}",
+  "cost": 0.00023752
+ },
+ {
+  "aid": "A073",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Only states a step, not shift from judging flour.\"}",
+  "cost": 0.000620546
+ },
+ {
+  "aid": "A074",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\n  \"outcome\": \"MISS\",\n  \"why\": \"Describes a step, not the shift to ordered steps.\"\n}",
+  "cost": 0.000591426
+ },
+ {
+  "aid": "A076",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Does not state shift from flour judging to ordered bread-making steps.\"}",
+  "cost": 0.000810276
+ },
+ {
+  "aid": "A077",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Describes sentence content, not the change in approach.\"}",
+  "cost": 0.000195966
+ },
+ {
+  "aid": "A078",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Restates sentence; does not identify shift in approach.\"}",
+  "cost": 0.000213336
+ },
+ {
+  "aid": "A080",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Not quite. Answer gives related detail, not the shift to ordered steps.\"}",
+  "cost": 0.000229186
+ },
+ {
+  "aid": "A082",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Could mean ice lasts longer, but does not state longer trips or fourth day.\"}",
+  "cost": 0.00107005328
+ },
+ {
+  "aid": "A082",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\":\"UNCLEAR\",\"why\":\"Could mean ice lasting, but unclear.\"}",
+  "cost": 0.00018715
+ },
+ {
+  "aid": "A084",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Too vague to tell what they mean.\"}",
+  "cost": 0.00017352
+ },
+ {
+  "aid": "A085",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States result, not reason.\"}",
+  "cost": 0.00018384
+ },
+ {
+  "aid": "A087",
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Cost saving is a related detail, not the ice lasting four days.\"}",
+  "cost": 0.00020957
+ },
+ {
+  "aid": "A087",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"States cost detail, not why thick ice lasts longer trips.\"}",
+  "cost": 0.00062925
+ },
+ {
+  "aid": "A088",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Answers foreman's belief, not why blocks stayed twenty-five pounds.\"}",
+  "cost": 0.00023146
+ },
+ {
+  "aid": "A091",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\":\"UNCLEAR\",\"why\":\"Cannot tell what way it helps the soil.\"}",
+  "cost": 0.00038126
+ },
+ {
+  "aid": "A092",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Too vague; does not state nitrogen stored in roots.\"}",
+  "cost": 0.0002036
+ },
+ {
+  "aid": "A096",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\":\"MISS\",\"why\":\"if_they_say weed answer; need nitrogen core idea.\"}",
+  "cost": 0.00016019
+ },
+ {
+  "aid": "A004",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Student says notice does not include everyone, matching core idea.\"}",
+  "cost": 0.00028121
+ },
+ {
+  "aid": "A010",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": null,
+  "raw": "",
+  "cost": 0.00096738
+ },
+ {
+  "aid": "A011",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Unclear which kind corn shows or what bean shows.\"}",
+  "cost": 0.00051601
+ },
+ {
+  "aid": "A040",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": null,
+  "raw": "",
+  "cost": 0.000975376
+ },
+ {
+  "aid": "A058",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "UNCLEAR",
+  "raw": "{\"outcome\": \"UNCLEAR\", \"why\": \"Profit difference is ambiguous; clarify if cost-to-price gap.\"}",
+  "cost": 0.00023784
+ },
+ {
+  "aid": "A070",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "CORRECT",
+  "raw": "{\"outcome\": \"CORRECT\", \"why\": \"Matches expected pile shift; one idea enough.\"}",
+  "cost": 0.000493206
+ },
+ {
+  "aid": "A093",
+  "model": "qwen/qwen3.8-flash",
+  "outcome": "MISS",
+  "raw": "{\"outcome\": \"MISS\", \"why\": \"Only part of idea; does not say stores nitrogen for next crop.\"}",
+  "cost": 0.00027925
+ }
+]

@@ -266,6 +266,32 @@ failure. Two consequences:
 - A prompt has one job. Two questions behind one key cannot be scored: the tutor confirms one and
   ignores the other. Split it into two items or cut one question.
 
+**3.1.8 A yes/no prompt asks for the reason.** "Is that shown?" alone is a coin flip and practises
+nothing, so it is written as "Is that shown? What in the passage tells you?" and the key needs both
+the verdict and the reason. Until a prompt is rewritten, the protocol scores a correct bare verdict as
+right, because it grades only the job the prompt states.
+
+**3.1.9 A key states its required parts, and the prompt asks for each of them.** If `core_idea` needs
+two parts (a cause and its effect, two differences, a verdict and its reason), the prompt names both,
+no `accept_ideas` entry may carry only one of them, and `one_idea_is_enough` is `false`: half an
+answer is then a miss, and the `tell` supplies the missing link. `one_idea_is_enough: true` means any
+one complete idea in `core_idea` or `accept_ideas` earns credit, so a `true` item whose `core_idea`
+joins two ideas is a contradiction: trim the key or set the flag to `false`.
+`not_required` lists real details a correct answer may leave out, never filler that no student would
+offer.
+
+**3.1.10 Probe for the answer the key forgot.** Before publishing, answer the prompt the way a careful
+reader would who has not seen the key, and once the way a reader would who stops at the literal level.
+
+- If a passage-supported answer differs from the key, either accept it (add it to `accept_ideas`, and
+  drop any branch that rejects it) or rewrite the prompt or the passage so it no longer fits.
+- If a true answer at a shallower level satisfies the prompt as written, the prompt is
+  underspecified (3.1.6): rewrite it.
+- The tutor never accepts an answer the key does not hold. The fix is made at authoring time.
+
+The key-probe gate (`research/grading-baseline/`) generates these answers and flags the
+disagreements.
+
 ### 3.2 Cloze items
 
 **3.2.1 The blank must be forced by context.** Test whether a reasonable student could choose a
@@ -331,6 +357,17 @@ current item through `tell` and the say-back; it never moves the student to anot
 mid-session. `help` and `if_they_say.ask` are retained in the schema but the tutor does not ask
 them; a matching `if_they_say` or `partial` is used only to recognize the misreading and go to
 `tell`.
+
+**4.4.1 Scoring boundaries.** The protocol applies these at runtime, and the author writes keys that
+let it:
+
+- **Half answer.** When `one_idea_is_enough` is `false`, one part of a two-part `core_idea` is a miss (3.1.9).
+- **Passage sentence.** A quoted passage sentence is right only when the sentence itself answers the
+  prompt. Reporting what happened, where the prompt asks why, what it shows, or what something did, is
+  the literal reading and a miss.
+- **Not clear yet.** Only for an answer that names something from the passage that could be the key
+  idea but cannot be pinned down: an unclear "it" or "they", or a word with two readings. An answer
+  with no passage content is a miss. Use it at most once per item; a second unclear answer is a miss.
 
 **4.5 The AI's voice is the teacher's voice.** The tutor sounds like a straightforward high-school
 teacher: short sentences, plain words, no baby talk, no cheerleading, no invented encouragement.
@@ -612,6 +649,9 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 - [ ] Every item has one defensible answer, a reasoning chain, and specific misreadings.
 - [ ] The prompt names the move it grades; a literal answer fails the prompt.
 - [ ] The key is a claim you can check by rereading; no key asserts what the reader feels, sees, or pictures, and a prompt asks one question.
+- [ ] No yes/no prompt without a request for the reason (3.1.8).
+- [ ] A two-part key has a prompt that asks for both parts and no single-part accepted answer; `not_required` holds real optional details (3.1.9).
+- [ ] The key probe was run, and every passage-supported alternative or shallow-but-true answer was accepted or designed out (3.1.10).
 - [ ] Every evidence-dependent item has the correct `show_part`.
 - [ ] No help line is used; a miss goes to `tell` and one say-back.
 - [ ] A refusal, literal restatement, or non-answer closes the item `open`; never `mercy`.

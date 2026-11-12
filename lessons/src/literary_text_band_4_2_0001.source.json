@@ -86,7 +86,7 @@
       "difficulty": 2,
       "show_part": "part_1",
       "show_part_again": false,
-      "prompt": "A calf that carries the mark shows the same small gap. Where does the gap come from?",
+      "prompt": "Every calf shows the same small gap in the mark. What did her father do that put it there?",
       "tutor_only": {
         "confirm": "Yes. The father left one corner of the letter open when he cut the sign.",
         "correct_reason": "The sentence about the sign says he left one corner of the letter open.",
