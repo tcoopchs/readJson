@@ -455,8 +455,12 @@ Return JSON {"item": {...}} with exactly these fields:
    "not_required":["..."],"normalize":"Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
    "if_they_say":[{"when":"...","ask":"..."}]}}
 
-Rules: The prompt must name the move it grades. For the craft item, name the exact word, phrase, or \
-choice and ask what it makes the reader feel, see, think, or understand. Do not write a general \
+Rules: The prompt must name the move it grades and ask ONE question. For the craft item, name the \
+exact word, phrase, or choice and ask what it does to the passage's meaning: what it changes, \
+sharpens, contrasts, or claims. The key must be a claim a reviewer can check by rereading the \
+passage. Never ask what the wording makes the reader feel, see, picture, or imagine, and never \
+store a key that describes an image or a sensation: that cannot be graded, because the next \
+reader's image is different. A prompt asking two questions cannot be scored. Do not write a general \
 "What does this show about X?" if a literal answer from the passage is defensible: rewrite the prompt \
 until the literal answer fails. Before storing the key, answer the prompt literally from the passage; \
 if the literal answer is defensible but the key wants a craft effect, rewrite the prompt. The prompt \
@@ -476,8 +480,9 @@ MOVES = [
     ("interpret", "part_2", 2,
      "the conclusion the facts support but the passage does not state"),
     ("craft", "part_2", 3,
-     "quote the exact word or phrase the author repeats or chooses, and ask what that choice "
-     "makes the reader feel, see, think, or understand; the literal answer must not satisfy it"),
+     "quote the exact word or phrase the author repeats or chooses, and ask what that choice does "
+     "to the passage's meaning; the key states a claim, never a reader's feeling or image, and the "
+     "literal answer must not satisfy it"),
     ("whole", "all", 3,
      "how the author's plan or approach changes from part_1 to part_3; do not reuse the craft "
      "item's quoted choice; set show_part_again true"),
@@ -501,8 +506,10 @@ def make_items(state: dict, plan: dict, lesson: dict, parts: dict) -> list:
         "whole": "Ask how the writer's approach or the plan changes; the key is the shift, not a retelling.",
     }
     for n, (move, show, difficulty, description) in enumerate(MOVES, 1):
-        role = ("This is the only craft item. Name the exact word, phrase, or choice and ask what it "
-                "makes the reader feel, see, think, or understand; a literal answer must not satisfy it."
+        role = ("This is the only craft item, and it asks one question. Name the exact word, phrase, "
+                "or choice and ask what it does to the passage's meaning. The key must be a claim "
+                "checkable by rereading; never a reader's feeling, image, or sensation. A literal "
+                "answer must not satisfy the prompt."
                 if move == "craft" else
                 "This is not the craft item. Do not ask about the craft focus's wording or effect; "
                 "follow the move above.")
@@ -708,7 +715,7 @@ def review_sample(state: dict, plan: dict, lessons: list[dict], ids: list[str]) 
             "answer from the file and the source. Return JSON {\"pass\": true|false, "
             "\"problems\": [\"...\"]}.\n"
             "1. Every item is answerable from the passage shown by show_part.\n"
-            "1a. For the craft item only: it must quote a word, phrase, or choice from the passage and ask what it makes the reader feel, see, think, or understand. Do not require the words 'contrast', 'shift', or any label. Items 1-3 are literal, join, and inference questions by design; item 5 is the whole-text shift. Do not flag items 1-3 or item 5 for craft wording.\n"
+            "1a. For the craft item only: it must quote a word, phrase, or choice from the passage and ask ONE question about what that wording does to the passage's meaning. Flag it if the key asserts what the reader feels, sees, pictures, or imagines, or if the prompt asks two questions. Do not require the words 'contrast', 'shift', or any label. Items 1-3 are literal, join, and inference questions by design; item 5 is the whole-text shift. Do not flag items 1-3 or item 5 for craft wording.\n"
             "2. The answer key scores the minimum the prompt asks, not extra detail.\n"
             "3. The live flow does not use help; ignore help lines. Check tell instead: it is the "
             "explanation spoken after a miss and must be student copy, not a note to the tutor.\n"

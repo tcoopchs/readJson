@@ -120,9 +120,9 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": true,
-      "prompt": "If a black hole with the sun's mass replaced the sun, would Earth fall in? Why?",
+      "prompt": "If a black hole with the sun's mass replaced the sun, what would happen to Earth's orbit?",
       "tutor_only": {
-        "confirm": "Right. No. The same mass means the same gravity, so orbits stay the same.",
+        "confirm": "Right. Nothing: the same mass means the same gravity, so the orbit stays the same.",
         "correct_reason": "The passage states that equal mass gives equal gravity, so Earth would not fall in.",
         "tell": "Gravity depends on mass. A black hole with the sun's mass pulls exactly as the sun does.",
         "help": [
@@ -130,7 +130,7 @@
           "It compares the gravity of the hole with the gravity of the sun."
         ],
         "say_back": "own_words",
-        "core_idea": "No. A black hole with the same mass would keep the same gravity, so Earth would not fall in.",
+        "core_idea": "Nothing. A black hole with the same mass keeps the same gravity, so Earth's orbit would not change.",
         "accept_ideas": [
           "no, the gravity would be the same",
           "no, Earth would still orbit",

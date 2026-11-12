@@ -171,21 +171,20 @@
       "difficulty": 3,
       "show_part": "part_1",
       "show_part_again": false,
-      "prompt": "The writer asks, 'What were we to do?' What does this question make you feel about the school's problem?",
+      "prompt": "The writer asks, 'What were we to do?' instead of saying what they did. What does the question do that a statement would not?",
       "tutor_only": {
-        "confirm": "The question makes the school's problem feel urgent and pulls the reader into the leaders' worry.",
+        "confirm": "It asks in the leaders' own voice and leaves the problem unanswered.",
         "correct_reason": "The question comes right after the needs crowd in; it asks the reader to feel how hard the leaders' problem was.",
-        "tell": "The writer asks what they could do instead of telling. The question makes the reader feel the leaders' worry and the problem's weight.",
+        "tell": "The writer asks what they could do and does not answer, so the problem stands as theirs.",
         "help": [
           "Look at what the man does right before he says he is called to preach. Think about why the author makes his call come suddenly during hard work."
         ],
         "say_back": "own_words",
-        "core_idea": "The rhetorical question pulls the reader into the leaders' worry and makes the school's problem feel urgent.",
+        "core_idea": "Asking instead of telling puts the question in the leaders' voice and leaves the problem unanswered.",
         "accept_ideas": [
-          "The question makes the problem feel urgent.",
-          "It makes the reader share the leaders' worry.",
-          "It shows how hard the problem was.",
-          "It pulls the reader into the leaders' situation."
+          "it asks instead of answering",
+          "it shows they had no answer",
+          "it leaves the problem open in their voice"
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -200,6 +199,12 @@
           }
         ]
       },
+      "partial": [
+        {
+          "when": "the student says the question shows the leaders were worried, without naming that nothing is answered",
+          "ask": "What does asking do here that telling would not?"
+        }
+      ],
       "display": {
         "lead": "",
         "label": "Passage",

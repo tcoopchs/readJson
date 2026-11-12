@@ -169,9 +169,9 @@
       "difficulty": 3,
       "show_part": "part_1",
       "show_part_again": false,
-      "prompt": "The writer sets 'separate threads' against 'a layer.' What does that contrast let a reader picture?",
+      "prompt": "The writer sets 'separate threads' against 'a layer.' What does that contrast show about the inside of the stem?",
       "tutor_only": {
-        "confirm": "The inside of the stem \u2014 threads scattered through it, or one ring \u2014 without a drawing.",
+        "confirm": "Two shapes for the inside: threads scattered through it, or one ring.",
         "correct_reason": "The contrast sets 'separate threads' against 'a layer' so the reader can picture the inside of the stem without a drawing.",
         "tell": "The contrast turns the inside of the stem into a picture. You can see threads scattered through it, or one ring.",
         "help": [
@@ -179,7 +179,7 @@
           "Notice what each pattern looks like in a cut stem."
         ],
         "say_back": "own_words",
-        "core_idea": "The contrast lets the reader picture the inside of the stem: scattered threads or one ring, without a drawing.",
+        "core_idea": "The contrast gives the inside of the stem as two shapes \u2014 scattered threads or one ring \u2014 so the difference can be seen without a drawing.",
         "accept_ideas": [
           "The inside of the stem.",
           "Threads scattered through the stem, or one ring.",

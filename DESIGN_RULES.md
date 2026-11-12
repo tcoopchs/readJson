@@ -245,12 +245,26 @@ support.
 **3.1.6 The prompt names the move it grades.** Answer the prompt literally from the passage before
 storing a key. If the literal answer is defensible but the key wants a different level — an
 inference or a craft effect — the prompt is underspecified: rewrite it. A craft prompt names the
-word, phrase, or choice and asks what it does ("What does the phrase 'without a scratch' make the
-danger sound like?"), not a general "What does this show about the ride?" that a literal answer
-satisfies. Category stems: `vocab` quotes the word; `inference` names the facts or the unstated
-conclusion; `main_idea` names the part; `text_structure` names the relation and its signal;
-`argument_evidence` names the claim, reason, or evidence wanted. Full table: the skill's
-`references/question-design.md`.
+word, phrase, or choice and asks what it does ("His horse was under fire, yet he says he came out
+'without a scratch'. What does that plain wording do?"), not a general "What does this show about
+the ride?" that a literal answer satisfies. Category stems: `vocab` quotes the word; `inference`
+names the facts or the unstated conclusion; `main_idea` names the part; `text_structure` names the
+relation and its signal; `argument_evidence` names the claim, reason, or evidence wanted. Full
+table: the skill's `references/question-design.md`.
+
+**3.1.7 The key is a claim, not an image or a feeling.** A scored key — `core_idea`, and the
+`confirm` the tutor speaks on a right answer — must name words in the passage and state what they
+do to its meaning. Check it by rereading: if two readers could both be right and see opposite
+things, the key is ungradeable. Never write a key that asserts what the reader feels, sees,
+pictures, or imagines. The sensation belongs to the reader, so no paraphrase rule can accept the
+next reader's version of it, and a student who understood the passage gets marked wrong — the
+`authors_craft_band_4_1_0003` item that rejected "small mammals rather than birds" is the worked
+failure. Two consequences:
+
+- The literal reading is stored as a `partial`, never as a plain miss. It is a real misreading of
+  what the prompt asked, and it is the reading most students give first.
+- A prompt has one job. Two questions behind one key cannot be scored: the tutor confirms one and
+  ignores the other. Split it into two items or cut one question.
 
 ### 3.2 Cloze items
 
@@ -597,6 +611,7 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 - [ ] 100-200 words per passage part unless an exception is documented.
 - [ ] Every item has one defensible answer, a reasoning chain, and specific misreadings.
 - [ ] The prompt names the move it grades; a literal answer fails the prompt.
+- [ ] The key is a claim you can check by rereading; no key asserts what the reader feels, sees, or pictures, and a prompt asks one question.
 - [ ] Every evidence-dependent item has the correct `show_part`.
 - [ ] No help line is used; a miss goes to `tell` and one say-back.
 - [ ] A refusal, literal restatement, or non-answer closes the item `open`; never `mercy`.

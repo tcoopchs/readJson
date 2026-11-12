@@ -170,7 +170,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "The writer says wet fruit is 'no use for jam.' What does that absolute phrase make you feel?",
+      "prompt": "The writer says wet fruit is 'no use for jam.' What does that absolute phrase do to the risk?",
       "tutor_only": {
         "confirm": "It makes the risk sound total: the fruit is not merely less good, it is ruined for jam.",
         "correct_reason": "The warning is in the sentence 'Fruit gathered in wet or foggy weather will soon mildew and be no use for jam.' The words 'soon mildew' and 'no use' create a cautious, warned feeling.",

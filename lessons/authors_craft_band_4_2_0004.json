@@ -169,22 +169,21 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": true,
-      "prompt": "The crank will 'catch,' then you 'lift upward with a quick swing.' What do you picture?",
+      "prompt": "The crank will 'catch,' then you 'lift upward with a quick swing.' What do the two verbs show?",
       "tutor_only": {
-        "confirm": "The moment the crank engages and the arc of the pull \u2014 the reader feels the resistance and the motion.",
+        "confirm": "Two stages: the catch as it engages, then the quick arc of the swing.",
         "correct_reason": "The verbs 'catch' and 'swing' let the reader feel the crank engage and the quick arc of the pull.",
-        "tell": "'Catch' shows the moment the crank engages. 'Swing' shows the quick arc of the pull.",
+        "tell": "'Catch' is the moment it engages. 'Swing' is the quick arc of the pull.",
         "help": [
           "Read the two places where the author says 'throw on.'",
           "Think about how that word makes the switch action feel."
         ],
         "say_back": "own_words",
-        "core_idea": "The verbs let the reader feel the crank engage and the quick arc of the pull.",
+        "core_idea": "'Catch' is the moment the crank engages; 'swing' is the quick arc of the pull, so the two verbs split one action into stages.",
         "accept_ideas": [
-          "The crank catching and the quick pull.",
-          "The moment it engages and the arc of the swing.",
-          "You feel the resistance and the motion.",
-          "The crank catches, then the quick swing."
+          "first it catches, then the big swing",
+          "the verbs split the pull into a grab and an arc",
+          "the crank catches and then swings up"
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -200,6 +199,12 @@
           }
         ]
       },
+      "partial": [
+        {
+          "when": "the student describes a general picture of starting an old car",
+          "ask": "What do the words 'catch' and 'swing' show about the pull itself?"
+        }
+      ],
       "display": {
         "lead": "Here is the rest of the passage.",
         "label": "Passage",

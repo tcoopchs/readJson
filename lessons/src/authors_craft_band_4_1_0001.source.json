@@ -163,22 +163,21 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "The writer uses 'warm,' 'fragrance,' 'cool,' and 'gushed.' What do these sensory words help you feel?",
+      "prompt": "'Warm,' 'fragrance,' 'cool,' 'gushed' — what do those words do that a list of objects would not?",
       "tutor_only": {
-        "confirm": "They help you feel the warm sun, the sweet smell of the honeysuckle, and the cool water.",
+        "confirm": "They name what the body meets there: heat, smell, cold water.",
         "correct_reason": "The words 'warm,' 'fragrance,' 'cool,' and 'gushed' appeal to touch and smell, so the moment feels vivid.",
-        "tell": "The sensory words let you feel the warm sun, smell the sweet honeysuckle, and feel the cool water.",
+        "tell": "The words name heat, a smell, and cold water, so the place reaches you through the body.",
         "help": [
           "Find the words 'fragrance,' 'cool,' and 'gushed.'",
           "Notice which senses they speak to."
         ],
         "say_back": "own_words",
-        "core_idea": "The sensory words make the moment vivid by letting the reader feel the warmth, the sweet smell, and the cool water.",
+        "core_idea": "The words name what the body meets — heat, a smell, cold water — so the place comes through the senses rather than as a list of objects.",
         "accept_ideas": [
-          "They help you feel the warm sun, the sweet smell, and the cool water.",
-          "They make the scene feel real.",
-          "They let you imagine being there.",
-          "They appeal to touch and smell."
+          "they name what the body meets, like heat and cold water",
+          "they use the senses rather than naming objects",
+          "the place comes through warmth and smell"
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -192,7 +191,13 @@
             "ask": "What do those words help you feel or smell in this moment?"
           }
         ]
-      }
+      },
+      "partial": [
+        {
+          "when": "the student says the words describe the garden or the place, without naming the senses",
+          "ask": "What do those four words name that a plain description of a garden would not?"
+        }
+      ]
     },
     {
       "id": "5",
