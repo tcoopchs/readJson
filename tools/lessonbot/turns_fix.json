@@ -1,0 +1,5 @@
+{
+ "A_item3": ["read","read","The ammunition was low","They got into fights with the enemy","They got fired upon when in the crossings","He rode so fast the enemy would fire after he crossed into safety","It was dangerous because they could shoot at him at the crossings."],
+ "B_refusal": ["read","read","The ammunition was low","They got fired upon when in the crossings","He rode so fast the enemy would fire after he crossed into safety","It was dangerous because they could shoot at him at the crossings.","He was not injured","no"],
+ "C_literal": ["read","read","The ammunition was low","They got fired upon when in the crossings","He rode so fast the enemy would fire after he crossed into safety","It was dangerous because they could shoot at him at the crossings.","He was not injured","He didn't have any trouble getting back"]
+}

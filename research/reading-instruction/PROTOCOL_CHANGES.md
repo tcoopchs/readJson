@@ -81,3 +81,32 @@ immediate corrective feedback: one explanation, one say-back, next question.
 - Outcome feedback was added and then fixed twice: first the protocol said "say script.correct"
   and weaker models printed the key; now it says "Correct.", "Almost.", "Not quite." literally,
   and the rule sits after the opening-gate instructions.
+
+## Follow-up: the say-back gate
+
+The first Gemini retest showed the new flow failing in two places:
+
+- Item 3 was marked **"Correct."** for a mechanism answer ("he rode so fast the enemy fired after
+  he crossed"), then the confirmation supplied the danger idea the student had not said.
+- Item 4 looped on the say-back, then accepted **"no"** as **"Correct — that's in your words."**
+
+Fixes:
+
+- `Correct.` only when the answer states the idea in `confirm`. A related detail or a mechanism
+  is a miss: `Not quite.` + `tell` + say-back.
+- Say-back: one re-ask at most. A refusal (`no`, `idk`, blank), a literal restatement, or a
+  non-answer closes the item as `open` and advances. Never `mercy` on a refusal.
+- Near-copy gets one re-ask; if the next reply is still a near-copy, a refusal, or does not
+  state the idea, the item closes `open`. No third ask.
+- A wrong first answer is never `unaided`. The item closes as `mercy` or `open` only.
+- The ticket must satisfy `unaided + helped + mercy + open == done`; the model recounts before
+  printing.
+- Item 3 gained a `partial` for the speed/safety reading and for the outward-ride referent
+  error. Item 4 gained a `partial` for the literal "not injured / safe" reading, and its `tell`
+  was rewritten as student copy.
+
+Replay result on `authors_craft_band_4_1_0002`:
+
+- Item 3: **Not quite.** + tell + say-back; a good say-back → **mercy**.
+- Item 4: **Not quite.** + tell; `no` → advance with `open`, no false mercy.
+- Ticket: `done=5|u=3|h=0|m=1|o=1|an=1`, consistent.

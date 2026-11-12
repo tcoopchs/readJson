@@ -102,7 +102,9 @@
         "accept_ideas": [
           "Men were safe on streets not leading to the plaza except at crossings.",
           "At each crossing they met musket fire and grape-shot.",
-          "The sentence contrasts safety on the streets with danger at the crossings."
+          "The sentence contrasts safety on the streets with danger at the crossings.",
+          "They got into fights with the enemy at the crossings.",
+          "They fought the enemy at each crossing."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -163,6 +165,16 @@
             "when": "The student says the horse was never under fire.",
             "ask": "Where does the writer say the horse was under fire?"
           }
+        ],
+        "partial": [
+          {
+            "when": "The student says he rode fast, crossed before the enemy fired, or got across safely, without saying the ride was dangerous.",
+            "ask": "What does that show about the danger of the ride?"
+          },
+          {
+            "when": "The student says the street-crossing sentence is about the outward ride.",
+            "ask": "The paragraph begins 'My ride back was an exposed one.' Which ride does the crossing sentence describe?"
+          }
         ]
       }
     },
@@ -177,10 +189,10 @@
       "tutor_only": {
         "confirm": "The phrase makes the exposed ride sound calm and matter-of-fact.",
         "correct_reason": "The sentence \"I got out safely without a scratch\" uses a plain phrase for escaping harm after an exposed ride.",
-        "tell": "Point to the sentence that says he got out safely without a scratch. Explain that the plain phrase makes the danger feel smaller.",
+        "tell": "The phrase 'without a scratch' is plain and calm. It makes the danger of the ride feel smaller than it was.",
         "help": [
           "Look at the sentence about getting out safely.",
-          "Ask what \"without a scratch\" leaves out about the danger."
+          "Notice what 'without a scratch' leaves out about the danger."
         ],
         "say_back": "own_words",
         "core_idea": "The author uses the plain phrase \"without a scratch\" to understate the danger of the exposed ride.",
@@ -206,6 +218,12 @@
           {
             "when": "The student says \"without a scratch\" means no one fired at him.",
             "ask": "Which sentence says his horse was under fire at crossings?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "The student says he was not injured, he was safe, or he got back without trouble, without saying what the plain phrase does to the danger.",
+            "ask": "What does the plain phrase make the danger feel like?"
           }
         ]
       }
