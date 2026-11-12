@@ -22,8 +22,8 @@ inference: 3.1 -> 4.1 -> 4.2 -> 4.3 -> 5.1 -> 5.2 -> 5.3 -> ...
   because a lesson ID is permanent once it has been served.
 - Band 3.1 is the floor. Empty in onboarding, reachable only by a down-move. Below 3.1 a teacher, not
   a lesson.
-- Promotion follows evidence, not lesson count: up on 2 of the last 3 lessons at 4+/5 with no help,
-  down on 2 of the last 3 at 3 or fewer or any anchor item that needed help, stay otherwise. One move
+- Promotion follows evidence, not lesson count: up on 2 of the last 3 lessons at 4+/5 unaided,
+  down on 2 of the last 3 at 3 or fewer or any anchor item not unaided (mercy or open), stay otherwise. One move
   per day; two down-moves in a row holds and alerts.
 - A student is never told their band. Band labels are internal and teacher-facing.
 
@@ -229,7 +229,7 @@ outstanding note, a 9-word run shared inside inference 4.1.
 4. `validate_lesson.py --draft` clean while authoring.
 5. `validate_lesson.py --strict` clean, no warnings.
 6. `build_lessons.py --check` clean.
-7. Cold-chat test passed: correct, misconception, blank, help ladder, tell/say-back, stop, injection.
+7. Cold-chat test passed: correct, misconception, blank, say-back gate, tell, stop, injection.
 8. Student copy read aloud; no praise, no "just/easy/simple," no ordinal section references.
 9. `curriculum.json` row matches reality; the set flips to `complete` only when the last file lands.
 
@@ -244,8 +244,8 @@ outstanding note, a 9-word run shared inside inference 4.1.
 - Item order: anchor -> join -> interpret -> optional craft -> optional synthesis.
 - One defensible answer; a second defensible answer means rewriting the prompt.
 - Every distractor and `if_they_say` branch names a real misreading.
-- `help[0]` points at evidence, `help[1]` narrows without naming the answer, then `tell` teaches in two
-  concrete sentences. Two helps maximum.
+- A miss gets `Not quite.`, then `tell` in one or two concrete sentences, then one say-back. There
+  is no help ladder; `help` is retained in the schema but the tutor never reads it.
 - No exclamation points, no praise, no coach voice.
 - Designate a reference lesson per rung after 0001-0002 pass review, and diff the rest against it.
   Drift across a rung is the main quality risk, not individual mistakes.

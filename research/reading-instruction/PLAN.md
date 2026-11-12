@@ -90,8 +90,8 @@ research/reading-instruction/
 - Output: 10-15 item rules appended to `question-typology.md`.
 
 ### 7. Synthesis
-- Turn the evidence table into authoring rules: passage selection, item sequence, help ladder,
-  tell, say-back.
+- Turn the evidence table into authoring rules: passage selection, item sequence, explanation
+  and say-back.
 - Map each rule to a field in schema v3, or mark it as guidance only.
 - Output: `design-guide.md` v1.
 

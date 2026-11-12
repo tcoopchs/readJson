@@ -53,10 +53,9 @@ allowance is bounded:
 
 - the measured FK must still fall inside the Common Core band for the target grade (4.51-7.73 for a
   grade 4-5 target), so the stretch is at most about one grade;
-- every word above the band that carries evidence must be supported in `help[0]` or `tell`;
+- every word above the band that carries evidence must be supported in `tell`;
 - `reader.why_this_level` states the gap in plain words, for example: "Ideas are one-step and
-  concrete. Three words (porosity, karst, aquifer) are above the band and are supported in the first
-  help."
+  concrete. Three words (porosity, karst, aquifer) are above the band and are supported in `tell`."
 
 Never stretch more than one grade, and never stretch a text whose idea load is above the band. The
 two-axis rule still decides: language load may be traded down for topic quality, idea load may not.
@@ -243,6 +242,16 @@ judgment or evaluation is out of scope because it cannot be scored reliably agai
 Store the chain in `tutor_only.tell`, naming the facts in the passage and the conclusion they
 support.
 
+**3.1.6 The prompt names the move it grades.** Answer the prompt literally from the passage before
+storing a key. If the literal answer is defensible but the key wants a different level — an
+inference or a craft effect — the prompt is underspecified: rewrite it. A craft prompt names the
+word, phrase, or choice and asks what it does ("What does the phrase 'without a scratch' make the
+danger sound like?"), not a general "What does this show about the ride?" that a literal answer
+satisfies. Category stems: `vocab` quotes the word; `inference` names the facts or the unstated
+conclusion; `main_idea` names the part; `text_structure` names the relation and its signal;
+`argument_evidence` names the claim, reason, or evidence wanted. Full table: the skill's
+`references/question-design.md`.
+
 ### 3.2 Cloze items
 
 **3.2.1 The blank must be forced by context.** Test whether a reasonable student could choose a
@@ -280,8 +289,8 @@ required for separate adaptation rules.
 ## 4. Language and Tone
 
 **4.1 Write for the reader, not down to the reader.** `reader.tone` must state: "Adult subject.
-Plain sentences. The lesson must not make the reader feel small." Every prompt, confirm, help, and
-tell line must obey that tone.
+Plain sentences. The lesson must not make the reader feel small." Every prompt, confirm, tell, and
+say-back line must obey that tone.
 
 **4.2 Plain-language rules apply to all student-facing text.**
 
@@ -297,14 +306,17 @@ tell line must obey that tone.
 short sentences. "The food is not cold anymore. The milk is warm. The lettuce and ice cream are
 soft." Do not write textbook abstractions when concrete wording will do.
 
-**4.4 The help ladder is an attempt-gated gradient.** No help before an attempt. A request for the
-answer, the reason, or the next step is answered with the shared attempt line — "Write your answer
-first, even if you are not sure. Then I'll help." — which is protocol copy, never lesson copy, and
-never counts as a help. `help[0]` is a nudge toward the evidence. `help[1]` is a stronger but still
-non-answer-bearing nudge. Neither may name the answer or present a closed list that gives it away.
-No stored help may be skipped, and `tell` requires an answer given after the last help. Then use
-`tell` as the final authored explanation. A miss stays on the current item through this ladder,
-`tell`, and say-back. It never moves the student to another item or lesson mid-session.
+**4.4 A miss goes to the explanation and one say-back.** There is no help ladder. If the student
+asks for the answer, the reason, or the next step before answering, use the shared attempt line —
+"Write your answer first, even if you are not sure." — which is protocol copy, never lesson copy,
+and is not a help. A miss gets `Not quite.`, then `tutor_only.tell` (the complete authored
+explanation), then one request to say it back. A good say-back is `mercy`; a refusal (`no`, `idk`,
+blank), a literal restatement, or a non-answer is `open`. Ask for the say-back at most twice: once
+after `tell`, and once after a near-copy. Never mark `mercy` on a refusal. A miss stays on the
+current item through `tell` and the say-back; it never moves the student to another item or lesson
+mid-session. `help` and `if_they_say.ask` are retained in the schema but the tutor does not ask
+them; a matching `if_they_say` or `partial` is used only to recognize the misreading and go to
+`tell`.
 
 **4.5 The AI's voice is the teacher's voice.** The tutor sounds like a straightforward high-school
 teacher: short sentences, plain words, no baby talk, no cheerleading, no invented encouragement.
@@ -404,9 +416,9 @@ inference: 3.1 -> 4.1 -> 4.2 -> 4.3 -> 5.1 -> 5.2 -> 5.3 -> ...
 
 A move never changes the category. It follows the evidence, not the lesson count:
 
-- **Up** when 2 of the last 3 lessons in the rung reach 4 or more of 5 items with no help.
-- **Down** when 2 of the last 3 reach 3 or fewer, or when the anchor item — the first item — needed a
-  help or reached `tell`.
+- **Up** when 2 of the last 3 lessons in the rung reach 4 or more of 5 unaided items.
+- **Down** when 2 of the last 3 reach 3 or fewer, or when the anchor item — the first item — was not
+  unaided (mercy or open; `helped` is unused).
 - **Stay** in every other case, and take the next sequence in the rung. This is the normal state;
   the rung is a place a student lives for weeks, not a turnstile.
 - At most one move per day. Two down-moves in a row holds the ladder and alerts a teacher instead of
@@ -486,9 +498,9 @@ v2|from=<lesson_id>|done=<items-with-a-result>|u=<unaided>|h=<helped>|m=<mercy>|
 
 `an` is 1 only when the anchor item was marked unaided, otherwise 0. `u+h+m+o` must equal `done`.
 **The anchor item is the first item in the lesson**, the literal or part-level move every lesson opens
-with; no separate field marks it, and a lesson has exactly one. Any result other than unaided — helped,
-mercy, or open — fails the anchor, so a clear needs 4 unaided items including the first, and a helped
-first item records the lesson as a hard fail. For a stopped session the line appends `|stop=1`. A referenced runtime lesson must exist before its
+with; no separate field marks it, and a lesson has exactly one. Any result other than unaided — mercy
+or open; `helped` remains in the format but is never produced — fails the anchor, so a clear needs 4
+unaided items including the first, and a mercy or open first item records the lesson as a hard fail. For a stopped session the line appends `|stop=1`. A referenced runtime lesson must exist before its
 route is published; otherwise server startup fails.
 
 **7.5 Stopped sessions return to the same lesson.** `stopped.next_file` must name the current
@@ -511,9 +523,8 @@ carry=<stage>.<lessons-in-rung>.<history>.<downs>
 - A missing or unreadable carry means the first sequence of that rung. Losing the link costs at most
   two lessons of evidence and never moves a student up.
 - A replayed carry buys a repeated lesson, never a skipped one.
-- The ticket also reports the per-item result counts and whether an anchor item needed help. "No
-  help" and "anchor item" cannot be decided from `got_there` alone, which counts unaided and helped
-  together.
+- The ticket reports the per-item result counts and whether the anchor item was unaided. `got_there`
+  counts unaided and helped; `helped` is 0 in the live flow, so `got_there` equals unaided.
 - No database, no account, no student record. A carry field is not a data model: nothing may be
   built on it that needs history longer than three lessons.
 
@@ -529,11 +540,12 @@ passage that support the answer. If you cannot point to the evidence, the item i
 **8.3 Write the item.** Add the prompt, answer and reasoning, specific distractors, `show_part`, and
 the primary skill and difficulty tags.
 
-**8.4 Write the help ladder and tell.** Nudge toward the evidence, narrow without giving the answer,
-then teach with the complete authored explanation.
+**8.4 Write the explanation and the say-back.** Write `tell` as the complete authored explanation in
+one or two short sentences. Set `say_back` to `own_words` or `use_word` (with `word`). `help` is
+retained in the schema but the tutor never reads it.
 
-**8.5 Write the misreading branches.** Name the specific misconception and author the response for
-it.
+**8.5 Write the misreading branches.** Name the specific misconception. A matching `if_they_say` or
+`partial` routes to `tell`; its `ask` is retained for authoring and review but is not spoken.
 
 **8.6 Write the three route destinations.** Choose the exact next lesson for success, the exact
 later lesson for retry, and the current lesson for an early stop. Use the destination's
@@ -547,9 +559,9 @@ generated runtime file. Run the compiler again with `--check` after review to co
 and generated file still match.
 
 **8.8 Test cold.** Upload the compiled runtime lesson to the AI and complete a full session. Test
-correct answers, misconceptions, blank answers, the help ladder, tell and say-back, stopping, and
-prompt injection. Fix every point where the tutor improvises, chooses a destination, or discloses
-private data.
+correct answers, misconceptions, blank answers, the say-back gate (good, refusal, literal,
+near-copy), stopping, and prompt injection. Fix every point where the tutor improvises, chooses a
+destination, or discloses private data.
 
 **8.9 Read every student-facing line aloud.** Check for condescension, worksheet cliches, vague
 language, and unsupported claims.
@@ -579,10 +591,10 @@ exist to make files consistent and defensible; they do not replace knowledge of 
 - [ ] Any work expected to carry a whole rung yields six disjoint passages of 100-200 words.
 - [ ] 100-200 words per passage part unless an exception is documented.
 - [ ] Every item has one defensible answer, a reasoning chain, and specific misreadings.
+- [ ] The prompt names the move it grades; a literal answer fails the prompt.
 - [ ] Every evidence-dependent item has the correct `show_part`.
-- [ ] The help ladder does not reveal the answer.
-- [ ] No help line can be reached without a student attempt, and `tell` needs an answer after the
-      last help.
+- [ ] No help line is used; a miss goes to `tell` and one say-back.
+- [ ] A refusal, literal restatement, or non-answer closes the item `open`; never `mercy`.
 - [ ] Student-facing language is plain, direct, and non-condescending.
 - [ ] There is one primary skill and no more than one secondary skill.
 - [ ] `advance`, `retry`, and `stopped` destinations are explicit.

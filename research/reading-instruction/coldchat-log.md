@@ -1,5 +1,8 @@
 # Cold-Chat Log
 
+> **Historical log.** Entries before 2026-11-11 describe the retired help ladder. The live flow is
+> `Not quite.` → `tell` → one say-back; a refusal or literal restatement closes `open`.
+
 The check `DESIGN_RULES` 8.8 requires: give a fresh model only the served lesson file, run a
 complete session, and fix anything the tutor improvises, leaks, or decides on its own.
 

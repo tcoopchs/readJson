@@ -382,7 +382,7 @@ follows "rain picks up gas" to "water is slightly acidic" to "rock dissolves." A
 topic is one people actually wonder about, which is the point of 1.2.1.
 
 **Cautions.** `karst`, `porosity`, `aquifer`, and `soluble` are above the band and each must be
-supported in `help[0]` or `tell`. The page's light voice ("Don't worry though!") stays out of student
+supported in `tell`. The page's light voice ("Don't worry though!") stays out of student
 copy.
 
 ---

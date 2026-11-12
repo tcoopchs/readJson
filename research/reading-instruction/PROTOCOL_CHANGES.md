@@ -61,9 +61,9 @@ immediate corrective feedback: one explanation, one say-back, next question.
    names the referent error. This is authoring per known confusion, not a catalog rewrite.
 4. **Copy audit.** Some `tell` strings are tutor instructions, not student copy. Grant item 4 is
    the example: "Point to the sentence… Explain that…" would be read aloud.
-5. **Docs are stale.** `DESIGN_RULES` 6.4/8.3 and the `readjson-lessons` skill still describe the
-   help ladder, attempt-before-help, and the `helped` category. The protocol is now the source of
-   truth; the docs need a follow-up pass.
+5. **Docs are aligned.** `DESIGN_RULES` 4.4/8.4, the question-design rules, the skill, and the
+   cold-chat test now describe the one-explanation + say-back flow. Historical logs keep their old
+   entries under a banner.
 6. **Cross-model behavior.** Gemini was the model in the observed exchange. DeepSeek follows the
    new flow; `gpt-4o-mini` prints script keys literally and skips the ready line. The outcome
    words are now spelled out for that reason.
