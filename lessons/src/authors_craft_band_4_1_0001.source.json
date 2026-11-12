@@ -1,0 +1,254 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "authors_craft_band_4_1_0001",
+  "meta": {
+    "status": "published",
+    "title": "The Word at the Well-House",
+    "skill": "authors_craft",
+    "irl_grade": 4,
+    "stage": 1,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "topic_domain": "classic education",
+    "skill_frame": "Author's craft: read how the writer uses sensory words to bring a moment back.",
+    "reader": {
+      "who": "Older students who read at about a fourth-grade level.",
+      "reading_level": 4,
+      "why_this_level": "Measured part_1 108w at FK 6.1, part_2 111w at FK 5.5. The load is sensory words, a long sentence with a dash, and the shift from action to realization.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from Helen Keller, \"The Story of My Life\" (1903), Chapter IV, under DESIGN_RULES 2.5.",
+      "attribution": "Keller, Helen. The Story of My Life. 1903. Project Gutenberg eBook #2397, https://www.gutenberg.org/ebooks/2397, accessed 2026-11-11. Public domain in the United States.",
+      "text_status": "Adapted, reading load reduced.",
+      "adaptation": "Split the episode into two parts, changed 'Some one' to 'Someone', used an em dash, and simplified a few rare words; kept the author's sensory words; no facts added.",
+      "survey": "A blind and deaf girl learns the word 'water' at a well-house.",
+      "avoided": "No invented details about the teacher or the place."
+    },
+    "session": {
+      "scope": "bank",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "sensory words, a long sentence with a dash, and the shift from action to realization"
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "I felt my teacher sweep the pieces of the broken doll to one side of the hearth. I was glad the cause of my discomfort was gone. She brought me my hat, and I knew I was going out into the warm sunshine. We walked down the path to the well-house, drawn by the fragrance of the honeysuckle that covered it. Someone was drawing water, and my teacher placed my hand under the spout. As the cool stream gushed over one hand, she spelled into the other the word water, first slowly, then rapidly. I stood still, my whole attention fixed on the motions of her fingers.",
+    "part_2": "Suddenly I felt a strange feeling, as of something forgotten—a thrill of returning thought. Somehow the mystery of language opened to me. I knew then that \"w-a-t-e-r\" meant the wonderful cool something flowing over my hand. That living word awakened my soul; it gave me light, hope, and joy, and set me free. There were still barriers, but they could be swept away in time. I left the well-house eager to learn. Everything had a name, and each name gave birth to a new thought. As we walked back to the house, everything I touched seemed alive. I saw everything with a strange, new sight."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What did the teacher do with Helen's hand at the well-house?",
+      "tutor_only": {
+        "confirm": "She placed one hand under the spout and spelled 'water' into the other.",
+        "correct_reason": "The passage says the teacher placed Helen's hand under the spout and spelled into the other hand as the water gushed.",
+        "tell": "The teacher put one hand under the water and spelled the word into Helen's other hand.",
+        "help": [
+          "Find the sentence that begins 'Someone was drawing water.'",
+          "Notice what the teacher did with each of Helen's hands."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The teacher held Helen's hand under the water and spelled 'water' into her other hand.",
+        "accept_ideas": [
+          "She placed one hand under the spout and spelled into the other.",
+          "The teacher spelled 'water' into Helen's hand while the water ran.",
+          "Helen's hand was under the water and the teacher spelled into her other hand."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Naming the well-house",
+          "Explaining who was drawing water",
+          "Describing the honeysuckle"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say the teacher was only drawing water.",
+            "ask": "Who was drawing the water? What did the teacher do with Helen's hand?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What two things happened at the same time at the well-house?",
+      "tutor_only": {
+        "confirm": "Cool water gushed over one hand while the teacher spelled 'water' into the other.",
+        "correct_reason": "The sentence says the cool stream gushed over one hand as the teacher spelled into the other.",
+        "tell": "The water ran over one hand while the teacher spelled the word into the other.",
+        "help": [
+          "Look at the sentence about the cool stream.",
+          "Notice the two things happening at once."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Water ran over one hand while the teacher spelled into the other.",
+        "accept_ideas": [
+          "Water gushed over one hand while the teacher spelled into the other.",
+          "The teacher spelled the word as the water ran over Helen's hand.",
+          "Helen felt the water and the spelling at the same time."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Naming the word 'water'",
+          "Explaining why the water was cool",
+          "Describing the honeysuckle"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They name only the water or only the spelling.",
+            "ask": "What was happening to Helen's other hand at the same time?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why did Helen stand still?",
+      "tutor_only": {
+        "confirm": "She was fixing all her attention on the teacher's fingers.",
+        "correct_reason": "The passage says she stood still with her whole attention fixed on the motions of the teacher's fingers.",
+        "tell": "Helen stood still because she was watching the teacher's fingers with all her attention.",
+        "help": [
+          "Find the sentence that begins 'I stood still.'",
+          "Notice what her attention was fixed on."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Helen stood still to give all her attention to the teacher's fingers.",
+        "accept_ideas": [
+          "She was watching the teacher's fingers.",
+          "She fixed her attention on the motions of the fingers.",
+          "She was trying to understand what the fingers were doing."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Naming the word 'water'",
+          "Explaining why she was blind",
+          "Describing the well-house"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say she was afraid or waiting for the water.",
+            "ask": "What was Helen's attention fixed on?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The writer uses 'warm,' 'fragrance,' 'cool,' and 'gushed.' What do these sensory words help you feel?",
+      "tutor_only": {
+        "confirm": "They help you feel the warm sun, the sweet smell of the honeysuckle, and the cool water.",
+        "correct_reason": "The words 'warm,' 'fragrance,' 'cool,' and 'gushed' appeal to touch and smell, so the moment feels vivid.",
+        "tell": "The sensory words let you feel the warm sun, smell the sweet honeysuckle, and feel the cool water.",
+        "help": [
+          "Find the words 'fragrance,' 'cool,' and 'gushed.'",
+          "Notice which senses they speak to."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The sensory words make the moment vivid by letting the reader feel the warmth, the sweet smell, and the cool water.",
+        "accept_ideas": [
+          "They help you feel the warm sun, the sweet smell, and the cool water.",
+          "They make the scene feel real.",
+          "They let you imagine being there.",
+          "They appeal to touch and smell."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Naming every sense",
+          "Explaining what a well-house is"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They define 'fragrance' or 'cool' without saying what the words do.",
+            "ask": "What do those words help you feel or smell in this moment?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "authors_craft",
+      "difficulty": 3,
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "How does the writer show that the word 'water' changed everything for her?",
+      "tutor_only": {
+        "confirm": "She calls it a 'living word' that awakened her soul and set it free.",
+        "correct_reason": "The passage says the living word awakened her soul, gave it light, hope, joy, and set it free.",
+        "tell": "The writer calls 'water' a living word that awakened her soul and set it free.",
+        "help": [
+          "Find the sentence that begins 'That living word.'",
+          "Notice what the word gave her."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The word 'water' awakened Helen's soul and set it free.",
+        "accept_ideas": [
+          "The word awakened her soul and set it free.",
+          "It gave her light, hope, and joy.",
+          "It opened language for her."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Naming every word she learned that day",
+          "Explaining how she learned to read",
+          "Describing the well-house"
+        ],
+        "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
+        "if_they_say": [
+          {
+            "when": "They say the word water is just a label for water.",
+            "ask": "What does the writer say the living word did to her soul?"
+          }
+        ]
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "authors_craft_band_4_1_0002",
+    "next_irl": 4,
+    "next_means": "This band has no higher rung yet.",
+    "student_line": "You have the move. The next reading is another craft lesson."
+  },
+  "retry": {
+    "next_file": "authors_craft_band_4_1_0003",
+    "next_irl": 4,
+    "next_means": "Another lesson in this band.",
+    "student_line": "The next reading is another craft lesson in this band."
+  },
+  "stopped": {
+    "next_file": "authors_craft_band_4_1_0001",
+    "next_irl": 4,
+    "next_means": "This same lesson, so it can be finished.",
+    "student_line": null
+  }
+}

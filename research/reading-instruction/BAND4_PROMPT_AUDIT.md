@@ -8,18 +8,18 @@ stored key wants a different level — an inference or a craft effect — the pr
 and is rewritten. If the literal fact is only the premise and the prompt asks what it shows, the
 item stays.
 
-## Authors_craft, band 4 — 5 lessons, 25 items
+## Authors_craft, band 4 — 6 lessons, 30 items
 
 | Lesson | Result |
 | --- | --- |
+| `authors_craft_band_4_1_0001` | All 5 pass. Item 4 names 'warm,' 'fragrance,' 'cool,' and 'gushed' and asks what they help you feel; the sensory effect is the key. Items 1-3, 5 are literal, join, inference, and synthesis. |
 | `authors_craft_band_4_1_0002` | Items 3 and 4 rewritten. Item 3 now asks what the crossing sentence shows **about the danger**; item 4 now asks what the plain phrase **makes the danger sound like**. Items 1, 2, 5 pass. |
 | `authors_craft_band_4_1_0003` | All 5 pass. Item 4 names the word choice; item 5 names the cause/effect shift. |
 | `authors_craft_band_4_1_0004` | All 5 pass. Item 3 quotes "paused"; item 4 quotes the repeated "fermentation"; item 5 names the change in approach. |
 | `authors_craft_band_4_1_0005` | All 5 pass. Item 2 asks how the warning is stronger; item 4 quotes the repeated "owner"; item 5 names the plan change. |
 | `authors_craft_band_4_1_0006` | All 5 pass. Item 1 quotes "almost always"; item 4 quotes the repeated "passed down"; item 5 names the admission. |
 
-The 4.1 set is 5/6: `_0001` moved to 12.1. The sixth lesson should be authored under the new
-prompt-stem rule.
+The 4.1 set is now 6/6: `_0001` is the new sensory-words lesson; the Poe lesson moved to 12.1.
 
 ## Authors_craft 12.1 — 1 lesson, 5 items
 
@@ -60,7 +60,7 @@ One new fix, one already-fixed Grant item, 22 pass.
 
 ## Totals
 
-- Authors_craft band 4: 25 items, 2 rewritten (Grant 3 and 4), 23 pass.
+- Authors_craft band 4: 30 items, 2 rewritten (Grant 3 and 4), 28 pass.
 - Authors_craft 12.1: 5 items, all pass.
 - Other band 4 candidates: 24 prompts, 1 new rewrite (tax list), 1 already fixed (Grant 3), 22 pass.
 - No batch rewrite of the other 122 band 4 lessons is justified by this pass. Bands 3 and 5 remain
