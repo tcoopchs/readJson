@@ -172,17 +172,18 @@
       "show_part_again": false,
       "prompt": "The writer says wet fruit is 'no use for jam.' What does that absolute phrase do to the risk?",
       "tutor_only": {
-        "confirm": "It makes the risk sound total: the fruit is not merely less good, it is ruined for jam.",
-        "correct_reason": "The warning is in the sentence 'Fruit gathered in wet or foggy weather will soon mildew and be no use for jam.' The words 'soon mildew' and 'no use' create a cautious, warned feeling.",
-        "tell": "The phrase says 'no use,' not 'less good.' It makes the risk sound total.",
+        "confirm": "Wet fruit is ruined for jam.",
+        "correct_reason": "The sentence 'Fruit gathered in wet or foggy weather will soon mildew and be no use for jam' says the fruit is no use at all, not merely less good.",
+        "tell": "The phrase says 'no use,' not 'less good.' Wet fruit is ruined for jam.",
         "help": [
           "Read the sentence about wet or foggy weather. Notice the words 'soon mildew' and 'no use.'",
           "Think about how those words make the dry-weather rule feel more serious."
         ],
         "say_back": "own_words",
-        "core_idea": "The absolute phrase makes the risk total: the fruit is ruined, not merely less good.",
+        "core_idea": "The phrase 'no use' makes wet fruit ruined for jam.",
         "accept_ideas": [
           "The fruit is ruined for jam.",
+          "Wet fruit spoils the jam.",
           "The risk is total, not partial.",
           "It is not merely less good; it is no use.",
           "Wet fruit is a complete loss for jam."
@@ -211,23 +212,24 @@
       "show_part_again": true,
       "prompt": "The opening argues why fruit must be kept. What does the last part add about the work?",
       "tutor_only": {
-        "confirm": "It shows the keeping itself is skilled work: judging syrup by signs and holding the fire.",
-        "correct_reason": "Part 1 gives broad reasons fruit is valuable and sugar is costly or uncertain. Part 3 gives exact syrup signs, careful measuring, and fire control so syrup does not boil over or burn.",
-        "tell": "The opening gives the reasons. The last part shows the skill: judging syrup by signs and controlling the fire.",
+        "confirm": "It shows the keeping itself is skilled work, not only the reason to keep fruit.",
+        "correct_reason": "The opening gives reasons fruit is valuable and sugar is costly. The last part turns to the work: 'as the syrup boils longer, its water will boil away' and 'the syrup does not boil over.'",
+        "tell": "The opening gives the reasons. The last part shows that the keeping itself is skilled work.",
         "help": [
           "The opening spends time on why fruit is valuable and why sugar is a problem.",
           "The last part spends time on measuring syrup by signs and controlling the fire."
         ],
         "say_back": "own_words",
-        "core_idea": "The last part shows the work itself: judging syrup by signs and holding the fire, not only why fruit is kept.",
+        "core_idea": "The last part shows the keeping itself is skilled work, not only why fruit should be kept.",
         "accept_ideas": [
           "It shows the work is skilled.",
+          "The last part is about the hard work of the syrup, not only why you keep fruit.",
           "It adds judging syrup by signs and holding the fire.",
-          "It shows the difficulty, not only the reason.",
-          "It explains the candy maker's signs and the fire."
+          "It shows the difficulty, not only the reason."
         ],
         "one_idea_is_enough": true,
         "not_required": [
+          "naming both the syrup signs and the fire",
           "naming every detail from part_2",
           "quoting the technical terms for syrup",
           "retelling all three parts in order",

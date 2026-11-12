@@ -190,14 +190,14 @@
             "when": "They define 'fragrance' or 'cool' without saying what the words do.",
             "ask": "What do those words help you feel or smell in this moment?"
           }
+        ],
+        "partial": [
+          {
+            "when": "the student says the words describe the garden or the place, without naming the senses",
+            "ask": "What do those four words name that a plain description of a garden would not?"
+          }
         ]
-      },
-      "partial": [
-        {
-          "when": "the student says the words describe the garden or the place, without naming the senses",
-          "ask": "What do those four words name that a plain description of a garden would not?"
-        }
-      ]
+      }
     },
     {
       "id": "5",
@@ -208,19 +208,20 @@
       "show_part_again": true,
       "prompt": "The writer calls 'water' a 'living word.' What does that phrase make the word seem to do?",
       "tutor_only": {
-        "confirm": "The phrase makes the word seem alive, able to wake her and set her free.",
-        "correct_reason": "The passage calls 'water' a 'living word' that awakened her soul and set her free, so the phrase gives the word life and power, not only a name.",
-        "tell": "She calls the word alive and says it awakened her soul. That makes water seem like a living thing.",
+        "confirm": "It makes the word a living thing that acts on her.",
+        "correct_reason": "The passage calls water a 'living word' that 'awakened my soul' and 'set me free,' so the phrase makes the word something that acts, not only a name.",
+        "tell": "She calls water a living word that awakened her soul, so the word acts.",
         "help": [
           "Find the sentence that calls 'water' a living word.",
           "Notice what the writer says that word did to her."
         ],
         "say_back": "own_words",
-        "core_idea": "The phrase makes the word seem alive, something that could wake her and set her free.",
+        "core_idea": "Calling water a living word makes the word a living thing that acts on her.",
         "accept_ideas": [
-          "It makes the word seem alive, like something that could wake her.",
-          "The word seems to act on her, not only name the water.",
-          "It makes water sound like a living thing that set her free."
+          "It brings the word to life.",
+          "It makes the word seem alive.",
+          "The word acts on her, not only names the water.",
+          "It woke her and set her free."
         ],
         "one_idea_is_enough": true,
         "not_required": [

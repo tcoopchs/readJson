@@ -251,14 +251,14 @@
             "when": "The student says the author only describes seeds in both parts.",
             "ask": "What does the opening ask you to see a bird do?"
           }
+        ],
+        "partial": [
+          {
+            "when": "the student gives the clearing of the pines as the answer without naming the change from picturing to explaining",
+            "ask": "What does the last part do that the opening does not?"
+          }
         ]
-      },
-      "partial": [
-        {
-          "when": "the student gives the clearing of the pines as the answer without naming the change from picturing to explaining",
-          "ask": "What does the last part do that the opening does not?"
-        }
-      ]
+      }
     }
   ],
   "advance": {

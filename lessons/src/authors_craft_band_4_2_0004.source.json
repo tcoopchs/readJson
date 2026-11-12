@@ -168,11 +168,11 @@
       "prompt": "The crank will 'catch,' then you 'lift upward with a quick swing.' What do the two verbs show?",
       "tutor_only": {
         "confirm": "Two stages: the catch as it engages, then the quick arc of the swing.",
-        "correct_reason": "The verbs 'catch' and 'swing' let the reader feel the crank engage and the quick arc of the pull.",
+        "correct_reason": "The sentence says to push until you feel the crank 'catch,' then 'lift upward with a quick swing,' so the two verbs split one pull into an engage and an arc.",
         "tell": "'Catch' is the moment it engages. 'Swing' is the quick arc of the pull.",
         "help": [
-          "Read the two places where the author says 'throw on.'",
-          "Think about how that word makes the switch action feel."
+          "Find the words 'catch' and 'swing' in the crank sentence.",
+          "Name what each word does in the pull."
         ],
         "say_back": "own_words",
         "core_idea": "'Catch' is the moment the crank engages; 'swing' is the quick arc of the pull, so the two verbs split one action into stages.",
@@ -191,16 +191,16 @@
         "if_they_say": [
           {
             "when": "They say the verbs only mean 'turn the crank.'",
-            "ask": "What do 'catch' and 'swing' let you feel that 'turn' does not?"
+            "ask": "What do 'catch' and 'swing' each do in the pull?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "the student describes a general picture of starting an old car, or says the verbs only mean how to start it",
+            "ask": "What do the words 'catch' and 'swing' show about the pull itself?"
           }
         ]
-      },
-      "partial": [
-        {
-          "when": "the student describes a general picture of starting an old car",
-          "ask": "What do the words 'catch' and 'swing' show about the pull itself?"
-        }
-      ]
+      }
     },
     {
       "id": "5",
@@ -237,6 +237,12 @@
           {
             "when": "They say the last part repeats the steps.",
             "ask": "What does the last part explain that the opening does not?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "The student names a control, such as the spark or the carb, without saying the writer has moved from steps to reasons and warming.",
+            "ask": "The opening lists steps. What kind of writing does the last part add?"
           }
         ]
       }

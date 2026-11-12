@@ -167,22 +167,22 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "The writer says 'thousands upon thousands of little workers.' What does that make the hive feel like?",
+      "prompt": "The writer says 'thousands upon thousands of little workers.' What does that doubling do to the number?",
       "tutor_only": {
-        "confirm": "So many they cannot be counted — a crowd, like a city's, rather than a colony you could number.",
-        "correct_reason": "The doubled phrase 'thousands upon thousands' makes the bees feel too many to count, like a city crowd.",
-        "tell": "The phrase doubles 'thousands.' It makes the bees feel too many to count, like a city crowd.",
+        "confirm": "It makes the bees too many to count, a crowd rather than a number.",
+        "correct_reason": "The opening calls the hive a 'bee-city' because 'thousands upon thousands of little workers' live in it, so the doubled phrase puts the number past counting.",
+        "tell": "The phrase doubles 'thousands.' The bees are too many to count, like a city.",
         "help": [
-          "Think of a building with levels, like a house.",
-          "The hive has a floor, a door, and a roof too."
+          "Find the phrase that says 'thousands' twice.",
+          "Ask whether that number could be counted."
         ],
         "say_back": "own_words",
-        "core_idea": "The doubled phrase makes the population feel too many to count, like a city crowd.",
+        "core_idea": "Doubling 'thousands' makes the bees too many to count, a city crowd rather than a number.",
         "accept_ideas": [
-          "Too many to count.",
+          "Too many bees to count.",
           "A huge crowd, like a city.",
           "More bees than you could number.",
-          "A crowd of little workers, not a small colony."
+          "A crowd of workers, not a colony you could count."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -194,7 +194,13 @@
         "if_they_say": [
           {
             "when": "They say it means there are exactly two thousand bees.",
-            "ask": "What does 'thousands upon thousands' make the number feel like?"
+            "ask": "What does saying 'thousands' twice do to the count?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "The student says the hive feels busy, alive, or huge, without saying the number is beyond counting.",
+            "ask": "What does saying 'thousands' twice do to the count?"
           }
         ]
       }
@@ -208,22 +214,23 @@
       "show_part_again": true,
       "prompt": "How does the writer's approach change from the opening to the last part?",
       "tutor_only": {
-        "confirm": "The writer moves from a big-picture view of the hive to a close look inside the most important chamber.",
-        "correct_reason": "Part 1 says 'I hope to tell you how this city is built' and describes the hive's outside and three storeys; part 3 turns to 'the most important' third chamber and explains combs, nurseries, and frames inside.",
-        "tell": "The opening gives the whole hive and a preview. The last part zooms inside the most important chamber.",
+        "confirm": "The writer moves from a wide view of the hive to a close look inside.",
+        "correct_reason": "The opening says 'I hope to tell you how this city is built' and describes the hive's outside and three storeys; the last part turns to the combs and nurseries inside.",
+        "tell": "The opening gives the whole hive. The last part looks closely at what is inside.",
         "help": [
           "The opening starts with the whole hive. The last part stays inside one chamber."
         ],
         "say_back": "own_words",
-        "core_idea": "The writer begins with a broad preview and outside view of the hive, then narrows to a detailed inside view of the most important chamber.",
+        "core_idea": "The writer moves from a wide view of the whole hive to a close look at what is inside.",
         "accept_ideas": [
-          "Part 1 gives a big-picture preview and outside view; part 3 gives a close inside look at the main chamber.",
-          "The writer moves from describing the hive as a whole to explaining the important inside parts.",
-          "Part 1 introduces the hive and its storeys; part 3 focuses on the third chamber's combs and nurseries."
+          "He starts with the whole hive, then looks closely inside.",
+          "The opening is a wide view. The last part is a close look at the inside.",
+          "He moves from the outside of the hive to what is inside it."
         ],
         "one_idea_is_enough": true,
         "not_required": [
           "Naming every hive part",
+          "Naming the most important chamber",
           "Quoting exact sentences",
           "Mentioning the bee-city comparison",
           "Explaining how bees make wax"

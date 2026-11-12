@@ -169,18 +169,20 @@
       "show_part_again": false,
       "prompt": "The writer asks, 'What were we to do?' instead of saying what they did. What does the question do that a statement would not?",
       "tutor_only": {
-        "confirm": "It asks in the leaders' own voice and leaves the problem unanswered.",
-        "correct_reason": "The question comes right after the needs crowd in; it asks the reader to feel how hard the leaders' problem was.",
-        "tell": "The writer asks what they could do and does not answer, so the problem stands as theirs.",
+        "confirm": "It leaves the problem unanswered, instead of saying what they did.",
+        "correct_reason": "Right after the needs crowd in, the writer asks 'What were we to do?' and does not say what they did, so the problem stays open.",
+        "tell": "The writer asks what they could do and does not answer, so the problem stays open.",
         "help": [
-          "Look at what the man does right before he says he is called to preach. Think about why the author makes his call come suddenly during hard work."
+          "Find the question 'What were we to do?'",
+          "Notice that the next sentences do not answer it."
         ],
         "say_back": "own_words",
-        "core_idea": "Asking instead of telling puts the question in the leaders' voice and leaves the problem unanswered.",
+        "core_idea": "The question leaves their problem unanswered, where a statement would have said what they did.",
         "accept_ideas": [
           "it asks instead of answering",
-          "it shows they had no answer",
-          "it leaves the problem open in their voice"
+          "it shows they did not know what to do",
+          "it leaves the problem open",
+          "it shows they had no answer yet"
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -191,16 +193,16 @@
         "if_they_say": [
           {
             "when": "They say the question asks for a factual answer or a list of steps.",
-            "ask": "What does the question make you feel about the problem, not what answer does it expect?"
+            "ask": "Does the writer answer the question, or leave it open?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "the student says the question shows the leaders were worried or uncertain, without saying that nothing is answered",
+            "ask": "What does asking do here that telling would not?"
           }
         ]
-      },
-      "partial": [
-        {
-          "when": "the student says the question shows the leaders were worried, without naming that nothing is answered",
-          "ask": "What does asking do here that telling would not?"
-        }
-      ]
+      }
     },
     {
       "id": "5",

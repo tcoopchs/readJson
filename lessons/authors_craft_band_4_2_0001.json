@@ -172,22 +172,22 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "The writer uses short sentences: 'I wheeled around. I galloped...' What does that rhythm make the ride feel like?",
+      "prompt": "Short sentences like 'I wheeled around. I galloped.' What does that rhythm do to the ride?",
       "tutor_only": {
-        "confirm": "Fast and urgent \u2014 each sentence is one move, so the reader moves at the speed of the horse.",
-        "correct_reason": "The paragraph breaks the ride into short sentences; each sentence is one action, so the reader moves at the pace of the horse.",
-        "tell": "The short sentences come in quick beats. Each one is a move, so the ride feels fast and urgent.",
+        "confirm": "Each short sentence is one move, so the actions come one right after another.",
+        "correct_reason": "'I wheeled around. I galloped toward the hill again.' Each sentence is one action, so the moves follow with no pause between them.",
+        "tell": "Each short sentence is one move. The actions come one right after another.",
         "help": [
-          "Notice the short sentences that begin with \"I.\"",
-          "Think about how fast the ride feels when actions come one after another."
+          "Find the short sentences that each name one move.",
+          "Notice that the next move starts as soon as the last one ends."
         ],
         "say_back": "own_words",
-        "core_idea": "Short sentences make each move its own beat, so the ride feels fast and urgent.",
+        "core_idea": "Each short sentence is one move, so the actions come one right after another.",
         "accept_ideas": [
-          "Fast and urgent.",
-          "Each sentence is one move, so the reader moves quickly.",
-          "The short sentences make the ride feel quick.",
-          "The ride feels fast because the sentences are short."
+          "Each sentence is one move, so the ride goes fast.",
+          "The actions come one right after another.",
+          "One move per sentence, with no pause between them.",
+          "The short sentences put each move in its own beat."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -199,7 +199,13 @@
         "if_they_say": [
           {
             "when": "They say the short sentences make the ride feel calm.",
-            "ask": "What does the quick beat of each sentence make the ride feel like?"
+            "ask": "What does each short sentence contain?"
+          }
+        ],
+        "partial": [
+          {
+            "when": "The student says the ride feels exciting, urgent, or scary, without saying each sentence is one move.",
+            "ask": "What does each short sentence contain?"
           }
         ]
       },
