@@ -76,7 +76,7 @@
       "difficulty": 2,
       "show_part": "part_1",
       "show_part_again": false,
-      "prompt": "What does the tax list show about the mill?",
+      "prompt": "What does the tax list show about the state of the mill?",
       "tutor_only": {
         "confirm": "Right. The building was listed as empty and the wheel was gone.",
         "correct_reason": "The passage says a tax list from that year shows the building listed as empty and the mill wheel gone.",
