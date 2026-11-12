@@ -7,15 +7,16 @@
     "title": "What Were We to Do?",
     "skill": "authors_craft",
     "genre": "nonfiction",
-    "topic_domain": "classic education",
+    "topic_domain": "school founding",
     "skill_frame": "Author's craft: read how the writer uses rhetorical questions that make the reader feel the problem.",
     "source": {
       "basis": "Adapted from Booker T. Washington, Up from Slavery (1901), under DESIGN_RULES 2.5.",
       "attribution": "Washington, Booker T. Up from Slavery. 1901. Project Gutenberg eBook #2376, https://www.gutenberg.org/ebooks/2376, accessed 2026-11-11. Public domain in the United States.",
       "text_status": "Adapted, reading load reduced.",
-      "adaptation": "Extracted a single passage; the authoring pass will split long sentences and simplify rare words; no facts added.",
+      "adaptation": "The authoring pass split long sentences, dropped rare words, moved one sentence to keep the parts balanced, and removed a dialect aside; no facts added.",
       "survey": "A school for freed people has more students than rooms and no money to buy a campus.",
-      "avoided": "No invented details."
+      "avoided": "No invented details.",
+      "drafted_by": "LessonBot harness (DeepSeek 1017), adapted from the human source; source review completed"
     },
     "session": {
       "scope": "bank",
@@ -29,8 +30,8 @@
     "protocol_version": "1.0"
   },
   "passage": {
-    "part_1": "All these ideas and needs came at us at once, with a weight that seemed almost too much to bear. What were we to do? We had only the little old shack and the empty church that the good people of the town had kindly lent us for our teaching. The number of pupils was rising every day. The more we saw of them, and the more we went around the countryside, the more we saw that our work only partly did what the people really needed. These were the people we wanted to lift up by the pupils we should teach and send out to lead. The more we talked with the pupils, who came to us from many parts of the state, the more we found that many of them mostly wanted school so they would not have to work with their hands any longer.",
-    "part_2": "A story from Alabama shows this. A colored man was working in a cotton field on a hot July day. He suddenly stopped, looked toward the skies. Said: \u201cO Lawd, de cotton am so grassy, de work am so hard, and the sun am so hot dat I b\u2019lieve dis darky am called to preach.\u201d About three months after the school opened, when we were most anxious about our work, an old abandoned plantation came up for sale. It was about a mile from the town of Tuskegee. The mansion house\u2014or \u201cbig house,\u201d as it was called\u2014had been burned. The owners had lived there during slavery.",
+    "part_1": "All these ideas and needs came at us at once, with a weight that seemed almost too much to bear. What were we to do? We had only the little old shack and the abandoned church that the good people of the town had kindly lent us for our teaching. The number of pupils was rising every day. The more we saw of them, and the more we went around the countryside, the more we saw that our work only partly did what the people really needed. These were the people we wanted to lift up by the pupils we should teach and send out to lead.",
+    "part_2": "The more we talked with the pupils, who came to us from many parts of the state, the more we found that many of them mostly wanted school so they would not have to work with their hands any longer. About three months after the school opened, when we were most anxious about our work, an old abandoned plantation came up for sale. It was about a mile from the town of Tuskegee. The mansion house\u2014or \u201cbig house,\u201d as it was called\u2014had been burned. The owners had lived there during slavery. The old shack and the abandoned church were all the school had.",
     "part_3": "We looked the place over carefully. It seemed just what we needed to make our work effective and permanent. But how were we to get it? The price was only five hundred dollars. But we had no money. We were strangers in town and had no credit. The owner agreed to let us occupy the place if we paid two hundred and fifty dollars down. The other two hundred and fifty dollars had to be paid within a year. Although five hundred dollars was cheap for the land, it was a large sum when one did not have any part of it."
   },
   "items": [
@@ -116,21 +117,22 @@
       "difficulty": 2,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "What conclusion do the facts about the abandoned plantation support but not state?",
+      "prompt": "The pupils wanted school so they would not have to work with their hands. What does that tell you about what they thought school was for?",
       "tutor_only": {
-        "confirm": "The plantation could be a useful place for the school.",
-        "correct_reason": "The sentences 'an old abandoned plantation came up for sale' and 'when we were most anxious about our work' support this conclusion.",
-        "tell": "Use the sale timing and location. Say what it could mean for the school.",
+        "confirm": "They saw school as a way out of field work, not as learning for its own sake.",
+        "correct_reason": "The passage says many pupils wanted school so they would not have to work with their hands, which shows they saw it as an escape from field work.",
+        "tell": "The passage says many pupils wanted school so they would not have to work with their hands. That shows they saw school as a way out of field work.",
         "help": [
           "The plantation came up for sale near Tuskegee. Think about what that could offer the school.",
           "The sale happened when the school was anxious. Say what that might mean."
         ],
         "say_back": "own_words",
-        "core_idea": "The abandoned plantation may offer the school a place to use or grow.",
+        "core_idea": "They saw school as an escape from field work, not as learning for its own sake.",
         "accept_ideas": [
-          "The plantation could give the school a place to grow.",
-          "The sale might solve the school's need for space.",
-          "The abandoned land could be useful for the school."
+          "They wanted a way out of field work.",
+          "They saw school as an escape from farm work.",
+          "They did not want to work with their hands.",
+          "They thought school would lead to easier work."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -141,8 +143,8 @@
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
-            "when": "They say the passage states the plantation was bought.",
-            "ask": "What does the passage say happened after it came up for sale?"
+            "when": "They say the pupils wanted to learn for its own sake.",
+            "ask": "What does the passage say the pupils wanted school for?"
           }
         ]
       }
@@ -191,21 +193,22 @@
       "difficulty": 3,
       "show_part": "all",
       "show_part_again": true,
-      "prompt": "How does the writer's plan for the school's needs change from the opening to the last part?",
+      "prompt": "The opening piles up needs. What does the last part narrow the problem to?",
       "tutor_only": {
-        "confirm": "The writer moves from a broad space and teaching need to one property and how to pay for it.",
+        "confirm": "One property and one money problem.",
         "correct_reason": "Part_1 carries the broad need: the pupils were rising and the work only partly met what people needed. Part_3 carries the shift to a concrete plan and obstacle: the abandoned plantation seemed what they needed, but the price was five hundred dollars, they had no money, and the owner required two hundred and fifty dollars down and the rest within a year.",
-        "tell": "Part_1 shows a broad, urgent need for more space and better teaching. Part_3 narrows to one plantation and the problem of paying for it.",
+        "tell": "The opening lists many needs. The last part narrows them to one property and the money to buy it.",
         "help": [
           "The need in part_1 is broad and urgent.",
           "Part_3 names a place, a price, and a payment problem."
         ],
         "say_back": "own_words",
-        "core_idea": "The passage shifts from describing a general, urgent need to focusing on a specific solution and its practical funding obstacle.",
+        "core_idea": "The last part narrows the broad needs to one property and one money problem.",
         "accept_ideas": [
-          "The writer moves from a broad, urgent need for space to a specific property and a payment problem.",
-          "Part_1 describes many growing needs; part_3 focuses on one plantation and the cost.",
-          "The plan becomes more concrete: buy the old plantation, but finding $250 down and $250 within a year is hard."
+          "One property and its price.",
+          "One piece of land and the money problem.",
+          "A single property and how to pay for it.",
+          "The plantation and the five hundred dollars."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -216,8 +219,8 @@
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
-            "when": "They retell the $500 price without naming the change in focus.",
-            "ask": "What broad need from part_1 becomes a specific property and money problem in part_3?"
+            "when": "They say the last part lists many needs again.",
+            "ask": "What one property and what money problem does the last part name?"
           }
         ]
       }

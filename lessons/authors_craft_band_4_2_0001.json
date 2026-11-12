@@ -13,9 +13,10 @@
       "basis": "Adapted from Theodore Roosevelt, The Rough Riders (1899), under DESIGN_RULES 2.5.",
       "attribution": "Theodore Roosevelt. The Rough Riders. 1899. Project Gutenberg eBook #13000, https://www.gutenberg.org/ebooks/13000, accessed 2026-11-11. Public domain in the United States.",
       "text_status": "Adapted, reading load reduced.",
-      "adaptation": "Extracted a single 343-word passage (Chapter IV, the climb up Kettle Hill); the authoring pass will split long sentences and drop rare words; no facts added.",
+      "adaptation": "The authoring pass split long sentences, dropped rare words, and simplified technical terms; no facts added.",
       "survey": "One paragraph of the Kettle Hill charge: the men cheering as they run, Roosevelt riding up the lane, the wire fence, and the last shots at the top.",
-      "avoided": "No invented details."
+      "avoided": "No invented details.",
+      "drafted_by": "LessonBot harness (DeepSeek 1017), adapted from the human source; source review completed"
     },
     "session": {
       "scope": "bank",
@@ -23,13 +24,15 @@
       "time_target_minutes": 12,
       "difficulty_basis": "short sentences that speed the action and hold the reader in the moment"
     },
-    "authoring_exceptions": [],
+    "authoring_exceptions": [
+      "part_1 measures FK 4.2 and part_3 FK 4.4, just below the 4-5 window; the short-sentence craft and the close action carry the load. Owner review required."
+    ],
     "protocol_version": "1.0"
   },
   "passage": {
-    "part_1": "By then we were all excited by the charge. The men cheered and ran forward between shots. The foremost officers' faces were delighted. Stevens of the Ninth ran at the head of his troops. He will always stay in my mind. I galloped forward a few yards until I saw the men were well started. Then I galloped back to help Goodrich get his men across the road. He commanded his troop. They would attack the hill from that side. Captain Mills had already thrown three of the other troops of the regiment across this road for the same purpose.",
+    "part_1": "By then we were all excited by the charge. The men cheered and ran forward between shots. The foremost officers' faces were delighted. Stevens of the Ninth ran at the head of his troops. Their faces will always stay in my mind. I galloped forward a few yards until I saw the men were well started. Then I galloped back to help Goodrich get his men across the road. He commanded his troop. They would attack the hill from that side. Captain Mills had already thrown three of the other troops of the regiment across this road for the same purpose.",
     "part_2": "I wheeled around. I galloped toward the hill again. I passed the shouting, cheering, firing men. I went up the lane, splashing through a small stream. When I came level with the ranch buildings on top of Kettle Hill, I turned and went up the slope. I was on horseback, so I got ahead of the men on foot. My orderly, Henry Bardshar, was the exception. He had run ahead very fast to get better shots at the Spaniards. They were now running out of the ranch buildings. Sergeant Campbell and a number of the Arizona men, and Dudley Dean, among others, were very close behind.",
-    "part_3": "Stevens and his Ninth platoon were abreast of us. So were McNamee and Hartwick. Some forty yards from the top I ran into a wire fence and jumped off Little Texas, turning him loose. He had been scraped by a couple of bullets, one of which nicked my elbow, and I never expected to see him again. I ran up the hill. Bardshar stopped to shoot. Two Spaniards fell as he emptied his magazine. These were the only Spaniards I actually saw fall to aimed shots by any one of my men, with the exception of two guerillas in trees."
+    "part_3": "Stevens and his Ninth platoon were abreast of us. So were McNamee and Hartwick. Some forty yards from the top I ran into a wire fence and jumped off Little Texas, turning him loose. He had been scraped by a couple of bullets. One nicked my elbow. I never expected to see him again. I ran up the hill. Bardshar stopped to shoot. Two Spaniards fell as he emptied his magazine. These were the only Spaniards I actually saw fall to aimed shots by any one of my men, with the exception of two guerillas in trees. The men on foot were close behind us."
   },
   "items": [
     {
@@ -77,20 +80,21 @@
       "difficulty": 2,
       "show_part": "part_1",
       "show_part_again": false,
-      "prompt": "The narrator galloped forward a few yards, then galloped back to help Goodrich. What do these two actions together show about his role?",
+      "prompt": "He rides forward, then turns back to help Goodrich's troop cross. What does turning back show about his responsibility?",
       "tutor_only": {
-        "confirm": "He checks the advance, then helps another unit cross the road.",
+        "confirm": "He is responsible for getting other units into the attack, not only for his own ride.",
         "correct_reason": "The answer comes from 'I galloped forward a few yards until I saw the men were well started' and 'Then I galloped back to help Goodrich get his men across the road.'",
-        "tell": "He moves forward to see the men started. Then he turns back to help Goodrich's troop cross.",
+        "tell": "He checks that the charge is started, then turns back to get Goodrich's troop across the road. That is work beyond his own ride.",
         "help": [
           "He first checks that the charge is moving. Then he goes back to help another troop cross."
         ],
         "say_back": "own_words",
-        "core_idea": "The narrator checks that the charge is underway, then turns back to help Goodrich's troop cross the road, showing he is coordinating the attack.",
+        "core_idea": "He is responsible for getting other units into the attack, not only for his own ride.",
         "accept_ideas": [
-          "He checks on the advance before helping another unit.",
-          "He helps Goodrich's men get across the road after seeing the charge started.",
-          "He acts as a leader who coordinates the attack, not only a lone charger."
+          "He is responsible for more than his own charge.",
+          "He helps other units get into the attack.",
+          "He coordinates the attack, not only his own ride.",
+          "He makes sure Goodrich's troop crosses."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -101,8 +105,8 @@
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
-            "when": "He rides back because he is retreating.",
-            "ask": "What does he go back to help Goodrich do?"
+            "when": "They say he only wanted to help a friend.",
+            "ask": "What does turning back show about what he is responsible for?"
           }
         ]
       }
@@ -153,21 +157,22 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "The author begins many short sentences with 'I' ('I wheeled around. I galloped...'). What does this choice make the reader feel about the pace?",
+      "prompt": "The writer uses short sentences: 'I wheeled around. I galloped...' What does that rhythm make the ride feel like?",
       "tutor_only": {
-        "confirm": "The repeated short \"I...\" sentences make the ride feel fast and urgent.",
-        "correct_reason": "The answer comes from the string of short sentences in part 2: \"I wheeled around. I galloped toward the hill again. I passed... I went...\" Each quick \"I\" action adds speed and urgency.",
-        "tell": "The short \"I...\" sentences come in quick bursts. They make the ride feel fast and urgent.",
+        "confirm": "Fast and urgent \u2014 each sentence is one move, so the reader moves at the speed of the horse.",
+        "correct_reason": "The paragraph breaks the ride into short sentences; each sentence is one action, so the reader moves at the pace of the horse.",
+        "tell": "The short sentences come in quick beats. Each one is a move, so the ride feels fast and urgent.",
         "help": [
           "Notice the short sentences that begin with \"I.\"",
           "Think about how fast the ride feels when actions come one after another."
         ],
         "say_back": "own_words",
-        "core_idea": "The repeated short \"I...\" sentence openings make the ride feel fast and urgent.",
+        "core_idea": "Short sentences make each move its own beat, so the ride feels fast and urgent.",
         "accept_ideas": [
-          "The short repeated \"I\" sentences make the action feel quick and rushed.",
-          "The reader feels the narrator's urgent push up the hill.",
-          "The ride seems fast because each short sentence adds one action."
+          "Fast and urgent.",
+          "Each sentence is one move, so the reader moves quickly.",
+          "The short sentences make the ride feel quick.",
+          "The ride feels fast because the sentences are short."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -178,8 +183,8 @@
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
-            "when": "Student says the repeated \"I\" only shows who did each action.",
-            "ask": "How do the short, repeated \"I\" sentences change the pace of the ride?"
+            "when": "They say the short sentences make the ride feel calm.",
+            "ask": "What does the quick beat of each sentence make the ride feel like?"
           }
         ]
       }

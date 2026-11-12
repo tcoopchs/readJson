@@ -37,7 +37,7 @@
     {
       "sequence": 2,
       "title": "What Were We to Do?",
-      "domain": "classic education",
+      "domain": "school founding",
       "craft_focus": "rhetorical questions that make the reader feel the problem",
       "source_file": "washington_questions.txt",
       "source": {
@@ -67,7 +67,7 @@
     {
       "sequence": 4,
       "title": "Starting the Cold Engine",
-      "domain": "car repair",
+      "domain": "vintage engines",
       "craft_focus": "vivid verbs that make a mechanical step clear to picture",
       "source_file": "ford_starting.txt",
       "source": {
@@ -82,7 +82,7 @@
     {
       "sequence": 5,
       "title": "A Home Like a City",
-      "domain": "biology",
+      "domain": "beekeeping",
       "craft_focus": "figurative comparison: the hive as a city",
       "source_file": "biology_simile.txt",
       "source": {
@@ -97,8 +97,8 @@
     {
       "sequence": 6,
       "title": "The Warning in the Kitchen",
-      "domain": "cooking",
-      "craft_focus": "tone shift: the writer moves from calm instruction to a warning",
+      "domain": "preserving fruit",
+      "craft_focus": "absolute wording: the writer uses absolute words to raise the stakes",
       "source_file": "beeton_warning.txt",
       "source": {
         "basis": "Adapted from Isabella Beeton, The Book of Household Management (1861), under DESIGN_RULES 2.5.",

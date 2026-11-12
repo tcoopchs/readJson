@@ -7,7 +7,7 @@
     "title": "A Home Like a City",
     "skill": "authors_craft",
     "genre": "nonfiction",
-    "topic_domain": "biology",
+    "topic_domain": "beekeeping",
     "skill_frame": "Author's craft: read how the writer uses figurative comparison: the hive as a city.",
     "source": {
       "basis": "Adapted from Ellison Hawks, Bees, Shown to the Children (1912), under DESIGN_RULES 2.5.",
@@ -15,7 +15,8 @@
       "text_status": "Adapted, reading load reduced.",
       "adaptation": "Extracted a single 358-word passage from Chapter XX, 'The Hive', and removed one sentence that pointed to a plate ('The two kinds are shown in Plate XIV.'); the authoring pass will split long sentences and simplify rare words; no facts added.",
       "survey": "A 1912 children's nature book opens its chapter on the hive by calling it a bee-city, then explains the inside of the hive as a house: a door, three storeys, a roof, an extra storehouse, and nurseries for the young.",
-      "avoided": "No invented details."
+      "avoided": "No invented details.",
+      "drafted_by": "LessonBot harness (DeepSeek 1017), adapted from the human source; source review completed"
     },
     "session": {
       "scope": "bank",
@@ -75,23 +76,24 @@
       "type": "short_answer",
       "skill": "authors_craft",
       "difficulty": 2,
-      "show_part": "part_1",
-      "show_part_again": false,
-      "prompt": "The passage says wooden hives are replacing straw skeps and that a wooden hive is divided into three storeys. What do these two facts together show about wooden hives?",
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The wooden hive is built in storeys like a house. What can the keeper do with it?",
       "tutor_only": {
-        "confirm": "Wooden hives are more convenient and are built in levels like houses.",
+        "confirm": "Open it, narrow the door, and look inside \u2014 levels and a removable roof let him work the bees.",
         "correct_reason": "The sentence 'Some can still be seen in the country, but more convenient wooden hives are quickly replacing them' states that wooden hives are more convenient. The sentence 'like one of our own houses, it is divided into three storeys' shows their house-like levels.",
-        "tell": "Wooden hives are replacing straw skeps because they are more convenient. Their three storeys make them like small houses.",
+        "tell": "The hive is built in levels with a door and a roof. The keeper can narrow the door, lift the roof, and look inside.",
         "help": [
           "The passage calls wooden hives more convenient than straw skeps.",
           "It also says the wooden hive has three storeys like a house."
         ],
         "say_back": "own_words",
-        "core_idea": "Wooden hives are more convenient than straw skeps and are organized in levels like houses.",
+        "core_idea": "The house-like build lets the keeper open the hive, narrow the door, and look inside.",
         "accept_ideas": [
-          "Wooden hives are more convenient and have separate levels like a house.",
-          "The three storeys make the wooden hive house-like and easier to use.",
-          "Wooden hives replace skeps because their house-like design is more convenient."
+          "Open it and look inside.",
+          "Narrow the door and lift the roof.",
+          "Work the bees inside the hive.",
+          "Control the entrance and inspect the bees."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -104,8 +106,8 @@
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
-            "when": "They say wooden hives are used only because they are painted white.",
-            "ask": "Which sentence says wooden hives are more convenient than skeps?"
+            "when": "They say the keeper can only look at the outside.",
+            "ask": "What can the keeper do with the door and the roof?"
           }
         ]
       }
@@ -154,22 +156,22 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "The author calls the hive's bottom 'the lowest storey.' What does 'storey' make you picture?",
+      "prompt": "The writer says 'thousands upon thousands of little workers.' What does that make the hive feel like?",
       "tutor_only": {
-        "confirm": "The word 'storey' makes the hive seem like a house with levels, not just a box.",
-        "correct_reason": "The sentence \"Close to the floor of the hive, at the bottom of the lowest storey, is the door\" carries the answer: \"storey\" is a building word, and nearby \"floor\" and later \"roof\" make the hive seem like a house.",
-        "tell": "The word \"storey\" names a level in a building. It makes the hive seem like a house with floors.",
+        "confirm": "So many they cannot be counted \u2014 a crowd, like a city's, rather than a colony you could number.",
+        "correct_reason": "The doubled phrase 'thousands upon thousands' makes the bees feel too many to count, like a city crowd.",
+        "tell": "The phrase doubles 'thousands.' It makes the bees feel too many to count, like a city crowd.",
         "help": [
           "Think of a building with levels, like a house.",
           "The hive has a floor, a door, and a roof too."
         ],
         "say_back": "own_words",
-        "core_idea": "The word \"storey\" makes the hive seem like a human house or building with levels, not merely a box.",
+        "core_idea": "The doubled phrase makes the population feel too many to count, like a city crowd.",
         "accept_ideas": [
-          "a house",
-          "a building with levels",
-          "a home with floors and rooms",
-          "a human house rather than a plain box"
+          "Too many to count.",
+          "A huge crowd, like a city.",
+          "More bees than you could number.",
+          "A crowd of little workers, not a small colony."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -180,8 +182,8 @@
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
-            "when": "The student says \"storey\" only means a level in the hive.",
-            "ask": "Which nearby words like \"floor\" and \"roof\" make the hive seem like a house?"
+            "when": "They say it means there are exactly two thousand bees.",
+            "ask": "What does 'thousands upon thousands' make the number feel like?"
           }
         ]
       }

@@ -10,21 +10,22 @@
     "stage": 2,
     "sequence": 4,
     "genre": "nonfiction",
-    "topic_domain": "car repair",
+    "topic_domain": "vintage engines",
     "skill_frame": "Author's craft: read how the writer uses vivid verbs that make a mechanical step clear to picture.",
     "reader": {
       "who": "Older students who read at about a fourth-grade level.",
       "reading_level": 4,
-      "why_this_level": "Measured part_1 142w at FK 5.8, part_2 114w at FK 7.0, part_3 112w at FK 7.3. The load is vivid verbs that make a mechanical step clear to picture.",
+      "why_this_level": "Measured part_1 136w at FK 5.7, part_2 114w at FK 7.0, part_3 126w at FK 6.7. The load is vivid verbs and the order of a cold start.",
       "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
     },
     "source": {
       "basis": "Adapted from Ford Motor Company, Ford Manual for Owners and Operators of Ford Cars and Trucks (1919), under DESIGN_RULES 2.5.",
       "attribution": "Ford Motor Company. Ford Manual for Owners and Operators of Ford Cars and Trucks. 1919. Project Gutenberg eBook #46206, https://www.gutenberg.org/ebooks/46206, accessed 2026-11-11. Public domain in the United States.",
       "text_status": "Adapted, reading load reduced.",
-      "adaptation": "Extracted a single 384-word passage; the authoring pass will split long sentences and drop rare words; no facts added. Technical nouns are simplified to their function (magneto switch to spark switch, carburetor adjustment to carb knob); the actions and order are unchanged.",
+      "adaptation": "The authoring pass split long sentences, simplified technical nouns to their function, and kept the source's safety caution; no facts added.",
       "survey": "A 1919 Ford manual shows a driver how to work the starting crank by hand and then gives the numbered steps for starting the engine on a cold day.",
-      "avoided": "No invented details."
+      "avoided": "No invented details.",
+      "drafted_by": "LessonBot harness (DeepSeek 1017), adapted from the human source; source review completed"
     },
     "session": {
       "scope": "bank",
@@ -40,7 +41,7 @@
   "passage": {
     "part_1": "If the car has no built-in start, start the engine by moving the crank up at the front of the car. Take hold of the handle and push firmly toward the car until you feel the crank catch, then lift upward with a quick swing. When the engine is cool, prime the carb by a short pull on the small wire at the lower left front while giving the engine two or three quarter turns with the crank handle. To start a cold engine, turn the carb dash knob a fourth of a turn left. This lets a richer mix into the engine. Then hold out the prime rod and turn the crank six to eight one-quarter turns in a row. Or turn the motor over a few times with the built-in start.",
     "part_2": "A different way to start a hard-to-start cold engine is this: before you throw on the spark switch, (1) close the gas lever. (2) hold out the prime rod while you give the crank a few quick turns, or turn the motor over a few times with the starter, then let go of the prime rod, making sure it goes back all the way. (3) place the spark lever in about the third notch and move the gas lever up a few notches. (4) throw on the switch, making sure to get it on the side marked for spark. (5) give the crank one or two turns, or close the start switch, and the motor should start.",
-    "part_3": "After you start the motor, it is best to move the spark up eight or ten marks on the lever and let the motor go until it is fully hot. If you start with a cold motor, you will not have much power and may stall. The good thing about putting the switch on last, or after feeding gas first, is that when you throw on the switch and start the motor, you have plenty of gas in the engine to keep the motor going. This does away with the bother of the motor going on and off. After the motor is warmed up, move the carb knob back one-fourth turn."
+    "part_3": "After you start the motor, it is best to move the spark up eight or ten marks on the lever and let the motor go until it is fully hot. If you start with a cold motor, you will not have much power and may stall. The good thing about putting the switch on last, or after feeding gas first, is that when you throw on the switch and start the motor, you have plenty of gas in the engine to keep the motor going. This does away with the bother of the motor going on and off. After the motor is warmed up, move the carb knob back one-fourth turn. Careful: do not move the spark too far, or the engine may kick back."
   },
   "items": [
     {
@@ -86,21 +87,22 @@
       "difficulty": 2,
       "show_part": "part_1",
       "show_part_again": false,
-      "prompt": "The passage says turn the carb dash knob left for a richer mix. It then says turn the crank six to eight quick turns. What do these two steps together show about starting a cold engine?",
+      "prompt": "The carb knob goes left before the crank turns. What does that order tell you a cold engine needs?",
       "tutor_only": {
-        "confirm": "The knob adds a richer mix first, then quick crank turns start the cold engine.",
+        "confirm": "Fuel in the cylinder before the cranking — the turns only work once the richer mix is in.",
         "correct_reason": "The answer comes from the sentences 'To start a cold engine, turn the carb dash knob a fourth of a turn left. This lets a richer mix into the engine. Then hold out the prime rod and turn the crank six to eight quick turns of a fourth each in a row.'",
-        "tell": "The knob sends a richer mix into the engine. The quick crank turns then help the cold engine start.",
+        "tell": "The knob goes left first to send in a richer mix. Then the quick turns can start the cold engine.",
         "help": [
           "Name the step that adds a richer mix.",
           "Name the step that turns the crank."
         ],
         "say_back": "own_words",
-        "core_idea": "For a cold engine, the richer mix is added before repeated quick cranking.",
+        "core_idea": "The order shows the cold engine needs a richer mix before the cranking can start it.",
         "accept_ideas": [
-          "The richer mix goes in before the quick crank turns.",
-          "The quick crank turns follow the richer mix to start the cold engine.",
-          "A cold engine needs the knob turned left before repeated cranking."
+          "A richer mix before the cranking.",
+          "Fuel in the engine before the crank turns.",
+          "The carb knob must go left first.",
+          "The engine needs gas before it will catch."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -111,8 +113,8 @@
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
-            "when": "They say the knob alone starts the engine.",
-            "ask": "What must happen after the richer mix goes in?"
+            "when": "They say the order does not matter.",
+            "ask": "What does the knob do before the crank turns?"
           }
         ]
       }
@@ -122,23 +124,24 @@
       "type": "short_answer",
       "skill": "authors_craft",
       "difficulty": 2,
-      "show_part": "part_2",
-      "show_part_again": false,
-      "prompt": "The passage puts the spark switch on after priming and setting the levers. What does that order suggest about starting the engine?",
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "The passage puts the spark switch on last. Why would the writer save the switch for last?",
       "tutor_only": {
-        "confirm": "Fuel and lever settings should be ready before the spark switch is turned on.",
+        "confirm": "The engine already has gas when the spark arrives. Switching on first gives a dry start.",
         "correct_reason": "Steps 1–3 prime the engine and set the gas and spark levers before step 4 throws on the spark switch.",
-        "tell": "The steps prime the engine and set levers before the spark switch goes on. That order suggests fuel and settings must be ready before spark.",
+        "tell": "The switch goes on last so gas is already in the engine. If the spark comes first, the motor may start and stop.",
         "help": [
           "Look at what steps 1 through 3 do before step 4.",
           "Think about what the engine needs before the spark switch is thrown."
         ],
         "say_back": "own_words",
-        "core_idea": "The order shows fuel and lever settings must be prepared before the spark switch is turned on.",
+        "core_idea": "The switch goes on last so the engine already has gas when the spark arrives.",
         "accept_ideas": [
-          "Fuel and lever settings should be ready before the spark switch is turned on.",
-          "The engine needs priming before the spark switch is thrown.",
-          "Prepare the gas and levers first, then turn on the spark."
+          "So the engine has gas before the spark.",
+          "The gas must be in the engine first.",
+          "A dry start makes the motor stop and start.",
+          "The fuel needs to be ready before the spark."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -149,8 +152,8 @@
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
-            "when": "They say the spark switch should be on during priming.",
-            "ask": "What does step 4 say about when the switch goes on?"
+            "when": "They say the switch should go on first.",
+            "ask": "What does the engine need before the spark arrives?"
           }
         ]
       }
@@ -162,21 +165,22 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "The author uses the verb 'throw on' twice. What does this repeated choice make the switch action feel like?",
+      "prompt": "The crank will 'catch,' then you 'lift upward with a quick swing.' What do you picture?",
       "tutor_only": {
-        "confirm": "It makes the switch action feel quick and forceful, like one firm motion.",
-        "correct_reason": "The answer comes from 'before you throw on the spark switch' and '(4) throw on the switch.' The repeated verb 'throw' makes setting the switch feel abrupt and forceful rather than slow or gentle.",
-        "tell": "The writer says 'throw on.' The word makes the switch sound quick and forceful.",
+        "confirm": "The moment the crank engages and the arc of the pull — the reader feels the resistance and the motion.",
+        "correct_reason": "The verbs 'catch' and 'swing' let the reader feel the crank engage and the quick arc of the pull.",
+        "tell": "'Catch' shows the moment the crank engages. 'Swing' shows the quick arc of the pull.",
         "help": [
           "Read the two places where the author says 'throw on.'",
           "Think about how that word makes the switch action feel."
         ],
         "say_back": "own_words",
-        "core_idea": "The repeated phrase 'throw on' makes the spark switch action feel quick, forceful, and decisive.",
+        "core_idea": "The verbs let the reader feel the crank engage and the quick arc of the pull.",
         "accept_ideas": [
-          "quick and forceful",
-          "one firm, sudden motion",
-          "decisive, like flipping it hard"
+          "The crank catching and the quick pull.",
+          "The moment it engages and the arc of the swing.",
+          "You feel the resistance and the motion.",
+          "The crank catches, then the quick swing."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -187,8 +191,8 @@
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
-            "when": "They say it only means turning the switch on.",
-            "ask": "What does 'throw on' make the action feel like?"
+            "when": "They say the verbs only mean 'turn the crank.'",
+            "ask": "What do 'catch' and 'swing' let you feel that 'turn' does not?"
           }
         ]
       }
@@ -200,21 +204,22 @@
       "difficulty": 3,
       "show_part": "all",
       "show_part_again": true,
-      "prompt": "What does the writer start doing in the last part that the writer does not do in the opening?",
+      "prompt": "The opening gives start-up steps. What does the writer start doing in the last part?",
       "tutor_only": {
         "confirm": "The writer moves from giving start-up steps to explaining why the order works and what to do after starting.",
         "correct_reason": "Part 1's 'If the car has no built-in start...' gives start-up steps; part 3's 'After you start the motor...' gives after-start warming, and 'The good thing about putting the switch on last...' explains why the order helps.",
-        "tell": "The opening shows how to start the engine step by step. The last part explains the reason for the order and how to warm the motor.",
+        "tell": "The opening gives steps. The last part explains the reason for the order and how to warm the motor.",
         "help": [
           "Part 1 gives steps for getting the engine going.",
           "Part 3 explains why the order helps and what to do after it starts."
         ],
         "say_back": "own_words",
-        "core_idea": "The writer changes from giving start-up steps to explaining the reason for the order and giving after-start warming advice.",
+        "core_idea": "The last part explains why the order works and gives after-start warming advice.",
         "accept_ideas": [
-          "Part 1 gives step-by-step starting directions; part 3 explains why the switch-last order helps and gives warming advice.",
-          "The writer shifts from telling how to start to explaining the reason for the order and what to do after the motor starts.",
-          "Part 3 adds after-start warming and the benefit of feeding gas before the switch."
+          "It explains why the order works.",
+          "It gives advice for after the start.",
+          "It tells how to warm the motor.",
+          "It moves from steps to reasons and warming."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -225,8 +230,8 @@
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
-            "when": "The student says part_3 is only more starting steps.",
-            "ask": "What reason or after-start advice does part_3 add?"
+            "when": "They say the last part repeats the steps.",
+            "ask": "What does the last part explain that the opening does not?"
           }
         ]
       }

@@ -10,27 +10,28 @@
     "stage": 2,
     "sequence": 6,
     "genre": "nonfiction",
-    "topic_domain": "cooking",
-    "skill_frame": "Author's craft: read how the writer uses tone shift: the writer moves from calm instruction to a warning.",
+    "topic_domain": "preserving fruit",
+    "skill_frame": "Author's craft: read how the writer uses absolute words to raise the stakes.",
     "reader": {
       "who": "Older students who read at about a fourth-grade level.",
       "reading_level": 4,
-      "why_this_level": "Measured part_1 115w at FK 7.4, part_2 109w at FK 5.6, part_3 96w at FK 6.9. The load is tone shift: the writer moves from calm instruction to a warning.",
+      "why_this_level": "Measured part_1 115w at FK 7.4, part_2 109w at FK 5.6, part_3 104w at FK 6.5. The load is absolute wording: 'no use for jam', 'great care', and 'must not burn'.",
       "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
     },
     "source": {
       "basis": "Adapted from Isabella Beeton, The Book of Household Management (1861), under DESIGN_RULES 2.5.",
       "attribution": "Beeton, Isabella. The Book of Household Management. 1861. Project Gutenberg eBook #10136, https://www.gutenberg.org/ebooks/10136, accessed 2026-11-11. Public domain in the United States.",
       "text_status": "Adapted, reading load reduced.",
-      "adaptation": "Extracted a single 361-word passage and removed the paragraph number; the authoring pass will split long sentences and drop rare words; no facts added.",
+      "adaptation": "The authoring pass split long sentences, simplified rare words, and restored the source's warning as an instruction; no facts added.",
       "survey": "A household manual explains why fruit is preserved and how it should be picked and stored, then how long boiling thickens the syrup, and ends with a sharp caution about the fire.",
-      "avoided": "No invented details."
+      "avoided": "No invented details.",
+      "drafted_by": "LessonBot harness (DeepSeek 1017), adapted from the human source; source review completed"
     },
     "session": {
       "scope": "bank",
       "item_target": 5,
       "time_target_minutes": 12,
-      "difficulty_basis": "tone shift: the writer moves from calm instruction to a warning"
+      "difficulty_basis": "absolute wording: 'no use for jam', 'great care', 'must not burn'"
     },
     "authoring_exceptions": []
   },
@@ -40,7 +41,7 @@
   "passage": {
     "part_1": "Fruit is a key item for health. The food lover can hardly have any treats without it. So, since it is so valuable, when we cannot have it fresh, we must keep it. It has long been a goal to keep fruit by some cheap method, but by one that would still keep it fit for cooking uses, like making tarts and other similar dishes. The cost of keeping them with sugar is a serious problem; for, unless the sugar is used in large amounts, success is very uncertain. Sugar is also too strong for and destroys the slightly sour taste so wanted in many fruits: those kept this way are mainly meant for dessert.",
     "part_2": "Fruit you plan to keep should be gathered in the morning, in dry weather, with the morning sun on it if possible. It will then have its fullest flavour and stay good longer than fruit gathered at any other time. Until fruit can be used, put it in the dairy, an ice-house, or the fridge. In an icehouse it will remain fresh and plump for several days. Fruit gathered in wet or foggy weather will soon mildew and be no use for jam. The fruit is the first and biggest part of making jam. Next comes the syrup the fruit will sit in, and this needs much care.",
-    "part_3": "In the candy maker's art, it is very important to measure the strength of the syrup exactly for each case. They know this by signs, and express it by certain technical terms. But to tell these apart properly requires very great attention and much practice. The main thing to know is that, as the syrup boils longer, its water will boil away, and it will become thicker. Great care must be taken in controlling the fire, so that the syrup does not boil over. The boiling is not carried so far as to burn the sugar."
+    "part_3": "In the candy maker's art, it is very important to measure the strength of the syrup exactly for each case. They know this by signs, and express it by certain technical terms. But to tell these apart properly requires very great attention and much practice. The main thing to know is that, as the syrup boils longer, its water will boil away, and it will become thicker. Great care must be taken in controlling the fire, so that the syrup does not boil over. Do not carry the boiling so far that the sugar burns. The candy maker judges the syrup by its signs."
   },
   "items": [
     {
@@ -88,24 +89,24 @@
       "type": "short_answer",
       "skill": "authors_craft",
       "difficulty": 2,
-      "show_part": "part_1",
-      "show_part_again": false,
-      "prompt": "The passage says sugar is costly and must be used in large amounts. It also says sugar destroys the slightly sour taste wanted in many fruits. What do these two facts together show about keeping fruit with sugar?",
+      "show_part": "all",
+      "show_part_again": true,
+      "prompt": "Sugar destroys the sour taste; sweet fruit is 'meant for dessert.' What should jam taste like?",
       "tutor_only": {
-        "confirm": "Together they show that keeping fruit with sugar is a serious problem for cooking uses.",
+        "confirm": "The fruit's own sour taste should survive — the syrup preserves the fruit, it does not sweeten it into a dessert.",
         "correct_reason": "The answer comes from the sentences 'The cost of keeping them with sugar is a serious problem; for, unless the sugar is used in large amounts, success is very uncertain' and 'Sugar is also too strong for and destroys the slightly sour taste so wanted in many fruits.' The first gives the cost and uncertainty; the second gives the taste damage.",
-        "tell": "Sugar costs a lot and must be used in large amounts. It also ruins the slightly sour taste wanted in many fruits.",
+        "tell": "The writer says sugar destroys the sour taste and sweet fruit is for dessert. So jam should keep the fruit's sour taste.",
         "help": [
           "The cost sentence says sugar is a serious problem. The taste sentence says sugar destroys a wanted flavour.",
           "Connect the problem of cost with the problem of ruined taste."
         ],
         "say_back": "own_words",
-        "core_idea": "Keeping fruit with sugar has both a cost problem and a taste problem, so it is not a good method for fruit wanted for cooking.",
+        "core_idea": "The fruit's own sour taste should survive; the syrup preserves it, not turns it into dessert.",
         "accept_ideas": [
-          "Keeping fruit with sugar is costly and can fail unless much sugar is used.",
-          "Sugar can destroy the slightly sour taste wanted in many fruits.",
-          "Sugar preservation is a serious problem for fruit meant for cooking.",
-          "The two facts show sugar keeping has cost and taste drawbacks."
+          "The fruit's sour taste should survive.",
+          "Jam should not taste like a sweet dessert.",
+          "The syrup should preserve the fruit, not sweeten it.",
+          "The fruit's own taste should come through."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -117,8 +118,8 @@
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
-            "when": "They say sugar keeping is cheap and always works.",
-            "ask": "Which sentence says the cost is a serious problem and success is uncertain?"
+            "when": "They say jam should be as sweet as dessert.",
+            "ask": "What does the writer say sugar does to the sour taste?"
           }
         ]
       }
@@ -130,21 +131,22 @@
       "difficulty": 2,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "What can you conclude about fruit picked in wet or foggy weather if you plan to make jam?",
+      "prompt": "Wet fruit 'will soon mildew and be no use for jam.' When does the care have to start?",
       "tutor_only": {
-        "confirm": "Fruit picked in wet or foggy weather will mildew and cannot be used for jam.",
+        "confirm": "Before the fruit reaches the pan — a spoiled pick cannot be saved by careful boiling.",
         "correct_reason": "Part 2 says, 'Fruit gathered in wet or foggy weather will soon mildew and be no use for jam.'",
-        "tell": "Wet or foggy weather makes fruit mildew soon. Such fruit will not work for jam.",
+        "tell": "The mildew line comes before the syrup steps. It shows the care starts in the picking, before the fruit reaches the pan.",
         "help": [
           "Think about what happens to fruit in wet or foggy weather.",
           "Use the line about mildew and jam."
         ],
         "say_back": "own_words",
-        "core_idea": "Fruit gathered in wet or foggy weather is unfit for jam because it mildews.",
+        "core_idea": "The care must start before the fruit is picked or reaches the pan; a spoiled pick cannot be saved later.",
         "accept_ideas": [
-          "It will mildew and be no use for jam.",
-          "Wet or foggy weather makes the fruit spoil and become unusable for jam.",
-          "The fruit is a bad choice for jam because it will mildew."
+          "Before the fruit is picked.",
+          "Before it reaches the pan.",
+          "At picking time, not at the boiling.",
+          "A spoiled pick cannot be saved by boiling."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -155,8 +157,8 @@
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
-            "when": "They say wet fruit is still fine for jam if washed.",
-            "ask": "What does part_2 say happens to fruit gathered in wet or foggy weather?"
+            "when": "They say the care starts when the syrup boils.",
+            "ask": "Where does the mildew warning come in the passage?"
           }
         ]
       }
@@ -168,21 +170,22 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "Wet fruit 'will soon mildew and be no use for jam.' What does that warning make you feel?",
+      "prompt": "The writer says wet fruit is 'no use for jam.' What does that absolute phrase make you feel?",
       "tutor_only": {
-        "confirm": "It makes wet weather feel risky, not just inconvenient.",
+        "confirm": "It makes the risk sound total: the fruit is not merely less good, it is ruined for jam.",
         "correct_reason": "The warning is in the sentence 'Fruit gathered in wet or foggy weather will soon mildew and be no use for jam.' The words 'soon mildew' and 'no use' create a cautious, warned feeling.",
-        "tell": "The phrase 'will soon mildew and be no use for jam' sounds like a warning. It makes wet weather feel like a threat to the fruit.",
+        "tell": "The phrase says 'no use,' not 'less good.' It makes the risk sound total.",
         "help": [
           "Read the sentence about wet or foggy weather. Notice the words 'soon mildew' and 'no use.'",
           "Think about how those words make the dry-weather rule feel more serious."
         ],
         "say_back": "own_words",
-        "core_idea": "The warning phrase makes the reader feel cautious about wet weather because it threatens the fruit with mildew and ruin.",
+        "core_idea": "The absolute phrase makes the risk total: the fruit is ruined, not merely less good.",
         "accept_ideas": [
-          "The warning makes wet weather feel risky or threatening.",
-          "It makes the reader cautious about picking fruit at the wrong time.",
-          "It makes the dry-weather rule feel serious."
+          "The fruit is ruined for jam.",
+          "The risk is total, not partial.",
+          "It is not merely less good; it is no use.",
+          "Wet fruit is a complete loss for jam."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -193,8 +196,8 @@
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
-            "when": "They say wet fruit mildews.",
-            "ask": "What feeling does the warning phrase create for the reader?"
+            "when": "They say the fruit is only a little worse.",
+            "ask": "What does 'no use for jam' say about how bad the fruit is?"
           }
         ]
       }
@@ -206,21 +209,22 @@
       "difficulty": 3,
       "show_part": "all",
       "show_part_again": true,
-      "prompt": "How does the writer's plan change from broad reasons to exact syrup steps?",
+      "prompt": "The opening argues why fruit must be kept. What does the last part add about the work?",
       "tutor_only": {
-        "confirm": "The writer starts with broad reasons and problems, then moves to exact syrup signs and fire cautions.",
+        "confirm": "It shows the keeping itself is skilled work: judging syrup by signs and holding the fire.",
         "correct_reason": "Part 1 gives broad reasons fruit is valuable and sugar is costly or uncertain. Part 3 gives exact syrup signs, careful measuring, and fire control so syrup does not boil over or burn.",
-        "tell": "The opening gives broad reasons and sugar problems; the last part gives exact syrup signs and fire cautions. The writer moves from why fruit matters to how to judge and control boiling syrup.",
+        "tell": "The opening gives the reasons. The last part shows the skill: judging syrup by signs and controlling the fire.",
         "help": [
           "Part 1 spends time on why fruit is valuable and why sugar is a problem.",
           "Part 3 spends time on measuring syrup by signs and controlling the fire."
         ],
         "say_back": "own_words",
-        "core_idea": "The writer starts with broad reasons and problems about keeping fruit, then shifts to precise syrup-making signs and cautions.",
+        "core_idea": "The last part shows the work itself: judging syrup by signs and holding the fire, not only why fruit is kept.",
         "accept_ideas": [
-          "Part 1 gives general reasons and sugar problems; part 3 gives exact syrup signs and fire cautions.",
-          "The writing changes from background about fruit and sugar to careful process steps and warnings.",
-          "It moves from explaining why fruit must be kept to telling how to judge and control boiling syrup."
+          "It shows the work is skilled.",
+          "It adds judging syrup by signs and holding the fire.",
+          "It shows the difficulty, not only the reason.",
+          "It explains the candy maker's signs and the fire."
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -232,8 +236,8 @@
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {
-            "when": "The student only says fruit is healthy and must be kept.",
-            "ask": "What does part_3 add about the writer's plan?"
+            "when": "They say the last part repeats the reasons.",
+            "ask": "What skill does the last part add?"
           }
         ]
       }
@@ -246,7 +250,7 @@
     "student_line": "You have the move. The next reading is another craft lesson."
   },
   "retry": {
-    "next_file": "authors_craft_band_4_2_0006",
+    "next_file": "authors_craft_band_4_2_0001",
     "next_irl": 4,
     "next_means": "Another lesson in this band.",
     "student_line": "The next reading is another craft lesson in this band."
