@@ -69,3 +69,18 @@ outcome depends on which model is the tutor.
      bar above the key. It now scores against `core_idea` or any single `accept_ideas` entry.
   2. An `accept_ideas` entry counts when the student says the same idea in fewer words, provided no
      quantity, negation, sequence, cause, or comparison changes.
+
+## Owner sample, round 3 (2026-11-13): item D, main idea
+
+Owner: C, M, M, M, C, M. All six agree with the models except D5, "People take less when they get to
+choose", which the owner credits and two of three models rejected.
+
+- **No rule changed this round.** D5 was a data gap: the accept list held "the shelves cut waste and
+  nobody took too much" but not the finding in the student's own words. Two accepts were added;
+  all three models then agreed.
+- **What D5 sets, as an interpretation:** a finding that names the change and what it did ("people
+  take less when they choose") counts as the central idea of this passage, even though it omits the
+  waste figure. A statement that only names the problem ("the pantry wasted a lot of food", D4) does
+  not, and neither does a detail that names the instrument (D2) or one group (D3).
+- Convergence signal: rounds 1 and 2 produced five changes (three rules, two protocol bugs). Round 3
+  produced one accept-list gap and no rule change.
