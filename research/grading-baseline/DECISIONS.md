@@ -53,6 +53,9 @@ outcome depends on which model is the tutor.
   task. Fixed by prompt ("Name one task …") and recorded as DESIGN_RULES 3.1.11. An answer that names
   the domain but no task ("He did stuff with the boats") is Not clear yet, not a miss: it names
   something from the passage that cannot be pinned down.
+- **A5 closed.** "He did stuff with the boats" is Not quite: a noun from the passage does not earn Not
+  clear yet when an empty verb carries the answer. Not clear yet needs a term that could be doing the
+  explaining ("it is a short turn"). Owner and all three tutor models now agree; the sample is 18 of 18.
 - **C (second bus).** Owner: C, C, C, U, M, M. This exposed that the item was marked
   `one_idea_is_enough: false` while its accepts credited one part — my earlier automated rule
   over-set the flag. 56 Band 4 items with a single-question prompt had the flag flipped back to true
