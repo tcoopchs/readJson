@@ -163,7 +163,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "A reader says the ad shows the course works for most students. Is that supported? Say which words in the passage decide it.",
+      "prompt": "A reader says the ad shows the course works for most students. Is that supported? Say why.",
       "tutor_only": {
         "confirm": "No. The ad names three successes and says nothing about the other twenty-eight.",
         "correct_reason": "The ad lists three successes from a class of thirty-one and says nothing about the rest, so it cannot show what is usual.",

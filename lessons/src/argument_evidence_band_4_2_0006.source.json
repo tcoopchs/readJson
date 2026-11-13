@@ -162,7 +162,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "The owner says the photos prove the roof is worn out. Is that supported? Say which words in the passage decide it.",
+      "prompt": "The owner says the photos prove the roof is worn out. Is that supported? Say why.",
       "tutor_only": {
         "confirm": "No. The photos show water and buckets, not the condition of the roof.",
         "correct_reason": "The photos show water and buckets inside the shop, and the memo reports no inspection of the roof itself.",

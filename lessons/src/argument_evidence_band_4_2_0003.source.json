@@ -162,7 +162,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "A customer says the sheet proves every field has clean water. Is that supported? Say which words in the passage decide it.",
+      "prompt": "A customer says the sheet proves every field has clean water. Is that supported? Say why.",
       "tutor_only": {
         "confirm": "No. Only one well was tested, so the other fields have no result.",
         "correct_reason": "The sheet reports a test of one well, and the other three wells serve the rest of the fields with no reported test.",

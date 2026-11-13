@@ -1,0 +1,9 @@
+{
+ "note": "The ten rewritten yes/no prompts. Verdict plus reason is the key; a bare verdict now misses, because the prompt asks why.",
+ "cases": [
+  {"id": "Y1", "lesson": "argument_evidence_band_4_2_0001", "item": "4", "answer": "No, only people boarding the bus received a card.", "expect": "CORRECT"},
+  {"id": "Y2", "lesson": "argument_evidence_band_4_2_0001", "item": "4", "answer": "No.", "expect": "MISS"},
+  {"id": "Y3", "lesson": "argument_evidence_band_4_3_0002", "item": "4", "answer": "No, the trial field also had manure and was planted earlier.", "expect": "CORRECT"},
+  {"id": "Y4", "lesson": "argument_evidence_band_4_3_0002", "item": "4", "answer": "No, it doesn't.", "expect": "MISS"}
+ ]
+}

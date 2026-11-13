@@ -160,7 +160,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "A reader says every person in town was asked. Does the notice support that? Say which words in the passage decide it.",
+      "prompt": "A reader says every person in town was asked. Does the notice support that? Say why.",
       "tutor_only": {
         "confirm": "No. The cards went only to passengers boarding the bus.",
         "correct_reason": "The notice says cards were handed to passengers as they got on the bus, so people who were not riding were not asked.",

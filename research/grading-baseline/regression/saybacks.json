@@ -1,0 +1,16 @@
+{
+ "note": "Scripted say-backs. The tell has already been said. expect: mercy / open / near_copy_1.",
+ "cases": [
+  {"id": "S1", "lesson": "authors_craft_band_4_1_0002", "item": "4", "answer": "it wasn't all that dangerous", "expect": "open", "why": "the denial; the 2026-11-13 grant defect"},
+  {"id": "S2", "lesson": "authors_craft_band_4_1_0002", "item": "4", "answer": "The horse was under fire, yet he says 'without a scratch'. The words make a dangerous ride sound like nothing happened.", "expect": "near_copy_1", "why": "the tell verbatim"},
+  {"id": "S3", "lesson": "authors_craft_band_4_1_0002", "item": "4", "answer": "he plays it down, like it was nothing", "expect": "mercy", "why": "correct paraphrase"},
+  {"id": "S4", "lesson": "authors_craft_band_4_1_0002", "item": "4", "answer": "he was safe", "expect": "open", "why": "literal restatement"},
+  {"id": "S5", "lesson": "authors_craft_band_4_1_0002", "item": "4", "answer": "he makes the danger sound smaller than it really was", "expect": "mercy", "why": "correct paraphrase close to the tell's wording"},
+  {"id": "S6", "lesson": "authors_craft_band_4_1_0002", "item": "4", "answer": "he makes it sound like nothing happened", "expect": "mercy", "why": "stored accept"},
+
+  {"id": "S7", "lesson": "inference_band_4_1_0001", "item": "d1", "answer": "dehydration happens when you lose more fluid than you take in", "expect": "mercy", "why": "the passage's own sentence; the 2026-11-05 defect"},
+  {"id": "S8", "lesson": "inference_band_4_1_0001", "item": "d1", "answer": "Dehydration happens when more fluid leaves the body than comes in. The body then lacks the water it needs.", "expect": "near_copy_1", "why": "the tell verbatim"},
+  {"id": "S9", "lesson": "inference_band_4_1_0001", "item": "d1", "answer": "Dehydration happens when more fluid leaves the body than goes in. The body then lacks the water it needs.", "expect": "near_copy_1", "why": "the tell with one word swapped"},
+  {"id": "S10", "lesson": "inference_band_4_1_0001", "item": "d1", "answer": "when you lose more water than you take in", "expect": "mercy", "why": "plain paraphrase"}
+ ]
+}

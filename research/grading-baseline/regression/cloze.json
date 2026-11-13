@@ -1,0 +1,15 @@
+{
+ "note": "Cloze cases from the 2026-11-13 sweep. expect: CORRECT / MISS.",
+ "cases": [
+  {"id": "K1", "lesson": "vocab_band_4_1_0002", "item": "1", "answer": "sediment", "expect": "CORRECT", "why": "synonym of silt"},
+  {"id": "K2", "lesson": "vocab_band_4_3_0005", "item": "3", "answer": "dismantles", "expect": "CORRECT", "why": "synonym of strikes"},
+  {"id": "K3", "lesson": "vocab_band_4_3_0002", "item": "1", "answer": "inactive", "expect": "CORRECT", "why": "synonym of dormant"},
+  {"id": "K4", "lesson": "vocab_band_4_1_0002", "item": "3", "answer": "lake", "expect": "MISS", "why": "category word for a defined term"},
+  {"id": "K5", "lesson": "vocab_band_4_1_0006", "item": "1", "answer": "chamber", "expect": "MISS", "why": "definition of the term, not the term"},
+  {"id": "K6", "lesson": "vocab_band_4_2_0005", "item": "1", "answer": "family", "expect": "MISS", "why": "contradicts whether or not they are related"},
+  {"id": "K7", "lesson": "vocab_band_4_3_0005", "item": "1", "answer": "signal", "expect": "CORRECT", "why": "synonym of cue"},
+  {"id": "K8", "lesson": "vocab_band_4_3_0005", "item": "3", "answer": "cleans", "expect": "MISS", "why": "wrong idea, not a synonym"},
+  {"id": "K9", "lesson": "vocab_band_4_3_0006", "item": "3", "answer": "dock", "expect": "CORRECT", "why": "synonym of berth"},
+  {"id": "K10", "lesson": "vocab_band_4_3_0006", "item": "1", "answer": "current", "expect": "MISS", "why": "not the rise and fall"}
+ ]
+}

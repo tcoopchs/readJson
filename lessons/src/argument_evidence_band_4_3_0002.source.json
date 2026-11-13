@@ -157,7 +157,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "A reader says the card proves the new seed yields more. Is that shown? Say which words in the passage decide it.",
+      "prompt": "A reader says the card proves the new seed yields more. Is that shown? Say why.",
       "tutor_only": {
         "confirm": "No. The trial field also had manure and an earlier planting.",
         "correct_reason": "The two fields differ in seed, manure, and planting date, so the twelve-bushel gap could come from any of the three.",

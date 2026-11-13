@@ -161,7 +161,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "A reader says the page shows twice as many children read this summer. Is that supported? Say which words in the passage decide it.",
+      "prompt": "A reader says the page shows twice as many children read this summer. Is that supported? Say why.",
       "tutor_only": {
         "confirm": "No. The two summers counted different acts, and a card is not the list.",
         "correct_reason": "The forty finished a list of ten books and the eighty signed a card, so the chart compares reading with signing.",

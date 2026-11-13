@@ -1,0 +1,39 @@
+{
+ "note": "Owner-labelled answers from the four sample rounds. expect: CORRECT / UNCLEAR / MISS.",
+ "cases": [
+  {"id": "B1", "lesson": "authors_craft_band_4_2_0001", "item": "4", "answer": "Each sentence is one move, so the ride goes fast.", "expect": "CORRECT"},
+  {"id": "B2", "lesson": "authors_craft_band_4_2_0001", "item": "4", "answer": "It makes the ride feel exciting.", "expect": "CORRECT"},
+  {"id": "B3", "lesson": "authors_craft_band_4_2_0001", "item": "4", "answer": "It shows each action on its own.", "expect": "CORRECT"},
+  {"id": "B4", "lesson": "authors_craft_band_4_2_0001", "item": "4", "answer": "The sentences are short.", "expect": "MISS"},
+  {"id": "B5", "lesson": "authors_craft_band_4_2_0001", "item": "4", "answer": "It makes things happen.", "expect": "MISS"},
+  {"id": "B6", "lesson": "authors_craft_band_4_2_0001", "item": "4", "answer": "It slows the story down.", "expect": "MISS"},
+
+  {"id": "A1", "lesson": "vocab_band_4_1_0006", "item": "4", "answer": "He opened and closed the gates for boats.", "expect": "CORRECT"},
+  {"id": "A2", "lesson": "vocab_band_4_1_0006", "item": "4", "answer": "Watched the locks and gates.", "expect": "CORRECT"},
+  {"id": "A3", "lesson": "vocab_band_4_1_0006", "item": "4", "answer": "He recorded the traffic.", "expect": "CORRECT"},
+  {"id": "A4", "lesson": "vocab_band_4_1_0006", "item": "4", "answer": "He kept the water at the right level.", "expect": "CORRECT"},
+  {"id": "A5", "lesson": "vocab_band_4_1_0006", "item": "4", "answer": "He did stuff with the boats.", "expect": "MISS"},
+  {"id": "A6", "lesson": "vocab_band_4_1_0006", "item": "4", "answer": "He drove the boats through the locks.", "expect": "MISS"},
+
+  {"id": "C1", "lesson": "inference_band_4_2_0003", "item": "q3", "answer": "It runs behind the first bus, so the riders are already gone.", "expect": "CORRECT"},
+  {"id": "C2", "lesson": "inference_band_4_2_0003", "item": "q3", "answer": "It comes second.", "expect": "CORRECT"},
+  {"id": "C3", "lesson": "inference_band_4_2_0003", "item": "q3", "answer": "The first bus takes them.", "expect": "CORRECT"},
+  {"id": "C4", "lesson": "inference_band_4_2_0003", "item": "q3", "answer": "It's a short turn.", "expect": "UNCLEAR"},
+  {"id": "C5", "lesson": "inference_band_4_2_0003", "item": "q3", "answer": "Nobody needs it.", "expect": "MISS"},
+  {"id": "C6", "lesson": "inference_band_4_2_0003", "item": "q3", "answer": "Because it is almost empty.", "expect": "MISS"},
+
+  {"id": "D1", "lesson": "main_idea_band_4_1_0004", "item": "4", "answer": "A pantry let families choose their own food, and the waste fell by half.", "expect": "CORRECT"},
+  {"id": "D2", "lesson": "main_idea_band_4_1_0004", "item": "4", "answer": "It's about a shelving project.", "expect": "MISS"},
+  {"id": "D3", "lesson": "main_idea_band_4_1_0004", "item": "4", "answer": "The volunteers who doubted the change.", "expect": "MISS"},
+  {"id": "D4", "lesson": "main_idea_band_4_1_0004", "item": "4", "answer": "The pantry wasted a lot of food.", "expect": "MISS"},
+  {"id": "D5", "lesson": "main_idea_band_4_1_0004", "item": "4", "answer": "People take less when they get to choose.", "expect": "CORRECT"},
+  {"id": "D6", "lesson": "main_idea_band_4_1_0004", "item": "4", "answer": "It cost two hundred dollars.", "expect": "MISS"},
+
+  {"id": "E1", "lesson": "vocab_band_4_2_0001", "item": "3", "answer": "rough", "expect": "CORRECT"},
+  {"id": "E2", "lesson": "vocab_band_4_2_0001", "item": "3", "answer": "ruff", "expect": "CORRECT"},
+  {"id": "E3", "lesson": "vocab_band_4_2_0001", "item": "3", "answer": "approximate", "expect": "CORRECT"},
+  {"id": "E4", "lesson": "vocab_band_4_2_0001", "item": "3", "answer": "precise", "expect": "MISS"},
+  {"id": "E5", "lesson": "vocab_band_4_2_0001", "item": "3", "answer": "rough, not exact", "expect": "CORRECT"},
+  {"id": "E6", "lesson": "vocab_band_4_2_0001", "item": "3", "answer": "wrong", "expect": "MISS"}
+ ]
+}

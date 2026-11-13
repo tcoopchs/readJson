@@ -86,7 +86,7 @@
       "difficulty": 2,
       "show_part": "part_1",
       "show_part_again": false,
-      "prompt": "Do the crews work one after the other? Say which words in the passage decide it.",
+      "prompt": "Do the crews work one after the other? Say why.",
       "tutor_only": {
         "confirm": "Right. They start at the same time on opposite sides.",
         "correct_reason": "The first part says the two crews begin at the same moment, and neither waits for the other to start.",

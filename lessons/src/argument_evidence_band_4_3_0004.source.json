@@ -158,7 +158,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "A reader says the note proves the warm-up cut injuries. Is that shown? Say which words in the passage decide it.",
+      "prompt": "A reader says the note proves the warm-up cut injuries. Is that shown? Say why.",
       "tutor_only": {
         "confirm": "No. One injury fewer is too small a change to separate the warm-up from luck.",
         "correct_reason": "A fall from two to one moves the whole percentage, so the number is too small to show what caused the difference.",
