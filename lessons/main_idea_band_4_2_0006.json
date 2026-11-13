@@ -66,7 +66,8 @@
             "ask": "The passage lists three. Which one is missing?"
           }
         ],
-        "one_idea_is_enough": false
+        "one_idea_is_enough": false,
+        "full_idea": "A planet must orbit a star, be round from gravity, and have cleared its path."
       },
       "display": {
         "lead": "",

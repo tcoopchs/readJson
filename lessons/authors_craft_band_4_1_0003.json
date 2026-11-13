@@ -272,7 +272,8 @@
             "ask": "What does the last part do that the opening does not?"
           }
         ],
-        "one_idea_is_enough": true
+        "one_idea_is_enough": true,
+        "full_idea": "The last part explains a cause and its result: the pines are cut, so the oaks grow."
       },
       "display": {
         "lead": "",

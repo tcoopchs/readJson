@@ -97,7 +97,6 @@
         "accept_ideas": [
           "times could not be compared",
           "a fast time meant little in another country",
-          "the races were different lengths",
           "records were not comparable"
         ],
         "one_idea_is_enough": true,
@@ -112,6 +111,10 @@
           {
             "when": "the student says the races were too long",
             "ask": "Length varied in both directions. What did that do to comparing times?"
+          },
+          {
+            "when": "the student says the courses were different lengths",
+            "ask": "Different lengths are the setup. What did that do to a runner's time?"
           }
         ],
         "full_idea": "Courses varied in length, so times from different races could not be compared."

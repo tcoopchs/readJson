@@ -216,7 +216,8 @@
             "ask": "A due time matters, but what is the order built on first?"
           }
         ],
-        "one_idea_is_enough": false
+        "one_idea_is_enough": false,
+        "full_idea": "Shared ink decides the order, and an earlier due time can overrule it."
       }
     }
   ],

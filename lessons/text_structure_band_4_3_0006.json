@@ -53,7 +53,9 @@
         "accept_ideas": [
           "strikes again and listens",
           "hits the note again to hear the pulse",
-          "plays the two strings again"
+          "plays the two strings again",
+          "listens for the pulse again",
+          "strikes it and waits for the pulse"
         ],
         "one_idea_is_enough": true,
         "not_required": [

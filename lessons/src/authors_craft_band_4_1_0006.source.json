@@ -102,7 +102,8 @@
         "accept_ideas": [
           "Selecting one trait can change other body parts without the breeder knowing.",
           "Because growth is linked, choosing for one feature can almost certainly modify other structures.",
-          "The pigeon examples support the claim that traits are connected, so selecting one trait affects others."
+          "The pigeon examples support the claim that traits are connected, so selecting one trait affects others.",
+          "Selecting for one trait can lead to unexpected changes in other parts."
         ],
         "one_idea_is_enough": true,
         "not_required": [

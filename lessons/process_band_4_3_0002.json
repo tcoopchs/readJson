@@ -102,7 +102,8 @@
             "ask": "The passage points at the top of the pan, not the flame. What did not grow?"
           }
         ],
-        "one_idea_is_enough": true
+        "one_idea_is_enough": true,
+        "full_idea": "Because the pan's top is the same width, so water leaves at the old rate while twice as much must go."
       },
       "display": {
         "lead": "Here is the rest of the passage.",

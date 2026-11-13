@@ -172,7 +172,12 @@
         "accept_ideas": [
           "opened and closed the gates for boats",
           "ran the locks and kept a record of boats",
-          "let the water in and out for each boat"
+          "let the water in and out for each boat",
+          "watched the gates and let boats through",
+          "kept the water level steady",
+          "made sure boats could pass",
+          "watched the locks and gates",
+          "recorded the traffic"
         ],
         "one_idea_is_enough": true,
         "not_required": [
@@ -218,7 +223,8 @@
           "how fast a horse walks",
           "what the canal carried"
         ],
-        "one_idea_is_enough": true
+        "one_idea_is_enough": true,
+        "full_idea": "The slowness was acceptable because the load arrived whole and the cost of moving it was low."
       }
     }
   ],

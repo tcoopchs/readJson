@@ -170,7 +170,7 @@
       "difficulty": 3,
       "show_part": "part_2",
       "show_part_again": false,
-      "prompt": "Short sentences like 'I wheeled around. I galloped.' What does that rhythm do to the ride?",
+      "prompt": "The ride is written in short sentences: 'I wheeled around. I galloped.' What does each short sentence do?",
       "tutor_only": {
         "confirm": "Each short sentence is one move, so the actions come one right after another.",
         "correct_reason": "'I wheeled around. I galloped toward the hill again.' Each sentence is one action, so the moves follow with no pause between them.",
@@ -185,7 +185,9 @@
           "Each sentence is one move, so the ride goes fast.",
           "The actions come one right after another.",
           "One move per sentence, with no pause between them.",
-          "The short sentences put each move in its own beat."
+          "The short sentences put each move in its own beat.",
+          "each action gets its own sentence",
+          "shows each action on its own"
         ],
         "not_required": [
           "Listing every action in order",
@@ -204,7 +206,8 @@
             "ask": "What does each short sentence contain?"
           }
         ],
-        "one_idea_is_enough": true
+        "one_idea_is_enough": true,
+        "full_idea": "Each short sentence is one move, so the actions come one right after another."
       },
       "display": {
         "lead": "",
