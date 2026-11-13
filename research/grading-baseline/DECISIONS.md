@@ -84,3 +84,18 @@ choose", which the owner credits and two of three models rejected.
   not, and neither does a detail that names the instrument (D2) or one group (D3).
 - Convergence signal: rounds 1 and 2 produced five changes (three rules, two protocol bugs). Round 3
   produced one accept-list gap and no rule change.
+
+## Owner sample, round 4 (2026-11-13): item E, cloze
+
+Owner: C, C, C, M, C, M (rough, ruff, approximate, precise, "rough, not exact", wrong).
+
+- **Rule change: an open cloze accepts a synonym.** "approximate" is Correct for the blank that the
+  passage fills with "rough", because the sentence's own gloss ("close enough to be useful and wrong
+  enough to be dangerous") defines the meaning, not the word. The protocol line that said "accept only
+  the listed words, do not accept a different word" now applies to a cloze **with a word bank**; a
+  cloze without one accepts a word or short phrase that keeps the meaning.
+- **Data:** the item's `accept_words` was `["rough"]`; it now holds rough, approximate, not exact, and
+  its `normalize` says a phrase containing the word is the same answer.
+- **Unchanged:** a misspelling is still correct (ruff), and a word that names half the gloss (wrong) or
+  its opposite (precise) is still a miss.
+- All three tutor models match the owner on all six answers after the change.

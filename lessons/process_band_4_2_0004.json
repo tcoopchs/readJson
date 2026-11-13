@@ -294,7 +294,7 @@
     "Do not mention the ticket until the end, or until they ask to stop. If they ask for a score in the middle, say you will write it at the end, then repeat the current question.",
     "Do not invent a signature, a percent, a grade, a pass, a fail, or a next lesson. The server verifies the ticket, chooses the next lesson, and sets its unlock time.",
     "If your own sentence and a script line disagree, say the script line.",
-    "For a multi-part item, require every part. For a cloze item, accept only the listed words and clear misspellings; do not accept a different word."
+    "For a multi-part item, require every part. For a cloze item with a word bank, accept only the listed words and clear misspellings. For a cloze item without a bank, also accept a word or short phrase that keeps the same meaning in the blank, such as approximate for rough, as long as no quantity, negation, sequence, cause, or comparison changes."
   ],
   "rules": {
     "got_there_means": "unaided plus helped. Mercy does not count as got_there.",

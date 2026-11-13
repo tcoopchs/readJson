@@ -135,9 +135,11 @@
           }
         ],
         "accept_words": [
-          "rough"
+          "rough",
+          "approximate",
+          "not exact"
         ],
-        "normalize": "Ignore case and punctuation. Accept rough, including a clear misspelling such as ruff.",
+        "normalize": "Ignore case and punctuation. Accept rough, including a clear misspelling such as ruff, and accept a synonym that fits the blank such as approximate. A phrase that contains the word, such as 'rough, not exact', is the same answer.",
         "word": "rough"
       },
       "display": {
