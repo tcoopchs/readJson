@@ -120,3 +120,31 @@ Owner: C, C, C, M, C, M (rough, ruff, approximate, precise, "rough, not exact", 
   answer. Not a defect.
 - Verified after the change: sediment, dismantles, inactive accepted; lake, chamber, family still
   rejected, on all three tutors.
+
+## Near-copy defect, 2026-11-13 (grant transcript)
+
+A student answered "it wasn't all that dangerous" to the understatement item and was told "That's still
+my wording", though the sentence shares no words with the tell. Two causes:
+
+1. **No order between the say-back tests.** The protocol defined near-copy, mercy, and the literal
+   restatement, but never said which to apply first, so the model tested "is this close to my tell?"
+   first and read semantic proximity as copying. Worse, instruction 27 only closed a non-answer as
+   `open` on the *second* reply, so a first say-back that states a different idea had no rule at all.
+2. **The key was readable as its own opposite.** "the danger sounds smaller than it was" is the
+   understatement; "it wasn't all that dangerous" is the denial. Both are "smaller danger".
+
+Fixes:
+- **Ordered scoring, near-copy made mechanical.** Near-copy is now eight or more words in a row that
+  match `tell`, or the whole sentence with a word or two changed; nothing else is a copy. Then mercy if
+  it states `core_idea`; then open if it contradicts it or restates the literal event.
+- **The script no longer claims ownership.** "That's still my wording" became "Say that another way, as
+  you would tell a classmate." The old line asserted a fact about the student's text that the tutor
+  cannot verify, and it is wrong exactly when the detection is wrong.
+- **The item states both halves** of the contrast, and its accepts cover "plays it down" and "makes it
+  sound like nothing happened".
+- **DESIGN_RULES 4.4.2** records the ordering and the two-halves rule for authors.
+
+Verified on the real compiled instructions, three models: "it wasn't all that dangerous" → open;
+verbatim tell → near_copy_1; tell with one word swapped → near_copy_1; "he plays it down" → mercy;
+"he was safe" → open; "makes the danger sound smaller than it really was" → mercy. Regression on the
+2026-11-05 case: the passage's own sentence → mercy, not near-copy.

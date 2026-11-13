@@ -185,20 +185,21 @@
       "show_part_again": false,
       "prompt": "His horse was under fire, yet he says he came out 'without a scratch'. What does that plain wording do?",
       "tutor_only": {
-        "confirm": "It makes the danger sound smaller than it was. The flat phrase understates the ride.",
+        "confirm": "It plays the danger down. The ride was dangerous, but the words make it sound like nothing happened.",
         "correct_reason": "The passage says the horse was under fire at the crossings, then reports the writer got out 'without a scratch'. The plain phrase plays the danger down.",
-        "tell": "The horse was under fire, but he says 'without a scratch', so the danger sounds smaller than it was.",
+        "tell": "The horse was under fire, yet he says 'without a scratch'. The words make a dangerous ride sound like nothing happened.",
         "help": [
           "Look at the sentence about getting out safely.",
           "Notice what 'without a scratch' leaves out about the danger."
         ],
         "say_back": "own_words",
-        "core_idea": "The flat phrase 'without a scratch' understates the ride: the danger sounds smaller than the fire he describes.",
+        "core_idea": "He plays the danger down: the ride was dangerous, but 'without a scratch' makes it sound like nothing happened.",
         "accept_ideas": [
+          "he plays it down",
           "it makes the danger sound smaller than it was",
-          "he downplays how dangerous the ride was",
-          "the flat words hide the danger",
-          "it makes a ride under fire sound ordinary"
+          "he makes it sound like nothing happened",
+          "the words understate the danger",
+          "he makes a dangerous ride sound harmless"
         ],
         "one_idea_is_enough": true,
         "not_required": [

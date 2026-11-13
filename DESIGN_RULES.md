@@ -390,6 +390,19 @@ let it:
   idea but cannot be pinned down: an unclear "it" or "they", or a word with two readings. An answer
   with no passage content is a miss. Use it at most once per item; a second unclear answer is a miss.
 
+**4.4.2 The say-back is scored in a fixed order, and near-copy is mechanical.** Near-copy means eight
+or more words in a row that match `tell`, or the whole sentence with a word or two changed. Only that
+earns `near_copy_1`; a sentence that states the same idea in different words is not a copy, and a
+quoted passage sentence never is. An answer that states `core_idea` is mercy. One that contradicts it,
+or restates the literal event, is open — even when it is close in meaning to the tell.
+
+This is why a key must not be readable as its own opposite. `authors_craft_band_4_1_0002` item 4 said
+the phrase "understates the ride: the danger sounds smaller than it was", and a student answered "it
+wasn't all that dangerous" — the denial, not the understatement. The tutor called it a copy of its own
+wording. The key now states both halves: the ride was dangerous, and the words make it sound like
+nothing happened. Write the two halves whenever the idea is a contrast between what happened and how
+it is told.
+
 **4.5 The AI's voice is the teacher's voice.** The tutor sounds like a straightforward high-school
 teacher: short sentences, plain words, no baby talk, no cheerleading, no invented encouragement.
 Every authored student line must match that voice.
