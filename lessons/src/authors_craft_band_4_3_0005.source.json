@@ -218,24 +218,24 @@
       "type": "short_answer",
       "skill": "authors_craft",
       "difficulty": 4,
-      "show_part": "all",
-      "prompt": "What does the maker care about most when he chooses wood, and why?",
+      "show_part": "part_3",
+      "prompt": "The maker says nature does not dry a singer's lungs before sending her out to sing. What does that comparison do?",
       "tutor_only": {
-        "confirm": "The belly, because the belly makes the tone, so no fine back or varnish can save poor wood there.",
+        "confirm": "It argues for slow drying. The wood's cells are like a singer's lungs, which are not dried out before use.",
         "correct_reason": "The passage says 'the belly matters most, because it is the belly that produces the tone' and that a fine back 'will never sound well' with a poor belly.",
-        "tell": "He cares most about the belly, because it produces the tone, and fine ribs or varnish cannot save it.",
+        "tell": "The comparison argues for slow drying. Nobody dries a singer's lungs before she sings, so the wood's cells are not dried out either.",
         "help": [
           "The passage names one part as the chief concern and gives the reason.",
           "The last sentence of the opening says what a fine back cannot do."
         ],
         "say_back": "own_words",
-        "core_idea": "He cares most about the belly, because the belly produces the tone and nothing else can make up for poor wood there.",
+        "core_idea": "It argues for slow drying: a singer's lungs are not dried out before a performance, and the wood's cells should not be either.",
         "accept_ideas": [
-          "the belly, because it makes the tone",
-          "the wood for the belly, since that is what sounds",
-          "the belly, so good ribs or varnish cannot save a poor one"
+          "it argues for drying the wood slowly, as nature treats a singer's lungs",
+          "it compares the wood's cells to a singer's lungs that must not be dried out",
+          "it shows why he refuses the kiln, because the cells need their sap like lungs need theirs"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "partial": [
           {
@@ -245,8 +245,8 @@
         ],
         "if_they_say": [
           {
-            "when": "They say all the parts matter equally.",
-            "ask": "The passage ranks them. Which part comes first?"
+            "when": "the student says it shows he loves nature",
+            "ask": "What is being compared, and what is the comparison arguing for?"
           }
         ],
         "not_required": [
@@ -254,7 +254,8 @@
           "the country the pine comes from"
         ],
         "full_idea": "He cares most about the belly, because the belly produces the tone and nothing else can make up for poor wood there."
-      }
+      },
+      "show_part_again": true
     }
   ],
   "advance": {
