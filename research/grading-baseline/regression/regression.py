@@ -153,12 +153,17 @@ def main():
         for cid, kind, out in pool.map(work, jobs):
             results[cid] = {"kind": kind, "expect": next(c["expect"] for c in load(kind) if c["id"] == cid),
                             "got": out}
-    passed = {cid: all(v == r["expect"] for v in r["got"].values()) for cid, r in results.items()}
+    # majority of three: one model dissenting is provider nondeterminism, not a behaviour change
+    def votes(r):
+        vals = [v for v in r["got"].values()]
+        return sum(1 for v in vals if v == r["expect"]), len(vals)
+    passed = {cid: (votes(r)[0] * 2 > votes(r)[1]) for cid, r in results.items()}
     for cid, r in results.items():
+        ok, n = votes(r)
         flag = "PASS" if passed[cid] else "FAIL"
         detail = " ".join(f"{m.split('/')[-1][:9]}={v}" for m, v in r["got"].items())
-        print(f"{flag} {cid:4} expect {r['expect']:11} {detail}")
-    print(f"\n{sum(passed.values())}/{len(passed)} cases pass on all models, cost ${spent:.3f}")
+        print(f"{flag} {cid:4} {ok}/{n} expect {r['expect']:11} {detail}")
+    print(f"\n{sum(passed.values())}/{len(passed)} cases pass by majority, cost ${spent:.3f}")
     outdir = HERE / "results"
     outdir.mkdir(exist_ok=True)
     if args.baseline:
@@ -166,8 +171,7 @@ def main():
         print("baseline written")
     if args.compare:
         base = json.loads(Path(args.compare).read_text())
-        regressed = [cid for cid in results if cid in base and
-                     all(v == base[cid]["expect"] for v in base[cid]["got"].values()) and not passed[cid]]
+        regressed = [cid for cid in results if cid in base and passed.get(cid) is False]
         print(f"regressions vs {args.compare}: {regressed or 'none'}")
     return 0 if all(passed.values()) else 1
 

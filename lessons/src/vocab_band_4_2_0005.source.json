@@ -69,7 +69,10 @@
           "household"
         ],
         "normalize": "Ignore case and punctuation. Accept household or house hold.",
-        "word": "household"
+        "word": "household",
+        "reject_words": [
+          "family"
+        ]
       }
     },
     {
