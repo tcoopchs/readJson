@@ -183,7 +183,11 @@
           "One move per sentence, with no pause between them.",
           "The short sentences put each move in its own beat.",
           "each action gets its own sentence",
-          "shows each action on its own"
+          "shows each action on its own",
+          "It makes the ride feel fast and exciting.",
+          "The short sentences make the ride exciting.",
+          "It makes the ride feel breathless and quick.",
+          "The pace feels fast and exciting."
         ],
         "not_required": [
           "Listing every action in order",

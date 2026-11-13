@@ -256,10 +256,20 @@ table: the skill's `references/question-design.md`.
 `confirm` the tutor speaks on a right answer — must name words in the passage and state what they
 do to its meaning. Check it by rereading: if two readers could both be right and see opposite
 things, the key is ungradeable. Never write a key that asserts what the reader feels, sees,
-pictures, or imagines. The sensation belongs to the reader, so no paraphrase rule can accept the
-next reader's version of it, and a student who understood the passage gets marked wrong — the
-`authors_craft_band_4_1_0003` item that rejected "small mammals rather than birds" is the worked
-failure. Two consequences:
+pictures, or imagines *without support in the passage*. The sensation belongs to the reader, so no
+paraphrase rule can accept the next reader's version of it, and a student who understood the passage
+gets marked wrong — the `authors_craft_band_4_1_0003` item that rejected "small mammals rather than
+birds" is the worked failure.
+
+**A supported effect is not a sensation.** An effect the passage's own words imply can be a key: the
+short, breathless sentences in a gallop, with the men "shouting, cheering, firing", do imply speed
+and excitement, and "it makes the ride feel fast and exciting" is a reading a student can defend by
+pointing at those words. The test is not whether the answer names a feeling; it is whether the
+passage contains the words that carry it. Accept the effect when it can be pointed to, and keep the
+miss for the effect the passage contradicts ("it slows the story down") or for the answer that names
+no effect at all ("the sentences are short").
+
+Two consequences:
 
 - The literal reading is stored as a `partial`, never as a plain miss. It is a real misreading of
   what the prompt asked, and it is the reading most students give first.
