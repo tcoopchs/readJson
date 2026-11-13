@@ -135,7 +135,9 @@
           }
         ],
         "accept_words": [
-          "berth"
+          "berth",
+          "dock",
+          "mooring"
         ],
         "normalize": "Ignore case and punctuation.",
         "word": "berth"

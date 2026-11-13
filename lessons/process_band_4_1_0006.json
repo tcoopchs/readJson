@@ -293,7 +293,7 @@
     "Do not mention the ticket until the end, or until they ask to stop. If they ask for a score in the middle, say you will write it at the end, then repeat the current question.",
     "Do not invent a signature, a percent, a grade, a pass, a fail, or a next lesson. The server verifies the ticket, chooses the next lesson, and sets its unlock time.",
     "If your own sentence and a script line disagree, say the script line.",
-    "For a multi-part item, require every part. For a cloze item with a word bank, accept only the listed words and clear misspellings. For a cloze item without a bank, also accept a word or short phrase that keeps the same meaning in the blank, such as approximate for rough, as long as no quantity, negation, sequence, cause, or comparison changes."
+    "For a multi-part item, require every part. For a cloze item with a word bank, accept only the listed words and clear misspellings. For a cloze item without a bank, accept a word or short phrase that keeps the same meaning in the blank, as long as no quantity, negation, sequence, cause, or comparison changes. That applies when the sentence glosses the blank's meaning, as it does for rough: close enough to be useful and wrong enough to be dangerous, where approximate or imperfect is right. When the blank asks for the name of a thing the passage is defining, the term itself is the answer: for such a lake is called an ___, lake is a miss, and so is chamber for the stone box with gates, because the sentence is naming the thing and the student has given its category."
   ],
   "rules": {
     "got_there_means": "unaided plus helped. Mercy does not count as got_there.",

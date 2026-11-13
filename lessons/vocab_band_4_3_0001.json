@@ -55,7 +55,8 @@
           }
         ],
         "accept_words": [
-          "draft"
+          "draft",
+          "slipstream"
         ],
         "normalize": "Ignore case and punctuation.",
         "word": "draft"

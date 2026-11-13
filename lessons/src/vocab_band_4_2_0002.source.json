@@ -66,7 +66,8 @@
           }
         ],
         "accept_words": [
-          "draft"
+          "draft",
+          "version"
         ],
         "normalize": "Ignore case and punctuation. Accept draft, including a clear misspelling such as draught.",
         "word": "draft"
@@ -133,7 +134,8 @@
           }
         ],
         "accept_words": [
-          "tightening"
+          "tightening",
+          "streamlining"
         ],
         "normalize": "Ignore case and punctuation. Accept tightening or tighten.",
         "word": "tighten",

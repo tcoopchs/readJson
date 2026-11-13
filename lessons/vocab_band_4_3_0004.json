@@ -55,7 +55,9 @@
           }
         ],
         "accept_words": [
-          "watch"
+          "watch",
+          "watchman",
+          "night watch"
         ],
         "normalize": "Ignore case and punctuation.",
         "word": "watch"

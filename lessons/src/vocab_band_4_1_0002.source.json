@@ -66,7 +66,8 @@
           }
         ],
         "accept_words": [
-          "silt"
+          "silt",
+          "sediment"
         ],
         "normalize": "Ignore case and punctuation. Accept silt, including a clear misspelling such as silte.",
         "reject_words": [

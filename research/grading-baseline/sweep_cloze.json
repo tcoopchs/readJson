@@ -1,0 +1,690 @@
+[
+ {
+  "lesson": "vocab_band_4_1_0001",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "The printer kept trays of metal ____, with one small block for each letter.\n\nWrite the missing word.",
+  "accept_words": [
+   "type"
+  ],
+  "synonym": "type",
+  "wrong": "paper",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "synonym|qwen/qwen3.8-flash": "CORRECT",
+   "synonym|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_1_0001",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "That reader was called a ____, and his job was to catch what the setter had stopped seeing.\n\nWrite the missing word.",
+  "accept_words": [
+   "proofreader"
+  ],
+  "synonym": "editor",
+  "wrong": "distractor",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_1_0002",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "____ is the name for that fine soil, and it settles wherever the current loses speed.\n\nWrite the missing word.",
+  "accept_words": [
+   "silt"
+  ],
+  "synonym": "sediment",
+  "wrong": "rock",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_1_0002",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "Such a lake is called an ____, because its shape matches the yoke a team of oxen wore.\n\nWrite the missing word.",
+  "accept_words": [
+   "oxbow"
+  ],
+  "synonym": "lake",
+  "wrong": "river",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_1_0003",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "Some contact in a game is a ____: a push, a trip, or a hand on the ball.\n\nWrite the missing word.",
+  "accept_words": [
+   "foul"
+  ],
+  "synonym": "foul",
+  "wrong": "score",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "synonym|qwen/qwen3.8-flash": "CORRECT",
+   "synonym|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_1_0003",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "This is called playing the ____, and it is a judgment, not a rule the referee can look up.\n\nWrite the missing word.",
+  "accept_words": [
+   "advantage"
+  ],
+  "synonym": "advantage",
+  "wrong": "disadvantage",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "synonym|qwen/qwen3.8-flash": "CORRECT",
+   "synonym|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_1_0004",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "She called each group forward to a bench for ____.\n\nWrite the missing word.",
+  "accept_words": [
+   "recitation"
+  ],
+  "synonym": "presentation",
+  "wrong": "dismissal",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_1_0004",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "A ____ was the length of time school ran between harvests, often only a few months.\n\nWrite the missing word.",
+  "accept_words": [
+   "term"
+  ],
+  "synonym": "term",
+  "wrong": "vacation",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "synonym|qwen/qwen3.8-flash": "CORRECT",
+   "synonym|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_1_0005",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "____ is water with as much salt as it will hold.\n\nWrite the missing word.",
+  "accept_words": [
+   "brine"
+  ],
+  "synonym": "brine solution",
+  "wrong": "freshwater",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "synonym|qwen/qwen3.8-flash": "CORRECT",
+   "synonym|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_1_0005",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "The ____ is the outside of a cured piece, and it is not thrown away.\n\nWrite the missing word.",
+  "accept_words": [
+   "rind"
+  ],
+  "synonym": "exterior",
+  "wrong": "filling",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_1_0006",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "The answer is a ____: a stone chamber with gates at both ends.\n\nWrite the missing word.",
+  "accept_words": [
+   "lock"
+  ],
+  "synonym": "chamber",
+  "wrong": "river",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_1_0006",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "The ____ is the level stretch between two locks, and its depth must be kept steady.\n\nWrite the missing word.",
+  "accept_words": [
+   "pound"
+  ],
+  "synonym": "section",
+  "wrong": "valley",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_2_0001",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "He marked a ____, a hill or a white cliff, and wrote the depth of water beside it.\n\nWrite the missing word.",
+  "accept_words": [
+   "landmark"
+  ],
+  "synonym": "landmark",
+  "wrong": "mistake",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "synonym|qwen/qwen3.8-flash": "CORRECT",
+   "synonym|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_2_0001",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "The result was ____, which meant it was close enough to be useful and wrong enough to be dangerous.\n\nWrite the missing word.",
+  "accept_words": [
+   "rough",
+   "approximate",
+   "not exact"
+  ],
+  "synonym": "imperfect",
+  "wrong": "perfect",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_2_0002",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "The first ____ is the writer's attempt to say everything, and it usually says too much.\n\nWrite the missing word.",
+  "accept_words": [
+   "draft"
+  ],
+  "synonym": "version",
+  "wrong": "drafts",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "wrong|qwen/qwen3.8-flash": null,
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_2_0002",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "Editors speak of ____: the argument stays, the sentences get shorter, and the reader reaches the end sooner.\n\nWrite the missing word.",
+  "accept_words": [
+   "tightening"
+  ],
+  "synonym": "streamlining",
+  "wrong": "expanding",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_2_0003",
+  "item": "1",
+  "difficulty": 2,
+  "prompt": "____ is not decay for its own sake; it is the return of material to circulation.\n\nWrite the missing word.",
+  "accept_words": [
+   "decomposition",
+   "decay"
+  ],
+  "synonym": "Decomposition",
+  "wrong": "Creation",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "synonym|qwen/qwen3.8-flash": "CORRECT",
+   "synonym|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_2_0003",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "The ____ can join one tree to another, and water can move between them through it.\n\nWrite the missing word.",
+  "accept_words": [
+   "network"
+  ],
+  "synonym": "network",
+  "wrong": "barrier",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "synonym|qwen/qwen3.8-flash": "CORRECT",
+   "synonym|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_2_0004",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "____ is the goods on the shelf, and every item on it is money already spent.\n\nWrite the missing word.",
+  "accept_words": [
+   "stock"
+  ],
+  "synonym": "inventory",
+  "wrong": "debt",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_2_0004",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "Waiting has a price, and ____ is only the visible part.\n\nWrite the missing word.",
+  "accept_words": [
+   "spoilage"
+  ],
+  "synonym": "loss",
+  "wrong": "profit",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_2_0005",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "A ____ is everyone living under one roof, whether or not they are related.\n\nWrite the missing word.",
+  "accept_words": [
+   "household"
+  ],
+  "synonym": "family",
+  "wrong": "individual",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_2_0005",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "A taker returned to a house three times before he could ____ it as empty.\n\nWrite the missing word.",
+  "accept_words": [
+   "record"
+  ],
+  "synonym": "declare",
+  "wrong": "confirm",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_2_0006",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "A ____ that will open next spring forms this summer.\n\nWrite the missing word.",
+  "accept_words": [
+   "bud"
+  ],
+  "synonym": "flower",
+  "wrong": "leaf",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_2_0006",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "Many varieties swing between a heavy year and a light one, a habit called alternate ____.\n\nWrite the missing word.",
+  "accept_words": [
+   "bearing"
+  ],
+  "synonym": "fluctuation",
+  "wrong": "consistency",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_3_0001",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "Riders call this the ____, and it is not a small saving.\n\nWrite the missing word.",
+  "accept_words": [
+   "draft"
+  ],
+  "synonym": "slipstream",
+  "wrong": "burden",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_3_0001",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "The rider at the front does the most work and tires first, so the group ____.\n\nWrite the missing word.",
+  "accept_words": [
+   "rotates"
+  ],
+  "synonym": "rotates",
+  "wrong": "stops",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "synonym|qwen/qwen3.8-flash": "CORRECT",
+   "synonym|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_3_0002",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "It is alive, but it is ____, which means its growth is paused rather than finished.\n\nWrite the missing word.",
+  "accept_words": [
+   "dormant"
+  ],
+  "synonym": "inactive",
+  "wrong": "dead",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_3_0002",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "A seed treated this way comes up in a crowd instead of a ____.\n\nWrite the missing word.",
+  "accept_words": [
+   "scatter"
+  ],
+  "synonym": "scatter",
+  "wrong": "single",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "synonym|qwen/qwen3.8-flash": "CORRECT",
+   "synonym|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_3_0003",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "A ____ is a promise about a number and a date.\n\nWrite the missing word.",
+  "accept_words": [
+   "quote"
+  ],
+  "synonym": "quote",
+  "wrong": "lie",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "synonym|qwen/qwen3.8-flash": "CORRECT",
+   "synonym|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_3_0003",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "That extra is the ____, and it is not greed.\n\nWrite the missing word.",
+  "accept_words": [
+   "margin"
+  ],
+  "synonym": "profit",
+  "wrong": "loss",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_3_0004",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "Before a town had a paid police force, it had a ____.\n\nWrite the missing word.",
+  "accept_words": [
+   "watch"
+  ],
+  "synonym": "watchman",
+  "wrong": "army",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_3_0004",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "The town offered ____ only when a household hired a substitute, and a substitute had no reason to know the streets.\n\nWrite the missing word.",
+  "accept_words": [
+   "relief"
+  ],
+  "synonym": "assistance",
+  "wrong": "punishment",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_3_0005",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "The ____ is not the line itself but the moment after it.\n\nWrite the missing word.",
+  "accept_words": [
+   "cue"
+  ],
+  "synonym": "signal",
+  "wrong": "cue",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "wrong|qwen/qwen3.8-flash": "CORRECT",
+   "wrong|google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_3_0005",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "When the last show is over, the crew ____ the set, which means taking it apart and carrying it out.\n\nWrite the missing word.",
+  "accept_words": [
+   "strikes",
+   "strike"
+  ],
+  "synonym": "dismantles",
+  "wrong": "builds",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_3_0006",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "That rise and fall is the ____, and the crossing times have to follow it.\n\nWrite the missing word.",
+  "accept_words": [
+   "tide"
+  ],
+  "synonym": "current",
+  "wrong": "storm",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "vocab_band_4_3_0006",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "The boat also needs a ____, which is the space at the pier where it ties up.\n\nWrite the missing word.",
+  "accept_words": [
+   "berth"
+  ],
+  "synonym": "dock",
+  "wrong": "sail",
+  "res": {
+   "synonym|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "synonym|qwen/qwen3.8-flash": "MISS",
+   "synonym|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ }
+]

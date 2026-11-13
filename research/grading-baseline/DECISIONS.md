@@ -99,3 +99,24 @@ Owner: C, C, C, M, C, M (rough, ruff, approximate, precise, "rough, not exact", 
 - **Unchanged:** a misspelling is still correct (ruff), and a word that names half the gloss (wrong) or
   its opposite (precise) is still a miss.
 - All three tutor models match the owner on all six answers after the change.
+
+## Cloze sweep, Band 4 (2026-11-13)
+
+36 cloze items, each given a generated synonym and a generated wrong word, scored by three tutors.
+
+- **25 items rejected the generated synonym.** Adjudicated one by one, only **12** were genuine gaps
+  (sediment for silt, exterior for rind, inventory for stock, version for draft, streamlining for
+  tightening, imperfect for rough, inactive for dormant, watchman for watch, signal for cue,
+  dismantles for strikes, slipstream for draft, dock for berth). Their `accept_words` were widened.
+- **13 were correct rejections**, and they define the limit of the rule. Most Band 4 cloze items are
+  definitional ("____ is the name for that fine soil", "such a lake is called an ____"), so the term
+  is the answer: lake for oxbow, chamber for lock, family for household, current for tide are all
+  misses. The household case is the clearest: the sentence says "whether or not they are related", so
+  family contradicts the gloss.
+- **Rule refined:** an open cloze accepts a synonym when the sentence glosses the blank's meaning
+  (rough: "close enough to be useful and wrong enough to be dangerous"); when the blank names a thing
+  the passage is defining, the term itself is required and a category word is a miss.
+- **One "wrong accepted"** was a generator artifact: it produced the correct word ("cue") as its wrong
+  answer. Not a defect.
+- Verified after the change: sediment, dismantles, inactive accepted; lake, chamber, family still
+  rejected, on all three tutors.

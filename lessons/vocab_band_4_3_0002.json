@@ -55,7 +55,9 @@
           }
         ],
         "accept_words": [
-          "dormant"
+          "dormant",
+          "inactive",
+          "resting"
         ],
         "normalize": "Ignore case and punctuation.",
         "word": "dormant"

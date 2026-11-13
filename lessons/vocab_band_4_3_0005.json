@@ -55,7 +55,8 @@
           }
         ],
         "accept_words": [
-          "cue"
+          "cue",
+          "signal"
         ],
         "normalize": "Ignore case and punctuation.",
         "word": "cue"
@@ -135,7 +136,9 @@
         ],
         "accept_words": [
           "strikes",
-          "strike"
+          "strike",
+          "dismantles",
+          "takes apart"
         ],
         "normalize": "Ignore case and punctuation. Accept strikes or strike.",
         "word": "strikes"

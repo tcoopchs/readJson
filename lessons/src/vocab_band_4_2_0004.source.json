@@ -66,7 +66,8 @@
           }
         ],
         "accept_words": [
-          "stock"
+          "stock",
+          "inventory"
         ],
         "normalize": "Ignore case and punctuation. Accept stock, including a clear misspelling such as stok.",
         "reject_words": [

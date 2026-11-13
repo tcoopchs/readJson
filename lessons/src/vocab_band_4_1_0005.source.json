@@ -135,7 +135,9 @@
           }
         ],
         "accept_words": [
-          "rind"
+          "rind",
+          "exterior",
+          "outside"
         ],
         "normalize": "Ignore case and punctuation. Accept rind, including a clear misspelling such as rined.",
         "word": "rind"
