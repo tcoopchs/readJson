@@ -138,7 +138,7 @@
           "only one train fits on the single track",
           "the track was blocked above the tunnel"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "what the sergeant was doing"
         ],

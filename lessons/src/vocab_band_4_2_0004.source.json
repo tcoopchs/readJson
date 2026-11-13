@@ -175,7 +175,7 @@
           "you lose on the goods and on the money you cannot use",
           "the item spoils while the cash stays locked in it"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "how long the fruit keeps",
           "what else the grocer sells"

@@ -144,7 +144,7 @@
           "He risked more to get a better shot.",
           "He moved nearer the enemy than the narrator."
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "naming Kettle Hill or the ranch buildings",
           "details about the Spaniards running out"
@@ -187,7 +187,9 @@
           "It makes the ride feel fast and exciting.",
           "The short sentences make the ride exciting.",
           "It makes the ride feel breathless and quick.",
-          "The pace feels fast and exciting."
+          "The pace feels fast and exciting.",
+          "It makes the ride exciting.",
+          "It makes the ride feel exciting."
         ],
         "not_required": [
           "Listing every action in order",

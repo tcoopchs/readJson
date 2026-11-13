@@ -100,7 +100,7 @@
           "how long each column runs",
           "the column width and the advertisement borders"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "who set the frame"
         ],

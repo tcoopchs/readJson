@@ -136,7 +136,7 @@
           "it comes second",
           "the riders are already on the first bus"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "the driver's experience"
         ],

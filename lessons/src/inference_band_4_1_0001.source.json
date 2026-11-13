@@ -99,7 +99,7 @@
           "you lose more fluid than you take in",
           "the body loses water faster than it is replaced"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "the name of any medicine"
         ],
@@ -135,7 +135,7 @@
           "they lose their sense of thirst and drink less",
           "they drink less because they are not thirsty"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "the exact age when thirst fades"
         ],

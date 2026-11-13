@@ -99,7 +99,7 @@
           "it goes back for more paint",
           "it waits a day and gets another coat"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "who mixes the paint"
         ],

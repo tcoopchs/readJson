@@ -150,7 +150,7 @@
           "they nearly had it and it slipped away",
           "success was close and then gone"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "partial": [
           {
@@ -191,7 +191,7 @@
           "the success is told last, after the losses",
           "every loss is told before the cable is whole"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "partial": [
           {

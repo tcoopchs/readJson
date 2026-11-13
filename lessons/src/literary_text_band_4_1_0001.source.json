@@ -178,7 +178,7 @@
           "the owner showed him how to fix a mistake quietly",
           "the owner stopped because he was behind"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "how many bikes the shop repaired that month"
         ],

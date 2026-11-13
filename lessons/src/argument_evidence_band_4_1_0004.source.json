@@ -179,7 +179,7 @@
           "the pages before describe the problem",
           "the storm makes the request worth considering"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "how the shop orders now"
         ],

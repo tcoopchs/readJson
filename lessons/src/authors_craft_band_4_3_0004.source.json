@@ -108,7 +108,7 @@
           "she could not keep her footing, and Jim said it was useless",
           "her feet went numb and slipped, so they turned back"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "partial": [
           {
@@ -149,7 +149,7 @@
           "she slipped and was ashamed of how she climbed",
           "she reached the top, but the climb was poor"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "partial": [
           {

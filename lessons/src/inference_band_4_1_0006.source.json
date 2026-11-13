@@ -171,7 +171,7 @@
           "a red giant",
           "a white dwarf"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [],
         "if_they_say": [
           {
@@ -205,7 +205,7 @@
           "the same mass means the same gravity",
           "a black hole does not add gravity"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "why stars collapse"
         ],

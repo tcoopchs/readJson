@@ -162,7 +162,7 @@
           "he makes quiet mean dull",
           "the compliment turns against him"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [
           {

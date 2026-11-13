@@ -213,7 +213,7 @@
           "a wrong box cannot be pulled out once the doors close",
           "the box cannot be checked after sealing"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "how many containers leave each day"
         ],

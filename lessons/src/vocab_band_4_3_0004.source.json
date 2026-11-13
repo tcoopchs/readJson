@@ -173,7 +173,7 @@
           "the poor paid in time instead of cash",
           "A household could trade money for time, or time for money."
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "how many households there were"
         ],
@@ -209,7 +209,7 @@
           "the watchmen were not really paid",
           "the town grew and the shares stopped working"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "when the paid force started",
           "what the force cost"

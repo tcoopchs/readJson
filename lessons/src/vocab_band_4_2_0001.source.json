@@ -107,7 +107,7 @@
           "the amount of detail shown for the area",
           "whether the map shows a country or a harbor"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [],
         "full_idea": "How much of the land is shown on one sheet, so a small scale covers more ground with less detail."
       },

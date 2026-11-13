@@ -218,7 +218,7 @@
           "how many finished and found work",
           "the outcome for every student"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "how much the shops earn"
         ],

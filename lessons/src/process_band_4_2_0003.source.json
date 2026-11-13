@@ -172,7 +172,7 @@
           "the filter cannot remove what is already in the water",
           "the loop keeps bringing the dust back"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "how much a new filter costs"
         ],
@@ -209,7 +209,7 @@
           "only draining takes dust out of the loop",
           "the drain lowers the count and the pump does not"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "how often the crew drains"
         ],

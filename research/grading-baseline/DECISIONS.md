@@ -46,3 +46,23 @@ outcome depends on which model is the tutor.
   adjudicated into (a) my error, (b) an owner slip, or (c) a rule gap; only (c) changes the rules.
   Two of the six sample answers produced a rule change, which is the argument for a small set read by
   the owner rather than a large one labelled by a model.
+
+## Owner sample, round 2 (2026-11-13): items A and C
+
+- **A (lock keeper).** "What did a lock keeper do?" left the quantity open while the key credited any one
+  task. Fixed by prompt ("Name one task …") and recorded as DESIGN_RULES 3.1.11. An answer that names
+  the domain but no task ("He did stuff with the boats") is Not clear yet, not a miss: it names
+  something from the passage that cannot be pinned down.
+- **C (second bus).** Owner: C, C, C, U, M, M. This exposed that the item was marked
+  `one_idea_is_enough: false` while its accepts credited one part — my earlier automated rule
+  over-set the flag. 56 Band 4 items with a single-question prompt had the flag flipped back to true
+  (prompts that genuinely ask two things keep false). Cores untouched.
+- **U vs M rule.** Not clear yet is for an answer that takes a term from the passage without saying
+  what it means for the question ("it is a short turn"). An answer with no such term ("nobody needs
+  it") is a miss. A worked pair was added to the protocol, which moved all three tutor models to the
+  owner's labels on both.
+- **Two protocol fixes found by scoring the owner's own labels:**
+  1. The tutor was told to score against `tutor_only.confirm`, which is a full sentence and raised the
+     bar above the key. It now scores against `core_idea` or any single `accept_ideas` entry.
+  2. An `accept_ideas` entry counts when the student says the same idea in fewer words, provided no
+     quantity, negation, sequence, cause, or comparison changes.

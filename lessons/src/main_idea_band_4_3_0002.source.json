@@ -188,7 +188,7 @@
           "how words change meaning without anyone deciding",
           "dictionaries record changes instead of making them"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "how many meanings an entry can have",
           "the Latin root"

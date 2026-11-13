@@ -136,7 +136,7 @@
           "the fuel bill stops when the van stops and insurance does not",
           "one cost follows the sales and the other does not"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
         "if_they_say": [

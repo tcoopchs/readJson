@@ -180,7 +180,7 @@
           "what counts as a planet and who decides",
           "the rule that changed Pluto's label"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "the size of Pluto"
         ],

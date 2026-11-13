@@ -175,7 +175,7 @@
           "the writer likes it even though it slows the piece",
           "it is good, so removing it feels wrong"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "how long the sentence is"
         ],
@@ -215,7 +215,7 @@
           "each suggestion was either accepted or argued against",
           "nothing was ignored; the writer changed it or defended it"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "how many marks there were",
           "who won the argument"

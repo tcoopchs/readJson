@@ -172,7 +172,7 @@
           "the bay scale reads two kilos light on each crate",
           "her totals came from the wrong scale"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "who loaded the crates"
         ],

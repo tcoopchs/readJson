@@ -139,7 +139,7 @@
           "water leaves the closed basin only as vapor, so the salt stays",
           "the basin has no river running out"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "what the lake water tastes like"
         ],

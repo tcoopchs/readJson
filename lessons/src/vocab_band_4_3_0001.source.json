@@ -104,7 +104,7 @@
           "they take shelter behind the front rider",
           "the front rider pushes the air aside for the rest"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "how fast the group travels",
           "how many riders are in the line"

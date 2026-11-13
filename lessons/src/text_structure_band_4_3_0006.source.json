@@ -213,7 +213,7 @@
           "one counts turns and the other listens for the pulse to stop",
           "a recipe stops after three turns and a tuning stops when it sounds right"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "who wrote the recipe"
         ],

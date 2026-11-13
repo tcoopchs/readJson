@@ -102,7 +102,7 @@
           "donated tools fill the shed",
           "it saves people money"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "the price of a saw",
           "how many visits the library counts"

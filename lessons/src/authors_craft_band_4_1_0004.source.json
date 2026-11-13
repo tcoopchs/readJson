@@ -222,7 +222,7 @@
           "Part_3 gives a sequence of actions for making bread.",
           "Part_1 tests flour; part_3 tells how to make dough rise."
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "Naming every ingredient",
           "Mentioning yeast types"

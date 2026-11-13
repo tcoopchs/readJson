@@ -181,7 +181,7 @@
           "the water cycle and how people change it",
           "where water is and how it moves"
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "not_required": [
           "the exact share of water in the ocean",
           "the names of the pools"
