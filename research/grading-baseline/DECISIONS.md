@@ -33,3 +33,16 @@ down, such as an unclear "it", or a word with two readings ("earn"). An answer w
 if the next answer is still unclear, it is Not quite. *Why:* gpt-4o-mini used it once in 96 answers,
 deepseek and qwen about 13 times each, including on contentless answers. Without a bound, the student's
 outcome depends on which model is the tutor.
+
+## Owner adjudication, 2026-11-13 (sample item B, gallop rhythm)
+
+- **A supported effect is Correct.** "It makes the ride feel fast and exciting" is right, because the
+  passage's own words carry it (galloped; men "shouting, cheering, firing"; clipped sentences). The
+  rule is not "no feelings"; it is "the effect must be pointable in the text". Recorded in
+  DESIGN_RULES 3.1.7. The item's accepts were widened to match.
+- **A contentless answer is Not quite, not Not clear yet.** "It makes things happen" gets the
+  explanation, not a second prompt. D6 stands, now owner-confirmed.
+- Consequence for the curated set: agreement with the owner is not the measure. Each disagreement is
+  adjudicated into (a) my error, (b) an owner slip, or (c) a rule gap; only (c) changes the rules.
+  Two of the six sample answers produced a rule change, which is the argument for a small set read by
+  the owner rather than a large one labelled by a model.

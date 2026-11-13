@@ -152,7 +152,7 @@
       "skill": "vocab",
       "difficulty": 3,
       "show_part": "part_2",
-      "prompt": "What did a lock keeper do?",
+      "prompt": "Name one task a lock keeper did.",
       "tutor_only": {
         "confirm": "Right. The keeper ran the gates and kept the record.",
         "correct_reason": "The second part says the lock keeper watched the gates, opened and closed them for each boat, and recorded the traffic.",

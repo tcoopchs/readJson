@@ -302,6 +302,17 @@ reader would who has not seen the key, and once the way a reader would who stops
 The key-probe gate (`research/grading-baseline/`) generates these answers and flags the
 disagreements.
 
+**3.1.11 The prompt says how many things it wants.** When the passage offers several answers and the
+key credits any one of them, the prompt says so ("Name one task a lock keeper did"), because "What
+did a lock keeper do?" leaves the quantity open and a reader who names one task has answered a
+different question from a reader who names all four. When the key needs every part, the prompt names
+the number ("What three things must a planet do?"). `one_idea_is_enough: true` belongs with "name
+one"; `false` belongs with a prompt that asks for each part.
+
+The failure this prevents: `vocab_band_4_1_0006` item 4 asked "What did a lock keeper do?" while its
+key credited any single task, so a correct one-task answer could be scored either way depending on
+how the tutor read the question.
+
 ### 3.2 Cloze items
 
 **3.2.1 The blank must be forced by context.** Test whether a reasonable student could choose a
