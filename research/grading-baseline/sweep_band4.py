@@ -62,16 +62,24 @@ def main():
     key = G.api_key()
     limit = int(sys.argv[sys.argv.index("--limit") + 1]) if "--limit" in sys.argv else 9999
     only = sys.argv[sys.argv.index("--only") + 1] if "--only" in sys.argv else None
+    globs = [sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--glob"] or ["*_band_4_*.source.json"]
+    out_path = Path(sys.argv[sys.argv.index("--out") + 1]) if "--out" in sys.argv else B / "sweep_band4.json"
+    # resume: never redo an item that already has a row
+    done = {(r["lesson"], r["item"]) for r in json.loads(out_path.read_text())} if out_path.exists() else set()
     items = []
-    for p in sorted(SRC.glob("*_band_4_*.source.json")):
+    files = []
+    for g in globs:
+        files.extend(sorted(SRC.glob(g)))
+    for p in sorted(set(files)):
         d = json.loads(p.read_text())
         if only and not d["lesson_id"].startswith(only):
             continue
         for it in d["items"]:
-            if it.get("type") == "short_answer":
+            if it.get("type") == "short_answer" and (d["lesson_id"], it["id"]) not in done:
                 items.append((d["lesson_id"], it))
     items = items[:limit]
-    rows, spent = [], 0.0
+    rows = json.loads(out_path.read_text()) if out_path.exists() else []
+    spent = 0.0
     for n, (lid, it) in enumerate(items, 1):
         src = json.loads((SRC / f"{lid}.source.json").read_text())
         sp = it.get("show_part")
@@ -95,12 +103,12 @@ def main():
                 spent += cost
                 out["res"][f"{kind}|{m}"] = verdict(txt)
         rows.append(out)
-        (B / "sweep_band4.json").write_text(json.dumps(rows, indent=1))
+        out_path.write_text(json.dumps(rows, indent=1))
         if n % 25 == 0:
             print(f"{n}/{len(items)} ${spent:.3f}", flush=True)
         if spent > CAP:
             print("cap reached"); break
-    print(f"{len(rows)} items, ${spent:.3f}")
+    print(f"{len(rows)} rows total ({len(rows) - len(done)} new), ${spent:.3f}")
 
 
 if __name__ == "__main__":

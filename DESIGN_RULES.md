@@ -142,6 +142,17 @@ and author's-purpose answer must be derivable from text shown in the current les
 depends on an earlier passage part, set `show_part` to that part. `show_part: null` is valid only
 when the item is answerable from text already on screen, such as a quoted cloze sentence.
 
+**2.3.1 The display is part of the question.** What is on screen decides which readings the prompt
+can carry. An item must display the text that supports the intended answer and must not display a
+second passage that answers the same words differently: if the prompt says "when he chooses wood" and
+the screen holds both the paragraph about which part matters and the paragraph about how wood is
+dried, both readings are live and the key can only be right by accident. Either show the one part
+that carries the intended answer, or name the part in the prompt.
+
+A synthesis item may show the whole passage, but then its prompt must ask a whole-passage question.
+`authors_craft_band_4_3_0005` item 5 asked what the maker cares about most while the whole passage was
+on screen, and its key answered from part 1 alone.
+
 **2.4 Do not simplify the passage after the fact.** The AI presents passage text exactly as
 written. If the text is too hard, rewrite the source before publishing. Do not ask the tutor to
 simplify, paraphrase, or regenerate it during a session.

@@ -5458,5 +5458,2905 @@
    "wrong|qwen/qwen3.8-flash": "MISS",
    "wrong|google/gemini-3.8-flash": "MISS"
   }
+ },
+ {
+  "lesson": "inference_band_4_3_0005",
+  "item": "q4",
+  "difficulty": 3,
+  "prompt": "The passage says the estate's lawns are green even in dry spells. Does that explain the flooding?",
+  "core": "No. It is a separate detail and does not explain the flooding.",
+  "flag": true,
+  "answers": {
+   "likely_right": "Yes, the green lawns suggest they use a lot of water, which could cause flooding.",
+   "wrong": "No, the flooding is just because it rains a lot."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "wrong|qwen/qwen3.8-flash": "CORRECT",
+   "wrong|google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ {
+  "lesson": "inference_band_4_3_0005",
+  "item": "q5",
+  "difficulty": 4,
+  "prompt": "What would reduce the flooding without moving the field?",
+  "core": "Give the field less water at once, by letting more soak in or slowing the runoff.",
+  "flag": true,
+  "answers": {
+   "likely_right": "Installing better drainage systems for the estate would help reduce flooding.",
+   "wrong": "We should fill in the field to stop it from flooding."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "inference_band_4_3_0006",
+  "item": "q1",
+  "difficulty": 1,
+  "prompt": "When does smoke spill into the room?",
+  "core": "When the wind rises.",
+  "flag": true,
+  "answers": {
+   "likely_right": "Smoke spills into the room when the wind rises.",
+   "wrong": "Smoke spills into the room when the chimney is blocked."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "inference_band_4_3_0006",
+  "item": "q2",
+  "difficulty": 2,
+  "prompt": "The chimney is not blocked and the wood is dry. What does that rule out?",
+  "core": "It rules out a blocked chimney and wet wood.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It rules out problems with the chimney or wet wood causing the smoke issue.",
+   "wrong": "It means the fireplace is always working perfectly."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "inference_band_4_3_0006",
+  "item": "q3",
+  "difficulty": 3,
+  "prompt": "Why does wind make the smoke come down instead of up?",
+  "core": "Higher pressure on the sheltered side pushes air down the chimney.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The wind can create high pressure that pushes smoke down the chimney.",
+   "wrong": "The wind makes the smoke go up because it's blowing."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "inference_band_4_3_0006",
+  "item": "q4",
+  "difficulty": 3,
+  "prompt": "Why do the trees and the ridge matter?",
+  "core": "They make the wind uneven.",
+  "flag": true,
+  "answers": {
+   "likely_right": "They make the wind uneven, causing pressure changes that affect how the chimney works.",
+   "wrong": "They block the wind completely, so the chimney can't work at all."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "inference_band_4_3_0006",
+  "item": "q5",
+  "difficulty": 4,
+  "prompt": "Why does adding more fuel not fix it?",
+  "core": "The downdraft pushes smoke back faster than the fire can push it out.",
+  "flag": true,
+  "answers": {
+   "likely_right": "Adding more fuel doesn't help because the wind pushes the smoke back down faster than the fire can push it out.",
+   "wrong": "Adding more fuel makes the fire bigger, so it pushes the smoke out better."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0001",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "How does the owner check a wheel before it leaves his bench?",
+  "core": "He spins the wheel twice, once to hear the bearing and once by hand on the rim.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The owner spins the wheel twice, once to hear the bearing and once with his hand on the rim.",
+   "wrong": "The owner just looks at the wheel and moves on to the next one."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0001",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "Why did the owner stop watching the helper at all that spring?",
+  "core": "The shop was too busy.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The shop was too busy with more bikes than racks, so the owner couldn't keep an eye on the helper anymore.",
+   "wrong": "The owner didn't like the helper's way of working."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0001",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "The owner refunded the charge and fitted the new rim himself. What did that show about how he treated the helper's mistake?",
+  "core": "He took the mistake on himself and fixed it without blaming the helper.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It showed he didn't blame the helper for the mistake.",
+   "wrong": "It showed he was angry and fired the helper."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0001",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "By the end the helper checks every wheel twice and the owner does not. What does the story show caused that?",
+  "core": "The owner's example taught the helper, and the owner dropped his own check when work piled up.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The owner was rushing to meet deadlines, so he skipped checking the wheels twice like the helper did.",
+   "wrong": "The helper was just being extra careful for no reason."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0001",
+  "item": "5",
+  "difficulty": 3,
+  "prompt": "The helper found the owner's loose nut and said nothing about it. What does that show about what he had learned?",
+  "core": "He had learned to fix a mistake quietly, the way the owner did.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows he learned to be more careful and take responsibility for his work.",
+   "wrong": "It means he didn't care about the owner's mistakes."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0002",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What reason does the driver give for taking the night run?",
+  "core": "The pay is better and the roads are clear.",
+  "flag": true,
+  "answers": {
+   "likely_right": "He takes the night run because the pay is better and the roads are clear.",
+   "wrong": "He drives at night because he likes the scenery."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0002",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "Why does the driver time the run so he arrives at the depot before two?",
+  "core": "So he reaches the depot while the lights are still on.",
+  "flag": true,
+  "answers": {
+   "likely_right": "He wants to make sure he can buy coffee while the man is still awake.",
+   "wrong": "He needs to buy fuel for his truck."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0002",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "The man has told him twice that he does not have to buy anything. Why does the driver keep buying the coffee?",
+  "core": "Buying the coffee gives him a reason to stop there.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The driver buys the coffee to ensure he can stay and chat until the kettle is off.",
+   "wrong": "The driver buys the coffee because he really likes it."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0002",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "The depot has shut and the driver still stops there at two. What does that show about the reason he gave for the night run?",
+  "core": "The stop was the real reason.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows that the driver might not just be in it for the money since he still goes to the empty depot out of habit or nostalgia.",
+   "wrong": "It means he really enjoys being at the depot because it's better than working at the service station."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "CORRECT",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0002",
+  "item": "5",
+  "difficulty": 3,
+  "prompt": "The driver says the pay is better. What does the story show about that answer?",
+  "core": "It is the answer he gives, but his nights show the stop was the real reason.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The answer shows he sticks to a routine and avoids change, even when things are different now.",
+   "wrong": "The answer means he really enjoys driving at night and doesn't care about anything else."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0003",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What does the foreman say when the paint is wrong?",
+  "core": "She says not yet.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The foreman says 'not yet' when the paint is wrong.",
+   "wrong": "The foreman says 'not good' when the paint is wrong."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0003",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "What happens to a flat that the foreman calls not yet?",
+  "core": "It goes back on the trestles, gets another coat, and waits a day.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It goes back for another coat of paint and waits before being checked again.",
+   "wrong": "It gets sent to the stage immediately."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0003",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "On the night of the dress rehearsal she said not yet about a frame he had finished. What was wrong?",
+  "core": "The paint was right, but the stage was not ready for the frame.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The floor wasn't ready for the frame yet, not the paint.",
+   "wrong": "The paint on the frame was still wet."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0003",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "The painter began sanding the frame for a second coat. What did that show he thought the words meant?",
+  "core": "He thought the paint was wrong again, as it had been in his first week.",
+  "flag": true,
+  "answers": {
+   "likely_right": "He thought it meant the frame wasn't ready yet for the show.",
+   "wrong": "He thought it meant he should paint the frame a different color."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0003",
+  "item": "5",
+  "difficulty": 3,
+  "prompt": "What did the painter learn the second time he heard the two words?",
+  "core": "The words can mean two things.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The painter learned that 'not yet' meant the timing was off, not the paint quality.",
+   "wrong": "The painter thought 'not yet' meant the paint was still bad."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0004",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What is wrong with the scale at the loading bay?",
+  "core": "It reads two kilos light on every crate.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The scale at the loading bay is reading two kilos light on every crate.",
+   "wrong": "The scale is broken and doesn't work at all."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0004",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "Repairs were booked in June and August. Why is the scale still wrong later in the year?",
+  "core": "The fitter was sent to the wrong bay both times.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The scale is still wrong because the repairman was sent to the wrong bay both times and never fixed it.",
+   "wrong": "The scale is broken because the office forgot to fix it."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0004",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "The grower worked out that the money would cover her costs. Where did her number come from?",
+  "core": "From the bay scale, the one that reads light.",
+  "flag": true,
+  "answers": {
+   "likely_right": "Her number came from weighing her crates on the loading bay scale.",
+   "wrong": "Her number was given to her by the clerk at the co-op."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0004",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "The clerk's figure was smaller than the grower's. What made the difference?",
+  "core": "The office scale weighed the load truly, and the bay scale reads two kilos light a crate.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The difference was because the crates dried out in the sun, making them lighter.",
+   "wrong": "The clerk made a mistake when weighing the crates."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0004",
+  "item": "5",
+  "difficulty": 3,
+  "prompt": "The grower said the crates must have dried out in the sun. What does the story show actually happened?",
+  "core": "The scale was wrong.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The scale was underreporting the weight of the crates, so she got paid less than she should have.",
+   "wrong": "The crates were actually lighter because they dried out."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0005",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What is the groundsman's rule?",
+  "core": "After three days of rain the pitch is closed.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The groundsman won't allow the pitch to be used after three days of rain.",
+   "wrong": "The groundsman doesn't let anyone play on the pitch at all."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0005",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "Why did the captain want this match played so much?",
+  "core": "It was the last home match.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The captain wanted the match played because it's their last chance to win at home before key players leave.",
+   "wrong": "The captain wanted to play because he likes playing in the rain."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0005",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "The groundsman pushed a fork into the turf at twelve points. What did the test show?",
+  "core": "The pitch was soft.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The test showed that the pitch was only good at one point, so the match was off.",
+   "wrong": "The groundsman was just checking the pitch for fun."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0005",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "The captain called the match off and then rolled the goalmouth at night. What does that show?",
+  "core": "He agreed with the groundsman.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows the captain's dedication to the field even after the match was canceled.",
+   "wrong": "It shows the captain was upset and didn't want to play anymore."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0005",
+  "item": "5",
+  "difficulty": 3,
+  "prompt": "The groundsman wrote the date but not whose work firmed the ground. What does the passage show about the two of them?",
+  "core": "They respected each other.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows they have a mutual understanding and respect for each other's roles, even if they don't communicate it directly.",
+   "wrong": "It means they are angry at each other and don't want to work together."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0006",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "How many looms are on the mill floor now?",
+  "core": "Nine.",
+  "flag": true,
+  "answers": {
+   "likely_right": "There are nine looms on the mill floor now.",
+   "wrong": "There are ten looms on the mill floor."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0006",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "The clerk counted nine frames. What number did the watchman say at each aisle?",
+  "core": "Fifteen, at every aisle.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The watchman said fifteen at each aisle.",
+   "wrong": "The watchman said nine at the first aisle."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0006",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "What did the mill's wage book show for its last full year of work?",
+  "core": "Fifteen weavers worked on that floor.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It showed fifteen weavers working on the floor.",
+   "wrong": "It showed the mill was closed for the last year."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0006",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "The clerk wrote the number in her book and drew a line under it. What did she do next?",
+  "core": "She went to the office and looked up the mill's old wage books.",
+  "flag": true,
+  "answers": {
+   "likely_right": "She closed the book and walked back down the aisle.",
+   "wrong": "She started counting the weavers in the book."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_1_0006",
+  "item": "5",
+  "difficulty": 3,
+  "prompt": "The clerk did not tell the watchman what she had found. What does the story show the counting was for?",
+  "core": "It was his way of keeping the mill and its weavers as they were, not a mistake about looms.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The counting was likely for keeping track of the looms before they were sold.",
+   "wrong": "The counting was for counting how many workers were still at the mill."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "wrong|qwen/qwen3.8-flash": null,
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0001",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What is the branding iron used for?",
+  "core": "It puts the family's mark on each calf.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The branding iron is used to mark calves with a specific brand.",
+   "wrong": "The branding iron is used to hang decorations on the barn door."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0001",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "Every calf shows the same small gap in the mark. What did her father do that put it there?",
+  "core": "The father left a corner of the letter open.",
+  "flag": true,
+  "answers": {
+   "likely_right": "Her father left one corner of the letter open when he cut the sign from the rod.",
+   "wrong": "He accidentally dropped the branding iron and it got damaged."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0001",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "The mother holds the handle with two fingers clear of the hot part. What does that show?",
+  "core": "She has done the work before and uses the father's grip.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows she knows how to handle the hot iron safely like her father did.",
+   "wrong": "It means she doesn't want to burn her fingers."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0001",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "Why does the mother want the old iron for that one heifer?",
+  "core": "Her line goes back to the father's first cow.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The mother wants the old iron for that heifer because it connects to their family's long history with that cow line.",
+   "wrong": "The mother wants the old iron because she wants to sell it for money."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0001",
+  "item": "5",
+  "difficulty": 3,
+  "prompt": "By the end, what has the old iron come to mean to the daughter?",
+  "core": "She keeps the iron and uses it once a spring for the oldest line on the place.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The old iron represents tradition and family history for the daughter.",
+   "wrong": "The old iron is just an old tool that she doesn't care about anymore."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0002",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What does Miss Aldous do at the junction?",
+  "core": "She sets the levers on the board and holds trains so they pass one at a time.",
+  "flag": true,
+  "answers": {
+   "likely_right": "Miss Aldous operates the board to manage train traffic at the junction.",
+   "wrong": "Miss Aldous drives the trains through the tunnel."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0002",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "She tells the dispatcher the number of the train she is holding. What does that tell him?",
+  "core": "That a train is waiting.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It tells him which train is currently on the line she is monitoring.",
+   "wrong": "It tells him how many trains are coming."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": null,
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0002",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "Why did she hold the troop train at the signal?",
+  "core": "A coal train was already on the track, so she held the troop train to keep the two from meeting.",
+  "flag": true,
+  "answers": {
+   "likely_right": "She held the troop train to prevent it from colliding with the coal train coming down the track.",
+   "wrong": "She held the troop train because she wanted to take a break."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0002",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "In March the crews ask for her by her surname, without the title. What does that change show?",
+  "core": "Dropping the title shows the crews now treat her as the person who knows the line.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows that they are starting to see her as an equal rather than just a title.",
+   "wrong": "It means they forgot her name completely."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0002",
+  "item": "5",
+  "difficulty": 3,
+  "prompt": "Nothing about that night was written down, and she is not named in the report. What does the ending show about how she earned her place on the board?",
+  "core": "Her place came from what the crews saw her do that night, not from anything written down.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows she earned respect and recognition even if it wasn't officially documented.",
+   "wrong": "It means she didn't do anything important that night."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": null,
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0003",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What did the ice plant do for the boats?",
+  "core": "It cut ice into blocks and packed them into the holds to keep the catch cold.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The ice plant provided ice for the boats to keep their catch fresh.",
+   "wrong": "The ice plant fixed the boats when they broke down."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0003",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "How could the man on the conveyor tell how long a boat had been out?",
+  "core": "He told the length of a trip from the boat's hatch cover.",
+  "flag": true,
+  "answers": {
+   "likely_right": "He could tell by looking at the hatch cover of the boat.",
+   "wrong": "He could tell by the color of the ice."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0003",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "The story never says what became of the boats that stopped coming. What does it give the reader instead?",
+  "core": "Fuel went up and buyers left.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It suggests the boats stopped coming due to rising fuel costs and fewer buyers.",
+   "wrong": "It says the boats sank in the ocean."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0003",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "Why did the man keep cutting twenty-five pounds when the foreman wanted thinner blocks?",
+  "core": "A thin block melts before the boat gets home.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The foreman kept cutting twenty-five pounds because he needed the blocks to last longer on the longer trips.",
+   "wrong": "The foreman didn't want to change the blocks because he liked them that way."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0003",
+  "item": "5",
+  "difficulty": 3,
+  "prompt": "The foreman leaves the cutting frame where it was. What does that show?",
+  "core": "He agreed the block has to last.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows that the foreman realized the importance of keeping the blocks at twenty-five pounds for the longer trips.",
+   "wrong": "It shows that the foreman didn't care about the ice blocks anymore."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0004",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "How did she know the road after nineteen years?",
+  "core": "She knew every piece of the road by heart, bend, beech, water, grid, and lay-by.",
+  "flag": true,
+  "answers": {
+   "likely_right": "She knew the road really well, like knowing a room in the dark.",
+   "wrong": "She only drove it once a month."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0004",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "She named the pieces to herself the way other people count sheep. What was the naming doing for her?",
+  "core": "It kept her steady.",
+  "flag": true,
+  "answers": {
+   "likely_right": "Naming the pieces helped her stay focused and relaxed during the drive.",
+   "wrong": "She was counting the pieces to make sure she didn't miss any."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": null,
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0004",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "After the notice she stops naming the bend and the beech and counts posts instead. What does that change show?",
+  "core": "She has stopped letting the road be familiar, which shows she is already saying goodbye to it.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows she's focusing more on the routine and the changes happening around her.",
+   "wrong": "It means she forgot the names of the places."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0004",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "She takes the long way back past the new bridge and the lay-by. What does that show?",
+  "core": "She chose the old road on purpose, for one more run over it before it closes.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows she's feeling nostalgic and wants to remember the old route before it changes forever.",
+   "wrong": "It shows she got lost and didn't know the way back."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0004",
+  "item": "5",
+  "difficulty": 3,
+  "prompt": "That night she writes one line about the beech. What does the line show about what she took from the run?",
+  "core": "She kept the beech.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The line shows she cherished the memories of the beech tree and the run, even as it was ending.",
+   "wrong": "The line shows she was upset about the water being brown."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0005",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What does the guide check before light?",
+  "core": "He checks the wind with a pinch of flour let go over the hood of the truck.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The guide checks the wind before first light.",
+   "wrong": "The guide checks the time before light."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0005",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "The hunter asks twice about a shot, and both times the guide answers about wind or frost. What is the guide doing?",
+  "core": "He answers with the conditions.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The guide is avoiding the question about the shot and focusing on conditions instead.",
+   "wrong": "The guide is just being rude and not answering the hunter's question."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0005",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "The doe stood in the open and the hunter did not lift the rifle. What had he decided?",
+  "core": "He decided not to shoot the doe while her fawn stood behind her.",
+  "flag": true,
+  "answers": {
+   "likely_right": "He decided not to shoot the deer.",
+   "wrong": "He was too scared to lift the rifle."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0005",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "The hunter says he came for a head on a wall and got a morning instead. What changed for him?",
+  "core": "What he wanted from the day changed. A morning on the ridge was enough without a deer.",
+  "flag": true,
+  "answers": {
+   "likely_right": "He realized that the experience of being out there was more valuable than just getting a deer.",
+   "wrong": "He changed his mind and decided he didn't want to hunt anymore."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0005",
+  "item": "5",
+  "difficulty": 3,
+  "prompt": "On the second day the hunter asks about the wind instead of a shot. What does that show?",
+  "core": "He learned what the guide could give.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows that the hunter is starting to understand the guide's knowledge and the importance of the wind in hunting.",
+   "wrong": "It means the hunter didn't care about hunting anymore."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0006",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What does the man in the front office do?",
+  "core": "He writes letters for people who cannot write them well.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The man in the front office writes letters for people who can't write well.",
+   "wrong": "The man fixes roofs for farmers."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0006",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "What was the first letter he wrote for the farmer about?",
+  "core": "It was about the barn roof that had leaked since March, written as a complaint about weather and neglect.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It was about the leaking roof of the barn.",
+   "wrong": "It was about a complaint regarding the weather."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0006",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "Why did the farmer say the first letter did not sound like him?",
+  "core": "It was the office's words.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The farmer thought the letter didn't reflect his true voice or style.",
+   "wrong": "The farmer thought the letter was written by someone else."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": null,
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0006",
+  "item": "4",
+  "difficulty": 2,
+  "prompt": "What did the farmer give the man for the second letter?",
+  "core": "The buckets and the stain.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The farmer gave the man details about the buckets and the calf for the second letter.",
+   "wrong": "The farmer gave the man a letter from the front office."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_2_0006",
+  "item": "5",
+  "difficulty": 3,
+  "prompt": "The shorter letter got the owner out in nine days. What does the story show made the difference?",
+  "core": "The farmer's own details made the letter work. His words, not the office's, moved the owner.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The shorter letter was more direct and included specific details that got the owner's attention.",
+   "wrong": "The longer letter had more words, so it took longer for the owner to respond."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": null,
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0001",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What does the old soldier wish the dead man had belonged to?",
+  "core": "a lodge",
+  "flag": true,
+  "answers": {
+   "likely_right": "The old soldier wishes the dead man had belonged to him or his group.",
+   "wrong": "The old soldier wishes the dead man had a train ticket."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "UNCLEAR",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0001",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "The townsmen close round the coffin and none of them speaks to the young man. What does that show about who belongs?",
+  "core": "the townsmen belong and the young man does not",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows that the townsmen feel a sense of distance or separation from the young man, indicating he doesn't belong to their community.",
+   "wrong": "It means they are all friends and just don't want to talk to him right now."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0001",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "The lawyer says the town hated Merrick for not wanting what it had to sell. What does that explain about the other two speeches?",
+  "core": "the speeches are about the speakers' own standing, which Merrick did not want",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows that the banker and merchant were focused on their own success, while Merrick rejected the town's values.",
+   "wrong": "It means the lawyer was mad at the banker and merchant for talking too much."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0001",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "They look 'as if none of them knew what was expected.' What does that say about the waiting?",
+  "core": "A duty none of them understands.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It suggests they were uncertain and anxious about the train's arrival.",
+   "wrong": "It means they were excited and couldn't wait for the train."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0001",
+  "item": "5",
+  "difficulty": 4,
+  "prompt": "The town's leading men speak at the funeral, and the lawyer answers them. Whose account of Merrick does the story support?",
+  "core": "The lawyer's.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The story supports the lawyer's account of Merrick as someone the town resented for not conforming.",
+   "wrong": "The story supports the banker and merchant's view of Merrick as a successful man."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0002",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "How much of what you tell him does Jukes say the captain understands?",
+  "core": "not more than half",
+  "flag": true,
+  "answers": {
+   "likely_right": "Jukes says the captain understands less than half of what you tell him.",
+   "wrong": "Jukes says the captain understands everything you tell him."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0002",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "Jukes says the captain would not see anything wrong. What does the captain do when the swell rises?",
+  "core": "he names the dirty weather and sends Jukes to the glass",
+  "flag": true,
+  "answers": {
+   "likely_right": "The captain ignores the swell and continues his work on the bridge.",
+   "wrong": "The captain panics and tries to warn everyone about the swell."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0002",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "The captain asks what became of the canvas bags and says half went overboard. What does that show he has been doing?",
+  "core": "watching and counting the ship's gear",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows he has been keeping track of the supplies and their condition.",
+   "wrong": "It means he doesn't care about the bags at all."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0002",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "Jukes writes that 'you could not find a quieter skipper'. What does that phrase do to the opinion that follows?",
+  "core": "it sounds like praise and then turns into an insult",
+  "flag": true,
+  "answers": {
+   "likely_right": "It suggests that Captain MacWhirr is calm and unbothered, which makes Jukes' opinion seem more positive about him.",
+   "wrong": "It means that Captain MacWhirr is loud and annoying."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0002",
+  "item": "5",
+  "difficulty": 4,
+  "prompt": "The letter and the afternoon on the bridge give two views of the captain. Which should a reader trust, and why?",
+  "core": "The bridge.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The reader should trust the afternoon on the bridge because it shows the captain's practical side in a tough situation.",
+   "wrong": "The letter is more trustworthy because it shows that Jukes thinks the captain is really smart."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0003",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What is the cook doing in the bottom of the boat?",
+  "core": "bailing water and watching the six inches of wood",
+  "flag": true,
+  "answers": {
+   "likely_right": "The cook is bailing water out of the boat.",
+   "wrong": "The cook is sleeping in the bottom of the boat."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0003",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "The cook says a boat will come out to them. What do the two men disagree about?",
+  "core": "whether it has a crew",
+  "flag": true,
+  "answers": {
+   "likely_right": "They disagree about whether houses of refuge have crews or not.",
+   "wrong": "They disagree about where the boat is coming from."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0003",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "Neither man has ever seen a house of refuge. What does that make their plan rest on?",
+  "core": "a guess about what the building is",
+  "flag": true,
+  "answers": {
+   "likely_right": "Their plan rests on assumptions and guesses about what a house of refuge is.",
+   "wrong": "Their plan rests on the fact that they have seen a house of refuge before."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0003",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "The oiler says 'we're not there yet' twice. What does saying it twice do to the argument?",
+  "core": "it refuses to settle the argument and points at the distance",
+  "flag": true,
+  "answers": {
+   "likely_right": "It emphasizes that they're still far from help, adding tension to the situation.",
+   "wrong": "It means he doesn't know where they are at all."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0003",
+  "item": "5",
+  "difficulty": 4,
+  "prompt": "On the shore the men cannot agree whether the thing on wheels is a life-boat or an omnibus. What does that show about how they read the shore?",
+  "core": "they read it by hope, naming what they want to see",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows they are uncertain and confused about what they see because they're focused on surviving in the boat.",
+   "wrong": "It means they think everything on the shore is dangerous and can't trust what they see."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0004",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What does Mrs. Shimerda show the visitors in the two barrels?",
+  "core": "frozen rotting potatoes and a little flour",
+  "flag": true,
+  "answers": {
+   "likely_right": "Mrs. Shimerda shows them rotten potatoes and a little flour.",
+   "wrong": "Mrs. Shimerda shows them a bunch of fresh vegetables."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0004",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "Mrs. Shimerda shakes an empty coffee-pot at the visitors. What does giving them the parcel of mushrooms do to that moment?",
+  "core": "it answers the empty pot by giving something back",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows her gratitude and willingness to share even when they are in need.",
+   "wrong": "It makes the visitors feel uncomfortable because they don't want to take anything from her."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0004",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "Mr. Shimerda says he was not a beggar at home and had a thousand dollars. Why say this after the empty barrels?",
+  "core": "to separate being poor now from what the family is",
+  "flag": true,
+  "answers": {
+   "likely_right": "He wanted to show he had pride and wasn't used to needing help, even after the empty barrels.",
+   "wrong": "He was just bragging about his money and didn't care about the empty barrels."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0004",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "The bag is 'the one thing in the house that had come with them from the old country'. What does that make the gift cost?",
+  "core": "their last piece of home, which makes the gift cost a great deal",
+  "flag": true,
+  "answers": {
+   "likely_right": "It makes the gift very valuable and special to them.",
+   "wrong": "It means the gift is free because they already had it."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0004",
+  "item": "5",
+  "difficulty": 4,
+  "prompt": "The family has almost no food, and Mrs. Shimerda gives a cup of mushrooms away. What is the gift for?",
+  "core": "To keep their standing.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The gift is to help the grandmother and show gratitude for the visitors' kindness.",
+   "wrong": "Mrs. Shimerda is just giving away her only food because she doesn't want it."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0005",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What does the general say the enemy is forming for?",
+  "core": "another charge, aimed at Whiterside",
+  "flag": true,
+  "answers": {
+   "likely_right": "The general says the enemy is forming for another charge.",
+   "wrong": "The general says the enemy is retreating."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0005",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "The officer names the 304th for the charge. Why does he name that regiment?",
+  "core": "they were the unit he could spare first",
+  "flag": true,
+  "answers": {
+   "likely_right": "He names the 304th because he thinks they are the least valuable and can be spared for the charge.",
+   "wrong": "He names the 304th because they are the strongest fighters."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0005",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "The youth thinks the officer spoke of the regiment as if pointing at a broom. What does that image show he believes the officer meant?",
+  "core": "the regiment is a thing to be used up, of no account",
+  "flag": true,
+  "answers": {
+   "likely_right": "He thinks the officer saw the regiment as something disposable or unimportant.",
+   "wrong": "He believes the officer thought the soldiers were as useful as a broom for cleaning."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0005",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "'They fight like a lot of mule drivers.' What does that comparison make the men's fighting sound like?",
+  "core": "clumsy, stubborn hauling rather than soldiering",
+  "flag": true,
+  "answers": {
+   "likely_right": "It makes their fighting sound unskilled or chaotic, like they're not really trained soldiers.",
+   "wrong": "It means they are really strong and tough fighters."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0005",
+  "item": "5",
+  "difficulty": 4,
+  "prompt": "The 304th was chosen because it could be spared. What did the men hear, and what did they do with it?",
+  "core": "they heard a judgement on their courage and charged anyway",
+  "flag": true,
+  "answers": {
+   "likely_right": "The men heard that the 304th was going to charge because they could be spared, and they shared the news with their regiment but kept the reason a secret.",
+   "wrong": "The men heard that they were going to win the battle and got really excited about it."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": null,
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0006",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "Why had the children been sent to bed early?",
+  "core": "so they would sleep instead of asking for food",
+  "flag": true,
+  "answers": {
+   "likely_right": "The children were sent to bed early so they wouldn't ask for food.",
+   "wrong": "The children were sent to bed early because they were being punished."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0006",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "King put Sandel on the floor three times with the same punch. What does that show about King in the ninth round?",
+  "core": "his skill still worked and he could land the punch",
+  "flag": true,
+  "answers": {
+   "likely_right": "It shows that King was skilled and effective with his punches even against a younger opponent.",
+   "wrong": "It means Sandel was really weak and couldn't get up."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0006",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "King aimed a blow at Sandel's jaw and it landed on the shoulder. What does the passage say caused that?",
+  "core": "his tired muscles would not obey, though he willed the blow higher",
+  "flag": true,
+  "answers": {
+   "likely_right": "King's tired muscles wouldn't obey his will to aim higher.",
+   "wrong": "King was just too weak to hit Sandel at all."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": null,
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0006",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "The sentence says 'he had willed it higher, but the tired muscles would not obey'. What does that make the defeat look like?",
+  "core": "a body that has stopped answering him, not a mistake",
+  "flag": true,
+  "answers": {
+   "likely_right": "It makes the defeat look like it was due to his physical exhaustion rather than a lack of willpower.",
+   "wrong": "It makes it seem like he didn't want to win the fight at all."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "literary_text_band_4_3_0006",
+  "item": "5",
+  "difficulty": 4,
+  "prompt": "King says the loss was all because of the piece of steak. What else does the story show?",
+  "core": "his age: the body could no longer do what he knew",
+  "flag": true,
+  "answers": {
+   "likely_right": "The story shows how exhaustion and age can affect a fighter's performance, not just lack of food.",
+   "wrong": "King lost because he didn't train hard enough for the fight."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0001",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What is the first part mostly about?",
+  "core": "The library opened a tool shed so people can borrow tools instead of driving to a hardware store.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's about the library lending tools, not just books.",
+   "wrong": "It's about how far the hardware store is from the library."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0001",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "What is the second part mostly about?",
+  "core": "Borrowing a tool saves the cost of buying one, and donated tools keep the shed stocked.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's mostly about how the shed helps people borrow tools instead of buying them.",
+   "wrong": "It's mostly about how the shed sells tools to make money."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": null,
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0001",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "What is the third part mostly about?",
+  "core": "Volunteers teach borrowers to do the work themselves, which keeps the shed cheap.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's about how volunteers help borrowers learn to fix things themselves.",
+   "wrong": "It's about the library lending tools for free."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0001",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "A library that lends tools and teaches people to use them.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The passage is about a library that lends tools and offers help on how to use them.",
+   "wrong": "The passage is about a library that only lends books."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0001",
+  "item": "5",
+  "difficulty": 4,
+  "prompt": "One reader says the passage is mostly about a library that lends books. What is missing from that idea?",
+  "core": "It leaves out the tools.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The passage is really about the library lending tools and the community effort behind it, not just books.",
+   "wrong": "The passage is only about how people borrow books from the library."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0002",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What was wrong with the old route?",
+  "core": "The bus spent fuel and time on a mile where almost nobody got on or off.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The old route was inefficient because it only had two riders a day on the empty mile.",
+   "wrong": "The bus didn't stop at the mill at all."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0002",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "The town made some riders walk farther. What did it get in exchange?",
+  "core": "The bus saves eight minutes and its next run starts on time.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The bus reaches the mill eight minutes sooner, benefiting all riders.",
+   "wrong": "The town made the bus stop at the mill to help those riders who live farther away."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0002",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "What is the third part mostly about?",
+  "core": "The town added a van.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's about how the town changed the bus route and its impact on some residents.",
+   "wrong": "It's about how everyone in the town got a new bus stop."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0002",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "The town moved a stop and added a van.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's about how the town changed the bus route to help more people but some lost their stop.",
+   "wrong": "It's about how the bus was always empty and nobody used it."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0002",
+  "item": "5",
+  "difficulty": 4,
+  "prompt": "The passage calls the change a trade. What did the town give up, and what did it gain?",
+  "core": "It gave up service at three doorsteps and gained time for every rider on the route.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The town gave up the stop for three houses but gained more riders and a quicker bus route.",
+   "wrong": "The town gave up the bus entirely and gained a new train station."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0003",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "Why did the owner write down the temperature every hour?",
+  "core": "He wanted to measure what the sun was costing him.",
+  "flag": true,
+  "answers": {
+   "likely_right": "He wanted to see how much the sun was costing him in terms of cooling.",
+   "wrong": "He was trying to find out the weather for the week."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0003",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "What did the owner find after the trees grew?",
+  "core": "The wall was cooler.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The wall was cooler and the electric bill went down.",
+   "wrong": "The trees didn't need any water after the first summer."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0003",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "What is the third part mostly about?",
+  "core": "People started using the shade.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The third part is mostly about how the area by the store became a popular, cool spot for people to hang out.",
+   "wrong": "The third part is mostly about how the owner built a fence to keep people away."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0003",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "Six shade trees cooled a hot wall, cut the store's cooling cost, and made the strip beside it a place people use.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's about how planting trees helped cool down a hot wall and made the area nicer for people.",
+   "wrong": "It's about how the grocery store owner measured the weather."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0003",
+  "item": "5",
+  "difficulty": 4,
+  "prompt": "One reader says the passage is mostly about saving electricity. What does that idea miss?",
+  "core": "It misses the strip beside the store, which the last part is about.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's really about how the trees changed the whole vibe of the area, not just saving electricity.",
+   "wrong": "It's just about how to keep the store cooler to save money."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0004",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What problem did the packed boxes cause?",
+  "core": "People got food they could not use.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The packed boxes often contained food that families couldn't use or didn't need.",
+   "wrong": "The boxes were always full of food that everyone liked."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0004",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "What happened after the pantry put up shelves?",
+  "core": "The waste fell by half.",
+  "flag": true,
+  "answers": {
+   "likely_right": "Families took less food but visited the pantry more often after the shelves were put up.",
+   "wrong": "The pantry ran out of food completely after putting up the shelves."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0004",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "What did the volunteers who expected failure get wrong?",
+  "core": "People took less than they expected.",
+  "flag": true,
+  "answers": {
+   "likely_right": "They underestimated people's willingness to take only what they needed.",
+   "wrong": "They thought the shelves would break and fall down."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0004",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "A pantry let families choose their own food, and the waste fell by half without anyone taking too much.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The passage is about how a pantry changed from giving out pre-packed boxes of food to letting families choose their own food, which reduced waste.",
+   "wrong": "The passage is about how the pantry stopped giving away food altogether."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0004",
+  "item": "5",
+  "difficulty": 4,
+  "prompt": "A reader says the passage is mostly about a two-hundred-dollar shelving project. What does that idea miss?",
+  "core": "It misses the change in waste and in how much families took.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's really about how allowing families to choose their food reduced waste and helped them get what they actually needed.",
+   "wrong": "It's just about how much money they spent on the shelves."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0005",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "Why did the crew eat from a vending machine?",
+  "core": "The cafeteria was closed.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The crew ate from a vending machine because it was the only thing open at that hour.",
+   "wrong": "They ate from a vending machine because they didn't like the cafeteria food."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0005",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "What did the hospital learn from the six-week trial?",
+  "core": "The crew slept better.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The hospital learned that opening the cafeteria early improved the crew's sleep and reduced their need for large meals at home.",
+   "wrong": "The hospital learned that the cafeteria should stay open all night."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0005",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "What did the manager say made the difference?",
+  "core": "The hour and the table made the difference, not the food.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The manager said the difference was the hour and the table where the crew sat together.",
+   "wrong": "The manager said the food was the reason for the change."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0005",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "A hot meal in the middle of the night.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's about how the hospital changed meal times for the cleaning crew and how it improved their sleep and morale.",
+   "wrong": "It's about how the vending machine is the only food option for the crew."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0005",
+  "item": "5",
+  "difficulty": 4,
+  "prompt": "The crew said the meal made the night shorter. Why would a meal do that?",
+  "core": "They ate together instead of alone.",
+  "flag": true,
+  "answers": {
+   "likely_right": "Eating together made them feel more connected and less lonely during their shift.",
+   "wrong": "The meal made them work faster so they finished their shift sooner."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0006",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What was the group's only record for two years?",
+  "core": "A list of the machines the group had fixed.",
+  "flag": true,
+  "answers": {
+   "likely_right": "A list of the machines it had fixed.",
+   "wrong": "They kept track of how many people came to the cafe."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0006",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "What did the second notebook hold?",
+  "core": "The machines that could not be fixed, with what was tried and why it failed.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It held information about machines that couldn't be fixed, including their model and faults.",
+   "wrong": "It was a notebook for machines that were already fixed."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0006",
+  "item": "3",
+  "difficulty": 2,
+  "prompt": "Why did the volunteers read the notebook before opening a machine?",
+  "core": "So they would not repeat a repair that had already failed.",
+  "flag": true,
+  "answers": {
+   "likely_right": "They wanted to avoid wasting time on machines they couldn't fix again.",
+   "wrong": "They read it to find out how to fix the machines better."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0006",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "A repair group started recording its failures, and that record taught it more than its list of successes did.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's about how a notebook of failed repairs helped volunteers fix more machines.",
+   "wrong": "It's about how volunteers only fix things that are easy to repair."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_1_0006",
+  "item": "5",
+  "difficulty": 4,
+  "prompt": "The passage says the list of successes never taught the group anything. Why not?",
+  "core": "The successes only confirmed what worked, while the failures told them what to stop trying and what to tell a visitor.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The list of successes didn't show what went wrong or how to improve, unlike the failures did.",
+   "wrong": "Because they only focused on the things they fixed and ignored the broken ones."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "wrong|qwen/qwen3.8-flash": null,
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0001",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "By the 1970s, what stood on this land?",
+  "core": "Buildings and junk.",
+  "flag": true,
+  "answers": {
+   "likely_right": "By the 1970s, there were buildings and junk on the land instead of water.",
+   "wrong": "By the 1970s, there was still a dairy farm on the land."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0001",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "What is this part mostly about?",
+  "core": "Beavers returned to the valley, and their dams flooded the land again.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's about how beavers returned to Ohio and built dams in the valley.",
+   "wrong": "It's about how people trapped beavers for their fur."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0001",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "The passage names two groups that helped this land. What did each one do?",
+  "core": "Volunteers hauled away the junk, and beavers raised the water with their dams.",
+  "flag": false,
+  "answers": {
+   "likely_right": "The Sierra Club organized a big cleanup, and the federal government bought the land and removed buildings.",
+   "wrong": "The beavers built the dams and cleaned up the junk themselves."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "MISS",
+   "likely_right|google/gemini-3.8-flash": "MISS",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0001",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "A drained, junked wetland came back after people cleaned it and beavers raised the water.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The passage is about the history and restoration of wetlands in Cuyahoga Valley National Park.",
+   "wrong": "The passage is about beavers taking over a dairy farm."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0001",
+  "item": "5",
+  "difficulty": 4,
+  "prompt": "A reader says the passage is mostly about how beavers build dams. What does that idea leave out?",
+  "core": "It leaves out the people who cleaned the land.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It leaves out the history of the land and how it changed before the beavers returned.",
+   "wrong": "It leaves out how beavers are the only animals in the park."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0002",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "Who ran the camps, and who chose the work?",
+  "core": "The army ran them and the park service chose the work.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The Army ran the camps, and the National Park Service chose the work.",
+   "wrong": "The National Park Service ran the camps and the Army chose the work."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0002",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "What is this part mostly about?",
+  "core": "The crews did many kinds of work to build the park.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's about how the men built different parts of the park.",
+   "wrong": "It's about the types of trees in the park."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0002",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "The crews cut undergrowth and planted trees. Why does the passage include that work?",
+  "core": "The crews were shaping the land and the views along the road.",
+  "flag": true,
+  "answers": {
+   "likely_right": "They did that to make the park safer and more visually appealing for visitors.",
+   "wrong": "They cut undergrowth and planted trees to make more space for the camps."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0002",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "Crews that built a park and shaped how it looks.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's about how the CCC helped build Shenandoah National Park during the Great Depression.",
+   "wrong": "It's about the Great Depression and how it affected the whole country."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0002",
+  "item": "5",
+  "difficulty": 4,
+  "prompt": "The passage says no area in view of the Skyline Drive is fully natural. Why does it say that?",
+  "core": "People cleared, planted, and shaped the land to make the views.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It says that because the land was intentionally shaped and altered by workers for better views along the drive.",
+   "wrong": "It means that there are no trees or plants at all in the area."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0003",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "Where does the passage say water is stored?",
+  "core": "In the air, on the land, and underground.",
+  "flag": true,
+  "answers": {
+   "likely_right": "Water is stored in the air, on land, and below the ground.",
+   "wrong": "Water is only stored in the oceans."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0003",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "What is this part mostly about?",
+  "core": "The pools that hold water.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's about the different places where Earth's water is stored and how long it stays there.",
+   "wrong": "It's only about how salty ocean water is."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0003",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "People pump water, build dams, and drain wetlands. What does the passage say those actions change?",
+  "core": "Where water is stored and how it moves.",
+  "flag": true,
+  "answers": {
+   "likely_right": "Those actions change how water moves and how clean it is.",
+   "wrong": "Those actions change where water comes from."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0003",
+  "item": "4",
+  "difficulty": 3,
+  "prompt": "What is this passage mostly about?",
+  "core": "Water moves between the places it is stored, and people change that movement.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's about the water cycle and how water moves and is stored on Earth.",
+   "wrong": "It's just about oceans and how salty they are."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0003",
+  "item": "5",
+  "difficulty": 4,
+  "prompt": "A reader says the passage is mostly about the ocean, because it holds almost all of Earth's water. What does that idea miss?",
+  "core": "It leaves out how water moves between places.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It misses that water is everywhere and moves through different places, not just the ocean.",
+   "wrong": "It misses that the ocean is the only place where water is found."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0004",
+  "item": "1",
+  "difficulty": 1,
+  "prompt": "What is a prescription in this passage?",
+  "core": "A prescription is a set of conditions for the burn.",
+  "flag": true,
+  "answers": {
+   "likely_right": "A prescription is a set of conditions for a controlled burn.",
+   "wrong": "A prescription is a type of medicine for fires."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0004",
+  "item": "2",
+  "difficulty": 2,
+  "prompt": "What is this part mostly about?",
+  "core": "The reasons parks use prescribed fire.",
+  "flag": true,
+  "answers": {
+   "likely_right": "It's about why parks use prescribed fire for land management and conservation.",
+   "wrong": "It's just about how fire destroys everything in parks."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
+ },
+ {
+  "lesson": "main_idea_band_4_2_0004",
+  "item": "3",
+  "difficulty": 3,
+  "prompt": "Why does the crew check a go/no-go list on the day of the burn?",
+  "core": "The fire starts only if every condition on the list is met.",
+  "flag": true,
+  "answers": {
+   "likely_right": "The crew checks the list to make sure all conditions for starting the fire are met.",
+   "wrong": "The crew checks the list to see if they should cancel the fire completely."
+  },
+  "res": {
+   "likely_right|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "likely_right|qwen/qwen3.8-flash": "CORRECT",
+   "likely_right|google/gemini-3.8-flash": "CORRECT",
+   "wrong|deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "wrong|qwen/qwen3.8-flash": "MISS",
+   "wrong|google/gemini-3.8-flash": "MISS"
+  }
  }
 ]

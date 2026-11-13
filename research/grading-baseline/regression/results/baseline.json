@@ -1,4 +1,364 @@
 {
+ "B1": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "B2": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "B3": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "B4": {
+  "kind": "answer",
+  "expect": "MISS",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
+  }
+ },
+ "B5": {
+  "kind": "answer",
+  "expect": "MISS",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
+  }
+ },
+ "B6": {
+  "kind": "answer",
+  "expect": "MISS",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
+  }
+ },
+ "A1": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "A2": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "A3": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "A4": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "A5": {
+  "kind": "answer",
+  "expect": "MISS",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
+  }
+ },
+ "A6": {
+  "kind": "answer",
+  "expect": "MISS",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
+  }
+ },
+ "C1": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "C2": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "C3": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "C4": {
+  "kind": "answer",
+  "expect": "UNCLEAR",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "UNCLEAR",
+   "qwen/qwen3.8-flash": "UNCLEAR",
+   "google/gemini-3.8-flash": "UNCLEAR"
+  }
+ },
+ "C5": {
+  "kind": "answer",
+  "expect": "MISS",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
+  }
+ },
+ "C6": {
+  "kind": "answer",
+  "expect": "MISS",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
+  }
+ },
+ "D1": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "D2": {
+  "kind": "answer",
+  "expect": "MISS",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
+  }
+ },
+ "D3": {
+  "kind": "answer",
+  "expect": "MISS",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
+  }
+ },
+ "D4": {
+  "kind": "answer",
+  "expect": "MISS",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
+  }
+ },
+ "D5": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "D6": {
+  "kind": "answer",
+  "expect": "MISS",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
+  }
+ },
+ "E1": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "E2": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "E3": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "E4": {
+  "kind": "answer",
+  "expect": "MISS",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
+  }
+ },
+ "E5": {
+  "kind": "answer",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "E6": {
+  "kind": "answer",
+  "expect": "MISS",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
+  }
+ },
+ "S1": {
+  "kind": "sayback",
+  "expect": "open",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "open",
+   "qwen/qwen3.8-flash": "open",
+   "google/gemini-3.8-flash": "open"
+  }
+ },
+ "S2": {
+  "kind": "sayback",
+  "expect": "near_copy_1",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "near_copy_1",
+   "qwen/qwen3.8-flash": "near_copy_1",
+   "google/gemini-3.8-flash": "near_copy_1"
+  }
+ },
+ "S3": {
+  "kind": "sayback",
+  "expect": "mercy",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "mercy",
+   "qwen/qwen3.8-flash": "mercy",
+   "google/gemini-3.8-flash": "mercy"
+  }
+ },
+ "S4": {
+  "kind": "sayback",
+  "expect": "open",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "open",
+   "qwen/qwen3.8-flash": "open",
+   "google/gemini-3.8-flash": "open"
+  }
+ },
+ "S5": {
+  "kind": "sayback",
+  "expect": "mercy",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "mercy",
+   "qwen/qwen3.8-flash": "mercy",
+   "google/gemini-3.8-flash": "mercy"
+  }
+ },
+ "S6": {
+  "kind": "sayback",
+  "expect": "mercy",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "mercy",
+   "qwen/qwen3.8-flash": "mercy",
+   "google/gemini-3.8-flash": "mercy"
+  }
+ },
+ "S7": {
+  "kind": "sayback",
+  "expect": "mercy",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "mercy",
+   "qwen/qwen3.8-flash": "mercy",
+   "google/gemini-3.8-flash": "mercy"
+  }
+ },
+ "S8": {
+  "kind": "sayback",
+  "expect": "near_copy_1",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "near_copy_1",
+   "qwen/qwen3.8-flash": "near_copy_1",
+   "google/gemini-3.8-flash": "near_copy_1"
+  }
+ },
+ "S9": {
+  "kind": "sayback",
+  "expect": "near_copy_1",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "near_copy_1",
+   "qwen/qwen3.8-flash": "near_copy_1",
+   "google/gemini-3.8-flash": "near_copy_1"
+  }
+ },
+ "S10": {
+  "kind": "sayback",
+  "expect": "mercy",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "mercy",
+   "qwen/qwen3.8-flash": "mercy",
+   "google/gemini-3.8-flash": "mercy"
+  }
+ },
  "K1": {
   "kind": "cloze",
   "expect": "CORRECT",
@@ -30,7 +390,7 @@
   "kind": "cloze",
   "expect": "MISS",
   "got": {
-   "deepseek/deepseek-v4.1-flash-1017": "UNCLEAR",
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
    "qwen/qwen3.8-flash": "MISS",
    "google/gemini-3.8-flash": "MISS"
   }
@@ -49,15 +409,15 @@
   "expect": "MISS",
   "got": {
    "deepseek/deepseek-v4.1-flash-1017": "MISS",
-   "qwen/qwen3.8-flash": "CORRECT",
-   "google/gemini-3.8-flash": "MISS"
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "CORRECT"
   }
  },
  "K7": {
   "kind": "cloze",
   "expect": "CORRECT",
   "got": {
-   "deepseek/deepseek-v4.1-flash-1017": "UNCLEAR",
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
    "qwen/qwen3.8-flash": "CORRECT",
    "google/gemini-3.8-flash": "CORRECT"
   }
@@ -68,7 +428,7 @@
   "got": {
    "deepseek/deepseek-v4.1-flash-1017": "MISS",
    "qwen/qwen3.8-flash": "MISS",
-   "google/gemini-3.8-flash": "MISS"
+   "google/gemini-3.8-flash": "CORRECT"
   }
  },
  "K9": {
@@ -86,7 +446,43 @@
   "got": {
    "deepseek/deepseek-v4.1-flash-1017": "MISS",
    "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
+  }
+ },
+ "Y1": {
+  "kind": "yesno",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
    "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "Y2": {
+  "kind": "yesno",
+  "expect": "MISS",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
+  }
+ },
+ "Y3": {
+  "kind": "yesno",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "Y4": {
+  "kind": "yesno",
+  "expect": "MISS",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "MISS",
+   "qwen/qwen3.8-flash": "MISS",
+   "google/gemini-3.8-flash": "MISS"
   }
  }
 }
