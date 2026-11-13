@@ -148,9 +148,9 @@
         ]
       },
       "display": {
-        "lead": "",
+        "lead": "Here is the rest of the passage.",
         "label": "Passage",
-        "text": ""
+        "text": "A map is a promise that distances can be trusted, yet the first maps of a new coast were drawn by people who had seen it once. A sailor sketched the shape of a bay from the deck, guessing at the land behind it. He marked a landmark, a hill or a white cliff, and wrote the depth of water beside it. The result was rough, which meant it was close enough to be useful and wrong enough to be dangerous. Later ships corrected the errors and kept the corrections. A chart improved only as fast as ships came back to say what they had found."
       }
     },
     {
@@ -193,9 +193,9 @@
         "full_idea": "It leaves out inlets and shoals too narrow to draw, so the sailor could run onto a hazard the chart simplified away."
       },
       "display": {
-        "lead": "",
+        "lead": "Here is the rest of the passage.",
         "label": "Passage",
-        "text": ""
+        "text": "Scale is the part that most readers ignore. A map at a small scale shows a whole country on one sheet, and a map at a large scale shows a single harbor. The same coastline looks different on each, because the small-scale map must leave out every inlet too narrow to draw. A sailor who trusted the small-scale chart into a harbor he did not know could run onto a shoal the chart had simplified away. The chart was not lying. It was answering a different question. The answer was right for crossing an ocean and wrong for entering a bay."
       }
     },
     {
