@@ -159,6 +159,7 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-146 | A Home Like a City | Nonfiction | 4 | Band 4.2 | 330 words (three passages, 106, 121, 103) | 6.80 | `authors_craft_band_4_2_0005` |
 | TB-147 | The Warning in the Kitchen | Nonfiction | 4 | Band 4.2 | 328 words (three passages, 115, 109, 104) | 6.50 | `authors_craft_band_4_2_0006` |
 | TB-148 | Four Forces in the Air | Nonfiction | 5 | Band 5.1 | 492 words (three passages, 156, 180, 156) | 5.01 | `inference_band_5_1_0003` |
+| TB-149 | The Boat in the Lock | Nonfiction | 5 | Band 5.1 | 434 words (three passages, 113, 130, 191) | 6.66 | `inference_band_5_1_0004` |
 
 ---
 
@@ -2199,6 +2200,37 @@ as one case, not a measurement.
 **Why it works.** Each useful fact has a neighbor that a reader can grab instead: hot air beside the wing, water beside shape, wings beside the missing thrust.
 
 **Cautions.** Verbatim. Two helicopter sentences were omitted so part 2 stays within 200 words. No kept sentence was rewritten. Do not require the word thrust when the question is about going up.
+
+---
+
+## TB-149 — The Boat in the Lock
+
+| Field | Value |
+| --- | --- |
+| Source | U.S. National Park Service, Chesapeake & Ohio Canal |
+| URL | https://www.nps.gov/choh/learn/historyculture/lift-locks.htm |
+| License | U.S. federal government work; public domain in the U.S. |
+| Genre | Nonfiction, explanatory |
+| Topic domain | places and travel |
+| Grade target | 5 |
+| Band | Band 5.1 |
+| Length | 434 words (three passages, 113, 130, 191) |
+| FK grade | 6.66 on the three passages together (parts 7.67, 7.93, 5.79) |
+| Complexity | L3, I2, S2, K1 |
+| Best lesson fit | `inference_band_5_1_0004` |
+
+**Central idea.** A lift lock raises a boat by letting water in, not by hoisting the boat, and the high doors stay shut until the water matches.
+
+**Supporting details.**
+
+- One lock raises a boat about 8 to 10 feet instead of following the slope.
+- Closed gates point toward the higher water, and that pressure holds them shut.
+- The boat floats in. A lock key opens panels, and water rushes in from the bottom.
+- The water level rises until it matches the higher water, and then the high doors open.
+
+**Why it works.** The rise of the boat is two steps: water enters, then the floating boat comes up with the level. The lock key looks like a machine that could do the lifting.
+
+**Cautions.** Verbatim, including source typos (navagate, back gates are close). Part 2 measures FK 7.93 because a few sentences are long. Exclamation-point sentences on the page were left out.
 
 ---
 
