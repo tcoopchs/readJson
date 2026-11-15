@@ -321,7 +321,7 @@ floor through stage 4.3; the rest is prototype coverage:
 | 4.2 | inference | 6 | complete |
 | 4.3 | inference | 6 | complete |
 | 3.1 | main idea | 6 | complete |
-| 5.1 | inference | 2 | incomplete |
+| 5.1 | inference | 6 | complete |
 | 6.1 | inference | 1 | incomplete |
 | 7.1 | main idea | 2 | incomplete |
 | 9.1 | process | 2 | incomplete |

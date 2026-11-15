@@ -1,0 +1,298 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_5_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "Near in January",
+    "skill": "inference",
+    "irl_grade": 5,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Hold a fact from an early part up against a later list, and do not take the nearest label.",
+    "reader": {
+      "who": "High school students who read at about a 5th-grade level.",
+      "reading_level": 5,
+      "why_this_level": "Flesch-Kincaid on the three parts together is 6.2. Part 3 measures 7.4, near the top of the grade 4-5 band. The two-step chain and the cross-part clue stay. The new load is one more competing detail: three groups can use the satellite record, and July can look like the near month. Two hard names, perihelion and aphelion, are supported in tell and are not required. This is the upper load of the stage, and this sequence is retry text.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "NASA, 'What Is Earth?' (Grades 5-8).",
+      "attribution": "National Aeronautics and Space Administration, NASA STEM Team, 'What Is Earth? (Grades 5-8)', https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-earth-grades-5-8/, accessed 2026-11-15. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Verbatim excerpt. Not adapted.",
+      "survey": "Three sections of the NASA STEM Team article, in source order: how Earth moves, Earth's parts, and why NASA studies Earth. Other sections were left out. No kept sentence was rewritten.",
+      "avoided": "The seasons section measured about FK 8.8 and was not used. The round-Earth section has an exclamation point and measured about FK 7.8. Satellite-page sections measured FK 8.2 to 9.4 and were not used."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Competing details, one more than the Mercury lesson. The two-step chain and the cross-part clue stay. The new trap is a list: three groups, or the month that feels like the near one."
+    },
+    "authoring_exceptions": [
+      "Advance names inference_band_5_1_0001 because inference band 5.2 is not authored. Retry names this lesson. It is the last sequence in the stage.",
+      "Sequence 0003 is also science and nature. The two are not neighbors. Sport, food, and arts pages screened for this slot measured above FK 7.73 or failed the licence test."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Start with the month, or with the group. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Earth orbits the sun once every 365 days, or one year. The shape of its orbit is not quite a perfect circle. It's more like an oval, which causes Earth's distance from the sun to vary during the year. Earth is nearest the sun, or at \"perihelion,\" in January when it's about 91 million miles away. Earth is farthest from the sun, or at \"aphelion,\" in July when it's about 95 million miles away.\n\nAt the equator, Earth spins at just over 1,000 miles per hour. Earth makes a full spin around its axis once every 24 hours, or one day. The axis is an imaginary line through the center of the planet from the North Pole to the South Pole. Rather than straight up and down, Earth's axis is tilted at an angle of 23.5 degrees.",
+    "part_2": "Earth consists of land, air, water and life. The land contains mountains, valleys and flat areas. The air is made up of different gases, mainly nitrogen and oxygen. The water includes oceans, lakes, rivers, streams, rain, snow and ice. Life consists of people, animals and plants. There are millions of species, or kinds of life, on Earth. Their sizes range from very tiny to very large.\n\nBelow Earth's surface are layers of rock and metal. Temperatures increase with depth, all the way to about 12,000 degrees Fahrenheit at Earth's inner core.\n\nEarth's parts once were seen as largely separate from each other. But now they are viewed together as the \"Earth system.\" Each part connects to and affects each of the other parts. For example:\n\nClouds in the air drop rain and snow on land.\n\nWater gives life to plants and animals.\n\nVolcanoes on land send gas and dust into the air.\n\nPeople breathe air and drink water.\n\nEarth system science is the study of interactions between and among Earth's different parts.",
+    "part_3": "NASA studies Earth to learn about how the planet changes. Earth's parts - land, air, water and life - are always changing. Some of the changes are natural and some are caused by humans. Scientists want to understand how Earth has changed in the past and how it is changing now. This information helps them predict how Earth might change in the future.\n\nNASA studies Earth using satellites. Satellites look toward Earth from space. They take pictures of, and collect information about, all of Earth's parts. NASA satellites are especially good for observing clouds, oceans, land and ice. They also measure gases in the atmosphere, such as ozone and carbon dioxide. They measure how much energy enters and leaves Earth's atmosphere. And they monitor wildfires, volcanoes and their smoke.\n\nInformation gathered by NASA satellites helps scientists predict weather and climate. It also helps public health officials track disease and famine. It helps farmers decide when to plant crops and what kinds to plant. And it helps emergency workers respond to natural disasters.\n\nThe more people know about Earth and its current and predicted changes, the better decisions they can make."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "Which month is Earth nearer the sun, and which month is it farther?",
+      "tutor_only": {
+        "confirm": "Right. Earth is nearer in January and farther in July.",
+        "correct_reason": "The passage says Earth is nearest the sun in January and farthest in July. The hard names are perihelion and aphelion.",
+        "core_idea": "Earth is nearer the sun in January and farther in July.",
+        "not_required": [
+          "perihelion",
+          "aphelion",
+          "the miles"
+        ],
+        "accept_ideas": [
+          "January is nearer. July is farther.",
+          "Nearest in January and farthest in July.",
+          "January close, July far."
+        ],
+        "one_idea_is_enough": false,
+        "partial": [
+          {
+            "when": "They name January or July, but not both.",
+            "ask": "You have one month. The question asks for the near month and the far month."
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say July is nearer, or January is farther.",
+            "ask": "That swaps the months. Which month does the passage call nearest?"
+          },
+          {
+            "when": "They say only perihelion or aphelion, and they do not name a month.",
+            "ask": "Those are the hard names. Which month is attached to each one?"
+          }
+        ],
+        "help": [
+          "Find the sentence that says when Earth is nearest the sun.",
+          "The next sentence says when Earth is farthest. Which month is that?"
+        ],
+        "tell": "Earth is nearest the sun in January. It is farthest in July. You do not need the words perihelion and aphelion.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": true,
+      "prompt": "Clouds drop rain on land. Volcanoes send dust into the air. What do those examples show about Earth's parts?",
+      "tutor_only": {
+        "confirm": "Right. Each part affects the others. The parts are one Earth system, not separate pieces.",
+        "correct_reason": "The passage says the parts were once seen as separate and are now viewed together as the Earth system, because each part connects to and affects the others. The rain and the dust are examples.",
+        "core_idea": "The examples show the parts affecting each other in one Earth system.",
+        "not_required": [
+          "the inner core",
+          "nitrogen and oxygen"
+        ],
+        "accept_ideas": [
+          "The parts are connected. One part changes another.",
+          "They show the Earth system: the parts are not separate.",
+          "A change in one part reaches another part."
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They retell one example, such as rain or dust, and do not say what the pair shows.",
+            "ask": "That is one example. What do the examples together say about the parts?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the parts are still separate, or that each part stays on its own.",
+            "ask": "The passage says that was the old view. What view replaced it?"
+          },
+          {
+            "when": "They say the examples are only a list of weather or a list of landforms.",
+            "ask": "The sentence before the examples says each part affects the others. What are the examples doing?"
+          }
+        ],
+        "help": [
+          "Find the sentence that says how the parts are viewed now.",
+          "It calls that view the Earth system. What does each part do to the others?"
+        ],
+        "tell": "The parts were once seen as separate. The rain and the dust show the newer view: each part affects the others, in one Earth system.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_3",
+      "show_part_again": true,
+      "prompt": "Some changes are natural and some are caused by people. Why keep both kinds in the record?",
+      "tutor_only": {
+        "confirm": "Right. Scientists use the past and the present, both kinds of change, to predict what comes next.",
+        "correct_reason": "The passage says some changes are natural and some are caused by humans, and that knowing how Earth has changed helps scientists predict how it might change.",
+        "core_idea": "Both kinds of change belong in the record scientists use to predict.",
+        "not_required": [
+          "ozone",
+          "carbon dioxide"
+        ],
+        "accept_ideas": [
+          "A prediction needs the natural changes and the human ones.",
+          "They study both so they can say what Earth may do next.",
+          "Leaving one kind out would leave the record short."
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They say some changes are natural and some are human, and they do not say why both are kept.",
+            "ask": "That is the split. What do scientists do with a record that holds both?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say only human changes matter, or only natural changes matter.",
+            "ask": "The passage names both. What is the record for, if either kind is missing?"
+          },
+          {
+            "when": "They say the satellites are the reason, and they do not mention prediction.",
+            "ask": "Satellites gather the record. The first paragraph says what scientists do with it. What is that?"
+          }
+        ],
+        "help": [
+          "The first paragraph names two kinds of change. What do scientists want to understand?",
+          "That understanding is for a prediction. What would a one-kind record leave out?"
+        ],
+        "tell": "Some changes are natural and some are caused by people. Scientists keep both, because the record of past and present change is how they predict what comes next.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_3",
+      "prompt": "Name one group, other than scientists, that uses the satellite record, and say what that group does with it.",
+      "tutor_only": {
+        "confirm": "Right. Any one of those groups is enough: health officials, farmers, or emergency workers.",
+        "correct_reason": "The passage says the satellite record helps public health officials track disease and famine, farmers decide when and what to plant, and emergency workers respond to disasters.",
+        "core_idea": "One group is enough: health officials track disease, farmers choose crops, or emergency workers respond to disasters.",
+        "not_required": [
+          "the other two groups",
+          "weather and climate"
+        ],
+        "accept_ideas": [
+          "Public health officials track disease and famine.",
+          "Farmers decide when to plant and what to plant.",
+          "Emergency workers respond to natural disasters."
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They name a group and do not say what that group does with the record.",
+            "ask": "You named the group. What does the passage say that group decides or tracks?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They name only scientists, or say the record is only for research.",
+            "ask": "Scientists are named first. The question asks for a different group. Name one."
+          },
+          {
+            "when": "They say satellites take pictures, and they do not name a group.",
+            "ask": "The pictures are the record. Who, besides scientists, uses that record?"
+          }
+        ],
+        "help": [
+          "The paragraph lists scientists, then three other groups. Pick one of the three.",
+          "Say what that group tracks or decides."
+        ],
+        "tell": "Name one. Health officials track disease and famine. Farmers decide when and what to plant. Emergency workers respond to disasters.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "all",
+      "prompt": "Earth's distance from the sun changes from January to July. What is that change, and what in the passage tells you it is natural rather than caused by people?",
+      "tutor_only": {
+        "confirm": "Right. It is natural. January is the near month, and July is the far month.",
+        "correct_reason": "Part 1 says the oval orbit changes the distance, nearest in January and farthest in July. Part 3 says some changes are natural and some are caused by humans. No sentence says people set the orbit.",
+        "core_idea": "The change is natural: Earth is nearer the sun in January and farther in July.",
+        "not_required": [
+          "perihelion",
+          "the 23.5 degree tilt"
+        ],
+        "accept_ideas": [
+          "Natural. The distance changes from near in January to far in July.",
+          "People do not cause it. The orbit makes January nearer and July farther.",
+          "It is a natural change in Earth's distance from the sun across the year."
+        ],
+        "one_idea_is_enough": false,
+        "partial": [
+          {
+            "when": "They say natural, or not caused by people, and they do not say what the distance does.",
+            "ask": "Natural is the label. What is the change itself, month by month?"
+          },
+          {
+            "when": "They say January and July, and they do not say whether people cause it.",
+            "ask": "Those are the months. The last part splits changes into natural and human. Which label fits this one?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say people cause it, or that July is nearer because it is the hot month.",
+            "ask": "July is the far month in this passage, not the near one. Does any sentence say people set the orbit?"
+          },
+          {
+            "when": "They say the tilt of the axis is the change people asked about.",
+            "ask": "The tilt is in the same part. The question is about distance from January to July. What happens to that distance?"
+          }
+        ],
+        "help": [
+          "Part 1 says which month is nearest and which is farthest.",
+          "Part 3 splits changes into natural and caused by humans. Which label has no person in the orbit sentences?"
+        ],
+        "tell": "The oval orbit puts Earth nearer the sun in January and farther in July. No sentence says people cause that. It is one of the natural changes.",
+        "say_back": "own_words"
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "The first lesson of this inference stage. Band 5.2 is not authored, so a clear holds here.",
+    "student_line": "You put most of these facts together on your own. The next reading is another inference lesson in this band."
+  },
+  "retry": {
+    "next_file": "inference_band_5_1_0006",
+    "next_irl": 5,
+    "next_means": "This lesson. It is the last sequence in the stage.",
+    "student_line": "You have the basic move. The next reading is another inference lesson at this level."
+  },
+  "stopped": {
+    "next_file": "inference_band_5_1_0006",
+    "next_irl": 5,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -32,7 +32,7 @@
       "difficulty_basis": "Clue distance. The inference is still a two-step chain, and one other rocket can still look like the answer. The new load is that the two facts sit in different parts."
     },
     "authoring_exceptions": [
-      "Advance and retry name inference_band_6_1_0001 until sequence 0006 exists. The next commit points both at 0006. Neither names this lesson.",
+      "Advance and retry both name inference_band_5_1_0006, the next lesson in this stage.",
       "One sentence about Shepard's later Apollo flight is omitted from the middle of that paragraph so the part stays on the Mercury flights."
     ]
   },
@@ -274,16 +274,16 @@
     }
   ],
   "advance": {
-    "next_file": "inference_band_6_1_0001",
-    "next_irl": 6,
-    "next_means": "The next authored inference lesson, until sequence 0006 exists.",
-    "student_line": "You put most of these facts together on your own. The next reading is another inference lesson."
+    "next_file": "inference_band_5_1_0006",
+    "next_irl": 5,
+    "next_means": "The next inference lesson in this stage.",
+    "student_line": "You put most of these facts together on your own. The next reading is another inference lesson in this band."
   },
   "retry": {
-    "next_file": "inference_band_6_1_0001",
-    "next_irl": 6,
-    "next_means": "The next authored inference lesson, until sequence 0006 exists.",
-    "student_line": "You have the basic move. The next reading is another inference lesson."
+    "next_file": "inference_band_5_1_0006",
+    "next_irl": 5,
+    "next_means": "The next inference lesson in this stage.",
+    "student_line": "You have the basic move. The next reading is another inference lesson at this level."
   },
   "stopped": {
     "next_file": "inference_band_5_1_0005",
