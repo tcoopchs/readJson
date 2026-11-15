@@ -9,6 +9,10 @@ this document wins.
 
 ## Instructions for an AI author
 
+Contributing a lesson? Read `CONTRIBUTING.md` first: it has the licence rule, the clone URL for the
+public compiler, and the two commands that gate a contribution. This file is the contract for
+filenames, placement and routing; `DESIGN_RULES.md` is the contract for passages and questions.
+
 1. The filename is `<category>_band_<grade>_<stage>_<sequence>.json`.
 2. Use only these category keys: `vocab`, `main_idea`, `inference`, `process`, `text_structure`,
    `literary_text`, `authors_craft`, `argument_evidence`.
@@ -346,21 +350,25 @@ publish them or recreate empty files in `lessons/`.
 
 ## Building lessons
 
-From the readingHarness repository:
+The compiler lives in the public readingHarness repository and needs no virtualenv. Clone it beside
+this repo, then let `tools/check.py` do all three gates (compiled output in step, strict validator,
+new-lesson key checks):
 
 ```bash
-uv run python scripts/build_lessons.py \
-  --source-dir /path/to/readJson/lessons/src \
-  --output-dir /path/to/readJson/lessons
+git clone https://github.com/ctroy978/readingHarness ../readingHarness
+python3 tools/check.py --harness ../readingHarness lessons/src/<your>.source.json
+python3 tools/compile.py --harness ../readingHarness
 ```
 
-Check generated files:
+`tools/check.py` prints `PASS - ready for review` only when every gate passes. `CONTRIBUTING.md` has the
+full loop, including the licence rule that has to be satisfied before a lesson is reviewed.
+
+Raw compiler commands, if you need them directly:
 
 ```bash
-uv run python scripts/build_lessons.py \
-  --source-dir /path/to/readJson/lessons/src \
-  --output-dir /path/to/readJson/lessons \
-  --check
+python3 ../readingHarness/scripts/build_lessons.py \
+  --source-dir lessons/src --output-dir lessons \
+  --protocol ../readingHarness/server/config/protocol.json --check
 ```
 
 Do not edit generated runtime files by hand. The compiler removes the authoring `reader` block,
