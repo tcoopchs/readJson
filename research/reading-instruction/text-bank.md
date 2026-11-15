@@ -158,6 +158,7 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-145 | Starting the Cold Engine | Nonfiction | 4 | Band 4.2 | 376 words (three passages, 136, 114, 126) | 6.40 | `authors_craft_band_4_2_0004` |
 | TB-146 | A Home Like a City | Nonfiction | 4 | Band 4.2 | 330 words (three passages, 106, 121, 103) | 6.80 | `authors_craft_band_4_2_0005` |
 | TB-147 | The Warning in the Kitchen | Nonfiction | 4 | Band 4.2 | 328 words (three passages, 115, 109, 104) | 6.50 | `authors_craft_band_4_2_0006` |
+| TB-148 | Four Forces in the Air | Nonfiction | 5 | Band 5.1 | 492 words (three passages, 156, 180, 156) | 5.01 | `inference_band_5_1_0003` |
 
 ---
 
@@ -2169,6 +2170,38 @@ as one case, not a measurement.
 
 ---
 
+## TB-148 — Four Forces in the Air
+
+| Field | Value |
+| --- | --- |
+| Source | NASA STEM Team |
+| URL | https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-aerodynamics-grades-5-8/ |
+| License | U.S. federal government work; public domain in the U.S. |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 5 |
+| Band | Band 5.1 |
+| Length | 492 words (three passages, 156, 180, 156) |
+| FK grade | 5.01 on the three passages together (part 1 is 7.04; parts 2 and 3 are about 4.2) |
+| Complexity | L2, I2, S1, K1 |
+| Best lesson fit | `inference_band_5_1_0003` |
+
+**Central idea.** Four forces decide how something moves through air, and a nearby force can look like the one that answers the question.
+
+**Supporting details.**
+
+- A kite has less mass, and therefore less weight to overcome, than a jumbo jet. Both still need lift.
+- A balloon rises because the hot air inside is light. An airplane rises because the curved wing has lower pressure on top.
+- A sail uses that same curve, and the curve is what moves the boat.
+- A jet has thrust. A glider does not, so drag slows the glider until it lands.
+- Round surfaces meet less drag than flat ones. Narrow surfaces meet less than wide ones.
+
+**Why it works.** Each useful fact has a neighbor that a reader can grab instead: hot air beside the wing, water beside shape, wings beside the missing thrust.
+
+**Cautions.** Verbatim. Two helicopter sentences were omitted so part 2 stays within 200 words. No kept sentence was rewritten. Do not require the word thrust when the question is about going up.
+
+---
+
 ## Screened but not banked
 
 These were reviewed and set aside. Keep them visible for later; do not treat them as approved.
@@ -2180,6 +2213,16 @@ These were reviewed and set aside. Keep them visible for later; do not treat the
 | How Do Coral Reefs Form? | NOAA, https://oceanservice.noaa.gov/education/tutorial_corals/coral04_reefs.html | FK 10.5 on the excerpt; better at Band 9.1, and the vocabulary needs support. |
 | Wolf Restoration in Yellowstone | NPS, https://www.nps.gov/articles/wolf-restoration-in-yellowstone-reintroduction-to-recovery.htm | Technical and research-report tone; not a clean grade-7 main-idea passage. |
 | How Bees Make Honey | Wisconsin CALS, https://news.cals.wisc.edu/2012/06/04/how-bees-make-honey-producing-honey-is-a-strenuous-team-effort-for-bees/ | Not a government work; license needs checking before use. |
+| Writing Guide with Handbook | OpenStax, https://openstax.org/books/writing-guide/pages/preface | CC BY-NC-SA, not CC BY. ShareAlike and noncommercial terms bar it. Screened 2026-11-15 for inference 5.1 arts and language. |
+| Why is the ocean salty? | USGS, https://www.usgs.gov/special-topics/water-science-school/science/why-ocean-salty | FK about 9.6 on the opening. Above the grade 4-5 ceiling (7.73). Screened 2026-11-15. |
+| Cold Water Hazards and Safety | NWS, https://www.weather.gov/safety/coldwater | FK about 11.5. Above the grade 5 ceiling. Screened 2026-11-15. |
+| Glenn Orbits the Earth | NASA, https://www.nasa.gov/history/glenn-orbits-the-earth/ | FK about 11.9. Above the grade 5 ceiling. Screened 2026-11-15. |
+| Who Was John Glenn? (Grades 5-8) | NASA, https://www.nasa.gov/learning-resources/for-kids-and-students/who-was-john-glenn-grades-5-8/ | FK 4.38, under the grade 4-5 floor (4.51). Screened 2026-11-15. |
+| The Power of Water: Transportation (lock section) | NPS, https://www.nps.gov/articles/000/the-power-of-water-transportation.htm | Lock excerpt FK about 8.9. Above the grade 5 ceiling. The whole page was about 9.3. Screened 2026-11-15. |
+| Baseball in Skagway | NPS, https://www.nps.gov/klgo/learn/historyculture/baseball.htm | Championship excerpt FK about 8.0 to 8.5. Above the grade 5 ceiling. Screened 2026-11-15. |
+| How the National Park Service keeps skating in Washington, D.C. | NPS, https://www.nps.gov/articles/000/how-the-national-park-service-keeps-skating-in-washington-d-c-fun-safe-and-open-to-all.htm | FK about 8.2, and the page uses exclamation points the strict gate rejects. Screened 2026-11-15. |
+| What Is a Satellite? (Grades 5-8), section excerpts | NASA, https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-a-satellite-grades-5-8/ | Whole article averages FK 7.66, but the sections long enough for a part measured FK 8.2 to 9.4. Screened 2026-11-15. |
+| Outdoor Sports and Games, baseball chapter | Claude H. Miller, Project Gutenberg https://www.gutenberg.org/ebooks/16316 | Public domain, but the chapter speaks to boys and the sentences run long. Screened 2026-11-15. |
 
 ## TB-063 — Two Causes, One Collapse
 

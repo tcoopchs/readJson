@@ -1,6 +1,6 @@
 {
   "bank_version": 1,
-  "updated": "2026-11-12",
+  "updated": "2026-11-15",
   "rubric": "L/I/S/K 0-3; band is highest demand, grade_target is the reader label",
   "texts": [
     {
@@ -5342,6 +5342,42 @@
       "source_kind": "adapted public-domain work",
       "text_status": "Adapted, reading load reduced.",
       "drafted_by": "LessonBot harness (DeepSeek 1017)"
+    },
+    {
+      "id": "TB-148",
+      "title": "Four Forces in the Air",
+      "author": "NASA STEM Team",
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-aerodynamics-grades-5-8/",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "grade_target": 5,
+      "band": "Band 5.1",
+      "length_note": "three passages, one per displayed part (156, 180, 156 words)",
+      "length_words": 492,
+      "fk_grade": 5.01,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 1,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "inference_band_5_1_0003"
+      ],
+      "cell_use": "Owns its own lesson in inference 5.1 and serves no other cell.",
+      "central_idea": "Four forces decide how something moves through air, and a nearby force can look like the one that answers the question.",
+      "supporting_details": [
+        "A kite has less mass, and therefore less weight to overcome, than a jumbo jet.",
+        "A balloon rises on hot air. An airplane rises because the curved wing has lower pressure on top.",
+        "A sail uses that curve, and the curve is what moves the boat.",
+        "A jet has thrust. A glider does not, so drag slows the glider.",
+        "Round surfaces meet less drag than flat ones. Narrow surfaces meet less than wide ones."
+      ],
+      "why_it_works": "Each useful fact has a neighbor that a reader can grab instead.",
+      "cautions": "Verbatim NASA prose. Two helicopter sentences omitted so part 2 stays within 200 words. Part FK is 7.04, 4.21, and 4.20; whole-passage FK is 5.01.",
+      "topic_domain": "science and nature",
+      "source_kind": "verbatim federal work",
+      "text_status": "Verbatim excerpt. Not adapted."
     }
   ],
   "screened_not_banked": [
@@ -5369,6 +5405,56 @@
       "title": "How Bees Make Honey",
       "url": "https://news.cals.wisc.edu/2012/06/04/how-bees-make-honey-producing-honey-is-a-strenuous-team-effort-for-bees/",
       "reason": "Not a government work; license needs checking before use."
+    },
+    {
+      "title": "Writing Guide with Handbook",
+      "url": "https://openstax.org/books/writing-guide/pages/preface",
+      "reason": "CC BY-NC-SA, not CC BY. ShareAlike and noncommercial terms bar it. Screened 2026-11-15 for an inference 5.1 arts passage."
+    },
+    {
+      "title": "Why is the ocean salty?",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/science/why-ocean-salty",
+      "reason": "FK about 9.6 on the opening. Above the grade 4-5 ceiling of 7.73. Screened 2026-11-15."
+    },
+    {
+      "title": "Cold Water Hazards and Safety",
+      "url": "https://www.weather.gov/safety/coldwater",
+      "reason": "FK about 11.5. Above the grade 5 ceiling. Screened 2026-11-15."
+    },
+    {
+      "title": "Glenn Orbits the Earth",
+      "url": "https://www.nasa.gov/history/glenn-orbits-the-earth/",
+      "reason": "FK about 11.9. Above the grade 5 ceiling. Screened 2026-11-15."
+    },
+    {
+      "title": "Who Was John Glenn? (Grades 5-8)",
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/who-was-john-glenn-grades-5-8/",
+      "reason": "FK 4.38, under the grade 4-5 floor of 4.51. Screened 2026-11-15."
+    },
+    {
+      "title": "The Power of Water: Transportation",
+      "url": "https://www.nps.gov/articles/000/the-power-of-water-transportation.htm",
+      "reason": "Lock excerpt FK about 8.9, whole page about 9.3. Above the grade 5 ceiling. Screened 2026-11-15."
+    },
+    {
+      "title": "Baseball in Skagway",
+      "url": "https://www.nps.gov/klgo/learn/historyculture/baseball.htm",
+      "reason": "Championship excerpt FK about 8.0 to 8.5. Above the grade 5 ceiling. Screened 2026-11-15."
+    },
+    {
+      "title": "Skating in Washington, D.C.",
+      "url": "https://www.nps.gov/articles/000/how-the-national-park-service-keeps-skating-in-washington-d-c-fun-safe-and-open-to-all.htm",
+      "reason": "FK about 8.2, and the page uses exclamation points the strict gate rejects. Screened 2026-11-15."
+    },
+    {
+      "title": "What Is a Satellite? (Grades 5-8)",
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-a-satellite-grades-5-8/",
+      "reason": "Whole article averages FK 7.66, but sections long enough for a part measured FK 8.2 to 9.4. Screened 2026-11-15."
+    },
+    {
+      "title": "Outdoor Sports and Games, baseball chapter",
+      "url": "https://www.gutenberg.org/ebooks/16316",
+      "reason": "Public domain, but the chapter speaks to boys and the sentences run long. Screened 2026-11-15."
     }
   ]
 }
