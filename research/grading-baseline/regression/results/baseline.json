@@ -484,5 +484,77 @@
    "qwen/qwen3.8-flash": "MISS",
    "google/gemini-3.8-flash": "MISS"
   }
+ },
+ "G1": {
+  "kind": "gaps",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "G2": {
+  "kind": "gaps",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "G3": {
+  "kind": "gaps",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "G4": {
+  "kind": "gaps",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "G5": {
+  "kind": "gaps",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "G6": {
+  "kind": "gaps",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "G7": {
+  "kind": "gaps",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
+ },
+ "G8": {
+  "kind": "gaps",
+  "expect": "CORRECT",
+  "got": {
+   "deepseek/deepseek-v4.1-flash-1017": "CORRECT",
+   "qwen/qwen3.8-flash": "CORRECT",
+   "google/gemini-3.8-flash": "CORRECT"
+  }
  }
 }
