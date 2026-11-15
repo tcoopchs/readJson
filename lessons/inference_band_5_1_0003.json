@@ -103,7 +103,9 @@
         "accept_ideas": [
           "The curved wing, because less air pressure is on top.",
           "Air flows faster over the curved top, and the lower pressure lifts the wing.",
-          "Its wings. The shape makes lower pressure on top."
+          "Its wings. The shape makes lower pressure on top.",
+          "lift from the wings sends it up",
+          "the wings make lift"
         ],
         "one_idea_is_enough": true,
         "partial": [
@@ -242,42 +244,42 @@
       "skill": "inference",
       "difficulty": 3,
       "show_part": "part_3",
-      "prompt": "Name one shape that meets less drag than the shape next to it in the passage.",
+      "prompt": "The passage says a round shape meets less drag than a flat one. What does that tell you about why a shape is chosen?",
       "tutor_only": {
-        "confirm": "Right. A round shape meets less drag than a flat one, and a narrow shape meets less than a wide one.",
-        "correct_reason": "The passage says round surfaces usually have less drag than flat ones, and narrow surfaces usually have less drag than wide ones. Either pair answers the prompt.",
-        "core_idea": "A round shape meets less drag than a flat one, or a narrow shape meets less than a wide one.",
+        "confirm": "Right. A round shape is chosen over a flat one because it meets less drag.",
+        "correct_reason": "The passage says round surfaces usually have less drag than flat ones, and narrow surfaces usually have less drag than wide ones. Less drag is why that shape is chosen.",
+        "core_idea": "A round shape is chosen over a flat one because it meets less drag.",
         "not_required": [
           "water",
           "the glider"
         ],
         "accept_ideas": [
-          "Round, because it has less drag than flat.",
-          "Narrow, because it has less drag than wide.",
-          "A round or narrow surface."
+          "Choose round rather than flat to meet less drag.",
+          "A narrow shape meets less drag than a wide one, so that shape is chosen too.",
+          "The shape is chosen because it meets less drag."
         ],
         "one_idea_is_enough": true,
         "partial": [
           {
-            "when": "They say less drag, or the shape matters, and they do not name round, narrow, flat, or wide.",
-            "ask": "Drag is the force. Which shape does the passage say meets less of it?"
+            "when": "They say less drag, and they do not name round, narrow, flat, or wide.",
+            "ask": "Less drag is the result. Which shapes does the passage put on that side, round or narrow?"
           }
         ],
         "if_they_say": [
           {
-            "when": "They say flat or wide meets less drag.",
-            "ask": "The passage puts flat and wide on the other side. Which shape does it say has less drag?"
+            "when": "They say a flat shape or a wide shape meets less drag.",
+            "ask": "The passage gives flat more drag than round, and wide more drag than narrow. Which shape meets less?"
           },
           {
             "when": "They say walking through air, or that water is the shape.",
-            "ask": "Water is the comparison, not the shape. Which surface does the passage say has less drag?"
+            "ask": "Water is the comparison, not the shape. Round meets less drag than flat. What does that mean for the shape someone chooses?"
           }
         ],
         "help": [
-          "Find the two sentences that start with Round and Narrow.",
-          "Each one names a shape with less drag. Name one of those shapes."
+          "Find the sentence that names round surfaces and flat ones.",
+          "Round meets less drag than flat. Why would someone choose the round shape?"
         ],
-        "tell": "Round surfaces usually have less drag than flat ones. Narrow surfaces usually have less drag than wide ones. Either pair is enough.",
+        "tell": "A round surface meets less drag than a flat one. A narrow surface meets less drag than a wide one. The shape is chosen because it meets less drag.",
         "say_back": "own_words"
       },
       "display": {
