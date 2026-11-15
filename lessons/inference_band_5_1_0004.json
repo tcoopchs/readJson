@@ -12,8 +12,9 @@
     "source": {
       "basis": "National Park Service, 'Lift Locks - Boat Elevators', Chesapeake and Ohio Canal.",
       "attribution": "U.S. National Park Service, 'Lift Locks - Boat Elevators', Chesapeake & Ohio Canal National Historical Park, https://www.nps.gov/choh/learn/historyculture/lift-locks.htm, accessed 2026-11-15. U.S. federal government work; public domain in the U.S.",
-      "text_status": "Verbatim excerpt. Not adapted.",
-      "survey": "Three contiguous stretches of the park page, in source order: the opening, the four facts about pressure and gates, and the locking-through narrative. Headings that were only labels, the lock-count paragraph, and the present-day list were left out. No kept sentence was rewritten. Source typos are kept.",
+      "text_status": "Adapted, reading load reduced and typographical errors corrected.",
+      "adaptation": "Corrected three typographical errors (drop if to of, navagate to navigate, and the elevation word to possible), joined the bullet fragments into sentences.",
+      "survey": "Three stretches of the park page, in source order: the opening, the four facts about pressure and gates, and the locking-through narrative. Part 1 is rewritten as prose. Headings that were only labels, the lock-count paragraph, and the present-day list were left out. No facts were added.",
       "avoided": "No exclamation-point sentences, because the strict gate rejects them. The longer 'Power of Water' lock article measured about FK 8.9 and was not used."
     },
     "session": {
@@ -23,13 +24,13 @@
       "difficulty_basis": "Inference distance. The clue still sits within a few sentences, and one nearby detail can still look like the answer. The new load is a two-step chain rather than one step."
     },
     "authoring_exceptions": [
-      "Part 2 measures FK 7.9, just above the 7.73 ceiling, because a few source sentences are long. The three parts together measure FK 6.7. The long sentences were not split, because the excerpt is verbatim.",
-      "Advance names inference_band_5_1_0001 because inference band 5.2 is not authored. Retry names this lesson until sequence 0005 exists."
+      "Part 2 still uses the source's long sentences, so its Flesch-Kincaid stays high. Part 1 was rewritten as prose and its typos were corrected. No facts were added.",
+      "Advance still names inference_band_5_1_0001 and retry names this lesson until sequence 0005 exists. A route cannot name a missing file. The next commit points both at 0005."
     ],
     "protocol_version": "1.0"
   },
   "passage": {
-    "part_1": "Instead of following the slope of the land, a canal periodically takes a vertical step between levels of the flat water. This is accomplished at a series of lift locks, which on the C&O averaged a drop if 8 feet. The operation, though, demanded experience and close attention.\n\nLift Locks are important for many reasons. Here are just a few:\n\nBoats can navagate in both directions on the canal.\n\nLift Locks created flat water levels, this limited the amount of water current in the canal.\n\nA single lift lock can raise a boat 8-10 feet at a time. They made climbing over 600 feet of elevation possible for the C&O Canal.",
+    "part_1": "Instead of following the slope of the land, a canal periodically takes a vertical step between levels of the flat water. This is accomplished at a series of lift locks, which on the C&O averaged a drop of 8 feet. The operation, though, demanded experience and close attention.\n\nBoats can navigate in both directions on the canal. Lift locks created flat water levels, and this limited the amount of water current in the canal. A single lift lock can raise a boat 8-10 feet at a time. They made climbing over 600 feet of elevation possible for the C&O Canal.",
     "part_2": "Now that's a big question that requires some context.\n\nThe first thing you need to know is that the Lift Locks use a lot of water pressure science. Meaning that this lock design uses the fact that water is heavy and wants to go downhill to its advantage.\n\nThe second thing you need to know the Lift Lock doors also called Lock Gates, when they are closed they are pointed towards higher water aka the higher water pressure.\n\nThe third thing is that a lift lock has two sets of Lock Gates one on either side of the lift lock.\n\nThe last thing you need to know is at the bottom of these Lock Gates are small doors called panels that can be opened and closed by a Lock Key.",
     "part_3": "Let's begin the locking-through process.\n\nSay we have a boat that needs to go up to a higher water level. Currently one set of gates holds back the higher water and the other is open to let the boat in. The reason the high water doesn't come crashing through is because the gates are pointed.\n\nThe water pressure pushes on the gates keeping them shut tightly. Try putting your fingertips together tightly in a point and pushing. This is similar to the way pressure keeps the lock gates shut.\n\nOur boat floats into the lock through the open gates and gets tied off at snubbing post to secure the boat in place. Now the back gates are close. The boat is now enclosed in the lock.\n\nThe lock keeper uses the special tool called a lock key to turn the small panels at the bottom of the higher water level gates. This lets the water rush in from the bottom filling the lock.\n\nThe water level rises till it matches the higher water level. Now the lockkeeper pulls open the high water doors to let the boat out of the lock."
   },
@@ -77,7 +78,7 @@
       "display": {
         "lead": "",
         "label": "Passage",
-        "text": "Instead of following the slope of the land, a canal periodically takes a vertical step between levels of the flat water. This is accomplished at a series of lift locks, which on the C&O averaged a drop if 8 feet. The operation, though, demanded experience and close attention.\n\nLift Locks are important for many reasons. Here are just a few:\n\nBoats can navagate in both directions on the canal.\n\nLift Locks created flat water levels, this limited the amount of water current in the canal.\n\nA single lift lock can raise a boat 8-10 feet at a time. They made climbing over 600 feet of elevation possible for the C&O Canal."
+        "text": "Instead of following the slope of the land, a canal periodically takes a vertical step between levels of the flat water. This is accomplished at a series of lift locks, which on the C&O averaged a drop of 8 feet. The operation, though, demanded experience and close attention.\n\nBoats can navigate in both directions on the canal. Lift locks created flat water levels, and this limited the amount of water current in the canal. A single lift lock can raise a boat 8-10 feet at a time. They made climbing over 600 feet of elevation possible for the C&O Canal."
       }
     },
     {
