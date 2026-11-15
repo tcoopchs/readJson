@@ -34,7 +34,7 @@
     },
     "authoring_exceptions": [
       "Part 2 still uses the source's long sentences, so its Flesch-Kincaid stays high. Part 1 was rewritten as prose and its typos were corrected. No facts were added.",
-      "Advance and retry name inference_band_6_1_0001 until sequence 0005 exists. The next commit points both at 0005. Neither names this lesson."
+      "Advance and retry both name inference_band_5_1_0005, the next lesson in this stage."
     ]
   },
   "script_overrides": {
@@ -267,16 +267,16 @@
     }
   ],
   "advance": {
-    "next_file": "inference_band_6_1_0001",
-    "next_irl": 6,
-    "next_means": "The next authored inference lesson, until sequence 0005 exists.",
-    "student_line": "You put most of these facts together on your own. The next reading is another inference lesson."
+    "next_file": "inference_band_5_1_0005",
+    "next_irl": 5,
+    "next_means": "The next inference lesson in this stage.",
+    "student_line": "You put most of these facts together on your own. The next reading is another inference lesson in this band."
   },
   "retry": {
-    "next_file": "inference_band_6_1_0001",
-    "next_irl": 6,
-    "next_means": "The next authored inference lesson, until sequence 0005 exists.",
-    "student_line": "You have the basic move. The next reading is another inference lesson."
+    "next_file": "inference_band_5_1_0005",
+    "next_irl": 5,
+    "next_means": "The next inference lesson in this stage.",
+    "student_line": "You have the basic move. The next reading is another inference lesson at this level."
   },
   "stopped": {
     "next_file": "inference_band_5_1_0004",
