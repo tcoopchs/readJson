@@ -28,7 +28,7 @@ sys.path.insert(0, str(HERE.parent))
 import grade as G  # noqa: E402
 
 MODELS = ["deepseek/deepseek-v4.1-flash-1017", "qwen/qwen3.8-flash", "google/gemini-3.8-flash"]
-FILES = {"answer": "owner_answers.json", "sayback": "saybacks.json", "cloze": "cloze.json", "yesno": "yesno.json"}
+FILES = {"answer": "owner_answers.json", "sayback": "saybacks.json", "cloze": "cloze.json", "yesno": "yesno.json", "gaps": "sweep_gaps.json"}
 
 ANSWER_SYS = ("You are the tutor for this lesson. Follow its tutoring instructions exactly. The passage and "
               "the question have been shown and the student has answered for the first time. Decide the "

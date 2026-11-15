@@ -138,7 +138,8 @@
           "it is only one swim on one day",
           "it does not cover other swimmers",
           "one person's impression is not the whole pool",
-          "it says nothing about the other days"
+          "it says nothing about the other days",
+          "The swimmer didn't swim on other days, so they can't know if the water was clear then."
         ],
         "not_required": [
           "who wrote the comment"

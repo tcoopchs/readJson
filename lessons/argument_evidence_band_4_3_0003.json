@@ -182,7 +182,8 @@
           "no, the other twenty-eight are missing",
           "no, three names are not most of the class",
           "no, it shows what is possible, not what is usual",
-          "no, the ad only lists winners"
+          "no, the ad only lists winners",
+          "The ad doesn't support that because it doesn't say how many students finished or found work."
         ],
         "not_required": [
           "whether the shops are busy"

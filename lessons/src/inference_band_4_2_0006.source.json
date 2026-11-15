@@ -133,7 +133,8 @@
           "the test needs mixed water",
           "the water has to mix first",
           "a test too early proves nothing",
-          "the chlorine has to spread"
+          "the chlorine has to spread",
+          "They can't add chlorine because it takes too long to mix."
         ],
         "one_idea_is_enough": true,
         "not_required": [

@@ -1,0 +1,13 @@
+{
+ "note": "The eight accept-list gaps found by the Band 4 sweep triage (2026-11-13). Each is a correct answer the key did not list; all three tutors now accept them.",
+ "cases": [
+  {"id": "G1", "lesson": "argument_evidence_band_4_1_0006", "item": "5", "answer": "If both records were from the same office, it would weaken the case.", "expect": "CORRECT"},
+  {"id": "G2", "lesson": "argument_evidence_band_4_2_0002", "item": "3", "answer": "The swimmer didn't swim on other days, so they can't know if the water was clear then.", "expect": "CORRECT"},
+  {"id": "G3", "lesson": "argument_evidence_band_4_3_0003", "item": "4", "answer": "The ad doesn't support that because it doesn't say how many students finished or found work.", "expect": "CORRECT"},
+  {"id": "G4", "lesson": "authors_craft_band_4_2_0001", "item": "4", "answer": "Each short sentence creates a sense of urgency and action in the scene.", "expect": "CORRECT"},
+  {"id": "G5", "lesson": "authors_craft_band_4_2_0005", "item": "4", "answer": "It emphasizes that there are a huge number of bees working in the hive.", "expect": "CORRECT"},
+  {"id": "G6", "lesson": "inference_band_4_2_0004", "item": "q5", "answer": "The melting snow shows that the heated attic is causing higher fuel bills.", "expect": "CORRECT"},
+  {"id": "G7", "lesson": "inference_band_4_2_0006", "item": "q3", "answer": "They can't add chlorine because it takes too long to mix.", "expect": "CORRECT"},
+  {"id": "G8", "lesson": "inference_band_4_3_0001", "item": "q4", "answer": "They mention both because the pump and well are not related to the problem.", "expect": "CORRECT"}
+ ]
+}
