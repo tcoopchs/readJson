@@ -1,0 +1,18 @@
+{
+  "sequence": 5,
+  "title": "The City of Bees",
+  "domain": "biology",
+  "craft_focus": "figurative comparison: the writer compares the hive to a city to explain it",
+  "source_file": "maeterlinck_bees.txt",
+  "source": {
+    "basis": "Adapted from Maurice Maeterlinck, The Life of the Bee (1901), translated by Alfred Sutro, under DESIGN_RULES 2.5.",
+    "attribution": "Maeterlinck, Maurice. The Life of the Bee. Translated by Alfred Sutro. 1901. Project Gutenberg eBook #4511, https://www.gutenberg.org/ebooks/4511, accessed 2026-11-11. Public domain in the United States.",
+    "text_status": "Adapted, reading load reduced.",
+    "adaptation": "Extracted a single 345-word passage; the authoring pass will split long sentences and drop rare words; no facts added.",
+    "survey": "A worker bee shapes the first flake of wax and fixes it at the top of the dome, and the writer calls the hanging comb an inverted city.",
+    "avoided": "No invented details."
+  },
+  "license_evidence": "https://www.gutenberg.org/ebooks/4511 lists the work under 'Copyright: Public domain in the USA.' and names Maeterlinck as author and Alfred Sutro as translator; the edition is the 1901 English translation, published in book form in 1901, so it is public domain in the United States.",
+  "word_count": 345,
+  "notes": "Anchor: 'for we have here an inverted city, hanging down from the sky, and not rising from the bosom of earth like a city of men' (paragraph 2, final sentence). A second simile, 'with the skill of a carpenter handling a pliable panel', sits two sentences earlier and supports the same craft point. Risks: the passage opens mid-explanation, so the adapted version must keep the first paragraph's fact that wax scales form on the bees' bodies; 'inverted cone', 'ivory tablets' and 'cupola' are archaic and need plain words, not new facts; 'alchemy' should become a plain phrase."
+}

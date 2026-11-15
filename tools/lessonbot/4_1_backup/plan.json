@@ -1,0 +1,113 @@
+{
+  "bot": "lessonbot",
+  "version": 1,
+  "cell": {
+    "skill": "authors_craft",
+    "grade": 4,
+    "stage": 1
+  },
+  "unit": "rung",
+  "budget_cap_usd": 10.0,
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "reviewer_model": "qwen/qwen3-235b-a22b-2507",
+  "band_window": {
+    "fk_low": 5.3,
+    "fk_high": 6.6,
+    "words_low": 100,
+    "words_high": 150,
+    "mean_sentence_low": 15,
+    "mean_sentence_high": 17
+  },
+  "lessons": [
+    {
+      "sequence": 1,
+      "title": "How a Poem Gets Its Echo",
+      "domain": "arts and language",
+      "craft_focus": "repetition and variation, first person, why the writer repeats a line without repeating its meaning",
+      "source_file": "poe.excerpt.txt",
+      "source": {
+        "basis": "Adapted from Edgar Allan Poe, \"The Philosophy of Composition\" (1846), under DESIGN_RULES 2.5.",
+        "attribution": "Poe, Edgar Allan. \"The Philosophy of Composition.\" 1846. Project Gutenberg eBook #55749, https://www.gutenberg.org/ebooks/55749, accessed 2026-11-11. Public domain in the United States.",
+        "text_status": "Adapted, reading load reduced.",
+        "adaptation": "Split long sentences, replaced rare words, dropped classical asides; no facts added.",
+        "survey": "A writer explains why he repeats a refrain and varies its meaning each time.",
+        "avoided": "No invented details about the poem, the writer's life, or the reception of the work."
+      }
+    },
+    {
+      "sequence": 2,
+      "title": "The Street That Had to Be Crossed",
+      "domain": "history and people",
+      "craft_focus": "understatement, short factual sentences, and order of events in a battle account",
+      "source_file": "grant.excerpt.txt",
+      "source": {
+        "basis": "Adapted from Ulysses S. Grant, Personal Memoirs of U. S. Grant, Vol. 1 (1885), under DESIGN_RULES 2.5.",
+        "attribution": "Grant, Ulysses S. Personal Memoirs of U. S. Grant, Vol. 1. 1885. Project Gutenberg eBook #1067, https://www.gutenberg.org/ebooks/1067, accessed 2026-11-11. Public domain in the United States.",
+        "text_status": "Adapted, reading load reduced.",
+        "adaptation": "Split long sentences, replaced rare words, removed unit numbers not needed by an item; no facts added.",
+        "survey": "A commander describes a street crossing under fire and the losses it cost.",
+        "avoided": "No invented numbers, names, or outcomes beyond the source."
+      }
+    },
+    {
+      "sequence": 3,
+      "title": "Who Carries the Cherry Seed",
+      "domain": "science and nature",
+      "craft_focus": "direct address, rhetorical questions, and playful word choice such as 'winged or legged'",
+      "source_file": "thoreau.excerpt.txt",
+      "source": {
+        "basis": "Adapted from Henry David Thoreau, \"The Succession of Forest Trees\" (1860), in Excursions, under DESIGN_RULES 2.5.",
+        "attribution": "Thoreau, Henry David. \"The Succession of Forest Trees.\" 1860. In Excursions. Project Gutenberg eBook #9846, https://www.gutenberg.org/ebooks/9846, accessed 2026-11-11. Public domain in the United States.",
+        "text_status": "Adapted, reading load reduced.",
+        "adaptation": "Split long sentences, replaced rare words, dropped local asides; no facts added.",
+        "survey": "A naturalist explains how birds carry cherry seeds into new ground.",
+        "avoided": "No invented species, places, or counts."
+      }
+    },
+    {
+      "sequence": 4,
+      "title": "Telling Bread Flour by Hand",
+      "domain": "food and farming",
+      "craft_focus": "imperative mood, precise comparison, and the order of steps in instructions",
+      "source_file": "farmer.excerpt.txt",
+      "source": {
+        "basis": "Adapted from Fannie Merritt Farmer, The Boston Cooking-School Cook Book (1910), under DESIGN_RULES 2.5.",
+        "attribution": "Farmer, Fannie Merritt. The Boston Cooking-School Cook Book. 1910. Project Gutenberg eBook #65061, https://www.gutenberg.org/ebooks/65061, accessed 2026-11-11. Public domain in the United States.",
+        "text_status": "Adapted, reading load reduced.",
+        "adaptation": "Split long sentences, replaced rare words, dropped brand names; no facts added.",
+        "survey": "A cooking teacher tells a reader how to tell bread flour from pastry flour by hand.",
+        "avoided": "No invented measurements, brands, or baking results."
+      }
+    },
+    {
+      "sequence": 5,
+      "title": "Why the Driver Must Know the Car",
+      "domain": "work and trade",
+      "craft_focus": "second person, rhetorical questions, fear appeal, and repetition of 'owner'",
+      "source_file": "brokaw.excerpt.txt",
+      "source": {
+        "basis": "Adapted from H. Clifford Brokaw and Charles A. Starr, Putnam's Automobile Handbook (1918), under DESIGN_RULES 2.5.",
+        "attribution": "Brokaw, H. Clifford, and Charles A. Starr. Putnam's Automobile Handbook: The Care and Management of the Modern Motor-Car. 1918. Project Gutenberg eBook #65673, https://www.gutenberg.org/ebooks/65673, accessed 2026-11-11. Public domain in the United States.",
+        "text_status": "Adapted, reading load reduced.",
+        "adaptation": "Split long sentences, replaced rare words, dropped asides; no facts added.",
+        "survey": "Two driving instructors warn owners that a neglected car can hurt the people riding in it.",
+        "avoided": "No invented crash, injury, or repair detail."
+      }
+    },
+    {
+      "sequence": 6,
+      "title": "When One Change Brings Another",
+      "domain": "science and nature",
+      "craft_focus": "parallel repetition ('pigeons with...'), hedging words, and a list that builds a claim",
+      "source_file": "darwin.excerpt.txt",
+      "source": {
+        "basis": "Adapted from Charles Darwin, On the Origin of Species (1859), under DESIGN_RULES 2.5.",
+        "attribution": "Darwin, Charles. On the Origin of Species by Means of Natural Selection. 1859. Project Gutenberg eBook #1228, https://www.gutenberg.org/ebooks/1228, accessed 2026-11-11. Public domain in the United States.",
+        "text_status": "Adapted, reading load reduced.",
+        "adaptation": "Split long sentences, replaced rare words, dropped citations; no facts added.",
+        "survey": "A naturalist lists small linked changes in animals and asks what the pattern means.",
+        "avoided": "No invented examples, species, or experimental results."
+      }
+    }
+  ]
+}

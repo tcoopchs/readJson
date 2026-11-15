@@ -1,0 +1,18 @@
+{
+  "sequence": 2,
+  "title": "The Questions He Could Not Answer",
+  "domain": "classic education",
+  "craft_focus": "rhetorical questions that make the reader feel the injustice",
+  "source_file": "douglass_questions.txt",
+  "source": {
+    "basis": "Adapted from Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave (1845), under DESIGN_RULES 2.5.",
+    "attribution": "Frederick Douglass. Narrative of the Life of Frederick Douglass, an American Slave. 1845. Project Gutenberg eBook #23, https://www.gutenberg.org/ebooks/23, accessed 2026-11-11. Public domain in the United States.",
+    "text_status": "Adapted, reading load reduced.",
+    "adaptation": "Extracted a single 367-word passage (the Chesapeake Bay setting plus the apostrophe to the ships, through 'It cannot be that I shall live and die a slave.'); the authoring pass will drop rare words and keep the questions as questions; no facts added.",
+    "survey": "A young enslaved man stands alone on the shore of the Chesapeake Bay at night, speaks to the free ships sailing past, and asks why he was born a man only to be made a brute.",
+    "avoided": "No invented details."
+  },
+  "license_evidence": "https://www.gutenberg.org/ebooks/23 - Project Gutenberg states: 'This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever.' Work published 1845, so public domain in the United States (pre-1929).",
+  "word_count": 367,
+  "notes": "Anchor: Chapter X, the apostrophe to the ships ('Our house stood within a few rods of the Chesapeake Bay...'). CITATION CORRECTION - the parent-supplied pair 'Why am I a slave? Why are some people slaves and others masters?' is not in the 1845 Gutenberg text. 'Why am I a slave?' is verbatim here; the second sentence appears nowhere in eBook #23, so it is not used and no citation claims it. The title still fits: 'Is there any God? Why am I a slave?' are the questions nobody answers. Construct check: three rhetorical questions ('Is there any God?', 'Why am I a slave?', 'Try it? Yes!') plus exclamatory questions ('O, why was I born a man, of whom to make a brute!', 'Could I but swim! If I could fly!'), each pressing the contrast between the free ships and the speaker; 'Try it? Yes!' is the question-answer pair an item can name directly. Readability: FK 4.04, mean sentence 10.8 words - just under the CCSS 4-5 floor (4.51), so the authoring pass should not split sentences further (they are already short) and should keep or explain the archaic words (moorings, turbid, gallant, brute) rather than delete them, or the text will read below band. VIOLENCE: one metaphor, 'I sadly before the bloody whip'; no scene of violence. The excerpt stops before the Covey beating that follows in the same chapter and before the self-harm lines ('I was sometimes prompted to take my life'), both of which the earlier Covey paragraphs contain. Rejected alternatives in the same work: the Hopkins passage has six rhetorical questions in a row but is built entirely on whipping, too harsh for grade 4; the street-boys passage ('Have not I as good a right to be free as you have?') is safe and education-themed but carries only one question."
+}
