@@ -32,7 +32,7 @@
       "difficulty_basis": "Competing details, one more than the Mercury lesson. The two-step chain and the cross-part clue stay. The new trap is a list: three groups, or the month that feels like the near one."
     },
     "authoring_exceptions": [
-      "Advance names inference_band_5_1_0001 because inference band 5.2 is not authored. Retry names this lesson. It is the last sequence in the stage.",
+      "Advance and retry both name inference_band_6_1_0001, the next authored inference lesson. This is the last sequence of Band 5.1.",
       "Sequence 0003 is also science and nature. The two are not neighbors. Sport, food, and arts pages screened for this slot measured above FK 7.73 or failed the licence test."
     ]
   },
@@ -156,7 +156,8 @@
         "accept_ideas": [
           "A prediction needs the natural changes and the human ones.",
           "They study both so they can say what Earth may do next.",
-          "Leaving one kind out would leave the record short."
+          "Leaving one kind out would leave the record short.",
+          "both kinds help scientists understand and predict what Earth will do"
         ],
         "one_idea_is_enough": true,
         "partial": [
@@ -189,7 +190,7 @@
       "skill": "inference",
       "difficulty": 2,
       "show_part": "part_3",
-      "prompt": "Name one group, other than scientists, that uses the satellite record, and say what that group does with it.",
+      "prompt": "Name one group, other than scientists, that uses the satellite record.",
       "tutor_only": {
         "confirm": "Right. Any one of those groups is enough: health officials, farmers, or emergency workers.",
         "correct_reason": "The passage says the satellite record helps public health officials track disease and famine, farmers decide when and what to plant, and emergency workers respond to disasters.",
@@ -199,6 +200,9 @@
           "weather and climate"
         ],
         "accept_ideas": [
+          "Public health officials.",
+          "Farmers.",
+          "Emergency workers.",
           "Public health officials track disease and famine.",
           "Farmers decide when to plant and what to plant.",
           "Emergency workers respond to natural disasters."
@@ -206,8 +210,8 @@
         "one_idea_is_enough": true,
         "partial": [
           {
-            "when": "They name a group and do not say what that group does with the record.",
-            "ask": "You named the group. What does the passage say that group decides or tracks?"
+            "when": "They say workers, officials, or people, and they do not name health, farmers, or emergency workers.",
+            "ask": "Which group? The passage names health officials, farmers, and emergency workers."
           }
         ],
         "if_they_say": [
@@ -221,8 +225,8 @@
           }
         ],
         "help": [
-          "The paragraph lists scientists, then three other groups. Pick one of the three.",
-          "Say what that group tracks or decides."
+          "The paragraph lists scientists, then three other groups.",
+          "Name one of those three groups."
         ],
         "tell": "Name one. Health officials track disease and famine. Farmers decide when and what to plant. Emergency workers respond to disasters.",
         "say_back": "own_words"
@@ -234,61 +238,57 @@
       "skill": "inference",
       "difficulty": 3,
       "show_part": "all",
-      "prompt": "Earth's distance from the sun changes from January to July. What is that change, and what in the passage tells you it is natural rather than caused by people?",
+      "prompt": "Earth's distance from the sun changes from January to July. Why is that change not caused by people?",
       "tutor_only": {
-        "confirm": "Right. It is natural. January is the near month, and July is the far month.",
-        "correct_reason": "Part 1 says the oval orbit changes the distance, nearest in January and farthest in July. Part 3 says some changes are natural and some are caused by humans. No sentence says people set the orbit.",
-        "core_idea": "The change is natural: Earth is nearer the sun in January and farther in July.",
+        "confirm": "Right. The oval orbit does it. Earth is nearer in January and farther in July.",
+        "correct_reason": "Part 1 says the oval orbit changes the distance, nearest in January and farthest in July. No sentence says people set that orbit.",
+        "core_idea": "The oval orbit brings Earth nearer in January and farther in July, and no person causes it.",
         "not_required": [
           "perihelion",
           "the 23.5 degree tilt"
         ],
         "accept_ideas": [
-          "Natural. The distance changes from near in January to far in July.",
-          "People do not cause it. The orbit makes January nearer and July farther.",
-          "It is a natural change in Earth's distance from the sun across the year."
+          "The orbit brings Earth nearer in January and farther in July, and no person causes that.",
+          "People do not set the orbit. January is nearer and July is farther.",
+          "It is natural because the oval orbit changes the distance from January to July."
         ],
-        "one_idea_is_enough": false,
+        "one_idea_is_enough": true,
         "partial": [
           {
-            "when": "They say natural, or not caused by people, and they do not say what the distance does.",
-            "ask": "Natural is the label. What is the change itself, month by month?"
-          },
-          {
-            "when": "They say January and July, and they do not say whether people cause it.",
-            "ask": "Those are the months. The last part splits changes into natural and human. Which label fits this one?"
+            "when": "They say only that it is natural, and they do not mention the orbit or the months.",
+            "ask": "Natural is the label. What does the orbit do to the distance from January to July?"
           }
         ],
         "if_they_say": [
           {
             "when": "They say people cause it, or that July is nearer because it is the hot month.",
-            "ask": "July is the far month in this passage, not the near one. Does any sentence say people set the orbit?"
+            "ask": "July is the far month, not the near one. Does any sentence say people set the orbit?"
           },
           {
-            "when": "They say the tilt of the axis is the change people asked about.",
-            "ask": "The tilt is in the same part. The question is about distance from January to July. What happens to that distance?"
+            "when": "They say the tilt of the axis is the cause.",
+            "ask": "The tilt is a different fact. The distance change comes from the shape of the orbit. What does that oval do?"
           }
         ],
         "help": [
-          "Part 1 says which month is nearest and which is farthest.",
-          "Part 3 splits changes into natural and caused by humans. Which label has no person in the orbit sentences?"
+          "Part 1 says the orbit is an oval and names the near month and the far month.",
+          "Does any sentence say a person sets that orbit?"
         ],
-        "tell": "The oval orbit puts Earth nearer the sun in January and farther in July. No sentence says people cause that. It is one of the natural changes.",
+        "tell": "The oval orbit brings Earth nearer in January and farther in July. No sentence says people cause that change.",
         "say_back": "own_words"
       }
     }
   ],
   "advance": {
-    "next_file": "inference_band_5_1_0001",
-    "next_irl": 5,
-    "next_means": "The first lesson of this inference stage. Band 5.2 is not authored, so a clear holds here.",
-    "student_line": "You put most of these facts together on your own. The next reading is another inference lesson in this band."
+    "next_file": "inference_band_6_1_0001",
+    "next_irl": 6,
+    "next_means": "The first lesson of the next authored inference band.",
+    "student_line": "You put most of these facts together on your own. The next reading is another inference lesson."
   },
   "retry": {
-    "next_file": "inference_band_5_1_0006",
-    "next_irl": 5,
-    "next_means": "This lesson. It is the last sequence in the stage.",
-    "student_line": "You have the basic move. The next reading is another inference lesson at this level."
+    "next_file": "inference_band_6_1_0001",
+    "next_irl": 6,
+    "next_means": "The first lesson of the next authored inference band.",
+    "student_line": "You have the basic move. The next reading is another inference lesson."
   },
   "stopped": {
     "next_file": "inference_band_5_1_0006",
