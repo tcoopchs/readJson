@@ -23,7 +23,7 @@
       "difficulty_basis": "Competing details, one more than the Mercury lesson. The two-step chain and the cross-part clue stay. The new trap is a list: three groups, or the month that feels like the near one."
     },
     "authoring_exceptions": [
-      "Advance and retry both name inference_band_6_1_0001, the next authored inference lesson. This is the last sequence of Band 5.1.",
+      "Advance names inference_band_6_1_0001, the next existing rung. Retry names this lesson, the last sequence in the stage.",
       "Sequence 0003 is also science and nature. The two are not neighbors. Sport, food, and arts pages screened for this slot measured above FK 7.73 or failed the licence test."
     ],
     "protocol_version": "1.0"
@@ -156,7 +156,9 @@
           "A prediction needs the natural changes and the human ones.",
           "They study both so they can say what Earth may do next.",
           "Leaving one kind out would leave the record short.",
-          "both kinds help scientists understand and predict what Earth will do"
+          "both kinds help scientists understand and predict what Earth will do",
+          "both kinds help us understand Earth better",
+          "we need both kinds to understand what Earth does"
         ],
         "one_idea_is_enough": true,
         "partial": [
@@ -368,10 +370,10 @@
         "student_line": "You put most of these facts together on your own. The next reading is another inference lesson."
       },
       "retry": {
-        "next_file": "inference_band_6_1_0001",
-        "next_irl": 6,
-        "next_means": "The first lesson of the next authored inference band.",
-        "student_line": "You have the basic move. The next reading is another inference lesson."
+        "next_file": "inference_band_5_1_0006",
+        "next_irl": 5,
+        "next_means": "Another inference lesson in this band.",
+        "student_line": "The next reading is another inference lesson in this band."
       },
       "stopped": {
         "next_file": "inference_band_5_1_0006",
