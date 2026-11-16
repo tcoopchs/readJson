@@ -5413,6 +5413,42 @@
       "topic_domain": "places and travel",
       "source_kind": "verbatim federal work",
       "text_status": "Verbatim excerpt. Not adapted."
+    },
+    {
+      "id": "TB-150",
+      "title": "The Rocket and the Orbit",
+      "author": "NASA STEM Team",
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-was-project-mercury-grades-5-8/",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "grade_target": 5,
+      "band": "Band 5.1",
+      "length_note": "three passages, one per displayed part (135, 106, 118 words)",
+      "length_words": 359,
+      "fk_grade": 6.67,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "inference_band_5_1_0005"
+      ],
+      "cell_use": "Owns its own lesson in inference 5.1 and serves no other cell.",
+      "central_idea": "The rocket that carried an orbiting flight was an Atlas, and that rocket had been built first as a military missile.",
+      "supporting_details": [
+        "The first two crewed flights used a Redstone. The four that orbited used an Atlas.",
+        "Both rockets were originally missiles for the military.",
+        "Shepard's flight came back down. Glenn was the first American to orbit.",
+        "Empty tests failed before a person flew.",
+        "Enos later orbited on an Atlas."
+      ],
+      "why_it_works": "Glenn's orbit and the rocket rule sit in different parts, so the Redstone and the number 7 compete.",
+      "cautions": "Verbatim. The mission table and the sentence that says the animal flights made it safe are omitted. Part FK is 7.25, 6.20, and 6.45. Whole-passage FK is 6.67.",
+      "topic_domain": "history and people",
+      "source_kind": "verbatim federal work",
+      "text_status": "Verbatim excerpt. Not adapted."
     }
   ],
   "screened_not_banked": [

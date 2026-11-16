@@ -160,6 +160,7 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-147 | The Warning in the Kitchen | Nonfiction | 4 | Band 4.2 | 328 words (three passages, 115, 109, 104) | 6.50 | `authors_craft_band_4_2_0006` |
 | TB-148 | Four Forces in the Air | Nonfiction | 5 | Band 5.1 | 492 words (three passages, 156, 180, 156) | 5.01 | `inference_band_5_1_0003` |
 | TB-149 | The Boat in the Lock | Nonfiction | 5 | Band 5.1 | 434 words (three passages, 113, 130, 191) | 6.66 | `inference_band_5_1_0004` |
+| TB-150 | The Rocket and the Orbit | Nonfiction | 5 | Band 5.1 | 359 words (three passages, 135, 106, 118) | 6.67 | `inference_band_5_1_0005` |
 
 ---
 
@@ -2231,6 +2232,38 @@ as one case, not a measurement.
 **Why it works.** The rise of the boat is two steps: water enters, then the floating boat comes up with the level. The lock key looks like a machine that could do the lifting.
 
 **Cautions.** Verbatim, including source typos (navagate, back gates are close). Part 2 measures FK 7.93 because a few sentences are long. Exclamation-point sentences on the page were left out.
+
+---
+
+## TB-150 — The Rocket and the Orbit
+
+| Field | Value |
+| --- | --- |
+| Source | NASA STEM Team |
+| URL | https://www.nasa.gov/learning-resources/for-kids-and-students/what-was-project-mercury-grades-5-8/ |
+| License | U.S. federal government work; public domain in the U.S. |
+| Genre | Nonfiction, history |
+| Topic domain | history and people |
+| Grade target | 5 |
+| Band | Band 5.1 |
+| Length | 359 words (three passages, 135, 106, 118) |
+| FK grade | 6.67 on the three passages together (parts 7.25, 6.20, 6.45) |
+| Complexity | L2, I2, S2, K2 |
+| Best lesson fit | `inference_band_5_1_0005` |
+
+**Central idea.** The rocket that carried an orbiting flight was an Atlas, and that rocket had been built first as a military missile.
+
+**Supporting details.**
+
+- The first two crewed flights used a Redstone and came back down. The four that orbited used an Atlas.
+- Both rockets were originally missiles for the military. The capsule was designed for the project.
+- Shepard was the first American in space, on a flight that came back down. Glenn was the first American to orbit.
+- Empty test flights failed, one by explosion and one by rising about four inches, so NASA could find problems before a person flew.
+- Enos, a chimpanzee, later orbited on an Atlas. The sentence that says the animal flights made it safe for astronauts is not in the excerpt.
+
+**Why it works.** Glenn's orbit is in the second part. The rocket rule is in the first. A reader who stays on one part names the Redstone or the number 7.
+
+**Cautions.** Verbatim. The mission table, the word list, Shepard's later moon flight, and the closing "safe for astronauts" sentence are omitted so the orbit-to-rocket link is not printed beside Glenn's name.
 
 ---
 
