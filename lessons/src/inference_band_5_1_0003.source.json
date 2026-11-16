@@ -33,7 +33,7 @@
     },
     "authoring_exceptions": [
       "Two sentences about helicopter rotor blades were omitted so part 2 stays within 200 words. The kept sentences are verbatim.",
-      "Advance and retry both name inference_band_5_1_0004, the next lesson in this stage."
+      "Advance names inference_band_6_1_0001, the next existing rung. Retry names inference_band_5_1_0004."
     ]
   },
   "script_overrides": {
@@ -276,10 +276,10 @@
     }
   ],
   "advance": {
-    "next_file": "inference_band_5_1_0004",
-    "next_irl": 5,
-    "next_means": "The next inference lesson in this stage.",
-    "student_line": "You put most of these facts together on your own. The next reading is another inference lesson in this band."
+    "next_file": "inference_band_6_1_0001",
+    "next_irl": 6,
+    "next_means": "The first inference lesson in the next band.",
+    "student_line": "You put most of these facts together on your own. The next reading is another inference lesson."
   },
   "retry": {
     "next_file": "inference_band_5_1_0004",
