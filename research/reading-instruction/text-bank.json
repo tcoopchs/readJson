@@ -5449,6 +5449,41 @@
       "topic_domain": "history and people",
       "source_kind": "verbatim federal work",
       "text_status": "Verbatim excerpt. Not adapted."
+    },
+    {
+      "id": "TB-151",
+      "title": "Near in January",
+      "author": "NASA STEM Team",
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-earth-grades-5-8/",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "grade_target": 5,
+      "band": "Band 5.1",
+      "length_note": "three passages, one per displayed part (139, 173, 190 words)",
+      "length_words": 502,
+      "fk_grade": 6.23,
+      "complexity": {
+        "language": 2,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 2
+      },
+      "best_lesson_fit": [
+        "inference_band_5_1_0006"
+      ],
+      "cell_use": "Owns its own lesson in inference 5.1 and serves no other cell.",
+      "central_idea": "Earth's oval orbit puts the planet nearer the sun in January and farther in July, and that yearly change is natural.",
+      "supporting_details": [
+        "Nearest in January. Farthest in July.",
+        "Rain and volcanic dust show Earth's parts affecting each other.",
+        "Some changes are natural and some are caused by people.",
+        "Health officials, farmers, and emergency workers use the satellite record."
+      ],
+      "why_it_works": "July looks like the near month and is not. Three groups can answer who uses the record, and the prompt asks for one.",
+      "cautions": "Verbatim. Perihelion and aphelion are not required. Part FK is 6.05, 5.29, and 7.40. Whole-passage FK is 6.23. The seasons section of the same page was not used.",
+      "topic_domain": "science and nature",
+      "source_kind": "verbatim federal work",
+      "text_status": "Verbatim excerpt. Not adapted."
     }
   ],
   "screened_not_banked": [

@@ -161,6 +161,7 @@ structure, K = knowledge). The Band code is the routing slot; grade target is th
 | TB-148 | Four Forces in the Air | Nonfiction | 5 | Band 5.1 | 492 words (three passages, 156, 180, 156) | 5.01 | `inference_band_5_1_0003` |
 | TB-149 | The Boat in the Lock | Nonfiction | 5 | Band 5.1 | 434 words (three passages, 113, 130, 191) | 6.66 | `inference_band_5_1_0004` |
 | TB-150 | The Rocket and the Orbit | Nonfiction | 5 | Band 5.1 | 359 words (three passages, 135, 106, 118) | 6.67 | `inference_band_5_1_0005` |
+| TB-151 | Near in January | Nonfiction | 5 | Band 5.1 | 502 words (three passages, 139, 173, 190) | 6.23 | `inference_band_5_1_0006` |
 
 ---
 
@@ -2264,6 +2265,37 @@ as one case, not a measurement.
 **Why it works.** Glenn's orbit is in the second part. The rocket rule is in the first. A reader who stays on one part names the Redstone or the number 7.
 
 **Cautions.** Verbatim. The mission table, the word list, Shepard's later moon flight, and the closing "safe for astronauts" sentence are omitted so the orbit-to-rocket link is not printed beside Glenn's name.
+
+---
+
+## TB-151 — Near in January
+
+| Field | Value |
+| --- | --- |
+| Source | NASA STEM Team |
+| URL | https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-earth-grades-5-8/ |
+| License | U.S. federal government work; public domain in the U.S. |
+| Genre | Nonfiction, explanatory |
+| Topic domain | science and nature |
+| Grade target | 5 |
+| Band | Band 5.1 |
+| Length | 502 words (three passages, 139, 173, 190) |
+| FK grade | 6.23 on the three passages together (parts 6.05, 5.29, 7.40) |
+| Complexity | L2, I2, S2, K2 |
+| Best lesson fit | `inference_band_5_1_0006` |
+
+**Central idea.** Earth's oval orbit puts the planet nearer the sun in January and farther in July, and that yearly change is natural, while several groups use the satellite record of change.
+
+**Supporting details.**
+
+- Nearest in January, about 91 million miles. Farthest in July, about 95 million miles.
+- The parts of Earth were once treated as separate. Rain and volcanic dust show them affecting each other.
+- Some changes are natural and some are caused by people. The record of both is what scientists use to predict.
+- Health officials, farmers, and emergency workers each use the satellite record for a different decision.
+
+**Why it works.** July looks like the near month and is not. Three groups can answer the "who uses this" question, and the prompt asks for one. The natural-or-human label sits in a later part than the months.
+
+**Cautions.** Verbatim. Perihelion and aphelion are in the passage and are not required. The seasons section of the same page measured about FK 8.8 and was not used. Sequence 0003 is also science and nature; the two lessons are not neighbors.
 
 ---
 

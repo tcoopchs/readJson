@@ -26,7 +26,7 @@ one fact behind it for `argument_evidence`, and one character, one act and one s
 
 | Ladder | Rungs built | Notes |
 | --- | --- | --- |
-| `inference` | 3.1 ✓ (6) · 4.1 ✓ (8) · 4.2 ✓ (6) · 4.3 ✓ (6) · 5.1 2/6 · 6.1 1/6 | 5.1 and 6.1 are prototype files, incomplete |
+| `inference` | 3.1 ✓ (6) · 4.1 ✓ (8) · 4.2 ✓ (6) · 4.3 ✓ (6) · 5.1 ✓ (6) · 6.1 1/6 | 5.1 is complete; 6.1 is still a prototype file, incomplete |
 | `main_idea` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) · 7.1 2/6 | 4.2 is one cell from six federal works; 4.3 is six drafted passages; the 7.1 gap is why a clear on 4.3 holds |
 | `vocab` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) | four rungs, all drafted under 2.6; TB-021 to TB-044; ladder complete through 4.3 |
 | `text_structure` | 3.1 ✓ (6) · 4.1 ✓ (6) · 4.2 ✓ (6) · 4.3 ✓ (6) | twenty-four drafted passages, one structure move each; vertical closed through 4.3 |
