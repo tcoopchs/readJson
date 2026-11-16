@@ -4,162 +4,95 @@
 wrote these lessons cannot read GitHub review comments where it runs, so the notes live in the repo
 instead.
 
-Four lessons, 0003 through 0006, one per PR, each branched off the last. The lessons themselves are
-good: licences verified (NASA and NPS, all public domain, and the text matches the source pages
-verbatim), reading levels honest (FK 5.0–6.7 inside the grade 4–5 window), five items ascending in
-each. What follows is what has to change before they merge.
+Four lessons, 0003 through 0006, one per PR, each branched off the last. The lessons are good work:
+licences verified (NASA and NPS, all public domain, text matching the source pages verbatim), reading
+levels honest (FK 5.0–6.7 inside the grade 4–5 window), five items ascending in each.
 
 ---
 
-## Blocker common to all four: `advance` points backwards
+## CORRECTION to the first version of these notes
 
-Every lesson in the stack has:
+The first version said to point `advance` at the next lesson in the rung. **That was my error**, and it
+came from copying `inference_band_5_1_0001` and `_0002` instead of reading the rule — those two lessons
+are themselves the broken ones. What the design actually says:
+
+**`DESIGN_RULES.md` 7.4**, the worked example:
 
 ```json
-"advance": { "next_file": "inference_band_5_1_0001" }
+"advance": { "next_file": "inference_band_5_2_0001", "next_means": "The first lesson in the next inference stage." }
+"retry":   { "next_file": "inference_band_5_1_0002", "next_means": "Another inference lesson in the same stage." }
 ```
 
-`advance` means **this reader cleared the lesson, send them on**. Pointing it at the first lesson of
-the same rung sends the reader backwards, so clearing a lesson would demote them. The rung's own
-existing lessons show the convention:
+and all eight lessons of rung 4.1 behave that way: every `advance` names `inference_band_5_1_0001`,
+every `retry` names the next sequence, and the last sequence retries itself.
 
-- `inference_band_5_1_0001` → `advance: inference_band_5_1_0002` (the next lesson)
-- `inference_band_5_1_0002` → `advance: inference_band_6_1_0001` (the next rung)
+The three destinations are three different moves:
 
-Correct destinations for this stack:
+| field | the move it names | destination |
+| --- | --- | --- |
+| `advance` | **up** — leave this rung | the next **rung** that exists |
+| `retry` | **stay** — another attempt in this rung | the next sequence in this rung |
+| `stopped` | the reader stopped early | this lesson |
+
+`7.3.1` is explicit: "Sequences are the road inside a rung, not a second progression." Taking the next
+sequence is a *stay*, so it belongs in `retry`. When `advance` points at the next sequence, a reader
+who earned a move up is held where they are.
+
+---
+
+## Routes to write
+
+The next inference rung above 5.1 is `inference_band_6_1_0001` — stage 5.2 is not authored, so that is
+the next existing rung and the correct `advance` for every lesson in this set.
 
 | lesson | `advance` | `retry` | `stopped` |
 | --- | --- | --- | --- |
-| 0003 | `inference_band_5_1_0004` | `inference_band_5_1_0004` | itself |
-| 0004 | `inference_band_5_1_0005` | `inference_band_5_1_0005` | itself |
-| 0005 | `inference_band_5_1_0006` | `inference_band_5_1_0006` | itself |
-| 0006 | `inference_band_6_1_0001` | `inference_band_6_1_0001` | itself |
+| 0003 | `inference_band_6_1_0001` | `inference_band_5_1_0004` | itself |
+| 0004 | `inference_band_6_1_0001` | `inference_band_5_1_0005` | itself |
+| 0005 | `inference_band_6_1_0001` | `inference_band_5_1_0006` | itself |
+| 0006 | `inference_band_6_1_0001` | itself — the last sequence, as `_0008` does in rung 4.1 | itself |
 
-The habit to carry: **the last lesson of a rung advances to the next rung**, never to a lesson inside
-the rung it just finished. And `retry` must never name the lesson itself — a reader who needs another
-attempt needs different text.
-
-Rule: `DESIGN_RULES.md` 7.4. The destinations are authored, not chosen by the tutor, so they have to be
-written to behave the way their names promise.
+**Same defect, pre-existing:** `inference_band_5_1_0001` has `advance: inference_band_5_1_0002`. Point
+it at `inference_band_6_1_0001` in whichever PR is open when it is convenient. `_0002` already does.
 
 ---
 
-## PR #1 — `inference_band_5_1_0003` (aerodynamics)
+## Verified fixed at `27df8b2`
 
-### q5 refers to a shape the reader cannot see
+Everything from the first review except those three `advance` fields (0003, 0004, 0005) — 0006's routes
+are already right.
 
-> Name one shape that meets less drag than the shape next to it in the passage.
+- **The backwards `advance` is gone** from all four lessons; nothing points back into the rung.
+- **PR #2 — the lock passage is clean.** "drop **of** 8 feet", "**navigate**", "**possible**", and the
+  comma splice from the flattened bullets are corrected, and the edit is recorded honestly:
+  `text_status: "Adapted, reading load reduced and typographical errors corrected."`, plus an
+  `adaptation` line naming each fix. That is exactly the right response to a public-domain source with
+  typos in it — correct, then say you did.
+- **PR #1 — q5 now carries its own anchor.** "The passage says a round shape meets less drag than a
+  flat one" replaces the ordinal the reader had to guess at.
+- **PR #1 — q2 credits the short correct answer.** The accepts now include "Its wings. The shape makes
+  lower pressure on top.", so a reader who names the wing is not marked wrong for not naming the
+  pressure first.
+- **PR #5 — both Earth items ask one thing.** q4: "Name one group, other than scientists, that uses the
+  satellite record." q5: "Why is that change not caused by people?" Each key answers the question the
+  prompt asks, each accept list agrees with its key.
+- **PR #5 — `curriculum.json`** flips inference 5.1 to `complete`, which is correct: six sequences now
+  exist.
 
-"the shape next to it in the passage" is an ordinal the reader has to guess at. A prompt must carry its
-own anchor. Either name them — *"The passage says a round shape meets less drag than a flat one. What
-does that tell you about why a shape is chosen?"* — or quote the sentence they appear in. The same
-applies to `confirm`, `tell` and every branch.
-
-Rule: `DESIGN_RULES.md` 2.3.1 and the skill's "refer to text precisely".
-
-### One correct answer is missing
-
-The key probe (three tutor models) rejected
-
-> Airplanes go up because of lift from their wings.
-
-for q2 ("A balloon rises because the air inside is light. What sends an airplane up instead?"). That
-answer is right: lift is the force. The key prefers the pressure difference, which is fine — the `tell`
-teaches it — but a correct shorter answer must not be marked wrong. Add to `accept_ideas`:
-
-```json
-"lift from the wings sends it up",
-"the wings make lift"
-```
+The machine gate passes at this revision: `PASS - ready for review`, 5 files, 0 errors, 0 warnings.
 
 ---
 
-## PR #2 — `inference_band_5_1_0004` (C&O Canal lift locks)
+## What to keep doing
 
-### The passage carries the source page's typos into the lesson
+**PR #2, q5** — "How do you know the water raises the boat, rather than a machine in the lock?" — is
+the best item across the four lessons. It asks for a conclusion the passage never states and the
+evidence for it. That shape is what an inference item is for, and it is worth copying deliberately
+into the next lessons rather than arriving at by luck.
 
-Verbatim is faithful, and it is faithful — those errors are really on the NPS page. But a reading
-lesson is a model of written English, so a student must not meet:
-
-- "averaged a drop **if** 8 feet" → **of**
-- "Boats can **navagate**" → **navigate**
-- "600 feet of elevation **possibl**" → **possible**
-- "Lift Locks created flat water levels, this limited the amount of water current" — a comma splice
-  left by flattening the page's bullet list into sentences
-
-Fix them, then record that you did:
-
-```json
-"text_status": "Adapted, reading load reduced and typographical errors corrected."
-```
-
-and one line in `source.adaptation` — "corrected three typographical errors, joined the bullet
-fragments into sentences". U.S. federal text is public domain, so a derivative is permitted; recording
-it is the point of the field.
-
-Better still, rewrite part 1 as prose. "Lift Locks are important for many reasons. Here are just a
-few:" reads like a bulleted page with the bullets removed.
-
-Rule: `DESIGN_RULES.md` 2.5 — adaptation may simplify and correct, never invent, and must be recorded.
-
-### What to keep
-
-q5 — "How do you know the water raises the boat, rather than a machine in the lock?" — is the best item
-in the four lessons. It asks for a conclusion the passage never states, plus the evidence for it. Write
-more like that.
-
----
-
-## PR #4 — `inference_band_5_1_0005` (Project Mercury)
-
-No scoring problems: the probe found nothing across the five items, and q5 earns its difficulty-3 tag.
-The only change is the `advance` destination in the table above.
-
----
-
-## PR #5 — `inference_band_5_1_0006` (Earth)
-
-Marking the rung `complete` is correct: 0001 and 0002 already existed and this supplies the last of the
-six. Three fixes besides the routes.
-
-### 1. q5 asks two questions and the key answers one
-
-> Earth's distance from the sun changes from January to July. **What is that change, and what in the
-> passage tells you it is natural** rather than caused by people?
-
-Two jobs — and the item is also marked `one_idea_is_enough: false` while every accept answers only the
-first. The tutor cannot demand two parts and credit one. Pick a shape:
-
-- **One job.** "Earth's distance from the sun changes from January to July. Why is that change not
-  caused by people?" — key: the change is natural; the orbit brings Earth nearer in January and
-  farther in July.
-- **Two parts, declared.** Keep the prompt, keep `false`, and make every accept state both parts with
-  no single-part accept in the list.
-
-Rule: `DESIGN_RULES.md` 3.1.7 (one job per prompt) and 3.1.9 (`one_idea_is_enough` must agree with the
-prompt and the accept list).
-
-### 2. q4 has the same shape, milder
-
-> Name one group, other than scientists, that uses the satellite record, and say what that group does
-> with it.
-
-The accepts each carry a group plus its use, so it mostly works, but the prompt asks two things while
-claiming one idea is enough. Cut it to "Name one group, other than scientists, that uses the satellite
-record." and let the accept carry the use.
-
-### 3. One correct answer is missing
-
-Two of three models rejected
-
-> Both kinds help us understand Earth better.
-
-for q3 ("Why keep both kinds in the record?"). The key says they "belong in the record scientists use to
-predict"; "understand better" is the same idea at lower resolution. Add:
-
-```json
-"both kinds help scientists understand and predict what Earth will do"
-```
+One habit the routes taught: **when you stub a destination, check the field against the move it
+names.** `advance` up, `retry` sideways, `stopped` here. A backwards `advance` still passes the
+validator, because the file exists and the grade matches — only the direction was wrong.
 
 ---
 
@@ -174,5 +107,5 @@ python3 tools/compile.py --harness ../readingHarness
 
 ## Merge order
 
-**#1 → #2 → #4 → #5**, rebasing each onto the previous. Each PR changes the previous lesson's
-`advance`, so the order carries the links. Do not squash: the rung's routing lives in those diffs.
+**#1 → #2 → #4 → #5**, rebasing each onto the previous. Each PR changes the previous lesson's routes,
+so the order carries the links. Do not squash: the rung's routing lives in those diffs.
