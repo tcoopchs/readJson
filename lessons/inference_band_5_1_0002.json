@@ -20,7 +20,7 @@
       "difficulty_basis": "Clue distance and one competing detail. The reader must connect an empty shelf to a missing delivery, and a job's materials to the order Rosa starts first."
     },
     "authoring_exceptions": [
-      "Advance routes to inference_band_6_1_0001, the next authored band."
+      "Advance routes to inference_band_6_1_0001, the next authored band. Retry routes to inference_band_5_1_0003, the next sequence in this stage."
     ],
     "protocol_version": "1.0"
   },
@@ -192,7 +192,7 @@
         "core_idea": "She calls to warn the restaurant that the menus will be late.",
         "not_required": [
           "the restaurant's name",
-          "the exact delay"
+          "Thursday"
         ],
         "accept_ideas": [
           "To tell them the paper is late and the menus will be delayed.",
@@ -237,7 +237,7 @@
         "core_idea": "She throws the note away because the paper arrived and she no longer needs the number.",
         "not_required": [
           "when the paper arrived",
-          "who brought it"
+          "the truck driver"
         ],
         "accept_ideas": [
           "The paper arrived, so she does not need the order number.",
@@ -347,9 +347,9 @@
         "student_line": "You handled most of this on your own. The next reading is another inference lesson."
       },
       "retry": {
-        "next_file": "inference_band_6_1_0001",
-        "next_irl": 6,
-        "next_means": "The inference lesson in Band 6.1.",
+        "next_file": "inference_band_5_1_0003",
+        "next_irl": 5,
+        "next_means": "The next inference lesson in this stage.",
         "student_line": "You have the basic move. The next reading is another inference lesson."
       },
       "stopped": {

@@ -1,0 +1,295 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "inference_band_5_1_0003",
+  "meta": {
+    "status": "published",
+    "title": "Four Forces in the Air",
+    "skill": "inference",
+    "irl_grade": 5,
+    "stage": 1,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Use the fact that answers the question when another fact nearby looks useful too.",
+    "reader": {
+      "who": "High school students who read at about a 5th-grade level.",
+      "reading_level": 5,
+      "why_this_level": "Flesch-Kincaid on the three parts together is 5.0. Part 1 measures 7.0; parts 2 and 3 measure about 4.2 because those sentences are short. Four forces sit side by side, so a nearby force can look like the answer. Each inference is still one step, and the clue stays in the part on screen. This is a grade-5 instructional lesson, stage 1.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "NASA, 'What Is Aerodynamics?' (Grades 5-8).",
+      "attribution": "National Aeronautics and Space Administration, NASA STEM Team, 'What Is Aerodynamics? (Grades 5-8)', https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-aerodynamics-grades-5-8/, accessed 2026-11-15. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Verbatim excerpt. Not adapted.",
+      "survey": "Prose paragraphs from the NASA STEM Team article, in source order. Question headings, the grade line, and two sentences about helicopter rotor blades are omitted. No kept sentence was rewritten.",
+      "avoided": "No grades K-4 page. No Mars-probe paragraph. The black-hole page already used in inference 4.1 was not reused."
+    },
+    "session": {
+      "scope": "prototype",
+      "item_target": 5,
+      "time_target_minutes": 12,
+      "difficulty_basis": "Competing details. Clue distance stays inside one part, and each inference is still one step. The new load is a nearby fact that looks like the answer."
+    },
+    "authoring_exceptions": [
+      "Two sentences about helicopter rotor blades were omitted so part 2 stays within 200 words. The kept sentences are verbatim.",
+      "Advance and retry name inference_band_6_1_0001 until sequence 0004 exists. The next commit points both at 0004. Neither names this lesson."
+    ]
+  },
+  "script_overrides": {
+    "near_copy_2": "Start with the force, or with the shape. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Aerodynamics is the way objects move through air. The rules of aerodynamics explain how an airplane is able to fly. Anything that moves through air is affected by aerodynamics, from a rocket blasting off, to a kite flying. Since they are surrounded by air, even cars are affected by aerodynamics.\n\nThe four forces of flight are lift, weight, thrust and drag. These forces make an object move up and down, and faster or slower. The amount of each force compared to its opposing force determines how an object moves through the air.\n\nGravity is a force that pulls everything down to Earth. Weight is the amount of gravity multiplied by the mass of an object. Weight is also the downward force that an aircraft must overcome to fly. A kite has less mass and therefore less weight to overcome than a jumbo jet, but they both need the same thing in order to fly - lift.",
+    "part_2": "Lift is the push that lets something move up. It is the force that is the opposite of weight. Everything that flies must have lift. For an aircraft to move upward, it must have more lift than weight. A hot air balloon has lift because the hot air inside is lighter than the air around it. Hot air rises and carries the balloon with it. Lift for an airplane comes from its wings.\n\nThe shape of an airplane's wings is what makes it possible for the airplane to fly. Airplanes' wings are curved on top and flatter on the bottom. That shape makes air flow over the top faster than under the bottom. As a result, less air pressure is on top of the wing. This lower pressure makes the wing, and the airplane it's attached to, move up. Using curves to affect air pressure is a trick used on many aircraft. Lift for kites also comes from a curved shape. Even sailboats use this curved shape. A boat's sail is like a wing. That's what makes the sailboat move.",
+    "part_3": "Drag is a force that pulls back on something trying to move. Drag provides resistance, making it hard to move. For example, it is more difficult to walk or run through water than through air. Water causes more drag than air. The shape of an object also affects the amount of drag. Round surfaces usually have less drag than flat ones. Narrow surfaces usually have less drag than wide ones. The more air that hits a surface, the more the drag the air produces.\n\nThrust is the force that is the opposite of drag. It is the push that moves something forward. For an aircraft to keep moving forward, it must have more thrust than drag. A small airplane might get its thrust from a propeller. A larger airplane might get its thrust from jet engines. A glider does not have thrust. It can only fly until the drag causes it to slow down and land."
+  },
+  "items": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "prompt": "A kite and a jumbo jet both need lift. Which one has more weight to overcome?",
+      "tutor_only": {
+        "confirm": "Right. The jumbo jet has more mass, so it has more weight to overcome.",
+        "correct_reason": "The passage says a kite has less mass and therefore less weight to overcome than a jumbo jet. The jet is the heavier one.",
+        "core_idea": "The jumbo jet has more weight to overcome because it has more mass.",
+        "not_required": [
+          "gravity",
+          "the four forces"
+        ],
+        "accept_ideas": [
+          "The jumbo jet, because it has more mass.",
+          "The jet has more weight to overcome than the kite.",
+          "The jet. The kite has less mass and less weight."
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They say both need lift, or they name lift, and they do not say which craft has more weight.",
+            "ask": "Both need lift. Which one has more weight standing in the way?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the kite has more weight, or that the kite is harder to lift.",
+            "ask": "The passage says the kite has less mass. Which craft does that leave with more weight?"
+          },
+          {
+            "when": "They say thrust or drag, and they do not name the jet or the kite.",
+            "ask": "Thrust and drag are in the list. The question is about weight. Which craft has more of it?"
+          }
+        ],
+        "help": [
+          "The passage compares the kite's mass with the jumbo jet's mass. Which mass is smaller?",
+          "Less mass means less weight. Which craft has more weight left to overcome?"
+        ],
+        "tell": "The kite has less mass than the jumbo jet. Less mass means less weight, so the jet has more weight to overcome.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": true,
+      "prompt": "A hot-air balloon rises because the air inside is light. What sends an airplane up instead?",
+      "tutor_only": {
+        "confirm": "Right. Lower air pressure on top of the curved wing moves the airplane up.",
+        "correct_reason": "The balloon rises because hot air inside is lighter. The airplane's wing is curved, air moves faster over the top, and the lower pressure there moves the wing up.",
+        "core_idea": "Lower pressure on top of the curved wing moves the airplane up.",
+        "not_required": [
+          "the kite",
+          "the sailboat"
+        ],
+        "accept_ideas": [
+          "The curved wing, because less air pressure is on top.",
+          "Air flows faster over the curved top, and the lower pressure lifts the wing.",
+          "Its wings. The shape makes lower pressure on top.",
+          "lift from the wings sends it up",
+          "the wings make lift"
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They say the wings, or the shape, and they do not mention pressure or the faster air on top.",
+            "ask": "The wings matter. What does that curved shape do to the air pressure?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say hot air, light air, or the balloon's method, and they do not mention the wing.",
+            "ask": "That is how the balloon rises. The airplane's wing is not full of hot air. What does the curve do?"
+          },
+          {
+            "when": "They say thrust, the engine, or the propeller.",
+            "ask": "Thrust moves a craft forward. This question is about going up. What happens on top of the wing?"
+          }
+        ],
+        "help": [
+          "The balloon uses light hot air. The next sentences are about the airplane's wing.",
+          "Air moves faster over the curved top. Where is the pressure lower?"
+        ],
+        "tell": "The balloon rises on hot air. The airplane goes up because the curved wing has lower air pressure on top.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "prompt": "A boat's sail is curved like a wing. The boat stays on the water. What does that curve do?",
+      "tutor_only": {
+        "confirm": "Right. The curved sail works like a wing, and that curve is what makes the boat move.",
+        "correct_reason": "The passage says sailboats use the same curved shape as a wing, and that the sail is what makes the sailboat move. The boat is not described as leaving the water.",
+        "core_idea": "The curved sail works like a wing and that is what moves the boat.",
+        "not_required": [
+          "air pressure",
+          "kites"
+        ],
+        "accept_ideas": [
+          "It works like a wing and makes the boat move.",
+          "The curve changes the air the way a wing does, and the boat moves.",
+          "That curved shape is what makes the sailboat move."
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They say it is like a wing and do not say what that does for the boat.",
+            "ask": "It is like a wing. What does the passage say that curve makes the boat do?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the boat flies, leaves the water, or goes up like an airplane.",
+            "ask": "The sail uses a wing's curve. The passage does not say the boat leaves the water. What does the curve make the boat do?"
+          },
+          {
+            "when": "They say hot air or a balloon lifts the boat.",
+            "ask": "Hot air is the balloon's method. The sail sentence says the sail is like a wing. What does that do?"
+          }
+        ],
+        "help": [
+          "Find the sentence that says a sail is like a wing.",
+          "That sentence says what the curve makes the sailboat do. What is it?"
+        ],
+        "tell": "The sail uses the same curve as a wing. That curve is what makes the sailboat move. The boat stays on the water.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 2,
+      "show_part": "part_3",
+      "show_part_again": true,
+      "prompt": "A glider has no thrust. Why can a jet keep moving forward when a glider cannot?",
+      "tutor_only": {
+        "confirm": "Right. The jet has thrust from its engines. The glider is left with drag, so it slows and lands.",
+        "correct_reason": "A jet gets thrust from jet engines. A glider has no thrust, and it flies only until drag slows it down and it lands. Forward motion needs more thrust than drag.",
+        "core_idea": "The jet has engine thrust, and the glider has none, so drag slows the glider.",
+        "not_required": [
+          "propellers",
+          "the shape of the wing"
+        ],
+        "accept_ideas": [
+          "The jet's engines give it thrust. The glider has no thrust, so drag slows it.",
+          "A jet can keep thrust ahead of drag. A glider cannot.",
+          "The glider has nothing pushing it forward, so drag makes it land."
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They say the glider slows down or lands, and they do not mention thrust or drag.",
+            "ask": "It does land. Which force is missing on the glider, and which force slows it?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say the jet has bigger wings, more lift, or less weight.",
+            "ask": "Wings and weight are earlier in the passage. This part names the force a glider lacks. What is it?"
+          },
+          {
+            "when": "They say a round shape, or that the glider should be narrower.",
+            "ask": "Shape changes drag. The passage gives a different reason the glider must land. What force is missing?"
+          }
+        ],
+        "help": [
+          "The passage says where a jet gets its thrust. What does a glider not have?",
+          "With no thrust, which force slows the glider until it lands?"
+        ],
+        "tell": "A jet gets thrust from its engines. A glider has no thrust, so drag slows it until it lands.",
+        "say_back": "own_words"
+      }
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "skill": "inference",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "prompt": "The passage says a round shape meets less drag than a flat one. What does that tell you about why a shape is chosen?",
+      "tutor_only": {
+        "confirm": "Right. A round shape is chosen over a flat one because it meets less drag.",
+        "correct_reason": "The passage says round surfaces usually have less drag than flat ones, and narrow surfaces usually have less drag than wide ones. Less drag is why that shape is chosen.",
+        "core_idea": "A round shape is chosen over a flat one because it meets less drag.",
+        "not_required": [
+          "water",
+          "the glider"
+        ],
+        "accept_ideas": [
+          "Choose round rather than flat to meet less drag.",
+          "A narrow shape meets less drag than a wide one, so that shape is chosen too.",
+          "The shape is chosen because it meets less drag."
+        ],
+        "one_idea_is_enough": true,
+        "partial": [
+          {
+            "when": "They say less drag, and they do not name round, narrow, flat, or wide.",
+            "ask": "Less drag is the result. Which shapes does the passage put on that side, round or narrow?"
+          }
+        ],
+        "if_they_say": [
+          {
+            "when": "They say a flat shape or a wide shape meets less drag.",
+            "ask": "The passage gives flat more drag than round, and wide more drag than narrow. Which shape meets less?"
+          },
+          {
+            "when": "They say walking through air, or that water is the shape.",
+            "ask": "Water is the comparison, not the shape. Round meets less drag than flat. What does that mean for the shape someone chooses?"
+          }
+        ],
+        "help": [
+          "Find the sentence that names round surfaces and flat ones.",
+          "Round meets less drag than flat. Why would someone choose the round shape?"
+        ],
+        "tell": "A round surface meets less drag than a flat one. A narrow surface meets less drag than a wide one. The shape is chosen because it meets less drag.",
+        "say_back": "own_words"
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "inference_band_6_1_0001",
+    "next_irl": 6,
+    "next_means": "The next authored inference lesson, until sequence 0004 exists.",
+    "student_line": "You put most of these facts together on your own. The next reading is another inference lesson."
+  },
+  "retry": {
+    "next_file": "inference_band_6_1_0001",
+    "next_irl": 6,
+    "next_means": "The next authored inference lesson, until sequence 0004 exists.",
+    "student_line": "You have the basic move. The next reading is another inference lesson."
+  },
+  "stopped": {
+    "next_file": "inference_band_5_1_0003",
+    "next_irl": 5,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
