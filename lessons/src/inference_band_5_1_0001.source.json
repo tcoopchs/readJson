@@ -31,7 +31,7 @@
     },
     "authoring_exceptions": [
       "Part 2 is 72 words. The inference is answerable from the two short paragraphs, and extending the scene would add no evidence.",
-      "Advance routes to inference_band_5_1_0002. A later stage will be added when that content is authored."
+      "Advance routes to inference_band_6_1_0001, the next existing inference rung. Retry stays at inference_band_5_1_0002."
     ]
   },
   "script_overrides": {
@@ -54,8 +54,8 @@
         "correct_reason": "The passage says the milk is warm and the ice cream is soft at the edges. Yesterday the same food was cold and firm.",
         "core_idea": "The food that was cold and firm is now warm or soft.",
         "not_required": [
-          "which specific food changed",
-          "the exact temperature"
+          "the lettuce",
+          "the ice cream"
         ],
         "accept_ideas": [
           "The food is warm, soft, or no longer cold.",
@@ -145,8 +145,7 @@
         "core_idea": "She keeps the diner closed because the food is warm and not safe to serve.",
         "not_required": [
           "the grill",
-          "the front door",
-          "whether Mia is blamed"
+          "the front door"
         ],
         "accept_ideas": [
           "The food that should be cold is warm, so she cannot serve it.",
@@ -267,10 +266,10 @@
     }
   ],
   "advance": {
-    "next_file": "inference_band_5_1_0002",
-    "next_irl": 5,
-    "next_means": "Another inference lesson in Band 5.1.",
-    "student_line": "You put most of these facts together on your own. The next reading is another inference lesson in this band."
+    "next_file": "inference_band_6_1_0001",
+    "next_irl": 6,
+    "next_means": "The first inference lesson in the next band.",
+    "student_line": "You put most of these facts together on your own. The next reading is another inference lesson."
   },
   "retry": {
     "next_file": "inference_band_5_1_0002",
