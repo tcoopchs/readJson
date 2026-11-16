@@ -13,6 +13,7 @@ Cost is about $0.15 per lesson. Exit code 0 means no flag; 1 means read the flag
 """
 import argparse
 import json
+import os
 import re
 import sys
 import time
@@ -21,7 +22,7 @@ from pathlib import Path
 import requests
 
 HERE = Path(__file__).resolve().parent
-ROOT = Path("/home/tcoop/Work/readJson")
+ROOT = Path(os.environ.get("READJSON_ROOT", "/home/tcoop/Work/readJson"))
 sys.path.insert(0, str(HERE))
 import grade as G  # noqa: E402
 import gen_answers as A  # noqa: E402
