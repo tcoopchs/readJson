@@ -5378,6 +5378,41 @@
       "topic_domain": "science and nature",
       "source_kind": "verbatim federal work",
       "text_status": "Verbatim excerpt. Not adapted."
+    },
+    {
+      "id": "TB-149",
+      "title": "The Boat in the Lock",
+      "author": "U.S. National Park Service",
+      "url": "https://www.nps.gov/choh/learn/historyculture/lift-locks.htm",
+      "license": "U.S. federal government work; public domain in the U.S.",
+      "genre": "nonfiction",
+      "grade_target": 5,
+      "band": "Band 5.1",
+      "length_note": "three passages, one per displayed part (113, 130, 191 words)",
+      "length_words": 434,
+      "fk_grade": 6.66,
+      "complexity": {
+        "language": 3,
+        "idea": 2,
+        "structure": 2,
+        "knowledge": 1
+      },
+      "best_lesson_fit": [
+        "inference_band_5_1_0004"
+      ],
+      "cell_use": "Owns its own lesson in inference 5.1 and serves no other cell.",
+      "central_idea": "A lift lock raises a boat by letting water in, and the high doors stay shut until the water matches.",
+      "supporting_details": [
+        "One lock raises a boat about 8 to 10 feet instead of following the slope.",
+        "Closed gates point toward the higher water, and that pressure holds them shut.",
+        "The boat floats in. A lock key opens panels, and water rushes in.",
+        "The water level rises until it matches, and then the high doors open."
+      ],
+      "why_it_works": "The rise of the boat is two steps, and the lock key looks like a machine that could do the lifting.",
+      "cautions": "Verbatim, including source typos. Part FK is 7.67, 7.93, and 5.79. Whole-passage FK is 6.66. Part 2 is just above the 7.73 ceiling because the source sentences were not split.",
+      "topic_domain": "places and travel",
+      "source_kind": "verbatim federal work",
+      "text_status": "Verbatim excerpt. Not adapted."
     }
   ],
   "screened_not_banked": [
