@@ -86,24 +86,45 @@ CI is green on all four heads.
 
 ## Still open
 
-**1. The three `advance` fields** in the table above (0003, 0004, 0005) — see the correction at the top.
+**Both earlier items are now closed at `f49fd2e`** — verify for yourself and move on.
 
-**2. PR #5, q3 — the accept you added does not cover the answer that flagged.** The probe answer was
+- Routes: 0003, 0004 and 0005 advance to `inference_band_6_1_0001`; 0001 was repaired too; 0006 retries
+  itself. All correct against 7.4 and rung 4.1.
+- PR #5 q3: the accepts now include the probe's own sentences. Re-probed at `f49fd2e` — clean, 0 flags
+  across 0003 and 0006.
 
-> Both kinds help us understand Earth better.
+### The one thing still blocking: PR #2's prose
 
-The accept added was "both kinds help scientists understand and predict what Earth will do", which is
-the key's vocabulary, not the student's. It still misses, 2 of 3 models. Write accepts in the words a
-student would use, then check by re-running the exact answer:
+The typos are fixed, but the passage is still not written English. From part 2 and part 3 as they stand:
+
+> The second thing you need to know the Lift Lock doors also called Lock Gates, when they are closed
+> they are pointed towards higher water aka the higher water pressure.
+
+That sentence has no main clause: "the Lift Lock doors … when they are closed they are pointed" teaches
+a reader nothing about grammar except by accident. Alongside it: "Now the back gates are close" (should
+be *closed*), "Say we have a boat" and "Now that's a big question that requires some context" (spoken
+register), and "aka" (not written prose). The NPS page is a transcript of an oral presentation, so this
+is not a typo problem — it is the source's idiom.
+
+A reading lesson is the model of written English the student is meant to imitate. A wrong key teaches
+one thing badly; a broken passage teaches bad grammar silently, with no feedback loop to catch it. That
+makes this a merge blocker, not a polish item.
+
+**Fix:** rewrite parts 2 and 3 as full sentences, keeping every fact (two sets of gates, the pointed
+gates and water pressure, the panels and the lock key, the fill-and-match sequence). Everything else in
+the lesson — the items, the key, the provenance — stays. Record it:
 
 ```json
-"both kinds help us understand Earth better",
-"we need both kinds to understand what Earth does"
+"text_status": "Adapted, rewritten from an oral transcript into continuous prose; typographical errors corrected."
 ```
 
-The lesson from this one: when a probe flags an answer, the fix is to add *that sentence* — or a
-rewrite that keeps its words — not a fresh sentence built from the key. The probe answer is the
-specification.
+If that rewrite is more than you can do faithfully, choose a different source: another NPS page on the
+same locks, or the Historic American Buildings Survey description, which was written as prose.
+
+The other three lessons are ready. 0003 and 0005 read cleanly as written; 0006 carries NASA's voice
+(the "For example:" list flattened into separate sentences is acceptable — it reads as a list, not as
+broken syntax).
+
 
 
 ---
