@@ -80,6 +80,31 @@ are already right.
   exist.
 
 The machine gate passes at this revision: `PASS - ready for review`, 5 files, 0 errors, 0 warnings.
+CI is green on all four heads.
+
+---
+
+## Still open
+
+**1. The three `advance` fields** in the table above (0003, 0004, 0005) — see the correction at the top.
+
+**2. PR #5, q3 — the accept you added does not cover the answer that flagged.** The probe answer was
+
+> Both kinds help us understand Earth better.
+
+The accept added was "both kinds help scientists understand and predict what Earth will do", which is
+the key's vocabulary, not the student's. It still misses, 2 of 3 models. Write accepts in the words a
+student would use, then check by re-running the exact answer:
+
+```json
+"both kinds help us understand Earth better",
+"we need both kinds to understand what Earth does"
+```
+
+The lesson from this one: when a probe flags an answer, the fix is to add *that sentence* — or a
+rewrite that keeps its words — not a fresh sentence built from the key. The probe answer is the
+specification.
+
 
 ---
 
