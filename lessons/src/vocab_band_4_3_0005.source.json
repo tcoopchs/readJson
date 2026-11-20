@@ -223,9 +223,9 @@
     }
   ],
   "advance": {
-    "next_file": "vocab_band_4_3_0001",
+    "next_file": "vocab_band_4_3_0005",
     "next_irl": 4,
-    "next_means": "The first word lesson in this rung; no higher word rung is authored yet.",
+    "next_means": "No higher vocab rung is authored yet; hold in this lesson.",
     "student_line": "You worked the meanings out from the passage. The next reading is another word lesson."
   },
   "retry": {

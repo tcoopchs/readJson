@@ -222,9 +222,9 @@
     }
   ],
   "advance": {
-    "next_file": "process_band_4_3_0001",
-    "next_irl": 4,
-    "next_means": "The first lesson of this band, because no higher process rung is authored yet.",
+    "next_file": "process_band_9_1_0001",
+    "next_irl": 9,
+    "next_means": "The first process lesson in Band 9.1.",
     "student_line": "You have the move. The next reading is another lesson on this skill."
   },
   "retry": {

@@ -224,9 +224,9 @@
     }
   ],
   "advance": {
-    "next_file": "literary_text_band_4_3_0001",
+    "next_file": "literary_text_band_4_3_0006",
     "next_irl": 4,
-    "next_means": "The first lesson of this band, which is the highest one authored so far.",
+    "next_means": "No higher literary text rung is authored yet; hold in this lesson.",
     "student_line": "You read this one closely. The next reading is another lesson at this level."
   },
   "retry": {

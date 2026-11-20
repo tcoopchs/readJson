@@ -311,9 +311,9 @@
     },
     "server_routes": {
       "advance": {
-        "next_file": "main_idea_band_4_1_0001",
+        "next_file": "main_idea_band_4_2_0001",
         "next_irl": 4,
-        "next_means": "The first main-idea lesson in this band; no higher main-idea rung is authored yet.",
+        "next_means": "The first main idea lesson in Band 4.2.",
         "student_line": "You found the idea across the whole passage. The next reading is another main-idea lesson."
       },
       "retry": {

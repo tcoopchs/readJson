@@ -351,9 +351,9 @@
     },
     "server_routes": {
       "advance": {
-        "next_file": "authors_craft_band_4_1_0002",
+        "next_file": "authors_craft_band_4_2_0001",
         "next_irl": 4,
-        "next_means": "This band has no higher rung yet.",
+        "next_means": "The first authors craft lesson in Band 4.2.",
         "student_line": "You have the move. The next reading is another craft lesson."
       },
       "retry": {

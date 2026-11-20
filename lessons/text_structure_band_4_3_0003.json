@@ -308,9 +308,9 @@
     },
     "server_routes": {
       "advance": {
-        "next_file": "text_structure_band_4_3_0001",
+        "next_file": "text_structure_band_4_3_0003",
         "next_irl": 4,
-        "next_means": "No text-structure stage is authored above this rung yet, so the ladder holds at the first lesson of this band.",
+        "next_means": "No higher text structure rung is authored yet; hold in this lesson.",
         "student_line": "You have the move. The next reading is another lesson on this skill in this band."
       },
       "retry": {
