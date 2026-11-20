@@ -45,6 +45,12 @@ Numbered once. Later sections cite these numbers; new sources are appended, neve
 | 39 | *Automated Scoring of Short-Answer Questions: A Progress Report* — https://www.tandfonline.com/doi/full/10.1080/08957347.2024.2386945 | Peer-reviewed article | 6 | LLM scoring agreement with human raters. |
 | 40 | Madnani et al., *Automated Scoring of Summary-Writing Tasks* — https://files.eric.ed.gov/fulltext/ED603960.pdf | Conference paper | 6 | Global and local concept rubric; no grammar penalty. |
 | 41 | *Generative AI reading assistant and summary rubric* — https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1763238/full | Peer-reviewed article | 6 | Analytic summary rubric: coverage, accuracy, coherence. |
+| 42 | Breuer, Scherndl, Ortner, *Effects of response format on achievement and aptitude assessment results* — https://pmc.ncbi.nlm.nih.gov/articles/PMC10154931/ | Peer-reviewed meta-analysis | 6 | 102 studies, 392 effect sizes: r = 0.67, d = -0.65 favouring MC. |
+| 43 | In'nami and Koizumi, *A meta-analysis of test format effects on reading and listening test performance* — https://eric.ed.gov/?id=EJ834134 | Peer-reviewed meta-analysis | 6 | 56 data sources; MC easier than open-ended in L1 reading. |
+| 44 | Rauch and Hartig, *Multiple-choice versus open-ended response formats of reading test items: A two-dimensional IRT analysis* — https://www.psychologie-aktuell.com/fileadmin/download/ptam/4-2010_20101218/02_Rauch.pdf | Peer-reviewed study | 6 | 8,523 grade-9 students; OE items carry a separate higher-order dimension. |
+| 45 | Kayarkaya and Unaldi, *What You might not be Assessing through a Multiple Choice Test Task* — https://files.eric.ed.gov/fulltext/EJ1249981.pdf | Peer-reviewed study | 6 | MC reading task produced weaker whole-text macrostructure than summarizing. |
+| 46 | Smith and Karpicke, *Retrieval practice with short-answer, multiple-choice, and hybrid tests* — https://learninglab.psych.purdue.edu/downloads/2014/2014_Smith_Karpicke_Memory.pdf | Peer-reviewed, 4 experiments | 6 | MC practice matches short answer when retrieval success is equated. |
+| 47 | Marsh, Roediger, Bjork and Bjork, *Memorial consequences of multiple-choice testing* — https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Marsh_Roediger_BjorkBjork2007PBR.pdf | Peer-reviewed study | 6 | MC lures are later endorsed as true; more lures, more contamination. |
 
 ## Source standards for later sections
 

@@ -1,0 +1,478 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_5_1_0002",
+  "meta": {
+    "status": "published",
+    "title": "A Class Apart",
+    "skill": "main_idea",
+    "irl_grade": 5,
+    "stage": 1,
+    "sequence": 2,
+    "genre": "nonfiction",
+    "topic_domain": "history and people",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fifth-grade level.",
+      "reading_level": 5,
+      "why_this_level": "Measured FK 5.3 on the three parts together, inside the grade 4-5 band. The load is three facts about a group that only add up to a whole picture.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from the National Park Service, 'Canallers - Captains of the Canal', Chesapeake & Ohio Canal National Historical Park.",
+      "attribution": "U.S. National Park Service, 'Canallers - Captains of the Canal', Chesapeake & Ohio Canal National Historical Park, https://www.nps.gov/choh/learn/historyculture/canallers.htm, accessed 2026-11-15. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced by splitting long sentences and cutting asides.",
+      "drafted_by": "TC",
+      "survey": "The boatmen worked hard for little pay, kept to themselves, and made a life the towns along the canal never joined.",
+      "avoided": "No invented wages; no detail about individual boatmen."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 14,
+      "difficulty_basis": "How far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Canallers were also called boatmen. They worked on the canal. Their work meant hard work, long hours, and little pay. The work had daring adventure. It also kept them apart from much of the world outside the canal. This adventure and isolation helped make the independent-minded boatmen a rough and ready group. They usually formed a class apart from their neighbors in the Potomac Valley. They often married within their own group. Their children were often born and raised in the trade. These children generally had little exposure to schooling or social polish from the growing American culture of the 1800s.",
+    "part_2": "The boatmen were constantly brawling among themselves. They fought with each other for first place at the locks. They also fought because of some real or imagined insult. Their life was at best irregular and unpredictable. It was not regular. It was not predictable. Some moved slowly along the line. Some amused themselves in drunken fun. They took their time in making the run. Others were more ambitious. They drove their teams and boats at full speed night and day. These ambitious boatmen cared little for themselves. They cared little for their mules or boats. They cared little for canal property.",
+    "part_3": "The boatmen were constantly at odds with the company. They did not agree with the company about toll rates and freight charges. They were also at odds with lock keepers. They did not agree with lock keepers about operating procedures or personal slights. Usually, the canallers shunned the larger towns along the canal. It cost too much to feed their teams. They also felt out of place in those larger towns. Even while wintering along the line, they had their own settlements. These settlements were on the fringes of the towns. They were often quite far away from the towns."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What other name does the passage give for canallers?",
+      "tutor_only": {
+        "confirm": "That is the name given in part 1.",
+        "correct_reason": "The passage says canallers were also called boatmen.",
+        "tell": "The passage says canallers were also called boatmen.",
+        "help": [
+          "Look again at part 1.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Canallers were also called boatmen.",
+        "accept_ideas": [
+          "boatmen",
+          "they were also called boatmen",
+          "canallers had another name: boatmen",
+          "boatmen was the other name"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "m",
+          "e",
+          "n",
+          "t",
+          "i",
+          "o",
+          "n",
+          "t",
+          "h",
+          "e",
+          "i",
+          "r",
+          "w",
+          "o",
+          "r",
+          "k",
+          "h",
+          "o",
+          "u",
+          "r",
+          "s",
+          "o",
+          "r",
+          "p",
+          "a",
+          "y",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "Canallers were also called boatmen."
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "According to the passage, what did the boatmen's adventure and isolation help produce?",
+      "tutor_only": {
+        "confirm": "That joins the two statements about adventure, isolation, and being a class apart.",
+        "correct_reason": "The passage says adventure and isolation helped make the boatmen a rough, independent-minded group that formed a class apart.",
+        "tell": "The passage says adventure and isolation helped make the boatmen a rough, independent-minded group that formed a class apart.",
+        "help": [
+          "Look again at part 1.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Adventure and isolation helped make the boatmen rough, independent, and set apart as a class.",
+        "accept_ideas": [
+          "a rough, independent group set apart",
+          "they became rough and separate",
+          "isolation made them independent and different from neighbors",
+          "it helped make them a rough class apart"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "l",
+          "i",
+          "s",
+          "t",
+          "t",
+          "h",
+          "e",
+          "i",
+          "r",
+          "m",
+          "a",
+          "r",
+          "r",
+          "i",
+          "a",
+          "g",
+          "e",
+          "o",
+          "r",
+          "s",
+          "c",
+          "h",
+          "o",
+          "o",
+          "l",
+          "i",
+          "n",
+          "g",
+          "c",
+          "u",
+          "s",
+          "t",
+          "o",
+          "m",
+          "s",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "Adventure and isolation helped make the boatmen rough, independent, and set apart as a class."
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the writer mean by saying the boatmen 'formed a class apart' from their neighbors?",
+      "tutor_only": {
+        "confirm": "That fits the passage's point about them being set apart.",
+        "correct_reason": "It means the boatmen were a separate social group, not mixed in with their neighbors.",
+        "tell": "It means the boatmen were a separate social group, not mixed in with their neighbors.",
+        "help": [
+          "Look again at part 1.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They were a separate social group, distinct from their neighbors.",
+        "accept_ideas": [
+          "they were separate from other people",
+          "they kept to their own group",
+          "they were a different social group",
+          "they did not mix with their neighbors"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "e",
+          "x",
+          "p",
+          "l",
+          "a",
+          "i",
+          "n",
+          "w",
+          "h",
+          "y",
+          "t",
+          "h",
+          "e",
+          "y",
+          "m",
+          "a",
+          "r",
+          "r",
+          "i",
+          "e",
+          "d",
+          "w",
+          "i",
+          "t",
+          "h",
+          "i",
+          "n",
+          "t",
+          "h",
+          "e",
+          "i",
+          "r",
+          "o",
+          "w",
+          "n",
+          "g",
+          "r",
+          "o",
+          "u",
+          "p",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "They were a separate social group, distinct from their neighbors."
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the writer place slow-moving boatmen next to ambitious full-speed boatmen in part 2?",
+      "tutor_only": {
+        "confirm": "That explains why both slow and full-speed examples are included.",
+        "correct_reason": "The contrast shows the boatmen's life was irregular and unpredictable, with no single pace or standard.",
+        "tell": "The contrast shows the boatmen's life was irregular and unpredictable, with no single pace or standard.",
+        "help": [
+          "Look again at part 2.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "To show that the boatmen's life had no single regular pattern and ranged from slow to driven.",
+        "accept_ideas": [
+          "to show they were unpredictable",
+          "to show not all boatmen acted the same",
+          "to contrast different paces of work",
+          "to show their life was irregular"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "d",
+          "e",
+          "c",
+          "i",
+          "d",
+          "e",
+          "w",
+          "h",
+          "i",
+          "c",
+          "h",
+          "k",
+          "i",
+          "n",
+          "d",
+          "o",
+          "f",
+          "b",
+          "o",
+          "a",
+          "t",
+          "m",
+          "a",
+          "n",
+          "w",
+          "a",
+          "s",
+          "m",
+          "o",
+          "r",
+          "e",
+          "c",
+          "o",
+          "m",
+          "m",
+          "o",
+          "n",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "To show that the boatmen's life had no single regular pattern and ranged from slow to driven."
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What is the passage mainly saying about the canallers' way of life?",
+      "tutor_only": {
+        "confirm": "That covers the main point across all three parts.",
+        "correct_reason": "The passage says the canallers were a rough, independent, separate group, and their canal life was irregular and full of conflict with companies, lock keepers, and towns.",
+        "tell": "The canallers were rough and independent. They clashed with the company, the lock keepers and the towns.",
+        "help": [
+          "Look again at all three parts.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The canallers were a rough, independent, separate group whose hard canal life was irregular and full of conflict with outsiders.",
+        "accept_ideas": [
+          "They were a rough, separate group shaped by canal work.",
+          "Canal life made the boatmen independent and always fighting.",
+          "The boatmen lived apart and were often in conflict.",
+          "Their hard, isolated work made them rough and set apart.",
+          "They were an independent, quarrelsome group outside normal town life.",
+          "Canallers had a tough life with little pay and lots of fighting."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "l",
+          "i",
+          "s",
+          "t",
+          "e",
+          "v",
+          "e",
+          "r",
+          "y",
+          "c",
+          "o",
+          "n",
+          "f",
+          "l",
+          "i",
+          "c",
+          "t",
+          "o",
+          "r",
+          "t",
+          "o",
+          "w",
+          "n",
+          "d",
+          "e",
+          "t",
+          "a",
+          "i",
+          "l",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "The canallers were rough and independent. They clashed with the company, the lock keepers and the towns."
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_7_1_0001",
+    "next_irl": 7,
+    "next_means": "The first main idea lesson in Band 7.1.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_5_1_0003",
+    "next_irl": 5,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "You have most of the move. The next reading is another main-idea lesson."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_5_1_0002",
+    "next_irl": 5,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

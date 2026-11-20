@@ -1,0 +1,376 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_5_1_0006",
+  "meta": {
+    "status": "published",
+    "title": "The Light at the Harbor",
+    "skill": "main_idea",
+    "irl_grade": 5,
+    "stage": 1,
+    "sequence": 6,
+    "genre": "nonfiction",
+    "topic_domain": "places and travel",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fifth-grade level.",
+      "reading_level": 5,
+      "why_this_level": "Measured FK 7.4 on the three parts together, inside the grade 4-5 band. The load is a message reduced to two choices, then a reason the state paid for it.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from NOAA Ocean Service, 'Do We Still Need Lighthouses?'",
+      "attribution": "U.S. National Oceanic and Atmospheric Administration, Ocean Service, 'Do We Still Need Lighthouses?', https://oceanservice.noaa.gov/facts/lighthouse.html, accessed 2026-11-15. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced by splitting long sentences.",
+      "drafted_by": "TC",
+      "survey": "A lighthouse gives one plain message at a place where a wrong turn is dangerous, which is why the government took the job on first.",
+      "avoided": "No claim that lighthouses are obsolete; no chart details."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 14,
+      "difficulty_basis": "How far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "Lighthouses and beacons are towers. They have bright lights and fog horns. They stand at important or dangerous places. Some stand on rocky cliffs. Some stand on sandy shoals on land. Others stand on wave-swept reefs in the sea. They can also be found at entrances to harbors and bays. These places are on land, in the sea, and at harbor entrances. These long-trusted navigation aids warn sailors of dangerous shallows. They warn them of dangerous rocky coasts. They also help guide boats safely into and out of harbors. Their messages are simple. They say either stay away, danger, beware, or come this way.",
+    "part_2": "On August 7, 1789, Congress approved the Lighthouse Act. It was the first public works program undertaken by the new federal government. The act established and supported lighthouses, beacons, buoys, and public piers. August 7 is recognized as National Lighthouse Day. The Lighthouse Act was approved on August 7, 1789. Congress approved this first public works program. The new federal government undertook the program. The act established and supported lighthouses. It also established and supported beacons, buoys, and public piers. August 7 is National Lighthouse Day. The act was approved by Congress. This program was undertaken by the new federal government.",
+    "part_3": "Even with the arrival of advanced navigation technology, many lighthouses still sparkle for seafarers. Many lighthouses still shine. Cartographers in NOAA's Office of Coast Survey practice the art and science of designing, compiling, updating, and distributing electronic navigational charts. These charts are specifically tailored to the needs of marine navigation. The charts are made for marine navigation. Cartographers are mapmakers. They practice this art and science. Mapmakers design them. They compile them. They update them. They distribute them. These electronic charts are made for the needs of marine navigation. Many lighthouses still shine for seafarers. Advanced navigation technology exists, but many lighthouses still sparkle."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "According to part 1, what do lighthouses and beacons tell sailors?",
+      "tutor_only": {
+        "confirm": "The passage lists those messages.",
+        "correct_reason": "Their messages say stay away, danger, beware, or come this way.",
+        "tell": "Their messages say stay away, danger, beware, or come this way.",
+        "help": [
+          "Look again at part 1.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "They tell sailors either away, danger, beware, or come this way.",
+        "accept_ideas": [
+          "Stay away, danger, beware, or come this way",
+          "Stay away or come this way",
+          "Danger, beware, or come this way",
+          "Stay away, danger, beware, or come in"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "e",
+          "x",
+          "t",
+          "r",
+          "a",
+          "d",
+          "e",
+          "t",
+          "a",
+          "i",
+          "l",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "They tell sailors either away, danger, beware, or come this way."
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "What did the first public works program do?",
+      "tutor_only": {
+        "confirm": "The passage says the act did that.",
+        "correct_reason": "It established and supported lighthouses, beacons, buoys, and public piers.",
+        "tell": "It established and supported lighthouses, beacons, buoys, and public piers.",
+        "help": [
+          "Look again at part 2.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "It established and supported lighthouses, beacons, buoys, and public piers.",
+        "accept_ideas": [
+          "It set up and supported lighthouses, beacons, buoys, and piers",
+          "It helped and supported lighthouses and other navigation aids",
+          "It established and supported lighthouses, beacons, buoys, and public piers",
+          "It set up and supported navigation aids"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "l",
+          "i",
+          "s",
+          "t",
+          "t",
+          "h",
+          "e",
+          "d",
+          "a",
+          "t",
+          "e",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "It established and supported lighthouses, beacons, buoys, and public piers."
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the writer mean by \"long-trusted navigation aids\"?",
+      "tutor_only": {
+        "confirm": "The passage calls them long-trusted navigation aids.",
+        "correct_reason": "The phrase means lighthouses and beacons have been trusted for a long time to help sailors navigate.",
+        "tell": "The phrase means lighthouses and beacons have been trusted for a long time to help sailors navigate.",
+        "help": [
+          "Look again at part 1.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Lighthouses and beacons have been trusted for a long time to help sailors navigate.",
+        "accept_ideas": [
+          "They have been trusted for a long time to help sailors",
+          "They are old navigation tools that sailors trust",
+          "They are trusted navigation aids used for a long time",
+          "People have relied on them for help with navigation for a long time"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "l",
+          "i",
+          "s",
+          "t",
+          "t",
+          "h",
+          "e",
+          "e",
+          "x",
+          "a",
+          "c",
+          "t",
+          "p",
+          "l",
+          "a",
+          "c",
+          "e",
+          "s",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "Lighthouses and beacons have been trusted for a long time to help sailors navigate."
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "Why does part 3 mention advanced navigation technology before saying many lighthouses still shine?",
+      "tutor_only": {
+        "confirm": "The passage says many lighthouses still sparkle for seafarers.",
+        "correct_reason": "It emphasizes that lighthouses still shine even though advanced navigation technology exists.",
+        "tell": "It emphasizes that lighthouses still shine even though advanced navigation technology exists.",
+        "help": [
+          "Look again at part 3.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The mention of advanced technology sets up the point that lighthouses still shine despite it.",
+        "accept_ideas": [
+          "To show lighthouses still matter even with new technology",
+          "To show why lighthouses are still useful",
+          "To contrast modern technology with lighthouses that still shine",
+          "To make it clear old lighthouses still shine"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "l",
+          "i",
+          "s",
+          "t",
+          "c",
+          "h",
+          "a",
+          "r",
+          "t",
+          "s",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "The mention of advanced technology sets up the point that lighthouses still shine despite it."
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "Write the central idea of the passage.",
+      "tutor_only": {
+        "confirm": "The passage covers their use, the Lighthouse Act, and their continued presence.",
+        "correct_reason": "Lighthouses and beacons are long-trusted navigation aids that warn and guide sailors; the government supported them in 1789, and many still shine.",
+        "tell": "Lighthouses are long-trusted aids that warn and guide sailors. The government backed them in 1789, and many still shine.",
+        "help": [
+          "Look again at all three parts.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Lighthouses and beacons are warning and guiding aids for sailors; the government supported them in 1789, and many still shine despite modern technology.",
+        "accept_ideas": [
+          "Lighthouses and beacons are important navigation aids that warn and guide sailors, and they still matter today",
+          "Lighthouses have long helped sailors, and the government supported them and they still shine",
+          "Lighthouses and beacons are long-trusted navigation aids that help sailors and still shine today",
+          "Lighthouses help sailors avoid danger and guide them into harbors, and they still shine even with technology"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "l",
+          "i",
+          "s",
+          "t",
+          "e",
+          "v",
+          "e",
+          "r",
+          "y",
+          "l",
+          "o",
+          "c",
+          "a",
+          "t",
+          "i",
+          "o",
+          "n",
+          "o",
+          "r",
+          "d",
+          "a",
+          "t",
+          "e",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "Lighthouses are long-trusted aids that warn and guide sailors. The government backed them in 1789, and many still shine."
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_7_1_0001",
+    "next_irl": 7,
+    "next_means": "The first main idea lesson in Band 7.1.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_5_1_0006",
+    "next_irl": 5,
+    "next_means": "This same lesson, so it can be read again.",
+    "student_line": "You have most of the move. The next reading is another main-idea lesson."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_5_1_0006",
+    "next_irl": 5,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

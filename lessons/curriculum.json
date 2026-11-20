@@ -59,6 +59,57 @@
       "status": "complete"
     },
     {
+      "skill": "authors_craft",
+      "grade": 4,
+      "stage": 1,
+      "expected_sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "complete"
+    },
+    {
+      "skill": "authors_craft",
+      "grade": 4,
+      "stage": 2,
+      "expected_sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "complete"
+    },
+    {
+      "skill": "authors_craft",
+      "grade": 4,
+      "stage": 3,
+      "expected_sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "complete"
+    },
+    {
+      "skill": "authors_craft",
+      "grade": 12,
+      "stage": 1,
+      "expected_sequences": [
+        1
+      ],
+      "status": "complete"
+    },
+    {
       "skill": "inference",
       "grade": 3,
       "stage": 1,
@@ -187,6 +238,20 @@
       "status": "complete"
     },
     {
+      "skill": "literary_text",
+      "grade": 4,
+      "stage": 3,
+      "expected_sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "complete"
+    },
+    {
       "skill": "main_idea",
       "grade": 3,
       "stage": 1,
@@ -232,6 +297,20 @@
       "skill": "main_idea",
       "grade": 4,
       "stage": 3,
+      "expected_sequences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "complete"
+    },
+    {
+      "skill": "main_idea",
+      "grade": 5,
+      "stage": 1,
       "expected_sequences": [
         1,
         2,
@@ -440,71 +519,6 @@
     },
     {
       "skill": "vocab",
-      "grade": 4,
-      "stage": 3,
-      "expected_sequences": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "status": "complete"
-    },
-    {
-      "skill": "authors_craft",
-      "grade": 12,
-      "stage": 1,
-      "expected_sequences": [
-        1
-      ],
-      "status": "complete"
-    },
-    {
-      "skill": "authors_craft",
-      "grade": 4,
-      "stage": 2,
-      "expected_sequences": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "status": "complete"
-    },
-    {
-      "skill": "authors_craft",
-      "grade": 4,
-      "stage": 1,
-      "expected_sequences": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "status": "complete"
-    },
-    {
-      "skill": "authors_craft",
-      "grade": 4,
-      "stage": 3,
-      "expected_sequences": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "status": "complete"
-    },
-    {
-      "skill": "literary_text",
       "grade": 4,
       "stage": 3,
       "expected_sequences": [

@@ -1,0 +1,506 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_5_1_0004",
+  "meta": {
+    "status": "published",
+    "title": "Free Land, Five Years",
+    "skill": "main_idea",
+    "irl_grade": 5,
+    "stage": 1,
+    "sequence": 4,
+    "genre": "nonfiction",
+    "topic_domain": "history and people",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fifth-grade level.",
+      "reading_level": 5,
+      "why_this_level": "Measured FK 7.0 on the three parts together, inside the grade 4-5 band. The load is a rule stated as conditions, then the cost those conditions carried.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from the National Park Service, 'The Homestead Act', Homestead National Historical Park.",
+      "attribution": "U.S. National Park Service, 'The Homestead Act', Homestead National Historical Park, https://www.nps.gov/articles/the-homestead-act.htm, accessed 2026-11-15. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced by splitting long sentences.",
+      "drafted_by": "TC",
+      "survey": "Land was free only after five years of work on it, so the price of the act was time rather than money.",
+      "avoided": "No claims about who succeeded; no acreage figures beyond the page's own."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 14,
+      "difficulty_basis": "How far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "The Homestead Act of 1862 was one of the most important laws in United States history. Abraham Lincoln signed it during the Civil War. The law eventually handed over 270 million acres of public land to private people. That was 10 percent of the area of the United States. To homestead, a person had to be the head of a household. The person had to be at least 21 years old. The person also had to state officially that he or she had never fought against the United States with weapons. With these rules met, a homesteader could claim a 160-acre piece of land.",
+    "part_2": "Settlers came from many walks of life. They included newly arrived immigrants. They included farmers from the East who did not own land. They included single women and former slaves. They came to meet the challenge of proving up and keeping this free land. Each homesteader had to live on the land. Each had to build a home, make improvements, and farm for five years. After five years, the homesteader was able to prove up. A total filing fee of 18 dollars was the only money required. But sacrifice and hard work demanded a different price from the hopeful settlers.",
+    "part_3": "People who were interested in homesteading first had to file their intentions at the nearest Land Office. A brief check was made for any previous ownership claims on the plot of land in question. The person who hoped to homestead paid a filing fee of 10 dollars in order to claim the land temporarily. The homesteader also paid a 2 dollar commission to the land agent. After the homesteader completed the final form successfully, he or she paid a 6 dollar fee. The homesteader then received the patent for the land. The patent was signed with the name of the current President of the United States."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "According to part 1, how large a piece of land could a homesteader claim?",
+      "tutor_only": {
+        "confirm": "Yes, 160 acres is the claim size.",
+        "correct_reason": "Part 1 says a homesteader could claim a 160-acre piece of land.",
+        "tell": "Part 1 says a homesteader could claim a 160-acre piece of land.",
+        "help": [
+          "Look again at part 1.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A homesteader could claim 160 acres.",
+        "accept_ideas": [
+          "160 acres",
+          "a 160-acre plot",
+          "one hundred sixty acres",
+          "160 acres of public land"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "m",
+          "e",
+          "n",
+          "t",
+          "i",
+          "o",
+          "n",
+          "t",
+          "h",
+          "e",
+          "2",
+          "7",
+          "0",
+          "m",
+          "i",
+          "l",
+          "l",
+          "i",
+          "o",
+          "n",
+          "a",
+          "c",
+          "r",
+          "e",
+          "s",
+          "o",
+          "r",
+          "t",
+          "h",
+          "e",
+          "1",
+          "0",
+          "p",
+          "e",
+          "r",
+          "c",
+          "e",
+          "n",
+          "t",
+          "f",
+          "i",
+          "g",
+          "u",
+          "r",
+          "e",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "A homesteader could claim 160 acres."
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "How do the payments described in part 3 make up the $18 total stated in part 2?",
+      "tutor_only": {
+        "confirm": "Correct, those three payments total $18.",
+        "correct_reason": "Part 3 lists a $10 filing fee, a $2 commission, and a $6 fee, which total $18.",
+        "tell": "Part 3 lists a $10 filing fee, a $2 commission, and a $6 fee, which total $18.",
+        "help": [
+          "Look again at part 2 and part 3.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The $10 filing fee, $2 commission, and $6 final fee add up to $18.",
+        "accept_ideas": [
+          "$10 plus $2 plus $6 equals $18",
+          "the fees are 10, 2, and 6 dollars",
+          "you pay $10, then $2, then $6",
+          "10 + 2 + 6 = 18"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "e",
+          "x",
+          "p",
+          "l",
+          "a",
+          "i",
+          "n",
+          "t",
+          "h",
+          "e",
+          "f",
+          "i",
+          "v",
+          "e",
+          "-",
+          "y",
+          "e",
+          "a",
+          "r",
+          "r",
+          "e",
+          "s",
+          "i",
+          "d",
+          "e",
+          "n",
+          "c",
+          "y",
+          "r",
+          "e",
+          "q",
+          "u",
+          "i",
+          "r",
+          "e",
+          "m",
+          "e",
+          "n",
+          "t",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "The $10 filing fee, $2 commission, and $6 final fee add up to $18."
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "In part 2, what does the writer mean by 'sacrifice and hard work demanded a different price'?",
+      "tutor_only": {
+        "confirm": "Yes, the 'different price' is effort and hardship.",
+        "correct_reason": "The writer means settlers paid through hard work and sacrifice, not only through fees.",
+        "tell": "The writer means settlers paid through hard work and sacrifice, not only through fees.",
+        "help": [
+          "Look again at part 2.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Homesteading cost settlers labor and hardship, not just money.",
+        "accept_ideas": [
+          "it took labor and suffering, not just cash",
+          "the real cost was hard work and sacrifice",
+          "they paid with their effort and hardship",
+          "money was small but the work was hard"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "l",
+          "i",
+          "s",
+          "t",
+          "a",
+          "l",
+          "l",
+          "t",
+          "h",
+          "e",
+          "r",
+          "e",
+          "q",
+          "u",
+          "i",
+          "r",
+          "e",
+          "m",
+          "e",
+          "n",
+          "t",
+          "s",
+          "l",
+          "i",
+          "k",
+          "e",
+          "b",
+          "u",
+          "i",
+          "l",
+          "d",
+          "i",
+          "n",
+          "g",
+          "a",
+          "h",
+          "o",
+          "m",
+          "e",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "Homesteading cost settlers labor and hardship, not just money."
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "Why does part 3 list the three fees one by one instead of stating the $18 total?",
+      "tutor_only": {
+        "confirm": "Yes, the list breaks the process into steps.",
+        "correct_reason": "The separate fees show the different steps and payments in the filing process.",
+        "tell": "The separate fees show the different steps and payments in the filing process.",
+        "help": [
+          "Look again at part 3.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Listing each payment shows the step-by-step filing process.",
+        "accept_ideas": [
+          "to show the steps in filing",
+          "to make the process clear",
+          "because they were paid at different points",
+          "to show it was not one payment",
+          "the payments add up to $18 total."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "d",
+          "i",
+          "s",
+          "c",
+          "u",
+          "s",
+          "s",
+          "t",
+          "h",
+          "e",
+          "P",
+          "r",
+          "e",
+          "s",
+          "i",
+          "d",
+          "e",
+          "n",
+          "t",
+          "'",
+          "s",
+          "s",
+          "i",
+          "g",
+          "n",
+          "a",
+          "t",
+          "u",
+          "r",
+          "e",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "Listing each payment shows the step-by-step filing process."
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is the central idea of the passage as a whole?",
+      "tutor_only": {
+        "confirm": "Yes, the central idea includes eligibility, five years of work, and filing steps.",
+        "correct_reason": "The passage explains that the Homestead Act gave land, but settlers had to qualify, farm and improve it for five years, and follow a fee-based filing process.",
+        "tell": "The Homestead Act gave land, but settlers had to qualify, farm it for five years and pay filing fees.",
+        "help": [
+          "Look again at part 1, part 2, and part 3.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The Homestead Act offered land to settlers who met eligibility rules, improved and farmed the land for five years, and completed a filing process with fees.",
+        "accept_ideas": [
+          "The Homestead Act gave land but required rules, work, and paperwork",
+          "people could get free land by meeting rules, farming five years, and paying filing fees",
+          "homesteading was a chance for free land that came with hard requirements and a process",
+          "the law offered 160 acres to people who proved up through work and filing"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "m",
+          "e",
+          "n",
+          "t",
+          "i",
+          "o",
+          "n",
+          "e",
+          "v",
+          "e",
+          "r",
+          "y",
+          "f",
+          "e",
+          "e",
+          "a",
+          "m",
+          "o",
+          "u",
+          "n",
+          "t",
+          "o",
+          "r",
+          "e",
+          "v",
+          "e",
+          "r",
+          "y",
+          "g",
+          "r",
+          "o",
+          "u",
+          "p",
+          "o",
+          "f",
+          "s",
+          "e",
+          "t",
+          "t",
+          "l",
+          "e",
+          "r",
+          "s",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "The Homestead Act gave land, but settlers had to qualify, farm it for five years and pay filing fees."
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_7_1_0001",
+    "next_irl": 7,
+    "next_means": "The first main idea lesson in Band 7.1.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_5_1_0005",
+    "next_irl": 5,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "You have most of the move. The next reading is another main-idea lesson."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_5_1_0004",
+    "next_irl": 5,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

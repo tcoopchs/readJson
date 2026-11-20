@@ -1,0 +1,460 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_5_1_0005",
+  "meta": {
+    "status": "published",
+    "title": "Why the Ground Shakes",
+    "skill": "main_idea",
+    "irl_grade": 5,
+    "stage": 1,
+    "sequence": 5,
+    "genre": "nonfiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fifth-grade level.",
+      "reading_level": 5,
+      "why_this_level": "Measured FK 6.6 on the three parts together, inside the grade 4-5 band. The load is a cause that is stored before it is released.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from the U.S. Geological Survey, 'The Science of Earthquakes', Earthquake Hazards Program.",
+      "attribution": "U.S. Geological Survey, 'The Science of Earthquakes', Earthquake Hazards Program, https://www.usgs.gov/programs/earthquake-hazards/science-earthquakes, accessed 2026-11-15. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced by splitting long sentences.",
+      "drafted_by": "TC",
+      "survey": "Plates stick, pressure builds, and the ground shakes when the stuck edges let go.",
+      "avoided": "No magnitude scale and no prediction claims."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 14,
+      "difficulty_basis": "How far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "An earthquake happens when two blocks of the earth suddenly slip past one another. The surface where they slip is called the fault or fault plane. The location below the earth's surface where the earthquake starts is called the hypocenter. The location directly above it on the surface of the earth is called the epicenter. The hypocenter and the epicenter are two different locations that describe the same earthquake. The fault is the place where the two blocks move, and the fault plane is the surface of that movement. These terms help describe where an earthquake starts and where that starting point sits below the surface.",
+    "part_2": "Sometimes an earthquake has foreshocks. These are smaller earthquakes that happen in the same place as the larger earthquake that follows. Scientists cannot tell that an earthquake is a foreshock until the larger earthquake happens. A foreshock is known only after the larger earthquake happens. The largest, main earthquake is called the mainshock. Mainshocks always have aftershocks that follow. These are smaller earthquakes that occur afterwards in the same place as the mainshock. Depending on the size of the mainshock, aftershocks can continue for weeks, months, and even years after the mainshock. Foreshocks come before the mainshock, and aftershocks come after it in the same place.",
+    "part_3": "The earth has four major layers: the inner core, outer core, mantle and crust. The crust and the top of the mantle make up a thin skin on the surface. This skin is not all in one piece. It is made up of many pieces like a puzzle covering the earth. We call these puzzle pieces tectonic plates, and the edges of the plates are called plate boundaries. The plate boundaries are made up of many faults, and most earthquakes occur on these faults. Since the edges of the plates are rough, they get stuck while the rest of the plate keeps moving. Finally, when the plate has moved far enough, the edges unstick on one of the faults and there is an earthquake."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What is the location directly above the hypocenter on Earth's surface called?",
+      "tutor_only": {
+        "confirm": "That is the location named in the passage.",
+        "correct_reason": "It is called the epicenter. It sits on the surface directly above the hypocenter.",
+        "tell": "It is called the epicenter. It sits on the surface directly above the hypocenter.",
+        "help": [
+          "Look again at part 1.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The epicenter is the surface location directly above the hypocenter.",
+        "accept_ideas": [
+          "the epicenter",
+          "it is the epicenter",
+          "the point on the surface above the hypocenter",
+          "the surface spot directly over the start"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "e",
+          "x",
+          "p",
+          "l",
+          "a",
+          "n",
+          "a",
+          "t",
+          "i",
+          "o",
+          "n",
+          "o",
+          "f",
+          "h",
+          "o",
+          "w",
+          "e",
+          "a",
+          "r",
+          "t",
+          "h",
+          "q",
+          "u",
+          "a",
+          "k",
+          "e",
+          "s",
+          "h",
+          "a",
+          "p",
+          "p",
+          "e",
+          "n",
+          "i",
+          "s",
+          "n",
+          "e",
+          "e",
+          "d",
+          "e",
+          "d",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "The epicenter is the surface location directly above the hypocenter."
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why can scientists know an earthquake was a foreshock only after the larger earthquake happens?",
+      "tutor_only": {
+        "confirm": "That matches the passage's point about timing.",
+        "correct_reason": "A foreshock is known only after the larger earthquake follows it. Until then, scientists cannot tell it was a foreshock.",
+        "tell": "A foreshock is known only after the larger earthquake follows it. Until then, scientists cannot tell it was a foreshock.",
+        "help": [
+          "Look again at part 2.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "A foreshock is identified only after the larger earthquake it precedes occurs.",
+        "accept_ideas": [
+          "because the bigger quake has to happen first",
+          "the later mainshock is what shows it was a foreshock",
+          "scientists can't know until the larger earthquake follows",
+          "it only counts as a foreshock after a bigger quake happens"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "n",
+          "a",
+          "m",
+          "e",
+          "a",
+          "f",
+          "t",
+          "e",
+          "r",
+          "s",
+          "h",
+          "o",
+          "c",
+          "k",
+          "s",
+          "o",
+          "r",
+          "e",
+          "x",
+          "p",
+          "l",
+          "a",
+          "i",
+          "n",
+          "m",
+          "a",
+          "i",
+          "n",
+          "s",
+          "h",
+          "o",
+          "c",
+          "k",
+          "s",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "A foreshock is identified only after the larger earthquake it precedes occurs."
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What does the writer mean by saying the hypocenter and epicenter \"describe the same earthquake\"?",
+      "tutor_only": {
+        "confirm": "That is what the sentence means.",
+        "correct_reason": "They are two different locations for one earthquake: the start below ground and the point above it on the surface.",
+        "tell": "They are two different locations for one earthquake: the start below ground and the point above it on the surface.",
+        "help": [
+          "Look again at part 1.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The hypocenter and epicenter are different locations tied to the same earthquake.",
+        "accept_ideas": [
+          "they are two different points for one earthquake",
+          "one is underground and one is on the surface, but they go together",
+          "they name the start below and the spot above the same quake",
+          "same earthquake, different locations"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "e",
+          "x",
+          "p",
+          "l",
+          "a",
+          "i",
+          "n",
+          "f",
+          "a",
+          "u",
+          "l",
+          "t",
+          "s",
+          "o",
+          "r",
+          "f",
+          "a",
+          "u",
+          "l",
+          "t",
+          "p",
+          "l",
+          "a",
+          "n",
+          "e",
+          "s",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "The hypocenter and epicenter are different locations tied to the same earthquake."
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "Why does part 3 compare tectonic plates to puzzle pieces?",
+      "tutor_only": {
+        "confirm": "That explains the wording choice.",
+        "correct_reason": "The comparison helps readers picture the earth's surface as many separate pieces that fit together.",
+        "tell": "The comparison helps readers picture the earth's surface as many separate pieces that fit together.",
+        "help": [
+          "Look again at part 3.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The puzzle comparison helps readers picture the earth's surface as many separate pieces.",
+        "accept_ideas": [
+          "to show the plates are separate pieces that fit together",
+          "to help you picture many pieces covering the earth",
+          "because the crust and top mantle are broken into pieces",
+          "to make the idea of tectonic plates easier to imagine"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "l",
+          "i",
+          "s",
+          "t",
+          "a",
+          "l",
+          "l",
+          "f",
+          "o",
+          "u",
+          "r",
+          "l",
+          "a",
+          "y",
+          "e",
+          "r",
+          "s",
+          "o",
+          "f",
+          "t",
+          "h",
+          "e",
+          "e",
+          "a",
+          "r",
+          "t",
+          "h",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "The puzzle comparison helps readers picture the earth's surface as many separate pieces."
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What is the passage mainly about?",
+      "tutor_only": {
+        "confirm": "That covers all three parts.",
+        "correct_reason": "The passage explains earthquake terms, the sequence of foreshocks and aftershocks around a mainshock, and how slipping tectonic plates cause earthquakes.",
+        "tell": "The passage explains how slipping plates cause earthquakes. It also names the smaller quakes before and after a mainshock.",
+        "help": [
+          "Look again at all three parts.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The passage explains earthquake terms, the shocks before and after a mainshock, and how moving tectonic plates cause earthquakes.",
+        "accept_ideas": [
+          "how earthquakes happen and the words used for them",
+          "earthquakes start at faults and come with shocks before and after",
+          "the passage explains earthquake locations, shock sequences, and moving plates",
+          "earthquakes are caused by plates sticking and slipping and have foreshocks and aftershocks",
+          "it is about where earthquakes start, their main shocks, and why they happen"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "l",
+          "i",
+          "s",
+          "t",
+          "e",
+          "v",
+          "e",
+          "r",
+          "y",
+          "t",
+          "e",
+          "r",
+          "m",
+          "o",
+          "r",
+          "a",
+          "l",
+          "l",
+          "f",
+          "o",
+          "u",
+          "r",
+          "l",
+          "a",
+          "y",
+          "e",
+          "r",
+          "s",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "The passage explains how slipping plates cause earthquakes. It also names the smaller quakes before and after a mainshock."
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_7_1_0001",
+    "next_irl": 7,
+    "next_means": "The first main idea lesson in Band 7.1.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_5_1_0006",
+    "next_irl": 5,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "You have most of the move. The next reading is another main-idea lesson."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_5_1_0005",
+    "next_irl": 5,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

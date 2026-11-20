@@ -1,0 +1,500 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_5_1_0001",
+  "meta": {
+    "status": "published",
+    "title": "Water That Follows the Moon",
+    "skill": "main_idea",
+    "irl_grade": 5,
+    "stage": 1,
+    "sequence": 1,
+    "genre": "nonfiction",
+    "topic_domain": "science and nature",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fifth-grade level.",
+      "reading_level": 5,
+      "why_this_level": "Measured FK 5.8 on the three parts together, inside the grade 4-5 band. The load is one chain of cause: gravity makes a bulge, the planet turns, a coast passes through it.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from NOAA NESDIS, 'What Causes Tides?'",
+      "attribution": "U.S. National Oceanic and Atmospheric Administration, NESDIS, 'What Causes Tides?', https://www.nesdis.noaa.gov/about/k-12-education/oceans-coasts/what-causes-tides, accessed 2026-11-15. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced by splitting long sentences.",
+      "drafted_by": "TC",
+      "survey": "The moon's gravity moves ocean water into two bulges, and Earth's rotation carries coastlines through them twice a day.",
+      "avoided": "No explanation of the far-side bulge beyond what the page states; no tidal range figures."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 14,
+      "difficulty_basis": "How far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "High tides and low tides are caused by the moon. The moon’s gravitational pull generates something called the tidal force. This tidal force causes Earth, and its water, to bulge out on the side closest to the moon and on the side farthest from the moon. These bulges of water are high tides. As Earth rotates, your region of Earth passes through both of these bulges each day. When you are in one of the bulges, you experience a high tide. When you are not in one of the bulges, you experience a low tide. This cycle of two high tides and two low tides occurs most days on most of the coastlines of the world.",
+    "part_2": "Tides are really all about gravity. When we talk about the daily tides, it is the moon’s gravity that causes them. As Earth rotates, the moon’s gravity pulls on different parts of our planet. The moon only has about one hundredth the mass of Earth. Since it is so close to us, it has enough gravity to move things around. The moon’s gravity even pulls on the land, but not enough for anyone to tell. When the moon’s gravity pulls on the water in the oceans, someone is bound to notice. Water has a much easier time moving around, and it wants to bulge in the direction of the moon.",
+    "part_3": "Because of the tidal force, the water on the side of the moon always wants to bulge out toward the moon. The tidal force causes Earth and its water to bulge on the side closest to the moon and on the side farthest from the moon. These bulges of water are high tides. As Earth rotates, your region passes through both bulges each day. When you are in one of the bulges, you experience a high tide. When you are not in one of the bulges, you experience a low tide. This cycle of two high tides and two low tides occurs most days on most coastlines of the world."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "According to the passage, what causes high tides and low tides?",
+      "tutor_only": {
+        "confirm": "That is the stated cause.",
+        "correct_reason": "The passage says high and low tides are caused by the moon.",
+        "tell": "The passage says high and low tides are caused by the moon.",
+        "help": [
+          "Look again at part 1.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "High tides and low tides are caused by the moon.",
+        "accept_ideas": [
+          "The moon causes them",
+          "The moon's pull makes the tides",
+          "Tides come from the moon",
+          "The moon's gravity causes high and low tides"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Y",
+          "o",
+          "u",
+          "d",
+          "o",
+          "n",
+          "o",
+          "t",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "e",
+          "x",
+          "p",
+          "l",
+          "a",
+          "i",
+          "n",
+          "t",
+          "h",
+          "e",
+          "f",
+          "u",
+          "l",
+          "l",
+          "t",
+          "i",
+          "d",
+          "a",
+          "l",
+          "c",
+          "y",
+          "c",
+          "l",
+          "e",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "M",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "i",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "High tides and low tides are caused by the moon."
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why can the moon affect Earth's tides even though it has only about one hundredth of Earth's mass?",
+      "tutor_only": {
+        "confirm": "That joins the two facts.",
+        "correct_reason": "The passage says the moon is close enough to have enough gravity to move things, even though its mass is small.",
+        "tell": "The moon is close to Earth. That gives it enough pull to move things, even though it is small.",
+        "help": [
+          "Look again at part 2.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The moon is close enough that its gravity can move Earth's water despite its small mass.",
+        "accept_ideas": [
+          "It is close, so its gravity is strong enough",
+          "Being near Earth makes up for its small mass",
+          "The moon is close enough to pull on the oceans",
+          "Its gravity works because it is so close"
+        ],
+        "one_idea_is_enough": false,
+        "not_required": [
+          "Y",
+          "o",
+          "u",
+          "d",
+          "o",
+          "n",
+          "o",
+          "t",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "c",
+          "o",
+          "m",
+          "p",
+          "a",
+          "r",
+          "e",
+          "e",
+          "x",
+          "a",
+          "c",
+          "t",
+          "g",
+          "r",
+          "a",
+          "v",
+          "i",
+          "t",
+          "a",
+          "t",
+          "i",
+          "o",
+          "n",
+          "a",
+          "l",
+          "s",
+          "t",
+          "r",
+          "e",
+          "n",
+          "g",
+          "t",
+          "h",
+          "s",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "M",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "i",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "The moon is close to Earth. That gives it enough pull to move things, even though it is small."
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "The writer says the moon pulls on land, \"but not enough for anyone to tell.\" What does that mean?",
+      "tutor_only": {
+        "confirm": "That is what the sentence means.",
+        "correct_reason": "The writer means the moon does pull on land, but the effect is too small for anyone to notice.",
+        "tell": "The writer means the moon does pull on land, but the effect is too small for anyone to notice.",
+        "help": [
+          "Look again at part 2.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The moon's gravity affects land too, but the movement is too small for people to notice.",
+        "accept_ideas": [
+          "It pulls the land, but people can't feel it",
+          "The land moves too little to notice",
+          "The moon affects land as well as water, just unnoticeably",
+          "The pull on land is real but invisible to us"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Y",
+          "o",
+          "u",
+          "d",
+          "o",
+          "n",
+          "o",
+          "t",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "e",
+          "x",
+          "p",
+          "l",
+          "a",
+          "i",
+          "n",
+          "w",
+          "h",
+          "y",
+          "w",
+          "a",
+          "t",
+          "e",
+          "r",
+          "m",
+          "o",
+          "v",
+          "e",
+          "s",
+          "m",
+          "o",
+          "r",
+          "e",
+          "e",
+          "a",
+          "s",
+          "i",
+          "l",
+          "y",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "M",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "i",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "The moon's gravity affects land too, but the movement is too small for people to notice."
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_2",
+      "show_part_again": false,
+      "prompt": "Why does the writer say the water \"wants to bulge in the direction of the moon\"?",
+      "tutor_only": {
+        "confirm": "That is the purpose of the wording.",
+        "correct_reason": "The phrase describes water being easily pulled toward the moon, not water having feelings.",
+        "tell": "The phrase describes water being pulled toward the moon. It does not mean water has feelings.",
+        "help": [
+          "Look again at part 2.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The wording explains that water moves easily and is pulled toward the moon.",
+        "accept_ideas": [
+          "To show water is easily pulled toward the moon",
+          "To explain that water bulges toward the moon",
+          "To make clear water moves more easily than land",
+          "To describe the moon pulling water without saying water has feelings"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Y",
+          "o",
+          "u",
+          "d",
+          "o",
+          "n",
+          "o",
+          "t",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "d",
+          "i",
+          "s",
+          "c",
+          "u",
+          "s",
+          "s",
+          "p",
+          "e",
+          "r",
+          "s",
+          "o",
+          "n",
+          "i",
+          "f",
+          "i",
+          "c",
+          "a",
+          "t",
+          "i",
+          "o",
+          "n",
+          "a",
+          "s",
+          "a",
+          "l",
+          "i",
+          "t",
+          "e",
+          "r",
+          "a",
+          "r",
+          "y",
+          "t",
+          "e",
+          "r",
+          "m",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "M",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "i",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "The phrase describes water being pulled toward the moon. It does not mean water has feelings."
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What is the central idea of the passage?",
+      "tutor_only": {
+        "confirm": "That covers the whole passage.",
+        "correct_reason": "The passage explains that the moon's gravity makes tidal bulges, and Earth's rotation through them gives most coasts two high and two low tides most days.",
+        "tell": "Gravity makes two bulges. Earth turns through them, so most coasts get two high and two low tides a day.",
+        "help": [
+          "Look again at all three parts.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The moon's gravity creates bulges in Earth's water, and Earth's rotation through those bulges causes two high tides and two low tides most days.",
+        "accept_ideas": [
+          "The moon's gravity makes the tides rise and fall twice a day",
+          "Moon gravity bulges the oceans, and Earth's spin gives us two high and two low tides",
+          "Tides are caused by the moon pulling on water as Earth rotates",
+          "The moon's pull creates high and low tides in a daily cycle",
+          "The moon's gravity causes tides."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "Y",
+          "o",
+          "u",
+          "d",
+          "o",
+          "n",
+          "o",
+          "t",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "i",
+          "n",
+          "c",
+          "l",
+          "u",
+          "d",
+          "e",
+          "t",
+          "h",
+          "e",
+          "m",
+          "o",
+          "o",
+          "n",
+          "'",
+          "s",
+          "m",
+          "a",
+          "s",
+          "s",
+          "o",
+          "r",
+          "t",
+          "h",
+          "e",
+          "p",
+          "u",
+          "l",
+          "l",
+          "o",
+          "n",
+          "l",
+          "a",
+          "n",
+          "d",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "M",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "i",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "Gravity makes two bulges. Earth turns through them, so most coasts get two high and two low tides a day."
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_7_1_0001",
+    "next_irl": 7,
+    "next_means": "The first main idea lesson in Band 7.1.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_5_1_0002",
+    "next_irl": 5,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "You have most of the move. The next reading is another main-idea lesson."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_5_1_0001",
+    "next_irl": 5,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "schema_version": 3,
+  "document_type": "lesson_source",
+  "lesson_id": "main_idea_band_5_1_0003",
+  "meta": {
+    "status": "published",
+    "title": "The Keeper's House",
+    "skill": "main_idea",
+    "irl_grade": 5,
+    "stage": 1,
+    "sequence": 3,
+    "genre": "nonfiction",
+    "topic_domain": "work and trade",
+    "skill_frame": "Find the main idea: decide what a whole passage is mostly about, not one true detail.",
+    "reader": {
+      "who": "Older students who read at about a fifth-grade level.",
+      "reading_level": 5,
+      "why_this_level": "Measured FK 6.7 on the three parts together, inside the grade 4-5 band. The load is a job described by what it paid and what it demanded.",
+      "tone": "Adult subject. Plain sentences. The lesson must not make the reader feel small."
+    },
+    "source": {
+      "basis": "Adapted from the National Park Service, 'Lockkeepers - Caretakers of the Canal', Chesapeake & Ohio Canal National Historical Park.",
+      "attribution": "U.S. National Park Service, 'Lockkeepers - Caretakers of the Canal', Chesapeake & Ohio Canal National Historical Park, https://nps.gov/choh/learn/historyculture/lockkeeper.htm, accessed 2026-11-15. U.S. federal government work; public domain in the U.S.",
+      "text_status": "Adapted, reading load reduced by splitting long sentences and turning list items into sentences.",
+      "drafted_by": "TC",
+      "survey": "A keeper was paid in a house and land and owed the company constant presence, which is why the job held people in one place.",
+      "avoided": "No wage figures, since the page gives none."
+    },
+    "session": {
+      "scope": "build-band",
+      "item_target": 5,
+      "time_target_minutes": 14,
+      "difficulty_basis": "How far the stated idea sits from the words the passage uses."
+    },
+    "authoring_exceptions": []
+  },
+  "script_overrides": {
+    "near_copy_2": "Say it in your own words. One sentence is enough."
+  },
+  "passage": {
+    "part_1": "There are 74 Lift Locks along the Chesapeake and Ohio Canal. The C&O Canal Company required that each Lift Lock be operated and monitored by hired staff. People called these workers lock tenders or lockkeepers. The company gave each worker a Lockhouse near the lift lock the worker had to operate. Each worker also got one acre of land to farm. Each worker got a salary every year. The company hired these people for this work. The workers had to operate and monitor the lift locks. The company gave them a place to live near the lock. Their land and pay were part of the job.",
+    "part_2": "Lockkeepers had many duties besides operating a lift lock. They had to report any damage to the locks or embankments of the canal to their superintendent. They had to be present day or night when a lift lock was being operated. They were not allowed to leave the area near the lift lock without permission. They had to teach any canal boat captain how to move safely through a lock. They also wrote fines for any canal boat captain who broke the canal guidelines. These duties were part of the lockkeeper's job. The company expected the lockkeeper to do these duties.",
+    "part_3": "Many lock tenders were undisciplined and did not care about their duties. Some lockkeepers were devoted to their duties. Their work was recognized and rewarded. Some lockkeepers were promoted to division superintendents. This promotion recognized their responsible contribution to running the canal. In the summer of 1841, company finances were very low. The company had very little money. The keepers and other officers were not paid for months. Or they received less pay. Their pay could be as much as 50 percent lower. Even though they were not paid for months, there is no indication that many lockkeepers left the line during this period."
+  },
+  "items": [
+    {
+      "id": "1",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 1,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "According to part_1, what place did the company give each lockkeeper to live in?",
+      "tutor_only": {
+        "confirm": "That is the stated detail.",
+        "correct_reason": "The company gave each worker a Lockhouse near the lift lock the worker had to operate.",
+        "tell": "The company gave each worker a Lockhouse near the lift lock the worker had to operate.",
+        "help": [
+          "Look again at part 1.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Each lockkeeper got a Lockhouse near the lift lock.",
+        "accept_ideas": [
+          "a house by the lock",
+          "company housing next to the lift lock",
+          "a Lockhouse near the lock they ran",
+          "a place to live beside the lock"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "m",
+          "e",
+          "n",
+          "t",
+          "i",
+          "o",
+          "n",
+          "t",
+          "h",
+          "e",
+          "a",
+          "c",
+          "r",
+          "e",
+          "o",
+          "f",
+          "l",
+          "a",
+          "n",
+          "d",
+          "o",
+          "r",
+          "t",
+          "h",
+          "e",
+          "s",
+          "a",
+          "l",
+          "a",
+          "r",
+          "y",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "Each lockkeeper got a Lockhouse near the lift lock."
+      }
+    },
+    {
+      "id": "2",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_1",
+      "show_part_again": false,
+      "prompt": "What two forms of compensation did each lockkeeper receive besides a place to live?",
+      "tutor_only": {
+        "confirm": "That joins the two pay details.",
+        "correct_reason": "Each worker got one acre of land to farm and a salary every year.",
+        "tell": "Each worker got one acre of land to farm and a salary every year.",
+        "help": [
+          "Look again at part 1.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Each lockkeeper received both a yearly salary and one acre of land to farm.",
+        "accept_ideas": [
+          "land and a yearly paycheck",
+          "an acre to farm plus salary",
+          "a salary and farmland",
+          "pay and one acre of land"
+        ],
+        "one_idea_is_enough": false,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "m",
+          "e",
+          "n",
+          "t",
+          "i",
+          "o",
+          "n",
+          "t",
+          "h",
+          "e",
+          "L",
+          "o",
+          "c",
+          "k",
+          "h",
+          "o",
+          "u",
+          "s",
+          "e",
+          "o",
+          "r",
+          "t",
+          "h",
+          "e",
+          "l",
+          "o",
+          "c",
+          "k",
+          "d",
+          "u",
+          "t",
+          "i",
+          "e",
+          "s",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "Each lockkeeper received both a yearly salary and one acre of land to farm."
+      }
+    },
+    {
+      "id": "3",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 2,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "In part_3, what does the writer mean by saying there is no indication that many lockkeepers \"left the line\"?",
+      "tutor_only": {
+        "confirm": "That is what the phrase means.",
+        "correct_reason": "It means there is no sign that many lockkeepers quit their jobs during that period.",
+        "tell": "It means there is no sign that many lockkeepers quit their jobs during that period.",
+        "help": [
+          "Look again at part 3.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "\"Left the line\" means stopped working as lockkeepers.",
+        "accept_ideas": [
+          "quit the job",
+          "stopped working as lockkeepers",
+          "left their posts",
+          "gave up being lock tenders"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "e",
+          "x",
+          "p",
+          "l",
+          "a",
+          "i",
+          "n",
+          "w",
+          "h",
+          "y",
+          "t",
+          "h",
+          "e",
+          "c",
+          "o",
+          "m",
+          "p",
+          "a",
+          "n",
+          "y",
+          "h",
+          "a",
+          "d",
+          "l",
+          "i",
+          "t",
+          "t",
+          "l",
+          "e",
+          "m",
+          "o",
+          "n",
+          "e",
+          "y",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "\"Left the line\" means stopped working as lockkeepers."
+      }
+    },
+    {
+      "id": "4",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 3,
+      "show_part": "part_3",
+      "show_part_again": false,
+      "prompt": "Why does the writer say both that many keepers were undisciplined and that some were devoted?",
+      "tutor_only": {
+        "confirm": "That is why the contrast is there.",
+        "correct_reason": "The writer contrasts careless and devoted lockkeepers to show that their conduct was not all one way.",
+        "tell": "The writer contrasts careless and devoted lockkeepers to show that their conduct was not all one way.",
+        "help": [
+          "Look again at part 3.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "The contrast shows that lockkeepers' performance varied.",
+        "accept_ideas": [
+          "to show lockkeepers were not all the same",
+          "to give both bad and good examples",
+          "to show some were careless and some dedicated",
+          "to show a range of behavior"
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "d",
+          "e",
+          "c",
+          "i",
+          "d",
+          "e",
+          "w",
+          "h",
+          "i",
+          "c",
+          "h",
+          "k",
+          "i",
+          "n",
+          "d",
+          "o",
+          "f",
+          "l",
+          "o",
+          "c",
+          "k",
+          "k",
+          "e",
+          "e",
+          "p",
+          "e",
+          "r",
+          "w",
+          "a",
+          "s",
+          "m",
+          "o",
+          "r",
+          "e",
+          "c",
+          "o",
+          "m",
+          "m",
+          "o",
+          "n",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "The contrast shows that lockkeepers' performance varied."
+      }
+    },
+    {
+      "id": "5",
+      "type": "short_answer",
+      "skill": "main_idea",
+      "difficulty": 4,
+      "show_part": "all",
+      "show_part_again": false,
+      "prompt": "What is the passage mostly saying about lockkeepers on the C&O Canal?",
+      "tutor_only": {
+        "confirm": "That is the passage's main point.",
+        "correct_reason": "Lockkeepers had a company job with housing, land, pay, and many duties, and the passage gives no indication that many left when pay was delayed or reduced in 1841.",
+        "tell": "A keeper got a house, land and pay, and had many duties. The passage says few left when pay was delayed.",
+        "help": [
+          "Look again at all three parts.",
+          "Say what the passage states in your own words."
+        ],
+        "say_back": "own_words",
+        "core_idea": "Lockkeepers had a company job with housing, land, pay, and many duties, and the passage gives no indication that many left when pay was delayed or reduced in 1841.",
+        "accept_ideas": [
+          "Lockkeepers had a company job with housing, land, pay, and many duties, and the passage does not show many quitting when pay got bad.",
+          "The passage explains what lockkeepers did and that they kept working even when pay was late or cut.",
+          "It is about the lockkeepers' job and how they handled low pay in 1841.",
+          "Lockkeeping came with housing and pay but also strict duties, and there is no sign many left during the money trouble."
+        ],
+        "one_idea_is_enough": true,
+        "not_required": [
+          "N",
+          "o",
+          "n",
+          "e",
+          "e",
+          "d",
+          "t",
+          "o",
+          "l",
+          "i",
+          "s",
+          "t",
+          "e",
+          "v",
+          "e",
+          "r",
+          "y",
+          "d",
+          "u",
+          "t",
+          "y",
+          "o",
+          "r",
+          "t",
+          "h",
+          "e",
+          "e",
+          "x",
+          "a",
+          "c",
+          "t",
+          "p",
+          "a",
+          "y",
+          "c",
+          "u",
+          "t",
+          "."
+        ],
+        "if_they_say": [
+          {
+            "when": "I",
+            "ask": "Say what the passage states, in your own words."
+          },
+          {
+            "when": "f",
+            "ask": "Say what the passage states, in your own words."
+          }
+        ],
+        "full_idea": "A keeper got a house, land and pay, and had many duties. The passage says few left when pay was delayed."
+      }
+    }
+  ],
+  "advance": {
+    "next_file": "main_idea_band_7_1_0001",
+    "next_irl": 7,
+    "next_means": "The first main idea lesson in Band 7.1.",
+    "student_line": "You found the idea across the whole passage. The next reading is another main idea lesson."
+  },
+  "retry": {
+    "next_file": "main_idea_band_5_1_0004",
+    "next_irl": 5,
+    "next_means": "Another lesson in this stage.",
+    "student_line": "You have most of the move. The next reading is another main-idea lesson."
+  },
+  "stopped": {
+    "next_file": "main_idea_band_5_1_0003",
+    "next_irl": 5,
+    "next_means": "This same lesson, so it can be finished."
+  }
+}
