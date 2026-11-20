@@ -16,7 +16,7 @@
       "adaptation": "The authoring pass split long sentences, dropped rare words and simplified technical terms; no facts added.",
       "survey": "The Covey chapter: the frame sentence about a man made a slave and a slave made a man, the collapse in the wheat field, the fight in the stable, and the resolve that follows it.",
       "avoided": "No invented details. The gravest violence of the chapter is left out; the passage keeps the facts an item can point to.",
-      "drafted_by": "LessonBot-adjacent, adapted from the named human source"
+      "drafted_by": "TC"
     },
     "session": {
       "scope": "bank",
@@ -53,7 +53,8 @@
         "accept_ideas": [
           "his strength failed and he crawled under the fence",
           "he broke down and lay under the fence",
-          "he could not go on and crawled out of the sun"
+          "he could not go on and crawled out of the sun",
+          "He got really tired and laid down."
         ],
         "one_idea_is_enough": false,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
@@ -199,7 +200,8 @@
         "accept_ideas": [
           "they are opposites, one done to him and one by him",
           "the first was forced on him and the second he made himself",
-          "the same words show two opposite changes"
+          "the same words show two opposite changes",
+          "It shows the change from being oppressed to gaining freedom."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",

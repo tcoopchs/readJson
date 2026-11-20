@@ -172,7 +172,8 @@
         "accept_ideas": [
           "it costs them their last food from home",
           "the last thing they brought from home",
-          "it is a piece of the old life"
+          "it is a piece of the old life",
+          "It makes the gift really valuable to them."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",

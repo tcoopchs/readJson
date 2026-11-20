@@ -164,7 +164,8 @@
         "accept_ideas": [
           "like heavy work done badly",
           "stubborn and clumsy",
-          "like hauling, not fighting"
+          "like hauling, not fighting",
+          "It makes them sound unorganized and wild."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",

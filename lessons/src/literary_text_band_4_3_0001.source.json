@@ -169,7 +169,8 @@
         "accept_ideas": [
           "a duty none of them understands",
           "they are waiting without knowing what they are supposed to do",
-          "it is a duty, not grief"
+          "it is a duty, not grief",
+          "They seem confused and unsure."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",

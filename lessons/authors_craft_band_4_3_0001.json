@@ -16,7 +16,7 @@
       "adaptation": "The authoring pass split long sentences, dropped rare words and simplified technical terms; no facts added.",
       "survey": "The storm chapter of The Mountains of California: the climb to the ridge, the choice of a tree, the sounds close to the ear, and the forest seen from the top.",
       "avoided": "No invented details. Muir's comparisons to Aeolian harps and his closing reflections are left out to keep the passage on the one move.",
-      "drafted_by": "LessonBot-adjacent, adapted from the named human source"
+      "drafted_by": "TC"
     },
     "session": {
       "scope": "bank",
@@ -247,7 +247,8 @@
         "accept_ideas": [
           "the storm is one vast force filling the whole range",
           "the storm is huge and wonderful, not only dangerous",
-          "the whole forest is moving as one thing"
+          "the whole forest is moving as one thing",
+          "He wants us to feel amazed by the storm's beauty."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",

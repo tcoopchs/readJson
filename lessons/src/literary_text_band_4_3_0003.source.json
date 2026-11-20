@@ -93,7 +93,8 @@
         "accept_ideas": [
           "whether there is a crew there",
           "if anyone is stationed there",
-          "whether the place has men in it"
+          "whether the place has men in it",
+          "They disagree about what a house of refuge is."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",

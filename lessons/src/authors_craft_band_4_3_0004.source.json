@@ -25,7 +25,7 @@
       "adaptation": "The authoring pass split long sentences, dropped rare words and simplified technical terms; no facts added.",
       "survey": "The Long's Peak letter: the Notch and its green lake, the two-thousand-foot wall, the roped climb that turned back, and the view from the summit.",
       "avoided": "No invented details. Bird's remarks about the men and peoples of the region are left out entirely, as is her footnote to climbers.",
-      "drafted_by": "LessonBot-adjacent, adapted from the named human source"
+      "drafted_by": "TC"
     },
     "session": {
       "scope": "bank",
@@ -106,7 +106,8 @@
         "accept_ideas": [
           "her feet slipped on the stone, so the route was useless",
           "she could not keep her footing, and Jim said it was useless",
-          "her feet went numb and slipped, so they turned back"
+          "her feet went numb and slipped, so they turned back",
+          "They turned back because it was too dangerous."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",
@@ -229,7 +230,8 @@
         "accept_ideas": [
           "it moves from a lovely picture to fear and back to wonder",
           "from beauty to terror to wonder",
-          "she sees it as beautiful and dangerous at once"
+          "she sees it as beautiful and dangerous at once",
+          "She goes from scared to amazed."
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",

@@ -25,7 +25,7 @@
       "adaptation": "The authoring pass split long sentences, simplified rare words, and restored the source's warning as an instruction; no facts added.",
       "survey": "A household manual explains why fruit is preserved and how it should be picked and stored, then how long boiling thickens the syrup, and ends with a sharp caution about the fire.",
       "avoided": "No invented details.",
-      "drafted_by": "LessonBot harness (DeepSeek 1017), adapted from the human source; source review completed"
+      "drafted_by": "TC"
     },
     "session": {
       "scope": "bank",

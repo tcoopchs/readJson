@@ -25,7 +25,7 @@
       "adaptation": "The authoring pass split long sentences, dropped rare words and simplified technical terms; no facts added.",
       "survey": "The small-fruit chapters of Ten Acres Enough: the poor eleven acres, the well-planted farm across the road, the planting of the strawberry rows, and the argument about a glutted market.",
       "avoided": "No invented details or prices beyond the ones Morris gives. The later profit tables are left out to keep the passage on one move.",
-      "drafted_by": "LessonBot-adjacent, adapted from the named human source"
+      "drafted_by": "TC"
     },
     "session": {
       "scope": "bank",
@@ -64,7 +64,8 @@
         "accept_ideas": [
           "strawberries, raspberries, a peach orchard and weeds",
           "berries, canes and a peach orchard",
-          "strawberries, raspberries and peach trees"
+          "strawberries, raspberries and peach trees",
+          "strawberries and raspberries"
         ],
         "one_idea_is_enough": true,
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",

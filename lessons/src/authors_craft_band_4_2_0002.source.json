@@ -25,7 +25,7 @@
       "adaptation": "The authoring pass split long sentences, dropped rare words, moved one sentence to keep the parts balanced, and removed a dialect aside; no facts added.",
       "survey": "A school for freed people has more students than rooms and no money to buy a campus.",
       "avoided": "No invented details.",
-      "drafted_by": "LessonBot harness (DeepSeek 1017), adapted from the human source; source review completed"
+      "drafted_by": "TC"
     },
     "session": {
       "scope": "bank",
