@@ -172,7 +172,8 @@
         "accept_ideas": [
           "the rate can change, the order cannot",
           "it can spend differently but not get fuel back",
-          "it can adjust the effort, not the order or the fuel"
+          "it can adjust the effort, not the order or the fuel",
+          "The crew can't change the order of pieces."
         ],
         "one_idea_is_enough": true,
         "not_required": [],

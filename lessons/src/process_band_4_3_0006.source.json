@@ -202,7 +202,10 @@
         "accept_ideas": [
           "it tilts and the ramp no longer reaches",
           "the deck leans and the line stops",
-          "the boat sits low on one side and unloading breaks"
+          "the boat sits low on one side and unloading breaks",
+          "the boat leans too much and the ramp gets too steep.",
+          "the boat leans so far that the ramp no longer reaches the shore",
+          "it leans to one side and the ramp cannot reach"
         ],
         "one_idea_is_enough": false,
         "not_required": [],

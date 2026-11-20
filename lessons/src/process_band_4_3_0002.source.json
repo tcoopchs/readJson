@@ -98,7 +98,8 @@
         "accept_ideas": [
           "the top did not widen, so the water leaves at the same rate",
           "there is twice the water and the same surface",
-          "the pan is deeper but no wider"
+          "the pan is deeper but no wider",
+          "The pan is deeper, so it takes longer to boil all the water out."
         ],
         "not_required": [],
         "normalize": "Ignore case, punctuation, and minor spelling. Accept a meaning-preserving paraphrase.",

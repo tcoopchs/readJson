@@ -169,7 +169,8 @@
         "accept_ideas": [
           "the move is changed and the climb repeats",
           "the hold is moved and she climbs again",
-          "the route goes back for another climb"
+          "the route goes back for another climb",
+          "the hold moves and tape changes"
         ],
         "one_idea_is_enough": true,
         "not_required": [
